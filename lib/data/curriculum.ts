@@ -1,0 +1,354 @@
+/* Dữ liệu chương trình, kho câu hỏi và tiện ích — chuyển từ on-thi.html (GDPT 2018, thứ tự chương theo bộ Kết nối tri thức). */
+import type { Topic, Question, Exam, Bot, WritePassage } from "../types";
+
+const T=(s:string,t:string,g:number,hk:number,p:number,th:string):Topic=>({s,t,g,hk,p,th,k:s+"|"+t});
+export const TOPICS:Topic[]=[
+// Toán
+T("Toán","Mệnh đề – tập hợp",10,1,1,"$A \\cap B$ gồm các phần tử thuộc cả A và B; $A \\cup B$ gồm các phần tử thuộc A hoặc B; $A \\setminus B$ gồm các phần tử thuộc A mà không thuộc B. Phủ định của mệnh đề P là “không P”, kí hiệu $\\overline{P}$."),
+T("Toán","Hệ thức lượng trong tam giác",10,1,1,"Định lí cos: $a^2 = b^2 + c^2 - 2bc\\cos A$. Định lí sin: $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C} = 2R$. Diện tích $S = \\dfrac{1}{2}bc\\sin A$."),
+T("Toán","Vectơ",10,1,2,"Quy tắc ba điểm: $\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}$. Quy tắc hình bình hành ABCD: $\\overrightarrow{AB} + \\overrightarrow{AD} = \\overrightarrow{AC}$. M là trung điểm AB thì $\\overrightarrow{MA} + \\overrightarrow{MB} = \\vec{0}$."),
+T("Toán","Hàm số bậc hai",10,2,1,"$y = ax^2 + bx + c$ có đồ thị là parabol, đỉnh $I\\left(-\\dfrac{b}{2a}; -\\dfrac{\\Delta}{4a}\\right)$, trục đối xứng $x = -\\dfrac{b}{2a}$. $a > 0$ thì parabol có bề lõm hướng lên."),
+T("Toán","Tọa độ trong mặt phẳng",10,2,1,"$AB = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}$. Trung điểm $M\\left(\\dfrac{x_A + x_B}{2}; \\dfrac{y_A + y_B}{2}\\right)$. Đường thẳng $ax + by + c = 0$ có vectơ pháp tuyến $\\vec{n} = (a; b)$."),
+T("Toán","Đại số tổ hợp",10,2,2,"Hoán vị n phần tử: $P_n = n!$. Chỉnh hợp chập k (có thứ tự): $A_n^k = \\dfrac{n!}{(n-k)!}$. Tổ hợp chập k (không thứ tự): $C_n^k = \\dfrac{n!}{k!\\,(n-k)!}$."),
+T("Toán","Xác suất",10,2,2,"$P(A) = \\dfrac{n(A)}{n(\\Omega)}$ khi các kết quả đồng khả năng. Chọn không phân biệt thứ tự thì đếm bằng tổ hợp $C_n^k$."),
+T("Toán","Lượng giác",11,1,1,"$180^\\circ = \\pi$ rad. $\\sin x = \\sin\\alpha \\Leftrightarrow x = \\alpha + k2\\pi$ hoặc $x = \\pi - \\alpha + k2\\pi$. Nhớ: $\\sin\\dfrac{\\pi}{6} = \\dfrac{1}{2}$, $\\sin\\dfrac{\\pi}{4} = \\dfrac{\\sqrt{2}}{2}$, $\\sin\\dfrac{\\pi}{3} = \\dfrac{\\sqrt{3}}{2}$. Luôn kiểm tra nghiệm có thuộc khoảng đề cho."),
+T("Toán","Dãy số – cấp số",11,1,1,"Cấp số cộng: $u_n = u_1 + (n-1)d$, $S_n = \\dfrac{n(u_1 + u_n)}{2}$. Cấp số nhân: $u_n = u_1 q^{n-1}$, $S_n = \\dfrac{u_1(1 - q^n)}{1 - q}$ với $q \\ne 1$."),
+T("Toán","Quan hệ song song",11,1,2,"Hai đường thẳng song song khi cùng nằm trong một mặt phẳng và không có điểm chung. Đường thẳng d không nằm trong (P) mà song song với một đường thẳng trong (P) thì $d \\parallel (P)$."),
+T("Toán","Giới hạn",11,1,2,"Dãy phân thức: bậc tử bằng bậc mẫu thì giới hạn bằng tỉ số hệ số bậc cao nhất; bậc tử nhỏ hơn bậc mẫu thì giới hạn bằng 0. $\\lim \\dfrac{1}{n} = 0$; $\\lim q^n = 0$ khi $|q| < 1$."),
+T("Toán","Mũ – logarit",11,2,1,"$\\log_a b = c \\Leftrightarrow a^c = b$ $(0 < a \\ne 1,\\ b > 0)$. $\\log_a(bc) = \\log_a b + \\log_a c$; $\\log_a b^n = n\\log_a b$. Giải phương trình logarit: đặt điều kiện trước, đối chiếu nghiệm sau."),
+T("Toán","Quan hệ vuông góc – thể tích",11,2,1,"$d \\perp (P)$ khi d vuông góc với hai đường thẳng cắt nhau trong (P). Khối chóp $V = \\dfrac{1}{3}Bh$, khối lăng trụ $V = Bh$, lập phương cạnh a có $V = a^3$ và đường chéo $a\\sqrt{3}$."),
+T("Toán","Đạo hàm",11,2,2,"$(x^n)' = nx^{n-1}$; $(\\sin x)' = \\cos x$; $(\\cos x)' = -\\sin x$. Hàm hợp: $(\\sin u)' = u'\\cos u$. Đạo hàm tại $x_0$ là hệ số góc tiếp tuyến tại điểm đó."),
+T("Toán","Ứng dụng đạo hàm",12,1,1,"$y' > 0$ thì đồng biến, $y' < 0$ thì nghịch biến. $y'$ đổi dấu từ + sang − là cực đại, từ − sang + là cực tiểu. $y = \\dfrac{ax + b}{cx + d}$ có tiệm cận đứng $x = -\\dfrac{d}{c}$, tiệm cận ngang $y = \\dfrac{a}{c}$."),
+T("Toán","Vectơ trong không gian",12,1,2,"$\\vec{u} = (x; y; z)$ có $|\\vec{u}| = \\sqrt{x^2 + y^2 + z^2}$. Tích vô hướng $\\vec{u}\\cdot\\vec{v} = x_1x_2 + y_1y_2 + z_1z_2$; $\\vec{u} \\perp \\vec{v} \\Leftrightarrow \\vec{u}\\cdot\\vec{v} = 0$."),
+T("Toán","Nguyên hàm – tích phân",12,2,1,"$\\displaystyle\\int_a^b f(x)\\,dx = F(b) - F(a)$. Nguyên hàm cơ bản: $\\displaystyle\\int x^n\\,dx = \\dfrac{x^{n+1}}{n+1} + C$, $\\displaystyle\\int e^x\\,dx = e^x + C$, $\\displaystyle\\int \\cos x\\,dx = \\sin x + C$, $\\displaystyle\\int \\sin x\\,dx = -\\cos x + C$."),
+T("Toán","Phương pháp tọa độ Oxyz",12,2,2,"Mặt cầu $(x-a)^2 + (y-b)^2 + (z-c)^2 = R^2$ có tâm $I(a; b; c)$, bán kính R. Mặt phẳng $Ax + By + Cz + D = 0$ có vectơ pháp tuyến $\\vec{n} = (A; B; C)$."),
+T("Toán","Xác suất có điều kiện",12,2,2,"$P(B \\mid A) = \\dfrac{P(AB)}{P(A)}$ với $P(A) > 0$. Xác suất toàn phần: $P(B) = P(A)\\,P(B \\mid A) + P(\\overline{A})\\,P(B \\mid \\overline{A})$."),
+// Vật lí
+T("Vật lí","Động học",10,1,1,"Tốc độ trung bình $v_{tb} = \\dfrac{s}{t}$. Chuyển động biến đổi đều: $v = v_0 + at$. Rơi tự do từ nghỉ: $v = gt$, $s = \\dfrac{1}{2}gt^2$."),
+T("Vật lí","Động lực học",10,1,2,"Định luật II Newton: $\\vec{F} = m\\vec{a}$. Định luật III: lực và phản lực cùng độ lớn, ngược chiều, đặt vào hai vật khác nhau. Trọng lực $P = mg$."),
+T("Vật lí","Năng lượng, công, công suất",10,2,1,"Công $A = Fs\\cos\\alpha$. Công suất $P = \\dfrac{A}{t}$. Động năng $W_\\text{đ} = \\dfrac{1}{2}mv^2$, thế năng trọng trường $W_t = mgh$."),
+T("Vật lí","Động lượng",10,2,1,"Động lượng $\\vec{p} = m\\vec{v}$ (kg·m/s). Trong hệ kín, tổng động lượng được bảo toàn."),
+T("Vật lí","Chuyển động tròn",10,2,2,"Tốc độ góc $\\omega = \\dfrac{v}{r}$. Gia tốc hướng tâm $a_{ht} = \\dfrac{v^2}{r} = \\omega^2 r$. Chu kì $T = \\dfrac{2\\pi}{\\omega}$."),
+T("Vật lí","Dao động",11,1,1,"Con lắc lò xo: $\\omega = \\sqrt{\\dfrac{k}{m}}$, $T = 2\\pi\\sqrt{\\dfrac{m}{k}}$. Con lắc đơn: $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$, không phụ thuộc khối lượng. Cơ năng $W = \\dfrac{1}{2}kA^2$."),
+T("Vật lí","Sóng",11,1,2,"$\\lambda = vT = \\dfrac{v}{f}$. Sóng dừng trên dây hai đầu cố định: $l = k\\dfrac{\\lambda}{2}$ (k là số bụng sóng)."),
+T("Vật lí","Điện trường",11,2,1,"Định luật Coulomb: $F = k\\dfrac{|q_1q_2|}{r^2}$, tỉ lệ nghịch với bình phương khoảng cách. Cường độ điện trường $E = \\dfrac{F}{q}$."),
+T("Vật lí","Dòng điện, mạch điện",11,2,2,"Định luật Ohm: $I = \\dfrac{U}{R}$. Nối tiếp: $R = R_1 + R_2$. Song song: $\\dfrac{1}{R} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2}$. Công suất $P = UI$."),
+T("Vật lí","Vật lí nhiệt",12,1,1,"$T(\\text{K}) = t(^\\circ\\text{C}) + 273$. Nhiệt lượng $Q = mc\\Delta t$. Nhiệt nóng chảy $Q = \\lambda m$, nhiệt hóa hơi $Q = Lm$."),
+T("Vật lí","Khí lí tưởng",12,1,2,"$pV = nRT$. Đẳng nhiệt: $p_1V_1 = p_2V_2$. Đẳng áp: $\\dfrac{V}{T}$ không đổi. Đẳng tích: $\\dfrac{p}{T}$ không đổi (T tính bằng kelvin)."),
+T("Vật lí","Từ trường",12,2,1,"Từ thông $\\Phi = BS\\cos\\alpha$ ($\\alpha$ là góc giữa pháp tuyến và $\\vec{B}$). Suất điện động cảm ứng $e = -\\dfrac{\\Delta\\Phi}{\\Delta t}$. Lực từ $F = BIl\\sin\\alpha$."),
+T("Vật lí","Dòng điện xoay chiều",12,2,1,"$u = U_0\\cos(\\omega t + \\varphi)$, giá trị hiệu dụng $U = \\dfrac{U_0}{\\sqrt{2}}$, tần số $f = \\dfrac{\\omega}{2\\pi}$."),
+T("Vật lí","Hạt nhân",12,2,2,"Số neutron $N = A - Z$. $N = N_0\\cdot 2^{-t/T}$: sau 1T còn 50%, 2T còn 25%, 3T còn 12,5%."),
+// Hóa học
+T("Hóa học","Cấu tạo nguyên tử",10,1,1,"Nguyên tử gồm hạt nhân (proton mang điện dương, neutron không mang điện) và vỏ electron mang điện âm. Số khối A = Z + N."),
+T("Hóa học","Mol (kiến thức nền)",10,1,1,"$n = \\dfrac{m}{M}$. Khí ở đktc (0 °C, 1 atm): $n = \\dfrac{V}{22{,}4}$. Ở điều kiện chuẩn (25 °C, 1 bar): $n = \\dfrac{V}{24{,}79}$. Dung dịch: $n = C_M\\cdot V$."),
+T("Hóa học","Bảng tuần hoàn",10,1,1,"Z = số proton = số electron. Số thứ tự chu kì = số lớp electron. Nhóm A: số thứ tự nhóm = số electron lớp ngoài cùng."),
+T("Hóa học","Liên kết hóa học",10,1,2,"Liên kết ion hình thành giữa kim loại điển hình và phi kim điển hình (NaCl). Liên kết cộng hóa trị do dùng chung electron (H₂, HCl)."),
+T("Hóa học","Phản ứng oxi hóa – khử",10,2,1,"Chất khử nhường electron (số oxi hóa tăng), chất oxi hóa nhận electron (số oxi hóa giảm). Tổng số oxi hóa trong phân tử bằng 0; H thường +1, O thường −2."),
+T("Hóa học","Tốc độ phản ứng",10,2,1,"Tốc độ phản ứng tăng khi tăng nồng độ, nhiệt độ, áp suất (chất khí), diện tích bề mặt hoặc khi dùng chất xúc tác."),
+T("Hóa học","Halogen",10,2,2,"Nhóm VIIA: F, Cl, Br, I. Tính oxi hóa giảm dần từ F₂ đến I₂. Tính acid của dung dịch HX tăng dần từ HF đến HI."),
+T("Hóa học","Cân bằng hóa học, pH",11,1,1,"Nguyên lí Le Chatelier: cân bằng chuyển dịch theo chiều chống lại thay đổi bên ngoài; tăng áp suất thì chuyển về phía ít phân tử khí hơn. $\\text{pH} = -\\log[\\text{H}^+]$."),
+T("Hóa học","Nitrogen – sulfur",11,1,1,"SO₂ và NOₓ là nguyên nhân chính gây mưa acid. N₂ khá trơ ở nhiệt độ thường do liên kết ba bền. H₂SO₄ đặc có tính háo nước và tính oxi hóa mạnh."),
+T("Hóa học","Đại cương hóa hữu cơ",11,1,2,"Hợp chất hữu cơ là hợp chất của carbon (trừ CO, CO₂, muối carbonate, cyanide, carbide…). Thành phần chính: C, H, thường có O, N."),
+T("Hóa học","Hydrocarbon",11,2,1,"Alkane CₙH₂ₙ₊₂, alkene CₙH₂ₙ, alkyne CₙH₂ₙ₋₂. Đốt cháy hydrocarbon tạo CO₂ và H₂O."),
+T("Hóa học","Alcohol – phenol",11,2,2,"Alcohol no, đơn chức CₙH₂ₙ₊₁OH: methanol CH₃OH, ethanol C₂H₅OH. Phenol C₆H₅OH có nhóm −OH gắn trực tiếp vào vòng benzene."),
+T("Hóa học","Carbonyl – carboxylic acid",11,2,2,"Aldehyde có nhóm −CHO, ketone có nhóm C=O nối với hai gốc carbon. Acetic acid CH₃COOH có trong giấm ăn."),
+T("Hóa học","Ester – lipid",12,1,1,"Ester RCOOR'. Thủy phân trong acid là phản ứng thuận nghịch; trong kiềm là phản ứng một chiều (xà phòng hóa), tạo muối và alcohol."),
+T("Hóa học","Carbohydrate",12,1,1,"Glucose và fructose: C₆H₁₂O₆. Saccharose: C₁₂H₂₂O₁₁. Tinh bột và cellulose: (C₆H₁₀O₅)ₙ."),
+T("Hóa học","Amine – amino acid",12,1,2,"Methylamine, ethylamine làm quỳ tím hóa xanh; aniline có tính base rất yếu, không làm đổi màu quỳ. Amino acid có cả nhóm −NH₂ và −COOH."),
+T("Hóa học","Polymer",12,1,2,"PE từ ethylene, PVC từ vinyl chloride, PS từ styrene. Monomer trùng hợp cần có liên kết bội hoặc vòng kém bền."),
+T("Hóa học","Pin điện – điện phân",12,2,1,"Pin Galvani: anode là cực âm, xảy ra quá trình oxi hóa; cathode là cực dương, xảy ra quá trình khử. Pin Zn–Cu: Zn bị oxi hóa thành Zn²⁺."),
+T("Hóa học","Đại cương kim loại",12,2,1,"Độ dẫn điện: Ag > Cu > Au > Al > Fe. Kim loại đứng trước H trong dãy hoạt động tác dụng với HCl, H₂SO₄ loãng giải phóng H₂."),
+T("Hóa học","Kim loại nhóm IA, IIA",12,2,2,"Kim loại kiềm (Na, K…) tác dụng mạnh với nước ở nhiệt độ thường, tạo dung dịch kiềm và H₂. Ca, Ba cũng tác dụng với nước; Mg phản ứng rất chậm."),
+// Sinh học
+T("Sinh học","Cấu trúc tế bào",10,1,1,"Tế bào nhân sơ chưa có màng nhân; tế bào nhân thực có nhân hoàn chỉnh và bào quan có màng. Ribosome tổng hợp protein, ti thể tạo năng lượng, lục lạp quang hợp."),
+T("Sinh học","Trao đổi chất qua màng",10,1,2,"Vận chuyển thụ động: theo chiều gradient nồng độ, không tốn năng lượng. Vận chuyển chủ động: ngược gradient nồng độ, tốn ATP, cần protein vận chuyển."),
+T("Sinh học","Phân bào",10,2,1,"Nguyên phân: 1 tế bào 2n tạo 2 tế bào 2n; k lần liên tiếp tạo 2ᵏ tế bào. Giảm phân: 1 tế bào 2n tạo 4 tế bào n."),
+T("Sinh học","Vi sinh vật và virus",10,2,2,"Vi khuẩn là tế bào nhân sơ, sinh sản chủ yếu bằng phân đôi. Virus chưa có cấu tạo tế bào, gồm lõi nucleic acid và vỏ protein, kí sinh nội bào bắt buộc."),
+T("Sinh học","Trao đổi chất ở thực vật",11,1,1,"Rễ hút nước chủ yếu qua tế bào lông hút. Quang hợp ở lục lạp: pha sáng tạo ATP, NADPH, O₂; chu trình Calvin cố định CO₂."),
+T("Sinh học","Trao đổi chất ở động vật",11,1,2,"Tim người có 4 ngăn. Tâm thất trái bơm máu giàu O₂ vào động mạch chủ (vòng tuần hoàn lớn); tâm thất phải bơm máu vào động mạch phổi."),
+T("Sinh học","Cảm ứng",11,2,1,"Cảm ứng ở động vật có hệ thần kinh thực hiện qua phản xạ: thụ thể → dây thần kinh cảm giác → trung ương thần kinh → dây vận động → cơ quan đáp ứng."),
+T("Sinh học","Sinh trưởng và phát triển",11,2,2,"Auxin kích thích ra rễ ở cành giâm, kéo dài tế bào; gibberellin kích thích kéo dài thân, nảy mầm; abscisic acid gây ngủ nghỉ, đóng khí khổng."),
+T("Sinh học","Sinh sản",11,2,2,"Sinh sản vô tính ở thực vật gồm sinh sản sinh dưỡng (từ thân, rễ, lá) và sinh sản bằng bào tử. Ứng dụng: giâm, chiết, ghép, nuôi cấy mô."),
+T("Sinh học","Di truyền phân tử",12,1,1,"DNA gồm 4 loại nucleotide A, T, G, C; RNA thay T bằng U. Bộ ba mở đầu AUG; bộ ba kết thúc UAA, UAG, UGA."),
+T("Sinh học","Quy luật di truyền",12,1,2,"Aa × Aa cho 1AA : 2Aa : 1aa, kiểu hình 3 trội : 1 lặn. Hai cặp gene phân li độc lập: AaBb × AaBb cho kiểu hình 9 : 3 : 3 : 1."),
+T("Sinh học","Tiến hóa",12,2,1,"Chọn lọc tự nhiên là nhân tố tiến hóa có hướng. Đột biến, di – nhập gene, phiêu bạt di truyền làm thay đổi tần số allele không theo hướng xác định."),
+T("Sinh học","Sinh thái",12,2,2,"Cộng sinh: hai loài cùng có lợi, gắn bó bắt buộc. Chuỗi thức ăn: sinh vật sản xuất → tiêu thụ bậc 1 → tiêu thụ bậc 2 → …"),
+// Ngữ văn (kiến thức dùng cho mọi lớp, g = 0)
+T("Ngữ văn","Trình bày bài đọc hiểu",0,0,1,"Viết câu trả lời thành câu hoàn chỉnh, dùng đúng thuật ngữ, trả lời đúng trọng tâm câu hỏi. Câu nhận biết: ngắn gọn, 1–2 câu. Câu thông hiểu: nêu ý rồi giải thích. Câu vận dụng: nêu rõ quan điểm, 2–3 lí do, liên hệ bản thân, khoảng 5–7 dòng."),
+T("Ngữ văn","Phương thức biểu đạt và thể loại",0,0,1,"Sáu phương thức biểu đạt: tự sự (kể sự việc), miêu tả (tái hiện hình ảnh), biểu cảm (bộc lộ cảm xúc), nghị luận (lí lẽ, dẫn chứng), thuyết minh (cung cấp tri thức), hành chính – công vụ. Câu hỏi “phương thức chính” chỉ nêu một phương thức."),
+T("Ngữ văn","Biện pháp tu từ",0,0,1,"So sánh (như, là, tựa…), ẩn dụ (gọi A bằng B dựa trên nét tương đồng), hoán dụ (dựa trên quan hệ gần gũi), nhân hóa (gán đặc điểm người cho vật), điệp ngữ, liệt kê, nói quá, nói giảm nói tránh, đảo ngữ, câu hỏi tu từ. Trả lời tác dụng: gọi tên, chỉ ra từ ngữ, tác dụng nghệ thuật, tác dụng nội dung, thái độ tác giả."),
+T("Ngữ văn","Từ Hán Việt",0,0,1,"Từ Hán Việt gồm các yếu tố gốc Hán, thường mang sắc thái trang trọng (giang sơn, phụ nữ, hi sinh). Một yếu tố có thể có nhiều nghĩa: “thiên” là trời (thiên thư), nghìn (thiên niên kỉ), lệch (thiên vị), dời (thiên đô)."),
+T("Ngữ văn","Lỗi dùng từ, lỗi câu",0,0,1,"Lỗi dùng từ thường gặp: lẫn lộn từ gần âm (bàng quan/bàng quang), dùng sai nghĩa, lặp từ. Lỗi câu: thiếu chủ ngữ (thường do mở đầu bằng “Qua…, Với…” rồi không có chủ ngữ), thiếu vị ngữ, sai quan hệ ngữ nghĩa."),
+T("Ngữ văn","Thành phần biệt lập, liên kết câu",0,0,2,"Thành phần biệt lập: tình thái (có lẽ, chắc chắn), cảm thán (ôi, trời ơi), gọi – đáp (này, thưa), phụ chú (đặt giữa dấu phẩy, ngoặc đơn). Phép liên kết: lặp, thế, nối, liên tưởng (đồng nghĩa, trái nghĩa)."),
+// Tiếng Anh (kiến thức nền dùng cho mọi lớp, g = 0)
+T("Tiếng Anh","Phát âm, trọng âm",0,0,1,"Đuôi -ed: đọc /ɪd/ sau âm /t/, /d/; đọc /t/ sau âm vô thanh /p/, /k/, /f/, /s/, /ʃ/, /tʃ/; còn lại đọc /d/. Trọng âm: đa số danh từ, tính từ hai âm tiết nhấn âm 1; đa số động từ hai âm tiết nhấn âm 2."),
+T("Tiếng Anh","Thì của động từ",0,0,1,"Hiện tại đơn: thói quen, sự thật (every day, usually). Quá khứ tiếp diễn + quá khứ đơn: hành động đang xảy ra thì hành động khác xen vào (when). Hiện tại hoàn thành: have/has + V3, đi với since, for, already, yet."),
+T("Tiếng Anh","Câu bị động",0,0,1,"Bị động: be + V3/V-ed (+ by O). Thì của “be” theo thì của câu chủ động: is/are built, was/were built, has been built, will be built."),
+T("Tiếng Anh","So sánh",0,0,1,"So sánh hơn: tính từ ngắn + -er + than (easier than), tính từ dài: more + adj + than. So sánh nhất: the + adj-est / the most + adj. Bất quy tắc: good – better – best, bad – worse – worst."),
+T("Tiếng Anh","Câu điều kiện",0,0,2,"Loại 1 (có thể xảy ra): If + hiện tại đơn, will + V. Loại 2 (trái hiện tại): If + quá khứ đơn (were cho mọi ngôi), would + V. Loại 3 (trái quá khứ): If + had V3, would have V3."),
+T("Tiếng Anh","Mệnh đề quan hệ",0,0,2,"who: thay cho người (làm chủ ngữ); whom: người (tân ngữ); which: vật; that: người hoặc vật (không dùng sau dấu phẩy); whose: sở hữu; where: nơi chốn; when: thời gian."),
+T("Tiếng Anh","Câu tường thuật",0,0,2,"Lùi thì khi động từ tường thuật ở quá khứ: am/is → was, will → would, hiện tại đơn → quá khứ đơn. Đổi đại từ và trạng từ: now → then, today → that day, tomorrow → the next day."),
+T("Tiếng Anh","Từ vựng, collocation",0,0,1,"Cụm cố định hay gặp: make a decision, make progress, do homework, do research, pay attention to, take care of, take part in, give up."),
+T("Tiếng Anh","Đọc hiểu tiếng Anh",0,0,2,"Đọc câu hỏi trước, gạch từ khóa, tìm đoạn chứa thông tin. Đáp án đúng thường diễn đạt lại (paraphrase) ý trong bài, không chép nguyên văn. Cẩn thận với đáp án đúng một nửa.")
+];
+export const TOP:Record<string,Topic>=Object.fromEntries(TOPICS.map(x=>[x.k,x]));
+const Q=(id:string,s:string,t:string,l:number,q:string,o:string[],e:string):Question=>({id,s,t,l,q,o,a:0,e});
+export const BANK:Question[]=[
+// ---- Toán 10
+Q("t20","Toán","Mệnh đề – tập hợp",1,"Cho $A = \\{1; 2; 3\\}$ và $B = \\{2; 3; 4\\}$. Tập $A \\cap B$ là",["$\\{2; 3\\}$", "$\\{1; 2; 3; 4\\}$", "$\\{1\\}$", "$\\{4\\}$"],"$A \\cap B$ gồm các phần tử thuộc cả A và B: $\\{2; 3\\}$."),
+Q("t21","Toán","Mệnh đề – tập hợp",2,"Cho $A = \\{1; 2; 3; 4\\}$ và $B = \\{3; 4; 5\\}$. Tập $A \\setminus B$ là",["$\\{1; 2\\}$", "$\\{5\\}$", "$\\{3; 4\\}$", "$\\{1; 2; 5\\}$"],"$A \\setminus B$ gồm các phần tử thuộc A mà không thuộc B: $\\{1; 2\\}$."),
+Q("t22","Toán","Hệ thức lượng trong tam giác",2,"Tam giác ABC có $b = 3$, $c = 5$, $\\widehat{A} = 60^\\circ$. Độ dài cạnh a là",["$\\sqrt{19}$", "7", "$\\sqrt{34}$", "4"],"$a^2 = b^2 + c^2 - 2bc\\cos A = 9 + 25 - 2\\cdot3\\cdot5\\cdot\\dfrac{1}{2} = 19$, nên $a = \\sqrt{19}$."),
+Q("t23","Toán","Hệ thức lượng trong tam giác",1,"Tam giác ABC có $b = 4$, $c = 6$, $\\widehat{A} = 30^\\circ$. Diện tích tam giác là",["6", "12", "24", "$6\\sqrt{3}$"],"$S = \\dfrac{1}{2}bc\\sin A = \\dfrac{1}{2}\\cdot4\\cdot6\\cdot\\dfrac{1}{2} = 6$."),
+Q("t24","Toán","Vectơ",2,"Cho hình bình hành ABCD. Vectơ $\\overrightarrow{AB} + \\overrightarrow{AD}$ bằng vectơ",["$\\overrightarrow{AC}$", "$\\overrightarrow{BD}$", "$\\overrightarrow{CA}$", "$\\overrightarrow{DB}$"],"Theo quy tắc hình bình hành, $\\overrightarrow{AB} + \\overrightarrow{AD} = \\overrightarrow{AC}$."),
+Q("t25","Toán","Vectơ",1,"Với ba điểm A, B, C bất kì, $\\overrightarrow{AB} + \\overrightarrow{BC}$ bằng",["$\\overrightarrow{AC}$", "$\\overrightarrow{CA}$", "$\\overrightarrow{BA}$", "$\\vec{0}$"],"Quy tắc ba điểm: $\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}$."),
+Q("t26","Toán","Hàm số bậc hai",1,"Đỉnh của parabol $y = x^2 - 4x + 3$ là",["$I(2; -1)$", "$I(-2; 15)$", "$I(4; 3)$", "$I(1; 0)$"],"$x = -\\dfrac{b}{2a} = 2$, $y(2) = 4 - 8 + 3 = -1$."),
+Q("t27","Toán","Tọa độ trong mặt phẳng",2,"Khoảng cách giữa hai điểm $A(1; 2)$ và $B(4; 6)$ là",["5", "7", "$\\sqrt{7}$", "25"],"$AB = \\sqrt{3^2 + 4^2} = 5$."),
+Q("t28","Toán","Đại số tổ hợp",1,"Số cách xếp 4 bạn vào 4 ghế kê thành hàng ngang là",["24","16","4","12"],"Số hoán vị của 4 phần tử: 4! = 24."),
+Q("t6","Toán","Xác suất",2,"Gieo đồng thời hai đồng xu cân đối. Xác suất để cả hai đồng xu đều ngửa là",["$\\dfrac{1}{4}$", "$\\dfrac{1}{2}$", "$\\dfrac{1}{3}$", "$\\dfrac{3}{4}$"],"Không gian mẫu có 4 kết quả, chỉ 1 kết quả cả hai ngửa, nên $P = \\dfrac{1}{4}$."),
+Q("t10","Toán","Xác suất",3,"Chọn ngẫu nhiên hai số khác nhau từ tập $\\{1; 2; \\ldots; 9\\}$. Xác suất để tổng hai số là số chẵn bằng",["$\\dfrac{4}{9}$", "$\\dfrac{5}{9}$", "$\\dfrac{1}{2}$", "$\\dfrac{5}{18}$"],"$n(\\Omega) = C_9^2 = 36$. Tổng chẵn khi hai số cùng lẻ ($C_5^2 = 10$) hoặc cùng chẵn ($C_4^2 = 6$). $P = \\dfrac{16}{36} = \\dfrac{4}{9}$."),
+// ---- Toán 11
+Q("t29","Toán","Lượng giác",1,"Góc $60^\\circ$ đổi sang radian bằng",["$\\dfrac{\\pi}{3}$", "$\\dfrac{\\pi}{6}$", "$\\dfrac{\\pi}{4}$", "$\\dfrac{2\\pi}{3}$"],"$60^\\circ = \\dfrac{60\\pi}{180} = \\dfrac{\\pi}{3}$."),
+Q("t7","Toán","Lượng giác",2,"Nghiệm của phương trình $\\sin x = \\dfrac{1}{2}$ thuộc khoảng $\\left(0; \\dfrac{\\pi}{2}\\right)$ là",["$x = \\dfrac{\\pi}{6}$", "$x = \\dfrac{\\pi}{3}$", "$x = \\dfrac{\\pi}{4}$", "$x = \\dfrac{5\\pi}{6}$"],"$\\sin x = \\dfrac{1}{2} \\Leftrightarrow x = \\dfrac{\\pi}{6} + k2\\pi$ hoặc $x = \\dfrac{5\\pi}{6} + k2\\pi$. Trong $\\left(0; \\dfrac{\\pi}{2}\\right)$ chỉ có $x = \\dfrac{\\pi}{6}$."),
+Q("t11","Toán","Dãy số – cấp số",1,"Cho cấp số cộng có $u_1 = 2$ và công sai $d = 3$. Số hạng $u_{10}$ bằng",["29", "32", "30", "27"],"$u_{10} = u_1 + 9d = 2 + 27 = 29$."),
+Q("t30","Toán","Dãy số – cấp số",2,"Cho cấp số nhân có $u_1 = 3$ và công bội $q = 2$. Số hạng $u_5$ bằng",["48", "96", "24", "30"],"$u_5 = u_1 q^4 = 3\\cdot16 = 48$."),
+Q("t31","Toán","Quan hệ song song",1,"Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì",["song song với nhau","cắt nhau","chéo nhau","trùng nhau"],"Tính chất bắc cầu: hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì song song với nhau."),
+Q("t32","Toán","Giới hạn",2,"Giới hạn $\\lim \\dfrac{2n + 1}{n + 3}$ bằng",["2", "$\\dfrac{1}{3}$", "1", "$+\\infty$"],"Bậc tử bằng bậc mẫu nên giới hạn bằng tỉ số hệ số bậc cao nhất: $\\dfrac{2}{1} = 2$."),
+Q("t33","Toán","Giới hạn",1,"Giới hạn $\\lim \\left(\\dfrac{1}{2}\\right)^n$ bằng",["0", "$\\dfrac{1}{2}$", "1", "$+\\infty$"],"$\\lim q^n = 0$ khi $|q| < 1$."),
+Q("t2","Toán","Mũ – logarit",1,"Giá trị của $\\log_2 8$ bằng",["3", "4", "2", "8"],"$2^3 = 8$ nên $\\log_2 8 = 3$."),
+Q("t9","Toán","Mũ – logarit",3,"Số nghiệm của phương trình $\\log_2(x - 1) + \\log_2(x + 1) = 3$ là",["1", "2", "0", "3"],"Điều kiện $x > 1$. Phương trình $\\Leftrightarrow x^2 - 1 = 8 \\Leftrightarrow x = \\pm 3$. Đối chiếu điều kiện chỉ nhận $x = 3$."),
+Q("t34","Toán","Quan hệ vuông góc – thể tích",1,"Khối chóp có diện tích đáy bằng 6 và chiều cao bằng 4 có thể tích là",["8", "24", "12", "10"],"$V = \\dfrac{1}{3}Bh = \\dfrac{1}{3}\\cdot6\\cdot4 = 8$."),
+Q("t8","Toán","Quan hệ vuông góc – thể tích",3,"Thể tích của khối lập phương có đường chéo bằng $a\\sqrt{3}$ là",["$a^3$", "$3a^3$", "$a^3\\sqrt{3}$", "$3\\sqrt{3}\\,a^3$"],"Lập phương cạnh x có đường chéo $x\\sqrt{3} = a\\sqrt{3}$ nên $x = a$, $V = a^3$."),
+Q("t1","Toán","Đạo hàm",1,"Đạo hàm của hàm số $y = x^3 - 3x$ là",["$y' = 3x^2 - 3$", "$y' = 3x^2 - 3x$", "$y' = x^2 - 3$", "$y' = 3x - 3$"],"$(x^3)' = 3x^2$ và $(3x)' = 3$, nên $y' = 3x^2 - 3$."),
+Q("t35","Toán","Đạo hàm",2,"Đạo hàm của hàm số $y = \\sin 2x$ là",["$y' = 2\\cos 2x$", "$y' = \\cos 2x$", "$y' = -2\\cos 2x$", "$y' = 2\\sin 2x$"],"$(\\sin u)' = u'\\cos u$ với $u = 2x$, $u' = 2$."),
+// ---- Toán 12
+Q("t3","Toán","Ứng dụng đạo hàm",2,"Hàm số $y = x^3 - 3x$ đạt cực đại tại",["$x = -1$", "$x = 1$", "$x = 0$", "$x = 3$"],"$y' = 3x^2 - 3 = 0 \\Leftrightarrow x = \\pm 1$. $y'' = 6x$, $y''(-1) < 0$ nên hàm số đạt cực đại tại $x = -1$."),
+Q("t36","Toán","Ứng dụng đạo hàm",1,"Tiệm cận đứng của đồ thị hàm số $y = \\dfrac{2x + 1}{x - 1}$ là",["$x = 1$", "$x = 2$", "$y = 2$", "$x = -1$"],"Mẫu bằng 0 khi $x = 1$ (tử khác 0), nên tiệm cận đứng là $x = 1$. Còn $y = 2$ là tiệm cận ngang."),
+Q("t37","Toán","Vectơ trong không gian",2,"Độ dài của vectơ $\\vec{u} = (1; 2; 2)$ là",["3", "5", "9", "$\\sqrt{5}$"],"$|\\vec{u}| = \\sqrt{1 + 4 + 4} = 3$."),
+Q("t4","Toán","Nguyên hàm – tích phân",1,"Tích phân $\\displaystyle\\int_0^1 2x\\,dx$ bằng",["1", "2", "$\\dfrac{1}{2}$", "0"],"$\\displaystyle\\int_0^1 2x\\,dx = x^2\\Big|_0^1 = 1$."),
+Q("t5","Toán","Nguyên hàm – tích phân",2,"Họ nguyên hàm của $f(x) = e^x + \\cos x$ là",["$e^x + \\sin x + C$", "$e^x - \\sin x + C$", "$e^x\\sin x + C$", "$x e^x + \\sin x + C$"],"$\\displaystyle\\int e^x\\,dx = e^x + C$ và $\\displaystyle\\int \\cos x\\,dx = \\sin x + C$."),
+Q("t38","Toán","Phương pháp tọa độ Oxyz",2,"Mặt cầu $(x - 1)^2 + (y + 2)^2 + z^2 = 9$ có tâm và bán kính là",["$I(1; -2; 0)$, $R = 3$", "$I(-1; 2; 0)$, $R = 3$", "$I(1; -2; 0)$, $R = 9$", "$I(-1; 2; 0)$, $R = 9$"],"Dạng $(x - a)^2 + (y - b)^2 + (z - c)^2 = R^2$ nên $a = 1$, $b = -2$, $c = 0$, $R = \\sqrt{9} = 3$."),
+Q("t39","Toán","Xác suất có điều kiện",3,"Cho $P(A) = 0{,}5$ và $P(A \\cap B) = 0{,}2$. Xác suất $P(B \\mid A)$ bằng",["0,4", "0,1", "0,7", "0,25"],"$P(B \\mid A) = \\dfrac{P(A \\cap B)}{P(A)} = \\dfrac{0{,}2}{0{,}5} = 0{,}4$."),
+// ---- Vật lí 10
+Q("l20","Vật lí","Động học",1,"Một ô tô đi được 120 km trong 2 giờ. Tốc độ trung bình của ô tô là",["60 km/h", "240 km/h", "120 km/h", "30 km/h"],"$v = \\dfrac{s}{t} = \\dfrac{120}{2} = 60$ km/h."),
+Q("l21","Vật lí","Động học",2,"Thả rơi tự do một vật từ trạng thái nghỉ, lấy $g = 10\\ \\text{m/s}^2$. Vận tốc của vật sau 2 s là",["20 m/s", "10 m/s", "40 m/s", "5 m/s"],"$v = gt = 10\\cdot2 = 20$ m/s."),
+Q("l22","Vật lí","Động lực học",1,"Một vật khối lượng 2 kg chuyển động với gia tốc 3 m/s². Hợp lực tác dụng lên vật là",["6 N", "1,5 N", "5 N", "0,67 N"],"$F = ma = 2\\cdot3 = 6$ N."),
+Q("l23","Vật lí","Năng lượng, công, công suất",1,"Vật khối lượng 2 kg chuyển động với tốc độ 3 m/s có động năng là",["9 J", "6 J", "18 J", "3 J"],"$W_\\text{đ} = \\dfrac{1}{2}mv^2 = \\dfrac{1}{2}\\cdot2\\cdot9 = 9$ J."),
+Q("l24","Vật lí","Động lượng",1,"Vật khối lượng 0,5 kg chuyển động với tốc độ 4 m/s có độ lớn động lượng là",["2 kg·m/s", "8 kg·m/s", "4,5 kg·m/s", "0,125 kg·m/s"],"$p = mv = 0{,}5\\cdot4 = 2$ kg·m/s."),
+Q("l25","Vật lí","Chuyển động tròn",2,"Vật chuyển động tròn đều trên quỹ đạo bán kính 0,5 m với tốc độ 2 m/s. Gia tốc hướng tâm là",["8 m/s²", "4 m/s²", "1 m/s²", "2 m/s²"],"$a_{ht} = \\dfrac{v^2}{r} = \\dfrac{4}{0{,}5} = 8\\ \\text{m/s}^2$."),
+// ---- Vật lí 11
+Q("l1","Vật lí","Dao động",1,"Chu kì dao động nhỏ của con lắc đơn có chiều dài l tại nơi có gia tốc trọng trường g là",["$T = 2\\pi\\sqrt{\\dfrac{l}{g}}$", "$T = 2\\pi\\sqrt{\\dfrac{g}{l}}$", "$T = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{l}{g}}$", "$T = 2\\pi lg$"],"Con lắc đơn dao động nhỏ có $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$, không phụ thuộc khối lượng."),
+Q("l4","Vật lí","Dao động",2,"Con lắc lò xo có $k = 100$ N/m, vật nặng $m = 100$ g. Lấy $\\pi^2 = 10$. Chu kì dao động là",["0,2 s", "0,1 s", "2 s", "0,4 s"],"$T = 2\\pi\\sqrt{\\dfrac{m}{k}} = 2\\pi\\sqrt{\\dfrac{0{,}1}{100}} = 2\\sqrt{\\pi^2\\cdot0{,}001} = 2\\sqrt{0{,}01} = 0{,}2$ s."),
+Q("l2","Vật lí","Sóng",1,"Sóng âm truyền trong không khí với tốc độ 340 m/s, tần số 170 Hz. Bước sóng bằng",["2 m", "0,5 m", "1 m", "4 m"],"$\\lambda = \\dfrac{v}{f} = \\dfrac{340}{170} = 2$ m."),
+Q("l26","Vật lí","Sóng",2,"Sợi dây dài 1,2 m, hai đầu cố định, có sóng dừng với 3 bụng sóng. Bước sóng là",["0,8 m", "1,2 m", "0,4 m", "2,4 m"],"$l = k\\dfrac{\\lambda}{2} \\Rightarrow 1{,}2 = 3\\cdot\\dfrac{\\lambda}{2} \\Rightarrow \\lambda = 0{,}8$ m."),
+Q("l27","Vật lí","Điện trường",1,"Độ lớn lực tương tác giữa hai điện tích điểm đứng yên trong chân không",["tỉ lệ nghịch với bình phương khoảng cách", "tỉ lệ thuận với khoảng cách", "tỉ lệ nghịch với khoảng cách", "không phụ thuộc khoảng cách"],"Định luật Coulomb: $F = k\\dfrac{|q_1q_2|}{r^2}$."),
+Q("l28","Vật lí","Dòng điện, mạch điện",1,"Đặt hiệu điện thế 12 V vào hai đầu điện trở 10 Ω. Cường độ dòng điện qua điện trở là",["1,2 A", "120 A", "0,83 A", "2 A"],"$I = \\dfrac{U}{R} = \\dfrac{12}{10} = 1{,}2$ A."),
+Q("l29","Vật lí","Dòng điện, mạch điện",2,"Hai điện trở 4 Ω và 6 Ω mắc song song. Điện trở tương đương của đoạn mạch là",["2,4 Ω", "10 Ω", "5 Ω", "24 Ω"],"$R = \\dfrac{R_1R_2}{R_1 + R_2} = \\dfrac{24}{10} = 2{,}4\\ \\Omega$."),
+// ---- Vật lí 12
+Q("l5","Vật lí","Vật lí nhiệt",1,"Nhiệt độ 0 °C tương ứng với bao nhiêu kelvin (lấy gần đúng)?",["273 K","0 K","100 K","−273 K"],"T(K) = t(°C) + 273."),
+Q("l30","Vật lí","Vật lí nhiệt",2,"Nhiệt lượng cần để đun nóng 2 kg nước từ 20 °C lên 30 °C (c = 4200 J/(kg·K)) là",["84 000 J", "42 000 J", "8 400 J", "168 000 J"],"$Q = mc\\Delta t = 2\\cdot4200\\cdot10 = 84\\,000$ J."),
+Q("l6","Vật lí","Khí lí tưởng",2,"Nén đẳng nhiệt một lượng khí lí tưởng để áp suất tăng gấp đôi thì thể tích khí",["giảm 2 lần", "tăng 2 lần", "giảm 4 lần", "không đổi"],"$p_1V_1 = p_2V_2$: p tăng 2 lần thì V giảm 2 lần."),
+Q("l31","Vật lí","Khí lí tưởng",2,"Đun nóng đẳng tích một lượng khí từ 300 K lên 600 K thì áp suất khí",["tăng 2 lần", "giảm 2 lần", "không đổi", "tăng 4 lần"],"Đẳng tích: $\\dfrac{p}{T}$ không đổi, T tăng 2 lần thì p tăng 2 lần."),
+Q("l8","Vật lí","Từ trường",2,"Khung dây diện tích 0,05 m² đặt trong từ trường đều B = 0,2 T, pháp tuyến song song với cảm ứng từ. Từ thông qua khung là",["0,01 Wb", "0,1 Wb", "0,005 Wb", "0 Wb"],"$\\Phi = BS\\cos 0^\\circ = 0{,}2\\cdot0{,}05 = 0{,}01$ Wb."),
+Q("l3","Vật lí","Dòng điện xoay chiều",2,"Điện áp $u = 220\\sqrt{2}\\cos(100\\pi t)$ V có giá trị hiệu dụng là",["220 V", "$220\\sqrt{2}$ V", "$110\\sqrt{2}$ V", "440 V"],"$U = \\dfrac{U_0}{\\sqrt{2}} = 220$ V."),
+Q("l7","Vật lí","Hạt nhân",3,"Một chất phóng xạ có chu kì bán rã T. Sau 3T, lượng chất còn lại bằng bao nhiêu phần trăm ban đầu?",["12,5%", "25%", "33,3%", "6,25%"],"$N = N_0\\cdot2^{-3} = \\dfrac{N_0}{8}$, tức 12,5%."),
+Q("l32","Vật lí","Hạt nhân",1,"Hạt nhân ${}^{235}_{92}\\text{U}$ có số neutron là",["143", "92", "235", "327"],"$N = A - Z = 235 - 92 = 143$."),
+// ---- Hóa 10
+Q("h20","Hóa học","Cấu tạo nguyên tử",1,"Hạt mang điện tích dương trong hạt nhân nguyên tử là",["proton","neutron","electron","photon"],"Hạt nhân gồm proton (mang điện dương) và neutron (không mang điện)."),
+Q("h2","Hóa học","Mol (kiến thức nền)",1,"Khối lượng mol của nước (H₂O) là (H = 1, O = 16)",["18 g/mol","16 g/mol","17 g/mol","20 g/mol"],"M = 2·1 + 16 = 18 g/mol."),
+Q("h3","Hóa học","Mol (kiến thức nền)",2,"5,6 lít khí ở đktc (0 °C, 1 atm) có số mol là",["0,25 mol", "0,5 mol", "0,2 mol", "2,5 mol"],"$n = \\dfrac{V}{22{,}4} = \\dfrac{5{,}6}{22{,}4} = 0{,}25$ mol."),
+Q("h1","Hóa học","Bảng tuần hoàn",1,"Số hiệu nguyên tử của sodium (Na) là",["11","12","23","10"],"Na có Z = 11; 23 là số khối gần đúng."),
+Q("h21","Hóa học","Bảng tuần hoàn",2,"Nguyên tố có Z = 17 nằm ở vị trí nào trong bảng tuần hoàn?",["Chu kì 3, nhóm VIIA","Chu kì 3, nhóm VIIB","Chu kì 2, nhóm VIIA","Chu kì 4, nhóm IA"],"Cấu hình 1s²2s²2p⁶3s²3p⁵: 3 lớp electron (chu kì 3), 7 electron lớp ngoài cùng, nguyên tố p (nhóm VIIA)."),
+Q("h22","Hóa học","Liên kết hóa học",2,"Liên kết trong phân tử NaCl là liên kết",["ion","cộng hóa trị không cực","cộng hóa trị có cực","kim loại"],"Na là kim loại điển hình, Cl là phi kim điển hình nên tạo liên kết ion."),
+Q("h23","Hóa học","Phản ứng oxi hóa – khử",2,"Số oxi hóa của sulfur trong H₂SO₄ là",["+6", "+4", "−2", "+2"],"$2\\cdot(+1) + x + 4\\cdot(-2) = 0 \\Rightarrow x = +6$."),
+Q("h24","Hóa học","Tốc độ phản ứng",1,"Yếu tố nào sau đây làm tăng tốc độ phản ứng?",["Tăng nhiệt độ","Giảm nồng độ chất phản ứng","Tăng kích thước hạt chất rắn","Giảm nhiệt độ"],"Tăng nhiệt độ làm các hạt chuyển động nhanh, va chạm hiệu quả nhiều hơn."),
+Q("h25","Hóa học","Halogen",2,"Đơn chất halogen có tính oxi hóa mạnh nhất là",["F₂","Cl₂","Br₂","I₂"],"Tính oxi hóa giảm dần từ F₂ đến I₂."),
+// ---- Hóa 11
+Q("h6","Hóa học","Cân bằng hóa học, pH",2,"Dung dịch HCl 0,01 M có pH bằng",["2", "1", "12", "0,01"],"$[\\text{H}^+] = 10^{-2}$ M nên pH = 2."),
+Q("h26","Hóa học","Cân bằng hóa học, pH",2,"Cho cân bằng N₂(g) + 3H₂(g) ⇌ 2NH₃(g). Khi tăng áp suất, cân bằng chuyển dịch theo chiều",["thuận","nghịch","không chuyển dịch","không xác định được"],"Tăng áp suất thì cân bằng chuyển về phía ít phân tử khí hơn: 2 phân tử NH₃ ít hơn 4 phân tử khí ban đầu."),
+Q("h27","Hóa học","Nitrogen – sulfur",1,"Khí nào sau đây là nguyên nhân chính gây mưa acid?",["SO₂","O₂","N₂","H₂"],"SO₂ (cùng NOₓ) bị oxi hóa và tan trong nước mưa tạo acid."),
+Q("h28","Hóa học","Đại cương hóa hữu cơ",1,"Chất nào sau đây là hợp chất hữu cơ?",["CH₄","CO₂","CaCO₃","NaCl"],"CO₂ và muối carbonate được xếp vào hợp chất vô cơ dù có carbon."),
+Q("h29","Hóa học","Hydrocarbon",1,"Công thức chung của alkane là",["CₙH₂ₙ₊₂","CₙH₂ₙ","CₙH₂ₙ₋₂","CₙH₂ₙ₋₆"],"Alkane là hydrocarbon no, mạch hở: CₙH₂ₙ₊₂ (n ≥ 1)."),
+Q("h7","Hóa học","Hydrocarbon",3,"Đốt cháy hoàn toàn 0,1 mol CH₄ cần vừa đủ bao nhiêu mol O₂?",["0,2 mol","0,1 mol","0,3 mol","0,4 mol"],"CH₄ + 2O₂ → CO₂ + 2H₂O."),
+Q("h9","Hóa học","Alcohol – phenol",1,"Công thức của ethanol là",["C₂H₅OH","CH₃OH","CH₃COOH","C₂H₄"],"Ethanol là alcohol no, đơn chức có 2 carbon."),
+Q("h30","Hóa học","Carbonyl – carboxylic acid",1,"Giấm ăn là dung dịch loãng của",["acetic acid","formic acid","ethanol","hydrochloric acid"],"Giấm ăn chứa khoảng 2–5% acetic acid (CH₃COOH)."),
+// ---- Hóa 12
+Q("h5","Hóa học","Ester – lipid",2,"Phản ứng thủy phân ester trong môi trường kiềm được gọi là phản ứng",["xà phòng hóa","ester hóa","trùng hợp","hydrate hóa"],"Thủy phân ester trong kiềm là phản ứng một chiều, tạo muối và alcohol."),
+Q("h31","Hóa học","Carbohydrate",1,"Công thức phân tử của glucose là",["C₆H₁₂O₆","C₁₂H₂₂O₁₁","(C₆H₁₀O₅)ₙ","C₂H₅OH"],"Glucose và fructose cùng có công thức C₆H₁₂O₆."),
+Q("h32","Hóa học","Amine – amino acid",2,"Dung dịch chất nào sau đây làm quỳ tím hóa xanh?",["Methylamine","Aniline","Glycine","Acetic acid"],"Methylamine có tính base đủ mạnh; aniline base rất yếu; glycine gần trung tính; acetic acid làm quỳ hóa đỏ."),
+Q("h10","Hóa học","Polymer",2,"Polyethylene (PE) được điều chế bằng phản ứng trùng hợp monomer nào?",["Ethylene","Vinyl chloride","Styrene","Propylene"],"nCH₂=CH₂ → (−CH₂−CH₂−)ₙ."),
+Q("h33","Hóa học","Pin điện – điện phân",2,"Trong pin điện hóa Zn–Cu, tại điện cực Zn xảy ra",["sự oxi hóa Zn","sự khử Zn²⁺","sự khử Cu²⁺","sự oxi hóa Cu"],"Zn hoạt động mạnh hơn nên là anode (cực âm): Zn → Zn²⁺ + 2e."),
+Q("h4","Hóa học","Đại cương kim loại",2,"Kim loại dẫn điện tốt nhất là",["Ag","Cu","Au","Al"],"Ag > Cu > Au > Al > Fe."),
+Q("h8","Hóa học","Đại cương kim loại",3,"Cho 5,6 gam Fe tác dụng với dung dịch HCl dư. Thể tích khí H₂ thu được ở đktc là",["2,24 lít","3,36 lít","1,12 lít","4,48 lít"],"n(Fe) = 0,1 mol, Fe + 2HCl → FeCl₂ + H₂, V = 0,1·22,4 = 2,24 lít."),
+Q("h34","Hóa học","Kim loại nhóm IA, IIA",1,"Kim loại nào sau đây tác dụng mạnh với nước ở nhiệt độ thường?",["Na","Fe","Cu","Ag"],"Kim loại kiềm như Na phản ứng mạnh với nước tạo NaOH và H₂."),
+// ---- Sinh 10
+Q("s20","Sinh học","Cấu trúc tế bào",1,"Bào quan có chức năng tổng hợp protein là",["ribosome","ti thể","lục lạp","lysosome"],"Ribosome là nơi tổng hợp protein."),
+Q("s21","Sinh học","Cấu trúc tế bào",2,"Đặc điểm của tế bào nhân sơ là",["chưa có màng nhân","có nhân hoàn chỉnh","có ti thể","có lưới nội chất"],"Tế bào nhân sơ chưa có màng nhân và các bào quan có màng."),
+Q("s22","Sinh học","Trao đổi chất qua màng",2,"Vận chuyển chất từ nơi có nồng độ thấp đến nơi có nồng độ cao, tiêu tốn năng lượng, gọi là",["vận chuyển chủ động","khuếch tán","thẩm thấu","vận chuyển thụ động"],"Vận chuyển ngược gradient nồng độ cần ATP: vận chuyển chủ động."),
+Q("s23","Sinh học","Phân bào",2,"Một tế bào nguyên phân liên tiếp 3 lần tạo ra bao nhiêu tế bào con?",["8", "6", "3", "16"],"Số tế bào con $= 2^3 = 8$."),
+Q("s24","Sinh học","Phân bào",1,"Kết quả của giảm phân từ một tế bào 2n là",["4 tế bào n","2 tế bào 2n","4 tế bào 2n","2 tế bào n"],"Giảm phân gồm 2 lần phân bào liên tiếp, tạo 4 tế bào con có bộ NST n."),
+Q("s4","Sinh học","Vi sinh vật và virus",2,"Điểm khác biệt cơ bản giữa virus và vi khuẩn là virus",["chưa có cấu tạo tế bào","có nhân hoàn chỉnh","có thành tế bào","tự tổng hợp được protein"],"Virus chỉ gồm lõi nucleic acid và vỏ protein, kí sinh nội bào bắt buộc."),
+Q("s25","Sinh học","Vi sinh vật và virus",1,"Vi khuẩn sinh sản chủ yếu bằng hình thức",["phân đôi","nảy chồi","bào tử hữu tính","nguyên phân"],"Vi khuẩn là tế bào nhân sơ, sinh sản chủ yếu bằng phân đôi."),
+// ---- Sinh 11
+Q("s26","Sinh học","Trao đổi chất ở thực vật",1,"Rễ cây hút nước chủ yếu qua",["tế bào lông hút","chóp rễ","mạch gỗ","khí khổng"],"Tế bào lông hút làm tăng diện tích tiếp xúc với đất, hút nước và ion khoáng."),
+Q("s5","Sinh học","Trao đổi chất ở thực vật",1,"Quá trình quang hợp ở thực vật diễn ra ở bào quan nào?",["Lục lạp","Ti thể","Ribosome","Bộ máy Golgi"],"Quang hợp diễn ra ở lục lạp; ti thể là nơi hô hấp tế bào."),
+Q("s27","Sinh học","Trao đổi chất ở động vật",2,"Ở người, máu từ tâm thất trái được bơm vào",["động mạch chủ","động mạch phổi","tĩnh mạch chủ","tâm nhĩ phải"],"Tâm thất trái bơm máu giàu O₂ vào động mạch chủ, đi nuôi cơ thể."),
+Q("s28","Sinh học","Cảm ứng",1,"Ở động vật có hệ thần kinh, cảm ứng được thực hiện chủ yếu qua",["phản xạ","hướng động","ứng động","quang hợp"],"Phản xạ là phản ứng của cơ thể trả lời kích thích, thông qua hệ thần kinh."),
+Q("s29","Sinh học","Sinh trưởng và phát triển",2,"Hormone thực vật thường dùng để kích thích cành giâm ra rễ là",["auxin","abscisic acid","ethylene","cytokinin"],"Auxin kích thích hình thành rễ phụ ở cành giâm, cành chiết."),
+Q("s30","Sinh học","Sinh sản",1,"Hình thành cây mới từ thân, rễ hoặc lá của cây mẹ gọi là",["sinh sản sinh dưỡng","sinh sản bằng bào tử","sinh sản hữu tính","thụ tinh kép"],"Đây là sinh sản sinh dưỡng, một hình thức sinh sản vô tính."),
+// ---- Sinh 12
+Q("s1","Sinh học","Di truyền phân tử",1,"Đơn phân cấu tạo nên phân tử DNA là",["nucleotide","amino acid","glucose","acid béo"],"DNA được cấu tạo từ 4 loại nucleotide: A, T, G, C."),
+Q("s2","Sinh học","Di truyền phân tử",1,"Bộ ba mở đầu trên mRNA là",["AUG","UAA","UGA","UAG"],"AUG là bộ ba mở đầu; UAA, UAG, UGA là bộ ba kết thúc."),
+Q("s3","Sinh học","Quy luật di truyền",2,"Phép lai Aa × Aa cho đời con có tỉ lệ kiểu gene là",["1AA : 2Aa : 1aa","3AA : 1aa","1Aa : 1aa","1AA : 1aa"],"Mỗi bên cho giao tử A và a tỉ lệ 1:1."),
+Q("s6","Sinh học","Quy luật di truyền",3,"Phép lai AaBb × AaBb (phân li độc lập, trội hoàn toàn). Tỉ lệ đời con trội cả hai tính trạng là",["$\\dfrac{9}{16}$", "$\\dfrac{3}{16}$", "$\\dfrac{1}{16}$", "$\\dfrac{3}{4}$"],"$P(A\\text{-}B\\text{-}) = \\dfrac{3}{4}\\cdot\\dfrac{3}{4} = \\dfrac{9}{16}$."),
+Q("s7","Sinh học","Tiến hóa",3,"Nhân tố tiến hóa duy nhất làm thay đổi tần số allele theo một hướng xác định là",["chọn lọc tự nhiên","đột biến","di – nhập gene","phiêu bạt di truyền"],"Chọn lọc tự nhiên là nhân tố tiến hóa có hướng."),
+Q("s8","Sinh học","Sinh thái",2,"Mối quan hệ giữa nấm và tảo trong địa y là quan hệ",["cộng sinh","hội sinh","kí sinh","cạnh tranh"],"Hai bên cùng có lợi và gắn bó bắt buộc: cộng sinh."),
+Q("s31","Sinh học","Sinh thái",2,"Trong chuỗi thức ăn: Cỏ → Châu chấu → Ếch → Rắn, sinh vật tiêu thụ bậc 2 là",["ếch","châu chấu","rắn","cỏ"],"Cỏ là sinh vật sản xuất, châu chấu tiêu thụ bậc 1, ếch tiêu thụ bậc 2."),
+// ---- Ngữ văn
+Q("v1","Ngữ văn","Biện pháp tu từ",1,"Câu ca dao “Thân em như tấm lụa đào / Phất phơ giữa chợ biết vào tay ai” sử dụng biện pháp tu từ nổi bật nào ở câu thứ nhất?",["So sánh","Ẩn dụ","Hoán dụ","Nhân hóa"],"Có từ so sánh “như”: thân em được so sánh với tấm lụa đào."),
+Q("v2","Ngữ văn","Biện pháp tu từ",2,"Trong câu ca dao “Thuyền về có nhớ bến chăng / Bến thì một dạ khăng khăng đợi thuyền”, hình ảnh “thuyền” và “bến” được dùng theo biện pháp",["ẩn dụ","so sánh","liệt kê","nói quá"],"“Thuyền” ẩn dụ cho người ra đi, “bến” ẩn dụ cho người ở lại chung thủy chờ đợi, dựa trên nét tương đồng."),
+Q("v3","Ngữ văn","Biện pháp tu từ",1,"Câu “Hàng tre đứng nghiêm trang canh giữ con đường làng.” sử dụng biện pháp tu từ",["nhân hóa","so sánh","hoán dụ","điệp ngữ"],"“Đứng nghiêm trang”, “canh giữ” là hoạt động của con người được gán cho hàng tre."),
+Q("v4","Ngữ văn","Biện pháp tu từ",2,"Câu “Học, học nữa, học mãi.” sử dụng biện pháp tu từ",["điệp ngữ","so sánh","ẩn dụ","nói giảm nói tránh"],"Từ “học” được lặp lại để nhấn mạnh việc học tập không ngừng."),
+Q("v5","Ngữ văn","Biện pháp tu từ",3,"Câu thơ “Làn thu thủy, nét xuân sơn” (Nguyễn Du, Truyện Kiều) gợi tả đôi mắt và lông mày của Thúy Kiều bằng biện pháp",["ẩn dụ (bút pháp ước lệ)","liệt kê","hoán dụ","nhân hóa"],"Đôi mắt được gọi bằng “làn nước mùa thu”, lông mày được gọi bằng “nét núi mùa xuân”: đó là ẩn dụ theo bút pháp ước lệ."),
+Q("v6","Ngữ văn","Từ Hán Việt",1,"Từ nào sau đây là từ Hán Việt?",["giang sơn","sông núi","nhà cửa","cây cối"],"“Giang” là sông, “sơn” là núi; ba từ còn lại là từ thuần Việt."),
+Q("v7","Ngữ văn","Từ Hán Việt",2,"Yếu tố “thiên” trong từ nào sau đây có nghĩa là “trời”?",["thiên thư","thiên vị","thiên niên kỉ","thiên đô"],"Thiên thư là sách trời. Thiên vị: lệch; thiên niên kỉ: nghìn năm; thiên đô: dời đô."),
+Q("v8","Ngữ văn","Lỗi dùng từ, lỗi câu",2,"Câu nào sau đây mắc lỗi dùng từ?",["Anh ấy rất bàng quang với mọi việc xung quanh.","Cô ấy rất chăm chỉ học tập.","Chúng tôi đã hoàn thành nhiệm vụ được giao.","Cảnh vật nơi đây thật yên bình."],"Lẫn lộn từ gần âm: phải dùng “bàng quan” (thờ ơ), “bàng quang” là một bộ phận cơ thể."),
+Q("v9","Ngữ văn","Lỗi dùng từ, lỗi câu",3,"Câu nào sau đây thiếu chủ ngữ?",["Qua bài thơ cho ta thấy tình yêu quê hương của tác giả.","Bài thơ cho ta thấy tình yêu quê hương của tác giả.","Qua bài thơ, ta thấy tình yêu quê hương của tác giả.","Tác giả thể hiện tình yêu quê hương qua bài thơ."],"“Qua bài thơ” là trạng ngữ, câu không còn chủ ngữ. Sửa: bỏ “Qua” hoặc thêm chủ ngữ “ta”."),
+Q("v10","Ngữ văn","Thành phần biệt lập, liên kết câu",2,"Trong câu “Có lẽ ngày mai trời sẽ mưa.”, từ “có lẽ” là thành phần",["tình thái","cảm thán","gọi – đáp","phụ chú"],"“Có lẽ” thể hiện mức độ tin cậy của người nói đối với sự việc: thành phần tình thái."),
+Q("v11","Ngữ văn","Thành phần biệt lập, liên kết câu",2,"Hai câu “Lan là học sinh giỏi. Bạn ấy luôn sẵn lòng giúp đỡ mọi người.” liên kết với nhau chủ yếu bằng phép",["thế","lặp","nối","liên tưởng"],"“Bạn ấy” thay thế cho “Lan” ở câu trước: phép thế."),
+Q("v12","Ngữ văn","Phương thức biểu đạt và thể loại",1,"Câu “Mùa thu, lá vàng rơi đầy ngõ nhỏ, gió heo may se lạnh lùa qua từng mái hiên.” sử dụng phương thức biểu đạt chính nào?",["Miêu tả","Tự sự","Nghị luận","Thuyết minh"],"Câu văn tái hiện hình ảnh, âm thanh, cảm giác của cảnh mùa thu: miêu tả."),
+Q("v13","Ngữ văn","Phương thức biểu đạt và thể loại",1,"Văn bản nêu ý kiến, dùng lí lẽ và dẫn chứng để thuyết phục người đọc sử dụng phương thức biểu đạt chính nào?",["Nghị luận","Biểu cảm","Tự sự","Hành chính – công vụ"],"Lí lẽ và dẫn chứng là dấu hiệu của nghị luận."),
+Q("v14","Ngữ văn","Phương thức biểu đạt và thể loại",2,"Đọc đoạn văn:\n“Ông tôi trồng một cây bàng trước sân từ ngày bố tôi còn nhỏ. Mùa đông, cây trút hết lá, trơ ra những cành khẳng khiu như chẳng còn sự sống. Vậy mà chỉ cần vài cơn mưa xuân, từng chồi non lại nhú lên, xanh mướt. Ông bảo: “Cây không sợ mùa đông, vì nó biết mùa xuân sẽ đến. Người cũng vậy, cháu ạ, đừng sợ những ngày khó khăn.” Lớn lên, mỗi lần vấp ngã, tôi lại nhớ đến cây bàng và lời ông.”\n\nPhương thức biểu đạt chính của đoạn văn là",["Tự sự","Miêu tả","Nghị luận","Thuyết minh"],"Đoạn văn kể lại câu chuyện về cây bàng và lời ông dạy; miêu tả chỉ là yếu tố hỗ trợ."),
+Q("v15","Ngữ văn","Biện pháp tu từ",2,"Đọc đoạn văn:\n“Ông tôi trồng một cây bàng trước sân từ ngày bố tôi còn nhỏ. Mùa đông, cây trút hết lá, trơ ra những cành khẳng khiu như chẳng còn sự sống. Vậy mà chỉ cần vài cơn mưa xuân, từng chồi non lại nhú lên, xanh mướt. Ông bảo: “Cây không sợ mùa đông, vì nó biết mùa xuân sẽ đến. Người cũng vậy, cháu ạ, đừng sợ những ngày khó khăn.” Lớn lên, mỗi lần vấp ngã, tôi lại nhớ đến cây bàng và lời ông.”\n\nCâu “Mùa đông, cây trút hết lá, trơ ra những cành khẳng khiu như chẳng còn sự sống.” sử dụng biện pháp tu từ",["So sánh","Liệt kê","Đảo ngữ","Câu hỏi tu từ"],"Có từ so sánh “như”: những cành khẳng khiu được so sánh với hình ảnh “chẳng còn sự sống”."),
+// ---- Tiếng Anh
+Q("e1","Tiếng Anh","Phát âm, trọng âm",1,"Từ nào có đuôi “-ed” được phát âm là /ɪd/?",["wanted","played","watched","stopped"],"“wanted” kết thúc bằng âm /t/ nên -ed đọc /ɪd/. played: /d/; watched, stopped: /t/."),
+Q("e2","Tiếng Anh","Phát âm, trọng âm",2,"Từ nào có trọng âm rơi vào âm tiết thứ hai?",["begin","happy","table","water"],"be-GIN nhấn âm 2; happy, table, water nhấn âm 1."),
+Q("e3","Tiếng Anh","Thì của động từ",1,"She ___ to school by bus every day.",["goes","go","is going","went"],"Thói quen hằng ngày (every day), chủ ngữ ngôi thứ ba số ít: hiện tại đơn “goes”."),
+Q("e4","Tiếng Anh","Thì của động từ",2,"I ___ TV when the phone rang.",["was watching","watched","am watching","have watched"],"Hành động đang diễn ra (quá khứ tiếp diễn) thì hành động khác xen vào (quá khứ đơn “rang”)."),
+Q("e5","Tiếng Anh","Thì của động từ",2,"They ___ in Hanoi since 2015.",["have lived","lived","live","are living"],"“since 2015” dùng với thì hiện tại hoàn thành: have lived."),
+Q("e6","Tiếng Anh","Câu bị động",1,"This house ___ in 1990.",["was built","built","is built","has built"],"Bị động thì quá khứ đơn (in 1990): was/were + V3."),
+Q("e7","Tiếng Anh","Câu bị động",2,"The homework ___ by the students tomorrow.",["will be done","will do","is done","was done"],"Bị động thì tương lai đơn (tomorrow): will be + V3."),
+Q("e8","Tiếng Anh","So sánh",1,"This test is ___ than the last one.",["easier","easy","more easy","the easiest"],"Tính từ ngắn tận cùng bằng -y: đổi y thành i, thêm -er: easier."),
+Q("e9","Tiếng Anh","Câu điều kiện",1,"If it rains tomorrow, we ___ at home.",["will stay","would stay","stayed","stay"],"Điều kiện loại 1 (có thể xảy ra trong tương lai): If + hiện tại đơn, will + V."),
+Q("e10","Tiếng Anh","Câu điều kiện",2,"If I ___ you, I would study harder.",["were","am","was being","had been"],"Điều kiện loại 2 (trái hiện tại): dùng “were” cho mọi ngôi."),
+Q("e11","Tiếng Anh","Mệnh đề quan hệ",1,"The man ___ lives next door is a doctor.",["who","which","whose","where"],"Thay cho người, làm chủ ngữ của mệnh đề quan hệ: who."),
+Q("e12","Tiếng Anh","Mệnh đề quan hệ",2,"This is the village ___ my grandparents were born.",["where","which","who","whose"],"Thay cho nơi chốn (in the village): where."),
+Q("e13","Tiếng Anh","Câu tường thuật",2,"She said, “I am tired.” → She said that she ___ tired.",["was","is","has been","will be"],"Động từ tường thuật ở quá khứ nên lùi thì: am → was."),
+Q("e14","Tiếng Anh","Từ vựng, collocation",1,"We need to ___ a decision before Friday.",["make","do","take","have"],"Cụm cố định: make a decision."),
+Q("e15","Tiếng Anh","Từ vựng, collocation",2,"Please ___ attention to the teacher.",["pay","give","take","make"],"Cụm cố định: pay attention to."),
+Q("e16","Tiếng Anh","Đọc hiểu tiếng Anh",1,"Read the passage:\n“Tom wakes up at 6 a.m. every day. He rides his bike to school because it is good for his health and the environment. After school, he often helps his mother cook dinner. At weekends, he plays football with his friends in the park near his house.”\n\nWhy does Tom ride his bike to school?",["Because it is good for his health and the environment.","Because he lives very far from school.","Because his mother asks him to.","Because he has no bus ticket."],"Câu thứ hai: “because it is good for his health and the environment”."),
+Q("e17","Tiếng Anh","Đọc hiểu tiếng Anh",2,"Read the passage:\n“Tom wakes up at 6 a.m. every day. He rides his bike to school because it is good for his health and the environment. After school, he often helps his mother cook dinner. At weekends, he plays football with his friends in the park near his house.”\n\nWhat does Tom often do after school?",["He helps his mother cook dinner.","He plays football in the park.","He rides his bike to the park.","He does his homework with friends."],"“After school, he often helps his mother cook dinner.” Đá bóng là việc làm vào cuối tuần.")
+];
+export const BYID:Record<string,Question>=Object.fromEntries(BANK.map(q=>[q.id,q]));
+export const SUBJECTS:string[]=["Toán","Vật lí","Hóa học","Sinh học","Ngữ văn","Tiếng Anh"];
+export const SCI:string[]=["Toán","Vật lí","Hóa học","Sinh học"];
+export const SUBJECT_OPTS:string[]=["Toán","Vật lí","Hóa học","Sinh học","Ngữ văn","Tiếng Anh","Lịch sử","Địa lí","Tin học","GD Kinh tế và Pháp luật"];
+export const GRADES:[string,string][]=[["10","Lớp 10"],["11","Lớp 11"],["12","Lớp 12"],["free","Thí sinh tự do"]];
+export const EXLIST:Exam[]=[
+ {id:"gk1",n:"Giữa học kì 1",school:true,hk:1,full:false,d:"Kiến thức nửa đầu học kì 1"},
+ {id:"ck1",n:"Cuối học kì 1",school:true,hk:1,full:true,d:"Toàn bộ kiến thức học kì 1"},
+ {id:"gk2",n:"Giữa học kì 2",school:true,hk:2,full:false,d:"Kiến thức nửa đầu học kì 2"},
+ {id:"ck2",n:"Cuối học kì 2",school:true,hk:2,full:true,d:"Toàn bộ kiến thức học kì 2"},
+ {id:"thpt",n:"Tốt nghiệp THPT",d:"Chủ yếu kiến thức lớp 12, có thêm lớp 10, 11",desc:"Kỳ thi tốt nghiệp THPT theo chương trình GDPT 2018 (chủ yếu kiến thức lớp 12)"},
+ {id:"hsa",n:"HSA (ĐHQG Hà Nội)",d:"Đánh giá năng lực",dgnl:true,desc:"Bài thi đánh giá năng lực HSA của ĐHQG Hà Nội",subs:["Toán học và xử lý số liệu","Văn học – Ngôn ngữ","Khoa học"]},
+ {id:"vact",n:"V-ACT (ĐHQG TP.HCM)",d:"Đánh giá năng lực",dgnl:true,desc:"Bài thi đánh giá năng lực V-ACT của ĐHQG TP.HCM",subs:["Tiếng Việt","Tiếng Anh","Toán học","Tư duy khoa học"]},
+ {id:"tsa",n:"TSA (ĐH Bách khoa Hà Nội)",d:"Đánh giá tư duy",dgnl:true,desc:"Bài thi đánh giá tư duy TSA của ĐH Bách khoa Hà Nội",subs:["Tư duy Toán học","Tư duy Đọc hiểu","Tư duy Khoa học"]},
+ {id:"spt",n:"SPT (ĐHSP Hà Nội)",d:"Đánh giá năng lực chuyên biệt theo môn",dgnl:true,desc:"Bài thi đánh giá năng lực chuyên biệt SPT của ĐHSP Hà Nội"},
+ {id:"other",n:"Khác",d:"Tự điền tên kỳ thi"}
+];
+export const EXB:Record<string,Exam>=Object.fromEntries(EXLIST.map(e=>[e.id,e]));
+export const LV:Record<number,string>={1:"Dễ",2:"Vừa",3:"Khó"};
+export const LEN:Record<number,number>={1:20,2:15,3:10};
+export const BOTS:Bot[]=[{n:"Tân binh",acc:.55,min:8,max:16,r:900},{n:"Chiến binh",acc:.72,min:5,max:12,r:1100},{n:"Cao thủ",acc:.88,min:3,max:9,r:1300}];
+export const ACCENTS:[string,string,string,number?][]=[["tim","Mực tím","#5B3FD1"],["bien","Xanh biển","#1A5FC4"],["hong","Hồng phấn","#B8296F"],["la","Lá non","#2B7A34"],["vang","Vàng nắng","#A2650E",5]];
+export const PT:[number,string,string,number,number,number,string][]=[[1,"H","Hydrogen",1,1,1,"n"],[2,"He","Helium",4,1,18,"g"],[3,"Li","Lithium",7,2,1,"m"],[4,"Be","Beryllium",9,2,2,"m"],[5,"B","Boron",11,2,13,"s"],[6,"C","Carbon",12,2,14,"n"],[7,"N","Nitrogen",14,2,15,"n"],[8,"O","Oxygen",16,2,16,"n"],[9,"F","Fluorine",19,2,17,"n"],[10,"Ne","Neon",20,2,18,"g"],[11,"Na","Sodium",23,3,1,"m"],[12,"Mg","Magnesium",24,3,2,"m"],[13,"Al","Aluminium",27,3,13,"m"],[14,"Si","Silicon",28,3,14,"s"],[15,"P","Phosphorus",31,3,15,"n"],[16,"S","Sulfur",32,3,16,"n"],[17,"Cl","Chlorine",35.5,3,17,"n"],[18,"Ar","Argon",40,3,18,"g"],[19,"K","Potassium",39,4,1,"m"],[20,"Ca","Calcium",40,4,2,"m"],[21,"Sc","Scandium",45,4,3,"m"],[22,"Ti","Titanium",48,4,4,"m"],[23,"V","Vanadium",51,4,5,"m"],[24,"Cr","Chromium",52,4,6,"m"],[25,"Mn","Manganese",55,4,7,"m"],[26,"Fe","Iron",56,4,8,"m"],[27,"Co","Cobalt",59,4,9,"m"],[28,"Ni","Nickel",59,4,10,"m"],[29,"Cu","Copper",64,4,11,"m"],[30,"Zn","Zinc",65,4,12,"m"],[31,"Ga","Gallium",70,4,13,"m"],[32,"Ge","Germanium",73,4,14,"s"],[33,"As","Arsenic",75,4,15,"s"],[34,"Se","Selenium",79,4,16,"n"],[35,"Br","Bromine",80,4,17,"n"],[36,"Kr","Krypton",84,4,18,"g"]];
+export const MASS:Record<string,number>=Object.fromEntries(PT.map(e=>[e[1],e[3]]));
+Object.assign(MASS,{Ag:108,I:127,Ba:137,Au:197,Hg:201,Pb:207,Sn:119,Rb:85.5,Sr:88});
+export const CAT:Record<string,string>={m:"Kim loại",n:"Phi kim",g:"Khí hiếm",s:"Á kim"};
+export const FORMULAS:[string,string,string][]=[
+["Toán","Đạo hàm cơ bản","$(x^n)' = nx^{n-1}$;  $(\\sin x)' = \\cos x$;  $(\\cos x)' = -\\sin x$;  $(e^x)' = e^x$;  $(\\ln x)' = \\dfrac{1}{x}$"],
+["Toán","Nguyên hàm cơ bản","$\\displaystyle\\int x^n\\,dx = \\dfrac{x^{n+1}}{n+1} + C$;  $\\displaystyle\\int e^x\\,dx = e^x + C$;  $\\displaystyle\\int \\dfrac{1}{x}\\,dx = \\ln|x| + C$"],
+["Toán","Logarit","$\\log_a(bc) = \\log_a b + \\log_a c$;  $\\log_a b^n = n\\log_a b$;  $\\log_a b = \\dfrac{\\ln b}{\\ln a}$"],
+["Toán","Tổ hợp, chỉnh hợp","$C_n^k = \\dfrac{n!}{k!\\,(n-k)!}$;  $A_n^k = \\dfrac{n!}{(n-k)!}$"],
+["Toán","Hệ thức lượng","$a^2 = b^2 + c^2 - 2bc\\cos A$;  $\\dfrac{a}{\\sin A} = 2R$;  $S = \\dfrac{1}{2}bc\\sin A$"],
+["Toán","Thể tích","Khối chóp $V = \\dfrac{1}{3}Bh$;  khối lăng trụ $V = Bh$;  khối cầu $V = \\dfrac{4}{3}\\pi R^3$;  khối nón $V = \\dfrac{1}{3}\\pi r^2 h$"],
+["Toán","Cấp số","CSC: $u_n = u_1 + (n-1)d$;  CSN: $u_n = u_1 q^{n-1}$"],
+["Toán","Công thức cộng","$\\sin(a \\pm b) = \\sin a\\cos b \\pm \\cos a\\sin b$;  $\\cos(a \\pm b) = \\cos a\\cos b \\mp \\sin a\\sin b$"],
+["Toán","Nhân đôi","$\\sin 2a = 2\\sin a\\cos a$;  $\\cos 2a = \\cos^2 a - \\sin^2 a = 1 - 2\\sin^2 a$"],
+["Vật lí","Chuyển động","$v = v_0 + at$;  $s = v_0 t + \\dfrac{1}{2}at^2$;  rơi tự do $v = gt$"],
+["Vật lí","Định luật Newton, năng lượng","$F = ma$;  $W_\\text{đ} = \\dfrac{1}{2}mv^2$;  $W_t = mgh$;  $p = mv$"],
+["Vật lí","Con lắc lò xo","$\\omega = \\sqrt{\\dfrac{k}{m}}$;  $T = 2\\pi\\sqrt{\\dfrac{m}{k}}$;  $W = \\dfrac{1}{2}kA^2$"],
+["Vật lí","Con lắc đơn","$T = 2\\pi\\sqrt{\\dfrac{l}{g}}$"],
+["Vật lí","Sóng","$\\lambda = \\dfrac{v}{f} = vT$;  sóng dừng hai đầu cố định $l = k\\dfrac{\\lambda}{2}$"],
+["Vật lí","Điện","$F = k\\dfrac{|q_1q_2|}{r^2}$;  $I = \\dfrac{U}{R}$;  nối tiếp $R = R_1 + R_2$;  song song $\\dfrac{1}{R} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2}$"],
+["Vật lí","Khí lí tưởng","$pV = nRT$;  $R = 8{,}31$ J/(mol·K)"],
+["Vật lí","Nhiệt lượng","$Q = mc\\Delta t$;  $Q = \\lambda m$ (nóng chảy);  $Q = Lm$ (hóa hơi)"],
+["Vật lí","Phóng xạ","$N = N_0\\cdot 2^{-t/T}$;  $m = m_0\\cdot 2^{-t/T}$"],
+["Vật lí","Từ thông, cảm ứng","$\\Phi = BS\\cos\\alpha$;  $e = -\\dfrac{\\Delta\\Phi}{\\Delta t}$"],
+["Hóa học","Số mol","$n = \\dfrac{m}{M}$;  $n = \\dfrac{V}{22{,}4}$ (đktc);  $n = \\dfrac{V}{24{,}79}$ (đkc);  $n = C_M\\cdot V$"],
+["Hóa học","Nồng độ","$C\\% = \\dfrac{m_{ct}}{m_{dd}}\\cdot 100\\%$;  $C_M = \\dfrac{n}{V}$"],
+["Hóa học","pH","$\\text{pH} = -\\log[\\text{H}^+]$;  $\\text{pH} + \\text{pOH} = 14$ (25 °C)"],
+["Hóa học","Bảo toàn khối lượng","$\\sum m_{\\text{chất tham gia}} = \\sum m_{\\text{sản phẩm}}$"],
+["Sinh học","Phân bào","k lần nguyên phân từ 1 tế bào: $2^k$ tế bào con; giảm phân 1 tế bào 2n: 4 tế bào n"],
+["Sinh học","Số loại giao tử","n cặp gene dị hợp phân li độc lập cho $2^n$ loại giao tử"],
+["Sinh học","DNA","$N = 2A + 2G$;  $L = \\dfrac{N}{2}\\cdot 3{,}4$ Å;  số liên kết H $= 2A + 3G$"],
+["Sinh học","Hardy – Weinberg","$p^2\\,AA + 2pq\\,Aa + q^2\\,aa = 1$, với $p + q = 1$"],
+["Ngữ văn","Tác dụng biện pháp tu từ","Gọi tên biện pháp → chỉ ra từ ngữ → tác dụng nghệ thuật (gợi hình, gợi cảm, tạo nhịp điệu) → tác dụng nội dung → thái độ, tình cảm của tác giả"],
+["Ngữ văn","Câu hỏi bày tỏ quan điểm","Nêu rõ đồng tình / không đồng tình → 2–3 lí do → liên hệ bản thân (5–7 dòng)"],
+["Ngữ văn","Đoạn văn nghị luận khoảng 200 chữ","Câu mở đoạn nêu vấn đề → giải thích → bàn luận có dẫn chứng → phản đề → bài học, liên hệ → câu kết"],
+["Tiếng Anh","Câu điều kiện","Loại 1: If + V(s/es), will + V; loại 2: If + V2/were, would + V; loại 3: If + had V3, would have V3"],
+["Tiếng Anh","Câu bị động","S + be (chia theo thì) + V3 (+ by O)"],
+["Tiếng Anh","Hiện tại hoàn thành","S + have/has + V3; dấu hiệu: since, for, already, yet, ever, never"],
+["Tiếng Anh","Đuôi -ed","/ɪd/ sau t, d; /t/ sau p, k, f, s, ʃ, tʃ; /d/ trong các trường hợp còn lại"]
+];
+export const PROCESSES:[string,string][]=[
+["Điều chế O₂ trong phòng thí nghiệm","2KMnO₄ → K₂MnO₄ + MnO₂ + O₂ (đun nóng)"],
+["Điều chế H₂ trong phòng thí nghiệm","Zn + 2HCl → ZnCl₂ + H₂"],
+["Điều chế Cl₂ trong phòng thí nghiệm","MnO₂ + 4HCl (đặc) → MnCl₂ + Cl₂ + 2H₂O (đun nóng)"],
+["Sản xuất NH₃ (Haber)","N₂ + 3H₂ ⇌ 2NH₃ (xúc tác Fe, nhiệt độ và áp suất cao)"],
+["Điều chế ethylene","C₂H₅OH → C₂H₄ + H₂O (H₂SO₄ đặc, 170 °C)"],
+["Sản xuất nhôm","2Al₂O₃ → 4Al + 3O₂ (điện phân nóng chảy, có cryolite)"],
+["Nguyên phân","Kì đầu: NST co xoắn, thoi phân bào hình thành. Kì giữa: NST kép xếp 1 hàng ở mặt phẳng xích đạo. Kì sau: chromatid tách nhau về 2 cực. Kì cuối: tạo 2 tế bào con có bộ NST 2n."],
+["Giảm phân","Giảm phân I: NST kép tương đồng tiếp hợp, có thể trao đổi chéo, phân li về 2 cực. Giảm phân II: tương tự nguyên phân. Kết quả: 4 tế bào con có bộ NST n."],
+["Quang hợp","Pha sáng (thylakoid): hấp thụ ánh sáng, quang phân li nước, tạo ATP, NADPH, O₂. Chu trình Calvin (chất nền): cố định CO₂ tạo đường."],
+["Hô hấp hiếu khí","Đường phân (tế bào chất) → chu trình Krebs (chất nền ti thể) → chuỗi truyền electron (màng trong ti thể), tạo phần lớn ATP."]
+];
+export const VIRUS_TABLE:[string,string,string][]=[
+["Cấu tạo","Chưa có cấu tạo tế bào: lõi nucleic acid và vỏ protein (capsid), một số có vỏ ngoài","Tế bào nhân sơ: màng, tế bào chất, ribosome, vùng nhân"],
+["Vật chất di truyền","DNA hoặc RNA (chỉ một loại)","Cả DNA và RNA"],
+["Kích thước","Rất nhỏ, khoảng 20–300 nm","Khoảng 1–10 μm"],
+["Sinh sản","Nhân lên trong tế bào chủ: hấp phụ, xâm nhập, tổng hợp, lắp ráp, phóng thích","Phân đôi"],
+["Lối sống","Kí sinh nội bào bắt buộc","Tự do hoặc kí sinh"],
+["Thuốc điều trị","Không bị kháng sinh tác động; dùng thuốc kháng virus, vaccine","Kháng sinh"],
+["Ví dụ","HIV, virus cúm, SARS-CoV-2, phage T2","E. coli, vi khuẩn lao, Lactobacillus"]
+];
+export const UNITS:Record<string,{temp?:boolean;u:Record<string,number>}>={
+  "Chiều dài":{u:{"km":1e3,"m":1,"cm":1e-2,"mm":1e-3,"μm":1e-6,"nm":1e-9,"Å":1e-10,"inch":0.0254}},
+  "Khối lượng":{u:{"tấn":1e3,"kg":1,"g":1e-3,"mg":1e-6,"u (amu)":1.6605e-27}},
+  "Áp suất":{u:{"Pa":1,"kPa":1e3,"bar":1e5,"atm":101325,"mmHg":133.322}},
+  "Năng lượng":{u:{"J":1,"kJ":1e3,"cal":4.184,"kcal":4184,"eV":1.602e-19,"MeV":1.602e-13,"kWh":3.6e6}},
+  "Thể tích":{u:{"m³":1e3,"L (dm³)":1,"mL (cm³)":1e-3}},
+  "Nhiệt độ":{temp:true,u:{"°C":0,"K":0,"°F":0}}
+};
+
+
+export const WKEY="Ngữ văn|Trình bày bài đọc hiểu";
+export const TYPES:Record<string,[string,string]>={
+ nhanbiet:["Câu nhận biết (xác định, chỉ ra)","Trả lời ngắn, đúng thuật ngữ, viết thành câu hoàn chỉnh. Ví dụ: “Phương thức biểu đạt chính của đoạn trích là nghị luận.” Khi chỉ ra chi tiết, trích dẫn trong ngoặc kép, không chép cả đoạn."],
+ tutu:["Câu nêu tác dụng biện pháp tu từ","Trình bày theo 5 bước: gọi tên biện pháp → chỉ ra từ ngữ thể hiện → tác dụng nghệ thuật (tăng sức gợi hình, gợi cảm, tạo nhịp điệu) → tác dụng nội dung (làm nổi bật điều gì) → thái độ, tình cảm của tác giả."],
+ noidung:["Câu thông hiểu (nội dung, thông điệp, ý nghĩa)","Nêu ý chính bằng một câu rõ ràng, sau đó giải thích ngắn bằng chi tiết trong văn bản. Không chép lại nguyên văn."],
+ quandiem:["Câu vận dụng (bày tỏ quan điểm, bài học)","Câu đầu nêu rõ quan điểm (đồng tình, không đồng tình hoặc đồng tình một phần). Tiếp theo đưa 2–3 lí do, có ví dụ. Kết bằng liên hệ bản thân. Độ dài khoảng 5–7 dòng."]
+};
+export const TSHORT:Record<string,string>={nhanbiet:"Nhận biết",tutu:"Tác dụng tu từ",noidung:"Thông hiểu",quandiem:"Vận dụng"};
+export const WRITE:WritePassage[]=[
+ {id:"w1",title:"Cây bàng của ông",src:"Văn bản do app biên soạn để luyện tập",passage:"Ông tôi trồng một cây bàng trước sân từ ngày bố tôi còn nhỏ. Mùa đông, cây trút hết lá, trơ ra những cành khẳng khiu như chẳng còn sự sống. Vậy mà chỉ cần vài cơn mưa xuân, từng chồi non lại nhú lên, xanh mướt. Ông bảo: “Cây không sợ mùa đông, vì nó biết mùa xuân sẽ đến. Người cũng vậy, cháu ạ, đừng sợ những ngày khó khăn.” Lớn lên, mỗi lần vấp ngã, tôi lại nhớ đến cây bàng và lời ông.",qs:[
+  {q:"Xác định phương thức biểu đạt chính của đoạn văn.",type:"nhanbiet",points:["Nêu đúng: tự sự","Viết thành câu hoàn chỉnh, ngắn gọn"],model:"Phương thức biểu đạt chính của đoạn văn là tự sự."},
+  {q:"Chỉ ra và nêu tác dụng của biện pháp tu từ trong câu: “Mùa đông, cây trút hết lá, trơ ra những cành khẳng khiu như chẳng còn sự sống.”",type:"tutu",points:["Gọi tên: so sánh","Chỉ ra: “những cành khẳng khiu” được so sánh với “chẳng còn sự sống” (từ so sánh “như”)","Tác dụng nghệ thuật: câu văn sinh động, gợi hình","Tác dụng nội dung: nhấn mạnh vẻ tiêu điều của cây mùa đông, làm nổi bật sức sống mãnh liệt khi xuân về"],model:"Câu văn sử dụng biện pháp so sánh: những cành bàng khẳng khiu “như chẳng còn sự sống”. Biện pháp này làm câu văn sinh động, giàu hình ảnh, giúp người đọc hình dung rõ vẻ trơ trụi, tiêu điều của cây bàng mùa đông. Qua đó, tác giả làm nổi bật sự đối lập với sức sống mãnh liệt khi xuân về, chuẩn bị cho bài học về niềm tin vượt qua khó khăn."},
+  {q:"Lời ông gửi gắm bài học gì? Anh/chị rút ra điều gì cho bản thân? (Trả lời khoảng 5–7 dòng)",type:"quandiem",points:["Nêu bài học: không sợ khó khăn, tin rằng khó khăn sẽ qua","Giải thích bằng hình ảnh cây bàng: mùa đông rồi sẽ đến mùa xuân","Liên hệ bản thân cụ thể","Đúng độ dài, diễn đạt mạch lạc"],model:"Lời ông gửi gắm bài học: đừng sợ hãi trước khó khăn, vì khó khăn cũng giống mùa đông, rồi sẽ qua và nhường chỗ cho mùa xuân. Cây bàng trơ trụi vẫn đâm chồi khi xuân đến, con người cũng có thể đứng dậy sau vấp ngã nếu giữ được niềm tin. Với em, những lần điểm kém hay thất bại không phải là dấu chấm hết. Em sẽ bình tĩnh tìm ra nguyên nhân, kiên trì sửa sai và tin rằng cố gắng sẽ được đền đáp."}]},
+ {id:"w2",title:"Đọc sách trong thời đại màn hình",src:"Văn bản do app biên soạn để luyện tập",passage:"Đọc sách không chỉ để biết thêm điều mới. Mỗi cuốn sách là một cuộc trò chuyện với người viết, giúp ta nhìn thế giới bằng nhiều đôi mắt khác nhau. Người đọc sách lâu dần học được cách lắng nghe, cách đặt câu hỏi và cách tự mình suy nghĩ. Trong thời đại mà thông tin trôi qua màn hình chỉ trong vài giây, dành một giờ yên tĩnh bên trang sách chính là cách giữ cho tâm trí mình chậm lại và sâu hơn.",qs:[
+  {q:"Xác định phương thức biểu đạt chính của đoạn trích.",type:"nhanbiet",points:["Nêu đúng: nghị luận","Viết thành câu hoàn chỉnh"],model:"Phương thức biểu đạt chính của đoạn trích là nghị luận."},
+  {q:"Theo tác giả, đọc sách mang lại những lợi ích gì?",type:"noidung",points:["Biết thêm điều mới","Được trò chuyện với người viết, nhìn thế giới bằng nhiều góc nhìn","Học cách lắng nghe, đặt câu hỏi, tự suy nghĩ","Giữ cho tâm trí chậm lại và sâu hơn"],model:"Theo tác giả, đọc sách giúp ta biết thêm điều mới, được “trò chuyện” với người viết để nhìn thế giới bằng nhiều góc nhìn khác nhau. Đọc sách lâu dài còn rèn cho ta cách lắng nghe, cách đặt câu hỏi và tự mình suy nghĩ, đồng thời giúp tâm trí chậm lại và sâu hơn giữa dòng thông tin trôi nhanh."},
+  {q:"Anh/chị có đồng tình với ý kiến “dành một giờ yên tĩnh bên trang sách chính là cách giữ cho tâm trí mình chậm lại và sâu hơn” không? Vì sao? (Trả lời khoảng 5–7 dòng)",type:"quandiem",points:["Nêu rõ quan điểm ngay câu đầu","Lí do 1 có dẫn chứng (ví dụ: tập trung, suy ngẫm sâu)","Lí do 2 có dẫn chứng (ví dụ: đối lập với thông tin ngắn trên mạng)","Liên hệ bản thân","Đúng độ dài, diễn đạt mạch lạc"],model:"Em đồng tình với ý kiến trên. Thông tin trên mạng thường ngắn và lướt qua rất nhanh, khiến ta quen với việc đọc vội mà ít suy nghĩ. Khi dành một giờ yên tĩnh đọc sách, ta buộc mình tập trung theo dõi một mạch suy nghĩ dài, có thời gian dừng lại để ngẫm và đặt câu hỏi. Nhờ vậy, hiểu biết không chỉ rộng hơn mà còn sâu hơn. Bản thân em sẽ tập tắt điện thoại mỗi tối để đọc ít nhất 30 phút."}]},
+ {id:"w3",title:"Quê tôi",src:"Văn bản do app biên soạn để luyện tập",passage:"Quê tôi có dòng sông hiền hòa chảy quanh làng. Quê tôi có cánh đồng lúa chín vàng mỗi độ tháng Mười. Quê tôi có những con người chân chất, mộc mạc như đất. Đi xa bao năm, tôi vẫn mang theo trong tim mùi rơm rạ và tiếng gọi nhau í ới mỗi chiều tan chợ.",qs:[
+  {q:"Chỉ ra và nêu tác dụng của phép điệp trong đoạn văn.",type:"tutu",points:["Gọi tên: điệp ngữ (điệp cấu trúc)","Chỉ ra: cụm “Quê tôi có” lặp lại ba lần","Tác dụng nghệ thuật: tạo nhịp điệu, nhấn mạnh","Tác dụng nội dung: liệt kê vẻ đẹp bình dị của quê hương","Thái độ: niềm tự hào, tình yêu, nỗi nhớ quê của tác giả"],model:"Đoạn văn sử dụng phép điệp: cụm từ “Quê tôi có” được lặp lại ba lần ở đầu câu. Phép điệp tạo nhịp điệu nhịp nhàng, nhấn mạnh và lần lượt làm hiện lên vẻ đẹp bình dị của quê hương: dòng sông, cánh đồng, con người. Qua đó, tác giả bộc lộ niềm tự hào, tình yêu tha thiết và nỗi nhớ quê da diết."},
+  {q:"Nêu nội dung chính của đoạn văn.",type:"noidung",points:["Vẻ đẹp bình dị của quê hương (sông, đồng lúa, con người)","Tình yêu, nỗi nhớ quê của người đi xa","Viết thành câu, không chép lại văn bản"],model:"Đoạn văn khắc họa vẻ đẹp bình dị, thân thương của quê hương với dòng sông, cánh đồng lúa và những con người chân chất, qua đó thể hiện tình yêu và nỗi nhớ quê sâu nặng của người con đi xa."}]}
+];
