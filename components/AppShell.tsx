@@ -11,6 +11,7 @@ import { initRemote } from "@/lib/remote";
 import { Icon, Flame, Coin } from "./Icon";
 import { initGame, league, useGame } from "@/lib/game";
 import { initHK } from "@/lib/hk";
+import { initFixes } from "@/lib/fixes";
 import Onboarding from "./Onboarding";
 import StylePicker from "./StylePicker";
 import SessionView from "./session/SessionView";
@@ -48,6 +49,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
     initRemote();
     initGame();
     initHK();
+    initFixes();
     let unsub: (() => void) | undefined;
     if (supabase) {
       supabase.auth.getSession().then(({ data }) => {

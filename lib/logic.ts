@@ -3,6 +3,7 @@ import { BANK, BYID, EXB, EXLIST, LEN, SUBJECTS, TOPICS, TOP, WKEY, WRITE } from
 import type { AppState, Profile, Question, PlayQ, Topic, CT } from "./types";
 import { toast } from "./toast";
 import { REMOTE_Q, useRemote } from "./remote";
+import { applyFix, FIX } from "./fixes";
 
 export const STORAGE_KEY = "onthi-state-v1";
 export const DEFP = (): Profile => ({ grade: "", exams: [], examOther: "", subjects: [], subjectOther: "", target: 8, minutes: 30, examName: "", nameAuto: true, examDate: "", days: [1, 3, 5], time: "20:00" });
@@ -33,7 +34,7 @@ export const fmtNum = (x: number) => {
   if (a !== 0 && (a < 1e-3 || a >= 1e7)) return x.toExponential(4).replace(".", ",");
   return (+x.toPrecision(7)).toLocaleString("vi-VN", { maximumFractionDigits: 6 });
 };
-export const getQ = (S: AppState, id: string): Question | undefined => BYID[id] || S.aiQ[id] || REMOTE_Q[id];
+export const getQ = (S: AppState, id: string): Question | undefined => { const q = BYID[id] || S.aiQ[id] || REMOTE_Q[id]; return q && FIX[id] ? applyFix(q) : q; };
 /* Cấp độ (cũng là cấp nhân vật): từ cấp L lên L+1 cần 100 + 100·L XP — khớp hàm hero_level trong 0005_game.sql */
 export const xpForLevel = (n: number) => 50 * n * (n - 1) + 100 * (n - 1);
 export function levelInfo(xp: number) {

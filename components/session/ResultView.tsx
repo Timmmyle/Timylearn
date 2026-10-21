@@ -12,6 +12,7 @@ import { Icon } from "../Icon";
 import { startFight } from "../screens/Fight";
 import { useGame } from "@/lib/game";
 import { Coin } from "../Icon";
+import ReportButton from "./Report";
 
 export default function ResultView() {
   const s = useApp((st) => st.ses) as QuizSession;
@@ -79,6 +80,7 @@ export default function ResultView() {
                 {t === "short" && <ShortInput q={q} value={pk} onChange={() => {}} reveal />}
                 {q.e && <p className="small muted !mb-0 mt-2 whitespace-pre-wrap"><MathText text={q.e} /></p>}
                 <QImage src={q.imgA} alt="Hình minh họa lời giải" />
+                {s.kind !== "fight" && <ReportButton i={i} q={q} pick={pk} />}
               </div>
             </details>
           );

@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { chatJson, chatStream, MODEL, MODEL_FAST, navyEnabled } from "@/lib/server/navy";
 import { examPrompt, explainPrompt, gradePrompt, passagePrompt, SYSTEM } from "@/lib/server/prompts";
+import { reviewReport } from "@/lib/server/review";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -48,10 +49,11 @@ export async function POST(req: NextRequest) {
 
   // Xác thực người dùng bằng access token Supabase
   let who = req.headers.get("x-forwarded-for")?.split(",")[0].trim() || "anon";
+  let userId: string | null = null;
   const token = req.headers.get("authorization")?.replace(/^Bearer\s+/i, "");
   if (sb && token) {
     const { data } = await sb.auth.getUser(token);
-    if (data.user) who = data.user.id;
+    if (data.user) { who = data.user.id; userId = data.user.id; }
     else if (REQUIRE_AUTH) return fail(req, "unauthorized", 401);
   } else if (REQUIRE_AUTH) return fail(req, "unauthorized", 401);
   if (limited(who)) return fail(req, "rate_limited", 429);
@@ -79,6 +81,13 @@ export async function POST(req: NextRequest) {
       case "passage": {
         const data = await chatJson([sys, { role: "user", content: passagePrompt(body) }], MODEL);
         return cors(req, NextResponse.json({ data }));
+      }
+      case "review": {
+        // Báo đáp án sai: cần đăng nhập để chống spam
+        if (!userId && sb) return fail(req, "unauthorized", 401);
+        const out = await reviewReport(body, { userId, token: token || null, origin: req.nextUrl.origin });
+        if ("error" in out) return fail(req, out.error as string, 400);
+        return cors(req, NextResponse.json(out));
       }
       default:
         return fail(req, "bad_task", 400);

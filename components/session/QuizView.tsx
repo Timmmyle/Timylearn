@@ -11,6 +11,8 @@ import type { QuizSession } from "@/lib/types";
 import { answer, checkCurrent, nextQ, SesTop, setPick } from "./SessionView";
 import { ShortInput, TFInput } from "./QTypes";
 
+import ReportButton from "./Report";
+
 export default function QuizView() {
   const s = useApp((st) => st.ses) as QuizSession;
   const aiOn = useApp((st) => st.ai.enabled);
@@ -61,6 +63,7 @@ export default function QuizView() {
             <QImage src={q.imgA} alt="Hình minh họa lời giải" />
             {!ok && s.kind !== "review" && <p className="small muted !mb-0 mt-2">Đã thêm vào sổ lỗi sai.</p>}
             {!ok && aiOn && <AiExplain />}
+            <ReportButton i={s.i} q={q} pick={pk} />
           </div>
           <button className="btn w-full" onClick={nextQ}>{s.i + 1 < n ? "Câu tiếp theo" : "Xem kết quả"}</button>
         </>

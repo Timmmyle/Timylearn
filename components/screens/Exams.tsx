@@ -10,6 +10,7 @@ import { aiErrorText, aiJson } from "@/lib/api";
 import { startHK, useHK, type HKSet } from "@/lib/hk";
 import { examSeason } from "@/lib/logic";
 import { startWrite } from "../WritePanel";
+import GenPanel from "../GenPanel";
 import type { AiSet, AppState, Question } from "@/lib/types";
 
 type ExamSet = { id: string; exam: string; grade: number | string; subject: string; title: string; qids: string[]; ai?: boolean };
@@ -299,6 +300,7 @@ function Mine() {
         {sel("grade", grOpts, ef.grade, "Lớp")}
         {sel("subject", subOpts, ef.subject, "Môn")}
       </div>
+      <GenPanel ef={ef} />
       <HKList ef={ef} />
       <h2>{list.length} đề luyện nhanh</h2>
       {!list.length && <div className="panel"><p className="!m-0">Chưa có đề mẫu khớp bộ lọc. Tạo đề đúng phạm vi bằng AI ở bên dưới, hoặc xem tab Kho đề thi thật.</p></div>}

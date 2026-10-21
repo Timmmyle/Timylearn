@@ -99,6 +99,18 @@ node scripts/data/upload.mjs --dir data/bgddt
 
 Muốn thêm nguồn khác (đề 2024–2025 của Bộ, đề minh họa HSA/V-ACT/TSA…): xuất ra cùng định dạng `exam_sets.json` / `questions.json` như trong `data/vnhsge` rồi chạy `node scripts/data/upload.mjs --dir <thư mục>`.
 
+### Đề tự sinh theo dạng bài + Báo đáp án sai
+
+**Dạng bài có tham số** (`lib/gen/`): 420 dạng Toán, Vật lí, Hóa học học kì 1 lớp 10–12. Mỗi dạng tự chọn số liệu, đổi cách hỏi và bối cảnh, **đáp án và lời giải do code tính** nên luôn khớp số liệu; phương án nhiễu lấy từ sai lầm thường gặp.
+- Thử Thách → Đề theo kỳ thi → "Tạo đề mới": đề theo ma trận (Toán 12/4/6, Lý–Hóa 18/4/6; ~40% nhận biết, 30% thông hiểu, 30% vận dụng; cuối kì ~60% nửa sau HK1). "Luyện từng dạng bài": 5 biến thể của một dạng.
+- Kiểm tra toàn bộ dạng: `node --experimental-strip-types scripts/gen-check.ts` (mỗi file: thêm đường dẫn `lib/gen/toan10.ts`).
+- Thêm dạng: viết vào file môn tương ứng (xem `lib/gen/core.ts`), chạy gen-check đến khi 0 lỗi.
+
+**Báo đáp án sai** (ở màn kết quả và sau mỗi câu luyện tập): học sinh chọn đáp án mình cho là đúng + lý do → server lấy câu GỐC (không tin dữ liệu gửi lên), AI giải độc lập rồi thẩm định. Chỉ khi cả hai cùng kết luận đáp án cũ sai và cùng một đáp án mới mới sửa: điểm bài đang xem được tính lại, đáp án đúng lưu vào bảng `question_fixes` cho mọi người. Câu tự sinh không tự sửa (đáp án do code tính) mà chuyển giáo viên xem lại.
+- Chạy `supabase/migrations/0006_reports.sql`.
+- Để lưu bản sửa chung, server cần biến môi trường `SUPABASE_SERVICE_ROLE_KEY` (chỉ đặt ở server, ví dụ Vercel → Environment Variables; không có tiền tố NEXT_PUBLIC). Không có khóa này thì bản sửa chỉ lưu trên máy người báo và báo cáo vẫn được ghi để duyệt.
+- Xem báo cáo: `select * from question_reports order by created_at desc;` — hoàn tác: `update question_fixes set active = false where qid = '…';`
+
 ### Đề ôn giữa kì / cuối kì lớp 10–12 (soạn theo SGK mới)
 
 `data/hk1/src/`: 30 đề học kì 1 (giữa kì 1 + cuối kì 1) cho lớp 10, 11, 12, môn Toán, Vật lí, Hóa học, Tiếng Anh, Ngữ văn. Đề soạn mới theo chương trình GDPT 2018 (sách Kết nối tri thức), cấu trúc như đề kiểm tra hiện nay; mỗi câu có lời giải, đáp án đã được giải lại độc lập.
