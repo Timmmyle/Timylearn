@@ -1,4 +1,5 @@
 "use client";
+import { ask } from "@/lib/confirm";
 import { useRouter } from "next/navigation";
 import { useApp } from "@/lib/store";
 import { toast } from "@/lib/toast";
@@ -63,7 +64,7 @@ export default function WriteView() {
               <div className="mt-3 flex flex-wrap gap-2.5">
                 {aiOn && <button className="btn flex-1" disabled={s.busy} onClick={aiGrade}>{s.busy ? "Đang chấm…" : "Chấm bằng AI"}</button>}
                 <button className={`btn flex-1 ${aiOn ? "btn-line" : ""}`} disabled={s.busy}
-                  onClick={() => { if (!s.answer.trim() && !confirm("Bạn chưa viết câu trả lời. Vẫn xem đáp án?")) return; setW((x) => { x.res = { self: true, checks: [] }; }); }}>
+                  onClick={async () => { if (!s.answer.trim() && !(await ask({ title: "Xem đáp án?", msg: "Bạn chưa viết câu trả lời. Vẫn xem đáp án?", ok: "Xem đáp án", cancel: "Viết tiếp" }))) return; setW((x) => { x.res = { self: true, checks: [] }; }); }}>
                   Tự chấm với đáp án gợi ý
                 </button>
               </div>

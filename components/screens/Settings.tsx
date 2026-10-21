@@ -1,4 +1,5 @@
 "use client";
+import { ask } from "@/lib/confirm";
 import Link from "next/link";
 import StylePicker from "../StylePicker";
 import { useApp } from "@/lib/store";
@@ -96,12 +97,13 @@ export default function Settings() {
               setUI({ ob: 0 });
               window.scrollTo(0, 0);
             }}>Làm lại các câu hỏi bắt đầu</button>
-            <button className="btn btn-line" onClick={() => {
-              if (!confirm("Xóa toàn bộ tiến độ, lựa chọn, sổ lỗi sai và đề AI? Không thể hoàn tác.")) return;
+            <button className="btn btn-line" onClick={async () => {
+              if (!(await ask({ title: "Xóa toàn bộ tiến độ?", msg: "Xóa toàn bộ tiến độ, lựa chọn, sổ lỗi sai và đề AI? Không thể hoàn tác.", ok: "Xóa hết", danger: true, icon: "warn" }))) return;
               update((S) => { const th = S.theme; Object.assign(S, DEF()); S.theme = th; });
               setUI({ ob: 0, ef: null });
             }}>Xóa toàn bộ tiến độ</button>
           </div>
+          <p className="small muted !mb-0 mt-3">Phiên bản: {(process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA || "local").slice(0, 7)} · luyện chủ đề 12 câu</p>
         </div>
       </div>
     </div>

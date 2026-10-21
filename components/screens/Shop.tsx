@@ -1,4 +1,5 @@
 "use client";
+import { ask } from "@/lib/confirm";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useApp } from "@/lib/store";
@@ -35,7 +36,7 @@ export default function Shop() {
   const preview: Equip | undefined = tryOn && tryOn.slot !== "consumable" ? { ...g.equip, [tryOn.slot]: tryOn.id } : undefined;
 
   const buy = async (it: Item) => {
-    if (!confirm(`Mua ${it.name} với giá ${it.price.toLocaleString("vi-VN")} xu?`)) return;
+    if (!(await ask({ title: "Mua vật phẩm", msg: `Mua ${it.name} với giá ${it.price.toLocaleString("vi-VN")} xu?`, ok: "Mua", icon: "coin" }))) return;
     if (await buyItem(it.id)) setTryOn(null);
   };
 

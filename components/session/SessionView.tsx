@@ -1,4 +1,5 @@
 "use client";
+import { ask } from "@/lib/confirm";
 import { useEffect } from "react";
 import { useApp, finishSession } from "@/lib/store";
 import { record } from "@/lib/logic";
@@ -38,9 +39,10 @@ export function nextQ() {
   if (s.i + 1 < s.items.length) { useApp.getState().act((_S, ses) => { (ses as QuizSession).i++; }); window.scrollTo(0, 0); }
   else finishSession();
 }
-export function quit() {
+export async function quit() {
   const { ses, update } = useApp.getState(); if (!ses) return;
-  if ((ses.kind === "exam" || ses.kind === "fight") && !(ses as QuizSession).done && !confirm("Thoát bây giờ? Kết quả lượt này sẽ không được tính.")) return;
+  if ((ses.kind === "exam" || ses.kind === "fight") && !(ses as QuizSession).done && !(await ask({ title: "Thoát bài?", msg: "Thoát bây giờ? Kết quả lượt này sẽ không được tính.", ok: "Thoát", cancel: "Ở lại", danger: true, icon: "warn" }))) return;
+  if (useApp.getState().ses !== ses) return;
   if (ses.kind === "diag") update((S) => { S.onboarded = true; });
   useApp.setState({ ses: null });
 }

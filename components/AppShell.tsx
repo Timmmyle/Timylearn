@@ -1,4 +1,5 @@
 "use client";
+import AskModal from "./AskModal";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -86,7 +87,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
 
   if (!hydrated) return <div className="min-h-dvh grid place-items-center muted">Đang tải…</div>;
   // Lần đầu vào app: hỏi phong cách chữ (có xem trước)
-  if (!S.theme.font && path !== "/dang-nhap") return <><StylePicker gate /><Toast /></>;
+  if (!S.theme.font && path !== "/dang-nhap") return <><StylePicker gate /><Toast /><AskModal /></>;
 
   const inSession = !!ses;
   const showOnboard = !S.onboarded && path !== "/dang-nhap";
@@ -180,6 +181,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
         </div>
       )}
       <Toast />
+      <AskModal />
     </>
   );
 }

@@ -1,4 +1,5 @@
 "use client";
+import { ask } from "@/lib/confirm";
 import { MathText } from "@/components/MathText";
 import { QImage } from "@/components/QImage";
 import { useEffect, useState } from "react";
@@ -64,9 +65,9 @@ export default function ExamView() {
         <button className="btn btn-line" disabled={s.i === 0} onClick={() => go(s.i - 1)}>Câu trước</button>
         <button className="btn btn-line flex-1" disabled={s.i === n - 1} onClick={() => go(s.i + 1)}>Câu sau</button>
       </div>
-      <button className="btn mt-2.5 w-full" onClick={() => {
+      <button className="btn mt-2.5 w-full" onClick={async () => {
         const rest = n - answered;
-        if (rest && !confirm(`Còn ${rest} câu chưa làm xong. Vẫn nộp bài?`)) return;
+        if (rest && !(await ask({ title: "Nộp bài?", msg: `Còn ${rest} câu chưa làm xong. Vẫn nộp bài?`, ok: "Nộp bài", cancel: "Làm tiếp", icon: "warn" }))) return;
         finishSession();
       }}>Nộp bài ({answered}/{n} câu đã làm)</button>
     </>
