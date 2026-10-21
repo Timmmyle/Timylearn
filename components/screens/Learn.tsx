@@ -11,11 +11,29 @@ import {
 import WritePanel, { startWrite } from "../WritePanel";
 import { useState } from "react";
 import { loadRandom, useRemote } from "@/lib/remote";
+import { TOPIC_N, topicHasGen, topicQuestions } from "@/lib/topicPool";
 
-export function startTopic(k: string) {
+let topicBusy = false;
+export async function startTopic(k: string) {
   if (k === WKEY) { const S = useApp.getState().S; const pick = writeList(S)[0]; if (pick) startWrite(pick.id, 0); return; }
+  if (topicBusy) return; topicBusy = true;
   const t = TOP[k];
-  startSession("practice", qOfTopics([k]), t ? t.t : "Luyện tập");
+  try {
+    const { ids, ai } = await topicQuestions(k);
+    if (ai) toast("Đã nhờ AI soạn thêm câu cho chủ đề này");
+    startSession("practice", ids, t ? t.t : "Luyện tập");
+  } catch {
+    startSession("practice", qOfTopics([k]), t ? t.t : "Luyện tập");
+  } finally { topicBusy = false; }
+}
+function TopicBtn({ k }: { k: string }) {
+  const [busy, setBusy] = useState(false);
+  if (k === WKEY) return <button className="btn btn-ghost" onClick={() => startTopic(k)}>Luyện viết câu trả lời</button>;
+  return (
+    <button className="btn btn-ghost" disabled={busy} onClick={async () => { setBusy(true); try { await startTopic(k); } finally { setBusy(false); } }}>
+      {busy ? "Đang chuẩn bị câu hỏi…" : `Luyện chủ đề này (${TOPIC_N} câu${topicHasGen(k) ? ", số liệu mới mỗi lần" : ""})`}
+    </button>
+  );
 }
 export function startReview(all = false) {
   const S = useApp.getState().S;
@@ -126,15 +144,13 @@ export default function Learn() {
                       <span className="w-16 flex-none"><span className="bar block"><i style={{ width: (a || 0) + "%" }} /></span></span>
                     </summary>
                     <div className="theory"><MathText text={t.th} /></div>
-                    <button className="btn btn-ghost" onClick={() => startTopic(t.k)}>
-                      {t.k === WKEY ? "Luyện viết câu trả lời" : `Luyện chủ đề này (${qOfTopics([t.k]).length} câu)`}
-                    </button>
+                    <TopicBtn k={t.k} />
                   </details>
                 </div>
               );
             })}
           </div>
-          <p className="small muted">Thứ tự chương theo bộ Kết nối tri thức. Kho câu hỏi mẫu còn nhỏ; tạo thêm câu theo đúng phạm vi bằng AI trong mục Đề thi.</p>
+          <p className="small muted">Thứ tự chương theo bộ Kết nối tri thức. Mỗi lượt luyện gộp câu từ đề ôn giữa/cuối kì, dạng bài tự sinh (đổi số liệu) và kho đề chung; chủ đề còn ít câu sẽ được AI soạn thêm.</p>
         </>
       )}
     </>
