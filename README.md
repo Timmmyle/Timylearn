@@ -99,6 +99,13 @@ node scripts/data/upload.mjs --dir data/bgddt
 
 Muốn thêm nguồn khác (đề 2024–2025 của Bộ, đề minh họa HSA/V-ACT/TSA…): xuất ra cùng định dạng `exam_sets.json` / `questions.json` như trong `data/vnhsge` rồi chạy `node scripts/data/upload.mjs --dir <thư mục>`.
 
+### Đề ôn giữa kì / cuối kì lớp 10–12 (soạn theo SGK mới)
+
+`data/hk1/src/`: 30 đề học kì 1 (giữa kì 1 + cuối kì 1) cho lớp 10, 11, 12, môn Toán, Vật lí, Hóa học, Tiếng Anh, Ngữ văn. Đề soạn mới theo chương trình GDPT 2018 (sách Kết nối tri thức), cấu trúc như đề kiểm tra hiện nay; mỗi câu có lời giải, đáp án đã được giải lại độc lập.
+- Ngữ văn: văn bản đọc hiểu là tác phẩm có thật thuộc phạm vi công cộng (Nguyễn Khuyến, Nguyễn Bỉnh Khiêm, Hàn Mặc Tử, Thạch Lam, Tú Xương, Hồ Chí Minh), 5 câu đọc hiểu + 2 câu viết, luyện trong mục "Luyện trình bày" và chấm bằng AI hoặc tự chấm.
+- Không cần Supabase: `npm run data:hk` tạo file tĩnh trong `public/de-hk/`, app tải khi mở đề (dùng được cả trong app điện thoại).
+- Thêm đề học kì 2: đặt file cùng định dạng vào `data/hk1/src/` (exam `gk2`/`ck2`) rồi chạy lại `npm run data:hk`.
+
 ### Chế độ game: nhân vật, xu, cửa hàng, đua top
 
 Chạy thêm `supabase/migrations/0005_game.sql` trong SQL Editor (chạy lại nhiều lần được).
@@ -179,5 +186,3 @@ capacitor.config.ts, scripts/build-mobile.mjs
 - Điểm xếp hạng đang do client tính rồi lưu lên (giống bản gốc), nên người rành kỹ thuật có thể sửa. Nếu bảng xếp hạng quan trọng, nên chuyển phần chấm trận đấu lên server.
 - Giới hạn tốc độ AI đang lưu trong bộ nhớ (đủ cho 1 server). Chạy nhiều instance thì đổi sang Redis/Upstash.
 - Câu hỏi do AI tạo có thể sai: app luôn gắn nhãn “AI” và nhắc giáo viên duyệt.
-#   T i m y l e a r n  
- 

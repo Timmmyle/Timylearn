@@ -10,7 +10,9 @@ import { aiStatus } from "@/lib/api";
 import { initRemote } from "@/lib/remote";
 import { Icon, Flame, Coin } from "./Icon";
 import { initGame, league, useGame } from "@/lib/game";
+import { initHK } from "@/lib/hk";
 import Onboarding from "./Onboarding";
+import StylePicker from "./StylePicker";
 import SessionView from "./session/SessionView";
 
 const NAV: [string, string, string][] = [
@@ -45,6 +47,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
     aiStatus().then((ai) => useApp.setState({ ai }));
     initRemote();
     initGame();
+    initHK();
     let unsub: (() => void) | undefined;
     if (supabase) {
       supabase.auth.getSession().then(({ data }) => {
@@ -72,13 +75,16 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
     const r = document.documentElement;
     if (S.theme.mode === "auto") delete r.dataset.theme; else r.dataset.theme = S.theme.mode;
     r.dataset.accent = S.theme.accent;
-  }, [S.theme.mode, S.theme.accent]);
+    if (S.theme.font) r.dataset.font = S.theme.font;
+  }, [S.theme.mode, S.theme.accent, S.theme.font]);
 
   const [menu, setMenu] = useState(false);
   useEffect(() => setMenu(false), [path]);
   const coins = useGame((g) => g.coins), gStatus = useGame((g) => g.status);
 
   if (!hydrated) return <div className="min-h-dvh grid place-items-center muted">Đang tải…</div>;
+  // Lần đầu vào app: hỏi phong cách chữ (có xem trước)
+  if (!S.theme.font && path !== "/dang-nhap") return <><StylePicker gate /><Toast /></>;
 
   const inSession = !!ses;
   const showOnboard = !S.onboarded && path !== "/dang-nhap";

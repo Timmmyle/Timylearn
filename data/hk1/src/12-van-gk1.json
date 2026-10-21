@@ -1,0 +1,97 @@
+{
+  "grade": 12,
+  "subject": "Ngữ văn",
+  "exam": "gk1",
+  "duration_min": 90,
+  "title": "Đề ôn giữa học kì 1 – Ngữ văn 12",
+  "genre": "Thơ trữ tình (thơ Nôm Đường luật)",
+  "work": {
+    "author": "Trần Tế Xương (Tú Xương)",
+    "title": "Thương vợ",
+    "source": "Thơ văn Trần Tế Xương",
+    "public_domain_reason": "Tác giả mất năm 1907"
+  },
+  "passage": "Quanh năm buôn bán ở mom sông,\nNuôi đủ năm con với một chồng.\nLặn lội thân cò khi quãng vắng,\nEo sèo mặt nước buổi đò đông.\nMột duyên hai nợ âu đành phận,\nNăm nắng mười mưa dám quản công.\nCha mẹ thói đời ăn ở bạc:\nCó chồng hờ hững cũng như không!",
+  "src": "(Trần Tế Xương, Thương vợ, in trong Thơ văn Trần Tế Xương)\n* Trần Tế Xương (1870–1907), thường gọi là Tú Xương, quê ở làng Vị Xuyên, huyện Mỹ Lộc, tỉnh Nam Định; nhà thơ nổi tiếng với hai mảng thơ trào phúng và trữ tình.\n* Mom sông: phần đất nhô ra ở bờ sông.\n* Eo sèo: tiếng kêu ca, cãi cọ, mặc cả ồn ào.\n* Âu đành phận: đành chấp nhận số phận.",
+  "questions": [
+    {
+      "q": "Câu 1 (0,5 điểm). Xác định thể thơ của văn bản.",
+      "type": "nhanbiet",
+      "points": [
+        "Thể thất ngôn bát cú Đường luật (viết bằng chữ Nôm)."
+      ],
+      "model": "Văn bản được viết theo thể thất ngôn bát cú Đường luật, gồm tám câu, mỗi câu bảy chữ, gieo vần \"ông\" ở cuối các câu 1, 2, 4, 6, 8."
+    },
+    {
+      "q": "Câu 2 (0,5 điểm). Chỉ ra những từ ngữ, hình ảnh nói về thời gian, không gian và công việc của bà Tú trong hai câu đề.",
+      "type": "nhanbiet",
+      "points": [
+        "Thời gian: \"quanh năm\"",
+        "Không gian: \"mom sông\"",
+        "Công việc: \"buôn bán\", \"nuôi đủ năm con với một chồng\""
+      ],
+      "model": "Hai câu đề cho biết bà Tú buôn bán \"quanh năm\" – liên tục, không ngơi nghỉ – ở \"mom sông\", một nơi chênh vênh, bấp bênh. Công việc ấy để \"nuôi đủ năm con với một chồng\"."
+    },
+    {
+      "q": "Câu 3 (1,0 điểm). Phân tích tác dụng của hình ảnh \"thân cò\" và phép đối trong hai câu thực: \"Lặn lội thân cò khi quãng vắng, / Eo sèo mặt nước buổi đò đông.\"",
+      "type": "tutu",
+      "points": [
+        "Hình ảnh \"thân cò\" vận dụng sáng tạo ca dao, ẩn dụ cho người phụ nữ lam lũ, nhỏ bé, vất vả",
+        "Đảo ngữ \"lặn lội\" lên đầu câu nhấn mạnh sự gian truân",
+        "Phép đối \"khi quãng vắng\" – \"buổi đò đông\": vừa cô đơn, hiểm nguy vừa chen chúc, bon chen",
+        "Thể hiện sự thấu hiểu, xót thương, trân trọng của ông Tú với vợ"
+      ],
+      "model": "Hình ảnh \"thân cò\" được Tú Xương vận dụng sáng tạo từ ca dao, gợi thân phận nhỏ bé, lam lũ của bà Tú; việc đảo \"lặn lội\" lên đầu câu càng nhấn mạnh nỗi vất vả. Phép đối giữa \"khi quãng vắng\" và \"buổi đò đông\" cho thấy bà vừa phải một mình nơi vắng vẻ, hiểm nguy, vừa phải chen chúc, bon chen nơi đông đúc. Qua đó, nhà thơ bày tỏ sự thấu hiểu, xót thương và trân trọng sâu sắc dành cho vợ."
+    },
+    {
+      "q": "Câu 4 (1,0 điểm). Hai câu luận \"Một duyên hai nợ âu đành phận, / Năm nắng mười mưa dám quản công.\" cho thấy những phẩm chất nào của bà Tú?",
+      "type": "noidung",
+      "points": [
+        "Thành ngữ \"một duyên hai nợ\", \"năm nắng mười mưa\": vất vả, gian truân gấp bội",
+        "Đức tính nhẫn nại, cam chịu, chấp nhận số phận \"âu đành phận\"",
+        "Giàu đức hi sinh, tận tụy vì chồng con, không kể công (\"dám quản công\")",
+        "Tấm lòng trân trọng, biết ơn của nhà thơ"
+      ],
+      "model": "Hai câu luận sử dụng thành ngữ \"một duyên hai nợ\", \"năm nắng mười mưa\" để nói lên nỗi vất vả, gian truân nhân lên gấp bội của bà Tú. Dù vậy, bà vẫn \"âu đành phận\", \"dám quản công\": nhẫn nại, cam chịu, tảo tần, hết lòng hi sinh vì chồng con mà không một lời kể công. Đó là vẻ đẹp tiêu biểu của người phụ nữ Việt Nam truyền thống, được nhà thơ ghi nhận với niềm cảm phục."
+    },
+    {
+      "q": "Câu 5 (1,0 điểm). Qua hai câu kết, Tú Xương đã tự trách mình \"có chồng hờ hững cũng như không\". Em có suy nghĩ gì về ý thức tự nhận trách nhiệm của mỗi người trong gia đình? (trình bày khoảng 5–7 dòng)",
+      "type": "quandiem",
+      "points": [
+        "Nêu quan điểm rõ ràng",
+        "Tú Xương dám tự phán xét, nhận lỗi: nhân cách đáng quý",
+        "Mỗi thành viên cần nhận phần trách nhiệm, chia sẻ, không đẩy gánh nặng cho người khác",
+        "Liên hệ bản thân: biết ơn, phụ giúp cha mẹ"
+      ],
+      "model": "Ở hai câu kết, Tú Xương không chỉ chửi \"thói đời\" mà còn dám tự nhận mình là người chồng \"hờ hững\", vô tích sự. Việc biết tự nhận lỗi ấy cho thấy một nhân cách đáng trân trọng. Trong gia đình, mỗi người đều cần ý thức được trách nhiệm của mình, biết chia sẻ, gánh vác thay vì phó mặc cho người khác. Với em, điều đó bắt đầu từ việc biết ơn sự vất vả của cha mẹ, phụ giúp việc nhà và học tập chăm chỉ."
+    }
+  ],
+  "essays": [
+    {
+      "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích hình ảnh bà Tú trong bài thơ \"Thương vợ\" (Trần Tế Xương).",
+      "type": "viet",
+      "points": [
+        "Đảm bảo hình thức đoạn văn khoảng 200 chữ, có câu chủ đề",
+        "Hoàn cảnh vất vả: buôn bán quanh năm ở mom sông, gánh nặng \"năm con với một chồng\"",
+        "Nỗi gian truân qua hình ảnh \"thân cò\", phép đối, thành ngữ",
+        "Phẩm chất: đảm đang, chịu thương chịu khó, giàu đức hi sinh",
+        "Đánh giá nghệ thuật (ngôn ngữ giản dị, vận dụng ca dao, thành ngữ) và tình cảm của nhà thơ"
+      ],
+      "model": "- Câu chủ đề: Bà Tú hiện lên là người phụ nữ tảo tần, giàu đức hi sinh.\n- Hai câu đề: buôn bán quanh năm nơi mom sông; nuôi \"năm con với một chồng\".\n- Hai câu thực: \"thân cò\" lặn lội, phép đối quãng vắng – đò đông.\n- Hai câu luận: thành ngữ, \"âu đành phận\", \"dám quản công\" → nhẫn nại, không kể công.\n- Đánh giá: ngôn ngữ giản dị, giàu chất dân gian; qua hình ảnh bà Tú thấy tình thương, sự biết ơn của Tú Xương."
+    },
+    {
+      "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) trình bày suy nghĩ của em về vấn đề: Sự thấu hiểu và sẻ chia giữa các thành viên trong gia đình hôm nay.",
+      "type": "viet",
+      "points": [
+        "Đảm bảo cấu trúc bài văn nghị luận: mở bài, thân bài, kết bài; khoảng 600 chữ",
+        "Giải thích: thấu hiểu là đặt mình vào vị trí người thân; sẻ chia là cùng gánh vác vật chất, tinh thần",
+        "Vai trò: gắn kết gia đình, giảm áp lực, giúp mỗi người trưởng thành",
+        "Thực trạng: khoảng cách thế hệ, ít trò chuyện vì bận rộn, mạng xã hội",
+        "Giải pháp, bài học: lắng nghe, trò chuyện, phụ giúp việc nhà, bày tỏ tình cảm",
+        "Lập luận chặt chẽ, dẫn chứng thuyết phục"
+      ],
+      "model": "- Mở bài: dẫn từ sự thấu hiểu của Tú Xương với vợ để nêu vấn đề.\n- Giải thích: thấu hiểu, sẻ chia là gì.\n- Ý nghĩa: tạo gắn kết, nâng đỡ nhau, hình thành nhân cách.\n- Thực trạng: nhiều gia đình sống chung mà ít trò chuyện, con cái vô tâm trước vất vả của cha mẹ.\n- Giải pháp: dành thời gian cho nhau, lắng nghe, chia việc nhà.\n- Kết bài: khẳng định giá trị; hành động cụ thể của bản thân."
+    }
+  ],
+  "confidence_note": "Chép trọn bài thơ 8 câu; mức chắc chắn rất cao về nguyên văn theo bản phổ biến (\"Có chồng hờ hững cũng như không\"). Không có câu nào phải bỏ."
+}

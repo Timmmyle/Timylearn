@@ -1,0 +1,611 @@
+{
+ "grade": 11,
+ "subject": "Tiếng Anh",
+ "exam": "gk1",
+ "duration_min": 60,
+ "title": "Đề ôn giữa học kì 1 – Tiếng Anh 11 (đề số 1)",
+ "scope": "Unit 1: A long and healthy life; Unit 2: The generation gap; Unit 3: Cities of the future (Global Success)",
+ "self_check": "Đã giải lại toàn bộ 40 câu; kiểm tra JSON, số câu, phân bố đáp án và số từ đoạn đọc bằng Python.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from that of the others.",
+   "options": [
+    "h$\\underline{\\text{ea}}$lthy",
+    "br$\\underline{\\text{ea}}$th",
+    "m$\\underline{\\text{ea}}$t",
+    "h$\\underline{\\text{ea}}$d"
+   ],
+   "answer": 2,
+   "explanation": "“meat” có “ea” đọc /iː/; “healthy”, “breath”, “head” có “ea” đọc /e/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 2,
+   "stem": "Choose the word whose underlined part is pronounced differently from that of the others.",
+   "options": [
+    "work$\\underline{\\text{ed}}$",
+    "practis$\\underline{\\text{ed}}$",
+    "attend$\\underline{\\text{ed}}$",
+    "watch$\\underline{\\text{ed}}$"
+   ],
+   "answer": 2,
+   "explanation": "Động từ tận cùng /t/, /d/ thì “-ed” đọc /ɪd/: “attended”. Các từ còn lại tận cùng /k/, /s/, /tʃ/ nên “-ed” đọc /t/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "existence",
+    "exercise",
+    "attitude",
+    "nutrient"
+   ],
+   "answer": 0,
+   "explanation": "“existence” /ɪɡˈzɪstəns/ nhấn âm 2; “exercise”, “attitude”, “nutrient” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "respect",
+    "urban",
+    "control",
+    "believe"
+   ],
+   "answer": 1,
+   "explanation": "“urban” /ˈɜːbən/ nhấn âm 1; “respect”, “control”, “believe” nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Unit 1: A long and healthy life – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nPeople in Japan have a high life ______; many of them live to over 80.",
+   "options": [
+    "expectation",
+    "expect",
+    "expectancy",
+    "expected"
+   ],
+   "answer": 2,
+   "explanation": "Cụm danh từ cố định “life expectancy” = tuổi thọ trung bình."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Unit 1: A long and healthy life – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nYou should ______ down on sugary drinks if you want to stay healthy.",
+   "options": [
+    "give",
+    "take",
+    "put",
+    "cut"
+   ],
+   "answer": 3,
+   "explanation": "“cut down on sth” = cắt giảm (lượng tiêu thụ) cái gì."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Unit 1: A long and healthy life – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nRegular exercise helps to boost your ______ system, so you are less likely to catch colds and flu.",
+   "options": [
+    "nervous",
+    "digestive",
+    "solar",
+    "immune"
+   ],
+   "answer": 3,
+   "explanation": "“immune system” = hệ miễn dịch, giúp cơ thể chống lại cảm cúm."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Unit 2: The generation gap – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nIn a(n) ______ family, grandparents, parents and children all live together under one roof.",
+   "options": [
+    "nuclear",
+    "single-parent",
+    "extended",
+    "small"
+   ],
+   "answer": 2,
+   "explanation": "“extended family” = gia đình nhiều thế hệ; “nuclear family” chỉ gồm bố mẹ và con."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Unit 2: The generation gap – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nMy grandparents are rather ______. They don't like it when I dye my hair or wear ripped jeans.",
+   "options": [
+    "open-minded",
+    "generous",
+    "curious",
+    "conservative"
+   ],
+   "answer": 3,
+   "explanation": "“conservative” = bảo thủ, phù hợp với việc không thích kiểu tóc, quần áo mới lạ."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Unit 2: The generation gap – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nThe ______ gap often causes conflicts between parents and teenagers over values and lifestyles.",
+   "options": [
+    "generation",
+    "general",
+    "generous",
+    "generate"
+   ],
+   "answer": 0,
+   "explanation": "“generation gap” = khoảng cách thế hệ."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Unit 3: Cities of the future – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nA ______ city uses technology to manage traffic, energy and public services efficiently.",
+   "options": [
+    "clever",
+    "wise",
+    "bright",
+    "smart"
+   ],
+   "answer": 3,
+   "explanation": "“smart city” = thành phố thông minh (ứng dụng công nghệ để quản lí)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Unit 3: Cities of the future – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\nGood ______ such as roads, bridges and public transport systems is essential for a sustainable city.",
+   "options": [
+    "architecture",
+    "infrastructure",
+    "agriculture",
+    "literature"
+   ],
+   "answer": 1,
+   "explanation": "“infrastructure” = cơ sở hạ tầng (đường sá, cầu cống, giao thông công cộng)."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs present perfect",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nMy grandfather ______ jogging every morning since he retired.",
+   "options": [
+    "has gone",
+    "went",
+    "goes",
+    "is going"
+   ],
+   "answer": 0,
+   "explanation": "Có “since + mốc thời gian” → thì hiện tại hoàn thành: has gone."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs present perfect",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nI ______ a health check-up last month, and the doctor said I was fine.",
+   "options": [
+    "have had",
+    "had",
+    "have",
+    "was having"
+   ],
+   "answer": 1,
+   "explanation": "“last month” là thời điểm xác định trong quá khứ → quá khứ đơn: had."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs present perfect",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\nThis is the first time I ______ yoga. It's really relaxing!",
+   "options": [
+    "tried",
+    "have tried",
+    "try",
+    "am trying"
+   ],
+   "answer": 1,
+   "explanation": "Cấu trúc “This is the first time + S + have/has + V3” → have tried."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Modal verbs (must, have to, should)",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nIn Viet Nam, you ______ wear a helmet when you ride a motorbike. It's the law.",
+   "options": [
+    "should",
+    "have to",
+    "might",
+    "needn't"
+   ],
+   "answer": 1,
+   "explanation": "Bắt buộc do luật quy định → “have to”."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Modal verbs (must, have to, should)",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nIf you have problems at school, you ______ talk to your parents. They may be able to help.",
+   "options": [
+    "mustn't",
+    "can't",
+    "should",
+    "needn't"
+   ],
+   "answer": 2,
+   "explanation": "Lời khuyên → “should”."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Modal verbs (must, have to, should)",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nStudents ______ use mobile phones during the exam. It's strictly forbidden.",
+   "options": [
+    "don't have to",
+    "mustn't",
+    "needn't",
+    "must"
+   ],
+   "answer": 1,
+   "explanation": "“strictly forbidden” = bị cấm → “mustn't”. “don't have to/needn't” chỉ là không cần thiết."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: Stative verbs",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nThis soup ______ delicious. Can I have some more?",
+   "options": [
+    "is tasting",
+    "taste",
+    "tastes",
+    "are tasting"
+   ],
+   "answer": 2,
+   "explanation": "“taste” (có vị) là động từ trạng thái, không dùng tiếp diễn; chủ ngữ số ít → tastes."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: Stative verbs",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\nWe ______ about moving to a smart city, but we haven't made a final decision yet.",
+   "options": [
+    "are thinking",
+    "think",
+    "thinks",
+    "is thinking"
+   ],
+   "answer": 0,
+   "explanation": "“think about” mang nghĩa đang cân nhắc (hành động) nên dùng được thì tiếp diễn; chủ ngữ “we” → are thinking."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nMai: “You look really fit. How do you keep in shape?”\nNam: “______”",
+   "options": [
+    "Yes, I'm in good shape.",
+    "Thanks, you too.",
+    "I work out at the gym three times a week.",
+    "No, I'm not hungry, thanks."
+   ],
+   "answer": 2,
+   "explanation": "Câu hỏi “How…?” hỏi cách giữ dáng → trả lời bằng thói quen tập luyện."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 2,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nGrandma: “In my day, teenagers didn't spend all day on their phones.”\nLan: “______”",
+   "options": [
+    "I see your point, Grandma, but phones also help us study.",
+    "You're welcome, Grandma.",
+    "Never mind, Grandma.",
+    "Of course. Go ahead, Grandma."
+   ],
+   "answer": 0,
+   "explanation": "Đáp lại một ý kiến bằng cách thừa nhận rồi nêu quan điểm khác một cách lịch sự."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement",
+   "level": 2,
+   "stem": "Choose the correct order of the sentences to make a meaningful conversation.\n\na. Tom: Really? What do you usually argue about?\nb. Lisa: I often argue with my parents these days.\nc. Lisa: Mostly about my curfew and the clothes I wear.\nd. Tom: Maybe you should talk to them calmly and listen to their views.\ne. Lisa: That's a good idea. I'll try it tonight.",
+   "options": [
+    "a – b – c – d – e",
+    "b – c – a – d – e",
+    "b – a – d – c – e",
+    "b – a – c – d – e"
+   ],
+   "answer": 3,
+   "explanation": "Lisa nêu vấn đề (b) → Tom hỏi lí do (a) → Lisa trả lời (c) → Tom khuyên (d) → Lisa đồng ý (e)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement",
+   "level": 3,
+   "stem": "Choose the correct order of the sentences to make a meaningful paragraph.\n\na. First, sensors will be used to monitor traffic and reduce congestion.\nb. Cities of the future are expected to be smarter and greener.\nc. Finally, residents will enjoy more green spaces and cleaner air.\nd. Second, solar panels on buildings will provide renewable energy.\ne. All these changes will make urban life more sustainable.",
+   "options": [
+    "b – a – d – c – e",
+    "b – d – a – c – e",
+    "a – d – c – b – e",
+    "b – a – c – d – e"
+   ],
+   "answer": 0,
+   "explanation": "Câu chủ đề (b) → các ý theo thứ tự First (a), Second (d), Finally (c) → câu kết (e)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1)",
+   "level": 1,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nLiving a long and healthy life is something everybody wishes for. Scientists say that our daily habits play an important (1)______ in how long we live. First, a balanced diet (2)______ plenty of fruit, vegetables and whole grains provides the nutrients our body needs. Second, people (3)______ exercise regularly tend to have stronger muscles and a healthier heart. Even a 30-minute walk every day can make a big difference. Third, getting enough sleep is essential (4)______ it helps the body recover and keeps the mind sharp. (5)______, many teenagers today stay up late playing games or chatting online. Doctors advise them to cut (6)______ on screen time before bed. By making small changes now, we can enjoy a longer and happier life.\n\nChoose the best option for blank (1).",
+   "options": [
+    "role",
+    "act",
+    "job",
+    "work"
+   ],
+   "answer": 0,
+   "explanation": "“play an important role in” = đóng vai trò quan trọng trong."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1)",
+   "level": 3,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nLiving a long and healthy life is something everybody wishes for. Scientists say that our daily habits play an important (1)______ in how long we live. First, a balanced diet (2)______ plenty of fruit, vegetables and whole grains provides the nutrients our body needs. Second, people (3)______ exercise regularly tend to have stronger muscles and a healthier heart. Even a 30-minute walk every day can make a big difference. Third, getting enough sleep is essential (4)______ it helps the body recover and keeps the mind sharp. (5)______, many teenagers today stay up late playing games or chatting online. Doctors advise them to cut (6)______ on screen time before bed. By making small changes now, we can enjoy a longer and happier life.\n\nChoose the best option for blank (2).",
+   "options": [
+    "containing",
+    "contains",
+    "contained",
+    "to contain"
+   ],
+   "answer": 0,
+   "explanation": "Rút gọn mệnh đề quan hệ chủ động “which contains” → “containing”; câu đã có động từ chính “provides”."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1)",
+   "level": 1,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nLiving a long and healthy life is something everybody wishes for. Scientists say that our daily habits play an important (1)______ in how long we live. First, a balanced diet (2)______ plenty of fruit, vegetables and whole grains provides the nutrients our body needs. Second, people (3)______ exercise regularly tend to have stronger muscles and a healthier heart. Even a 30-minute walk every day can make a big difference. Third, getting enough sleep is essential (4)______ it helps the body recover and keeps the mind sharp. (5)______, many teenagers today stay up late playing games or chatting online. Doctors advise them to cut (6)______ on screen time before bed. By making small changes now, we can enjoy a longer and happier life.\n\nChoose the best option for blank (3).",
+   "options": [
+    "which",
+    "whose",
+    "whom",
+    "who"
+   ],
+   "answer": 3,
+   "explanation": "Đại từ quan hệ thay cho người, làm chủ ngữ → who."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1)",
+   "level": 1,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nLiving a long and healthy life is something everybody wishes for. Scientists say that our daily habits play an important (1)______ in how long we live. First, a balanced diet (2)______ plenty of fruit, vegetables and whole grains provides the nutrients our body needs. Second, people (3)______ exercise regularly tend to have stronger muscles and a healthier heart. Even a 30-minute walk every day can make a big difference. Third, getting enough sleep is essential (4)______ it helps the body recover and keeps the mind sharp. (5)______, many teenagers today stay up late playing games or chatting online. Doctors advise them to cut (6)______ on screen time before bed. By making small changes now, we can enjoy a longer and happier life.\n\nChoose the best option for blank (4).",
+   "options": [
+    "because",
+    "although",
+    "so",
+    "but"
+   ],
+   "answer": 0,
+   "explanation": "Vế sau nêu lí do giấc ngủ quan trọng → because."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1)",
+   "level": 3,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nLiving a long and healthy life is something everybody wishes for. Scientists say that our daily habits play an important (1)______ in how long we live. First, a balanced diet (2)______ plenty of fruit, vegetables and whole grains provides the nutrients our body needs. Second, people (3)______ exercise regularly tend to have stronger muscles and a healthier heart. Even a 30-minute walk every day can make a big difference. Third, getting enough sleep is essential (4)______ it helps the body recover and keeps the mind sharp. (5)______, many teenagers today stay up late playing games or chatting online. Doctors advise them to cut (6)______ on screen time before bed. By making small changes now, we can enjoy a longer and happier life.\n\nChoose the best option for blank (5).",
+   "options": [
+    "Therefore",
+    "Moreover",
+    "For example",
+    "However"
+   ],
+   "answer": 3,
+   "explanation": "Câu trước nói ngủ đủ là cần thiết, câu này nói thanh thiếu niên thức khuya → quan hệ tương phản: However."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1)",
+   "level": 2,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nLiving a long and healthy life is something everybody wishes for. Scientists say that our daily habits play an important (1)______ in how long we live. First, a balanced diet (2)______ plenty of fruit, vegetables and whole grains provides the nutrients our body needs. Second, people (3)______ exercise regularly tend to have stronger muscles and a healthier heart. Even a 30-minute walk every day can make a big difference. Third, getting enough sleep is essential (4)______ it helps the body recover and keeps the mind sharp. (5)______, many teenagers today stay up late playing games or chatting online. Doctors advise them to cut (6)______ on screen time before bed. By making small changes now, we can enjoy a longer and happier life.\n\nChoose the best option for blank (6).",
+   "options": [
+    "down",
+    "off",
+    "up",
+    "out"
+   ],
+   "answer": 0,
+   "explanation": "“cut down on” = cắt giảm."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 2)",
+   "level": 2,
+   "stem": "Read the passage and choose the best answer to the question.\n\nIn many Vietnamese families, three generations still live under the same roof. While this extended family structure has many advantages, it can also lead to conflicts caused by the generation gap.\n\nOne common source of disagreement is technology. Teenagers today are digital natives; they grew up with smartphones and the Internet. They use social media to make friends, study and relax. Their grandparents, however, often see these devices as a waste of time and believe young people should spend more time talking face to face.\n\nAnother issue is career choice. Many parents want their children to become doctors, engineers or teachers because these jobs are stable and respected. Young people, on the other hand, are often interested in new careers such as content creation or game design, which their parents may not fully understand.\n\nDespite these differences, the generation gap can be bridged. Experts suggest that family members should spend quality time together, for example by having meals or doing housework together. More importantly, both sides have to listen to each other with an open mind. When teenagers explain their choices respectfully and older people share their life experience instead of giving orders, conflicts can turn into chances to understand and support one another.\n\nWhat is the passage mainly about?",
+   "options": [
+    "The advantages of living in an extended family.",
+    "The best careers for young people today.",
+    "The dangers of using social media.",
+    "The causes of the generation gap in families and ways to bridge it."
+   ],
+   "answer": 3,
+   "explanation": "Bài nêu nguyên nhân xung đột thế hệ (công nghệ, nghề nghiệp) và cách thu hẹp khoảng cách."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 2)",
+   "level": 1,
+   "stem": "Read the passage and choose the best answer to the question.\n\nIn many Vietnamese families, three generations still live under the same roof. While this extended family structure has many advantages, it can also lead to conflicts caused by the generation gap.\n\nOne common source of disagreement is technology. Teenagers today are digital natives; they grew up with smartphones and the Internet. They use social media to make friends, study and relax. Their grandparents, however, often see these devices as a waste of time and believe young people should spend more time talking face to face.\n\nAnother issue is career choice. Many parents want their children to become doctors, engineers or teachers because these jobs are stable and respected. Young people, on the other hand, are often interested in new careers such as content creation or game design, which their parents may not fully understand.\n\nDespite these differences, the generation gap can be bridged. Experts suggest that family members should spend quality time together, for example by having meals or doing housework together. More importantly, both sides have to listen to each other with an open mind. When teenagers explain their choices respectfully and older people share their life experience instead of giving orders, conflicts can turn into chances to understand and support one another.\n\nThe word “they” in paragraph 2 refers to ______.",
+   "options": [
+    "grandparents",
+    "teenagers",
+    "smartphones",
+    "families"
+   ],
+   "answer": 1,
+   "explanation": "“Teenagers today are digital natives; they grew up with smartphones…” → they = teenagers."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 2)",
+   "level": 1,
+   "stem": "Read the passage and choose the best answer to the question.\n\nIn many Vietnamese families, three generations still live under the same roof. While this extended family structure has many advantages, it can also lead to conflicts caused by the generation gap.\n\nOne common source of disagreement is technology. Teenagers today are digital natives; they grew up with smartphones and the Internet. They use social media to make friends, study and relax. Their grandparents, however, often see these devices as a waste of time and believe young people should spend more time talking face to face.\n\nAnother issue is career choice. Many parents want their children to become doctors, engineers or teachers because these jobs are stable and respected. Young people, on the other hand, are often interested in new careers such as content creation or game design, which their parents may not fully understand.\n\nDespite these differences, the generation gap can be bridged. Experts suggest that family members should spend quality time together, for example by having meals or doing housework together. More importantly, both sides have to listen to each other with an open mind. When teenagers explain their choices respectfully and older people share their life experience instead of giving orders, conflicts can turn into chances to understand and support one another.\n\nAccording to the passage, why do many parents want their children to become doctors, engineers or teachers?",
+   "options": [
+    "Because these jobs are well-paid and easy.",
+    "Because these jobs are stable and respected.",
+    "Because these jobs are new and exciting.",
+    "Because their children are interested in them."
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 3: “because these jobs are stable and respected”."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 2)",
+   "level": 2,
+   "stem": "Read the passage and choose the best answer to the question.\n\nIn many Vietnamese families, three generations still live under the same roof. While this extended family structure has many advantages, it can also lead to conflicts caused by the generation gap.\n\nOne common source of disagreement is technology. Teenagers today are digital natives; they grew up with smartphones and the Internet. They use social media to make friends, study and relax. Their grandparents, however, often see these devices as a waste of time and believe young people should spend more time talking face to face.\n\nAnother issue is career choice. Many parents want their children to become doctors, engineers or teachers because these jobs are stable and respected. Young people, on the other hand, are often interested in new careers such as content creation or game design, which their parents may not fully understand.\n\nDespite these differences, the generation gap can be bridged. Experts suggest that family members should spend quality time together, for example by having meals or doing housework together. More importantly, both sides have to listen to each other with an open mind. When teenagers explain their choices respectfully and older people share their life experience instead of giving orders, conflicts can turn into chances to understand and support one another.\n\nThe word “bridged” in paragraph 4 is closest in meaning to ______.",
+   "options": [
+    "widened",
+    "reduced",
+    "built",
+    "ignored"
+   ],
+   "answer": 1,
+   "explanation": "“the gap can be bridged” = khoảng cách có thể được thu hẹp → reduced."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 2)",
+   "level": 3,
+   "stem": "Read the passage and choose the best answer to the question.\n\nIn many Vietnamese families, three generations still live under the same roof. While this extended family structure has many advantages, it can also lead to conflicts caused by the generation gap.\n\nOne common source of disagreement is technology. Teenagers today are digital natives; they grew up with smartphones and the Internet. They use social media to make friends, study and relax. Their grandparents, however, often see these devices as a waste of time and believe young people should spend more time talking face to face.\n\nAnother issue is career choice. Many parents want their children to become doctors, engineers or teachers because these jobs are stable and respected. Young people, on the other hand, are often interested in new careers such as content creation or game design, which their parents may not fully understand.\n\nDespite these differences, the generation gap can be bridged. Experts suggest that family members should spend quality time together, for example by having meals or doing housework together. More importantly, both sides have to listen to each other with an open mind. When teenagers explain their choices respectfully and older people share their life experience instead of giving orders, conflicts can turn into chances to understand and support one another.\n\nWhich of the following is NOT mentioned as a way to bridge the generation gap?",
+   "options": [
+    "Having meals together.",
+    "Listening to each other with an open mind.",
+    "Moving out of the family home.",
+    "Doing housework together."
+   ],
+   "answer": 2,
+   "explanation": "Bài chỉ nêu ăn cơm, làm việc nhà cùng nhau và lắng nghe cởi mở; không nhắc đến việc dọn ra ở riêng."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 2)",
+   "level": 3,
+   "stem": "Read the passage and choose the best answer to the question.\n\nIn many Vietnamese families, three generations still live under the same roof. While this extended family structure has many advantages, it can also lead to conflicts caused by the generation gap.\n\nOne common source of disagreement is technology. Teenagers today are digital natives; they grew up with smartphones and the Internet. They use social media to make friends, study and relax. Their grandparents, however, often see these devices as a waste of time and believe young people should spend more time talking face to face.\n\nAnother issue is career choice. Many parents want their children to become doctors, engineers or teachers because these jobs are stable and respected. Young people, on the other hand, are often interested in new careers such as content creation or game design, which their parents may not fully understand.\n\nDespite these differences, the generation gap can be bridged. Experts suggest that family members should spend quality time together, for example by having meals or doing housework together. More importantly, both sides have to listen to each other with an open mind. When teenagers explain their choices respectfully and older people share their life experience instead of giving orders, conflicts can turn into chances to understand and support one another.\n\nIt can be inferred from the passage that ______.",
+   "options": [
+    "teenagers should always follow their parents' career choices",
+    "grandparents never use modern technology",
+    "extended families have more problems than advantages",
+    "differences between generations need not cause serious problems if family members communicate well"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn cuối: khi các bên tôn trọng, lắng nghe nhau thì xung đột trở thành cơ hội hiểu nhau → khác biệt không nhất thiết gây vấn đề."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification (Unit 1)",
+   "level": 3,
+   "stem": "Identify the underlined part (shown in square brackets) that needs correction.\n\nMy father [has stopped] smoking two [years ago], so he [feels] [much healthier] now.",
+   "options": [
+    "years ago",
+    "has stopped",
+    "feels",
+    "much healthier"
+   ],
+   "answer": 1,
+   "explanation": "Có “two years ago” → dùng quá khứ đơn: has stopped → stopped."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "topic": "Error identification (Unit 3)",
+   "level": 3,
+   "stem": "Identify the underlined part (shown in square brackets) that needs correction.\n\nThis apartment [is belonging] to my uncle, [who] [has lived] in the city [since] 2015.",
+   "options": [
+    "who",
+    "has lived",
+    "since",
+    "is belonging"
+   ],
+   "answer": 3,
+   "explanation": "“belong” là động từ trạng thái, không dùng tiếp diễn: is belonging → belongs."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Sentence transformation (Unit 2)",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given sentence.\n\nIt isn't necessary for you to bring food to the party.",
+   "options": [
+    "You mustn't bring food to the party.",
+    "You should bring food to the party.",
+    "You don't have to bring food to the party.",
+    "You must bring food to the party."
+   ],
+   "answer": 2,
+   "explanation": "“It isn't necessary” = không cần thiết → don't have to (khác mustn't = bị cấm)."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Sentence transformation (Unit 1)",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given sentence.\n\nI started learning English five years ago.",
+   "options": [
+    "I haven't learned English for five years.",
+    "I learned English for five years and then stopped.",
+    "I have learned English for five years.",
+    "I have learned English since five years."
+   ],
+   "answer": 2,
+   "explanation": "started … ago ↔ have + V3 + for + khoảng thời gian; “since” phải đi với mốc thời gian."
+  }
+ ]
+}

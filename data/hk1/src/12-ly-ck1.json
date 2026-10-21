@@ -1,0 +1,439 @@
+{
+ "grade": 12,
+ "subject": "Vật lí",
+ "exam": "ck1",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 1 – Vật lí 12 (đề số 1)",
+ "scope": "Chương I Vật lí nhiệt (sự chuyển thể, nội năng, định luật I của nhiệt động lực học, thang nhiệt độ, nhiệt dung riêng, nhiệt nóng chảy riêng, nhiệt hóa hơi riêng); Chương II Khí lí tưởng (mô hình động học phân tử chất khí, định luật Boyle, định luật Charles, phương trình trạng thái, áp suất khí theo mô hình động học, động năng phân tử)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Sự chuyển thể",
+   "level": 1,
+   "stem": "Sự bay hơi của chất lỏng",
+   "options": [
+    "chỉ xảy ra ở nhiệt độ sôi",
+    "xảy ra cả ở mặt thoáng và trong lòng chất lỏng",
+    "xảy ra ở mặt thoáng của chất lỏng và ở mọi nhiệt độ",
+    "chỉ xảy ra khi chất lỏng được đun nóng"
+   ],
+   "answer": 2,
+   "explanation": "Bay hơi là sự hóa hơi xảy ra ở mặt thoáng, ở mọi nhiệt độ; còn sự sôi xảy ra cả trong lòng chất lỏng ở nhiệt độ sôi."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Nội năng",
+   "level": 1,
+   "stem": "Trường hợp nào sau đây nội năng của vật thay đổi bằng cách thực hiện công?",
+   "options": [
+    "Xoa hai bàn tay vào nhau, tay nóng lên",
+    "Phơi quần áo ngoài nắng",
+    "Thả thìa kim loại vào cốc nước nóng",
+    "Chườm khăn lạnh lên trán"
+   ],
+   "answer": 0,
+   "explanation": "Xoa tay là ma sát (thực hiện công) làm tăng nội năng; ba trường hợp còn lại là truyền nhiệt."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Nhiệt nóng chảy riêng",
+   "level": 1,
+   "stem": "Gọi $\\lambda$ là nhiệt nóng chảy riêng của một chất rắn. Nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn khối chất rắn đó có khối lượng $m$ ở nhiệt độ nóng chảy là",
+   "options": [
+    "$Q = \\dfrac{\\lambda}{m}$",
+    "$Q = \\lambda m$",
+    "$Q = \\dfrac{m}{\\lambda}$",
+    "$Q = \\lambda m\\Delta t$"
+   ],
+   "answer": 1,
+   "explanation": "Theo định nghĩa nhiệt nóng chảy riêng: $Q = \\lambda m$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Định luật I của nhiệt động lực học",
+   "level": 2,
+   "stem": "Truyền cho một lượng khí nhiệt lượng $200\\ \\text{J}$ thì nội năng của khí tăng $50\\ \\text{J}$. Trong quá trình đó",
+   "options": [
+    "khí thực hiện công $150\\ \\text{J}$",
+    "khí nhận công $150\\ \\text{J}$",
+    "khí thực hiện công $250\\ \\text{J}$",
+    "khí nhận công $250\\ \\text{J}$"
+   ],
+   "answer": 0,
+   "explanation": "$A = \\Delta U - Q = 50 - 200 = -150\\ \\text{J} < 0$: khí thực hiện công $150\\ \\text{J}$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Thang nhiệt độ",
+   "level": 2,
+   "stem": "Khi nhiệt độ của một vật tăng thêm $10\\ ^\\circ\\text{C}$ thì nhiệt độ tuyệt đối của vật tăng thêm",
+   "options": [
+    "$283\\ \\text{K}$",
+    "$263\\ \\text{K}$",
+    "$283{,}15\\ \\text{K}$",
+    "$10\\ \\text{K}$"
+   ],
+   "answer": 3,
+   "explanation": "Một độ chia của thang Kelvin bằng một độ chia của thang Celsius, nên độ tăng nhiệt độ là $\\Delta T = \\Delta t = 10\\ \\text{K}$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Nhiệt dung riêng",
+   "level": 2,
+   "stem": "Cung cấp nhiệt lượng $9200\\ \\text{J}$ cho $0{,}5\\ \\text{kg}$ một kim loại thì nhiệt độ của nó tăng thêm $20\\ ^\\circ\\text{C}$. Nhiệt dung riêng của kim loại đó là",
+   "options": [
+    "$460\\ \\text{J/(kg}\\cdot\\text{K)}$",
+    "$920\\ \\text{J/(kg}\\cdot\\text{K)}$",
+    "$1840\\ \\text{J/(kg}\\cdot\\text{K)}$",
+    "$230\\ \\text{J/(kg}\\cdot\\text{K)}$"
+   ],
+   "answer": 1,
+   "explanation": "$c = \\dfrac{Q}{m\\Delta t} = \\dfrac{9200}{0{,}5\\cdot 20} = 920\\ \\text{J/(kg}\\cdot\\text{K)}$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Nhiệt hóa hơi riêng",
+   "level": 3,
+   "stem": "Biết nhiệt nóng chảy riêng của nước đá là $3{,}34\\cdot 10^5\\ \\text{J/kg}$, nhiệt dung riêng của nước là $4200\\ \\text{J/(kg}\\cdot\\text{K)}$, nhiệt hóa hơi riêng của nước là $2{,}26\\cdot 10^6\\ \\text{J/kg}$. Nhiệt lượng cần cung cấp để $100\\ \\text{g}$ nước đá ở $0\\ ^\\circ\\text{C}$ chuyển hoàn toàn thành hơi nước ở $100\\ ^\\circ\\text{C}$ xấp xỉ bằng",
+   "options": [
+    "$2{,}68\\cdot 10^5\\ \\text{J}$",
+    "$7{,}54\\cdot 10^4\\ \\text{J}$",
+    "$3{,}01\\cdot 10^5\\ \\text{J}$",
+    "$2{,}59\\cdot 10^5\\ \\text{J}$"
+   ],
+   "answer": 2,
+   "explanation": "$Q = \\lambda m + mc\\Delta t + Lm = 33\\,400 + 0{,}1\\cdot 4200\\cdot 100 + 226\\,000 = 301\\,400\\ \\text{J} \\approx 3{,}01\\cdot 10^5\\ \\text{J}$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Mô hình động học phân tử chất khí",
+   "level": 1,
+   "stem": "Phát biểu nào sau đây về mô hình động học phân tử chất khí là đúng?",
+   "options": [
+    "Các phân tử khí đứng yên khi khối khí ở trạng thái cân bằng",
+    "Các phân tử khí chuyển động hỗn loạn không ngừng; nhiệt độ càng cao thì chúng chuyển động càng nhanh",
+    "Các phân tử khí chỉ chuyển động theo một hướng xác định",
+    "Nhiệt độ càng cao thì các phân tử khí chuyển động càng chậm"
+   ],
+   "answer": 1,
+   "explanation": "Chất khí gồm các phân tử chuyển động hỗn loạn, không ngừng; nhiệt độ càng cao, tốc độ chuyển động nhiệt càng lớn."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Định luật Boyle",
+   "level": 1,
+   "stem": "Đối với một lượng khí xác định, khi nhiệt độ được giữ không đổi thì",
+   "options": [
+    "áp suất tỉ lệ thuận với thể tích",
+    "áp suất không phụ thuộc vào thể tích",
+    "áp suất tỉ lệ thuận với bình phương thể tích",
+    "áp suất tỉ lệ nghịch với thể tích"
+   ],
+   "answer": 3,
+   "explanation": "Định luật Boyle: $pV = $ hằng số khi $T$ không đổi, tức $p \\sim \\dfrac{1}{V}$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Định luật Charles",
+   "level": 1,
+   "stem": "Đối với một lượng khí xác định ở áp suất không đổi, hệ thức nào sau đây đúng?",
+   "options": [
+    "$\\dfrac{V}{T} = \\text{hằng số}$",
+    "$VT = \\text{hằng số}$",
+    "$\\dfrac{V}{t} = \\text{hằng số}$ ($t$ tính theo $^\\circ\\text{C}$)",
+    "$pV = \\text{hằng số}$"
+   ],
+   "answer": 0,
+   "explanation": "Định luật Charles: ở áp suất không đổi, thể tích tỉ lệ thuận với nhiệt độ tuyệt đối $T$ (không phải nhiệt độ Celsius)."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Mô hình động học phân tử chất khí",
+   "level": 1,
+   "stem": "Khí lí tưởng là chất khí trong đó",
+   "options": [
+    "các phân tử có kích thước lớn và luôn hút nhau mạnh",
+    "các phân tử đứng yên",
+    "các phân tử được coi là chất điểm và chỉ tương tác với nhau khi va chạm",
+    "các phân tử không va chạm với thành bình"
+   ],
+   "answer": 2,
+   "explanation": "Mô hình khí lí tưởng: phân tử coi là chất điểm, bỏ qua tương tác trừ lúc va chạm."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Phương trình trạng thái khí lí tưởng",
+   "level": 1,
+   "stem": "Phương trình Clapeyron cho $n$ mol khí lí tưởng ở áp suất $p$, thể tích $V$, nhiệt độ tuyệt đối $T$ là ($R$ là hằng số khí)",
+   "options": [
+    "$pT = nRV$",
+    "$pV = \\dfrac{nR}{T}$",
+    "$VT = nRp$",
+    "$pV = nRT$"
+   ],
+   "answer": 3,
+   "explanation": "Phương trình trạng thái khí lí tưởng (Clapeyron): $pV = nRT$."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Áp suất khí theo mô hình động học",
+   "level": 2,
+   "stem": "Theo mô hình động học phân tử, áp suất của chất khí lên thành bình là do",
+   "options": [
+    "trọng lượng của các phân tử khí đè lên đáy bình",
+    "các phân tử khí va chạm vào thành bình",
+    "các phân tử khí hút thành bình",
+    "thành bình nén lên khối khí"
+   ],
+   "answer": 1,
+   "explanation": "Các phân tử khí chuyển động hỗn loạn va chạm vào thành bình, tác dụng lực lên thành bình và gây ra áp suất."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Động năng phân tử",
+   "level": 1,
+   "stem": "Động năng tịnh tiến trung bình của phân tử khí lí tưởng ở nhiệt độ tuyệt đối $T$ là ($k$ là hằng số Boltzmann)",
+   "options": [
+    "$\\overline{E}_\\text{đ} = \\dfrac{3}{2}kT$",
+    "$\\overline{E}_\\text{đ} = \\dfrac{2}{3}kT$",
+    "$\\overline{E}_\\text{đ} = \\dfrac{1}{2}kT^2$",
+    "$\\overline{E}_\\text{đ} = 3kT$"
+   ],
+   "answer": 0,
+   "explanation": "Theo mô hình động học phân tử: $\\overline{E}_\\text{đ} = \\dfrac{3}{2}kT$."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Định luật Boyle",
+   "level": 2,
+   "stem": "Một lượng khí có thể tích $6\\ \\text{lít}$ ở áp suất $2\\ \\text{atm}$ được nén đẳng nhiệt đến thể tích $4\\ \\text{lít}$. Áp suất của khí khi đó là",
+   "options": [
+    "$1{,}33\\ \\text{atm}$",
+    "$12\\ \\text{atm}$",
+    "$3\\ \\text{atm}$",
+    "$4\\ \\text{atm}$"
+   ],
+   "answer": 2,
+   "explanation": "$p_1V_1 = p_2V_2 \\Rightarrow p_2 = \\dfrac{2\\cdot 6}{4} = 3\\ \\text{atm}$."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Định luật Charles",
+   "level": 3,
+   "stem": "Một lượng khí có thể tích $3\\ \\text{lít}$ ở $27\\ ^\\circ\\text{C}$ được nung nóng đẳng áp đến $127\\ ^\\circ\\text{C}$. Lấy $T = t + 273$. Thể tích của khí khi đó là",
+   "options": [
+    "$14{,}1\\ \\text{lít}$",
+    "$2{,}25\\ \\text{lít}$",
+    "$1{,}3\\ \\text{lít}$",
+    "$4\\ \\text{lít}$"
+   ],
+   "answer": 3,
+   "explanation": "$\\dfrac{V_1}{T_1} = \\dfrac{V_2}{T_2} \\Rightarrow V_2 = 3\\cdot\\dfrac{400}{300} = 4\\ \\text{lít}$. Lỗi thường gặp là dùng nhiệt độ Celsius ($3\\cdot\\frac{127}{27} \\approx 14{,}1$ lít)."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Phương trình trạng thái khí lí tưởng",
+   "level": 3,
+   "stem": "Một bình kín dung tích $8{,}31\\ \\text{lít}$ chứa khí lí tưởng ở nhiệt độ $27\\ ^\\circ\\text{C}$ và áp suất $1{,}5\\cdot 10^5\\ \\text{Pa}$. Lấy $R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}$, $T = t + 273$. Số mol khí trong bình là",
+   "options": [
+    "$0{,}5\\ \\text{mol}$",
+    "$5{,}56\\ \\text{mol}$",
+    "$500\\ \\text{mol}$",
+    "$0{,}05\\ \\text{mol}$"
+   ],
+   "answer": 0,
+   "explanation": "Đổi $V = 8{,}31\\cdot 10^{-3}\\ \\text{m}^3$, $T = 300\\ \\text{K}$: $n = \\dfrac{pV}{RT} = \\dfrac{1{,}5\\cdot 10^5\\cdot 8{,}31\\cdot 10^{-3}}{8{,}31\\cdot 300} = 0{,}5\\ \\text{mol}$."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Động năng phân tử",
+   "level": 3,
+   "stem": "Lấy hằng số Boltzmann $k = 1{,}38\\cdot 10^{-23}\\ \\text{J/K}$ và $T = t + 273$. Động năng tịnh tiến trung bình của một phân tử khí lí tưởng ở $127\\ ^\\circ\\text{C}$ là",
+   "options": [
+    "$5{,}52\\cdot 10^{-21}\\ \\text{J}$",
+    "$8{,}28\\cdot 10^{-21}\\ \\text{J}$",
+    "$2{,}63\\cdot 10^{-21}\\ \\text{J}$",
+    "$2{,}76\\cdot 10^{-21}\\ \\text{J}$"
+   ],
+   "answer": 1,
+   "explanation": "$T = 400\\ \\text{K}$; $\\overline{E}_\\text{đ} = \\dfrac{3}{2}kT = 1{,}5\\cdot 1{,}38\\cdot 10^{-23}\\cdot 400 = 8{,}28\\cdot 10^{-21}\\ \\text{J}$."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "topic": "Nhiệt nóng chảy riêng",
+   "level": 2,
+   "stem": "Thả $0{,}1\\ \\text{kg}$ nước đá ở $0\\ ^\\circ\\text{C}$ vào một nhiệt lượng kế chứa $0{,}4\\ \\text{kg}$ nước ở $40\\ ^\\circ\\text{C}$. Bỏ qua nhiệt dung của nhiệt lượng kế và sự trao đổi nhiệt với môi trường. Biết nhiệt nóng chảy riêng của nước đá là $3{,}34\\cdot 10^5\\ \\text{J/kg}$, nhiệt dung riêng của nước là $4200\\ \\text{J/(kg}\\cdot\\text{K)}$.",
+   "statements": [
+    {
+     "t": "Nước đá thu nhiệt, nước trong nhiệt lượng kế tỏa nhiệt.",
+     "a": true
+    },
+    {
+     "t": "Nhiệt lượng cần để làm nóng chảy hoàn toàn lượng nước đá trên là $33{,}4\\ \\text{kJ}$.",
+     "a": true
+    },
+    {
+     "t": "Lượng nước đá trên tan hết.",
+     "a": true
+    },
+    {
+     "t": "Nhiệt độ của hệ khi cân bằng nhiệt là $32\\ ^\\circ\\text{C}$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: $Q = 0{,}1\\cdot 3{,}34\\cdot 10^5 = 33\\,400\\ \\text{J}$. c) Đúng: nước hạ từ $40\\ ^\\circ\\text{C}$ về $0\\ ^\\circ\\text{C}$ tỏa $0{,}4\\cdot 4200\\cdot 40 = 67\\,200\\ \\text{J} > 33\\,400\\ \\text{J}$. d) Sai: $0{,}4\\cdot 4200(40 - t) = 33\\,400 + 0{,}1\\cdot 4200\\,t \\Rightarrow t \\approx 16{,}1\\ ^\\circ\\text{C}$ (32 °C là kết quả khi bỏ quên nhiệt nóng chảy)."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "topic": "Định luật Boyle",
+   "level": 2,
+   "stem": "Một lượng khí lí tưởng ở trạng thái (1): $p_1 = 1\\cdot 10^5\\ \\text{Pa}$, $V_1 = 10\\ \\text{lít}$, $T_1 = 300\\ \\text{K}$. Khí được nén đẳng nhiệt đến trạng thái (2) có $V_2 = 5\\ \\text{lít}$, sau đó được nung nóng đẳng áp đến trạng thái (3) có $T_3 = 450\\ \\text{K}$. Lấy $R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}$.",
+   "statements": [
+    {
+     "t": "Trong quá trình (1) → (2), áp suất của khí tỉ lệ nghịch với thể tích.",
+     "a": true
+    },
+    {
+     "t": "Áp suất của khí ở trạng thái (2) là $0{,}5\\cdot 10^5\\ \\text{Pa}$.",
+     "a": false
+    },
+    {
+     "t": "Thể tích của khí ở trạng thái (3) là $7{,}5\\ \\text{lít}$.",
+     "a": true
+    },
+    {
+     "t": "Số mol của lượng khí trên xấp xỉ $0{,}4\\ \\text{mol}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng (định luật Boyle). b) Sai: $p_2 = \\dfrac{p_1V_1}{V_2} = 2\\cdot 10^5\\ \\text{Pa}$. c) Đúng: $V_3 = V_2\\dfrac{T_3}{T_2} = 5\\cdot\\dfrac{450}{300} = 7{,}5\\ \\text{lít}$. d) Đúng: $n = \\dfrac{p_1V_1}{RT_1} = \\dfrac{10^5\\cdot 10^{-2}}{8{,}31\\cdot 300} \\approx 0{,}40\\ \\text{mol}$."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "topic": "Phương trình trạng thái khí lí tưởng",
+   "level": 3,
+   "stem": "Lốp xe ô tô được bơm khi nhiệt độ khí trong lốp là $27\\ ^\\circ\\text{C}$, áp suất khí trong lốp là $2{,}4\\cdot 10^5\\ \\text{Pa}$. Sau khi xe chạy đường dài, nhiệt độ khí trong lốp là $57\\ ^\\circ\\text{C}$. Coi thể tích lốp không đổi, khí trong lốp là khí lí tưởng; lấy $T = t + 273$.",
+   "statements": [
+    {
+     "t": "Quá trình biến đổi trạng thái của khí trong lốp là quá trình đẳng tích.",
+     "a": true
+    },
+    {
+     "t": "Trong quá trình này, áp suất khí tỉ lệ thuận với nhiệt độ Celsius của khí.",
+     "a": false
+    },
+    {
+     "t": "Áp suất khí trong lốp ở $57\\ ^\\circ\\text{C}$ là $2{,}64\\cdot 10^5\\ \\text{Pa}$.",
+     "a": true
+    },
+    {
+     "t": "Nếu lốp chịu được áp suất tối đa $3\\cdot 10^5\\ \\text{Pa}$ thì lốp sẽ bị nổ khi nhiệt độ khí trong lốp vượt quá khoảng $34\\ ^\\circ\\text{C}$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $V$ không đổi. b) Sai: $p$ tỉ lệ thuận với nhiệt độ tuyệt đối $T$. c) Đúng: $p_2 = 2{,}4\\cdot 10^5\\cdot\\dfrac{330}{300} = 2{,}64\\cdot 10^5\\ \\text{Pa}$. d) Sai: $T_{\\max} = 300\\cdot\\dfrac{3}{2{,}4} = 375\\ \\text{K}$, tức khoảng $102\\ ^\\circ\\text{C}$ (34 °C là do tính nhầm theo nhiệt độ Celsius)."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "topic": "Động năng phân tử",
+   "level": 3,
+   "stem": "Một bình chứa khí oxygen ($M = 32\\ \\text{g/mol}$) ở nhiệt độ $27\\ ^\\circ\\text{C}$, coi là khí lí tưởng. Lấy $k = 1{,}38\\cdot 10^{-23}\\ \\text{J/K}$, $N_A = 6{,}02\\cdot 10^{23}\\ \\text{mol}^{-1}$, $R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}$, $T = t + 273$.",
+   "statements": [
+    {
+     "t": "Động năng tịnh tiến trung bình của phân tử khí tỉ lệ thuận với nhiệt độ tuyệt đối của khí.",
+     "a": true
+    },
+    {
+     "t": "Động năng tịnh tiến trung bình của một phân tử oxygen trong bình xấp xỉ $6{,}21\\cdot 10^{-21}\\ \\text{J}$.",
+     "a": true
+    },
+    {
+     "t": "Khối lượng của một phân tử oxygen xấp xỉ $5{,}32\\cdot 10^{-26}\\ \\text{kg}$.",
+     "a": true
+    },
+    {
+     "t": "Nếu nhiệt độ tuyệt đối của khí tăng gấp đôi thì tốc độ căn quân phương ($v_{\\text{rms}} = \\sqrt{\\overline{v^2}}$) của các phân tử cũng tăng gấp đôi.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $\\overline{E}_\\text{đ} = \\dfrac{3}{2}kT$. b) Đúng: $1{,}5\\cdot 1{,}38\\cdot 10^{-23}\\cdot 300 = 6{,}21\\cdot 10^{-21}\\ \\text{J}$. c) Đúng: $m_0 = \\dfrac{M}{N_A} = \\dfrac{0{,}032}{6{,}02\\cdot 10^{23}} \\approx 5{,}32\\cdot 10^{-26}\\ \\text{kg}$. d) Sai: $v_{\\text{rms}} = \\sqrt{\\dfrac{3RT}{M}} \\sim \\sqrt{T}$ nên chỉ tăng $\\sqrt{2}$ lần."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "topic": "Định luật Boyle",
+   "level": 1,
+   "stem": "Một lượng khí có thể tích $3\\ \\text{lít}$ ở áp suất $1\\ \\text{atm}$ được nén đẳng nhiệt đến khi áp suất là $1{,}5\\ \\text{atm}$. Thể tích của khí khi đó là bao nhiêu lít?",
+   "answer_text": "2",
+   "explanation": "$V_2 = \\dfrac{p_1V_1}{p_2} = \\dfrac{1\\cdot 3}{1{,}5} = 2\\ \\text{lít}$."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "topic": "Nhiệt dung riêng",
+   "level": 1,
+   "stem": "Biết nhiệt dung riêng của nhôm là $880\\ \\text{J/(kg}\\cdot\\text{K)}$. Nhiệt lượng cần cung cấp để làm nóng $0{,}5\\ \\text{kg}$ nhôm từ $20\\ ^\\circ\\text{C}$ lên $70\\ ^\\circ\\text{C}$ là bao nhiêu kJ?",
+   "answer_text": "22",
+   "explanation": "$Q = mc\\Delta t = 0{,}5\\cdot 880\\cdot 50 = 22\\,000\\ \\text{J} = 22\\ \\text{kJ}$."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "topic": "Phương trình trạng thái khí lí tưởng",
+   "level": 2,
+   "stem": "Một lượng khí lí tưởng ở trạng thái đầu có áp suất $1\\ \\text{atm}$, thể tích $12\\ \\text{lít}$, nhiệt độ $27\\ ^\\circ\\text{C}$. Khi chuyển sang trạng thái sau, áp suất là $2\\ \\text{atm}$ và nhiệt độ là $77\\ ^\\circ\\text{C}$. Lấy $T = t + 273$. Thể tích của khí ở trạng thái sau là bao nhiêu lít?",
+   "answer_text": "7",
+   "explanation": "$\\dfrac{p_1V_1}{T_1} = \\dfrac{p_2V_2}{T_2} \\Rightarrow V_2 = \\dfrac{1\\cdot 12\\cdot 350}{300\\cdot 2} = 7\\ \\text{lít}$."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "topic": "Phương trình trạng thái khí lí tưởng",
+   "level": 2,
+   "stem": "Một bình oxygen y tế dung tích $10\\ \\text{lít}$ chứa khí oxygen ($M = 32\\ \\text{g/mol}$) ở áp suất $1{,}5\\cdot 10^7\\ \\text{Pa}$ và nhiệt độ $27\\ ^\\circ\\text{C}$. Coi oxygen là khí lí tưởng; lấy $R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}$, $T = t + 273$. Khối lượng oxygen trong bình là bao nhiêu kg (làm tròn đến hàng phần trăm)?",
+   "answer_text": "1,93",
+   "explanation": "$n = \\dfrac{pV}{RT} = \\dfrac{1{,}5\\cdot 10^7\\cdot 10^{-2}}{8{,}31\\cdot 300} \\approx 60{,}17\\ \\text{mol}$; $m = nM \\approx 60{,}17\\cdot 32 \\approx 1925\\ \\text{g} \\approx 1{,}93\\ \\text{kg}$."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "topic": "Động năng phân tử",
+   "level": 3,
+   "stem": "Coi khí nitrogen ($M = 28\\ \\text{g/mol}$) là khí lí tưởng ở nhiệt độ $27\\ ^\\circ\\text{C}$. Lấy $R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}$, $T = t + 273$. Tốc độ căn quân phương $\\sqrt{\\overline{v^2}}$ của các phân tử nitrogen là bao nhiêu m/s (làm tròn đến hàng đơn vị)?",
+   "answer_text": "517",
+   "explanation": "Từ $\\dfrac{1}{2}m_0\\overline{v^2} = \\dfrac{3}{2}kT$ suy ra $\\sqrt{\\overline{v^2}} = \\sqrt{\\dfrac{3RT}{M}} = \\sqrt{\\dfrac{3\\cdot 8{,}31\\cdot 300}{0{,}028}} \\approx 517\\ \\text{m/s}$."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "topic": "Định luật I của nhiệt động lực học",
+   "level": 3,
+   "stem": "Một lượng khí lí tưởng trong xilanh được truyền nhiệt lượng $1000\\ \\text{J}$ và dãn nở đẳng áp ở áp suất $2\\cdot 10^5\\ \\text{Pa}$, thể tích tăng từ $3\\ \\text{lít}$ lên $5\\ \\text{lít}$. Độ tăng nội năng của khí là bao nhiêu J?",
+   "answer_text": "600",
+   "explanation": "Khí thực hiện công $|A| = p\\Delta V = 2\\cdot 10^5\\cdot 2\\cdot 10^{-3} = 400\\ \\text{J}$, nên $A = -400\\ \\text{J}$; $\\Delta U = A + Q = -400 + 1000 = 600\\ \\text{J}$."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ; các câu đã kiểm tra bằng Python: 4, 6, 7, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28."
+}

@@ -1,0 +1,349 @@
+{
+ "grade": 11,
+ "subject": "Toán",
+ "exam": "ck1",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 1 – Toán 11 (đề số 1)",
+ "scope": "Chương I Hàm số lượng giác và phương trình lượng giác; Chương II Dãy số, cấp số cộng và cấp số nhân; Chương III Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm; Chương IV Quan hệ song song trong không gian; Chương V Giới hạn, hàm số liên tục",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Phương trình lượng giác cơ bản",
+   "level": 1,
+   "stem": "Nghiệm của phương trình $\\tan x=1$ là",
+   "options": [
+    "$x=\\dfrac{\\pi}{4}+k2\\pi,\\ k\\in\\mathbb{Z}$",
+    "$x=\\pm\\dfrac{\\pi}{4}+k2\\pi,\\ k\\in\\mathbb{Z}$",
+    "$x=\\dfrac{\\pi}{4}+k\\pi,\\ k\\in\\mathbb{Z}$",
+    "$x=\\dfrac{\\pi}{2}+k\\pi,\\ k\\in\\mathbb{Z}$"
+   ],
+   "answer": 2,
+   "explanation": "$\\tan x=1=\\tan\\dfrac{\\pi}{4}\\Leftrightarrow x=\\dfrac{\\pi}{4}+k\\pi,\\ k\\in\\mathbb{Z}$ (hàm $\\tan$ có chu kì $\\pi$)."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Cấp số nhân",
+   "level": 1,
+   "stem": "Cho cấp số nhân $(u_n)$ có $u_1=3$ và công bội $q=-2$. Số hạng $u_4$ bằng",
+   "options": [
+    "$-24$",
+    "$24$",
+    "$-48$",
+    "$48$"
+   ],
+   "answer": 0,
+   "explanation": "$u_4=u_1q^3=3\\cdot(-2)^3=-24$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Cấp số cộng",
+   "level": 1,
+   "stem": "Dãy số $(u_n)$ với $u_n=5-3n$ là một cấp số cộng có công sai bằng",
+   "options": [
+    "$5$",
+    "$3$",
+    "$2$",
+    "$-3$"
+   ],
+   "answer": 3,
+   "explanation": "$u_{n+1}-u_n=5-3(n+1)-(5-3n)=-3$ không đổi nên $d=-3$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Mốt của mẫu số liệu ghép nhóm",
+   "level": 1,
+   "stem": "Điểm kiểm tra của $35$ học sinh được cho trong bảng sau: $\\begin{array}{|c|c|c|c|c|}\\hline \\text{Điểm} & [40;50) & [50;60) & [60;70) & [70;80) \\\\ \\hline \\text{Số học sinh} & 6 & 14 & 10 & 5 \\\\ \\hline\\end{array}$ Nhóm chứa mốt của mẫu số liệu trên là",
+   "options": [
+    "$[40;50)$",
+    "$[50;60)$",
+    "$[60;70)$",
+    "$[70;80)$"
+   ],
+   "answer": 1,
+   "explanation": "Nhóm chứa mốt là nhóm có tần số lớn nhất: nhóm $[50;60)$ với tần số $14$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Trung vị của mẫu số liệu ghép nhóm",
+   "level": 2,
+   "stem": "Điểm kiểm tra của $35$ học sinh được cho trong bảng sau: $\\begin{array}{|c|c|c|c|c|}\\hline \\text{Điểm} & [40;50) & [50;60) & [60;70) & [70;80) \\\\ \\hline \\text{Số học sinh} & 6 & 14 & 10 & 5 \\\\ \\hline\\end{array}$ Trung vị của mẫu số liệu ghép nhóm trên (làm tròn đến hàng phần trăm) là",
+   "options": [
+    "$57{,}86$",
+    "$62{,}50$",
+    "$58{,}21$",
+    "$55{,}00$"
+   ],
+   "answer": 2,
+   "explanation": "$\\dfrac{n}{2}=17{,}5$; tần số tích lũy: $6;20;\\ldots$ nên nhóm chứa trung vị là $[50;60)$. $M_e=50+\\dfrac{17{,}5-6}{14}\\cdot10\\approx58{,}21$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Đường thẳng và mặt phẳng trong không gian",
+   "level": 1,
+   "stem": "Trong không gian, khẳng định nào sau đây đúng?",
+   "options": [
+    "Qua ba điểm phân biệt bất kì có duy nhất một mặt phẳng",
+    "Qua ba điểm phân biệt không thẳng hàng có duy nhất một mặt phẳng",
+    "Qua một điểm và một đường thẳng có duy nhất một mặt phẳng",
+    "Qua hai đường thẳng bất kì có duy nhất một mặt phẳng"
+   ],
+   "answer": 1,
+   "explanation": "Ba điểm thẳng hàng, điểm nằm trên đường thẳng, hay hai đường thẳng chéo nhau đều không xác định được duy nhất một mặt phẳng; chỉ ba điểm không thẳng hàng mới xác định duy nhất một mặt phẳng."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Hai đường thẳng song song",
+   "level": 1,
+   "stem": "Trong không gian, hai đường thẳng không có điểm chung thì",
+   "options": [
+    "chắc chắn song song với nhau",
+    "chắc chắn chéo nhau",
+    "cùng nằm trong một mặt phẳng",
+    "song song hoặc chéo nhau"
+   ],
+   "answer": 3,
+   "explanation": "Hai đường thẳng không có điểm chung: nếu đồng phẳng thì song song, nếu không đồng phẳng thì chéo nhau."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Hai đường thẳng song song",
+   "level": 2,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Giao tuyến của hai mặt phẳng $(SAB)$ và $(SCD)$ là",
+   "options": [
+    "đường thẳng đi qua $S$ và song song với $AB$",
+    "đường thẳng $SO$",
+    "đường thẳng đi qua $S$ và song song với $AD$",
+    "đường thẳng $SA$"
+   ],
+   "answer": 0,
+   "explanation": "Hai mặt phẳng có điểm chung $S$ và lần lượt chứa hai đường thẳng song song $AB$, $CD$ nên giao tuyến đi qua $S$ và song song với $AB$ (và $CD$)."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Đường thẳng và mặt phẳng song song",
+   "level": 2,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $M$, $N$ lần lượt là trung điểm của $SA$, $SB$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?",
+   "options": [
+    "$(SAB)$",
+    "$(SCD)$",
+    "$(SAC)$",
+    "$(SBD)$"
+   ],
+   "answer": 1,
+   "explanation": "$MN$ là đường trung bình của tam giác $SAB$ nên $MN\\parallel AB\\parallel CD$, mà $CD\\subset(SCD)$ và $MN\\not\\subset(SCD)$ nên $MN\\parallel(SCD)$. $MN$ nằm trong $(SAB)$, còn $M\\in(SAC)$, $N\\in(SBD)$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Giới hạn của dãy số",
+   "level": 1,
+   "stem": "$\\lim\\dfrac{2n+1}{n-3}$ bằng",
+   "options": [
+    "$-\\dfrac{1}{3}$",
+    "$1$",
+    "$+\\infty$",
+    "$2$"
+   ],
+   "answer": 3,
+   "explanation": "Chia cả tử và mẫu cho $n$: $\\lim\\dfrac{2+\\frac{1}{n}}{1-\\frac{3}{n}}=\\dfrac{2}{1}=2$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Giới hạn của hàm số",
+   "level": 1,
+   "stem": "$\\displaystyle\\lim_{x\\to2}\\dfrac{x^2-4}{x-2}$ bằng",
+   "options": [
+    "$4$",
+    "$2$",
+    "$0$",
+    "$+\\infty$"
+   ],
+   "answer": 0,
+   "explanation": "$\\dfrac{x^2-4}{x-2}=x+2$ với $x\\neq2$, nên giới hạn bằng $2+2=4$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Hàm số liên tục",
+   "level": 3,
+   "stem": "Cho hàm số $f(x)=\\begin{cases}\\dfrac{\\sqrt{x+3}-2}{x-1} & \\text{khi } x\\neq1\\\\ m & \\text{khi } x=1\\end{cases}$. Giá trị của tham số $m$ để hàm số liên tục tại $x=1$ là",
+   "options": [
+    "$\\dfrac{1}{2}$",
+    "$2$",
+    "$\\dfrac{1}{4}$",
+    "$0$"
+   ],
+   "answer": 2,
+   "explanation": "$\\dfrac{\\sqrt{x+3}-2}{x-1}=\\dfrac{x-1}{(x-1)(\\sqrt{x+3}+2)}=\\dfrac{1}{\\sqrt{x+3}+2}\\to\\dfrac{1}{4}$ khi $x\\to1$. Hàm liên tục tại $1$ khi $m=f(1)=\\dfrac{1}{4}$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "topic": "Đường thẳng và mặt phẳng song song",
+   "level": 3,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M$ là trung điểm của cạnh $SC$.",
+   "statements": [
+    {
+     "t": "$OM\\parallel SA$.",
+     "a": true
+    },
+    {
+     "t": "$OM\\parallel(SAB)$.",
+     "a": true
+    },
+    {
+     "t": "Giao điểm của đường thẳng $AM$ với mặt phẳng $(SBD)$ là trọng tâm của tam giác $SAC$.",
+     "a": true
+    },
+    {
+     "t": "Giao tuyến của hai mặt phẳng $(MBD)$ và $(SAC)$ là đường thẳng $MA$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $OM$ là đường trung bình của tam giác $SAC$. b) Đúng: $OM\\parallel SA\\subset(SAB)$, $OM\\not\\subset(SAB)$. c) Đúng: trong tam giác $SAC$, $AM$ và $SO$ là hai trung tuyến cắt nhau tại trọng tâm $G$, mà $SO\\subset(SBD)$. d) Sai: $M$ và $O$ đều thuộc cả hai mặt phẳng nên giao tuyến là $MO$ ($A\\notin(MBD)$)."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "topic": "Giới hạn",
+   "level": 2,
+   "stem": "Xét tính đúng sai của các khẳng định sau về giới hạn.",
+   "statements": [
+    {
+     "t": "$\\lim\\dfrac{3n^2-n}{n^2+1}=3$.",
+     "a": true
+    },
+    {
+     "t": "$\\lim\\left(\\dfrac{2}{3}\\right)^n=+\\infty$.",
+     "a": false
+    },
+    {
+     "t": "$\\displaystyle\\lim_{x\\to+\\infty}\\left(\\sqrt{x^2+x}-x\\right)=\\dfrac{1}{2}$.",
+     "a": true
+    },
+    {
+     "t": "$\\displaystyle\\lim_{x\\to1^-}\\dfrac{2x+1}{x-1}=+\\infty$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: chia tử và mẫu cho $n^2$ được $\\dfrac{3}{1}$. b) Sai: $\\left|\\dfrac{2}{3}\\right|<1$ nên giới hạn bằng $0$. c) Đúng: $\\sqrt{x^2+x}-x=\\dfrac{x}{\\sqrt{x^2+x}+x}=\\dfrac{1}{\\sqrt{1+\\frac{1}{x}}+1}\\to\\dfrac{1}{2}$. d) Sai: tử dần tới $3>0$, mẫu dần tới $0$ và âm khi $x<1$ nên giới hạn là $-\\infty$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "topic": "Mẫu số liệu ghép nhóm",
+   "level": 2,
+   "stem": "Chiều cao (cm) của $40$ cây giống trong một vườn ươm được thống kê như sau: $\\begin{array}{|c|c|c|c|c|c|}\\hline \\text{Chiều cao (cm)} & [10;15) & [15;20) & [20;25) & [25;30) & [30;35) \\\\ \\hline \\text{Số cây} & 4 & 10 & 16 & 7 & 3 \\\\ \\hline\\end{array}$",
+   "statements": [
+    {
+     "t": "Nhóm chứa mốt của mẫu số liệu là $[20;25)$.",
+     "a": true
+    },
+    {
+     "t": "Chiều cao trung bình của các cây xấp xỉ $21{,}9$ cm.",
+     "a": true
+    },
+    {
+     "t": "Trung vị của mẫu số liệu bằng $22{,}5$ cm.",
+     "a": false
+    },
+    {
+     "t": "Tứ phân vị thứ nhất của mẫu số liệu bằng $18$ cm.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: tần số lớn nhất là $16$. b) Đúng: $\\bar{x}=\\dfrac{12{,}5\\cdot4+17{,}5\\cdot10+22{,}5\\cdot16+27{,}5\\cdot7+32{,}5\\cdot3}{40}=\\dfrac{875}{40}=21{,}875\\approx21{,}9$. c) Sai: $\\dfrac{n}{2}=20$ thuộc nhóm $[20;25)$, $M_e=20+\\dfrac{20-14}{16}\\cdot5=21{,}875$. d) Đúng: $\\dfrac{n}{4}=10$ thuộc nhóm $[15;20)$, $Q_1=15+\\dfrac{10-4}{10}\\cdot5=18$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "topic": "Hàm số liên tục",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=\\begin{cases}x^2+ax & \\text{khi } x\\le1\\\\ 2x+1 & \\text{khi } x>1\\end{cases}$ với $a$ là tham số.",
+   "statements": [
+    {
+     "t": "$f(1)=1+a$.",
+     "a": true
+    },
+    {
+     "t": "$\\displaystyle\\lim_{x\\to1^+}f(x)=2$.",
+     "a": false
+    },
+    {
+     "t": "Hàm số liên tục tại $x=1$ khi và chỉ khi $a=2$.",
+     "a": true
+    },
+    {
+     "t": "Với $a=0$, hàm số $f(x)$ liên tục trên $\\mathbb{R}$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $f(1)=1^2+a\\cdot1$. b) Sai: $\\displaystyle\\lim_{x\\to1^+}(2x+1)=3$. c) Đúng: $\\displaystyle\\lim_{x\\to1^-}f(x)=1+a$; liên tục tại $1$ khi $1+a=3\\Leftrightarrow a=2$. d) Sai: với $a=0$ thì $1+a=1\\neq3$ nên $f$ gián đoạn tại $x=1$."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "topic": "Giới hạn của dãy số",
+   "level": 3,
+   "stem": "Tính $\\lim\\left(\\sqrt{n^2+4n}-n\\right)$.",
+   "answer_text": "2",
+   "explanation": "$\\sqrt{n^2+4n}-n=\\dfrac{4n}{\\sqrt{n^2+4n}+n}=\\dfrac{4}{\\sqrt{1+\\frac{4}{n}}+1}\\to\\dfrac{4}{2}=2$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "topic": "Cấp số nhân lùi vô hạn",
+   "level": 3,
+   "stem": "Một quả bóng được thả rơi từ độ cao $10$ m xuống mặt đất. Mỗi lần chạm đất, quả bóng nảy lên đến độ cao bằng $\\dfrac{3}{4}$ độ cao lần rơi ngay trước đó. Giả sử quả bóng nảy lên và rơi xuống mãi theo quy luật trên. Tính tổng quãng đường (m) quả bóng đã di chuyển.",
+   "answer_text": "70",
+   "explanation": "Các độ cao nảy lên $7{,}5;\\ 5{,}625;\\ldots$ lập thành cấp số nhân lùi vô hạn có tổng $\\dfrac{7{,}5}{1-\\frac{3}{4}}=30$. Mỗi độ cao nảy được đi hai lần (lên và xuống) nên quãng đường là $10+2\\cdot30=70$ m."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "topic": "Mốt của mẫu số liệu ghép nhóm",
+   "level": 2,
+   "stem": "Thời gian tự học (giờ/tuần) của $50$ học sinh được cho trong bảng sau: $\\begin{array}{|c|c|c|c|c|c|}\\hline \\text{Thời gian (giờ)} & [0;2) & [2;4) & [4;6) & [6;8) & [8;10) \\\\ \\hline \\text{Số học sinh} & 6 & 10 & 18 & 9 & 7 \\\\ \\hline\\end{array}$ Tính mốt của mẫu số liệu ghép nhóm trên (làm tròn kết quả đến hàng phần mười).",
+   "answer_text": "4,9",
+   "explanation": "Nhóm chứa mốt là $[4;6)$. $M_o=4+\\dfrac{18-10}{(18-10)+(18-9)}\\cdot2=4+\\dfrac{16}{17}\\approx4{,}9$."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "topic": "Hai mặt phẳng song song",
+   "level": 3,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành với diện tích bằng $36\\ \\text{cm}^2$. Gọi $M$ là điểm trên cạnh $SA$ sao cho $SM=2MA$. Mặt phẳng $(\\alpha)$ đi qua $M$ và song song với mặt phẳng $(ABCD)$ cắt các cạnh $SB$, $SC$, $SD$ lần lượt tại $N$, $P$, $Q$. Tính diện tích tứ giác $MNPQ$ (đơn vị: $\\text{cm}^2$).",
+   "answer_text": "16",
+   "explanation": "Theo định lí Thalès, $\\dfrac{MN}{AB}=\\dfrac{NP}{BC}=\\dfrac{SM}{SA}=\\dfrac{2}{3}$, và $MNPQ$ là hình bình hành có các cạnh, góc tương ứng với $ABCD$ (đồng dạng tỉ số $\\dfrac{2}{3}$). Diện tích $=\\left(\\dfrac{2}{3}\\right)^2\\cdot36=16$."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "topic": "Giới hạn của hàm số",
+   "level": 3,
+   "stem": "Biết $\\displaystyle\\lim_{x\\to1}\\dfrac{x^2+ax+b}{x-1}=5$ với $a$, $b$ là các số thực. Tính $a-b$.",
+   "answer_text": "7",
+   "explanation": "Để giới hạn hữu hạn thì $x=1$ là nghiệm của tử: $1+a+b=0$. Khi đó $x^2+ax+b=(x-1)(x+1+a)$, giới hạn bằng $2+a=5\\Rightarrow a=3$, $b=-4$. Vậy $a-b=7$."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "topic": "Cấp số cộng và cấp số nhân",
+   "level": 2,
+   "stem": "Biết ba số $2$, $x$, $32$ theo thứ tự lập thành một cấp số nhân với $x>0$, và ba số $2$, $y$, $32$ theo thứ tự lập thành một cấp số cộng. Tính $x+y$.",
+   "answer_text": "25",
+   "explanation": "Cấp số nhân: $x^2=2\\cdot32=64$, $x>0$ nên $x=8$. Cấp số cộng: $y=\\dfrac{2+32}{2}=17$. Vậy $x+y=25$."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 22 câu; các câu đã kiểm tra bằng Python (tính số, không có sympy nên giới hạn được kiểm tra bằng giá trị tại điểm gần/ n rất lớn): 1, 2, 5, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22. Câu 13 kiểm tra thêm bằng tọa độ."
+}

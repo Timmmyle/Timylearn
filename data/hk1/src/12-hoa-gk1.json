@@ -1,0 +1,439 @@
+{
+ "grade": 12,
+ "subject": "Hóa học",
+ "exam": "gk1",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 1 – Hóa học 12 (đề số 1)",
+ "scope": "Chương 1 Ester – Lipid (ester, chất béo, xà phòng và chất giặt rửa); Chương 2 Carbohydrate (glucose, fructose, saccharose, maltose, tinh bột, cellulose)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Ester",
+   "level": 1,
+   "stem": "Công thức phân tử chung của ester no, đơn chức, mạch hở là",
+   "options": [
+    "$\\mathrm{C_nH_{2n}O_2}$ ($n \\ge 1$)",
+    "$\\mathrm{C_nH_{2n}O_2}$ ($n \\ge 2$)",
+    "$\\mathrm{C_nH_{2n+2}O_2}$ ($n \\ge 2$)",
+    "$\\mathrm{C_nH_{2n-2}O_2}$ ($n \\ge 3$)"
+   ],
+   "answer": 1,
+   "explanation": "Ester no, đơn chức, mạch hở có 1 liên kết $\\pi$ ở nhóm $\\mathrm{-COO-}$ nên có công thức $\\mathrm{C_nH_{2n}O_2}$; ester đơn giản nhất là $\\mathrm{HCOOCH_3}$ nên $n \\ge 2$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Ester",
+   "level": 1,
+   "stem": "Ester $\\mathrm{CH_3COOC_2H_5}$ có tên gọi là",
+   "options": [
+    "methyl propionate",
+    "ethyl formate",
+    "propyl acetate",
+    "ethyl acetate"
+   ],
+   "answer": 3,
+   "explanation": "Tên ester = tên gốc alcohol (ethyl, từ $\\mathrm{C_2H_5-}$) + tên gốc acid (acetate, từ $\\mathrm{CH_3COO-}$)."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Ester",
+   "level": 1,
+   "stem": "Ester nào sau đây có mùi chuối chín, được dùng làm hương liệu trong thực phẩm?",
+   "options": [
+    "Isoamyl acetate",
+    "Ethyl butyrate",
+    "Benzyl acetate",
+    "Geranyl acetate"
+   ],
+   "answer": 0,
+   "explanation": "Isoamyl acetate có mùi chuối chín; ethyl butyrate mùi dứa, benzyl acetate mùi hoa nhài, geranyl acetate mùi hoa hồng."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Ester",
+   "level": 1,
+   "stem": "Phản ứng thủy phân ester trong môi trường kiềm, đun nóng được gọi là phản ứng",
+   "options": [
+    "ester hóa",
+    "hydrogen hóa",
+    "xà phòng hóa",
+    "trùng hợp"
+   ],
+   "answer": 2,
+   "explanation": "Thủy phân ester trong môi trường kiềm là phản ứng một chiều, gọi là phản ứng xà phòng hóa."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Ester",
+   "level": 2,
+   "stem": "Thủy phân vinyl acetate ($\\mathrm{CH_3COOCH{=}CH_2}$) trong dung dịch NaOH đun nóng, thu được các sản phẩm hữu cơ là",
+   "options": [
+    "$\\mathrm{CH_3COONa}$ và $\\mathrm{CH_2{=}CH{-}OH}$",
+    "$\\mathrm{CH_3COONa}$ và $\\mathrm{C_2H_5OH}$",
+    "$\\mathrm{CH_3COONa}$ và $\\mathrm{CH_3CHO}$",
+    "$\\mathrm{HCOONa}$ và $\\mathrm{CH_3CHO}$"
+   ],
+   "answer": 2,
+   "explanation": "Sản phẩm tạo ra $\\mathrm{CH_2{=}CH{-}OH}$ (enol) không bền, chuyển ngay thành acetaldehyde $\\mathrm{CH_3CHO}$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Chất béo",
+   "level": 1,
+   "stem": "Chất béo là",
+   "options": [
+    "triester của glycerol với các acid béo",
+    "diester của ethylene glycol với acid béo",
+    "muối sodium của các acid béo",
+    "ester của ethanol với các acid béo"
+   ],
+   "answer": 0,
+   "explanation": "Theo định nghĩa, chất béo là triester của glycerol với acid béo (gọi chung là triglyceride)."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Chất béo",
+   "level": 2,
+   "stem": "Công thức của tristearin là",
+   "options": [
+    "$\\mathrm{(C_{17}H_{33}COO)_3C_3H_5}$",
+    "$\\mathrm{(C_{15}H_{31}COO)_3C_3H_5}$",
+    "$\\mathrm{(C_{17}H_{31}COO)_3C_3H_5}$",
+    "$\\mathrm{(C_{17}H_{35}COO)_3C_3H_5}$"
+   ],
+   "answer": 3,
+   "explanation": "Stearic acid là $\\mathrm{C_{17}H_{35}COOH}$ (no), nên tristearin là $\\mathrm{(C_{17}H_{35}COO)_3C_3H_5}$; các phương án khác là triolein, tripalmitin, trilinolein."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Chất béo",
+   "level": 2,
+   "stem": "Trong công nghiệp, để chuyển hóa dầu thực vật (chất béo lỏng) thành bơ thực vật (chất béo rắn), người ta thực hiện phản ứng",
+   "options": [
+    "xà phòng hóa bằng dung dịch NaOH",
+    "hydrogen hóa (cộng $\\mathrm{H_2}$, xúc tác Ni, đun nóng)",
+    "thủy phân trong môi trường acid",
+    "oxi hóa bằng oxygen không khí"
+   ],
+   "answer": 1,
+   "explanation": "Cộng $\\mathrm{H_2}$ vào liên kết $\\mathrm{C{=}C}$ của gốc acid béo không no làm chất béo lỏng chuyển thành chất béo rắn."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Xà phòng và chất giặt rửa",
+   "level": 1,
+   "stem": "Thành phần chính của xà phòng là",
+   "options": [
+    "muối sodium hoặc potassium của acid béo",
+    "muối sodium alkylsulfate",
+    "triester của glycerol",
+    "ester của acid béo với ethanol"
+   ],
+   "answer": 0,
+   "explanation": "Xà phòng là hỗn hợp muối sodium hoặc potassium của các acid béo, có thêm phụ gia."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Xà phòng và chất giặt rửa",
+   "level": 2,
+   "stem": "Ưu điểm nổi bật của chất giặt rửa tổng hợp so với xà phòng là",
+   "options": [
+    "được sản xuất trực tiếp từ chất béo",
+    "dễ bị vi sinh vật phân hủy hơn xà phòng",
+    "dùng được với nước cứng vì không tạo kết tủa với ion $\\mathrm{Ca^{2+}}$, $\\mathrm{Mg^{2+}}$",
+    "không có phần kị nước trong phân tử"
+   ],
+   "answer": 2,
+   "explanation": "Muối của acid béo tạo kết tủa với $\\mathrm{Ca^{2+}}$, $\\mathrm{Mg^{2+}}$ trong nước cứng, còn muối alkylsulfate, alkylbenzenesulfonate thì không, nên chất giặt rửa tổng hợp vẫn giặt tốt trong nước cứng."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Glucose và fructose",
+   "level": 1,
+   "stem": "Glucose thuộc loại carbohydrate nào sau đây?",
+   "options": [
+    "Disaccharide",
+    "Monosaccharide",
+    "Polysaccharide",
+    "Oligopeptide"
+   ],
+   "answer": 1,
+   "explanation": "Glucose không bị thủy phân, là monosaccharide."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Glucose và fructose",
+   "level": 1,
+   "stem": "Mật ong có vị ngọt sắc chủ yếu do chứa nhiều chất nào sau đây?",
+   "options": [
+    "Saccharose",
+    "Tinh bột",
+    "Maltose",
+    "Fructose"
+   ],
+   "answer": 3,
+   "explanation": "Mật ong chứa khoảng 40% fructose (ngọt nhất trong các loại đường thông thường) và khoảng 30% glucose."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Glucose và fructose",
+   "level": 2,
+   "stem": "Thuốc thử dùng để phân biệt dung dịch glucose và dung dịch fructose là",
+   "options": [
+    "nước bromine",
+    "thuốc thử Tollens ($\\mathrm{[Ag(NH_3)_2]OH}$)",
+    "$\\mathrm{Cu(OH)_2}$ trong môi trường kiềm",
+    "quỳ tím"
+   ],
+   "answer": 0,
+   "explanation": "Glucose có nhóm –CHO làm mất màu nước bromine, fructose thì không. Cả hai đều tráng bạc và đều hòa tan $\\mathrm{Cu(OH)_2}$ nên không phân biệt được bằng các thuốc thử đó."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Saccharose và maltose",
+   "level": 1,
+   "stem": "Thủy phân hoàn toàn saccharose trong môi trường acid, thu được",
+   "options": [
+    "chỉ glucose",
+    "glucose và fructose",
+    "glucose và maltose",
+    "chỉ fructose"
+   ],
+   "answer": 1,
+   "explanation": "Saccharose được tạo từ một gốc α-glucose và một gốc β-fructose nên thủy phân cho glucose và fructose."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Saccharose và maltose",
+   "level": 2,
+   "stem": "Chất nào sau đây KHÔNG tham gia phản ứng tráng bạc?",
+   "options": [
+    "Glucose",
+    "Fructose",
+    "Maltose",
+    "Saccharose"
+   ],
+   "answer": 3,
+   "explanation": "Phân tử saccharose không còn nhóm –OH hemiacetal nên không mở vòng tạo nhóm –CHO, không tráng bạc; maltose thì vẫn mở vòng được."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Tinh bột và cellulose",
+   "level": 1,
+   "stem": "Nhỏ dung dịch iodine vào mặt cắt củ khoai lang, xuất hiện màu",
+   "options": [
+    "đỏ gạch",
+    "vàng",
+    "xanh tím",
+    "trắng đục"
+   ],
+   "answer": 2,
+   "explanation": "Tinh bột (amylose) hấp phụ iodine tạo màu xanh tím – dùng để nhận biết tinh bột."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Ester",
+   "level": 3,
+   "stem": "Xà phòng hóa 8,8 gam ethyl acetate bằng 150 mL dung dịch NaOH 1M. Sau khi phản ứng xảy ra hoàn toàn, cô cạn dung dịch thu được m gam chất rắn khan. Giá trị của m là (cho H = 1; C = 12; O = 16; Na = 23)",
+   "options": [
+    "8,2",
+    "10,2",
+    "12,3",
+    "9,6"
+   ],
+   "answer": 1,
+   "explanation": "$n_{\\text{ester}} = 0{,}1$ mol, $n_{\\mathrm{NaOH}} = 0{,}15$ mol nên NaOH dư 0,05 mol. Chất rắn gồm $\\mathrm{CH_3COONa}$ 0,1 mol (8,2 g) và NaOH dư (2 g): m = 10,2."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Lên men",
+   "level": 3,
+   "stem": "Lên men 45 gam glucose thành ethanol với hiệu suất 80%. Thể tích khí $\\mathrm{CO_2}$ (đkc, 24,79 L/mol) thu được là (cho H = 1; C = 12; O = 16)",
+   "options": [
+    "9,916 lít",
+    "12,395 lít",
+    "4,958 lít",
+    "7,933 lít"
+   ],
+   "answer": 0,
+   "explanation": "$\\mathrm{C_6H_{12}O_6 \\to 2C_2H_5OH + 2CO_2}$. $n_{\\text{glucose}} = 0{,}25$ mol, $n_{\\mathrm{CO_2}} = 0{,}25 \\cdot 2 \\cdot 0{,}8 = 0{,}4$ mol, V = 0,4 · 24,79 = 9,916 L."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "topic": "Ester",
+   "level": 2,
+   "stem": "Trong phòng thí nghiệm, ethyl acetate được điều chế bằng cách đun hỗn hợp acetic acid, ethanol và vài giọt $\\mathrm{H_2SO_4}$ đặc. (Cho H = 1; C = 12; O = 16.)",
+   "statements": [
+    {
+     "t": "Phản ứng ester hóa giữa acetic acid và ethanol là phản ứng thuận nghịch.",
+     "a": true
+    },
+    {
+     "t": "$\\mathrm{H_2SO_4}$ đặc chỉ đóng vai trò xúc tác, không ảnh hưởng đến lượng ester thu được.",
+     "a": false
+    },
+    {
+     "t": "Ethyl acetate có nhiệt độ sôi thấp hơn acetic acid vì giữa các phân tử ester không có liên kết hydrogen.",
+     "a": true
+    },
+    {
+     "t": "Đun 6 gam acetic acid với 4,6 gam ethanol (hiệu suất 60%) thu được 5,28 gam ethyl acetate.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $\\mathrm{H_2SO_4}$ đặc còn hút nước, làm cân bằng chuyển dịch theo chiều tạo ester, tăng hiệu suất. c) Đúng. d) Đúng: mỗi chất 0,1 mol, $n_{\\text{ester}} = 0{,}1 \\cdot 0{,}6 = 0{,}06$ mol, m = 0,06 · 88 = 5,28 g."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "topic": "Xà phòng và chất giặt rửa",
+   "level": 3,
+   "stem": "Thí nghiệm điều chế xà phòng: cho dầu dừa và dung dịch NaOH 40% vào bát sứ, đun sôi nhẹ, khuấy đều khoảng 10 phút, sau đó thêm dung dịch NaCl bão hòa nóng, để nguội. (Cho H = 1; C = 12; O = 16; Na = 23.)",
+   "statements": [
+    {
+     "t": "Sau khi để nguội, có lớp chất rắn màu trắng nổi lên, đó là muối sodium của các acid béo.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch NaCl bão hòa được thêm vào nhằm làm tăng tốc độ phản ứng xà phòng hóa.",
+     "a": false
+    },
+    {
+     "t": "Nếu thay dầu dừa bằng dầu nhờn bôi trơn máy (thành phần chính là hydrocarbon) thì hiện tượng xảy ra tương tự.",
+     "a": false
+    },
+    {
+     "t": "Xà phòng hóa hoàn toàn 17,8 kg tristearin bằng NaOH thì thu được 18,36 kg sodium stearate.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: NaCl bão hòa làm giảm độ tan của xà phòng, giúp xà phòng tách ra và nổi lên. c) Sai: hydrocarbon không bị xà phòng hóa. d) Đúng: $n_{\\text{tristearin}} = 17{,}8/890 = 0{,}02$ kmol, $n_{\\mathrm{C_{17}H_{35}COONa}} = 0{,}06$ kmol, m = 0,06 · 306 = 18,36 kg."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "topic": "Glucose và fructose",
+   "level": 2,
+   "stem": "Glucose và fructose là hai monosaccharide phổ biến trong tự nhiên. (Cho H = 1; C = 12; O = 16; Ag = 108.)",
+   "statements": [
+    {
+     "t": "Glucose và fructose là đồng phân của nhau, có cùng công thức phân tử $\\mathrm{C_6H_{12}O_6}$.",
+     "a": true
+    },
+    {
+     "t": "Glucose tác dụng với $\\mathrm{Cu(OH)_2}$ ở nhiệt độ thường tạo kết tủa màu đỏ gạch.",
+     "a": false
+    },
+    {
+     "t": "Fructose không làm mất màu nước bromine nhưng vẫn có phản ứng tráng bạc.",
+     "a": true
+    },
+    {
+     "t": "Cho 18 gam glucose tác dụng hoàn toàn với lượng dư thuốc thử Tollens thu được 10,8 gam Ag.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: ở nhiệt độ thường glucose hòa tan $\\mathrm{Cu(OH)_2}$ tạo dung dịch màu xanh lam (tính chất polyalcohol). c) Đúng: trong môi trường kiềm fructose chuyển hóa thành glucose nên vẫn tráng bạc. d) Sai: $n_{\\text{glucose}} = 0{,}1$ mol, $n_{\\mathrm{Ag}} = 0{,}2$ mol, m = 21,6 g."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "topic": "Tinh bột và cellulose",
+   "level": 3,
+   "stem": "Tinh bột và cellulose là nguồn nguyên liệu quan trọng để sản xuất ethanol sinh học (xăng E5, E10). (Cho H = 1; C = 12; O = 16.)",
+   "statements": [
+    {
+     "t": "Tinh bột và cellulose đều là polysaccharide, được cấu tạo từ các mắt xích glucose.",
+     "a": true
+    },
+    {
+     "t": "Amylopectin trong tinh bột có cấu trúc mạch không phân nhánh.",
+     "a": false
+    },
+    {
+     "t": "Tinh bột và cellulose là đồng phân của nhau vì đều có công thức $\\mathrm{(C_6H_{10}O_5)_n}$.",
+     "a": false
+    },
+    {
+     "t": "Từ 1 tấn mùn cưa chứa 50% cellulose, với hiệu suất cả quá trình là 70%, thu được khoảng 198,8 kg ethanol.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng (tinh bột: α-glucose; cellulose: β-glucose). b) Sai: amylopectin phân nhánh, amylose mới không phân nhánh. c) Sai: giá trị n khác nhau nên không phải đồng phân. d) Đúng: $\\mathrm{(C_6H_{10}O_5)_n \\to nC_6H_{12}O_6 \\to 2nC_2H_5OH}$, $m = \\dfrac{500}{162} \\cdot 2 \\cdot 46 \\cdot 0{,}7 \\approx 198{,}8$ kg."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "topic": "Ester",
+   "level": 2,
+   "stem": "Có bao nhiêu ester ứng với công thức phân tử $\\mathrm{C_4H_8O_2}$?",
+   "answer_text": "4",
+   "explanation": "Gồm $\\mathrm{HCOOCH_2CH_2CH_3}$, $\\mathrm{HCOOCH(CH_3)_2}$, $\\mathrm{CH_3COOC_2H_5}$, $\\mathrm{C_2H_5COOCH_3}$: 4 ester."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "topic": "Chất béo",
+   "level": 3,
+   "stem": "Xà phòng hóa hoàn toàn m gam một chất béo bằng dung dịch NaOH vừa đủ, thu được 9,2 gam glycerol và 91,8 gam sodium stearate. Tính m. (Cho H = 1; C = 12; O = 16; Na = 23.)",
+   "answer_text": "89",
+   "explanation": "$n_{\\text{glycerol}} = 0{,}1$ mol nên $n_{\\mathrm{NaOH}} = 0{,}3$ mol. Bảo toàn khối lượng: m = 91,8 + 9,2 − 0,3 · 40 = 89 (chính là 0,1 mol tristearin)."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "topic": "Saccharose và maltose",
+   "level": 3,
+   "stem": "Thủy phân 34,2 gam saccharose trong môi trường acid với hiệu suất 75%. Trung hòa dung dịch sau phản ứng rồi cho tác dụng với lượng dư thuốc thử Tollens, đun nóng, thu được m gam Ag. Tính m. (Cho H = 1; C = 12; O = 16; Ag = 108.)",
+   "answer_text": "32,4",
+   "explanation": "$n_{\\text{saccharose bị thủy phân}} = 0{,}1 \\cdot 0{,}75 = 0{,}075$ mol → 0,15 mol monosaccharide (glucose + fructose) → 0,3 mol Ag; saccharose dư không tráng bạc. m = 0,3 · 108 = 32,4."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "topic": "Lên men",
+   "level": 3,
+   "stem": "Một nhà máy sản xuất ethanol từ khoai mì (sắn). Từ 1 tấn khoai mì chứa 20% tinh bột, với hiệu suất cả quá trình là 81%, thu được bao nhiêu kg ethanol? (Cho H = 1; C = 12; O = 16.)",
+   "answer_text": "92",
+   "explanation": "$m_{\\text{tinh bột}} = 200$ kg. $\\mathrm{(C_6H_{10}O_5)_n \\to 2nC_2H_5OH}$: $m = \\dfrac{200}{162} \\cdot 2 \\cdot 46 \\cdot 0{,}81 = 92$ kg."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "topic": "Ester",
+   "level": 2,
+   "stem": "Đốt cháy hoàn toàn 0,1 mol một ester no, đơn chức, mạch hở X thu được 13,2 gam $\\mathrm{CO_2}$. Phân tử khối của X là bao nhiêu? (Cho H = 1; C = 12; O = 16.)",
+   "answer_text": "74",
+   "explanation": "$n_{\\mathrm{CO_2}} = 0{,}3$ mol nên X có 3 nguyên tử C: $\\mathrm{C_3H_6O_2}$, M = 74."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "topic": "Glucose và fructose",
+   "level": 1,
+   "stem": "Một túi dịch truyền glucose 5% chứa 500 gam dung dịch. Khối lượng glucose (gam) trong túi dịch truyền là bao nhiêu?",
+   "answer_text": "25",
+   "explanation": "$m = 500 \\cdot 5\\% = 25$ gam."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; các câu tính toán đã kiểm tra bằng Python: 17, 18, 19d, 20d, 21d, 22d, 24, 25, 26, 27, 28."
+}

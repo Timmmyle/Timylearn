@@ -329,29 +329,32 @@ function Pet({ k }: P) {
 export default function HeroArt({ lv, equip, size = 220, className, label, bust, animated }: { lv: number; equip?: Equip; size?: number | string; className?: string; label?: string; bust?: boolean; animated?: boolean }) {
   const id = useId().replace(/:/g, "");
   const L = resolveLook(lv, equip);
+  const f = `url(#${id}-r)`;
   return (
     <svg viewBox={bust ? "46 18 108 108" : "0 0 200 240"} width={size} height={typeof size === "number" ? (bust ? size : (size * 240) / 200) : undefined} className={`${className || ""}${animated ? " hero-anim" : ""}`}
       role="img" aria-label={label || `Nhân vật cấp ${lv}`}>
       <defs>
-        <filter id={`${id}-r`} x="-5%" y="-5%" width="110%" height="110%">
+        <filter id={`${id}-r`} x="-10%" y="-10%" width="120%" height="120%">
           <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="4" />
           <feDisplacementMap in="SourceGraphic" scale="2.2" />
         </filter>
       </defs>
       <ellipse cx="100" cy="222" rx="56" ry="8" fill="rgba(0,0,0,.18)" />
       <g className="h-aura"><Aura k={L.aura} id={id} /></g>
-      <g filter={`url(#${id}-r)`} stroke={INK} strokeWidth="3" strokeLinejoin="round" strokeLinecap="round">
-        <g className="h-cape"><Cape k={L.cape} /></g>
-        <Legs k={L.armor} />
+      {/* Bộ lọc nét vẽ tay đặt ở từng bộ phận (bên trong nhóm chuyển động): nếu đặt bộ lọc bao ngoài,
+          Chrome không vẽ lại khi nhóm con chuyển động nên nhân vật trông như đứng yên */}
+      <g stroke={INK} strokeWidth="3" strokeLinejoin="round" strokeLinecap="round">
+        <g className="h-cape"><g filter={f}><Cape k={L.cape} /></g></g>
+        <g filter={f}><Legs k={L.armor} /></g>
         {/* Thân trên thở nhẹ; tay phải + vũ khí thỉnh thoảng giơ lên ngắm rồi hạ xuống */}
         <g className="h-up">
-          <g className="h-swing"><Arm side="r" k={L.armor} /></g>
-          <Torso k={L.armor} />
-          <g className="h-head"><Head k={L.helmet} /><Helmet k={L.helmet} /></g>
-          <g className="h-swing"><Weapon k={L.weapon} /></g>
-          <g className="h-shield"><Arm side="l" k={L.armor} /><Shield k={L.shield} /></g>
+          <g className="h-swing"><g filter={f}><Arm side="r" k={L.armor} /></g></g>
+          <g filter={f}><Torso k={L.armor} /></g>
+          <g className="h-head"><g filter={f}><Head k={L.helmet} /><Helmet k={L.helmet} /></g></g>
+          <g className="h-swing"><g filter={f}><Weapon k={L.weapon} /></g></g>
+          <g className="h-shield"><g filter={f}><Arm side="l" k={L.armor} /><Shield k={L.shield} /></g></g>
         </g>
-        <g className="h-pet"><Pet k={L.pet} /></g>
+        <g className="h-pet"><g filter={f}><Pet k={L.pet} /></g></g>
       </g>
     </svg>
   );

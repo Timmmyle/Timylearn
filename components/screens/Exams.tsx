@@ -7,6 +7,9 @@ import { toast } from "@/lib/toast";
 import { BANK, EXB, EXLIST, LV, SCI, SUBJECT_OPTS, TOP, TOPICS } from "@/lib/data/curriculum";
 import { examLabel, getQ, gradeNum, lc, qOfTopics, today } from "@/lib/logic";
 import { aiErrorText, aiJson } from "@/lib/api";
+import { startHK, useHK, type HKSet } from "@/lib/hk";
+import { examSeason } from "@/lib/logic";
+import { startWrite } from "../WritePanel";
 import type { AiSet, AppState, Question } from "@/lib/types";
 
 type ExamSet = { id: string; exam: string; grade: number | string; subject: string; title: string; qids: string[]; ai?: boolean };
@@ -227,6 +230,47 @@ function Bank() {
   );
 }
 
+/* ---------------- Đề ôn giữa kì / cuối kì soạn theo SGK mới ---------------- */
+const SUB_ORDER = ["Toán", "Ngữ văn", "Tiếng Anh", "Vật lí", "Hóa học"];
+function HKList({ ef }: { ef: { exam: string; grade: string; subject: string } }) {
+  const S = useApp((s) => s.S);
+  const sets = useHK((h) => h.sets);
+  const [busy, setBusy] = useState<string | null>(null);
+  const list = sets.filter((x) => (ef.exam === "Tất cả" || x.exam === ef.exam) && (ef.grade === "Tất cả" || String(x.grade) === ef.grade) && (ef.subject === "Tất cả" || x.subject === ef.subject))
+    .sort((a, b) => Number(S.profile.subjects.includes(b.subject)) - Number(S.profile.subjects.includes(a.subject)) || a.grade - b.grade || a.exam.localeCompare(b.exam) || SUB_ORDER.indexOf(a.subject) - SUB_ORDER.indexOf(b.subject));
+  if (!list.length) return null;
+  const season = examSeason();
+  const open = async (x: HKSet) => { setBusy(x.id); await startHK(x, startWrite); setBusy(null); };
+  return (
+    <>
+      <h2>Đề ôn {ef.exam !== "Tất cả" && EXB[ef.exam] ? lc(EXB[ef.exam].n) : "giữa kì, cuối kì"} – soạn theo SGK mới</h2>
+      <p className="small muted !mt-[-4px]">Bám sát chương trình GDPT 2018 (sách Kết nối tri thức, dùng được cho các bộ sách khác). Cấu trúc như đề kiểm tra hiện nay: trắc nghiệm, Đúng/Sai, trả lời ngắn; Ngữ văn gồm đọc hiểu và viết.</p>
+      <div className="grid gap-x-3 lg:grid-cols-2">
+        {list.map((x) => {
+          const mine = S.profile.subjects.includes(x.subject) && String(gradeNum(S)) === String(x.grade);
+          const hot = season && season.exam === x.exam;
+          return (
+            <div className="panel flex flex-col" key={x.id}>
+              <div className="flex flex-1 items-start gap-2.5">
+                <div className="min-w-0 flex-1">
+                  <h3>{x.title}</h3>
+                  <p className="small muted !mb-1">{x.kind === "write" ? `Đọc hiểu ${x.count - 2} câu + Viết 2 câu · ${x.duration_min} phút` : `${x.count} câu${x.parts && x.parts.tf ? ` (${x.parts.mcq} trắc nghiệm, ${x.parts.tf} Đúng/Sai, ${x.parts.short} trả lời ngắn)` : ""} · ${x.duration_min} phút`}</p>
+                  <p className="read !m-0 text-[13px] leading-snug opacity-75">{x.kind === "write" ? "Văn bản: " + x.work : x.scope}</p>
+                </div>
+                <div className="flex flex-col items-end gap-1">
+                  {hot && <span className="tag tag-l3">Mùa thi</span>}
+                  {mine && <span className="tag tag-l1">Hợp với bạn</span>}
+                </div>
+              </div>
+              <button className="btn mt-2.5 w-full" disabled={busy === x.id} onClick={() => open(x)}>{busy === x.id ? "Đang tải đề…" : x.kind === "write" ? "Luyện đề (đọc hiểu + viết)" : "Làm bài thi thử"}</button>
+            </div>
+          );
+        })}
+      </div>
+    </>
+  );
+}
+
 /* ---------------- Đề mẫu theo kỳ thi của bạn + đề AI ---------------- */
 function Mine() {
   const S = useApp((s) => s.S);
@@ -255,7 +299,8 @@ function Mine() {
         {sel("grade", grOpts, ef.grade, "Lớp")}
         {sel("subject", subOpts, ef.subject, "Môn")}
       </div>
-      <h2>{list.length} đề</h2>
+      <HKList ef={ef} />
+      <h2>{list.length} đề luyện nhanh</h2>
       {!list.length && <div className="panel"><p className="!m-0">Chưa có đề mẫu khớp bộ lọc. Tạo đề đúng phạm vi bằng AI ở bên dưới, hoặc xem tab Kho đề thi thật.</p></div>}
       <div className="grid gap-x-3 lg:grid-cols-2">
         {list.map((x) => {
@@ -290,12 +335,15 @@ export default function Exams() {
   const sets = useRemote((r) => r.sets);
   const examTab = useApp((s) => s.ui.examTab);
   const setUI = useApp((s) => s.setUI);
-  const tab = examTab || (sets.length ? "bank" : "mine");
+  const S = useApp((s) => s.S);
+  // Mùa thi ở trường: mở sẵn tab đề theo kỳ thi
+  const schoolSeason = !!examSeason() && S.profile.exams.some((id) => EXB[id]?.school);
+  const tab = examTab || (schoolSeason || !sets.length ? "mine" : "bank");
   const official = sets.filter((r) => r.kind === "official").length;
   return (
     <>
       <div className="mt-3.5 grid grid-cols-2 gap-1 rounded-2xl border border-line bg-surface p-1" role="tablist">
-        {([["bank", "Kho đề thi thật", sets.length ? `${sets.length} đề · ${official} chính thức` : "Đề tốt nghiệp các năm"], ["mine", "Đề theo kỳ thi", "Đề mẫu, đề AI"]] as const).map(([k, l, sub]) => (
+        {([["bank", "Kho đề thi thật", sets.length ? `${sets.length} đề · ${official} chính thức` : "Đề tốt nghiệp các năm"], ["mine", "Đề theo kỳ thi", "Giữa kì, cuối kì, đề AI"]] as const).map(([k, l, sub]) => (
           <button key={k} role="tab" aria-selected={tab === k} onClick={() => setUI({ examTab: k })}
             className={`rounded-xl px-3 py-2 text-left transition-colors ${tab === k ? "bg-accent text-on-accent" : "hover:bg-accent-soft"}`}>
             <b className="block text-[15px]">{l}</b>

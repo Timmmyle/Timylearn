@@ -1,0 +1,611 @@
+{
+ "grade": 12,
+ "subject": "Tiếng Anh",
+ "exam": "ck1",
+ "duration_min": 60,
+ "title": "Đề ôn cuối học kì 1 – Tiếng Anh 12 (đề số 1)",
+ "scope": "Global Success 12: Unit 1 Life stories we admire; Unit 2 A multicultural world; Unit 3 Green living; trọng tâm Unit 4 Urbanisation và Unit 5 The world of work (ngữ pháp: quá khứ đơn – quá khứ tiếp diễn, mạo từ, so sánh kép, hòa hợp chủ ngữ – động từ, mệnh đề danh từ, which thay cho cả mệnh đề)",
+ "self_check": "Đã làm lại toàn bộ 40 câu; kiểm tra JSON, độ dài đoạn văn và phân bố đáp án bằng Python. Mỗi câu chỉ có 1 phương án đúng.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part differs from the other three in pronunciation.",
+   "options": [
+    "job$\\underline{\\text{s}}$",
+    "applicant$\\underline{\\text{s}}$",
+    "skill$\\underline{\\text{s}}$",
+    "interview$\\underline{\\text{s}}$"
+   ],
+   "answer": 1,
+   "explanation": "Sau âm vô thanh /t/, -s đọc /s/: applicants. Sau âm hữu thanh /b/, /l/, /uː/, -s đọc /z/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part differs from the other three in pronunciation.",
+   "options": [
+    "c$\\underline{\\text{i}}$ty",
+    "$\\underline{\\text{i}}$nfrastructure",
+    "m$\\underline{\\text{i}}$grate",
+    "d$\\underline{\\text{i}}$strict"
+   ],
+   "answer": 2,
+   "explanation": "migrate /maɪˈɡreɪt/ đọc /aɪ/; city, infrastructure, district đọc /ɪ/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Word stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "career",
+    "salary",
+    "employer",
+    "position"
+   ],
+   "answer": 1,
+   "explanation": "salary /ˈsæləri/ nhấn âm 1; career /kəˈrɪə/, employer /ɪmˈplɔɪə/, position /pəˈzɪʃn/ nhấn âm 2."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Word stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "facility",
+    "population",
+    "unemployment",
+    "opportunity"
+   ],
+   "answer": 0,
+   "explanation": "facility /fəˈsɪləti/ nhấn âm 2; population, unemployment, opportunity nhấn âm 3."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Unit 4: Urbanisation – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nMany young people ______ from rural areas to big cities in search of better job opportunities.",
+   "options": [
+    "emigrate",
+    "immigrate",
+    "transport",
+    "migrate"
+   ],
+   "answer": 3,
+   "explanation": "migrate: di cư (trong nước, từ nông thôn ra thành phố). emigrate/immigrate dùng khi rời khỏi/đến một quốc gia khác."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Unit 4: Urbanisation – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nRapid urbanisation has put great pressure on the city's ______, such as roads, bridges and water supply systems.",
+   "options": [
+    "infrastructure",
+    "environment",
+    "population",
+    "landscape"
+   ],
+   "answer": 0,
+   "explanation": "Roads, bridges, water supply systems là cơ sở hạ tầng: infrastructure."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Unit 4: Urbanisation – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nThe streets in the city centre are always ______ during rush hour, so it takes ages to get to work.",
+   "options": [
+    "congested",
+    "deserted",
+    "spacious",
+    "peaceful"
+   ],
+   "answer": 0,
+   "explanation": "Giờ cao điểm, mất rất lâu để đi làm → đường phố tắc nghẽn: congested."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Unit 5: The world of work – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nShe was offered the job because she had the right ______ and experience.",
+   "options": [
+    "qualifies",
+    "qualifications",
+    "qualified",
+    "qualify"
+   ],
+   "answer": 1,
+   "explanation": "Sau tính từ \"right\", song song với danh từ \"experience\" cần danh từ: qualifications (bằng cấp, trình độ)."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Unit 5: The world of work – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nHe works ______, so he is only at the office from 8 a.m. to 12 p.m. every day.",
+   "options": [
+    "full-time",
+    "overtime",
+    "part-time",
+    "on time"
+   ],
+   "answer": 2,
+   "explanation": "Chỉ làm buổi sáng → làm bán thời gian: part-time."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Unit 5: The world of work – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nAfter five years of hard work, she got a ______ to the position of sales manager.",
+   "options": [
+    "promotion",
+    "permission",
+    "profession",
+    "production"
+   ],
+   "answer": 0,
+   "explanation": "get a promotion to ...: được thăng chức lên vị trí .... Các từ còn lại dễ nhầm hình thức nhưng sai nghĩa."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Unit 1: Life stories we admire – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nThe young athlete's ______ performance at the Olympics made the whole nation proud.",
+   "options": [
+    "remark",
+    "remarkable",
+    "remarkably",
+    "remarked"
+   ],
+   "answer": 1,
+   "explanation": "Trước danh từ \"performance\" cần tính từ: remarkable (xuất sắc, đáng chú ý)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Unit 5: The world of work – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\nShe ______ the job offer because the salary was too low.",
+   "options": [
+    "turned up",
+    "turned down",
+    "took up",
+    "put off"
+   ],
+   "answer": 1,
+   "explanation": "turn down: từ chối (lời mời, lời đề nghị). turn up: xuất hiện; take up: bắt đầu (sở thích); put off: trì hoãn."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs past continuous",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nWhen the reporter arrived, the firefighters ______ to put out the fire.",
+   "options": [
+    "tried",
+    "have tried",
+    "are trying",
+    "were trying"
+   ],
+   "answer": 3,
+   "explanation": "Hành động đang diễn ra (quá khứ tiếp diễn) khi hành động khác xảy ra (when + quá khứ đơn)."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Articles",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nMy sister wants to become ______ engineer at ______ international company.",
+   "options": [
+    "a / an",
+    "an / a",
+    "an / an",
+    "the / a"
+   ],
+   "answer": 2,
+   "explanation": "engineer và international đều bắt đầu bằng nguyên âm, danh từ đếm được số ít chưa xác định → an / an."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: Double comparatives",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nThe longer you stay in this city, ______ you will find it.",
+   "options": [
+    "the most interesting",
+    "the more interesting",
+    "more interesting",
+    "the more interestingly"
+   ],
+   "answer": 1,
+   "explanation": "So sánh kép: The + so sánh hơn ..., the + so sánh hơn .... find it + tính từ → the more interesting."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Grammar: Subject–verb agreement",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nThe number of people living in urban areas ______ increased dramatically over the past decades.",
+   "options": [
+    "have",
+    "are",
+    "were",
+    "has"
+   ],
+   "answer": 3,
+   "explanation": "\"The number of + N số nhiều\" là chủ ngữ số ít → has. (Phân biệt \"A number of + N\" đi với động từ số nhiều.)"
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Grammar: Subject–verb agreement",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\nNot only the students but also their teacher ______ excited about the field trip to the industrial zone.",
+   "options": [
+    "are",
+    "were",
+    "is",
+    "have been"
+   ],
+   "answer": 2,
+   "explanation": "Not only A but also B: động từ chia theo B (their teacher – số ít) → is."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Grammar: Subject–verb agreement",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\nTen kilometres ______ a long distance for workers who cycle to the factory every day.",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have been"
+   ],
+   "answer": 0,
+   "explanation": "Chủ ngữ chỉ khoảng cách, thời gian, tiền bạc được coi là một khối → động từ số ít: is."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "topic": "Grammar: Noun clauses",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\n______ he will get the job depends on his performance in the interview.",
+   "options": [
+    "If",
+    "Whether",
+    "That",
+    "What"
+   ],
+   "answer": 1,
+   "explanation": "Mệnh đề danh từ làm chủ ngữ mang nghĩa \"liệu ... hay không\" phải dùng Whether, không dùng If."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "topic": "Grammar: Noun clauses",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nThe interviewer asked me ______ I had any experience in marketing.",
+   "options": [
+    "what",
+    "that",
+    "which",
+    "whether"
+   ],
+   "answer": 3,
+   "explanation": "Câu hỏi Yes/No chuyển thành mệnh đề danh từ sau \"asked\" dùng whether/if."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nInterviewer: \"Why do you want to work for our company?\"\nApplicant: \"______\"",
+   "options": [
+    "Because I believe your company offers great opportunities for career development.",
+    "I'm sorry. I don't know.",
+    "Yes, I'd love to.",
+    "It's my pleasure."
+   ],
+   "answer": 0,
+   "explanation": "Câu hỏi Why cần câu trả lời nêu lý do: Because ...."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 2,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nAnna: \"I think living in the city is much better than living in the countryside.\"\nBen: \"______\"",
+   "options": [
+    "I don't quite agree. The countryside is more peaceful and less polluted.",
+    "You're welcome.",
+    "That's right. The countryside is more peaceful.",
+    "Me neither."
+   ],
+   "answer": 0,
+   "explanation": "Phản đối lịch sự kèm lý do hợp lý. \"That's right\" đồng ý nhưng vế sau lại khen nông thôn → mâu thuẫn; \"Me neither\" dùng cho câu phủ định."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Sentence arrangement",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\n\na. Lan: Thanks! I'm a bit nervous, though. It's my first interview.\nb. Lan: I have a job interview at a travel agency tomorrow morning.\nc. Mai: You look busy, Lan. What are you preparing for?\nd. Mai: Don't worry. Just be confident and prepare answers to some common questions.\ne. Mai: That's great! Good luck!",
+   "options": [
+    "c – b – e – a – d",
+    "c – e – b – a – d",
+    "b – c – e – a – d",
+    "c – b – a – e – d"
+   ],
+   "answer": 0,
+   "explanation": "Mai hỏi (c) → Lan nói có phỏng vấn (b) → Mai chúc (e) → Lan cảm ơn và nói lo lắng (a) → Mai động viên (d)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Sentence arrangement",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\n\na. One of the main reasons is that cities offer more job opportunities and higher incomes.\nb. In recent decades, millions of people in Viet Nam have moved from rural areas to cities.\nc. In addition, people are attracted by better schools, hospitals and entertainment facilities in urban areas.\nd. However, this rapid movement has also led to problems such as traffic jams and housing shortages.\ne. Therefore, the government needs proper planning to make cities more liveable.",
+   "options": [
+    "b – c – a – d – e",
+    "a – b – c – d – e",
+    "b – a – c – d – e",
+    "b – a – d – c – e"
+   ],
+   "answer": 2,
+   "explanation": "Giới thiệu hiện tượng (b) → lý do chính (a) → In addition, lý do khác (c) → However, hệ quả tiêu cực (d) → Therefore, giải pháp (e)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 1,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (25).\n\nFinding a first job can be a challenging experience for young people. Before applying, you should research the company carefully and prepare a clear, well-organised CV. Your CV should highlight your education, skills and any work experience, (25) ______ part-time jobs or volunteer work. Employers today pay attention not only to qualifications but also to soft skills, (26) ______ communication, teamwork and problem-solving. When you are invited to an interview, it is important to arrive (27) ______ and dress appropriately. During the interview, listen carefully to the questions and answer them honestly. Do not be afraid to ask the interviewer about (28) ______ the job involves; this shows that you are really interested in the position. Many young people get rejected several times before they are offered a job, (29) ______ can be disappointing. However, every interview is a chance to learn and improve. Remember that (30) ______ carefully you prepare, the more confident you will feel.\n\nQuestion: Choose the best option for blank (25).",
+   "options": [
+    "included",
+    "include",
+    "includes",
+    "including"
+   ],
+   "answer": 3,
+   "explanation": "including + danh từ: bao gồm (giới từ dùng để liệt kê ví dụ)."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 2,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (26).\n\nFinding a first job can be a challenging experience for young people. Before applying, you should research the company carefully and prepare a clear, well-organised CV. Your CV should highlight your education, skills and any work experience, (25) ______ part-time jobs or volunteer work. Employers today pay attention not only to qualifications but also to soft skills, (26) ______ communication, teamwork and problem-solving. When you are invited to an interview, it is important to arrive (27) ______ and dress appropriately. During the interview, listen carefully to the questions and answer them honestly. Do not be afraid to ask the interviewer about (28) ______ the job involves; this shows that you are really interested in the position. Many young people get rejected several times before they are offered a job, (29) ______ can be disappointing. However, every interview is a chance to learn and improve. Remember that (30) ______ carefully you prepare, the more confident you will feel.\n\nQuestion: Choose the best option for blank (26).",
+   "options": [
+    "as well",
+    "such as",
+    "for instance of",
+    "as if"
+   ],
+   "answer": 1,
+   "explanation": "such as + danh từ: chẳng hạn như (liệt kê ví dụ về soft skills)."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 1,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (27).\n\nFinding a first job can be a challenging experience for young people. Before applying, you should research the company carefully and prepare a clear, well-organised CV. Your CV should highlight your education, skills and any work experience, (25) ______ part-time jobs or volunteer work. Employers today pay attention not only to qualifications but also to soft skills, (26) ______ communication, teamwork and problem-solving. When you are invited to an interview, it is important to arrive (27) ______ and dress appropriately. During the interview, listen carefully to the questions and answer them honestly. Do not be afraid to ask the interviewer about (28) ______ the job involves; this shows that you are really interested in the position. Many young people get rejected several times before they are offered a job, (29) ______ can be disappointing. However, every interview is a chance to learn and improve. Remember that (30) ______ carefully you prepare, the more confident you will feel.\n\nQuestion: Choose the best option for blank (27).",
+   "options": [
+    "punctual",
+    "punctuality",
+    "punctually",
+    "punctuate"
+   ],
+   "answer": 2,
+   "explanation": "Bổ nghĩa cho động từ \"arrive\" cần trạng từ: punctually (đúng giờ)."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 3,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (28).\n\nFinding a first job can be a challenging experience for young people. Before applying, you should research the company carefully and prepare a clear, well-organised CV. Your CV should highlight your education, skills and any work experience, (25) ______ part-time jobs or volunteer work. Employers today pay attention not only to qualifications but also to soft skills, (26) ______ communication, teamwork and problem-solving. When you are invited to an interview, it is important to arrive (27) ______ and dress appropriately. During the interview, listen carefully to the questions and answer them honestly. Do not be afraid to ask the interviewer about (28) ______ the job involves; this shows that you are really interested in the position. Many young people get rejected several times before they are offered a job, (29) ______ can be disappointing. However, every interview is a chance to learn and improve. Remember that (30) ______ carefully you prepare, the more confident you will feel.\n\nQuestion: Choose the best option for blank (28).",
+   "options": [
+    "which",
+    "what",
+    "that",
+    "whether"
+   ],
+   "answer": 1,
+   "explanation": "Sau giới từ \"about\" cần mệnh đề danh từ; \"the job involves\" thiếu tân ngữ → what (điều mà)."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 3,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (29).\n\nFinding a first job can be a challenging experience for young people. Before applying, you should research the company carefully and prepare a clear, well-organised CV. Your CV should highlight your education, skills and any work experience, (25) ______ part-time jobs or volunteer work. Employers today pay attention not only to qualifications but also to soft skills, (26) ______ communication, teamwork and problem-solving. When you are invited to an interview, it is important to arrive (27) ______ and dress appropriately. During the interview, listen carefully to the questions and answer them honestly. Do not be afraid to ask the interviewer about (28) ______ the job involves; this shows that you are really interested in the position. Many young people get rejected several times before they are offered a job, (29) ______ can be disappointing. However, every interview is a chance to learn and improve. Remember that (30) ______ carefully you prepare, the more confident you will feel.\n\nQuestion: Choose the best option for blank (29).",
+   "options": [
+    "which",
+    "that",
+    "it",
+    "what"
+   ],
+   "answer": 0,
+   "explanation": "Sau dấu phẩy, thay cho cả mệnh đề phía trước dùng \"which\". \"that\" không dùng sau dấu phẩy; \"it\" tạo câu ghép thiếu liên từ."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 2,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (30).\n\nFinding a first job can be a challenging experience for young people. Before applying, you should research the company carefully and prepare a clear, well-organised CV. Your CV should highlight your education, skills and any work experience, (25) ______ part-time jobs or volunteer work. Employers today pay attention not only to qualifications but also to soft skills, (26) ______ communication, teamwork and problem-solving. When you are invited to an interview, it is important to arrive (27) ______ and dress appropriately. During the interview, listen carefully to the questions and answer them honestly. Do not be afraid to ask the interviewer about (28) ______ the job involves; this shows that you are really interested in the position. Many young people get rejected several times before they are offered a job, (29) ______ can be disappointing. However, every interview is a chance to learn and improve. Remember that (30) ______ carefully you prepare, the more confident you will feel.\n\nQuestion: Choose the best option for blank (30).",
+   "options": [
+    "more",
+    "the most",
+    "the much",
+    "the more"
+   ],
+   "answer": 3,
+   "explanation": "Cấu trúc so sánh kép song song với \"the more confident\": the more carefully ..., the more confident ...."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 2,
+   "stem": "Read the following passage and answer the question.\n\n(1) Urbanisation – the movement of people from rural areas to cities – is one of the most significant trends of the modern world. In 1950, less than 30 percent of the global population lived in urban areas. Today, the figure is more than 55 percent, and experts predict that it will reach nearly 70 percent by 2050.\n\n(2) The main driving force behind urbanisation is economic. Cities offer a wider range of jobs, higher wages and better access to education and healthcare. For many rural families, sending a son or daughter to work in the city is a way to escape poverty. The money these workers send home often helps their relatives build houses or pay school fees.\n\n(3) However, rapid urbanisation brings serious challenges. When cities grow faster than their infrastructure, problems such as traffic congestion, air pollution and housing shortages appear. In some developing countries, newcomers who cannot afford proper accommodation end up living in slums, where clean water and sanitation are limited.\n\n(4) To cope with these problems, many cities are adopting the idea of \"smart growth\". Instead of spreading outwards, they build upwards and invest in public transport, green spaces and affordable housing. At the same time, some governments are trying to improve living conditions in the countryside so that people do not feel forced to leave their hometowns. If these efforts succeed, urbanisation may become a source of progress rather than a burden.\n\nQuestion: Which of the following could be the best title for the passage?",
+   "options": [
+    "Urbanisation: Opportunities, Challenges and Solutions",
+    "The History of Smart Cities",
+    "Why People Prefer the Countryside",
+    "Life in the Slums of Developing Countries"
+   ],
+   "answer": 0,
+   "explanation": "Bài nêu xu hướng đô thị hóa, nguyên nhân/lợi ích (đoạn 2), thách thức (đoạn 3) và giải pháp (đoạn 4)."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 1,
+   "stem": "Read the following passage and answer the question.\n\n(1) Urbanisation – the movement of people from rural areas to cities – is one of the most significant trends of the modern world. In 1950, less than 30 percent of the global population lived in urban areas. Today, the figure is more than 55 percent, and experts predict that it will reach nearly 70 percent by 2050.\n\n(2) The main driving force behind urbanisation is economic. Cities offer a wider range of jobs, higher wages and better access to education and healthcare. For many rural families, sending a son or daughter to work in the city is a way to escape poverty. The money these workers send home often helps their relatives build houses or pay school fees.\n\n(3) However, rapid urbanisation brings serious challenges. When cities grow faster than their infrastructure, problems such as traffic congestion, air pollution and housing shortages appear. In some developing countries, newcomers who cannot afford proper accommodation end up living in slums, where clean water and sanitation are limited.\n\n(4) To cope with these problems, many cities are adopting the idea of \"smart growth\". Instead of spreading outwards, they build upwards and invest in public transport, green spaces and affordable housing. At the same time, some governments are trying to improve living conditions in the countryside so that people do not feel forced to leave their hometowns. If these efforts succeed, urbanisation may become a source of progress rather than a burden.\n\nQuestion: According to paragraph 1, what proportion of the world's population is expected to live in cities by 2050?",
+   "options": [
+    "Less than 30 percent",
+    "More than 55 percent",
+    "Nearly 70 percent",
+    "Exactly 50 percent"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 1: \"experts predict that it will reach nearly 70 percent by 2050\"."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 2,
+   "stem": "Read the following passage and answer the question.\n\n(1) Urbanisation – the movement of people from rural areas to cities – is one of the most significant trends of the modern world. In 1950, less than 30 percent of the global population lived in urban areas. Today, the figure is more than 55 percent, and experts predict that it will reach nearly 70 percent by 2050.\n\n(2) The main driving force behind urbanisation is economic. Cities offer a wider range of jobs, higher wages and better access to education and healthcare. For many rural families, sending a son or daughter to work in the city is a way to escape poverty. The money these workers send home often helps their relatives build houses or pay school fees.\n\n(3) However, rapid urbanisation brings serious challenges. When cities grow faster than their infrastructure, problems such as traffic congestion, air pollution and housing shortages appear. In some developing countries, newcomers who cannot afford proper accommodation end up living in slums, where clean water and sanitation are limited.\n\n(4) To cope with these problems, many cities are adopting the idea of \"smart growth\". Instead of spreading outwards, they build upwards and invest in public transport, green spaces and affordable housing. At the same time, some governments are trying to improve living conditions in the countryside so that people do not feel forced to leave their hometowns. If these efforts succeed, urbanisation may become a source of progress rather than a burden.\n\nQuestion: The word \"escape\" in paragraph 2 is closest in meaning to ______.",
+   "options": [
+    "run into",
+    "cause",
+    "get away from",
+    "increase"
+   ],
+   "answer": 2,
+   "explanation": "escape poverty = thoát khỏi đói nghèo → get away from."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 1,
+   "stem": "Read the following passage and answer the question.\n\n(1) Urbanisation – the movement of people from rural areas to cities – is one of the most significant trends of the modern world. In 1950, less than 30 percent of the global population lived in urban areas. Today, the figure is more than 55 percent, and experts predict that it will reach nearly 70 percent by 2050.\n\n(2) The main driving force behind urbanisation is economic. Cities offer a wider range of jobs, higher wages and better access to education and healthcare. For many rural families, sending a son or daughter to work in the city is a way to escape poverty. The money these workers send home often helps their relatives build houses or pay school fees.\n\n(3) However, rapid urbanisation brings serious challenges. When cities grow faster than their infrastructure, problems such as traffic congestion, air pollution and housing shortages appear. In some developing countries, newcomers who cannot afford proper accommodation end up living in slums, where clean water and sanitation are limited.\n\n(4) To cope with these problems, many cities are adopting the idea of \"smart growth\". Instead of spreading outwards, they build upwards and invest in public transport, green spaces and affordable housing. At the same time, some governments are trying to improve living conditions in the countryside so that people do not feel forced to leave their hometowns. If these efforts succeed, urbanisation may become a source of progress rather than a burden.\n\nQuestion: The word \"they\" in paragraph 4 refers to ______.",
+   "options": [
+    "these problems",
+    "some governments",
+    "green spaces",
+    "many cities"
+   ],
+   "answer": 3,
+   "explanation": "\"many cities are adopting ... Instead of spreading outwards, they build upwards\" – they = many cities."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 1,
+   "stem": "Read the following passage and answer the question.\n\n(1) Urbanisation – the movement of people from rural areas to cities – is one of the most significant trends of the modern world. In 1950, less than 30 percent of the global population lived in urban areas. Today, the figure is more than 55 percent, and experts predict that it will reach nearly 70 percent by 2050.\n\n(2) The main driving force behind urbanisation is economic. Cities offer a wider range of jobs, higher wages and better access to education and healthcare. For many rural families, sending a son or daughter to work in the city is a way to escape poverty. The money these workers send home often helps their relatives build houses or pay school fees.\n\n(3) However, rapid urbanisation brings serious challenges. When cities grow faster than their infrastructure, problems such as traffic congestion, air pollution and housing shortages appear. In some developing countries, newcomers who cannot afford proper accommodation end up living in slums, where clean water and sanitation are limited.\n\n(4) To cope with these problems, many cities are adopting the idea of \"smart growth\". Instead of spreading outwards, they build upwards and invest in public transport, green spaces and affordable housing. At the same time, some governments are trying to improve living conditions in the countryside so that people do not feel forced to leave their hometowns. If these efforts succeed, urbanisation may become a source of progress rather than a burden.\n\nQuestion: Which of the following is NOT mentioned in paragraph 3 as a problem of rapid urbanisation?",
+   "options": [
+    "Traffic congestion",
+    "Air pollution",
+    "Housing shortages",
+    "Rising crime rates"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 3 nêu traffic congestion, air pollution, housing shortages; không nhắc tội phạm."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 3,
+   "stem": "Read the following passage and answer the question.\n\n(1) Urbanisation – the movement of people from rural areas to cities – is one of the most significant trends of the modern world. In 1950, less than 30 percent of the global population lived in urban areas. Today, the figure is more than 55 percent, and experts predict that it will reach nearly 70 percent by 2050.\n\n(2) The main driving force behind urbanisation is economic. Cities offer a wider range of jobs, higher wages and better access to education and healthcare. For many rural families, sending a son or daughter to work in the city is a way to escape poverty. The money these workers send home often helps their relatives build houses or pay school fees.\n\n(3) However, rapid urbanisation brings serious challenges. When cities grow faster than their infrastructure, problems such as traffic congestion, air pollution and housing shortages appear. In some developing countries, newcomers who cannot afford proper accommodation end up living in slums, where clean water and sanitation are limited.\n\n(4) To cope with these problems, many cities are adopting the idea of \"smart growth\". Instead of spreading outwards, they build upwards and invest in public transport, green spaces and affordable housing. At the same time, some governments are trying to improve living conditions in the countryside so that people do not feel forced to leave their hometowns. If these efforts succeed, urbanisation may become a source of progress rather than a burden.\n\nQuestion: It can be inferred from the passage that ______.",
+   "options": [
+    "smart growth means building more cities in the countryside",
+    "all newcomers to cities have to live in slums",
+    "urbanisation brings no benefits to rural families",
+    "improving rural living conditions may reduce the number of people moving to cities"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 4: cải thiện điều kiện sống ở nông thôn để người dân không phải rời quê → có thể giảm di cư ra thành phố. Các phương án khác trái với bài (\"some\" newcomers, tiền gửi về giúp gia đình)."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence. (The parts to consider are given in the options.)\n\nEvery applicant who want to apply for the position must submit a CV before Friday.",
+   "options": [
+    "apply for",
+    "who want",
+    "must submit",
+    "before"
+   ],
+   "answer": 1,
+   "explanation": "\"who\" thay cho \"Every applicant\" (số ít) → động từ số ít: who want → who wants."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "topic": "Error identification",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence. (The parts to consider are given in the options.)\n\nShe failed the interview twice, that made her lose confidence.",
+   "options": [
+    "failed",
+    "twice",
+    "that",
+    "lose confidence"
+   ],
+   "answer": 2,
+   "explanation": "Thay cho cả mệnh đề trước, sau dấu phẩy phải dùng \"which\", không dùng \"that\": that → which."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Closest meaning",
+   "level": 2,
+   "stem": "Choose the sentence that is closest in meaning to the given sentence.\n\nIt is unclear whether the company will hire more workers next year.",
+   "options": [
+    "The company will certainly hire more workers next year.",
+    "The company has clearly said it will not hire more workers next year.",
+    "Nobody knows for sure if the company will hire more workers next year.",
+    "Whether the company hired more workers last year is unclear."
+   ],
+   "answer": 2,
+   "explanation": "\"It is unclear whether ...\" = chưa rõ liệu ... → \"Nobody knows for sure if ...\". Các phương án khác sai nghĩa hoặc sai thời gian."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Closest meaning",
+   "level": 3,
+   "stem": "Choose the sentence that best combines the two given sentences.\n\nCities become more crowded. Living costs rise higher.",
+   "options": [
+    "The more crowded cities become, the highest living costs rise.",
+    "The crowdeder cities become, the higher living costs rise.",
+    "Cities become more crowded, so living costs rise lower.",
+    "The more crowded cities become, the higher living costs rise."
+   ],
+   "answer": 3,
+   "explanation": "So sánh kép: The more crowded ..., the higher .... \"crowded\" là tính từ dài (more crowded); không dùng so sánh nhất."
+  }
+ ]
+}

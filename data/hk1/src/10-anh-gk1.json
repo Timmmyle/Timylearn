@@ -1,0 +1,611 @@
+{
+ "grade": 10,
+ "subject": "Tiếng Anh",
+ "exam": "gk1",
+ "duration_min": 60,
+ "title": "Đề ôn giữa học kì 1 – Tiếng Anh 10 (đề số 1)",
+ "scope": "Global Success 10: Unit 1 Family life; Unit 2 Humans and the environment; Unit 3 Music",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "br$\\underline{\\text{ea}}$d",
+    "h$\\underline{\\text{ea}}$vy",
+    "h$\\underline{\\text{ea}}$lth",
+    "m$\\underline{\\text{ea}}$l"
+   ],
+   "answer": 3,
+   "explanation": "“meal” đọc /iː/; “bread”, “heavy”, “health” đọc /e/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "wash$\\underline{\\text{ed}}$",
+    "clean$\\underline{\\text{ed}}$",
+    "cook$\\underline{\\text{ed}}$",
+    "help$\\underline{\\text{ed}}$"
+   ],
+   "answer": 1,
+   "explanation": "“cleaned” đuôi -ed đọc /d/ (sau âm hữu thanh /n/); “washed”, “cooked”, “helped” đọc /t/ (sau /ʃ/, /k/, /p/)."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "laundry",
+    "rubbish",
+    "garbage",
+    "routine"
+   ],
+   "answer": 3,
+   "explanation": "“routine” /ruːˈtiːn/ nhấn âm 2; các từ còn lại nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "audience",
+    "talented",
+    "performance",
+    "musical"
+   ],
+   "answer": 2,
+   "explanation": "“performance” /pəˈfɔːməns/ nhấn âm 2; “musical”, “talented”, “audience” nhấn âm 1."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Unit 1: Family life – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nIn many families, the father is the ______ who earns money to support the whole family.",
+   "options": [
+    "chore",
+    "housework",
+    "homemaker",
+    "breadwinner"
+   ],
+   "answer": 3,
+   "explanation": "breadwinner: người trụ cột kiếm tiền nuôi gia đình; homemaker: người nội trợ."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Unit 1: Family life – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nMy brother and I take turns to ______ the dishes after dinner.",
+   "options": [
+    "do",
+    "make",
+    "take",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": "Cụm cố định “do the dishes” = rửa bát."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Unit 1: Family life – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nSharing household chores helps children develop a sense of ______.",
+   "options": [
+    "respond",
+    "responsibility",
+    "responsibly",
+    "responsible"
+   ],
+   "answer": 1,
+   "explanation": "Sau “a sense of” cần danh từ: responsibility (tinh thần trách nhiệm)."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Unit 2: Humans and the environment – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nWe should use ______ bags instead of plastic ones to protect the environment.",
+   "options": [
+    "wasteful",
+    "disposable",
+    "eco-friendly",
+    "harmful"
+   ],
+   "answer": 2,
+   "explanation": "eco-friendly: thân thiện với môi trường – phù hợp mục đích bảo vệ môi trường."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Unit 2: Humans and the environment – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nOur ______ footprint is the amount of carbon dioxide we produce through our daily activities.",
+   "options": [
+    "carbon",
+    "natural",
+    "eco",
+    "green"
+   ],
+   "answer": 0,
+   "explanation": "Cụm “carbon footprint” = lượng khí thải carbon mỗi người tạo ra."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Unit 2: Humans and the environment – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nMany people are trying to adopt a greener ______ by cycling to work and saving energy at home.",
+   "options": [
+    "appliance",
+    "lifestyle",
+    "waste",
+    "litter"
+   ],
+   "answer": 1,
+   "explanation": "adopt a greener lifestyle: áp dụng lối sống xanh hơn."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Unit 3: Music – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe ______ cheered loudly when the band appeared on stage.",
+   "options": [
+    "talent",
+    "audience",
+    "judge",
+    "performer"
+   ],
+   "answer": 1,
+   "explanation": "audience: khán giả – những người cổ vũ khi ban nhạc xuất hiện."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Unit 3: Music – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n“Vietnam's Got Talent” is a popular TV talent ______ that attracts thousands of contestants every year.",
+   "options": [
+    "festival",
+    "concert",
+    "band",
+    "show"
+   ],
+   "answer": 3,
+   "explanation": "Cụm “talent show” = chương trình tìm kiếm tài năng."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Present simple vs present continuous",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nMy mother usually ______ the cooking, but this week my father ______ it because she is on a business trip.",
+   "options": [
+    "is doing / is doing",
+    "does / does",
+    "does / is doing",
+    "is doing / does"
+   ],
+   "answer": 2,
+   "explanation": "“usually” → thói quen dùng hiện tại đơn (does); “this week” → việc tạm thời dùng hiện tại tiếp diễn (is doing)."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Present simple vs present continuous",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nLook! The children ______ the floor in the living room.",
+   "options": [
+    "are cleaning",
+    "cleaned",
+    "cleans",
+    "clean"
+   ],
+   "answer": 0,
+   "explanation": "“Look!” báo hiệu hành động đang diễn ra → hiện tại tiếp diễn: are cleaning."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Present simple vs present continuous",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nWater ______ at 100 degrees Celsius.",
+   "options": [
+    "boil",
+    "boils",
+    "boiled",
+    "is boiling"
+   ],
+   "answer": 1,
+   "explanation": "Sự thật hiển nhiên → hiện tại đơn; chủ ngữ số ít “water” → boils."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Will vs be going to",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nLook at those dark clouds! It ______ rain.",
+   "options": [
+    "will",
+    "is going to",
+    "is raining",
+    "rains"
+   ],
+   "answer": 1,
+   "explanation": "Dự đoán có căn cứ ở hiện tại (mây đen) → be going to."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Will vs be going to",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nA: I'm really thirsty.\nB: Wait a moment. I ______ you a glass of water.",
+   "options": [
+    "will get",
+    "am going to get",
+    "get",
+    "got"
+   ],
+   "answer": 0,
+   "explanation": "Quyết định tức thì ngay lúc nói → will: “I will get you a glass of water.”"
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Passive voice",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nMore trees ______ in our neighbourhood next month.",
+   "options": [
+    "will be planted",
+    "plant",
+    "are planting",
+    "will plant"
+   ],
+   "answer": 0,
+   "explanation": "Cây được trồng (bị động) trong tương lai (next month) → will be + V3: will be planted."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: Compound sentences",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nShe practises the piano every day, ______ she plays it very well.",
+   "options": [
+    "but",
+    "or",
+    "so",
+    "because"
+   ],
+   "answer": 2,
+   "explanation": "Vế sau là kết quả của vế trước → dùng liên từ “so”."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: To-infinitives and bare infinitives",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nOur music teacher made us ______ the song again and again until we got it right.",
+   "options": [
+    "practise",
+    "practising",
+    "practised",
+    "to practise"
+   ],
+   "answer": 0,
+   "explanation": "make + O + động từ nguyên mẫu không “to” → made us practise."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nLan: “Would you like me to help you with the washing-up?”\nMai: “______”",
+   "options": [
+    "No, I don't.",
+    "You're welcome.",
+    "That's very kind of you. Thanks!",
+    "Yes, I would."
+   ],
+   "answer": 2,
+   "explanation": "Đáp lại lời đề nghị giúp đỡ một cách lịch sự: “That's very kind of you. Thanks!”"
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 2,
+   "stem": "Choose the most suitable response to complete the exchange.\nTom: “I think everyone should reduce their use of plastic bags.”\nAnna: “______”",
+   "options": [
+    "Thanks a lot.",
+    "It doesn't matter.",
+    "I couldn't agree more.",
+    "Never mind."
+   ],
+   "answer": 2,
+   "explanation": "Đáp lại một ý kiến bằng sự đồng tình: “I couldn't agree more.” (Tôi hoàn toàn đồng ý)."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Mai: That's great! What do you do to help?\nb. Nam: I'm fine. I've just finished doing the housework with my family.\nc. Mai: Hi Nam, how are you?\nd. Nam: I usually do the laundry and take out the rubbish.",
+   "options": [
+    "c – a – b – d",
+    "c – b – a – d",
+    "b – c – a – d",
+    "c – b – d – a"
+   ],
+   "answer": 1,
+   "explanation": "Chào hỏi (c) → trả lời và kể vừa làm việc nhà (b) → hỏi làm gì để giúp (a) → trả lời (d)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. First, we can save energy by turning off the lights when we leave a room.\nb. There are many simple ways to live a greener life.\nc. Finally, we should reuse and recycle things instead of throwing them away.\nd. Second, we can walk or cycle to school instead of going by motorbike.\ne. If everyone does these small things, our planet will be cleaner.",
+   "options": [
+    "b – a – c – d – e",
+    "a – b – d – c – e",
+    "b – d – a – c – e",
+    "b – a – d – c – e"
+   ],
+   "answer": 3,
+   "explanation": "Câu chủ đề (b) → First (a) → Second (d) → Finally (c) → câu kết (e)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1: Family life)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nIn my family, everyone shares the housework. My father is the breadwinner, but he always (25) ______ my mother with the housework when he gets home. He usually does the heavy lifting and (26) ______ the household finances. My mother is a great cook, so she is (27) ______ for the cooking. My sister and I have our own chores, too. I take out the rubbish every evening, (28) ______ my sister does the washing-up after meals. At the weekend, we all clean the house together. Doing chores together not only helps my parents but also (29) ______ our family bond. Our parents also teach us (30) ______ responsible and independent.\n\nBlank (25):",
+   "options": [
+    "helping",
+    "help",
+    "is help",
+    "helps"
+   ],
+   "answer": 3,
+   "explanation": "Thói quen với “always”, chủ ngữ “he” số ít → hiện tại đơn “helps”; cấu trúc help sb with sth."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1: Family life)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nIn my family, everyone shares the housework. My father is the breadwinner, but he always (25) ______ my mother with the housework when he gets home. He usually does the heavy lifting and (26) ______ the household finances. My mother is a great cook, so she is (27) ______ for the cooking. My sister and I have our own chores, too. I take out the rubbish every evening, (28) ______ my sister does the washing-up after meals. At the weekend, we all clean the house together. Doing chores together not only helps my parents but also (29) ______ our family bond. Our parents also teach us (30) ______ responsible and independent.\n\nBlank (26):",
+   "options": [
+    "takes",
+    "makes",
+    "puts",
+    "handles"
+   ],
+   "answer": 3,
+   "explanation": "handle the finances: quản lí tài chính gia đình; các động từ còn lại không kết hợp với “finances”."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1: Family life)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nIn my family, everyone shares the housework. My father is the breadwinner, but he always (25) ______ my mother with the housework when he gets home. He usually does the heavy lifting and (26) ______ the household finances. My mother is a great cook, so she is (27) ______ for the cooking. My sister and I have our own chores, too. I take out the rubbish every evening, (28) ______ my sister does the washing-up after meals. At the weekend, we all clean the house together. Doing chores together not only helps my parents but also (29) ______ our family bond. Our parents also teach us (30) ______ responsible and independent.\n\nBlank (27):",
+   "options": [
+    "keen",
+    "responsible",
+    "good",
+    "interested"
+   ],
+   "answer": 1,
+   "explanation": "be responsible for: chịu trách nhiệm về (việc nấu ăn)."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1: Family life)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nIn my family, everyone shares the housework. My father is the breadwinner, but he always (25) ______ my mother with the housework when he gets home. He usually does the heavy lifting and (26) ______ the household finances. My mother is a great cook, so she is (27) ______ for the cooking. My sister and I have our own chores, too. I take out the rubbish every evening, (28) ______ my sister does the washing-up after meals. At the weekend, we all clean the house together. Doing chores together not only helps my parents but also (29) ______ our family bond. Our parents also teach us (30) ______ responsible and independent.\n\nBlank (28):",
+   "options": [
+    "because",
+    "while",
+    "although",
+    "so"
+   ],
+   "answer": 1,
+   "explanation": "“while” nối hai việc của hai người diễn ra song song (tôi đổ rác, còn em gái rửa bát)."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1: Family life)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nIn my family, everyone shares the housework. My father is the breadwinner, but he always (25) ______ my mother with the housework when he gets home. He usually does the heavy lifting and (26) ______ the household finances. My mother is a great cook, so she is (27) ______ for the cooking. My sister and I have our own chores, too. I take out the rubbish every evening, (28) ______ my sister does the washing-up after meals. At the weekend, we all clean the house together. Doing chores together not only helps my parents but also (29) ______ our family bond. Our parents also teach us (30) ______ responsible and independent.\n\nBlank (29):",
+   "options": [
+    "strengthen",
+    "strength",
+    "strong",
+    "strengthens"
+   ],
+   "answer": 3,
+   "explanation": "Cấu trúc song song “not only helps … but also strengthens”; chủ ngữ “Doing chores” số ít → strengthens."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 1: Family life)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nIn my family, everyone shares the housework. My father is the breadwinner, but he always (25) ______ my mother with the housework when he gets home. He usually does the heavy lifting and (26) ______ the household finances. My mother is a great cook, so she is (27) ______ for the cooking. My sister and I have our own chores, too. I take out the rubbish every evening, (28) ______ my sister does the washing-up after meals. At the weekend, we all clean the house together. Doing chores together not only helps my parents but also (29) ______ our family bond. Our parents also teach us (30) ______ responsible and independent.\n\nBlank (30):",
+   "options": [
+    "be",
+    "been",
+    "to be",
+    "being"
+   ],
+   "answer": 2,
+   "explanation": "teach sb to do sth → teach us to be responsible."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 3: Music)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nMusic plays an important role in the lives of teenagers around the world. For many young people, listening to music is not just a hobby but also a way to relax and express their feelings. According to a recent survey, Vietnamese teenagers spend about two hours a day listening to music, mostly on their smartphones.\n\nMusic also brings people together. Every year, thousands of fans gather at music festivals to enjoy live performances by their favourite artists. These events give them a chance to meet people who share the same interests. In addition, TV talent shows have become extremely popular. They offer young singers an opportunity to show their talent and start a professional career.\n\nHowever, not all effects of music are positive. Some experts warn that listening to loud music through headphones for a long time can damage young people's hearing. They advise teenagers to keep the volume below 60 percent and take a break after every hour of listening.\n\nDespite these concerns, most people agree that music has many benefits. Learning to play a musical instrument, for example, can improve children's memory and concentration. It also teaches them to be patient, because mastering an instrument takes years of practice.\n\nWhat is the passage mainly about?",
+   "options": [
+    "The history of music festivals in Viet Nam",
+    "The dangers of using smartphones",
+    "The role and effects of music in young people's lives",
+    "How to become a professional singer"
+   ],
+   "answer": 2,
+   "explanation": "Bài nói về vai trò, lợi ích và tác hại của âm nhạc đối với giới trẻ; các phương án khác chỉ là chi tiết hoặc không được đề cập."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 3: Music)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nMusic plays an important role in the lives of teenagers around the world. For many young people, listening to music is not just a hobby but also a way to relax and express their feelings. According to a recent survey, Vietnamese teenagers spend about two hours a day listening to music, mostly on their smartphones.\n\nMusic also brings people together. Every year, thousands of fans gather at music festivals to enjoy live performances by their favourite artists. These events give them a chance to meet people who share the same interests. In addition, TV talent shows have become extremely popular. They offer young singers an opportunity to show their talent and start a professional career.\n\nHowever, not all effects of music are positive. Some experts warn that listening to loud music through headphones for a long time can damage young people's hearing. They advise teenagers to keep the volume below 60 percent and take a break after every hour of listening.\n\nDespite these concerns, most people agree that music has many benefits. Learning to play a musical instrument, for example, can improve children's memory and concentration. It also teaches them to be patient, because mastering an instrument takes years of practice.\n\nAccording to the passage, how long do Vietnamese teenagers spend listening to music each day?",
+   "options": [
+    "About two hours",
+    "About one hour",
+    "About three hours",
+    "More than five hours"
+   ],
+   "answer": 0,
+   "explanation": "Đoạn 1: “Vietnamese teenagers spend about two hours a day listening to music”."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 3: Music)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nMusic plays an important role in the lives of teenagers around the world. For many young people, listening to music is not just a hobby but also a way to relax and express their feelings. According to a recent survey, Vietnamese teenagers spend about two hours a day listening to music, mostly on their smartphones.\n\nMusic also brings people together. Every year, thousands of fans gather at music festivals to enjoy live performances by their favourite artists. These events give them a chance to meet people who share the same interests. In addition, TV talent shows have become extremely popular. They offer young singers an opportunity to show their talent and start a professional career.\n\nHowever, not all effects of music are positive. Some experts warn that listening to loud music through headphones for a long time can damage young people's hearing. They advise teenagers to keep the volume below 60 percent and take a break after every hour of listening.\n\nDespite these concerns, most people agree that music has many benefits. Learning to play a musical instrument, for example, can improve children's memory and concentration. It also teaches them to be patient, because mastering an instrument takes years of practice.\n\nThe word “They” in paragraph 2 refers to ______.",
+   "options": [
+    "young singers",
+    "fans",
+    "music festivals",
+    "TV talent shows"
+   ],
+   "answer": 3,
+   "explanation": "“They offer young singers an opportunity…” – “They” thay cho “TV talent shows” ở câu trước."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 3: Music)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nMusic plays an important role in the lives of teenagers around the world. For many young people, listening to music is not just a hobby but also a way to relax and express their feelings. According to a recent survey, Vietnamese teenagers spend about two hours a day listening to music, mostly on their smartphones.\n\nMusic also brings people together. Every year, thousands of fans gather at music festivals to enjoy live performances by their favourite artists. These events give them a chance to meet people who share the same interests. In addition, TV talent shows have become extremely popular. They offer young singers an opportunity to show their talent and start a professional career.\n\nHowever, not all effects of music are positive. Some experts warn that listening to loud music through headphones for a long time can damage young people's hearing. They advise teenagers to keep the volume below 60 percent and take a break after every hour of listening.\n\nDespite these concerns, most people agree that music has many benefits. Learning to play a musical instrument, for example, can improve children's memory and concentration. It also teaches them to be patient, because mastering an instrument takes years of practice.\n\nWhat do experts advise teenagers to do?",
+   "options": [
+    "Use speakers instead of headphones",
+    "Only listen to music at festivals",
+    "Keep the volume below 60 percent and take regular breaks",
+    "Stop listening to music completely"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 3: “advise teenagers to keep the volume below 60 percent and take a break after every hour”."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 3: Music)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nMusic plays an important role in the lives of teenagers around the world. For many young people, listening to music is not just a hobby but also a way to relax and express their feelings. According to a recent survey, Vietnamese teenagers spend about two hours a day listening to music, mostly on their smartphones.\n\nMusic also brings people together. Every year, thousands of fans gather at music festivals to enjoy live performances by their favourite artists. These events give them a chance to meet people who share the same interests. In addition, TV talent shows have become extremely popular. They offer young singers an opportunity to show their talent and start a professional career.\n\nHowever, not all effects of music are positive. Some experts warn that listening to loud music through headphones for a long time can damage young people's hearing. They advise teenagers to keep the volume below 60 percent and take a break after every hour of listening.\n\nDespite these concerns, most people agree that music has many benefits. Learning to play a musical instrument, for example, can improve children's memory and concentration. It also teaches them to be patient, because mastering an instrument takes years of practice.\n\nThe word “mastering” in the last paragraph is closest in meaning to ______.",
+   "options": [
+    "teaching",
+    "becoming very skilled at",
+    "buying",
+    "listening to"
+   ],
+   "answer": 1,
+   "explanation": "master an instrument = chơi thành thạo một nhạc cụ → becoming very skilled at."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 3: Music)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nMusic plays an important role in the lives of teenagers around the world. For many young people, listening to music is not just a hobby but also a way to relax and express their feelings. According to a recent survey, Vietnamese teenagers spend about two hours a day listening to music, mostly on their smartphones.\n\nMusic also brings people together. Every year, thousands of fans gather at music festivals to enjoy live performances by their favourite artists. These events give them a chance to meet people who share the same interests. In addition, TV talent shows have become extremely popular. They offer young singers an opportunity to show their talent and start a professional career.\n\nHowever, not all effects of music are positive. Some experts warn that listening to loud music through headphones for a long time can damage young people's hearing. They advise teenagers to keep the volume below 60 percent and take a break after every hour of listening.\n\nDespite these concerns, most people agree that music has many benefits. Learning to play a musical instrument, for example, can improve children's memory and concentration. It also teaches them to be patient, because mastering an instrument takes years of practice.\n\nWhich of the following is NOT mentioned as a benefit of music?",
+   "options": [
+    "Improving memory and concentration",
+    "Bringing people together",
+    "Helping students get higher marks in maths",
+    "Helping people relax"
+   ],
+   "answer": 2,
+   "explanation": "Bài có nhắc thư giãn (đoạn 1), gắn kết mọi người (đoạn 2), cải thiện trí nhớ, sự tập trung (đoạn 4); không nhắc điểm môn toán."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification – Present simple vs present continuous",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nMy father usually (A) is going to work by bus, but today he (B) is driving to work (C) because it (D) is raining heavily.",
+   "options": [
+    "(A) is going",
+    "(B) is driving",
+    "(C) because",
+    "(D) is raining"
+   ],
+   "answer": 0,
+   "explanation": "“usually” chỉ thói quen → dùng hiện tại đơn: is going → goes."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "topic": "Error identification – Bare infinitives",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nLast night my parents (A) allowed me to go to the concert, (B) but they (C) made me (D) to come home before 10 p.m.",
+   "options": [
+    "(A) allowed me to go",
+    "(B) but",
+    "(C) made me",
+    "(D) to come"
+   ],
+   "answer": 3,
+   "explanation": "make + O + V nguyên mẫu không “to” → to come → come. (allow + O + to V là đúng.)"
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Making suggestions",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\n“Let's take public transport to reduce air pollution,” said Nam.",
+   "options": [
+    "Nam said, “Why don't we take public transport to reduce air pollution?”",
+    "Nam said, “We never take public transport to reduce air pollution.”",
+    "Nam said, “Taking public transport increases air pollution.”",
+    "Nam said, “We took public transport to reduce air pollution.”"
+   ],
+   "answer": 0,
+   "explanation": "“Let's + V” và “Why don't we + V?” đều là lời rủ rê, đề nghị cùng làm gì."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Passive voice",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nMany people will visit the new music hall next week.",
+   "options": [
+    "The new music hall will be visited by many people next week.",
+    "The new music hall was visited by many people next week.",
+    "The new music hall is visited by many people next week.",
+    "The new music hall will visit many people next week."
+   ],
+   "answer": 0,
+   "explanation": "Bị động thì tương lai đơn: will be + V3 → “will be visited by many people”."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu; kiểm tra bằng Python: JSON hợp lệ, đủ 40 câu mcq, mỗi câu 4 phương án khác nhau, đáp án phân bố đều A/B/C/D (10/10/10/10), số từ bài đọc hiểu trong khoảng 180–250."
+}

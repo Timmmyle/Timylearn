@@ -1,0 +1,349 @@
+{
+ "grade": 10,
+ "subject": "Toán",
+ "exam": "gk1",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 1 – Toán 10 (đề số 1)",
+ "scope": "Chương I Mệnh đề và tập hợp; Chương II Bất phương trình và hệ bất phương trình bậc nhất hai ẩn; Chương III Hệ thức lượng trong tam giác",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Mệnh đề",
+   "level": 1,
+   "stem": "Câu nào sau đây là một mệnh đề?",
+   "options": [
+    "Hôm nay trời đẹp quá!",
+    "Bạn có đi học không?",
+    "$x+2>5$.",
+    "Số 7 là số nguyên tố."
+   ],
+   "answer": 3,
+   "explanation": "Mệnh đề là câu khẳng định có tính đúng hoặc sai xác định. Câu cảm thán, câu hỏi không phải mệnh đề; $x+2>5$ là mệnh đề chứa biến (chưa xác định đúng sai). Câu “Số 7 là số nguyên tố” là mệnh đề đúng."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Mệnh đề",
+   "level": 1,
+   "stem": "Mệnh đề phủ định của mệnh đề “$\\forall x\\in\\mathbb{R},\\ x^2+1>0$” là",
+   "options": [
+    "$\\exists x\\in\\mathbb{R},\\ x^2+1\\le 0$",
+    "$\\exists x\\in\\mathbb{R},\\ x^2+1<0$",
+    "$\\forall x\\in\\mathbb{R},\\ x^2+1\\le 0$",
+    "$\\forall x\\in\\mathbb{R},\\ x^2+1<0$"
+   ],
+   "answer": 0,
+   "explanation": "Phủ định của “$\\forall x, P(x)$” là “$\\exists x, \\overline{P(x)}$”; phủ định của “$>0$” là “$\\le 0$”."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Tập hợp",
+   "level": 1,
+   "stem": "Cho tập hợp $A=\\{x\\in\\mathbb{Z}\\mid -2<x\\le 3\\}$. Liệt kê các phần tử của $A$ ta được",
+   "options": [
+    "$A=\\{-2;-1;0;1;2;3\\}$",
+    "$A=\\{-1;0;1;2;3\\}$",
+    "$A=\\{-1;0;1;2\\}$",
+    "$A=\\{-2;-1;0;1;2\\}$"
+   ],
+   "answer": 1,
+   "explanation": "Các số nguyên $x$ thỏa mãn $-2<x\\le 3$ là $-1;0;1;2;3$ (không lấy $-2$, có lấy $3$)."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Các phép toán trên tập hợp",
+   "level": 2,
+   "stem": "Cho $A=[-1;4)$ và $B=(2;6]$. Tập hợp $A\\cap B$ là",
+   "options": [
+    "$[2;4]$",
+    "$(2;4]$",
+    "$(2;4)$",
+    "$[-1;6]$"
+   ],
+   "answer": 2,
+   "explanation": "$A\\cap B$ gồm các số vừa thuộc $[-1;4)$ vừa thuộc $(2;6]$, tức $2<x<4$. Vậy $A\\cap B=(2;4)$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Các phép toán trên tập hợp",
+   "level": 1,
+   "stem": "Cho $A=\\{1;2;3;4;5\\}$ và $B=\\{2;4;6;8\\}$. Tập hợp $A\\setminus B$ là",
+   "options": [
+    "$\\{1;3;5\\}$",
+    "$\\{6;8\\}$",
+    "$\\{2;4\\}$",
+    "$\\{1;3;5;6;8\\}$"
+   ],
+   "answer": 0,
+   "explanation": "$A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$: bỏ $2;4$ khỏi $A$ được $\\{1;3;5\\}$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Bất phương trình bậc nhất hai ẩn",
+   "level": 1,
+   "stem": "Cặp số $(x;y)$ nào sau đây là một nghiệm của bất phương trình $2x-3y+1>0$?",
+   "options": [
+    "$(1;2)$",
+    "$(0;1)$",
+    "$(-1;0)$",
+    "$(0;0)$"
+   ],
+   "answer": 3,
+   "explanation": "Thay $(0;0)$: $0-0+1=1>0$ (đúng). Các cặp còn lại cho $-3$, $-2$, $-1$, đều không dương."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Hệ bất phương trình bậc nhất hai ẩn",
+   "level": 1,
+   "stem": "Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+   "options": [
+    "$\\begin{cases}x^2+y>0\\\\ x-y<3\\end{cases}$",
+    "$\\begin{cases}x+y>2\\\\ x-3y\\le 1\\end{cases}$",
+    "$\\begin{cases}xy>1\\\\ x+y\\le 4\\end{cases}$",
+    "$\\begin{cases}x+y^2<4\\\\ 2x-y\\ge 0\\end{cases}$"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi bất phương trình trong hệ phải có dạng $ax+by+c>0$ (hoặc $<,\\ \\le,\\ \\ge$). Các hệ còn lại chứa $x^2$, $xy$, $y^2$ nên không phải bậc nhất."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Hệ bất phương trình bậc nhất hai ẩn",
+   "level": 3,
+   "stem": "Giá trị lớn nhất của biểu thức $F=x+2y$ trên miền nghiệm của hệ $\\begin{cases}x\\ge 0\\\\ y\\ge 0\\\\ x+y\\le 4\\\\ x-y\\ge -2\\end{cases}$ là",
+   "options": [
+    "$8$",
+    "$4$",
+    "$7$",
+    "$6$"
+   ],
+   "answer": 2,
+   "explanation": "Miền nghiệm là tứ giác với các đỉnh $(0;0)$, $(4;0)$, $(0;2)$, $(1;3)$ (giao của $x+y=4$ và $x-y=-2$). $F$ lần lượt bằng $0;4;4;7$. Vậy $\\max F=7$ tại $(1;3)$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Giá trị lượng giác của góc từ 0° đến 180°",
+   "level": 1,
+   "stem": "Giá trị của $\\sin 150^\\circ$ là",
+   "options": [
+    "$\\dfrac{1}{2}$",
+    "$-\\dfrac{1}{2}$",
+    "$\\dfrac{\\sqrt{3}}{2}$",
+    "$-\\dfrac{\\sqrt{3}}{2}$"
+   ],
+   "answer": 0,
+   "explanation": "$\\sin 150^\\circ=\\sin(180^\\circ-30^\\circ)=\\sin 30^\\circ=\\dfrac12$ (sin của góc tù vẫn dương)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Định lí côsin",
+   "level": 2,
+   "stem": "Cho tam giác $ABC$ có $AB=5$, $AC=8$, $\\widehat{A}=60^\\circ$. Độ dài cạnh $BC$ bằng",
+   "options": [
+    "$\\sqrt{129}$",
+    "$49$",
+    "$\\sqrt{89}$",
+    "$7$"
+   ],
+   "answer": 3,
+   "explanation": "$BC^2=AB^2+AC^2-2\\cdot AB\\cdot AC\\cos A=25+64-2\\cdot5\\cdot8\\cdot\\dfrac12=49$, nên $BC=7$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Diện tích tam giác",
+   "level": 1,
+   "stem": "Cho tam giác $ABC$ có $AB=6$, $AC=8$, $\\widehat{A}=30^\\circ$. Diện tích tam giác $ABC$ bằng",
+   "options": [
+    "$24$",
+    "$12$",
+    "$12\\sqrt{3}$",
+    "$24\\sqrt{3}$"
+   ],
+   "answer": 1,
+   "explanation": "$S=\\dfrac12 AB\\cdot AC\\sin A=\\dfrac12\\cdot6\\cdot8\\cdot\\dfrac12=12$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Giải tam giác và ứng dụng thực tế",
+   "level": 3,
+   "stem": "Để đo khoảng cách từ vị trí $A$ trên bờ sông đến một cái cây $C$ ở bờ bên kia, người ta chọn điểm $B$ cùng bờ với $A$ sao cho $AB=100$ m và đo được $\\widehat{CAB}=60^\\circ$, $\\widehat{CBA}=75^\\circ$. Khoảng cách $AC$ xấp xỉ bằng",
+   "options": [
+    "$122,5$ m",
+    "$89,7$ m",
+    "$136,6$ m",
+    "$141,4$ m"
+   ],
+   "answer": 2,
+   "explanation": "$\\widehat{C}=180^\\circ-60^\\circ-75^\\circ=45^\\circ$. Theo định lí sin: $AC=\\dfrac{AB\\sin B}{\\sin C}=\\dfrac{100\\sin75^\\circ}{\\sin45^\\circ}\\approx136,6$ m."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "topic": "Các phép toán trên tập hợp",
+   "level": 1,
+   "stem": "Cho hai tập hợp $A=(-3;5]$ và $B=[1;+\\infty)$.",
+   "statements": [
+    {
+     "t": "$A\\cap B=[1;5]$.",
+     "a": true
+    },
+    {
+     "t": "$A\\cup B=[-3;+\\infty)$.",
+     "a": false
+    },
+    {
+     "t": "$A\\setminus B=(-3;1]$.",
+     "a": false
+    },
+    {
+     "t": "$\\mathbb{R}\\setminus(A\\cap B)=(-\\infty;1)\\cup(5;+\\infty)$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: phần chung là $1\\le x\\le5$. b) Sai: $A\\cup B=(-3;+\\infty)$, không chứa $-3$. c) Sai: $1\\in B$ nên $A\\setminus B=(-3;1)$. d) Đúng: phần bù của $[1;5]$ trong $\\mathbb{R}$ là $(-\\infty;1)\\cup(5;+\\infty)$."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "topic": "Mệnh đề",
+   "level": 2,
+   "stem": "Với $n$ là số tự nhiên, xét hai mệnh đề chứa biến $P(n)$: “$n$ chia hết cho $6$” và $Q(n)$: “$n$ chia hết cho $3$”.",
+   "statements": [
+    {
+     "t": "Mệnh đề “$\\forall n\\in\\mathbb{N},\\ P(n)\\Rightarrow Q(n)$” là mệnh đề đúng.",
+     "a": true
+    },
+    {
+     "t": "Mệnh đề “$\\forall n\\in\\mathbb{N},\\ Q(n)\\Rightarrow P(n)$” là mệnh đề đúng.",
+     "a": false
+    },
+    {
+     "t": "“$n$ chia hết cho $3$” là điều kiện cần để “$n$ chia hết cho $6$”.",
+     "a": true
+    },
+    {
+     "t": "Mệnh đề “$\\exists n\\in\\mathbb{N},\\ n^2+1$ chia hết cho $3$” là mệnh đề đúng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $6$ chia hết cho $3$ nên số chia hết cho $6$ thì chia hết cho $3$. b) Sai: phản ví dụ $n=3$. c) Đúng vì $P\\Rightarrow Q$ đúng nên $Q$ là điều kiện cần cho $P$. d) Sai: $n^2$ chia $3$ dư $0$ hoặc $1$, nên $n^2+1$ chia $3$ dư $1$ hoặc $2$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "topic": "Hệ bất phương trình bậc nhất hai ẩn",
+   "level": 3,
+   "stem": "Một xưởng sản xuất hai loại sản phẩm I và II. Mỗi kg sản phẩm I cần $2$ kg nguyên liệu và $30$ giờ công, lãi $40$ nghìn đồng; mỗi kg sản phẩm II cần $4$ kg nguyên liệu và $15$ giờ công, lãi $30$ nghìn đồng. Xưởng có $200$ kg nguyên liệu và $1200$ giờ công. Gọi $x$, $y$ (kg) lần lượt là khối lượng sản phẩm I, II sản xuất ($x\\ge0$, $y\\ge0$).",
+   "statements": [
+    {
+     "t": "$x$, $y$ phải thỏa mãn bất phương trình $x+2y\\le 100$.",
+     "a": true
+    },
+    {
+     "t": "Phương án $(x;y)=(30;25)$ thỏa mãn mọi điều kiện của bài toán.",
+     "a": false
+    },
+    {
+     "t": "Miền nghiệm của hệ điều kiện là tứ giác có các đỉnh $(0;0)$, $(40;0)$, $(20;40)$, $(0;50)$.",
+     "a": true
+    },
+    {
+     "t": "Tiền lãi lớn nhất xưởng có thể thu được là $2,4$ triệu đồng.",
+     "a": false
+    }
+   ],
+   "explanation": "Hệ điều kiện: $x\\ge0,\\ y\\ge0,\\ 2x+4y\\le200\\ (x+2y\\le100),\\ 30x+15y\\le1200\\ (2x+y\\le80)$. a) Đúng. b) Sai: $2\\cdot30+25=85>80$. c) Đúng: giao của $x+2y=100$ và $2x+y=80$ là $(20;40)$. d) Sai: $L=40x+30y$ tại các đỉnh bằng $0;1600;2000;1500$ (nghìn đồng), lãi lớn nhất là $2$ triệu đồng."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "topic": "Hệ thức lượng trong tam giác",
+   "level": 2,
+   "stem": "Cho tam giác $ABC$ có $AB=3$, $AC=5$, $BC=7$.",
+   "statements": [
+    {
+     "t": "Góc $A$ là góc tù.",
+     "a": true
+    },
+    {
+     "t": "Diện tích tam giác $ABC$ bằng $\\dfrac{15\\sqrt{3}}{2}$.",
+     "a": false
+    },
+    {
+     "t": "Bán kính đường tròn ngoại tiếp tam giác $ABC$ bằng $\\dfrac{7\\sqrt{3}}{3}$.",
+     "a": true
+    },
+    {
+     "t": "Bán kính đường tròn nội tiếp tam giác $ABC$ bằng $\\sqrt{3}$.",
+     "a": false
+    }
+   ],
+   "explanation": "$\\cos A=\\dfrac{9+25-49}{2\\cdot3\\cdot5}=-\\dfrac12$ nên $\\widehat A=120^\\circ$. a) Đúng. b) Sai: $S=\\dfrac12\\cdot3\\cdot5\\sin120^\\circ=\\dfrac{15\\sqrt3}{4}$. c) Đúng: $R=\\dfrac{BC}{2\\sin A}=\\dfrac{7}{\\sqrt3}=\\dfrac{7\\sqrt3}{3}$. d) Sai: $p=7,5$, $r=\\dfrac{S}{p}=\\dfrac{\\sqrt3}{2}$."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "topic": "Các phép toán trên tập hợp",
+   "level": 2,
+   "stem": "Lớp 10A có $40$ học sinh, trong đó có $25$ bạn thích bóng đá, $18$ bạn thích cầu lông và $7$ bạn không thích môn nào trong hai môn này. Hỏi lớp 10A có bao nhiêu bạn thích cả hai môn?",
+   "answer_text": "10",
+   "explanation": "Số bạn thích ít nhất một môn: $40-7=33$. Số bạn thích cả hai môn: $25+18-33=10$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "topic": "Tập hợp",
+   "level": 3,
+   "stem": "Cho hai tập hợp $A=[m;m+2]$ và $B=(-3;6)$. Có bao nhiêu số nguyên $m$ để $A\\subset B$?",
+   "answer_text": "6",
+   "explanation": "$A\\subset B\\Leftrightarrow m>-3$ và $m+2<6\\Leftrightarrow -3<m<4$. Các số nguyên: $-2;-1;0;1;2;3$, gồm $6$ số."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "topic": "Hệ bất phương trình bậc nhất hai ẩn",
+   "level": 2,
+   "stem": "Tìm giá trị nhỏ nhất của biểu thức $F=3x+2y$ trên miền nghiệm của hệ $\\begin{cases}x\\ge 0\\\\ y\\ge 0\\\\ x+y\\ge 4\\\\ x+2y\\ge 6\\end{cases}$.",
+   "answer_text": "8",
+   "explanation": "Miền nghiệm có các đỉnh $(0;4)$, $(2;2)$, $(6;0)$. $F$ tại các đỉnh: $8;10;18$. Vì hệ số của $x$, $y$ dương nên $F$ nhỏ nhất bằng $8$ tại $(0;4)$."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "topic": "Giá trị lượng giác của góc từ 0° đến 180°",
+   "level": 2,
+   "stem": "Cho góc $\\alpha$ với $90^\\circ<\\alpha<180^\\circ$ và $\\cos\\alpha=-\\dfrac35$. Tính giá trị của biểu thức $P=10\\sin\\alpha-6\\tan\\alpha$.",
+   "answer_text": "16",
+   "explanation": "$\\sin\\alpha=\\sqrt{1-\\dfrac{9}{25}}=\\dfrac45$ (vì $\\sin\\alpha>0$), $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=-\\dfrac43$. $P=8+8=16$."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "topic": "Giải tam giác và ứng dụng thực tế",
+   "level": 3,
+   "stem": "Để đo chiều cao một tháp, một người đứng tại điểm $A$ nhìn đỉnh tháp với góc nâng $30^\\circ$; người đó đi thẳng về phía chân tháp thêm $20$ m đến điểm $B$ thì nhìn đỉnh tháp với góc nâng $45^\\circ$. Bỏ qua chiều cao của người đo, tính chiều cao của tháp (đơn vị: mét, làm tròn đến hàng phần mười).",
+   "answer_text": "27,3",
+   "explanation": "Gọi $h$ là chiều cao tháp. Khoảng cách từ $A$, $B$ đến chân tháp là $h\\sqrt3$ và $h$, nên $h\\sqrt3-h=20$, suy ra $h=\\dfrac{20}{\\sqrt3-1}=10(\\sqrt3+1)\\approx27,3$ m."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "topic": "Giải tam giác và ứng dụng thực tế",
+   "level": 3,
+   "stem": "Hai tàu cùng rời cảng $O$ một lúc theo hai hướng tạo với nhau góc $60^\\circ$. Tàu thứ nhất chạy với tốc độ $30$ km/h, tàu thứ hai chạy với tốc độ $40$ km/h. Sau $2$ giờ, hai tàu cách nhau bao nhiêu kilômét (làm tròn đến hàng phần mười)?",
+   "answer_text": "72,1",
+   "explanation": "Sau $2$ giờ hai tàu cách cảng $60$ km và $80$ km. Theo định lí côsin: $d^2=60^2+80^2-2\\cdot60\\cdot80\\cos60^\\circ=5200$, $d=\\sqrt{5200}\\approx72,1$ km."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ; các câu đã kiểm tra bằng Python: 4, 5, 6, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22."
+}

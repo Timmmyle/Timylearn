@@ -336,9 +336,10 @@ export const TYPES:Record<string,[string,string]>={
  nhanbiet:["Câu nhận biết (xác định, chỉ ra)","Trả lời ngắn, đúng thuật ngữ, viết thành câu hoàn chỉnh. Ví dụ: “Phương thức biểu đạt chính của đoạn trích là nghị luận.” Khi chỉ ra chi tiết, trích dẫn trong ngoặc kép, không chép cả đoạn."],
  tutu:["Câu nêu tác dụng biện pháp tu từ","Trình bày theo 5 bước: gọi tên biện pháp → chỉ ra từ ngữ thể hiện → tác dụng nghệ thuật (tăng sức gợi hình, gợi cảm, tạo nhịp điệu) → tác dụng nội dung (làm nổi bật điều gì) → thái độ, tình cảm của tác giả."],
  noidung:["Câu thông hiểu (nội dung, thông điệp, ý nghĩa)","Nêu ý chính bằng một câu rõ ràng, sau đó giải thích ngắn bằng chi tiết trong văn bản. Không chép lại nguyên văn."],
- quandiem:["Câu vận dụng (bày tỏ quan điểm, bài học)","Câu đầu nêu rõ quan điểm (đồng tình, không đồng tình hoặc đồng tình một phần). Tiếp theo đưa 2–3 lí do, có ví dụ. Kết bằng liên hệ bản thân. Độ dài khoảng 5–7 dòng."]
+ quandiem:["Câu vận dụng (bày tỏ quan điểm, bài học)","Câu đầu nêu rõ quan điểm (đồng tình, không đồng tình hoặc đồng tình một phần). Tiếp theo đưa 2–3 lí do, có ví dụ. Kết bằng liên hệ bản thân. Độ dài khoảng 5–7 dòng."],
+ viet:["Phần Viết (đoạn văn ~200 chữ, bài văn ~600 chữ)","Đoạn văn: một đoạn duy nhất, câu chủ đề nêu rõ vấn đề, 2–3 lí lẽ có dẫn chứng từ văn bản, câu kết. Bài văn: mở bài giới thiệu vấn đề; thân bài chia luận điểm rõ ràng (giải thích, phân tích, dẫn chứng, bàn luận mở rộng); kết bài khẳng định và liên hệ bản thân. Đúng độ dài, không gạch đầu dòng."]
 };
-export const TSHORT:Record<string,string>={nhanbiet:"Nhận biết",tutu:"Tác dụng tu từ",noidung:"Thông hiểu",quandiem:"Vận dụng"};
+export const TSHORT:Record<string,string>={nhanbiet:"Nhận biết",tutu:"Tác dụng tu từ",noidung:"Thông hiểu",quandiem:"Vận dụng",viet:"Viết"};
 export const WRITE:WritePassage[]=[
  {id:"w1",title:"Cây bàng của ông",src:"Văn bản do app biên soạn để luyện tập",passage:"Ông tôi trồng một cây bàng trước sân từ ngày bố tôi còn nhỏ. Mùa đông, cây trút hết lá, trơ ra những cành khẳng khiu như chẳng còn sự sống. Vậy mà chỉ cần vài cơn mưa xuân, từng chồi non lại nhú lên, xanh mướt. Ông bảo: “Cây không sợ mùa đông, vì nó biết mùa xuân sẽ đến. Người cũng vậy, cháu ạ, đừng sợ những ngày khó khăn.” Lớn lên, mỗi lần vấp ngã, tôi lại nhớ đến cây bàng và lời ông.",qs:[
   {q:"Xác định phương thức biểu đạt chính của đoạn văn.",type:"nhanbiet",points:["Nêu đúng: tự sự","Viết thành câu hoàn chỉnh, ngắn gọn"],model:"Phương thức biểu đạt chính của đoạn văn là tự sự."},

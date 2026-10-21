@@ -1,0 +1,611 @@
+{
+ "grade": 11,
+ "subject": "Tiếng Anh",
+ "exam": "ck1",
+ "duration_min": 60,
+ "title": "Đề ôn cuối học kì 1 – Tiếng Anh 11 (đề số 1)",
+ "scope": "Unit 1: A long and healthy life; Unit 2: The generation gap; Unit 3: Cities of the future; Unit 4: ASEAN and Viet Nam; Unit 5: Global warming (trọng tâm Unit 4–5, Global Success)",
+ "self_check": "Đã giải lại toàn bộ 40 câu; kiểm tra JSON, số câu, phân bố đáp án và số từ đoạn đọc bằng Python.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from that of the others.",
+   "options": [
+    "$\\underline{\\text{ch}}$ange",
+    "$\\underline{\\text{ch}}$emical",
+    "$\\underline{\\text{ch}}$oose",
+    "$\\underline{\\text{ch}}$arity"
+   ],
+   "answer": 1,
+   "explanation": "“chemical” có “ch” đọc /k/; các từ còn lại “ch” đọc /tʃ/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 2,
+   "stem": "Choose the word whose underlined part is pronounced differently from that of the others.",
+   "options": [
+    "releas$\\underline{\\text{ed}}$",
+    "absorb$\\underline{\\text{ed}}$",
+    "produc$\\underline{\\text{ed}}$",
+    "reduc$\\underline{\\text{ed}}$"
+   ],
+   "answer": 1,
+   "explanation": "“absorb” tận cùng /b/ (hữu thanh) → “-ed” đọc /d/; “release”, “produce”, “reduce” tận cùng /s/ → “-ed” đọc /t/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "carbon",
+    "planet",
+    "region",
+    "destroy"
+   ],
+   "answer": 3,
+   "explanation": "“destroy” /dɪˈstrɔɪ/ nhấn âm 2; “carbon”, “planet”, “region” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "atmosphere",
+    "cultural",
+    "disaster",
+    "heritage"
+   ],
+   "answer": 2,
+   "explanation": "“disaster” /dɪˈzɑːstə/ nhấn âm 2; “atmosphere”, “cultural”, “heritage” nhấn âm 1."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Unit 1: A long and healthy life – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nDoing yoga helps to reduce stress and improve your mental ______.",
+   "options": [
+    "healthy",
+    "healthily",
+    "heal",
+    "health"
+   ],
+   "answer": 3,
+   "explanation": "Sau tính từ “mental” cần danh từ → health (sức khỏe tinh thần)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Unit 2: The generation gap – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nMany teenagers want to make their own decisions and be ______ of their parents.",
+   "options": [
+    "dependent",
+    "independent",
+    "independence",
+    "depend"
+   ],
+   "answer": 1,
+   "explanation": "“be independent of sb” = không phụ thuộc vào ai; hợp nghĩa “tự đưa ra quyết định”."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Unit 3: Cities of the future – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nElectric buses are more ______ than petrol buses because they don't release harmful gases.",
+   "options": [
+    "user-friendly",
+    "high-rise",
+    "crowded",
+    "eco-friendly"
+   ],
+   "answer": 3,
+   "explanation": "“eco-friendly” = thân thiện với môi trường."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Unit 4: ASEAN and Viet Nam – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nThe ASEAN youth programme gives students a chance to ______ in cultural exchanges with other member states.",
+   "options": [
+    "attend",
+    "consist",
+    "belong",
+    "participate"
+   ],
+   "answer": 3,
+   "explanation": "“participate in” = tham gia vào; “attend” không đi với “in”, “consist of”, “belong to”."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Unit 4: ASEAN and Viet Nam – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\nASEAN member states share a rich cultural ______, including traditional festivals, music, costumes and food.",
+   "options": [
+    "inheritance",
+    "heritage",
+    "heir",
+    "heredity"
+   ],
+   "answer": 1,
+   "explanation": "“cultural heritage” = di sản văn hóa; “inheritance” là tài sản thừa kế, “heredity” là di truyền."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Unit 5: Global warming – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nWe can reduce our carbon ______ by using public transport and saving electricity.",
+   "options": [
+    "print",
+    "footprint",
+    "step",
+    "track"
+   ],
+   "answer": 1,
+   "explanation": "“carbon footprint” = lượng khí thải carbon do một người/hoạt động tạo ra."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Unit 5: Global warming – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nThe ______ effect is the process in which heat is trapped near the Earth's surface by certain gases in the atmosphere.",
+   "options": [
+    "greenhouse",
+    "glasshouse",
+    "warehouse",
+    "lighthouse"
+   ],
+   "answer": 0,
+   "explanation": "“greenhouse effect” = hiệu ứng nhà kính."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Unit 5: Global warming – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nGlobal warming is causing the ice at the poles to ______, which leads to rising sea levels.",
+   "options": [
+    "freeze",
+    "melt",
+    "burn",
+    "absorb"
+   ],
+   "answer": 1,
+   "explanation": "Băng tan (melt) làm mực nước biển dâng."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs present perfect",
+   "level": 2,
+   "stem": "Choose the best answer to complete the sentence.\n\nSince 2024, my mother ______ more than 5 kilos thanks to her new diet and regular exercise.",
+   "options": [
+    "has lost",
+    "lost",
+    "loses",
+    "was losing"
+   ],
+   "answer": 0,
+   "explanation": "“Since + mốc thời gian” → hiện tại hoàn thành: has lost."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Modal verbs (must, have to, should)",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\nIt's Sunday tomorrow, so we ______ get up early. We can stay in bed until nine.",
+   "options": [
+    "mustn't",
+    "must",
+    "has to",
+    "don't have to"
+   ],
+   "answer": 3,
+   "explanation": "Không cần thiết (được ngủ đến 9 giờ) → don't have to; “mustn't” là bị cấm."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: Stative verbs",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nThis new smartphone ______ to my brother. He bought it last week.",
+   "options": [
+    "belongs",
+    "is belonging",
+    "belong",
+    "are belonging"
+   ],
+   "answer": 0,
+   "explanation": "“belong” là động từ trạng thái, không dùng tiếp diễn; chủ ngữ số ít → belongs."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Unit 4 – Grammar: Gerunds as subjects and objects",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\n______ in community activities helps young people develop their soft skills.",
+   "options": [
+    "Taking part",
+    "Take part",
+    "Took part",
+    "Taken part"
+   ],
+   "answer": 0,
+   "explanation": "Danh động từ (V-ing) làm chủ ngữ → Taking part."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Unit 4 – Grammar: Gerunds as subjects and objects",
+   "level": 1,
+   "stem": "Choose the best answer to complete the sentence.\n\nLan is interested in ______ about the cultures of other ASEAN countries.",
+   "options": [
+    "learning",
+    "learn",
+    "to learn",
+    "learned"
+   ],
+   "answer": 0,
+   "explanation": "Sau giới từ “in” dùng danh động từ → learning."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Unit 4 – Grammar: Gerunds as subjects and objects",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\nThe students really enjoyed ______ to Thailand for the ASEAN youth camp last summer.",
+   "options": [
+    "inviting",
+    "to be invited",
+    "being invited",
+    "to invite"
+   ],
+   "answer": 2,
+   "explanation": "“enjoy + V-ing”; học sinh được mời (nghĩa bị động) → being invited."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "topic": "Unit 5 – Grammar: Present participle and past participle clauses",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\n______ huge amounts of carbon dioxide, coal-fired power plants contribute greatly to global warming.",
+   "options": [
+    "Releasing",
+    "Released",
+    "Release",
+    "Releases"
+   ],
+   "answer": 0,
+   "explanation": "Hai mệnh đề cùng chủ ngữ, nghĩa chủ động (nhà máy thải ra) → mệnh đề phân từ hiện tại: Releasing."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "topic": "Unit 5 – Grammar: Present participle and past participle clauses",
+   "level": 3,
+   "stem": "Choose the best answer to complete the sentence.\n\nThe forests ______ by wildfires last year have not recovered yet.",
+   "options": [
+    "destroyed",
+    "destroying",
+    "were destroyed",
+    "which destroyed"
+   ],
+   "answer": 0,
+   "explanation": "Rút gọn mệnh đề quan hệ bị động “which were destroyed” → phân từ quá khứ: destroyed. Câu đã có động từ chính “have not recovered”."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nHoa: “Why don't we use reusable bags when we go shopping?”\nMinh: “______”",
+   "options": [
+    "No, thanks. I'm full.",
+    "You're welcome.",
+    "Sorry, I can't hear you.",
+    "That's a great idea. It helps reduce plastic waste."
+   ],
+   "answer": 3,
+   "explanation": "“Why don't we…?” là lời đề nghị → đáp lại bằng sự đồng ý."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nTeacher: “Congratulations! You've been selected for the ASEAN student exchange programme.”\nNam: “______”",
+   "options": [
+    "Never mind.",
+    "Yes, please.",
+    "Thank you. I'm really excited about it.",
+    "It doesn't matter."
+   ],
+   "answer": 2,
+   "explanation": "Đáp lại lời chúc mừng bằng lời cảm ơn."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement",
+   "level": 2,
+   "stem": "Choose the correct order of the sentences to make a meaningful conversation.\n\na. Minh: Yes. Scientists say it's mainly caused by global warming.\nb. Hoa: Have you heard that this summer was one of the hottest on record?\nc. Hoa: So what can students like us do to help?\nd. Minh: We can save energy and use public transport more often.\ne. Hoa: Good idea. Let's start by cycling to school.",
+   "options": [
+    "b – c – a – d – e",
+    "a – b – c – d – e",
+    "b – a – c – d – e",
+    "b – a – d – c – e"
+   ],
+   "answer": 2,
+   "explanation": "Hoa mở đầu câu chuyện (b) → Minh xác nhận, nêu nguyên nhân (a) → Hoa hỏi cách giúp (c) → Minh gợi ý (d) → Hoa đồng ý (e)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement",
+   "level": 3,
+   "stem": "Choose the correct order of the sentences to make a meaningful paragraph.\n\na. It was founded in 1967 by five countries: Indonesia, Malaysia, the Philippines, Singapore and Thailand.\nb. The Association of Southeast Asian Nations (ASEAN) is a regional organisation.\nc. Viet Nam joined the association in 1995.\nd. Today, ASEAN works to promote economic growth, peace and cultural exchange in the region.",
+   "options": [
+    "a – b – c – d",
+    "b – c – a – d",
+    "b – d – a – c",
+    "b – a – c – d"
+   ],
+   "answer": 3,
+   "explanation": "Giới thiệu ASEAN (b) → thành lập năm 1967 (a) → Việt Nam gia nhập năm 1995 (c) → vai trò hiện nay (d): theo trình tự thời gian."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 5)",
+   "level": 2,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nGlobal warming is one of the most serious problems facing our planet today. It (1)______ by the increase of greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat and make the Earth warmer. (2)______ fossil fuels for electricity and transport is the main source of these gases. Deforestation also makes the problem worse (3)______ trees absorb carbon dioxide. The effects of global warming are already clear: ice at the poles is melting, sea levels are rising, and extreme weather events are becoming more (4)______. Low-lying coastal areas, (5)______ the Mekong Delta in Viet Nam, are at great risk of flooding. To slow down global warming, everyone can (6)______ a part, for example by saving energy, planting trees and reducing waste.\n\nChoose the best option for blank (1).",
+   "options": [
+    "causes",
+    "is caused",
+    "caused",
+    "is causing"
+   ],
+   "answer": 1,
+   "explanation": "Có “by + tác nhân” → câu bị động thì hiện tại đơn: is caused."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 5)",
+   "level": 1,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nGlobal warming is one of the most serious problems facing our planet today. It (1)______ by the increase of greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat and make the Earth warmer. (2)______ fossil fuels for electricity and transport is the main source of these gases. Deforestation also makes the problem worse (3)______ trees absorb carbon dioxide. The effects of global warming are already clear: ice at the poles is melting, sea levels are rising, and extreme weather events are becoming more (4)______. Low-lying coastal areas, (5)______ the Mekong Delta in Viet Nam, are at great risk of flooding. To slow down global warming, everyone can (6)______ a part, for example by saving energy, planting trees and reducing waste.\n\nChoose the best option for blank (2).",
+   "options": [
+    "Burn",
+    "Burnt",
+    "To burning",
+    "Burning"
+   ],
+   "answer": 3,
+   "explanation": "Danh động từ làm chủ ngữ của động từ “is” → Burning."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 5)",
+   "level": 1,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nGlobal warming is one of the most serious problems facing our planet today. It (1)______ by the increase of greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat and make the Earth warmer. (2)______ fossil fuels for electricity and transport is the main source of these gases. Deforestation also makes the problem worse (3)______ trees absorb carbon dioxide. The effects of global warming are already clear: ice at the poles is melting, sea levels are rising, and extreme weather events are becoming more (4)______. Low-lying coastal areas, (5)______ the Mekong Delta in Viet Nam, are at great risk of flooding. To slow down global warming, everyone can (6)______ a part, for example by saving energy, planting trees and reducing waste.\n\nChoose the best option for blank (3).",
+   "options": [
+    "although",
+    "so",
+    "because",
+    "unless"
+   ],
+   "answer": 2,
+   "explanation": "Vế sau giải thích lí do phá rừng làm vấn đề tệ hơn → because."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 5)",
+   "level": 1,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nGlobal warming is one of the most serious problems facing our planet today. It (1)______ by the increase of greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat and make the Earth warmer. (2)______ fossil fuels for electricity and transport is the main source of these gases. Deforestation also makes the problem worse (3)______ trees absorb carbon dioxide. The effects of global warming are already clear: ice at the poles is melting, sea levels are rising, and extreme weather events are becoming more (4)______. Low-lying coastal areas, (5)______ the Mekong Delta in Viet Nam, are at great risk of flooding. To slow down global warming, everyone can (6)______ a part, for example by saving energy, planting trees and reducing waste.\n\nChoose the best option for blank (4).",
+   "options": [
+    "frequency",
+    "frequent",
+    "frequently",
+    "frequence"
+   ],
+   "answer": 1,
+   "explanation": "Sau “become more” cần tính từ → frequent."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 5)",
+   "level": 3,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nGlobal warming is one of the most serious problems facing our planet today. It (1)______ by the increase of greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat and make the Earth warmer. (2)______ fossil fuels for electricity and transport is the main source of these gases. Deforestation also makes the problem worse (3)______ trees absorb carbon dioxide. The effects of global warming are already clear: ice at the poles is melting, sea levels are rising, and extreme weather events are becoming more (4)______. Low-lying coastal areas, (5)______ the Mekong Delta in Viet Nam, are at great risk of flooding. To slow down global warming, everyone can (6)______ a part, for example by saving energy, planting trees and reducing waste.\n\nChoose the best option for blank (5).",
+   "options": [
+    "as if",
+    "so that",
+    "in order to",
+    "such as"
+   ],
+   "answer": 3,
+   "explanation": "Nêu ví dụ cho “low-lying coastal areas” → such as."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 5)",
+   "level": 2,
+   "stem": "Read the passage and choose the best option for each numbered blank.\n\nGlobal warming is one of the most serious problems facing our planet today. It (1)______ by the increase of greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat and make the Earth warmer. (2)______ fossil fuels for electricity and transport is the main source of these gases. Deforestation also makes the problem worse (3)______ trees absorb carbon dioxide. The effects of global warming are already clear: ice at the poles is melting, sea levels are rising, and extreme weather events are becoming more (4)______. Low-lying coastal areas, (5)______ the Mekong Delta in Viet Nam, are at great risk of flooding. To slow down global warming, everyone can (6)______ a part, for example by saving energy, planting trees and reducing waste.\n\nChoose the best option for blank (6).",
+   "options": [
+    "make",
+    "play",
+    "do",
+    "take"
+   ],
+   "answer": 1,
+   "explanation": "Thành ngữ “play a part” = góp một phần, đóng vai trò."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 4)",
+   "level": 2,
+   "stem": "Read the passage and choose the best answer to the question.\n\nLast summer, Nguyen Minh Anh, a 17-year-old student from Da Nang, spent three weeks in Malaysia as part of a student exchange programme for young people from ASEAN countries. Together with forty other students from across Southeast Asia, she took part in workshops, volunteer projects and cultural activities.\n\nFor Minh Anh, the most memorable part of the trip was working in a small village, where the students helped to build a playground and taught English to local children. “At first, communicating was not easy because we came from different countries and spoke different languages,” she said. “But we used English, gestures and lots of smiles, and soon we became close friends.”\n\nThe programme also gave the participants opportunities to learn about each other's cultures. On the cultural night, each group introduced its traditional costumes, music and food. Minh Anh and her Vietnamese friends performed a folk song and served spring rolls, which quickly disappeared from the table.\n\nMinh Anh believes that the experience has changed her in many ways. She has become more confident and independent, and she now understands why ASEAN countries need to cooperate to deal with common problems such as poverty and climate change. She hopes that more Vietnamese students will have the chance to join similar programmes in the future.\n\nWhich of the following could be the best title for the passage?",
+   "options": [
+    "How to Learn English in Malaysia",
+    "Traditional Food of Southeast Asia",
+    "A Memorable ASEAN Exchange Experience",
+    "Climate Change in ASEAN Countries"
+   ],
+   "answer": 2,
+   "explanation": "Cả bài kể về chuyến trao đổi học sinh ASEAN đáng nhớ của Minh Anh và những gì em học được."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 4)",
+   "level": 1,
+   "stem": "Read the passage and choose the best answer to the question.\n\nLast summer, Nguyen Minh Anh, a 17-year-old student from Da Nang, spent three weeks in Malaysia as part of a student exchange programme for young people from ASEAN countries. Together with forty other students from across Southeast Asia, she took part in workshops, volunteer projects and cultural activities.\n\nFor Minh Anh, the most memorable part of the trip was working in a small village, where the students helped to build a playground and taught English to local children. “At first, communicating was not easy because we came from different countries and spoke different languages,” she said. “But we used English, gestures and lots of smiles, and soon we became close friends.”\n\nThe programme also gave the participants opportunities to learn about each other's cultures. On the cultural night, each group introduced its traditional costumes, music and food. Minh Anh and her Vietnamese friends performed a folk song and served spring rolls, which quickly disappeared from the table.\n\nMinh Anh believes that the experience has changed her in many ways. She has become more confident and independent, and she now understands why ASEAN countries need to cooperate to deal with common problems such as poverty and climate change. She hopes that more Vietnamese students will have the chance to join similar programmes in the future.\n\nHow long did Minh Anh stay in Malaysia?",
+   "options": [
+    "Three months",
+    "Seventeen days",
+    "Three weeks",
+    "Forty days"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 1: “spent three weeks in Malaysia”."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 4)",
+   "level": 2,
+   "stem": "Read the passage and choose the best answer to the question.\n\nLast summer, Nguyen Minh Anh, a 17-year-old student from Da Nang, spent three weeks in Malaysia as part of a student exchange programme for young people from ASEAN countries. Together with forty other students from across Southeast Asia, she took part in workshops, volunteer projects and cultural activities.\n\nFor Minh Anh, the most memorable part of the trip was working in a small village, where the students helped to build a playground and taught English to local children. “At first, communicating was not easy because we came from different countries and spoke different languages,” she said. “But we used English, gestures and lots of smiles, and soon we became close friends.”\n\nThe programme also gave the participants opportunities to learn about each other's cultures. On the cultural night, each group introduced its traditional costumes, music and food. Minh Anh and her Vietnamese friends performed a folk song and served spring rolls, which quickly disappeared from the table.\n\nMinh Anh believes that the experience has changed her in many ways. She has become more confident and independent, and she now understands why ASEAN countries need to cooperate to deal with common problems such as poverty and climate change. She hopes that more Vietnamese students will have the chance to join similar programmes in the future.\n\nThe word “gestures” in paragraph 2 is closest in meaning to ______.",
+   "options": [
+    "written messages",
+    "foreign languages",
+    "movements of the hands or body",
+    "loud voices"
+   ],
+   "answer": 2,
+   "explanation": "“gestures” = cử chỉ, tức chuyển động tay hoặc cơ thể để diễn đạt ý."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 4)",
+   "level": 1,
+   "stem": "Read the passage and choose the best answer to the question.\n\nLast summer, Nguyen Minh Anh, a 17-year-old student from Da Nang, spent three weeks in Malaysia as part of a student exchange programme for young people from ASEAN countries. Together with forty other students from across Southeast Asia, she took part in workshops, volunteer projects and cultural activities.\n\nFor Minh Anh, the most memorable part of the trip was working in a small village, where the students helped to build a playground and taught English to local children. “At first, communicating was not easy because we came from different countries and spoke different languages,” she said. “But we used English, gestures and lots of smiles, and soon we became close friends.”\n\nThe programme also gave the participants opportunities to learn about each other's cultures. On the cultural night, each group introduced its traditional costumes, music and food. Minh Anh and her Vietnamese friends performed a folk song and served spring rolls, which quickly disappeared from the table.\n\nMinh Anh believes that the experience has changed her in many ways. She has become more confident and independent, and she now understands why ASEAN countries need to cooperate to deal with common problems such as poverty and climate change. She hopes that more Vietnamese students will have the chance to join similar programmes in the future.\n\nThe word “its” in paragraph 3 refers to ______.",
+   "options": [
+    "each group's",
+    "the programme's",
+    "the cultural night's",
+    "Minh Anh's"
+   ],
+   "answer": 0,
+   "explanation": "“each group introduced its traditional costumes” → its = của mỗi nhóm."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 4)",
+   "level": 3,
+   "stem": "Read the passage and choose the best answer to the question.\n\nLast summer, Nguyen Minh Anh, a 17-year-old student from Da Nang, spent three weeks in Malaysia as part of a student exchange programme for young people from ASEAN countries. Together with forty other students from across Southeast Asia, she took part in workshops, volunteer projects and cultural activities.\n\nFor Minh Anh, the most memorable part of the trip was working in a small village, where the students helped to build a playground and taught English to local children. “At first, communicating was not easy because we came from different countries and spoke different languages,” she said. “But we used English, gestures and lots of smiles, and soon we became close friends.”\n\nThe programme also gave the participants opportunities to learn about each other's cultures. On the cultural night, each group introduced its traditional costumes, music and food. Minh Anh and her Vietnamese friends performed a folk song and served spring rolls, which quickly disappeared from the table.\n\nMinh Anh believes that the experience has changed her in many ways. She has become more confident and independent, and she now understands why ASEAN countries need to cooperate to deal with common problems such as poverty and climate change. She hopes that more Vietnamese students will have the chance to join similar programmes in the future.\n\nAccording to the passage, which of the following is NOT true?",
+   "options": [
+    "The students helped to build a playground in a village.",
+    "Minh Anh and her friends performed a folk song on the cultural night.",
+    "Minh Anh found it easy to communicate with other students from the very beginning.",
+    "Minh Anh has become more confident after the programme."
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 2: “At first, communicating was not easy” → ý “dễ giao tiếp ngay từ đầu” là sai."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "topic": "Reading (Unit 4)",
+   "level": 3,
+   "stem": "Read the passage and choose the best answer to the question.\n\nLast summer, Nguyen Minh Anh, a 17-year-old student from Da Nang, spent three weeks in Malaysia as part of a student exchange programme for young people from ASEAN countries. Together with forty other students from across Southeast Asia, she took part in workshops, volunteer projects and cultural activities.\n\nFor Minh Anh, the most memorable part of the trip was working in a small village, where the students helped to build a playground and taught English to local children. “At first, communicating was not easy because we came from different countries and spoke different languages,” she said. “But we used English, gestures and lots of smiles, and soon we became close friends.”\n\nThe programme also gave the participants opportunities to learn about each other's cultures. On the cultural night, each group introduced its traditional costumes, music and food. Minh Anh and her Vietnamese friends performed a folk song and served spring rolls, which quickly disappeared from the table.\n\nMinh Anh believes that the experience has changed her in many ways. She has become more confident and independent, and she now understands why ASEAN countries need to cooperate to deal with common problems such as poverty and climate change. She hopes that more Vietnamese students will have the chance to join similar programmes in the future.\n\nIt can be inferred from the passage that Minh Anh ______.",
+   "options": [
+    "would recommend such programmes to other Vietnamese students",
+    "did not enjoy the volunteer work in the village",
+    "only made friends with Vietnamese students",
+    "thinks ASEAN countries should solve their problems alone"
+   ],
+   "answer": 0,
+   "explanation": "Em mong nhiều học sinh Việt Nam được tham gia chương trình tương tự → sẽ giới thiệu cho người khác; các ý còn lại trái với bài."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification (Unit 4)",
+   "level": 2,
+   "stem": "Identify the underlined part (shown in square brackets) that needs correction.\n\n[Protecting] the environment [are] the responsibility [of] everyone [living] on this planet.",
+   "options": [
+    "Protecting",
+    "of",
+    "are",
+    "living"
+   ],
+   "answer": 2,
+   "explanation": "Danh động từ làm chủ ngữ → động từ chia số ít: are → is."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "topic": "Error identification (Unit 5)",
+   "level": 3,
+   "stem": "Identify the underlined part (shown in square brackets) that needs correction.\n\nThe man [sitting] next to me on the plane [is] a scientist [who] [studying] climate change.",
+   "options": [
+    "sitting",
+    "studying",
+    "is",
+    "who"
+   ],
+   "answer": 1,
+   "explanation": "Sau đại từ quan hệ “who” cần động từ chia: studying → studies (hoặc bỏ “who”)."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Sentence transformation (Unit 5)",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given sentence.\n\nThe students who joined the ASEAN camp came from many different countries.",
+   "options": [
+    "The students joining the ASEAN camp came from many different countries.",
+    "The students joined the ASEAN camp came from many different countries.",
+    "The students were joining the ASEAN camp came from many different countries.",
+    "The students joined the ASEAN camp coming from many different countries."
+   ],
+   "answer": 0,
+   "explanation": "Rút gọn mệnh đề quan hệ chủ động “who joined” → phân từ hiện tại “joining”."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Sentence transformation (Unit 4)",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given sentence.\n\nIt is very important to save energy at home.",
+   "options": [
+    "Save energy at home is very important.",
+    "Saved energy at home is not important.",
+    "Saving energy at home is not important at all.",
+    "Saving energy at home is very important."
+   ],
+   "answer": 3,
+   "explanation": "“It is + adj + to V” ↔ “V-ing … is + adj” (danh động từ làm chủ ngữ)."
+  }
+ ]
+}

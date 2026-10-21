@@ -1,0 +1,96 @@
+{
+ "grade": 11,
+ "subject": "Ngữ văn",
+ "exam": "ck1",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 1 – Ngữ văn 11",
+ "genre": "Truyện ngắn",
+ "work": {
+  "author": "Thạch Lam",
+  "title": "Hai đứa trẻ (đoạn mở đầu)",
+  "source": "Tập truyện Nắng trong vườn, NXB Đời nay, 1938",
+  "public_domain_reason": "Tác giả mất năm 1942"
+ },
+ "passage": "Tiếng trống thu không trên cái chòi của huyện nhỏ; từng tiếng một vang ra để gọi buổi chiều. Phương tây đỏ rực như lửa cháy và những đám mây ánh hồng như hòn than sắp tàn. Dãy tre làng trước mặt đen lại và cắt hình rõ rệt trên nền trời.\n\nChiều, chiều rồi. Một chiều êm ả như ru, văng vẳng tiếng ếch nhái kêu ran ngoài đồng ruộng theo gió nhẹ đưa vào. Trong cửa hàng hơi tối, muỗi đã bắt đầu vo ve. Liên ngồi yên lặng bên mấy quả thuốc sơn đen; đôi mắt chị bóng tối ngập đầy dần và cái buồn của buổi chiều quê thấm thía vào tâm hồn ngây thơ của chị; Liên không hiểu sao, nhưng chị thấy lòng buồn man mác trước cái giờ khắc của ngày tàn.\n\n(…)\n\nChợ họp giữa phố vãn từ lâu. Người về hết và tiếng ồn ào cũng mất. Chỉ còn rác rưởi, vỏ bưởi, vỏ thị, lá nhãn và lá mía. Một mùi âm ẩm bốc lên, hơi nóng của ban ngày lẫn mùi cát bụi quen thuộc quá, khiến chị em Liên tưởng là mùi riêng của đất, của quê hương này.",
+ "src": "(Thạch Lam, Hai đứa trẻ, in trong tập Nắng trong vườn, 1938)\n* Thạch Lam (1910–1942), tên thật Nguyễn Tường Vinh (sau đổi là Nguyễn Tường Lân), thành viên Tự lực văn đoàn.\n* Trống thu không: trống đánh vào lúc chiều tối ở các điếm canh, chòi canh để báo hiệu giờ đóng cổng, bắt đầu canh gác.\n* Quả thuốc sơn đen: hộp gỗ nhỏ sơn đen dùng đựng tiền, đồ lặt vặt khi bán hàng.",
+ "questions": [
+  {
+   "q": "Câu 1 (0,5 điểm). Xác định ngôi kể và điểm nhìn chủ yếu trong đoạn trích.",
+   "type": "nhanbiet",
+   "points": [
+    "Ngôi kể thứ ba (người kể chuyện giấu mình)",
+    "Điểm nhìn chủ yếu dịch chuyển vào nhân vật Liên (cảnh vật được cảm nhận qua tâm hồn Liên)"
+   ],
+   "model": "Đoạn trích được kể theo ngôi thứ ba, người kể chuyện giấu mình. Tuy nhiên điểm nhìn chủ yếu được trao cho nhân vật Liên: cảnh chiều, mùi đất, nỗi buồn đều được cảm nhận qua tâm hồn chị."
+  },
+  {
+   "q": "Câu 2 (0,5 điểm). Liệt kê những âm thanh và những thứ còn sót lại sau buổi chợ được nhắc đến trong đoạn trích.",
+   "type": "nhanbiet",
+   "points": [
+    "Âm thanh: tiếng trống thu không, tiếng ếch nhái kêu ran, tiếng muỗi vo ve",
+    "Sau buổi chợ: rác rưởi, vỏ bưởi, vỏ thị, lá nhãn, lá mía"
+   ],
+   "model": "Âm thanh gồm tiếng trống thu không, tiếng ếch nhái kêu ran ngoài đồng, tiếng muỗi vo ve. Sau buổi chợ chỉ còn rác rưởi, vỏ bưởi, vỏ thị, lá nhãn và lá mía."
+  },
+  {
+   "q": "Câu 3 (1,0 điểm). Phân tích tác dụng của biện pháp so sánh trong câu: \"Phương tây đỏ rực như lửa cháy và những đám mây ánh hồng như hòn than sắp tàn.\"",
+   "type": "tutu",
+   "points": [
+    "Chỉ ra hai phép so sánh: phương tây – lửa cháy; đám mây – hòn than sắp tàn",
+    "Gợi cảnh hoàng hôn rực rỡ nhưng đang lụi tắt, màu sắc gợi hình, gợi cảm",
+    "\"Hòn than sắp tàn\" gợi sự tàn lụi, báo hiệu ngày tàn, phù hợp với không khí buồn của phố huyện và tâm trạng Liên",
+    "Thể hiện ngòi bút tinh tế, giàu chất thơ của Thạch Lam"
+   ],
+   "model": "Câu văn có hai phép so sánh: phương tây đỏ rực \"như lửa cháy\", đám mây ánh hồng \"như hòn than sắp tàn\". Hình ảnh gợi một buổi hoàng hôn rực rỡ nhưng đang dần lụi tắt. Đặc biệt \"hòn than sắp tàn\" báo hiệu ngày tàn, góp phần tạo không khí buồn vắng của phố huyện và hòa hợp với nỗi buồn man mác của Liên. Qua đó thấy được ngòi bút giàu chất thơ, tinh tế của Thạch Lam."
+  },
+  {
+   "q": "Câu 4 (1,0 điểm). Câu văn \"Liên không hiểu sao, nhưng chị thấy lòng buồn man mác trước cái giờ khắc của ngày tàn\" cho thấy điều gì về tâm hồn nhân vật Liên?",
+   "type": "noidung",
+   "points": [
+    "Liên có tâm hồn nhạy cảm, tinh tế, dễ rung động trước thiên nhiên, cảnh vật",
+    "Nỗi buồn mơ hồ, chưa gọi được tên – phù hợp tâm hồn \"ngây thơ\" của cô bé",
+    "Gợi sự đồng cảm của nhà văn với những kiếp người nhỏ bé nơi phố huyện"
+   ],
+   "model": "Câu văn cho thấy Liên có một tâm hồn nhạy cảm, tinh tế, dễ rung động trước cảnh chiều quê. Nỗi buồn của chị \"man mác\", mơ hồ, \"không hiểu sao\" – đó là nỗi buồn chưa gọi được tên của một tâm hồn ngây thơ. Qua đó, Thạch Lam thể hiện sự trân trọng, cảm thông với thế giới nội tâm của những con người nhỏ bé nơi phố huyện nghèo."
+  },
+  {
+   "q": "Câu 5 (1,0 điểm). Chi tiết \"mùi riêng của đất, của quê hương này\" gợi cho anh/chị suy nghĩ gì về sự gắn bó của con người với nơi mình sống? Trình bày trong khoảng 5–7 dòng.",
+   "type": "quandiem",
+   "points": [
+    "Nêu được suy nghĩ: những gì bình dị, quen thuộc nhất (một mùi hương) cũng làm nên hồn quê hương",
+    "Sự gắn bó với quê hương bắt nguồn từ những điều nhỏ bé, gần gũi hằng ngày",
+    "Liên hệ bản thân: trân trọng, yêu những điều giản dị nơi mình sống",
+    "Diễn đạt mạch lạc, đúng dung lượng"
+   ],
+   "model": "Chi tiết cho em thấy tình yêu quê hương bắt nguồn từ những điều rất bình dị: một mùi đất âm ẩm, chút cát bụi quen thuộc. Dù phố huyện nghèo và buồn, chị em Liên vẫn thấy nó là \"của riêng\" mình. Sự gắn bó ấy giúp con người có một nơi để thuộc về, để nhớ thương khi đi xa. Vì vậy, mỗi chúng ta cần biết trân trọng những điều giản dị quanh mình, bởi chính chúng làm nên hồn quê hương."
+  }
+ ],
+ "essays": [
+  {
+   "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích bức tranh phố huyện lúc chiều tàn trong đoạn trích \"Hai đứa trẻ\" của Thạch Lam.",
+   "type": "viet",
+   "points": [
+    "Đúng hình thức đoạn văn, khoảng 200 chữ, có câu chủ đề",
+    "Âm thanh: trống thu không, ếch nhái, muỗi vo ve – gợi sự yên ả, tàn lụi",
+    "Màu sắc, đường nét: phương tây đỏ rực, mây hồng như hòn than sắp tàn, dãy tre đen lại",
+    "Cảnh chợ tàn: rác rưởi, vỏ bưởi, vỏ thị… – gợi sự nghèo nàn, xơ xác",
+    "Đánh giá: cảnh đẹp, buồn, giàu chất thơ; cảnh được nhìn qua tâm trạng Liên; câu văn nhịp nhàng"
+   ],
+   "model": "- Câu chủ đề: bức tranh phố huyện lúc chiều tàn vừa đẹp, vừa buồn, giàu chất thơ.\n- Âm thanh: tiếng trống thu không, tiếng ếch nhái, muỗi vo ve – báo hiệu ngày tàn.\n- Màu sắc: phương tây đỏ rực, mây hồng như hòn than sắp tàn, tre làng đen lại – đẹp nhưng lụi tắt.\n- Cảnh chợ tàn với rác rưởi, vỏ bưởi, vỏ thị – sự nghèo nàn, tiêu điều của phố huyện.\n- Cảnh hòa với nỗi buồn man mác của Liên; văn xuôi nhịp nhàng \"êm ả như ru\".\n- Khẳng định ngòi bút tinh tế, giàu cảm thông của Thạch Lam."
+  },
+  {
+   "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) phân tích, đánh giá nghệ thuật xây dựng điểm nhìn và người kể chuyện, qua đó làm rõ vẻ đẹp tâm hồn nhân vật Liên trong đoạn trích \"Hai đứa trẻ\" (Thạch Lam).",
+   "type": "viet",
+   "points": [
+    "Đúng bố cục bài văn nghị luận về tác phẩm truyện: mở bài giới thiệu tác giả, tác phẩm, vấn đề; thân bài phân tích; kết bài đánh giá",
+    "Người kể chuyện ngôi thứ ba giấu mình, giọng kể nhẹ nhàng, thủ thỉ",
+    "Điểm nhìn dịch chuyển vào Liên: cảnh vật, âm thanh, mùi vị được cảm nhận qua Liên",
+    "Vẻ đẹp tâm hồn Liên: nhạy cảm, tinh tế, ngây thơ, gắn bó với quê hương",
+    "Đánh giá: truyện \"không có cốt truyện\", giàu chất thơ, thể hiện tấm lòng nhân đạo của Thạch Lam",
+    "Diễn đạt mạch lạc, có dẫn chứng từ văn bản"
+   ],
+   "model": "- Mở bài: giới thiệu Thạch Lam, \"Hai đứa trẻ\" (tập Nắng trong vườn, 1938) và vấn đề nghị luận.\n- Người kể chuyện ngôi thứ ba, giọng kể chậm, nhẹ, giàu chất thơ.\n- Điểm nhìn trao cho Liên: hoàng hôn, tiếng ếch nhái, chợ tàn, mùi đất đều qua cảm nhận của chị.\n- Tâm hồn Liên: nhạy cảm (\"buồn man mác\"), ngây thơ (\"không hiểu sao\"), gắn bó với quê (\"mùi riêng của đất\").\n- Hiệu quả: cảnh và tình hòa quyện, tạo truyện ngắn trữ tình, ít sự kiện.\n- Đánh giá: tấm lòng trân trọng, cảm thông với con người nhỏ bé.\n- Kết bài: khẳng định giá trị đoạn trích và phong cách Thạch Lam."
+  }
+ ],
+ "confidence_note": "Chắc chắn cao về nguyên văn: đoạn mở đầu truyện (2 đoạn) và đoạn tả chợ tàn. Đã lược bỏ phần giữa (đánh dấu (…)) và dừng trước câu tả người bán hàng về muộn để tránh chép sai; có thể khác bản in ở chi tiết dấu câu."
+}

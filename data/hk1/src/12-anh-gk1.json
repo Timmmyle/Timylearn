@@ -1,0 +1,611 @@
+{
+ "grade": 12,
+ "subject": "Tiếng Anh",
+ "exam": "gk1",
+ "duration_min": 60,
+ "title": "Đề ôn giữa học kì 1 – Tiếng Anh 12 (đề số 1)",
+ "scope": "Global Success 12: Unit 1 Life stories we admire; Unit 2 A multicultural world; Unit 3 Green living (ngữ pháp: quá khứ đơn – quá khứ tiếp diễn, mạo từ, so sánh kép)",
+ "self_check": "Đã làm lại toàn bộ 40 câu; kiểm tra JSON, độ dài đoạn văn và phân bố đáp án bằng Python. Mỗi câu chỉ có 1 phương án đúng.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part differs from the other three in pronunciation.",
+   "options": [
+    "admir$\\underline{\\text{ed}}$",
+    "inspir$\\underline{\\text{ed}}$",
+    "achiev$\\underline{\\text{ed}}$",
+    "devot$\\underline{\\text{ed}}$"
+   ],
+   "answer": 3,
+   "explanation": "Đuôi -ed sau /t/, /d/ đọc /ɪd/: devoted /dɪˈvəʊtɪd/. Các từ còn lại tận cùng bằng âm hữu thanh nên -ed đọc /d/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part differs from the other three in pronunciation.",
+   "options": [
+    "$\\underline{\\text{ch}}$ange",
+    "$\\underline{\\text{ch}}$oose",
+    "$\\underline{\\text{ch}}$arity",
+    "$\\underline{\\text{ch}}$emical"
+   ],
+   "answer": 3,
+   "explanation": "chemical đọc /k/; change, choose, charity đọc /tʃ/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Word stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "legacy",
+    "talented",
+    "devotion",
+    "generous"
+   ],
+   "answer": 2,
+   "explanation": "devotion /dɪˈvəʊʃn/ nhấn âm 2 (đuôi -tion nhấn trước nó); legacy, talented, generous nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Word stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the other three in the position of primary stress.",
+   "options": [
+    "diversity",
+    "ceremony",
+    "tradition",
+    "identity"
+   ],
+   "answer": 1,
+   "explanation": "ceremony /ˈserəməni/ nhấn âm 1; diversity, tradition, identity nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Unit 1: Life stories we admire – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nVo Thi Sau is remembered for her ______ to the country's independence; she was willing to sacrifice her life for it.",
+   "options": [
+    "devote",
+    "devoted",
+    "devotedly",
+    "devotion"
+   ],
+   "answer": 3,
+   "explanation": "Sau tính từ sở hữu \"her\" cần danh từ: devotion (sự cống hiến). devotion to sth: sự tận tụy cho cái gì."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Unit 1: Life stories we admire – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nDespite many ______, Nick Vujicic never gave up and became a well-known motivational speaker.",
+   "options": [
+    "achievements",
+    "legacies",
+    "talents",
+    "hardships"
+   ],
+   "answer": 3,
+   "explanation": "\"Despite\" chỉ sự tương phản với \"never gave up\" nên cần từ chỉ khó khăn: hardships (gian khổ)."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Unit 1: Life stories we admire – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nHer life story ______ thousands of young people to pursue their dreams.",
+   "options": [
+    "admired",
+    "inspired",
+    "respected",
+    "achieved"
+   ],
+   "answer": 1,
+   "explanation": "Cấu trúc inspire sb to do sth: truyền cảm hứng cho ai làm gì. admire/respect/achieve không đi với \"sb to do sth\"."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Unit 2: A multicultural world – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nThe áo dài is considered a symbol of Vietnamese cultural ______.",
+   "options": [
+    "diversity",
+    "identity",
+    "globalisation",
+    "cuisine"
+   ],
+   "answer": 1,
+   "explanation": "cultural identity: bản sắc văn hóa. Áo dài là biểu tượng của bản sắc văn hóa Việt Nam."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Unit 2: A multicultural world – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nLiving in a ______ society, children learn to respect people from different backgrounds.",
+   "options": [
+    "multiculturalism",
+    "culturally",
+    "multicultural",
+    "cultures"
+   ],
+   "answer": 2,
+   "explanation": "Giữa mạo từ \"a\" và danh từ \"society\" cần tính từ: multicultural (đa văn hóa)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Unit 2: A multicultural world – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\nWhen travelling abroad, you should learn about local ______ to avoid offending people.",
+   "options": [
+    "costumes",
+    "customers",
+    "customs",
+    "consumers"
+   ],
+   "answer": 2,
+   "explanation": "customs: phong tục. Dễ nhầm với costumes (trang phục), customers (khách hàng), consumers (người tiêu dùng)."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Unit 3: Green living – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nUsing a reusable bottle instead of plastic ones helps reduce your carbon ______.",
+   "options": [
+    "footstep",
+    "fingerprint",
+    "footage",
+    "footprint"
+   ],
+   "answer": 3,
+   "explanation": "carbon footprint: dấu chân carbon (lượng khí CO2 một người thải ra)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Unit 3: Green living – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nMany households now ______ their food waste to make natural fertiliser for their gardens.",
+   "options": [
+    "pollute",
+    "discard",
+    "compost",
+    "consume"
+   ],
+   "answer": 2,
+   "explanation": "compost: ủ (rác hữu cơ) thành phân bón. Các từ còn lại không hợp nghĩa \"to make natural fertiliser\"."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs past continuous",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nWhile she ______ in Paris, she met many famous artists.",
+   "options": [
+    "was studying",
+    "studies",
+    "is studying",
+    "has studied"
+   ],
+   "answer": 0,
+   "explanation": "While + quá khứ tiếp diễn diễn tả hành động đang kéo dài thì hành động khác (met) xảy ra. (studies sai thì: câu kể về quá khứ.)"
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs past continuous",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\nMarie Curie ______ the Nobel Prize in Physics in 1903.",
+   "options": [
+    "was winning",
+    "won",
+    "has won",
+    "wins"
+   ],
+   "answer": 1,
+   "explanation": "Hành động đã kết thúc tại thời điểm xác định trong quá khứ (in 1903) dùng quá khứ đơn: won."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Unit 1 – Grammar: Past simple vs past continuous",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nI ______ a documentary about President Ho Chi Minh's life when the power suddenly went out.",
+   "options": [
+    "was watching",
+    "watched",
+    "am watching",
+    "have watched"
+   ],
+   "answer": 0,
+   "explanation": "Hành động đang diễn ra (quá khứ tiếp diễn) thì bị hành động khác xen vào (when + quá khứ đơn)."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Articles",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\nShe is ______ honest woman who has devoted her life to helping ______ poor.",
+   "options": [
+    "an / the",
+    "a / the",
+    "an / Ø",
+    "a / Ø"
+   ],
+   "answer": 0,
+   "explanation": "honest bắt đầu bằng âm nguyên âm /ɒ/ (h câm) nên dùng \"an\"; the + tính từ chỉ một nhóm người: the poor (người nghèo)."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Articles",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n\n______ Mekong Delta is famous for its floating markets.",
+   "options": [
+    "A",
+    "An",
+    "The",
+    "Ø"
+   ],
+   "answer": 2,
+   "explanation": "Dùng \"the\" trước tên vùng đồng bằng, sông: the Mekong Delta."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Articles",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\nHe plays ______ guitar very well, but he doesn't like playing ______ football.",
+   "options": [
+    "Ø / the",
+    "the / the",
+    "a / Ø",
+    "the / Ø"
+   ],
+   "answer": 3,
+   "explanation": "play the + nhạc cụ (the guitar); play + môn thể thao không dùng mạo từ (football)."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: Double comparatives",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n\n______ we use public transport, ______ air pollution there will be.",
+   "options": [
+    "The more / the fewer",
+    "The more / the less",
+    "More / less",
+    "The most / the least"
+   ],
+   "answer": 1,
+   "explanation": "So sánh kép: The + so sánh hơn ..., the + so sánh hơn .... \"pollution\" không đếm được nên dùng less, không dùng fewer."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: Double comparatives",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n\nAs more people become aware of environmental issues, green products are becoming ______.",
+   "options": [
+    "the more popular",
+    "most and most popular",
+    "more and more popular",
+    "more popular and popular"
+   ],
+   "answer": 2,
+   "explanation": "Diễn tả \"ngày càng...\" với tính từ dài: more and more + adj."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nMai: \"I've decided to use a cloth bag instead of plastic bags when I go shopping.\"\nNam: \"______\"",
+   "options": [
+    "Never mind. It doesn't matter.",
+    "That's a great idea! It's good for the environment.",
+    "You're welcome.",
+    "I'm afraid I can't."
+   ],
+   "answer": 1,
+   "explanation": "Mai chia sẻ một quyết định tích cực, Nam nên khen/đồng tình."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 2,
+   "stem": "Choose the most suitable response to complete the exchange.\n\nTom: \"Would you mind telling me about the traditions of the Lunar New Year in Viet Nam?\"\nLan: \"______\"",
+   "options": [
+    "Yes, I would. It's very interesting.",
+    "Not at all. People usually clean and decorate their houses before Tet.",
+    "Of course not. I don't know anything about it.",
+    "Thank you for asking me."
+   ],
+   "answer": 1,
+   "explanation": "Would you mind ...? Đồng ý trả lời \"Not at all\" rồi cung cấp thông tin. \"Yes, I would\" nghĩa là từ chối; phương án \"Of course not\" mâu thuẫn với vế sau."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Sentence arrangement",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\n\na. Minh: He was an engineer who designed weapons for the army during the war against the French.\nb. Lan: What are you reading, Minh?\nc. Lan: Wow! I'd like to borrow the book after you finish it.\nd. Minh: A biography of Tran Dai Nghia. Have you heard of him?\ne. Lan: Not really. What is he famous for?",
+   "options": [
+    "b – e – d – a – c",
+    "d – b – e – a – c",
+    "b – d – a – e – c",
+    "b – d – e – a – c"
+   ],
+   "answer": 3,
+   "explanation": "Lan hỏi (b) → Minh trả lời tên sách và hỏi lại (d) → Lan chưa biết, hỏi ông nổi tiếng vì gì (e) → Minh giải thích (a) → Lan muốn mượn sách (c)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Sentence arrangement",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\n\na. First, I always bring my own bottle and bag when I go out, so I rarely use single-use plastic.\nb. Living green is not as difficult as many people think.\nc. Finally, I cycle to school instead of asking my parents to drive me.\nd. Second, I sort my rubbish into recyclable and non-recyclable waste.\ne. These small actions, if done by everyone, can make a big difference to our planet.",
+   "options": [
+    "b – a – d – c – e",
+    "b – d – a – c – e",
+    "a – d – c – b – e",
+    "b – a – c – d – e"
+   ],
+   "answer": 0,
+   "explanation": "Câu chủ đề (b) → các ý theo trình tự First (a), Second (d), Finally (c) → câu kết (e)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 2,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (25).\n\nIn today's globalised world, many cities have become home to people from different cultural backgrounds. Living in a multicultural community offers a lot of benefits. First, it allows people to (25) ______ new ideas and ways of thinking. When you make friends with people (26) ______ traditions are different from yours, you learn to see the world from a new perspective. Second, cultural diversity makes life more colourful. Food is a good example: in big cities like Ha Noi or Ho Chi Minh City, you can easily find Korean, Italian or Indian restaurants. (27) ______, living with people from other cultures can also be challenging. Misunderstandings may happen because of differences in language, customs or body language. For example, (28) ______ simple gesture such as a thumbs-up may be friendly in one country but rude in another. To live (29) ______ in a multicultural society, we need to be open-minded and respectful. We should also try to learn about other cultures (30) ______ keeping our own cultural identity.\n\nQuestion: Choose the best option for blank (25).",
+   "options": [
+    "expose",
+    "exposing to",
+    "be exposed to",
+    "be exposing"
+   ],
+   "answer": 2,
+   "explanation": "allow sb to + V nguyên mẫu; be exposed to sth: được tiếp xúc với điều gì."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 3,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (26).\n\nIn today's globalised world, many cities have become home to people from different cultural backgrounds. Living in a multicultural community offers a lot of benefits. First, it allows people to (25) ______ new ideas and ways of thinking. When you make friends with people (26) ______ traditions are different from yours, you learn to see the world from a new perspective. Second, cultural diversity makes life more colourful. Food is a good example: in big cities like Ha Noi or Ho Chi Minh City, you can easily find Korean, Italian or Indian restaurants. (27) ______, living with people from other cultures can also be challenging. Misunderstandings may happen because of differences in language, customs or body language. For example, (28) ______ simple gesture such as a thumbs-up may be friendly in one country but rude in another. To live (29) ______ in a multicultural society, we need to be open-minded and respectful. We should also try to learn about other cultures (30) ______ keeping our own cultural identity.\n\nQuestion: Choose the best option for blank (26).",
+   "options": [
+    "whose",
+    "who",
+    "which",
+    "that"
+   ],
+   "answer": 0,
+   "explanation": "Sau chỗ trống là danh từ \"traditions\" và ý sở hữu (truyền thống của những người đó) nên dùng đại từ quan hệ whose."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 2,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (27).\n\nIn today's globalised world, many cities have become home to people from different cultural backgrounds. Living in a multicultural community offers a lot of benefits. First, it allows people to (25) ______ new ideas and ways of thinking. When you make friends with people (26) ______ traditions are different from yours, you learn to see the world from a new perspective. Second, cultural diversity makes life more colourful. Food is a good example: in big cities like Ha Noi or Ho Chi Minh City, you can easily find Korean, Italian or Indian restaurants. (27) ______, living with people from other cultures can also be challenging. Misunderstandings may happen because of differences in language, customs or body language. For example, (28) ______ simple gesture such as a thumbs-up may be friendly in one country but rude in another. To live (29) ______ in a multicultural society, we need to be open-minded and respectful. We should also try to learn about other cultures (30) ______ keeping our own cultural identity.\n\nQuestion: Choose the best option for blank (27).",
+   "options": [
+    "However",
+    "Therefore",
+    "Moreover",
+    "As a result"
+   ],
+   "answer": 0,
+   "explanation": "Câu trước nói về lợi ích, câu sau nói về thách thức → quan hệ tương phản: However."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 1,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (28).\n\nIn today's globalised world, many cities have become home to people from different cultural backgrounds. Living in a multicultural community offers a lot of benefits. First, it allows people to (25) ______ new ideas and ways of thinking. When you make friends with people (26) ______ traditions are different from yours, you learn to see the world from a new perspective. Second, cultural diversity makes life more colourful. Food is a good example: in big cities like Ha Noi or Ho Chi Minh City, you can easily find Korean, Italian or Indian restaurants. (27) ______, living with people from other cultures can also be challenging. Misunderstandings may happen because of differences in language, customs or body language. For example, (28) ______ simple gesture such as a thumbs-up may be friendly in one country but rude in another. To live (29) ______ in a multicultural society, we need to be open-minded and respectful. We should also try to learn about other cultures (30) ______ keeping our own cultural identity.\n\nQuestion: Choose the best option for blank (28).",
+   "options": [
+    "an",
+    "the",
+    "a",
+    "Ø"
+   ],
+   "answer": 2,
+   "explanation": "\"simple gesture\" là danh từ đếm được số ít, nhắc đến lần đầu, bắt đầu bằng phụ âm /s/ → dùng \"a\"."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 1,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (29).\n\nIn today's globalised world, many cities have become home to people from different cultural backgrounds. Living in a multicultural community offers a lot of benefits. First, it allows people to (25) ______ new ideas and ways of thinking. When you make friends with people (26) ______ traditions are different from yours, you learn to see the world from a new perspective. Second, cultural diversity makes life more colourful. Food is a good example: in big cities like Ha Noi or Ho Chi Minh City, you can easily find Korean, Italian or Indian restaurants. (27) ______, living with people from other cultures can also be challenging. Misunderstandings may happen because of differences in language, customs or body language. For example, (28) ______ simple gesture such as a thumbs-up may be friendly in one country but rude in another. To live (29) ______ in a multicultural society, we need to be open-minded and respectful. We should also try to learn about other cultures (30) ______ keeping our own cultural identity.\n\nQuestion: Choose the best option for blank (29).",
+   "options": [
+    "harmony",
+    "harmoniously",
+    "harmonious",
+    "harmonise"
+   ],
+   "answer": 1,
+   "explanation": "Bổ nghĩa cho động từ \"live\" cần trạng từ: harmoniously (một cách hòa hợp)."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze test",
+   "level": 3,
+   "stem": "Read the following passage and choose the option that best fits the numbered blank (30).\n\nIn today's globalised world, many cities have become home to people from different cultural backgrounds. Living in a multicultural community offers a lot of benefits. First, it allows people to (25) ______ new ideas and ways of thinking. When you make friends with people (26) ______ traditions are different from yours, you learn to see the world from a new perspective. Second, cultural diversity makes life more colourful. Food is a good example: in big cities like Ha Noi or Ho Chi Minh City, you can easily find Korean, Italian or Indian restaurants. (27) ______, living with people from other cultures can also be challenging. Misunderstandings may happen because of differences in language, customs or body language. For example, (28) ______ simple gesture such as a thumbs-up may be friendly in one country but rude in another. To live (29) ______ in a multicultural society, we need to be open-minded and respectful. We should also try to learn about other cultures (30) ______ keeping our own cultural identity.\n\nQuestion: Choose the best option for blank (30).",
+   "options": [
+    "during",
+    "while",
+    "despite",
+    "because of"
+   ],
+   "answer": 1,
+   "explanation": "while + V-ing: trong khi vẫn (giữ bản sắc). during + danh từ; despite và because of không hợp nghĩa."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 2,
+   "stem": "Read the following passage and answer the question.\n\n(1) Over the past decade, the idea of \"green living\" has moved from the margins of society into the mainstream. Once seen as a lifestyle for a small group of environmental activists, it is now embraced by ordinary families, schools and even large companies.\n\n(2) One of the clearest examples is the \"zero-waste\" movement. Its followers try to send as little rubbish as possible to landfills. They buy food in bulk, carry their own containers and repair broken items instead of throwing them away. Some zero-waste families claim that all the rubbish they produce in a year can fit into a single glass jar. Although this goal seems extreme to many people, it has inspired millions to reconsider their shopping habits.\n\n(3) Green living is not only about reducing waste. It also involves saving energy and water. Simple actions such as switching off lights, taking shorter showers and using energy-efficient appliances can noticeably cut household bills. In this way, protecting the environment often goes hand in hand with saving money.\n\n(4) Critics, however, argue that individual efforts are not enough. They point out that a large share of greenhouse gas emissions comes from industry and transport, so governments and businesses must take the lead. Supporters reply that individual choices matter because they send a strong message to companies: when consumers demand eco-friendly products, manufacturers are forced to change. Ultimately, the greenest future will probably require action from both individuals and institutions.\n\nQuestion: What is the passage mainly about?",
+   "options": [
+    "The history of environmental activists around the world",
+    "How to produce zero-waste products at home",
+    "Why governments ignore climate change",
+    "The spread of green living and the debate about how much individuals can do"
+   ],
+   "answer": 3,
+   "explanation": "Bài nói green living trở nên phổ biến (đoạn 1–3) và tranh luận về vai trò của cá nhân (đoạn 4)."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 3,
+   "stem": "Read the following passage and answer the question.\n\n(1) Over the past decade, the idea of \"green living\" has moved from the margins of society into the mainstream. Once seen as a lifestyle for a small group of environmental activists, it is now embraced by ordinary families, schools and even large companies.\n\n(2) One of the clearest examples is the \"zero-waste\" movement. Its followers try to send as little rubbish as possible to landfills. They buy food in bulk, carry their own containers and repair broken items instead of throwing them away. Some zero-waste families claim that all the rubbish they produce in a year can fit into a single glass jar. Although this goal seems extreme to many people, it has inspired millions to reconsider their shopping habits.\n\n(3) Green living is not only about reducing waste. It also involves saving energy and water. Simple actions such as switching off lights, taking shorter showers and using energy-efficient appliances can noticeably cut household bills. In this way, protecting the environment often goes hand in hand with saving money.\n\n(4) Critics, however, argue that individual efforts are not enough. They point out that a large share of greenhouse gas emissions comes from industry and transport, so governments and businesses must take the lead. Supporters reply that individual choices matter because they send a strong message to companies: when consumers demand eco-friendly products, manufacturers are forced to change. Ultimately, the greenest future will probably require action from both individuals and institutions.\n\nQuestion: The word \"embraced\" in paragraph 1 is closest in meaning to ______.",
+   "options": [
+    "refused",
+    "accepted",
+    "hugged",
+    "criticised"
+   ],
+   "answer": 1,
+   "explanation": "embrace (nghĩa bóng) = chấp nhận, đón nhận (accepted). \"hugged\" là nghĩa đen \"ôm\", không hợp ngữ cảnh."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 1,
+   "stem": "Read the following passage and answer the question.\n\n(1) Over the past decade, the idea of \"green living\" has moved from the margins of society into the mainstream. Once seen as a lifestyle for a small group of environmental activists, it is now embraced by ordinary families, schools and even large companies.\n\n(2) One of the clearest examples is the \"zero-waste\" movement. Its followers try to send as little rubbish as possible to landfills. They buy food in bulk, carry their own containers and repair broken items instead of throwing them away. Some zero-waste families claim that all the rubbish they produce in a year can fit into a single glass jar. Although this goal seems extreme to many people, it has inspired millions to reconsider their shopping habits.\n\n(3) Green living is not only about reducing waste. It also involves saving energy and water. Simple actions such as switching off lights, taking shorter showers and using energy-efficient appliances can noticeably cut household bills. In this way, protecting the environment often goes hand in hand with saving money.\n\n(4) Critics, however, argue that individual efforts are not enough. They point out that a large share of greenhouse gas emissions comes from industry and transport, so governments and businesses must take the lead. Supporters reply that individual choices matter because they send a strong message to companies: when consumers demand eco-friendly products, manufacturers are forced to change. Ultimately, the greenest future will probably require action from both individuals and institutions.\n\nQuestion: According to paragraph 2, zero-waste followers do all of the following EXCEPT ______.",
+   "options": [
+    "buy food in bulk",
+    "carry their own containers",
+    "recycle all their plastic bottles",
+    "repair broken items"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 2 nhắc buy food in bulk, carry their own containers, repair broken items; không nhắc tái chế chai nhựa."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 3,
+   "stem": "Read the following passage and answer the question.\n\n(1) Over the past decade, the idea of \"green living\" has moved from the margins of society into the mainstream. Once seen as a lifestyle for a small group of environmental activists, it is now embraced by ordinary families, schools and even large companies.\n\n(2) One of the clearest examples is the \"zero-waste\" movement. Its followers try to send as little rubbish as possible to landfills. They buy food in bulk, carry their own containers and repair broken items instead of throwing them away. Some zero-waste families claim that all the rubbish they produce in a year can fit into a single glass jar. Although this goal seems extreme to many people, it has inspired millions to reconsider their shopping habits.\n\n(3) Green living is not only about reducing waste. It also involves saving energy and water. Simple actions such as switching off lights, taking shorter showers and using energy-efficient appliances can noticeably cut household bills. In this way, protecting the environment often goes hand in hand with saving money.\n\n(4) Critics, however, argue that individual efforts are not enough. They point out that a large share of greenhouse gas emissions comes from industry and transport, so governments and businesses must take the lead. Supporters reply that individual choices matter because they send a strong message to companies: when consumers demand eco-friendly products, manufacturers are forced to change. Ultimately, the greenest future will probably require action from both individuals and institutions.\n\nQuestion: The word \"it\" in paragraph 2 refers to ______.",
+   "options": [
+    "a single glass jar",
+    "the rubbish",
+    "this goal",
+    "a year"
+   ],
+   "answer": 2,
+   "explanation": "\"Although this goal seems extreme ..., it has inspired millions\" – \"it\" thay cho \"this goal\"."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 1,
+   "stem": "Read the following passage and answer the question.\n\n(1) Over the past decade, the idea of \"green living\" has moved from the margins of society into the mainstream. Once seen as a lifestyle for a small group of environmental activists, it is now embraced by ordinary families, schools and even large companies.\n\n(2) One of the clearest examples is the \"zero-waste\" movement. Its followers try to send as little rubbish as possible to landfills. They buy food in bulk, carry their own containers and repair broken items instead of throwing them away. Some zero-waste families claim that all the rubbish they produce in a year can fit into a single glass jar. Although this goal seems extreme to many people, it has inspired millions to reconsider their shopping habits.\n\n(3) Green living is not only about reducing waste. It also involves saving energy and water. Simple actions such as switching off lights, taking shorter showers and using energy-efficient appliances can noticeably cut household bills. In this way, protecting the environment often goes hand in hand with saving money.\n\n(4) Critics, however, argue that individual efforts are not enough. They point out that a large share of greenhouse gas emissions comes from industry and transport, so governments and businesses must take the lead. Supporters reply that individual choices matter because they send a strong message to companies: when consumers demand eco-friendly products, manufacturers are forced to change. Ultimately, the greenest future will probably require action from both individuals and institutions.\n\nQuestion: Which of the following is TRUE according to paragraph 3?",
+   "options": [
+    "Saving energy and water can also help families spend less money.",
+    "Green living is only about reducing waste.",
+    "Energy-efficient appliances increase household bills.",
+    "Taking long showers is a way to save water."
+   ],
+   "answer": 0,
+   "explanation": "Đoạn 3: các hành động tiết kiệm \"can noticeably cut household bills\" và bảo vệ môi trường \"goes hand in hand with saving money\"."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "topic": "Reading comprehension",
+   "level": 3,
+   "stem": "Read the following passage and answer the question.\n\n(1) Over the past decade, the idea of \"green living\" has moved from the margins of society into the mainstream. Once seen as a lifestyle for a small group of environmental activists, it is now embraced by ordinary families, schools and even large companies.\n\n(2) One of the clearest examples is the \"zero-waste\" movement. Its followers try to send as little rubbish as possible to landfills. They buy food in bulk, carry their own containers and repair broken items instead of throwing them away. Some zero-waste families claim that all the rubbish they produce in a year can fit into a single glass jar. Although this goal seems extreme to many people, it has inspired millions to reconsider their shopping habits.\n\n(3) Green living is not only about reducing waste. It also involves saving energy and water. Simple actions such as switching off lights, taking shorter showers and using energy-efficient appliances can noticeably cut household bills. In this way, protecting the environment often goes hand in hand with saving money.\n\n(4) Critics, however, argue that individual efforts are not enough. They point out that a large share of greenhouse gas emissions comes from industry and transport, so governments and businesses must take the lead. Supporters reply that individual choices matter because they send a strong message to companies: when consumers demand eco-friendly products, manufacturers are forced to change. Ultimately, the greenest future will probably require action from both individuals and institutions.\n\nQuestion: It can be inferred from paragraph 4 that the writer believes ______.",
+   "options": [
+    "both individuals and organisations should act to protect the environment",
+    "individual efforts are completely useless",
+    "only governments can solve environmental problems",
+    "companies never respond to what consumers want"
+   ],
+   "answer": 0,
+   "explanation": "Câu cuối: \"the greenest future will probably require action from both individuals and institutions\"."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence. (The parts to consider are given in the options.)\n\nMy grandfather was serving in the army when he was meeting my grandmother in 1975.",
+   "options": [
+    "was meeting",
+    "was serving",
+    "when",
+    "in 1975"
+   ],
+   "answer": 0,
+   "explanation": "Hành động ngắn xen vào hành động đang diễn ra dùng quá khứ đơn: was meeting → met."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "topic": "Error identification",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence. (The parts to consider are given in the options.)\n\nThe more you recycle, the less waste end up in landfills.",
+   "options": [
+    "The more",
+    "recycle",
+    "the less",
+    "end up"
+   ],
+   "answer": 3,
+   "explanation": "Chủ ngữ \"waste\" là danh từ không đếm được → động từ số ít: end up → ends up."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Closest meaning",
+   "level": 2,
+   "stem": "Choose the sentence that is closest in meaning to the given sentence.\n\nAs the city grows bigger, it becomes more polluted.",
+   "options": [
+    "The city grows bigger so that it becomes more polluted.",
+    "The bigger the city grows, the most polluted it becomes.",
+    "The more big the city grows, the more polluted it becomes.",
+    "The bigger the city grows, the more polluted it becomes."
+   ],
+   "answer": 3,
+   "explanation": "Cấu trúc so sánh kép: The + so sánh hơn + S + V, the + so sánh hơn + S + V. big → bigger; polluted → more polluted."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Closest meaning",
+   "level": 2,
+   "stem": "Choose the sentence that best combines the two given sentences.\n\nI was reading a biography of Steve Jobs. During that time, my brother was playing video games.",
+   "options": [
+    "While I was reading a biography of Steve Jobs, my brother was playing video games.",
+    "When I read a biography of Steve Jobs, my brother had played video games.",
+    "I read a biography of Steve Jobs after my brother played video games.",
+    "While my brother played video games, I had read a biography of Steve Jobs."
+   ],
+   "answer": 0,
+   "explanation": "Hai hành động diễn ra song song trong quá khứ: While + quá khứ tiếp diễn, quá khứ tiếp diễn."
+  }
+ ]
+}

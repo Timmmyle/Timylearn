@@ -1,0 +1,439 @@
+{
+ "grade": 11,
+ "subject": "Hóa học",
+ "exam": "ck1",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 1 – Hóa học 11 (đề số 1)",
+ "scope": "Chương 1 Cân bằng hóa học; Chương 2 Nitrogen và sulfur; Chương 3 Đại cương về hóa học hữu cơ (hợp chất hữu cơ, phương pháp tách biệt và tinh chế, công thức phân tử, cấu tạo hóa học, đồng đẳng, đồng phân)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Hợp chất hữu cơ",
+   "level": 1,
+   "stem": "Chất nào sau đây là hợp chất hữu cơ?",
+   "options": [
+    "$\\mathrm{CaCO_3}$",
+    "$\\mathrm{C_2H_5OH}$",
+    "$\\mathrm{CO}$",
+    "$\\mathrm{NaCN}$"
+   ],
+   "answer": 1,
+   "explanation": "Hợp chất hữu cơ là hợp chất của carbon, trừ một số chất như CO, $\\mathrm{CO_2}$, muối carbonate, cyanide, carbide… Ethanol $\\mathrm{C_2H_5OH}$ là hợp chất hữu cơ."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Hợp chất hữu cơ",
+   "level": 1,
+   "stem": "Đặc điểm chung của phần lớn các hợp chất hữu cơ là",
+   "options": [
+    "tan tốt trong nước, khó cháy",
+    "có nhiệt độ nóng chảy rất cao",
+    "liên kết trong phân tử chủ yếu là liên kết ion",
+    "liên kết trong phân tử chủ yếu là liên kết cộng hóa trị"
+   ],
+   "answer": 3,
+   "explanation": "Hợp chất hữu cơ chủ yếu có liên kết cộng hóa trị, thường dễ bay hơi, dễ cháy, kém bền nhiệt và ít tan trong nước."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Nhóm chức",
+   "level": 1,
+   "stem": "Nhóm chức –COOH là nhóm chức đặc trưng của loại hợp chất nào sau đây?",
+   "options": [
+    "Carboxylic acid",
+    "Alcohol",
+    "Aldehyde",
+    "Ketone"
+   ],
+   "answer": 0,
+   "explanation": "–COOH là nhóm carboxyl, đặc trưng của carboxylic acid; alcohol có nhóm –OH, aldehyde có –CHO, ketone có nhóm C=O liên kết với hai gốc carbon."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Tách biệt và tinh chế",
+   "level": 1,
+   "stem": "Phương pháp chưng cất dùng để tách các chất lỏng có",
+   "options": [
+    "độ tan trong nước khác nhau",
+    "khối lượng riêng khác nhau",
+    "nhiệt độ sôi khác nhau",
+    "màu sắc khác nhau"
+   ],
+   "answer": 2,
+   "explanation": "Chưng cất dựa vào sự khác nhau về nhiệt độ sôi: chất sôi thấp hơn hóa hơi trước, được ngưng tụ và tách ra."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Tách biệt và tinh chế",
+   "level": 1,
+   "stem": "Ngâm các loại thảo dược trong rượu (ethanol) để hòa tan các hoạt chất vào rượu là ứng dụng của phương pháp",
+   "options": [
+    "chưng cất",
+    "chiết",
+    "kết tinh",
+    "sắc kí cột"
+   ],
+   "answer": 1,
+   "explanation": "Dùng dung môi (ethanol) để hòa tan, kéo hoạt chất từ thảo dược (chất rắn) sang dung môi là phương pháp chiết (chiết lỏng – rắn)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Phổ hồng ngoại (IR)",
+   "level": 2,
+   "stem": "Phổ hồng ngoại (IR) của chất X có peak hấp thụ mạnh ở khoảng 1715 $\\mathrm{cm^{-1}}$ và không có peak hấp thụ rộng ở vùng 3200 – 3600 $\\mathrm{cm^{-1}}$. X có thể là chất nào sau đây?",
+   "options": [
+    "Ethanol ($\\mathrm{CH_3CH_2OH}$)",
+    "Dimethyl ether ($\\mathrm{CH_3OCH_3}$)",
+    "Ethane ($\\mathrm{CH_3CH_3}$)",
+    "Acetone ($\\mathrm{CH_3COCH_3}$)"
+   ],
+   "answer": 3,
+   "explanation": "Peak khoảng 1650 – 1750 cm⁻¹ đặc trưng cho nhóm C=O; trong các chất đã cho chỉ acetone có nhóm C=O và không có nhóm O–H."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Công thức phân tử",
+   "level": 1,
+   "stem": "Trên phổ khối lượng (MS) của chất hữu cơ X, peak ion phân tử $[\\mathrm{M^+}]$ có giá trị m/z = 46. Phân tử khối của X là",
+   "options": [
+    "46",
+    "23",
+    "45",
+    "92"
+   ],
+   "answer": 0,
+   "explanation": "Với ion phân tử mang điện tích +1, giá trị m/z của peak ion phân tử chính là phân tử khối của chất."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Công thức phân tử",
+   "level": 2,
+   "stem": "Công thức đơn giản nhất của glucose ($\\mathrm{C_6H_{12}O_6}$) là",
+   "options": [
+    "$\\mathrm{C_6H_{12}O_6}$",
+    "$\\mathrm{C_2H_4O_2}$",
+    "$\\mathrm{CH_2O}$",
+    "$\\mathrm{CHO}$"
+   ],
+   "answer": 2,
+   "explanation": "Tỉ lệ C : H : O = 6 : 12 : 6 = 1 : 2 : 1 nên công thức đơn giản nhất là $\\mathrm{CH_2O}$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Công thức phân tử",
+   "level": 3,
+   "stem": "Hợp chất hữu cơ X chứa C, H, O có phần trăm khối lượng carbon và hydrogen lần lượt là 40,00% và 6,67%. Phổ khối lượng của X có peak ion phân tử ở m/z = 60. Công thức phân tử của X là (Cho H = 1, C = 12, O = 16)",
+   "options": [
+    "$\\mathrm{CH_2O}$",
+    "$\\mathrm{C_2H_4O_2}$",
+    "$\\mathrm{C_3H_8O}$",
+    "$\\mathrm{C_2H_6O_2}$"
+   ],
+   "answer": 1,
+   "explanation": "Số C = $\\dfrac{60 \\cdot 40}{12 \\cdot 100} = 2$; số H = $\\dfrac{60 \\cdot 6{,}67}{100} \\approx 4$; số O = $\\dfrac{60 - 24 - 4}{16} = 2$. Vậy X là $\\mathrm{C_2H_4O_2}$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Đồng đẳng, đồng phân",
+   "level": 2,
+   "stem": "Cặp chất nào sau đây là đồng đẳng của nhau?",
+   "options": [
+    "$\\mathrm{CH_4}$ và $\\mathrm{C_2H_6}$",
+    "$\\mathrm{C_2H_5OH}$ và $\\mathrm{CH_3OCH_3}$",
+    "$\\mathrm{C_2H_4}$ và $\\mathrm{C_2H_6}$",
+    "$\\mathrm{CH_3OH}$ và $\\mathrm{CH_3COOH}$"
+   ],
+   "answer": 0,
+   "explanation": "Đồng đẳng là các chất có cấu tạo và tính chất tương tự nhau, hơn kém nhau một hay nhiều nhóm $\\mathrm{CH_2}$: $\\mathrm{CH_4}$ và $\\mathrm{C_2H_6}$ đều là alkane. $\\mathrm{C_2H_5OH}$ và $\\mathrm{CH_3OCH_3}$ là đồng phân."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Đồng đẳng, đồng phân",
+   "level": 2,
+   "stem": "Số đồng phân cấu tạo ứng với công thức phân tử $\\mathrm{C_3H_8O}$ là",
+   "options": [
+    "2",
+    "4",
+    "1",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "Có 3 đồng phân: $\\mathrm{CH_3CH_2CH_2OH}$, $\\mathrm{CH_3CH(OH)CH_3}$ (alcohol) và $\\mathrm{CH_3OCH_2CH_3}$ (ether)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Cấu tạo hóa học",
+   "level": 1,
+   "stem": "Theo thuyết cấu tạo hóa học, trong các hợp chất hữu cơ carbon có hóa trị",
+   "options": [
+    "II",
+    "III",
+    "IV",
+    "I"
+   ],
+   "answer": 2,
+   "explanation": "Trong hợp chất hữu cơ, carbon luôn có hóa trị IV; các nguyên tử carbon có thể liên kết với nhau tạo mạch carbon."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Hằng số cân bằng KC",
+   "level": 2,
+   "stem": "Cho cân bằng: $\\mathrm{CaCO_3(s) \\rightleftharpoons CaO(s) + CO_2(g)}$. Biểu thức hằng số cân bằng $K_C$ là",
+   "options": [
+    "$K_C = [\\mathrm{CO_2}]$",
+    "$K_C = \\dfrac{[\\mathrm{CaO}][\\mathrm{CO_2}]}{[\\mathrm{CaCO_3}]}$",
+    "$K_C = \\dfrac{[\\mathrm{CaCO_3}]}{[\\mathrm{CaO}][\\mathrm{CO_2}]}$",
+    "$K_C = \\dfrac{1}{[\\mathrm{CO_2}]}$"
+   ],
+   "answer": 0,
+   "explanation": "Nồng độ chất rắn không có mặt trong biểu thức $K_C$, nên $K_C = [\\mathrm{CO_2}]$."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Chuyển dịch cân bằng",
+   "level": 2,
+   "stem": "Cho cân bằng: $\\mathrm{C(s) + H_2O(g) \\rightleftharpoons CO(g) + H_2(g)}$, $\\Delta_r H^\\circ_{298} > 0$. Cân bằng chuyển dịch theo chiều thuận khi",
+   "options": [
+    "giảm nhiệt độ",
+    "tăng nhiệt độ",
+    "tăng áp suất chung của hệ",
+    "thêm một lượng carbon (C) rắn"
+   ],
+   "answer": 1,
+   "explanation": "Phản ứng thuận thu nhiệt nên tăng nhiệt độ làm cân bằng chuyển theo chiều thuận. Tăng áp suất làm cân bằng chuyển theo chiều nghịch (ít mol khí hơn); thêm chất rắn không làm chuyển dịch cân bằng."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "pH và môi trường dung dịch",
+   "level": 1,
+   "stem": "Một dung dịch có pH = 9. Môi trường của dung dịch đó là",
+   "options": [
+    "acid",
+    "trung tính",
+    "không xác định được",
+    "base"
+   ],
+   "answer": 3,
+   "explanation": "Ở 25 °C, pH > 7 là môi trường base, pH = 7 trung tính, pH < 7 môi trường acid."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Ammonia và muối ammonium",
+   "level": 1,
+   "stem": "Khi cho muối ammonium tác dụng với dung dịch kiềm và đun nóng, khí thoát ra là",
+   "options": [
+    "$\\mathrm{NH_3}$",
+    "$\\mathrm{N_2}$",
+    "$\\mathrm{H_2}$",
+    "$\\mathrm{NO_2}$"
+   ],
+   "answer": 0,
+   "explanation": "$\\mathrm{NH_4^+ + OH^- \\xrightarrow{t^\\circ} NH_3\\uparrow + H_2O}$; khí ammonia có mùi khai."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Sulfur dioxide",
+   "level": 2,
+   "stem": "Dẫn khí $\\mathrm{SO_2}$ vào dung dịch bromine (màu vàng nâu), dung dịch bị mất màu. Trong phản ứng này, $\\mathrm{SO_2}$ thể hiện",
+   "options": [
+    "tính oxi hóa",
+    "tính acid",
+    "tính khử",
+    "tính base"
+   ],
+   "answer": 2,
+   "explanation": "$\\mathrm{SO_2 + Br_2 + 2H_2O \\rightarrow 2HBr + H_2SO_4}$: S tăng số oxi hóa từ +4 lên +6 nên $\\mathrm{SO_2}$ là chất khử."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Sulfuric acid và muối sulfate",
+   "level": 3,
+   "stem": "Cho dung dịch $\\mathrm{BaCl_2}$ dư vào 200 mL dung dịch $\\mathrm{H_2SO_4}$ 0,1 M, thu được m gam kết tủa. Giá trị của m là (Cho O = 16, S = 32, Cl = 35,5, Ba = 137)",
+   "options": [
+    "2,33",
+    "4,66",
+    "9,32",
+    "4,16"
+   ],
+   "answer": 1,
+   "explanation": "$n_{\\mathrm{BaSO_4}} = n_{\\mathrm{H_2SO_4}} = 0{,}2 \\cdot 0{,}1 = 0{,}02$ mol; m = 0,02.233 = 4,66 gam."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "topic": "Đồng đẳng, đồng phân",
+   "level": 2,
+   "stem": "Cho các chất: ethanol ($\\mathrm{CH_3CH_2OH}$), dimethyl ether ($\\mathrm{CH_3OCH_3}$), propan-1-ol ($\\mathrm{CH_3CH_2CH_2OH}$) và acetic acid ($\\mathrm{CH_3COOH}$).",
+   "statements": [
+    {
+     "t": "Ethanol và dimethyl ether là đồng phân cấu tạo của nhau.",
+     "a": true
+    },
+    {
+     "t": "Ethanol và propan-1-ol là đồng đẳng của nhau.",
+     "a": true
+    },
+    {
+     "t": "Ethanol và dimethyl ether có cùng nhóm chức.",
+     "a": false
+    },
+    {
+     "t": "Phổ IR của acetic acid có peak hấp thụ của nhóm C=O (khoảng 1700 $\\mathrm{cm^{-1}}$), còn phổ IR của dimethyl ether không có peak này.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: cùng công thức phân tử $\\mathrm{C_2H_6O}$ nhưng cấu tạo khác nhau. b) Đúng: cùng là alcohol no, đơn chức, hơn kém một nhóm $\\mathrm{CH_2}$. c) Sai: ethanol có nhóm –OH (alcohol), dimethyl ether có nhóm C–O–C (ether). d) Đúng: chỉ acetic acid có nhóm C=O."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "topic": "Tách biệt và tinh chế",
+   "level": 2,
+   "stem": "Một số hoạt động trong đời sống và sản xuất: (1) nấu rượu: đun hỗn hợp tinh bột đã lên men, hơi bay lên được làm lạnh để thu rượu; (2) làm đường cát từ nước mía: cô đặc nước mía rồi để nguội cho đường tách ra; (3) tách dầu ăn khỏi nước bằng phễu chiết.",
+   "statements": [
+    {
+     "t": "Hoạt động (1) sử dụng phương pháp chưng cất.",
+     "a": true
+    },
+    {
+     "t": "Hoạt động (2) sử dụng phương pháp kết tinh, dựa trên sự thay đổi độ tan của chất theo nhiệt độ.",
+     "a": true
+    },
+    {
+     "t": "Trong phương pháp chiết lỏng – lỏng ở (3), hai chất lỏng cần tách phải tan tốt vào nhau.",
+     "a": false
+    },
+    {
+     "t": "Trong sắc kí cột, chất bị hấp phụ trên pha tĩnh càng mạnh thì di chuyển càng nhanh và ra khỏi cột trước.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: tách ethanol nhờ nhiệt độ sôi thấp hơn nước. b) Đúng: đường kết tinh khi dung dịch đặc được làm nguội. c) Sai: hai chất lỏng phải không tan vào nhau, phân thành hai lớp. d) Sai: chất hấp phụ mạnh hơn di chuyển chậm hơn, ra khỏi cột sau."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "topic": "Công thức phân tử",
+   "level": 3,
+   "stem": "Đốt cháy hoàn toàn 4,6 gam chất hữu cơ X thu được 8,8 gam $\\mathrm{CO_2}$ và 5,4 gam $\\mathrm{H_2O}$. Trên phổ khối lượng của X, peak ion phân tử có m/z = 46. (Cho H = 1, C = 12, O = 16)",
+   "statements": [
+    {
+     "t": "X có chứa các nguyên tố C, H và O.",
+     "a": true
+    },
+    {
+     "t": "Phần trăm khối lượng carbon trong X là 52,17%.",
+     "a": true
+    },
+    {
+     "t": "Công thức đơn giản nhất của X là $\\mathrm{CH_3O}$.",
+     "a": false
+    },
+    {
+     "t": "Nếu phổ IR của X có peak hấp thụ rộng ở khoảng 3300 $\\mathrm{cm^{-1}}$ thì X là $\\mathrm{CH_3OCH_3}$.",
+     "a": false
+    }
+   ],
+   "explanation": "$n_C = 0{,}2$ mol (2,4 g), $n_H = 0{,}6$ mol (0,6 g), $m_O = 4{,}6 - 3{,}0 = 1{,}6$ g (0,1 mol). a) Đúng. b) Đúng: $\\dfrac{2{,}4}{4{,}6} \\cdot 100\\% \\approx 52{,}17\\%$. c) Sai: C : H : O = 2 : 6 : 1, công thức đơn giản nhất là $\\mathrm{C_2H_6O}$. d) Sai: peak rộng 3300 cm⁻¹ là của nhóm O–H nên X là ethanol $\\mathrm{CH_3CH_2OH}$."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "topic": "Sulfur dioxide",
+   "level": 3,
+   "stem": "Sulfur dioxide ($\\mathrm{SO_2}$) là một trong những chất gây ô nhiễm không khí, chủ yếu sinh ra từ các nhà máy nhiệt điện đốt than. (Cho S = 32)",
+   "statements": [
+    {
+     "t": "$\\mathrm{SO_2}$ sinh ra chủ yếu khi đốt các nhiên liệu hóa thạch có chứa sulfur.",
+     "a": true
+    },
+    {
+     "t": "Trong khí quyển, $\\mathrm{SO_2}$ chuyển hóa thành $\\mathrm{H_2SO_4}$ và gây mưa acid; nước mưa có pH nhỏ hơn 5,6 được gọi là mưa acid.",
+     "a": true
+    },
+    {
+     "t": "Để xử lí khí thải chứa $\\mathrm{SO_2}$, người ta dẫn khí thải qua dung dịch hydrochloric acid.",
+     "a": false
+    },
+    {
+     "t": "Đốt cháy hoàn toàn 1 tấn than chứa 3,2% sulfur về khối lượng, toàn bộ sulfur chuyển thành $\\mathrm{SO_2}$, thì thể tích $\\mathrm{SO_2}$ thải ra (ở đkc) là 24,79 $\\mathrm{m^3}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: $\\mathrm{SO_2}$ là oxide acid, không bị HCl hấp thụ; phải dùng chất có tính base như sữa vôi $\\mathrm{Ca(OH)_2}$. d) Đúng: $m_S = 32$ kg, $n_{\\mathrm{SO_2}} = 1000$ mol, V = 1000.24,79 = 24 790 L = 24,79 $\\mathrm{m^3}$."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "topic": "pH và môi trường dung dịch",
+   "level": 1,
+   "stem": "Tính pH của dung dịch sodium hydroxide (NaOH) 0,001 M.",
+   "answer_text": "11",
+   "explanation": "$[\\mathrm{OH^-}] = 10^{-3}$ M nên $[\\mathrm{H^+}] = 10^{-11}$ M, pH = 11."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "topic": "Đồng đẳng, đồng phân",
+   "level": 2,
+   "stem": "Có bao nhiêu đồng phân cấu tạo ứng với công thức phân tử $\\mathrm{C_5H_{12}}$?",
+   "answer_text": "3",
+   "explanation": "Gồm pentane $\\mathrm{CH_3(CH_2)_3CH_3}$, 2-methylbutane $\\mathrm{(CH_3)_2CHCH_2CH_3}$ và 2,2-dimethylpropane $\\mathrm{C(CH_3)_4}$."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "topic": "Chuẩn độ acid – base",
+   "level": 2,
+   "stem": "Để xác định hàm lượng acetic acid trong một loại giấm ăn, người ta lấy 10,0 mL giấm, thêm vài giọt phenolphthalein rồi chuẩn độ bằng dung dịch NaOH 0,50 M thì hết 16,0 mL. Nồng độ mol của acetic acid ($\\mathrm{CH_3COOH}$) trong giấm là bao nhiêu M?",
+   "answer_text": "0,8",
+   "explanation": "$\\mathrm{CH_3COOH + NaOH \\rightarrow CH_3COONa + H_2O}$; $n_{\\mathrm{CH_3COOH}} = 0{,}5 \\cdot 0{,}016 = 0{,}008$ mol; $C_M = \\dfrac{0{,}008}{0{,}01} = 0{,}8$ M."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "topic": "Hằng số cân bằng KC",
+   "level": 3,
+   "stem": "Cho 0,10 mol $\\mathrm{N_2O_4}$ vào bình kín dung tích 1 lít, giữ ở nhiệt độ T: $\\mathrm{N_2O_4(g) \\rightleftharpoons 2NO_2(g)}$. Khi hệ đạt cân bằng, trong bình còn 0,08 mol $\\mathrm{N_2O_4}$. Tính hằng số cân bằng $K_C$ của phản ứng ở nhiệt độ T.",
+   "answer_text": "0,02",
+   "explanation": "$\\mathrm{N_2O_4}$ phản ứng 0,02 mol tạo 0,04 mol $\\mathrm{NO_2}$. $K_C = \\dfrac{0{,}04^2}{0{,}08} = 0{,}02$."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "topic": "Công thức phân tử",
+   "level": 3,
+   "stem": "Chất hữu cơ Y (chứa C, H, O) có phần trăm khối lượng C và H lần lượt là 54,55% và 9,09%. Phổ khối lượng của Y có peak ion phân tử ở m/z = 88. Tổng số nguyên tử trong một phân tử Y là bao nhiêu? (Cho H = 1, C = 12, O = 16)",
+   "answer_text": "14",
+   "explanation": "Số C = $\\dfrac{88 \\cdot 54{,}55}{1200} = 4$; số H = $\\dfrac{88 \\cdot 9{,}09}{100} = 8$; số O = $\\dfrac{88 - 48 - 8}{16} = 2$. Y là $\\mathrm{C_4H_8O_2}$, tổng số nguyên tử = 4 + 8 + 2 = 14."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "topic": "Công thức phân tử",
+   "level": 3,
+   "stem": "Đốt cháy hoàn toàn 0,1 mol hydrocarbon X thu được 9,916 lít khí $\\mathrm{CO_2}$ (ở đkc) và 9 gam $\\mathrm{H_2O}$. Phân tử khối của X là bao nhiêu? (Cho H = 1, C = 12, O = 16)",
+   "answer_text": "58",
+   "explanation": "$n_{\\mathrm{CO_2}} = \\dfrac{9{,}916}{24{,}79} = 0{,}4$ mol, $n_{\\mathrm{H_2O}} = 0{,}5$ mol. Số C = 0,4 : 0,1 = 4; số H = 2.0,5 : 0,1 = 10. X là $\\mathrm{C_4H_{10}}$, M = 58."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; các câu đã kiểm tra bằng Python: 9, 18, 21b, 21c, 22d, 23, 25, 26, 27, 28."
+}

@@ -1,0 +1,97 @@
+{
+  "grade": 12,
+  "subject": "Ngữ văn",
+  "exam": "ck1",
+  "duration_min": 90,
+  "title": "Đề ôn cuối học kì 1 – Ngữ văn 12",
+  "genre": "Văn bản nghị luận",
+  "work": {
+    "author": "Hồ Chí Minh",
+    "title": "Lời kêu gọi toàn quốc kháng chiến",
+    "source": "Hồ Chí Minh toàn tập; viết ngày 19 tháng 12 năm 1946",
+    "public_domain_reason": "Tác giả mất năm 1969"
+  },
+  "passage": "Hỡi đồng bào toàn quốc!\n\nChúng ta muốn hòa bình, chúng ta phải nhân nhượng. Nhưng chúng ta càng nhân nhượng, thực dân Pháp càng lấn tới, vì chúng quyết tâm cướp nước ta lần nữa!\n\nKhông! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ.\n\nHỡi đồng bào!\n\nChúng ta phải đứng lên!\n\nBất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc. Ai có súng dùng súng. Ai có gươm dùng gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc. Ai cũng phải ra sức chống thực dân Pháp cứu nước.\n\nHỡi anh em binh sĩ, tự vệ, dân quân!\n\nGiờ cứu nước đã đến. Ta phải hy sinh đến giọt máu cuối cùng, để giữ gìn đất nước.\n\nDù phải gian lao kháng chiến, nhưng với một lòng kiên quyết hy sinh, thắng lợi nhất định về dân tộc ta!\n\nViệt Nam độc lập và thống nhất muôn năm!\n\nKháng chiến thắng lợi muôn năm!",
+  "src": "Hà Nội, ngày 19 tháng 12 năm 1946\nHồ Chí Minh\n(Hồ Chí Minh, Lời kêu gọi toàn quốc kháng chiến, in trong Hồ Chí Minh toàn tập)\n* Hoàn cảnh: Văn bản được Chủ tịch Hồ Chí Minh viết đêm 19/12/1946, khi thực dân Pháp liên tiếp gửi tối hậu thư đòi tước vũ khí của ta, mở đầu cuộc kháng chiến toàn quốc chống thực dân Pháp.\n* Thuổng: dụng cụ đào đất có lưỡi sắt dài, hẹp, tra cán.",
+  "questions": [
+    {
+      "q": "Câu 1 (0,5 điểm). Văn bản trên thuộc kiểu văn bản nào? Xác định phương thức biểu đạt chính.",
+      "type": "nhanbiet",
+      "points": [
+        "Văn bản nghị luận (lời kêu gọi – văn bản chính luận)",
+        "Phương thức biểu đạt chính: nghị luận"
+      ],
+      "model": "Đây là văn bản nghị luận (văn chính luận dưới hình thức lời kêu gọi). Phương thức biểu đạt chính là nghị luận."
+    },
+    {
+      "q": "Câu 2 (0,5 điểm). Theo văn bản, những ai phải đứng lên đánh thực dân Pháp và họ dùng những gì để chiến đấu?",
+      "type": "nhanbiet",
+      "points": [
+        "Mọi người Việt Nam: bất kỳ đàn ông, đàn bà, người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc",
+        "Phương tiện: súng, gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc"
+      ],
+      "model": "Theo văn bản, \"hễ là người Việt Nam\" – bất kỳ đàn ông, đàn bà, người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc – đều phải đứng lên. Ai có súng dùng súng, ai có gươm dùng gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc."
+    },
+    {
+      "q": "Câu 3 (1,0 điểm). Nêu tác dụng của phép điệp cấu trúc trong các câu: \"Ai có súng dùng súng. Ai có gươm dùng gươm, không có gươm thì dùng cuốc, thuổng, gậy gộc. Ai cũng phải ra sức chống thực dân Pháp cứu nước.\"",
+      "type": "tutu",
+      "points": [
+        "Chỉ ra phép điệp: \"Ai có... dùng...\", \"Ai...\"",
+        "Nhấn mạnh tinh thần kháng chiến toàn dân, mỗi người góp sức bằng mọi phương tiện có thể",
+        "Tạo nhịp điệu dồn dập, mạnh mẽ, khẩn thiết, giàu sức hiệu triệu",
+        "Thể hiện quyết tâm sắt đá của dân tộc"
+      ],
+      "model": "Phép điệp cấu trúc \"Ai có... dùng...\" được lặp lại liên tiếp, nhấn mạnh rằng mỗi người dân, dù có vũ khí gì, đều phải tham gia kháng chiến. Cách diễn đạt ngắn gọn tạo nhịp điệu dồn dập, mạnh mẽ, tăng sức hiệu triệu của lời kêu gọi. Qua đó, Hồ Chí Minh khẳng định tinh thần kháng chiến toàn dân, toàn diện và ý chí quyết tâm sắt đá của cả dân tộc."
+    },
+    {
+      "q": "Câu 4 (1,0 điểm). Câu văn \"Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ.\" thể hiện thái độ, tình cảm gì của tác giả?",
+      "type": "noidung",
+      "points": [
+        "Thái độ dứt khoát, kiên quyết đấu tranh, không khuất phục",
+        "Lòng yêu nước nồng nàn, khát vọng độc lập, tự do",
+        "Sẵn sàng hy sinh mọi thứ để bảo vệ Tổ quốc",
+        "Cấu trúc \"thà... chứ nhất định không...\", điệp \"nhất định không chịu\" tăng sức khẳng định"
+      ],
+      "model": "Câu văn với cấu trúc \"thà... chứ nhất định không...\" và điệp ngữ \"nhất định không chịu\" thể hiện thái độ dứt khoát, ý chí kiên quyết không khuất phục trước kẻ thù. Đằng sau đó là lòng yêu nước nồng nàn, khát vọng độc lập, tự do mãnh liệt của tác giả và của cả dân tộc, sẵn sàng hy sinh tất cả để giữ gìn đất nước."
+    },
+    {
+      "q": "Câu 5 (1,0 điểm). Từ tinh thần của văn bản, em hãy nêu suy nghĩ về trách nhiệm của người trẻ đối với đất nước trong thời bình (trình bày khoảng 5–7 dòng).",
+      "type": "quandiem",
+      "points": [
+        "Nêu được quan điểm rõ ràng",
+        "Thời bình, yêu nước thể hiện qua học tập, lao động, rèn luyện bản thân",
+        "Giữ gìn bản sắc văn hóa, chấp hành pháp luật, bảo vệ chủ quyền, lan tỏa hình ảnh đất nước",
+        "Liên hệ hành động cụ thể của bản thân"
+      ],
+      "model": "Nếu trong thời chiến, cha ông ta \"thà hy sinh tất cả\" để giữ nước, thì trong thời bình, người trẻ cũng mang trách nhiệm dựng xây và bảo vệ đất nước. Trách nhiệm ấy bắt đầu từ việc học tập nghiêm túc, rèn luyện đạo đức và kĩ năng để trở thành người có ích. Người trẻ cần sống có trách nhiệm với cộng đồng, giữ gìn bản sắc văn hóa, tỉnh táo trước thông tin sai lệch về chủ quyền. Với em, mỗi nỗ lực nhỏ hằng ngày chính là cách thiết thực để thể hiện lòng yêu nước."
+    }
+  ],
+  "essays": [
+    {
+      "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích sức thuyết phục của văn bản \"Lời kêu gọi toàn quốc kháng chiến\" (Hồ Chí Minh).",
+      "type": "viet",
+      "points": [
+        "Đảm bảo hình thức đoạn văn khoảng 200 chữ, có câu chủ đề",
+        "Lập luận chặt chẽ: nêu lí do kháng chiến (ta nhân nhượng, Pháp lấn tới) → khẳng định quyết tâm → kêu gọi hành động",
+        "Ngôn ngữ ngắn gọn, câu cảm thán, câu cầu khiến, điệp ngữ tạo sức hiệu triệu",
+        "Đối tượng kêu gọi bao quát (đồng bào toàn quốc, binh sĩ, tự vệ, dân quân)",
+        "Tình cảm yêu nước, niềm tin vào thắng lợi làm nên sức lay động"
+      ],
+      "model": "- Câu chủ đề: Văn bản có sức thuyết phục lớn nhờ lí lẽ chặt chẽ và tình cảm mãnh liệt.\n- Lí lẽ: ta muốn hòa bình, nhân nhượng nhưng Pháp càng lấn tới → kháng chiến là tất yếu, chính nghĩa.\n- Quyết tâm: \"thà hy sinh tất cả\", điệp \"nhất định không chịu\".\n- Lời kêu gọi cụ thể, hướng tới mọi tầng lớp, chỉ rõ cách chiến đấu.\n- Nghệ thuật: câu ngắn, câu cảm thán, cầu khiến, khẩu hiệu kết thúc tạo khí thế.\n- Đánh giá: văn bản là áng văn chính luận mẫu mực, thôi thúc toàn dân."
+    },
+    {
+      "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) trình bày suy nghĩ của em về ý kiến: \"Tinh thần đoàn kết là sức mạnh để vượt qua mọi thử thách.\"",
+      "type": "viet",
+      "points": [
+        "Đảm bảo cấu trúc bài văn nghị luận: mở bài, thân bài, kết bài; khoảng 600 chữ",
+        "Giải thích: đoàn kết là sự gắn bó, chung sức, đồng lòng vì mục tiêu chung",
+        "Chứng minh vai trò: trong lịch sử dân tộc (kháng chiến toàn dân), trong thiên tai, dịch bệnh, trong tập thể lớp học",
+        "Bàn luận mở rộng: đoàn kết không phải bao che, a dua; phê phán lối sống ích kỉ, chia rẽ",
+        "Bài học nhận thức và hành động cho bản thân",
+        "Lập luận chặt chẽ, dẫn chứng xác thực, diễn đạt sáng tạo"
+      ],
+      "model": "- Mở bài: dẫn từ lời kêu gọi \"không chia tôn giáo, đảng phái, dân tộc\" để nêu vấn đề.\n- Giải thích: đoàn kết là đồng lòng, chung sức vì mục tiêu chung.\n- Vì sao đoàn kết tạo sức mạnh: hợp sức nhiều người, bù đắp hạn chế cá nhân, tạo niềm tin.\n- Dẫn chứng: kháng chiến toàn dân; cả nước chung tay chống dịch, hỗ trợ vùng lũ; tập thể lớp.\n- Mở rộng: đoàn kết khác bao che, kéo bè phái; phê phán ích kỉ, chia rẽ.\n- Kết bài: khẳng định ý nghĩa; bản thân biết lắng nghe, chia sẻ, hợp tác."
+    }
+  ],
+  "confidence_note": "Chép trọn văn bản (toàn văn); mức chắc chắn cao về nguyên văn theo bản phổ biến (chính tả 'hy sinh', 'bất kỳ' theo bản in thường gặp). Không có câu nào phải bỏ."
+}

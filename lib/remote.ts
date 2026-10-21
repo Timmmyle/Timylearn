@@ -28,9 +28,10 @@ let qOrder: string[] = [];
 
 type RemoteStore = {
   sets: RemoteSet[]; counts: Record<string, number>; passages: WritePassage[];
+  /** bài Ngữ văn của đề ôn giữa/cuối kì (file tĩnh public/de-hk) */ localPassages: WritePassage[];
   status: "idle" | "loading" | "ready" | "offline" | "off";
 };
-export const useRemote = create<RemoteStore>(() => ({ sets: [], counts: {}, passages: [], status: "idle" }));
+export const useRemote = create<RemoteStore>(() => ({ sets: [], counts: {}, passages: [], localPassages: [], status: "idle" }));
 
 export const imageUrl = (p?: string | null) => (p ? (/^https?:/.test(p) ? p : `${SB_URL}/storage/v1/object/public/question-images/${p}`) : "");
 
@@ -42,7 +43,7 @@ function toQ(r: Row): Question {
   };
 }
 
-function remember(qs: Question[]) {
+export function remember(qs: Question[]) {
   for (const q of qs) { if (!REMOTE_Q[q.id]) qOrder.push(q.id); REMOTE_Q[q.id] = q; }
   // Giữ tối đa MAX_CACHED_Q câu, bỏ câu cũ nhất
   while (qOrder.length > MAX_CACHED_Q) { const id = qOrder.shift()!; delete REMOTE_Q[id]; }

@@ -1,0 +1,439 @@
+{
+ "grade": 12,
+ "subject": "Vật lí",
+ "exam": "gk1",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 1 – Vật lí 12 (đề số 1)",
+ "scope": "Chương I Vật lí nhiệt: cấu trúc của chất, sự chuyển thể, nội năng, định luật I của nhiệt động lực học, thang nhiệt độ, nhiệt dung riêng, nhiệt nóng chảy riêng, nhiệt hóa hơi riêng",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Cấu trúc của chất",
+   "level": 1,
+   "stem": "Theo mô hình động học phân tử, ở thể khí các phân tử",
+   "options": [
+    "sắp xếp có trật tự và chỉ dao động quanh vị trí cân bằng cố định",
+    "chuyển động hỗn loạn, khoảng cách giữa các phân tử rất lớn so với kích thước của chúng",
+    "nằm sát nhau, lực tương tác giữa các phân tử rất mạnh",
+    "đứng yên khi nhiệt độ của khối khí không đổi"
+   ],
+   "answer": 1,
+   "explanation": "Ở thể khí, các phân tử ở xa nhau (khoảng cách lớn hơn nhiều kích thước phân tử), lực tương tác yếu và chúng chuyển động hỗn loạn không ngừng."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Cấu trúc của chất",
+   "level": 1,
+   "stem": "Đặc điểm nào sau đây là của chất rắn kết tinh?",
+   "options": [
+    "Không có hình dạng riêng, có hình dạng của bình chứa",
+    "Không có nhiệt độ nóng chảy xác định",
+    "Các phân tử chuyển động hỗn loạn tự do trong toàn bộ thể tích",
+    "Có cấu trúc tinh thể và nhiệt độ nóng chảy xác định"
+   ],
+   "answer": 3,
+   "explanation": "Chất rắn kết tinh có cấu trúc mạng tinh thể nên nóng chảy ở một nhiệt độ xác định (ở áp suất cho trước)."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Sự chuyển thể",
+   "level": 1,
+   "stem": "Quá trình chuyển trực tiếp từ thể rắn sang thể khí (không qua thể lỏng) được gọi là",
+   "options": [
+    "sự thăng hoa",
+    "sự bay hơi",
+    "sự ngưng tụ",
+    "sự nóng chảy"
+   ],
+   "answer": 0,
+   "explanation": "Thăng hoa là sự chuyển trực tiếp từ thể rắn sang thể khí, ví dụ băng phiến, đá khô (CO₂ rắn)."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Sự chuyển thể",
+   "level": 1,
+   "stem": "Trong quá trình nóng chảy của một chất rắn kết tinh ở áp suất không đổi, nhiệt độ của chất đó",
+   "options": [
+    "tăng dần đều",
+    "giảm dần",
+    "không thay đổi",
+    "lúc đầu tăng sau đó giảm"
+   ],
+   "answer": 2,
+   "explanation": "Chất rắn kết tinh nóng chảy ở nhiệt độ xác định; nhiệt lượng nhận vào dùng để phá vỡ cấu trúc tinh thể nên nhiệt độ giữ không đổi."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Nội năng",
+   "level": 1,
+   "stem": "Nội năng của một vật là",
+   "options": [
+    "tổng động năng và thế năng của các phân tử cấu tạo nên vật",
+    "tổng động năng và thế năng của vật",
+    "nhiệt lượng mà vật nhận được trong quá trình truyền nhiệt",
+    "động năng của vật khi chuyển động"
+   ],
+   "answer": 0,
+   "explanation": "Nội năng là tổng động năng (do chuyển động nhiệt) và thế năng (do tương tác) của các phân tử cấu tạo nên vật."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Nội năng",
+   "level": 1,
+   "stem": "Trường hợp nào sau đây nội năng của vật thay đổi chủ yếu bằng cách truyền nhiệt?",
+   "options": [
+    "Cọ xát miếng kim loại lên mặt sàn",
+    "Nén nhanh khí trong xilanh bằng pít-tông",
+    "Dùng búa đập nhiều lần lên một thanh sắt",
+    "Đặt nồi nước lên bếp đang đun"
+   ],
+   "answer": 3,
+   "explanation": "Đun nước trên bếp: nước nhận nhiệt từ ngọn lửa (truyền nhiệt). Ba trường hợp còn lại là thực hiện công."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Định luật I của nhiệt động lực học",
+   "level": 1,
+   "stem": "Theo định luật I của nhiệt động lực học $\\Delta U = A + Q$, một vật vừa nhận công vừa truyền nhiệt ra môi trường xung quanh thì",
+   "options": [
+    "$A < 0;\\ Q > 0$",
+    "$A > 0;\\ Q < 0$",
+    "$A > 0;\\ Q > 0$",
+    "$A < 0;\\ Q < 0$"
+   ],
+   "answer": 1,
+   "explanation": "Quy ước: vật nhận công thì $A > 0$; vật truyền (tỏa) nhiệt thì $Q < 0$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Thang nhiệt độ",
+   "level": 1,
+   "stem": "Nhiệt độ $0\\ \\text{K}$ (không độ tuyệt đối) tương ứng với nhiệt độ nào trong thang Celsius?",
+   "options": [
+    "$0\\ ^\\circ\\text{C}$",
+    "$273{,}15\\ ^\\circ\\text{C}$",
+    "$-273{,}15\\ ^\\circ\\text{C}$",
+    "$-100\\ ^\\circ\\text{C}$"
+   ],
+   "answer": 2,
+   "explanation": "Hệ thức $T(\\text{K}) = t(^\\circ\\text{C}) + 273{,}15$ nên $T = 0$ K ứng với $t = -273{,}15\\ ^\\circ\\text{C}$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Nhiệt dung riêng",
+   "level": 1,
+   "stem": "Đơn vị của nhiệt dung riêng trong hệ SI là",
+   "options": [
+    "$\\text{J/kg}$",
+    "$\\text{J/(kg}\\cdot\\text{K)}$",
+    "$\\text{J}\\cdot\\text{kg/K}$",
+    "$\\text{J/K}$"
+   ],
+   "answer": 1,
+   "explanation": "Từ $Q = mc\\Delta T$ suy ra $c = \\dfrac{Q}{m\\Delta T}$, đơn vị $\\text{J/(kg}\\cdot\\text{K)}$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Thang nhiệt độ",
+   "level": 2,
+   "stem": "Nhiệt độ cơ thể người khỏe mạnh khoảng $37\\ ^\\circ\\text{C}$. Lấy $T = t + 273$, nhiệt độ này ứng với",
+   "options": [
+    "$236\\ \\text{K}$",
+    "$273\\ \\text{K}$",
+    "$37\\ \\text{K}$",
+    "$310\\ \\text{K}$"
+   ],
+   "answer": 3,
+   "explanation": "$T = 37 + 273 = 310\\ \\text{K}$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Nhiệt hóa hơi riêng",
+   "level": 2,
+   "stem": "Nhiệt hóa hơi riêng của nước ở $100\\ ^\\circ\\text{C}$ là $2{,}3\\cdot 10^6\\ \\text{J/kg}$. Điều này có nghĩa là",
+   "options": [
+    "cần cung cấp $2{,}3\\cdot 10^6\\ \\text{J}$ để làm $1\\ \\text{kg}$ nước ở $100\\ ^\\circ\\text{C}$ hóa hơi hoàn toàn ở nhiệt độ đó",
+    "cần cung cấp $2{,}3\\cdot 10^6\\ \\text{J}$ để làm $1\\ \\text{kg}$ nước tăng thêm $1\\ ^\\circ\\text{C}$",
+    "cần cung cấp $2{,}3\\cdot 10^6\\ \\text{J}$ để đun $1\\ \\text{kg}$ nước từ $0\\ ^\\circ\\text{C}$ đến khi sôi",
+    "$1\\ \\text{kg}$ hơi nước ở $100\\ ^\\circ\\text{C}$ thu vào $2{,}3\\cdot 10^6\\ \\text{J}$ khi ngưng tụ"
+   ],
+   "answer": 0,
+   "explanation": "Nhiệt hóa hơi riêng là nhiệt lượng cần cung cấp cho 1 kg chất lỏng hóa hơi hoàn toàn ở nhiệt độ xác định (không làm thay đổi nhiệt độ). Khi ngưng tụ, hơi nước tỏa ra (không thu vào) nhiệt lượng này."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Nhiệt dung riêng",
+   "level": 2,
+   "stem": "Người ta thường dùng nước để làm mát động cơ ô tô, xe máy chủ yếu vì nước",
+   "options": [
+    "có nhiệt dung riêng nhỏ nên nóng lên nhanh",
+    "có nhiệt độ sôi rất thấp",
+    "có nhiệt dung riêng lớn nên hấp thụ được nhiều nhiệt mà nhiệt độ tăng ít",
+    "không có nội năng"
+   ],
+   "answer": 2,
+   "explanation": "Nhiệt dung riêng của nước lớn ($4200\\ \\text{J/(kg}\\cdot\\text{K)}$) nên một lượng nước nhận nhiều nhiệt từ động cơ mà nhiệt độ tăng không nhiều."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Định luật I của nhiệt động lực học",
+   "level": 2,
+   "stem": "Một lượng khí trong xilanh nhận nhiệt lượng $100\\ \\text{J}$ và thực hiện công $40\\ \\text{J}$ đẩy pít-tông. Độ biến thiên nội năng của khí là",
+   "options": [
+    "$140\\ \\text{J}$",
+    "$60\\ \\text{J}$",
+    "$-60\\ \\text{J}$",
+    "$-140\\ \\text{J}$"
+   ],
+   "answer": 1,
+   "explanation": "$Q = +100\\ \\text{J}$, khí thực hiện công nên $A = -40\\ \\text{J}$; $\\Delta U = A + Q = 60\\ \\text{J}$."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Nội năng",
+   "level": 2,
+   "stem": "Khi nhiệt độ của một vật tăng lên (vật không chuyển thể, thể tích coi như không đổi) thì",
+   "options": [
+    "các phân tử chuyển động nhiệt nhanh hơn và nội năng của vật tăng",
+    "các phân tử chuyển động chậm hơn và nội năng của vật giảm",
+    "khối lượng của các phân tử tăng lên",
+    "nội năng của vật không đổi vì số phân tử không đổi"
+   ],
+   "answer": 0,
+   "explanation": "Nhiệt độ càng cao, các phân tử chuyển động nhiệt càng nhanh, động năng phân tử tăng nên nội năng của vật tăng."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Nhiệt dung riêng",
+   "level": 3,
+   "stem": "Biết nhiệt dung riêng của nước là $4200\\ \\text{J/(kg}\\cdot\\text{K)}$. Nhiệt lượng cần cung cấp để đun nóng $2\\ \\text{kg}$ nước từ $20\\ ^\\circ\\text{C}$ đến $100\\ ^\\circ\\text{C}$ là",
+   "options": [
+    "$840\\ \\text{kJ}$",
+    "$336\\ \\text{kJ}$",
+    "$168\\ \\text{kJ}$",
+    "$672\\ \\text{kJ}$"
+   ],
+   "answer": 3,
+   "explanation": "$Q = mc\\Delta t = 2\\cdot 4200\\cdot (100 - 20) = 672\\,000\\ \\text{J} = 672\\ \\text{kJ}$."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Nhiệt hóa hơi riêng",
+   "level": 3,
+   "stem": "Biết nhiệt hóa hơi riêng của nước là $2{,}3\\cdot 10^6\\ \\text{J/kg}$. Nhiệt lượng cần cung cấp để làm $200\\ \\text{g}$ nước ở $100\\ ^\\circ\\text{C}$ hóa hơi hoàn toàn là",
+   "options": [
+    "$4{,}6\\cdot 10^8\\ \\text{J}$",
+    "$1{,}15\\cdot 10^7\\ \\text{J}$",
+    "$4{,}6\\cdot 10^5\\ \\text{J}$",
+    "$2{,}3\\cdot 10^5\\ \\text{J}$"
+   ],
+   "answer": 2,
+   "explanation": "Đổi $m = 0{,}2\\ \\text{kg}$; $Q = Lm = 2{,}3\\cdot 10^6\\cdot 0{,}2 = 4{,}6\\cdot 10^5\\ \\text{J}$."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Nhiệt dung riêng",
+   "level": 3,
+   "stem": "Thả một miếng đồng khối lượng $0{,}2\\ \\text{kg}$ đã nung nóng đến $100\\ ^\\circ\\text{C}$ vào $0{,}5\\ \\text{kg}$ nước ở $20\\ ^\\circ\\text{C}$. Biết nhiệt dung riêng của đồng và nước lần lượt là $380\\ \\text{J/(kg}\\cdot\\text{K)}$ và $4200\\ \\text{J/(kg}\\cdot\\text{K)}$; bỏ qua sự trao đổi nhiệt với bình và môi trường. Nhiệt độ khi cân bằng nhiệt xấp xỉ bằng",
+   "options": [
+    "$22{,}8\\ ^\\circ\\text{C}$",
+    "$42{,}9\\ ^\\circ\\text{C}$",
+    "$60{,}0\\ ^\\circ\\text{C}$",
+    "$77{,}2\\ ^\\circ\\text{C}$"
+   ],
+   "answer": 0,
+   "explanation": "$Q_{\\text{tỏa}} = Q_{\\text{thu}}$: $0{,}2\\cdot 380\\cdot(100 - t) = 0{,}5\\cdot 4200\\cdot(t - 20)$ $\\Rightarrow t = \\dfrac{7600 + 42\\,000}{76 + 2100} \\approx 22{,}8\\ ^\\circ\\text{C}$."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Thang nhiệt độ",
+   "level": 3,
+   "stem": "Một bản tin thời tiết ở Mỹ cho biết nhiệt độ ngoài trời là $77\\ ^\\circ\\text{F}$. Biết $t(^\\circ\\text{F}) = 1{,}8\\,t(^\\circ\\text{C}) + 32$. Nhiệt độ này ứng với",
+   "options": [
+    "$45\\ ^\\circ\\text{C}$",
+    "$25\\ ^\\circ\\text{C}$",
+    "$42{,}8\\ ^\\circ\\text{C}$",
+    "$170{,}6\\ ^\\circ\\text{C}$"
+   ],
+   "answer": 1,
+   "explanation": "$t(^\\circ\\text{C}) = \\dfrac{77 - 32}{1{,}8} = 25\\ ^\\circ\\text{C}$."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "topic": "Nhiệt dung riêng",
+   "level": 2,
+   "stem": "Một ấm nhôm khối lượng $0{,}4\\ \\text{kg}$ chứa $2$ lít nước ở $25\\ ^\\circ\\text{C}$ được đun đến khi nước bắt đầu sôi ở $100\\ ^\\circ\\text{C}$. Biết khối lượng riêng của nước là $1000\\ \\text{kg/m}^3$, nhiệt dung riêng của nhôm và nước lần lượt là $880\\ \\text{J/(kg}\\cdot\\text{K)}$ và $4200\\ \\text{J/(kg}\\cdot\\text{K)}$.",
+   "statements": [
+    {
+     "t": "Khối lượng nước trong ấm là $2\\ \\text{kg}$.",
+     "a": true
+    },
+    {
+     "t": "Nhiệt lượng nước thu vào để tăng nhiệt độ từ $25\\ ^\\circ\\text{C}$ đến $100\\ ^\\circ\\text{C}$ là $315\\ \\text{kJ}$.",
+     "a": false
+    },
+    {
+     "t": "Nhiệt lượng ấm nhôm thu vào trong quá trình trên là $26{,}4\\ \\text{kJ}$.",
+     "a": true
+    },
+    {
+     "t": "Nếu bếp truyền cho ấm nước $80\\%$ nhiệt lượng nó tỏa ra thì nhiệt lượng bếp cần tỏa ra để đun sôi ấm nước là $525\\ \\text{kJ}$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $m = DV = 1000\\cdot 2\\cdot 10^{-3} = 2\\ \\text{kg}$. b) Sai: $Q_n = 2\\cdot 4200\\cdot 75 = 630\\ \\text{kJ}$. c) Đúng: $Q_{Al} = 0{,}4\\cdot 880\\cdot 75 = 26\\,400\\ \\text{J}$. d) Sai: $Q_{\\text{bếp}} = \\dfrac{630 + 26{,}4}{0{,}8} \\approx 820{,}5\\ \\text{kJ}$ (525 kJ là kết quả khi nhân nhầm với 0,8)."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "topic": "Định luật I của nhiệt động lực học",
+   "level": 2,
+   "stem": "Khí trong một xilanh bị pít-tông nén, khí nhận công $300\\ \\text{J}$, đồng thời truyền ra môi trường xung quanh nhiệt lượng $120\\ \\text{J}$. Áp dụng định luật I của nhiệt động lực học $\\Delta U = A + Q$.",
+   "statements": [
+    {
+     "t": "Trong quá trình này $A = +300\\ \\text{J}$.",
+     "a": true
+    },
+    {
+     "t": "Trong quá trình này $Q = +120\\ \\text{J}$.",
+     "a": false
+    },
+    {
+     "t": "Nội năng của khí tăng $180\\ \\text{J}$.",
+     "a": true
+    },
+    {
+     "t": "Nếu xilanh được cách nhiệt hoàn toàn và khí vẫn nhận công $300\\ \\text{J}$ thì nội năng của khí tăng $300\\ \\text{J}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: khí nhận công nên $A > 0$. b) Sai: khí truyền nhiệt ra ngoài nên $Q = -120\\ \\text{J}$. c) Đúng: $\\Delta U = 300 - 120 = 180\\ \\text{J}$. d) Đúng: cách nhiệt thì $Q = 0$, $\\Delta U = A = 300\\ \\text{J}$."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "topic": "Nhiệt nóng chảy riêng",
+   "level": 3,
+   "stem": "Đun nóng liên tục $0{,}2\\ \\text{kg}$ nước đá ở $-10\\ ^\\circ\\text{C}$ bằng một nguồn nhiệt có công suất không đổi (bỏ qua hao phí). Quan sát thấy: nhiệt độ tăng dần đến $0\\ ^\\circ\\text{C}$, giữ nguyên một thời gian, sau đó tăng dần đến $100\\ ^\\circ\\text{C}$. Biết nhiệt dung riêng của nước đá là $2100\\ \\text{J/(kg}\\cdot\\text{K)}$, của nước là $4200\\ \\text{J/(kg}\\cdot\\text{K)}$; nhiệt nóng chảy riêng của nước đá là $3{,}34\\cdot 10^5\\ \\text{J/kg}$.",
+   "statements": [
+    {
+     "t": "Trong giai đoạn nhiệt độ giữ nguyên ở $0\\ ^\\circ\\text{C}$, nước đá đang nóng chảy.",
+     "a": true
+    },
+    {
+     "t": "Trong giai đoạn nóng chảy, nội năng của khối nước đá không đổi vì nhiệt độ không đổi.",
+     "a": false
+    },
+    {
+     "t": "Nhiệt lượng cần để nước đá tăng nhiệt độ từ $-10\\ ^\\circ\\text{C}$ đến $0\\ ^\\circ\\text{C}$ là $8400\\ \\text{J}$.",
+     "a": false
+    },
+    {
+     "t": "Thời gian nước đá nóng chảy hoàn toàn ngắn hơn thời gian nước tăng nhiệt độ từ $0\\ ^\\circ\\text{C}$ đến $100\\ ^\\circ\\text{C}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: nhiệt độ không đổi ở $0\\ ^\\circ\\text{C}$ là giai đoạn nóng chảy. b) Sai: vẫn nhận nhiệt nên nội năng tăng (thế năng phân tử tăng). c) Sai: $Q_1 = 0{,}2\\cdot 2100\\cdot 10 = 4200\\ \\text{J}$ (8400 J là do dùng nhầm nhiệt dung riêng của nước). d) Đúng: $Q_{nc} = 0{,}2\\cdot 3{,}34\\cdot 10^5 = 66\\,800\\ \\text{J} < Q_2 = 0{,}2\\cdot 4200\\cdot 100 = 84\\,000\\ \\text{J}$, công suất không đổi nên thời gian tỉ lệ với nhiệt lượng."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "topic": "Thang nhiệt độ",
+   "level": 3,
+   "stem": "Xét các thang nhiệt độ Celsius ($^\\circ\\text{C}$) và Kelvin (K), với $T(\\text{K}) = t(^\\circ\\text{C}) + 273$. Một học sinh tự xây dựng thang nhiệt độ X, lấy nhiệt độ nước đá đang tan (ở áp suất tiêu chuẩn) là $20\\ ^\\circ\\text{X}$ và nhiệt độ sôi của nước (ở áp suất tiêu chuẩn) là $220\\ ^\\circ\\text{X}$, chia đều khoảng giữa.",
+   "statements": [
+    {
+     "t": "Ở nhiệt độ không tuyệt đối ($0\\ \\text{K}$), động năng chuyển động nhiệt của các phân tử bằng không và thế năng của chúng là tối thiểu.",
+     "a": true
+    },
+    {
+     "t": "Độ chênh lệch nhiệt độ $1\\ \\text{K}$ bằng độ chênh lệch nhiệt độ $1\\ ^\\circ\\text{C}$.",
+     "a": true
+    },
+    {
+     "t": "Khi nhiệt độ của vật tăng từ $20\\ ^\\circ\\text{C}$ lên $50\\ ^\\circ\\text{C}$ thì nhiệt độ tuyệt đối của vật tăng $2{,}5$ lần.",
+     "a": false
+    },
+    {
+     "t": "Nhiệt độ $30\\ ^\\circ\\text{C}$ ứng với $80\\ ^\\circ\\text{X}$ trong thang nhiệt độ X.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng (theo định nghĩa không độ tuyệt đối trong SGK). b) Đúng: hai thang có cùng độ chia. c) Sai: $T$ tăng từ $293\\ \\text{K}$ lên $323\\ \\text{K}$, chỉ gấp khoảng $1{,}1$ lần. d) Đúng: $100\\ ^\\circ\\text{C}$ ứng với $200$ độ X nên $t_X = 20 + 2t = 20 + 60 = 80\\ ^\\circ\\text{X}$."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "topic": "Nhiệt dung riêng",
+   "level": 1,
+   "stem": "Biết nhiệt dung riêng của nước là $4200\\ \\text{J/(kg}\\cdot\\text{K)}$. Nhiệt lượng cần cung cấp để làm nóng $5\\ \\text{kg}$ nước từ $20\\ ^\\circ\\text{C}$ lên $50\\ ^\\circ\\text{C}$ là bao nhiêu kJ?",
+   "answer_text": "630",
+   "explanation": "$Q = mc\\Delta t = 5\\cdot 4200\\cdot 30 = 630\\,000\\ \\text{J} = 630\\ \\text{kJ}$."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "topic": "Nhiệt nóng chảy riêng",
+   "level": 1,
+   "stem": "Biết nhiệt nóng chảy riêng của nước đá là $3{,}34\\cdot 10^5\\ \\text{J/kg}$. Nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn $2\\ \\text{kg}$ nước đá ở $0\\ ^\\circ\\text{C}$ là bao nhiêu kJ?",
+   "answer_text": "668",
+   "explanation": "$Q = \\lambda m = 3{,}34\\cdot 10^5\\cdot 2 = 6{,}68\\cdot 10^5\\ \\text{J} = 668\\ \\text{kJ}$."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "topic": "Nhiệt dung riêng",
+   "level": 2,
+   "stem": "Đổ $0{,}3\\ \\text{kg}$ nước ở $80\\ ^\\circ\\text{C}$ vào $0{,}2\\ \\text{kg}$ nước ở $20\\ ^\\circ\\text{C}$. Bỏ qua sự trao đổi nhiệt với bình chứa và môi trường. Nhiệt độ của hỗn hợp khi cân bằng nhiệt là bao nhiêu $^\\circ\\text{C}$?",
+   "answer_text": "56",
+   "explanation": "Cùng là nước nên $0{,}3(80 - t) = 0{,}2(t - 20) \\Rightarrow t = \\dfrac{0{,}3\\cdot 80 + 0{,}2\\cdot 20}{0{,}5} = 56\\ ^\\circ\\text{C}$."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "topic": "Nhiệt dung riêng",
+   "level": 2,
+   "stem": "Một ấm đun nước bằng điện có công suất $1500\\ \\text{W}$, hiệu suất $84\\%$, dùng để đun $1{,}5\\ \\text{kg}$ nước từ $25\\ ^\\circ\\text{C}$ đến khi sôi ở $100\\ ^\\circ\\text{C}$. Biết nhiệt dung riêng của nước là $4200\\ \\text{J/(kg}\\cdot\\text{K)}$. Thời gian đun là bao nhiêu giây?",
+   "answer_text": "375",
+   "explanation": "$Q = 1{,}5\\cdot 4200\\cdot 75 = 472\\,500\\ \\text{J}$; công suất có ích $0{,}84\\cdot 1500 = 1260\\ \\text{W}$; $t = \\dfrac{472\\,500}{1260} = 375\\ \\text{s}$."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "topic": "Nhiệt nóng chảy riêng",
+   "level": 3,
+   "stem": "Thả một cục nước đá ở $0\\ ^\\circ\\text{C}$ vào cốc chứa $0{,}5\\ \\text{kg}$ nước ở $30\\ ^\\circ\\text{C}$. Nước đá tan hết và nhiệt độ cuối cùng của nước trong cốc là $10\\ ^\\circ\\text{C}$. Biết nhiệt dung riêng của nước là $4200\\ \\text{J/(kg}\\cdot\\text{K)}$, nhiệt nóng chảy riêng của nước đá là $3{,}34\\cdot 10^5\\ \\text{J/kg}$; bỏ qua trao đổi nhiệt với cốc và môi trường. Khối lượng cục nước đá là bao nhiêu kg (làm tròn đến hàng phần trăm)?",
+   "answer_text": "0,11",
+   "explanation": "Nhiệt tỏa: $0{,}5\\cdot 4200\\cdot 20 = 42\\,000\\ \\text{J}$. Nhiệt thu: $m(\\lambda + c\\cdot 10) = m(334\\,000 + 42\\,000)$. Suy ra $m = \\dfrac{42\\,000}{376\\,000} \\approx 0{,}11\\ \\text{kg}$."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "topic": "Định luật I của nhiệt động lực học",
+   "level": 3,
+   "stem": "Một viên đạn bằng chì bay với tốc độ $200\\ \\text{m/s}$ thì cắm vào một bức tường gỗ và dừng lại. Coi $50\\%$ động năng của viên đạn chuyển thành nội năng làm viên đạn nóng lên. Biết nhiệt dung riêng của chì là $130\\ \\text{J/(kg}\\cdot\\text{K)}$. Nhiệt độ của viên đạn tăng thêm bao nhiêu $^\\circ\\text{C}$ (làm tròn đến hàng đơn vị)?",
+   "answer_text": "77",
+   "explanation": "$0{,}5\\cdot\\dfrac{1}{2}mv^2 = mc\\Delta t \\Rightarrow \\Delta t = \\dfrac{0{,}25 v^2}{c} = \\dfrac{0{,}25\\cdot 40\\,000}{130} \\approx 77\\ ^\\circ\\text{C}$ (không phụ thuộc khối lượng đạn)."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ; các câu đã kiểm tra bằng Python: 10, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28."
+}

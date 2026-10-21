@@ -1,0 +1,439 @@
+{
+ "grade": 10,
+ "subject": "Hóa học",
+ "exam": "gk1",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 1 – Hóa học 10 (đề số 1)",
+ "scope": "Chương 1 Cấu tạo nguyên tử (thành phần nguyên tử, nguyên tố hóa học, đồng vị, nguyên tử khối trung bình, cấu trúc lớp vỏ và cấu hình electron); Chương 2 Bảng tuần hoàn các nguyên tố hóa học và định luật tuần hoàn",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Thành phần nguyên tử",
+   "level": 1,
+   "stem": "Trong nguyên tử, hạt mang điện tích dương nằm trong hạt nhân là",
+   "options": [
+    "electron",
+    "neutron",
+    "proton",
+    "neutron và electron"
+   ],
+   "answer": 2,
+   "explanation": "Hạt nhân gồm proton (mang điện dương) và neutron (không mang điện); electron mang điện âm ở lớp vỏ."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Nguyên tố hóa học",
+   "level": 1,
+   "stem": "Nguyên tố hóa học là tập hợp những nguyên tử có cùng",
+   "options": [
+    "số proton trong hạt nhân",
+    "số neutron trong hạt nhân",
+    "số khối",
+    "nguyên tử khối"
+   ],
+   "answer": 0,
+   "explanation": "Nguyên tố hóa học là tập hợp các nguyên tử có cùng số đơn vị điện tích hạt nhân, tức cùng số proton."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Kí hiệu nguyên tử",
+   "level": 1,
+   "stem": "Nguyên tử potassium có kí hiệu $^{39}_{19}\\mathrm{K}$. Số neutron trong hạt nhân nguyên tử này là",
+   "options": [
+    "19",
+    "39",
+    "58",
+    "20"
+   ],
+   "answer": 3,
+   "explanation": "Số neutron $N = A - Z = 39 - 19 = 20$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Đồng vị",
+   "level": 1,
+   "stem": "Các đồng vị của cùng một nguyên tố hóa học là những nguyên tử có",
+   "options": [
+    "cùng số neutron nhưng khác số proton",
+    "cùng số proton nhưng khác số neutron",
+    "cùng số khối nhưng khác số proton",
+    "cùng số electron và cùng số neutron"
+   ],
+   "answer": 1,
+   "explanation": "Đồng vị là các nguyên tử có cùng số proton (cùng nguyên tố) nhưng khác số neutron nên khác số khối."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Thành phần nguyên tử",
+   "level": 1,
+   "stem": "Khối lượng của nguyên tử tập trung chủ yếu ở",
+   "options": [
+    "lớp vỏ electron",
+    "hạt nhân",
+    "các electron lớp ngoài cùng",
+    "khoảng không gian giữa hạt nhân và lớp vỏ"
+   ],
+   "answer": 1,
+   "explanation": "Khối lượng electron rất nhỏ (khoảng 1/1836 khối lượng proton) nên khối lượng nguyên tử tập trung ở hạt nhân."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Cấu trúc lớp vỏ electron",
+   "level": 1,
+   "stem": "Số electron tối đa có thể chứa trên lớp M (n = 3) là",
+   "options": [
+    "8",
+    "9",
+    "32",
+    "18"
+   ],
+   "answer": 3,
+   "explanation": "Lớp thứ n chứa tối đa $2n^2$ electron; với n = 3: $2\\cdot 3^2 = 18$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Cấu trúc lớp vỏ electron",
+   "level": 1,
+   "stem": "Phân lớp d chứa tối đa bao nhiêu electron?",
+   "options": [
+    "10",
+    "2",
+    "6",
+    "14"
+   ],
+   "answer": 0,
+   "explanation": "Phân lớp d có 5 orbital, mỗi orbital chứa tối đa 2 electron nên chứa tối đa 10 electron."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Cấu hình electron",
+   "level": 2,
+   "stem": "Cấu hình electron của nguyên tử iron (Fe, Z = 26) ở trạng thái cơ bản là",
+   "options": [
+    "$1s^22s^22p^63s^23p^63d^8$",
+    "$1s^22s^22p^63s^23p^64s^24p^6$",
+    "$1s^22s^22p^63s^23p^63d^64s^2$",
+    "$1s^22s^22p^63s^23p^63d^74s^1$"
+   ],
+   "answer": 2,
+   "explanation": "Điền electron theo thứ tự mức năng lượng 1s 2s 2p 3s 3p 4s 3d: $4s^2$ được điền trước, 6 electron còn lại vào 3d; viết cấu hình theo thứ tự lớp: $\\ldots3d^64s^2$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Cấu hình electron",
+   "level": 2,
+   "stem": "Nguyên tử X có số hiệu nguyên tử Z = 17. Nhận định đúng về X là",
+   "options": [
+    "X là kim loại vì có 1 electron ở lớp ngoài cùng",
+    "X là khí hiếm vì có 8 electron ở lớp ngoài cùng",
+    "X là phi kim vì có 7 electron ở lớp ngoài cùng",
+    "X là kim loại vì có 3 lớp electron"
+   ],
+   "answer": 2,
+   "explanation": "Cấu hình X: $1s^22s^22p^63s^23p^5$, lớp ngoài cùng có 7 electron nên X là phi kim."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Cấu hình electron",
+   "level": 2,
+   "stem": "Ở trạng thái cơ bản, nguyên tử nitrogen (Z = 7) có bao nhiêu electron độc thân?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "5"
+   ],
+   "answer": 0,
+   "explanation": "Cấu hình $1s^22s^22p^3$; theo quy tắc Hund, 3 electron 2p phân bố vào 3 orbital p riêng rẽ nên có 3 electron độc thân."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Cấu tạo bảng tuần hoàn",
+   "level": 1,
+   "stem": "Trong bảng tuần hoàn hiện nay, các nguyên tố được sắp xếp theo chiều tăng dần của",
+   "options": [
+    "nguyên tử khối",
+    "điện tích hạt nhân nguyên tử",
+    "số neutron",
+    "số electron lớp ngoài cùng"
+   ],
+   "answer": 1,
+   "explanation": "Nguyên tắc sắp xếp: theo chiều tăng dần điện tích hạt nhân; cùng số lớp electron xếp một hàng, cùng số electron hóa trị xếp một cột."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Vị trí nguyên tố trong bảng tuần hoàn",
+   "level": 2,
+   "stem": "Nguyên tố sulfur (Z = 16) có vị trí trong bảng tuần hoàn là",
+   "options": [
+    "chu kì 3, nhóm IVA",
+    "chu kì 4, nhóm VIA",
+    "chu kì 3, nhóm IIA",
+    "chu kì 3, nhóm VIA"
+   ],
+   "answer": 3,
+   "explanation": "Cấu hình $1s^22s^22p^63s^23p^4$: 3 lớp electron nên ở chu kì 3; 6 electron lớp ngoài cùng, nguyên tố p nên thuộc nhóm VIA."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Cấu tạo bảng tuần hoàn",
+   "level": 1,
+   "stem": "Các nguyên tố nhóm IA (trừ hydrogen) được gọi là",
+   "options": [
+    "kim loại kiềm thổ",
+    "halogen",
+    "khí hiếm",
+    "kim loại kiềm"
+   ],
+   "answer": 3,
+   "explanation": "Nhóm IA (trừ H) là kim loại kiềm; nhóm IIA là kim loại kiềm thổ; nhóm VIIA là halogen; nhóm VIIIA là khí hiếm."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Xu hướng biến đổi tính chất",
+   "level": 2,
+   "stem": "Trong một chu kì, theo chiều tăng dần của điện tích hạt nhân, bán kính nguyên tử các nguyên tố nhóm A nhìn chung",
+   "options": [
+    "tăng dần",
+    "giảm dần",
+    "không thay đổi",
+    "tăng rồi giảm"
+   ],
+   "answer": 1,
+   "explanation": "Trong một chu kì số lớp electron không đổi nhưng điện tích hạt nhân tăng, lực hút hạt nhân với electron ngoài cùng tăng nên bán kính giảm."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Xu hướng biến đổi tính chất",
+   "level": 2,
+   "stem": "Dãy các nguyên tố được sắp xếp theo chiều tính kim loại giảm dần là (cho Z: Na = 11, Mg = 12, Al = 13, K = 19)",
+   "options": [
+    "Al, Mg, Na, K",
+    "Na, K, Mg, Al",
+    "K, Na, Mg, Al",
+    "Mg, Al, Na, K"
+   ],
+   "answer": 2,
+   "explanation": "Trong nhóm IA, tính kim loại tăng từ trên xuống nên K > Na; trong chu kì 3, tính kim loại giảm Na > Mg > Al."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Xu hướng biến đổi tính chất",
+   "level": 2,
+   "stem": "Trong các acid sau, acid có tính acid mạnh nhất là",
+   "options": [
+    "$\\mathrm{HClO_4}$",
+    "$\\mathrm{H_2SiO_3}$",
+    "$\\mathrm{H_3PO_4}$",
+    "$\\mathrm{H_2SO_4}$"
+   ],
+   "answer": 0,
+   "explanation": "Si, P, S, Cl cùng chu kì 3; tính phi kim tăng từ Si đến Cl nên tính acid của hydroxide cao nhất tăng: $\\mathrm{H_2SiO_3 < H_3PO_4 < H_2SO_4 < HClO_4}$."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Các loại hạt trong nguyên tử",
+   "level": 3,
+   "stem": "Nguyên tử của nguyên tố X có tổng số hạt proton, neutron và electron là 40, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 12. Biết Z của Na, Mg, Al, Si lần lượt là 11, 12, 13, 14. X là",
+   "options": [
+    "magnesium (Mg)",
+    "aluminium (Al)",
+    "silicon (Si)",
+    "sodium (Na)"
+   ],
+   "answer": 1,
+   "explanation": "Ta có $2Z + N = 40$ và $2Z - N = 12$ suy ra $Z = 13$, $N = 14$. X là aluminium."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Oxide cao nhất",
+   "level": 3,
+   "stem": "Nguyên tố R thuộc nhóm VA. Trong oxide cao nhất của R, R chiếm 43,66% về khối lượng. Cho nguyên tử khối: N = 14, O = 16, P = 31, S = 32, As = 75. R là",
+   "options": [
+    "nitrogen",
+    "arsenic",
+    "phosphorus",
+    "sulfur"
+   ],
+   "answer": 2,
+   "explanation": "Nhóm VA có oxide cao nhất $\\mathrm{R_2O_5}$: $\\dfrac{2R}{2R + 80} = 0{,}4366$ suy ra $R \\approx 31$. R là phosphorus."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "topic": "Thành phần nguyên tử",
+   "level": 2,
+   "stem": "Cho nguyên tử sodium có kí hiệu $^{23}_{11}\\mathrm{Na}$.",
+   "statements": [
+    {
+     "t": "Nguyên tử sodium có 11 proton và 11 electron.",
+     "a": true
+    },
+    {
+     "t": "Hạt nhân nguyên tử sodium chứa 23 neutron.",
+     "a": false
+    },
+    {
+     "t": "Cấu hình electron của sodium là $1s^22s^22p^63s^1$ nên sodium là kim loại.",
+     "a": true
+    },
+    {
+     "t": "Ion $\\mathrm{Na^+}$ có cấu hình electron giống khí hiếm argon.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Z = 11 nên có 11 proton, nguyên tử trung hòa có 11 electron. b) Sai: số neutron = 23 − 11 = 12. c) Đúng: có 1 electron lớp ngoài cùng nên là kim loại. d) Sai: $\\mathrm{Na^+}$ có cấu hình $1s^22s^22p^6$, giống neon (Z = 10)."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "topic": "Nguyên tử khối trung bình",
+   "level": 3,
+   "stem": "Trong tự nhiên, chlorine có hai đồng vị bền là $^{35}\\mathrm{Cl}$ (chiếm 75,77% số nguyên tử) và $^{37}\\mathrm{Cl}$ (chiếm 24,23% số nguyên tử). Chlorine có Z = 17. Cho nguyên tử khối: H = 1, O = 16; coi nguyên tử khối mỗi đồng vị bằng số khối.",
+   "statements": [
+    {
+     "t": "Hai đồng vị trên đều có 17 proton trong hạt nhân.",
+     "a": true
+    },
+    {
+     "t": "Nguyên tử khối trung bình của chlorine là 35,52.",
+     "a": false
+    },
+    {
+     "t": "Hai đồng vị $^{35}\\mathrm{Cl}$ và $^{37}\\mathrm{Cl}$ có tính chất hóa học khác nhau rõ rệt vì có số neutron khác nhau.",
+     "a": false
+    },
+    {
+     "t": "Phần trăm khối lượng của $^{37}\\mathrm{Cl}$ trong $\\mathrm{HClO_4}$ xấp xỉ 8,92%.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: cùng nguyên tố nên cùng Z = 17. b) Sai: $\\bar{A} = 35\\cdot0{,}7577 + 37\\cdot0{,}2423 \\approx 35{,}48$. c) Sai: tính chất hóa học do lớp vỏ electron quyết định, các đồng vị có tính chất hóa học gần như nhau. d) Đúng: $M_{\\mathrm{HClO_4}} \\approx 100{,}48$; $\\%^{37}\\mathrm{Cl} = \\dfrac{0{,}2423\\cdot37}{100{,}48}\\cdot100\\% \\approx 8{,}92\\%$."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "topic": "Vị trí nguyên tố trong bảng tuần hoàn",
+   "level": 2,
+   "stem": "Cho hai nguyên tố X (Z = 12) và Y (Z = 20).",
+   "statements": [
+    {
+     "t": "X thuộc chu kì 3, nhóm IIA.",
+     "a": true
+    },
+    {
+     "t": "Y thuộc chu kì 4 và cùng nhóm với X.",
+     "a": true
+    },
+    {
+     "t": "Bán kính nguyên tử X lớn hơn bán kính nguyên tử Y.",
+     "a": false
+    },
+    {
+     "t": "Hydroxide của Y có tính base mạnh hơn hydroxide của X.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: X $1s^22s^22p^63s^2$, 3 lớp, 2 electron ngoài cùng. b) Đúng: Y $[\\mathrm{Ar}]4s^2$, chu kì 4, nhóm IIA. c) Sai: trong một nhóm A, bán kính tăng từ trên xuống nên Y lớn hơn X. d) Đúng: tính kim loại Y (Ca) mạnh hơn X (Mg) nên $\\mathrm{Ca(OH)_2}$ có tính base mạnh hơn $\\mathrm{Mg(OH)_2}$."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "topic": "Định luật tuần hoàn",
+   "level": 3,
+   "stem": "Xét các nguyên tố thuộc chu kì 3: Na (Z = 11), Mg (Z = 12), Al (Z = 13), Si (Z = 14), P (Z = 15), S (Z = 16), Cl (Z = 17).",
+   "statements": [
+    {
+     "t": "Từ Na đến Cl, bán kính nguyên tử giảm dần.",
+     "a": true
+    },
+    {
+     "t": "Từ Na đến Cl, tính phi kim giảm dần.",
+     "a": false
+    },
+    {
+     "t": "$\\mathrm{Al_2O_3}$ và $\\mathrm{Al(OH)_3}$ có tính lưỡng tính.",
+     "a": true
+    },
+    {
+     "t": "Tính chất của các nguyên tố trên biến đổi tuần hoàn theo chiều tăng của nguyên tử khối.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: cùng số lớp, điện tích hạt nhân tăng nên bán kính giảm. b) Sai: tính phi kim tăng dần từ Na đến Cl. c) Đúng: oxide và hydroxide của aluminium là lưỡng tính. d) Sai: theo định luật tuần hoàn, tính chất biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "topic": "Các loại hạt trong nguyên tử",
+   "level": 1,
+   "stem": "Tính tổng số hạt proton, neutron và electron trong nguyên tử $^{56}_{26}\\mathrm{Fe}$.",
+   "answer_text": "82",
+   "explanation": "p = e = 26, n = 56 − 26 = 30. Tổng = 26 + 26 + 30 = 82."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "topic": "Cấu hình electron",
+   "level": 2,
+   "stem": "Nguyên tử sulfur có Z = 16. Ở trạng thái cơ bản, tổng số electron trên các phân lớp p của nguyên tử sulfur là bao nhiêu?",
+   "answer_text": "10",
+   "explanation": "Cấu hình $1s^22s^22p^63s^23p^4$; số electron p = 6 (2p) + 4 (3p) = 10."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "topic": "Nguyên tử khối trung bình",
+   "level": 3,
+   "stem": "Copper (Cu) có hai đồng vị bền là $^{63}\\mathrm{Cu}$ và $^{65}\\mathrm{Cu}$; nguyên tử khối trung bình của copper là 63,54. Phần trăm số nguyên tử của đồng vị $^{63}\\mathrm{Cu}$ là bao nhiêu (%)?",
+   "answer_text": "73",
+   "explanation": "Gọi x là phần trăm $^{63}\\mathrm{Cu}$: $63x + 65(100 - x) = 6354$ suy ra $x = 73$."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "topic": "Các loại hạt trong nguyên tử",
+   "level": 3,
+   "stem": "Ion $\\mathrm{X^{3+}}$ có tổng số hạt proton, neutron và electron là 37, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 9. Số khối của nguyên tử X là bao nhiêu?",
+   "answer_text": "27",
+   "explanation": "Ion $\\mathrm{X^{3+}}$ có p = Z, e = Z − 3: $2Z + N - 3 = 37$ và $2Z - 3 - N = 9$ suy ra $Z = 13$, $N = 14$; A = 27."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "topic": "Oxide cao nhất",
+   "level": 3,
+   "stem": "Nguyên tố R thuộc nhóm VIA. Trong hợp chất khí với hydrogen ($\\mathrm{RH_2}$), hydrogen chiếm 5,88% về khối lượng. Tính phần trăm khối lượng của R trong oxide cao nhất của R (%). Cho nguyên tử khối: H = 1, O = 16.",
+   "answer_text": "40",
+   "explanation": "$\\dfrac{2}{R + 2} = 0{,}0588$ suy ra $R \\approx 32$ (sulfur). Oxide cao nhất $\\mathrm{SO_3}$: $\\%S = \\dfrac{32}{80}\\cdot100\\% = 40\\%$."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "topic": "Nguyên tử khối trung bình",
+   "level": 3,
+   "stem": "Boron được dùng trong thủy tinh chịu nhiệt (borosilicate) và trong thanh điều khiển lò phản ứng hạt nhân. Boron tự nhiên gồm hai đồng vị $^{10}\\mathrm{B}$ và $^{11}\\mathrm{B}$, nguyên tử khối trung bình là 10,81. Cứ có 19 nguyên tử $^{10}\\mathrm{B}$ thì có bao nhiêu nguyên tử $^{11}\\mathrm{B}$?",
+   "answer_text": "81",
+   "explanation": "Gọi x là phần trăm $^{10}\\mathrm{B}$: $10x + 11(100 - x) = 1081$ suy ra $x = 19$. Tỉ lệ $^{10}\\mathrm{B} : {}^{11}\\mathrm{B} = 19 : 81$."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; các câu đã kiểm tra bằng Python: 3, 8, 9, 10, 12, 17, 18, 20, 23, 24, 25, 26, 27, 28 (số hạt, cấu hình electron, nguyên tử khối trung bình, phần trăm khối lượng)."
+}

@@ -38,6 +38,7 @@ export default function WritePanel() {
   const { wBusy, wErr } = useApp((s) => s.ui);
   const update = useApp((s) => s.update);
   useRemote((r) => r.passages); // vẽ lại khi tải xong bài đọc hiểu từ kho đề
+  useRemote((r) => r.localPassages);
   const st = topicStat(S, WKEY);
 
   return (
@@ -53,7 +54,7 @@ export default function WritePanel() {
       </details>
       {writeList(S).map((P) => (
         <div className="topic" key={P.id}>
-          <b>{P.title}</b>{P.ai && <> <span className="tag tag-ai">AI</span></>}{P.remote && <> <span className="tag tag-l3">Đề thật</span></>}
+          <b>{P.title}</b>{P.ai && <> <span className="tag tag-ai">AI</span></>}{P.remote && <> <span className="tag tag-l3">Đề thật</span></>}{P.hk && <> <span className="tag tag-l1">Đề ôn HK</span></>}
           <p className="small muted mb-2 mt-0.5">{P.passage.slice(0, 90)}…</p>
           <div className="flex flex-wrap gap-2.5">
             {P.qs.map((q, i) => (

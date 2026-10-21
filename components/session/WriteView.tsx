@@ -55,8 +55,9 @@ export default function WriteView() {
           <div className="qtext !mt-2">Câu {s.qi + 1}. {Qn.q}</div>
           <details className="panel"><summary className="cursor-pointer font-bold">{ty[0]}: cách trình bày</summary><p className="small !mb-0 mt-2">{ty[1]}</p></details>
           <label className="flabel" htmlFor="wans">Câu trả lời của bạn</label>
-          <textarea className="field min-h-40 resize-y leading-relaxed" id="wans" rows={7} placeholder="Viết thành câu hoàn chỉnh như khi làm bài thi" readOnly={!!r}
+          <textarea className={`field resize-y leading-relaxed ${Qn.type === "viet" ? "min-h-80" : "min-h-40"}`} id="wans" rows={Qn.type === "viet" ? 16 : 7} placeholder={Qn.type === "viet" ? "Viết đoạn văn / bài văn hoàn chỉnh (không gạch đầu dòng)" : "Viết thành câu hoàn chỉnh như khi làm bài thi"} readOnly={!!r}
             value={s.answer} onChange={(e) => { const v = e.target.value; setW((x) => { x.answer = v; }); }} />
+          <p className="small muted !mb-0 mt-1 text-right tabular-nums">{s.answer.trim() ? s.answer.trim().split(/\s+/).length : 0} chữ{Qn.type === "viet" ? (/200/.test(Qn.q) ? " / khoảng 200" : / 600|600 chữ/.test(Qn.q) ? " / khoảng 600" : "") : ""}</p>
           {!r ? (
             <>
               <div className="mt-3 flex flex-wrap gap-2.5">

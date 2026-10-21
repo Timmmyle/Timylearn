@@ -16,7 +16,7 @@ export type Exam = {
 };
 export type Bot = { n: string; acc: number; min: number; max: number; r: number };
 export type WriteQ = { q: string; type: string; points: string[]; model: string };
-export type WritePassage = { id: string; title: string; src: string; passage: string; qs: WriteQ[]; ai?: boolean; remote?: boolean };
+export type WritePassage = { id: string; title: string; src: string; passage: string; qs: WriteQ[]; ai?: boolean; remote?: boolean; /** đề ôn giữa/cuối kì */ hk?: boolean };
 
 export type Profile = {
   grade: string; exams: string[]; examOther: string; subjects: string[]; subjectOther: string;
@@ -30,7 +30,7 @@ export type AppState = {
   v: number;
   onboarded: boolean;
   profile: Profile;
-  theme: { mode: "auto" | "light" | "dark"; accent: string };
+  theme: { mode: "auto" | "light" | "dark"; accent: string; /** phong cách chữ, chưa chọn thì hỏi khi vào app */ font?: "pro" | "comic" };
   xp: number;
   streak: { count: number; last: string | null; freezes: number; best: number };
   stats: Record<string, Record<string, CT>>;

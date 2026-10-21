@@ -6,6 +6,10 @@ import "@fontsource/be-vietnam-pro/600.css";
 import "@fontsource/be-vietnam-pro/700.css";
 import "@fontsource/be-vietnam-pro/800.css";
 import "@fontsource/patrick-hand/400.css";
+import "@fontsource/google-sans/400.css";
+import "@fontsource/google-sans/500.css";
+import "@fontsource/google-sans/600.css";
+import "@fontsource/google-sans/700.css";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 import AppShell from "@/components/AppShell";
@@ -32,7 +36,7 @@ export const viewport: Viewport = {
 };
 
 // Áp giao diện đã lưu trước khi React chạy để tránh nháy màu
-const preTheme = `try{var s=JSON.parse(localStorage.getItem("onthi-state-v1")||"{}");var t=s.theme||{};var r=document.documentElement;if(t.mode&&t.mode!=="auto")r.dataset.theme=t.mode;if(t.accent)r.dataset.accent=t.accent;}catch(e){}`;
+const preTheme = `try{var s=JSON.parse(localStorage.getItem("onthi-state-v1")||"{}");var t=s.theme||{};var r=document.documentElement;if(t.mode&&t.mode!=="auto")r.dataset.theme=t.mode;if(t.accent)r.dataset.accent=t.accent;if(t.font)r.dataset.font=t.font;}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

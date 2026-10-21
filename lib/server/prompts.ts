@@ -27,7 +27,7 @@ Giải thích ngắn gọn (dưới 150 từ), bằng tiếng Việt, không dù
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function gradePrompt(p: any) {
   const points = Array.isArray(p.points) ? p.points.slice(0, 10).map((x: unknown, i: number) => i + 1 + ") " + s(x, 300)).join("; ") : "";
-  return `Bạn là giáo viên Ngữ văn THPT ở Việt Nam, chấm câu trả lời đọc hiểu của học sinh ${s(p.gradeLabel, 40)}.
+  return `Bạn là giáo viên Ngữ văn THPT ở Việt Nam, chấm bài làm (câu đọc hiểu, đoạn văn hoặc bài văn nghị luận) của học sinh ${s(p.gradeLabel, 40)}.
 Văn bản:
 ${s(p.passage, 3000)}
 
@@ -36,7 +36,7 @@ Các ý cần có: ${points}
 Đáp án gợi ý: ${s(p.model, 2000)}
 
 Câu trả lời của học sinh:
-${s(p.answer, 4000)}
+${s(p.answer, 7000)}
 
 Chấm theo thang 10, xét cả nội dung (đủ ý, đúng) và cách trình bày (viết thành câu hoàn chỉnh, dùng đúng thuật ngữ, đúng độ dài yêu cầu, không chép lại văn bản). Chấp nhận cách diễn đạt khác nếu đúng ý. Nhận xét ngắn gọn, thân thiện, bằng tiếng Việt.
 Trả lời CHỈ bằng JSON: {"score": số từ 0 đến 10 (bước 0.5), "dat": ["điểm làm tốt"], "thieu": ["ý còn thiếu hoặc lỗi trình bày"], "sua": "gợi ý viết lại câu trả lời hoàn chỉnh, dựa trên bài của học sinh"}`;

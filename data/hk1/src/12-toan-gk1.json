@@ -1,0 +1,349 @@
+{
+ "grade": 12,
+ "subject": "Toán",
+ "exam": "gk1",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 1 – Toán 12 (đề số 1)",
+ "scope": "Chương I Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số (đơn điệu, cực trị, GTLN–GTNN, tiệm cận, khảo sát, bài toán tối ưu thực tế); đầu Chương II Vectơ trong không gian",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Tính đơn điệu của hàm số",
+   "level": 1,
+   "stem": "Hàm số $y = x^3 - 3x^2 + 2$ nghịch biến trên khoảng nào dưới đây?",
+   "options": [
+    "$(-\\infty;0)$",
+    "$(0;2)$",
+    "$(2;+\\infty)$",
+    "$(-2;0)$"
+   ],
+   "answer": 1,
+   "explanation": "$y' = 3x^2 - 6x = 3x(x-2) < 0 \\Leftrightarrow 0 < x < 2$. Vậy hàm số nghịch biến trên $(0;2)$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Cực trị của hàm số",
+   "level": 1,
+   "stem": "Hàm số $y = x^4 - 2x^2 + 3$ có bao nhiêu điểm cực trị?",
+   "options": [
+    "1",
+    "2",
+    "0",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "$y' = 4x^3 - 4x = 4x(x-1)(x+1)$ có 3 nghiệm đơn $x = 0, x = \\pm 1$, $y'$ đổi dấu qua mỗi nghiệm nên hàm số có 3 điểm cực trị."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Cực trị của hàm số",
+   "level": 1,
+   "stem": "Giá trị cực đại của hàm số $y = -x^3 + 3x + 1$ là",
+   "options": [
+    "$3$",
+    "$1$",
+    "$-1$",
+    "$-3$"
+   ],
+   "answer": 0,
+   "explanation": "$y' = -3x^2 + 3 = 0 \\Leftrightarrow x = \\pm 1$. $y'$ đổi dấu từ dương sang âm khi qua $x = 1$ nên hàm số đạt cực đại tại $x = 1$, $y_{CĐ} = y(1) = 3$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Đường tiệm cận",
+   "level": 1,
+   "stem": "Tiệm cận đứng của đồ thị hàm số $y = \\dfrac{2x-1}{x+3}$ là đường thẳng",
+   "options": [
+    "$x = 3$",
+    "$y = 2$",
+    "$x = -3$",
+    "$x = \\dfrac{1}{2}$"
+   ],
+   "answer": 2,
+   "explanation": "$\\lim\\limits_{x \\to -3^+} y = -\\infty$ (tử số dần tới $-7$, mẫu dần tới $0^+$) nên $x = -3$ là tiệm cận đứng. ($y = 2$ là tiệm cận ngang.)"
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Đường tiệm cận",
+   "level": 1,
+   "stem": "Tiệm cận ngang của đồ thị hàm số $y = \\dfrac{3x+1}{1-x}$ là đường thẳng",
+   "options": [
+    "$y = -3$",
+    "$y = 3$",
+    "$x = 1$",
+    "$y = 1$"
+   ],
+   "answer": 0,
+   "explanation": "$\\lim\\limits_{x \\to \\pm\\infty} \\dfrac{3x+1}{1-x} = \\dfrac{3}{-1} = -3$ nên tiệm cận ngang là $y = -3$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Giá trị lớn nhất, nhỏ nhất",
+   "level": 2,
+   "stem": "Giá trị lớn nhất của hàm số $f(x) = x^3 - 3x$ trên đoạn $[0;2]$ bằng",
+   "options": [
+    "$0$",
+    "$-2$",
+    "$2$",
+    "$18$"
+   ],
+   "answer": 2,
+   "explanation": "$f'(x) = 3x^2 - 3 = 0 \\Leftrightarrow x = 1$ (nhận), $x = -1$ (loại). $f(0) = 0$, $f(1) = -2$, $f(2) = 2$. Vậy $\\max\\limits_{[0;2]} f(x) = 2$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Đường tiệm cận",
+   "level": 2,
+   "stem": "Tiệm cận xiên của đồ thị hàm số $y = \\dfrac{x^2 + x + 1}{x - 1}$ là đường thẳng",
+   "options": [
+    "$y = x + 1$",
+    "$y = x$",
+    "$y = x - 2$",
+    "$y = x + 2$"
+   ],
+   "answer": 3,
+   "explanation": "Chia đa thức: $y = x + 2 + \\dfrac{3}{x-1}$. Vì $\\lim\\limits_{x\\to\\pm\\infty}\\dfrac{3}{x-1} = 0$ nên tiệm cận xiên là $y = x + 2$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Đường tiệm cận",
+   "level": 2,
+   "stem": "Đồ thị của hàm số nào dưới đây có tiệm cận đứng là đường thẳng $x = 1$ và tiệm cận ngang là đường thẳng $y = 2$?",
+   "options": [
+    "$y = \\dfrac{x+2}{x-1}$",
+    "$y = \\dfrac{2x+1}{x-1}$",
+    "$y = \\dfrac{2x+1}{x+1}$",
+    "$y = \\dfrac{x-1}{2x+1}$"
+   ],
+   "answer": 1,
+   "explanation": "Hàm $y = \\dfrac{ax+b}{cx+d}$ có tiệm cận đứng $x = -\\dfrac{d}{c}$ và tiệm cận ngang $y = \\dfrac{a}{c}$. Với $y = \\dfrac{2x+1}{x-1}$: tiệm cận đứng $x = 1$, tiệm cận ngang $y = 2$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Tính đơn điệu của hàm số",
+   "level": 2,
+   "stem": "Tìm tất cả các giá trị của tham số $m$ để hàm số $y = x^3 - 3x^2 + mx$ đồng biến trên $\\mathbb{R}$.",
+   "options": [
+    "$m \\ge 3$",
+    "$m > 3$",
+    "$m \\le 3$",
+    "$m \\ge -3$"
+   ],
+   "answer": 0,
+   "explanation": "$y' = 3x^2 - 6x + m \\ge 0$ với mọi $x \\in \\mathbb{R}$ $\\Leftrightarrow \\Delta' = 9 - 3m \\le 0 \\Leftrightarrow m \\ge 3$ (khi $m = 3$, $y' = 3(x-1)^2 \\ge 0$, chỉ bằng 0 tại một điểm nên hàm số vẫn đồng biến)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Vectơ trong không gian",
+   "level": 1,
+   "stem": "Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào dưới đây đúng?",
+   "options": [
+    "$\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'} = \\overrightarrow{AC}$",
+    "$\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'} = \\overrightarrow{A'C}$",
+    "$\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'} = \\overrightarrow{BD'}$",
+    "$\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'} = \\overrightarrow{AC'}$"
+   ],
+   "answer": 3,
+   "explanation": "Theo quy tắc hình hộp: $\\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{AA'} = \\overrightarrow{AC'}$ (đường chéo xuất phát từ $A$)."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Vectơ trong không gian",
+   "level": 2,
+   "stem": "Cho tứ diện $ABCD$, gọi $G$ là trọng tâm tam giác $BCD$. Biết $\\overrightarrow{AB} + \\overrightarrow{AC} + \\overrightarrow{AD} = k\\,\\overrightarrow{AG}$. Giá trị của $k$ là",
+   "options": [
+    "$1$",
+    "$3$",
+    "$\\dfrac{1}{3}$",
+    "$2$"
+   ],
+   "answer": 1,
+   "explanation": "$\\overrightarrow{AB} + \\overrightarrow{AC} + \\overrightarrow{AD} = 3\\overrightarrow{AG} + (\\overrightarrow{GB} + \\overrightarrow{GC} + \\overrightarrow{GD}) = 3\\overrightarrow{AG}$ vì $G$ là trọng tâm tam giác $BCD$. Vậy $k = 3$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Bài toán tối ưu thực tế",
+   "level": 3,
+   "stem": "Từ một tấm bìa hình vuông cạnh $12$ cm, người ta cắt bỏ ở bốn góc bốn hình vuông bằng nhau cạnh $x$ cm rồi gấp lại thành một chiếc hộp hình hộp chữ nhật không nắp. Để thể tích chiếc hộp lớn nhất thì $x$ bằng",
+   "options": [
+    "$3$ cm",
+    "$1$ cm",
+    "$2$ cm",
+    "$4$ cm"
+   ],
+   "answer": 2,
+   "explanation": "$V(x) = x(12 - 2x)^2$ với $0 < x < 6$. $V'(x) = (12 - 2x)(12 - 6x) = 0 \\Leftrightarrow x = 2$ (trên $(0;6)$). $V'$ đổi dấu từ dương sang âm qua $x = 2$ nên $V$ lớn nhất bằng $128\\ \\text{cm}^3$ khi $x = 2$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "topic": "Khảo sát hàm số bậc ba",
+   "level": 2,
+   "stem": "Cho hàm số $f(x) = x^3 - 6x^2 + 9x + 1$.",
+   "statements": [
+    {
+     "t": "Đạo hàm của hàm số là $f'(x) = 3x^2 - 12x + 9$.",
+     "a": true
+    },
+    {
+     "t": "Hàm số đồng biến trên khoảng $(1;3)$.",
+     "a": false
+    },
+    {
+     "t": "Giá trị cực tiểu của hàm số bằng $1$.",
+     "a": true
+    },
+    {
+     "t": "Đường thẳng $y = m$ cắt đồ thị hàm số tại ba điểm phân biệt khi và chỉ khi $1 \\le m \\le 5$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $f'(x) = 3(x-1)(x-3) < 0$ trên $(1;3)$ nên hàm số nghịch biến trên $(1;3)$. c) Đúng: cực tiểu tại $x = 3$, $f(3) = 1$. d) Sai: $y_{CĐ} = f(1) = 5$, $y_{CT} = 1$; đường thẳng $y = m$ cắt đồ thị tại 3 điểm phân biệt khi $1 < m < 5$ (khi $m = 1$ hoặc $m = 5$ chỉ có 2 giao điểm)."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "topic": "Khảo sát hàm phân thức",
+   "level": 1,
+   "stem": "Cho hàm số $y = \\dfrac{x+1}{x-1}$.",
+   "statements": [
+    {
+     "t": "Tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{1\\}$.",
+     "a": true
+    },
+    {
+     "t": "Đồ thị hàm số có tiệm cận ngang là đường thẳng $y = 1$.",
+     "a": true
+    },
+    {
+     "t": "Hàm số đồng biến trên từng khoảng xác định.",
+     "a": false
+    },
+    {
+     "t": "Giá trị nhỏ nhất của hàm số trên đoạn $[2;5]$ bằng $\\dfrac{3}{2}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: mẫu khác 0 khi $x \\ne 1$. b) Đúng: $\\lim\\limits_{x\\to\\pm\\infty} y = 1$. c) Sai: $y' = \\dfrac{-2}{(x-1)^2} < 0$ nên hàm số nghịch biến trên từng khoảng xác định. d) Đúng: hàm số nghịch biến trên $[2;5]$ nên giá trị nhỏ nhất là $y(5) = \\dfrac{6}{4} = \\dfrac{3}{2}$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "topic": "Vectơ trong không gian",
+   "level": 2,
+   "stem": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $2$.",
+   "statements": [
+    {
+     "t": "$\\overrightarrow{AB}$ và $\\overrightarrow{C'D'}$ là hai vectơ đối nhau.",
+     "a": true
+    },
+    {
+     "t": "$|\\overrightarrow{AC'}| = 2\\sqrt{2}$.",
+     "a": false
+    },
+    {
+     "t": "$\\overrightarrow{AB} \\cdot \\overrightarrow{CC'} = 0$.",
+     "a": true
+    },
+    {
+     "t": "Góc giữa hai vectơ $\\overrightarrow{AB'}$ và $\\overrightarrow{AD'}$ bằng $60^\\circ$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $\\overrightarrow{C'D'} = \\overrightarrow{CD} = -\\overrightarrow{AB}$. b) Sai: $AC'$ là đường chéo hình lập phương, $AC' = 2\\sqrt{3}$. c) Đúng: $CC' \\perp AB$. d) Đúng: tam giác $AB'D'$ có ba cạnh đều là đường chéo mặt bằng $2\\sqrt{2}$ nên là tam giác đều, góc bằng $60^\\circ$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "topic": "Bài toán tối ưu thực tế",
+   "level": 3,
+   "stem": "Nồng độ một loại thuốc trong máu của bệnh nhân sau $t$ giờ kể từ khi tiêm được cho bởi $C(t) = \\dfrac{30t}{t^2 + 9}$ (mg/L), $t \\ge 0$.",
+   "statements": [
+    {
+     "t": "Sau $1$ giờ, nồng độ thuốc trong máu là $3$ mg/L.",
+     "a": true
+    },
+    {
+     "t": "Trong $3$ giờ đầu, nồng độ thuốc trong máu tăng dần.",
+     "a": true
+    },
+    {
+     "t": "Nồng độ thuốc trong máu cao nhất là $10$ mg/L.",
+     "a": false
+    },
+    {
+     "t": "Khoảng thời gian mà nồng độ thuốc trong máu không nhỏ hơn $3$ mg/L kéo dài $8$ giờ.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $C(1) = \\dfrac{30}{10} = 3$. b) Đúng: $C'(t) = \\dfrac{30(9 - t^2)}{(t^2+9)^2} > 0$ với $0 < t < 3$. c) Sai: $C$ đạt lớn nhất tại $t = 3$, $C(3) = \\dfrac{90}{18} = 5$ mg/L. d) Đúng: $C(t) \\ge 3 \\Leftrightarrow t^2 - 10t + 9 \\le 0 \\Leftrightarrow 1 \\le t \\le 9$, kéo dài $8$ giờ."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "topic": "Giá trị lớn nhất, nhỏ nhất",
+   "level": 2,
+   "stem": "Tìm giá trị nhỏ nhất của hàm số $y = x + \\dfrac{4}{x}$ trên khoảng $(0;+\\infty)$.",
+   "answer_text": "4",
+   "explanation": "$y' = 1 - \\dfrac{4}{x^2} = 0 \\Leftrightarrow x = 2$ (vì $x > 0$). $y'$ đổi dấu từ âm sang dương qua $x = 2$ nên giá trị nhỏ nhất là $y(2) = 4$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "topic": "Đường tiệm cận",
+   "level": 3,
+   "stem": "Đồ thị hàm số $y = \\dfrac{x+2}{x^2 - 4}$ có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?",
+   "answer_text": "2",
+   "explanation": "Với $x \\ne \\pm 2$: $y = \\dfrac{1}{x-2}$. $\\lim\\limits_{x\\to -2} y = -\\dfrac{1}{4}$ hữu hạn nên $x = -2$ không là tiệm cận đứng; $x = 2$ là tiệm cận đứng; $y = 0$ là tiệm cận ngang. Tổng cộng 2 đường."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "topic": "Cực trị của hàm số",
+   "level": 3,
+   "stem": "Tìm giá trị của tham số $m$ để hàm số $y = \\dfrac{1}{3}x^3 - mx^2 + (m^2 - 4)x + 3$ đạt cực đại tại $x = 3$.",
+   "answer_text": "5",
+   "explanation": "$y' = x^2 - 2mx + m^2 - 4$, $y'(3) = 0 \\Leftrightarrow m^2 - 6m + 5 = 0 \\Leftrightarrow m = 1$ hoặc $m = 5$. $y'' = 2x - 2m$; cần $y''(3) = 6 - 2m < 0 \\Leftrightarrow m > 3$. Vậy $m = 5$."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "topic": "Bài toán tối ưu thực tế",
+   "level": 3,
+   "stem": "Một bác nông dân có $120$ m lưới thép để rào một mảnh vườn hình chữ nhật, trong đó một cạnh của mảnh vườn dựa vào bức tường có sẵn nên không cần rào. Diện tích lớn nhất của mảnh vườn có thể rào được là bao nhiêu mét vuông?",
+   "answer_text": "1800",
+   "explanation": "Gọi cạnh vuông góc với tường là $x$ (m), cạnh song song với tường là $120 - 2x$. $S(x) = x(120 - 2x)$, $S'(x) = 120 - 4x = 0 \\Leftrightarrow x = 30$. $S_{\\max} = 30 \\cdot 60 = 1800\\ \\text{m}^2$."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "topic": "Tích vô hướng của hai vectơ",
+   "level": 2,
+   "stem": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $3$. Tính tích vô hướng $\\overrightarrow{AC} \\cdot \\overrightarrow{A'D}$.",
+   "answer_text": "9",
+   "explanation": "Ta có $\\overrightarrow{A'D} = \\overrightarrow{B'C}$, tam giác $ACB'$ đều cạnh $3\\sqrt{2}$ nên góc giữa $\\overrightarrow{CA}$ và $\\overrightarrow{CB'}$ bằng $60^\\circ$, suy ra góc giữa $\\overrightarrow{AC}$ và $\\overrightarrow{B'C}$ bằng $60^\\circ$. Vậy $\\overrightarrow{AC} \\cdot \\overrightarrow{A'D} = 3\\sqrt{2} \\cdot 3\\sqrt{2} \\cdot \\cos 60^\\circ = 9$."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "topic": "Bài toán tối ưu thực tế",
+   "level": 3,
+   "stem": "Một công ty cần sản xuất lon sữa hình trụ có nắp, thể tích $1000\\ \\text{cm}^3$. Để tốn ít vật liệu nhất (diện tích toàn phần nhỏ nhất) thì bán kính đáy của lon bằng bao nhiêu xentimét (làm tròn đến hàng phần mười)?",
+   "answer_text": "5,4",
+   "explanation": "$h = \\dfrac{1000}{\\pi r^2}$, $S(r) = 2\\pi r^2 + \\dfrac{2000}{r}$. $S'(r) = 4\\pi r - \\dfrac{2000}{r^2} = 0 \\Leftrightarrow r = \\sqrt[3]{\\dfrac{500}{\\pi}} \\approx 5{,}42$; $S'$ đổi dấu từ âm sang dương nên $S$ nhỏ nhất tại đó. Vậy $r \\approx 5{,}4$ cm."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 22 câu; các câu đã kiểm tra bằng Python (sympy/numpy): 1, 2, 3, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22."
+}

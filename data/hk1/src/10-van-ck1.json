@@ -1,0 +1,97 @@
+{
+ "grade": 10,
+ "subject": "Ngữ văn",
+ "exam": "ck1",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 1 – Ngữ văn 10",
+ "genre": "Thơ Đường luật",
+ "work": {
+  "author": "Nguyễn Bỉnh Khiêm",
+  "title": "Nhàn",
+  "source": "Bạch Vân quốc ngữ thi tập",
+  "public_domain_reason": "Tác giả mất năm 1585"
+ },
+ "passage": "Một mai, một cuốc, một cần câu,\nThơ thẩn dầu ai vui thú nào.\nTa dại, ta tìm nơi vắng vẻ,\nNgười khôn, người đến chốn lao xao.\nThu ăn măng trúc, đông ăn giá,\nXuân tắm hồ sen, hạ tắm ao.\nRượu, đến cội cây, ta sẽ uống,\nNhìn xem phú quý tựa chiêm bao.",
+ "src": "(Nguyễn Bỉnh Khiêm, Nhàn, Bạch Vân quốc ngữ thi tập)\nChú thích: mai: dụng cụ đào đất có lưỡi sắt to, cán dài; thơ thẩn: thong thả, ung dung; dầu: mặc dù, mặc cho; chốn lao xao: nơi bon chen danh lợi; cội cây: gốc cây; chiêm bao: giấc mơ.",
+ "questions": [
+  {
+   "q": "Câu 1 (0,5 điểm). Xác định thể thơ và nhân vật trữ tình của văn bản.",
+   "type": "nhanbiet",
+   "points": [
+    "Thể thơ: thất ngôn bát cú Đường luật (thơ Nôm)",
+    "Nhân vật trữ tình: “ta” – chính tác giả, một ẩn sĩ sống nhàn nơi thôn dã"
+   ],
+   "model": "Bài thơ viết theo thể thất ngôn bát cú Đường luật bằng chữ Nôm. Nhân vật trữ tình là “ta” – chính nhà thơ Nguyễn Bỉnh Khiêm, một người đã lui về ở ẩn, sống nhàn tản nơi thôn quê."
+  },
+  {
+   "q": "Câu 2 (0,5 điểm). Liệt kê những thức ăn và sinh hoạt theo bốn mùa được nhắc đến trong hai câu thơ 5–6.",
+   "type": "nhanbiet",
+   "points": [
+    "Thức ăn: măng trúc (mùa thu), giá (mùa đông)",
+    "Sinh hoạt: tắm hồ sen (mùa xuân), tắm ao (mùa hạ)"
+   ],
+   "model": "Hai câu thơ nhắc đến: mùa thu ăn măng trúc, mùa đông ăn giá; mùa xuân tắm hồ sen, mùa hạ tắm ao. Đó đều là những thức ăn, sinh hoạt dân dã, sẵn có nơi làng quê."
+  },
+  {
+   "q": "Câu 3 (1,0 điểm). Nêu tác dụng của biện pháp liệt kê và điệp từ “một” trong câu thơ “Một mai, một cuốc, một cần câu”.",
+   "type": "tutu",
+   "points": [
+    "Liệt kê các dụng cụ lao động quen thuộc của nhà nông: mai, cuốc, cần câu",
+    "Điệp “một” gợi sự sẵn sàng, đầy đủ, chủ động; nhịp 2/2/3 chậm rãi",
+    "Gợi cuộc sống thuần hậu, tự cung tự cấp như một lão nông",
+    "Thể hiện tâm thế ung dung, thanh thản của tác giả"
+   ],
+   "model": "Câu thơ liệt kê ba dụng cụ lao động quen thuộc của người nông dân: mai, cuốc, cần câu. Điệp từ “một” cùng nhịp thơ 2/2/3 chậm rãi gợi sự sẵn sàng, đầy đủ, ngăn nắp. Qua đó, hiện lên hình ảnh một “lão nông” chất phác, tự tại, chủ động trong cuộc sống lao động giản dị, với tâm thế ung dung, thư thái."
+  },
+  {
+   "q": "Câu 4 (1,0 điểm). Anh/chị hiểu như thế nào về quan niệm “dại” – “khôn” của tác giả trong hai câu thơ 3–4?",
+   "type": "noidung",
+   "points": [
+    "Nghệ thuật đối: ta – người, dại – khôn, nơi vắng vẻ – chốn lao xao",
+    "“Nơi vắng vẻ”: chốn thôn quê yên tĩnh, thuận theo tự nhiên; “chốn lao xao”: chốn quan trường bon chen danh lợi",
+    "Cách nói ngược, hóm hỉnh: dại mà thực ra là khôn, khôn mà thực ra là dại",
+    "Thể hiện bản lĩnh, nhân cách thanh cao, coi thường danh lợi"
+   ],
+   "model": "Hai câu thơ sử dụng phép đối giữa “ta” và “người”, “dại” và “khôn”, “nơi vắng vẻ” và “chốn lao xao”. Tác giả tự nhận mình “dại” vì tìm về nơi thôn dã tĩnh lặng, còn “người khôn” thì đến chốn quan trường bon chen. Đây là cách nói ngược đầy hóm hỉnh, thâm thúy: cái “dại” của ta lại là cái khôn giữ được nhân cách, còn cái “khôn” kia mới là dại. Qua đó, ta thấy được trí tuệ uyên thâm và nhân cách thanh cao của Nguyễn Bỉnh Khiêm."
+  },
+  {
+   "q": "Câu 5 (1,0 điểm). Quan niệm “Nhìn xem phú quý tựa chiêm bao” của Nguyễn Bỉnh Khiêm gợi cho anh/chị suy nghĩ gì về cách nhìn nhận tiền bạc, danh vọng của người trẻ hôm nay? (Trình bày trong đoạn văn khoảng 5–7 dòng.)",
+   "type": "quandiem",
+   "points": [
+    "Nêu rõ quan điểm cá nhân",
+    "Phú quý, danh lợi là phù du, không nên đánh đổi nhân cách để có được",
+    "Không cực đoan: người trẻ vẫn cần nỗ lực làm giàu chính đáng",
+    "Bài học: sống giản dị, coi trọng giá trị tinh thần"
+   ],
+   "model": "Câu thơ nhắc em rằng phú quý, danh vọng chỉ như giấc chiêm bao, có đó rồi mất đó. Người trẻ hôm nay dễ bị cuốn vào việc chạy theo tiền bạc, “sống ảo” để được nổi tiếng. Theo em, mỗi người vẫn cần nỗ lực học tập, làm giàu bằng con đường chính đáng, nhưng không nên coi đó là mục đích duy nhất hay đánh đổi nhân cách vì nó. Điều bền vững hơn cả là một tâm hồn thanh thản và những giá trị tốt đẹp ta để lại."
+  }
+ ],
+ "essays": [
+  {
+   "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích vẻ đẹp cuộc sống và nhân cách của Nguyễn Bỉnh Khiêm qua hai câu thơ: “Thu ăn măng trúc, đông ăn giá, / Xuân tắm hồ sen, hạ tắm ao.”",
+   "type": "viet",
+   "points": [
+    "Đúng hình thức đoạn văn khoảng 200 chữ, có câu chủ đề",
+    "Cuộc sống: thức ăn đạm bạc, sinh hoạt dân dã, sẵn có theo mùa",
+    "Vẻ đẹp: hòa hợp với tự nhiên, thanh cao, không cầu kì",
+    "Nghệ thuật: phép đối, liệt kê bốn mùa, nhịp thơ đều đặn",
+    "Đánh giá: quan niệm sống nhàn là thuận theo tự nhiên, giữ cốt cách thanh cao"
+   ],
+   "model": "Câu chủ đề: Hai câu thực vẽ nên bức tranh cuộc sống đạm bạc mà thanh cao của bậc ẩn sĩ.\n- Bốn mùa xuân, hạ, thu, đông đều có thú vui riêng: món ăn quê mùa (măng trúc, giá), sinh hoạt giản dị (tắm hồ sen, tắm ao).\n- Đạm bạc nhưng không khổ cực: tự cung tự cấp, thuận theo mùa, hòa hợp với thiên nhiên.\n- Nghệ thuật đối chỉnh, liệt kê, nhịp 4/3 thong thả.\n- Đánh giá: nhân cách thanh cao, không màng vật chất; “nhàn” là lối sống thuận tự nhiên, giữ trọn nhân cách."
+  },
+  {
+   "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) trình bày quan điểm của anh/chị về lối sống tối giản (sống đơn giản, bớt phụ thuộc vào vật chất) của một bộ phận giới trẻ hiện nay.",
+   "type": "viet",
+   "points": [
+    "Đúng kiểu bài nghị luận về một vấn đề xã hội, đủ mở bài – thân bài – kết bài, khoảng 600 chữ",
+    "Giải thích lối sống tối giản",
+    "Biểu hiện và ý nghĩa: tiết kiệm, bảo vệ môi trường, tập trung vào điều quan trọng, tinh thần thoải mái",
+    "Phản đề: phân biệt tối giản với keo kiệt, sống thiếu mục tiêu hay trào lưu hình thức",
+    "Bài học nhận thức và hành động cụ thể của bản thân",
+    "Dẫn chứng phù hợp, lập luận chặt chẽ, diễn đạt chuẩn xác"
+   ],
+   "model": "MB: Dẫn từ quan niệm sống “nhàn” của Nguyễn Bỉnh Khiêm, nêu vấn đề lối sống tối giản.\nTB1: Giải thích: sống tối giản là chỉ giữ những gì thực sự cần, chú trọng giá trị tinh thần.\nTB2: Biểu hiện trong giới trẻ: mua sắm có cân nhắc, bớt đồ dùng thừa, hạn chế mạng xã hội.\nTB3: Ý nghĩa: tiết kiệm, bảo vệ môi trường, giảm áp lực, dành thời gian cho học tập, gia đình.\nTB4: Phản đề: tối giản không phải keo kiệt, buông xuôi hay chạy theo trào lưu.\nKB: Khẳng định giá trị; nêu hành động của bản thân."
+  }
+ ],
+ "confidence_note": "Rất chắc chắn về toàn bộ 8 câu thơ (bài thơ phổ biến, từng in trong SGK Ngữ văn 10 cũ). Một số bản ghi câu 2 là “Thơ thẩn dù ai vui thú nào”; đề dùng chữ “dầu” theo bản SGK."
+}

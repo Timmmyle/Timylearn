@@ -2,11 +2,12 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useApp } from "@/lib/store";
-import { agg, diffDays, dueMistakes, levelInfo, MISSIONS, nextStep, pct, roadmap, routeTitle, streakAlive, today, topicStat } from "@/lib/logic";
+import { agg, diffDays, dueMistakes, examSeason, gradeNum, levelInfo, MISSIONS, nextStep, pct, roadmap, routeTitle, streakAlive, today, topicStat } from "@/lib/logic";
 import { Icon } from "../Icon";
 import { startTopic, startReview } from "./Learn";
 import HeroCard from "../game/HeroCard";
 import { TopList } from "../game/Leaderboard";
+import ArenaPanel from "../game/ArenaPanel";
 
 export default function Home() {
   const S = useApp((s) => s.S);
@@ -16,10 +17,19 @@ export default function Home() {
   const { lv, into, need } = levelInfo(S.xp);
   const streak = streakAlive(S);
   const missions = S.missions.day === today() ? S.missions : { c: {} as Record<string, number> };
+  const season = examSeason();
+  const setUI = useApp((s) => s.setUI);
+  const g = gradeNum(S);
+  const openSeason = () => {
+    setUI({ examTab: "mine", ef: { exam: season ? season.exam : "Tất cả", grade: String(g), subject: "Tất cả" } });
+    router.push("/de-thi");
+  };
 
   return (
     <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:items-start lg:gap-6">
       <div className="min-w-0">
+        {/* Đấu trường: trung tâm của Đại Sảnh, trên điện thoại thấy ngay khi mở app */}
+        <ArenaPanel />
         <div className="lg:hidden"><HeroCard compact /></div>
 
         <section className="panel mt-3.5">
@@ -47,7 +57,10 @@ export default function Home() {
           <button className="quick-card c-mint" onClick={() => startReview()}>
             <b>Sửa sai lầm</b><span>{due ? due + " quái cần diệt hôm nay" : "Chưa có quái nào đến hạn"}</span>
           </button>
-          <Link className="quick-card c-lime" href="/dau"><b>Đấu nhanh</b><span>Lực chiến {S.fight.rating}</span></Link>
+          <button className="quick-card c-pink" onClick={openSeason}>
+            <b>{season ? "Mùa thi " + season.label : "Thử thách"}</b>
+            <span>{season ? `Đề ôn lớp ${g > 12 ? 12 : g} theo SGK mới` : "Đề thi thử theo kỳ thi của bạn"}</span>
+          </button>
           <Link className="quick-card c-lav" href="/tien-do"><b>Xem chiến tích</b><span>{w7.t ? pct(w7.c, w7.t) + "% đúng 7 ngày qua" : "7 ngày, 30 ngày, cả năm"}</span></Link>
         </div>
 

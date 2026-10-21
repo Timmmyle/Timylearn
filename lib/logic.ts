@@ -190,7 +190,7 @@ export function diagIds(S: AppState) {
   }
   return ids;
 }
-export function writeList(S: AppState) { return [...WRITE, ...useRemote.getState().passages, ...(S.aiWrite || [])]; }
+export function writeList(S: AppState) { const r = useRemote.getState(); return [...r.localPassages, ...WRITE, ...r.passages, ...(S.aiWrite || [])]; }
 export { WKEY };
 
 /* ---------- Hóa học ---------- */
@@ -232,4 +232,14 @@ export function makeIcs(S: AppState): string | null {
   }
   L.push("END:VCALENDAR");
   return L.join("\r\n");
+}
+
+/** Mùa thi ở trường theo tháng (giữa/cuối học kì) */
+export function examSeason(d = new Date()): { exam: "gk1" | "ck1" | "gk2" | "ck2"; label: string } | null {
+  const m = d.getMonth() + 1, day = d.getDate();
+  if (m === 9 || m === 10 || (m === 11 && day < 15)) return { exam: "gk1", label: "giữa học kì 1" };
+  if (m === 11 || m === 12 || m === 1) return { exam: "ck1", label: "cuối học kì 1" };
+  if (m === 2 || m === 3) return { exam: "gk2", label: "giữa học kì 2" };
+  if (m === 4 || m === 5) return { exam: "ck2", label: "cuối học kì 2" };
+  return null;
 }

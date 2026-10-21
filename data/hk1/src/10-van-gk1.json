@@ -1,0 +1,99 @@
+{
+ "grade": 10,
+ "subject": "Ngữ văn",
+ "exam": "gk1",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 1 – Ngữ văn 10",
+ "genre": "Thơ Đường luật",
+ "work": {
+  "author": "Nguyễn Khuyến",
+  "title": "Thu điếu (Câu cá mùa thu)",
+  "source": "Chùm thơ thu (Thu điếu, Thu vịnh, Thu ẩm) – thơ Nôm Nguyễn Khuyến",
+  "public_domain_reason": "Tác giả mất năm 1909"
+ },
+ "passage": "Ao thu lạnh lẽo nước trong veo,\nMột chiếc thuyền câu bé tẻo teo.\nSóng biếc theo làn hơi gợn tí,\nLá vàng trước gió khẽ đưa vèo.\nTầng mây lơ lửng trời xanh ngắt,\nNgõ trúc quanh co khách vắng teo.\nTựa gối, ôm cần lâu chẳng được,\nCá đâu đớp động dưới chân bèo.",
+ "src": "(Nguyễn Khuyến, Thu điếu – bài thơ Nôm trong chùm thơ thu)\nChú thích: Thu điếu: câu cá mùa thu; tẻo teo: rất nhỏ, bé tí; đưa vèo: bay nhanh, khẽ; vắng teo: vắng lặng, không một bóng người; ôm cần: cầm cần câu.",
+ "questions": [
+  {
+   "q": "Câu 1 (0,5 điểm). Xác định thể thơ của văn bản.",
+   "type": "nhanbiet",
+   "points": [
+    "Thất ngôn bát cú Đường luật (8 câu, mỗi câu 7 chữ)",
+    "Gieo một vần “eo” ở cuối các câu 1, 2, 4, 6, 8"
+   ],
+   "model": "Văn bản được viết theo thể thơ thất ngôn bát cú Đường luật: bài thơ gồm 8 câu, mỗi câu 7 chữ, gieo vần bằng “eo” (veo – teo – vèo – teo – bèo)."
+  },
+  {
+   "q": "Câu 2 (0,5 điểm). Chỉ ra những hình ảnh thiên nhiên mùa thu được miêu tả trong bốn câu thơ đầu.",
+   "type": "nhanbiet",
+   "points": [
+    "Ao thu lạnh lẽo, nước trong veo",
+    "Chiếc thuyền câu bé tẻo teo",
+    "Sóng biếc hơi gợn tí",
+    "Lá vàng khẽ đưa vèo trước gió"
+   ],
+   "model": "Bốn câu thơ đầu miêu tả: ao thu lạnh lẽo với làn nước trong veo, một chiếc thuyền câu bé tẻo teo, sóng biếc gợn nhẹ theo làn và chiếc lá vàng khẽ đưa vèo trước gió."
+  },
+  {
+   "q": "Câu 3 (1,0 điểm). Phân tích tác dụng của nghệ thuật lấy động tả tĩnh trong câu thơ: “Cá đâu đớp động dưới chân bèo.”",
+   "type": "tutu",
+   "points": [
+    "Chỉ ra: âm thanh “đớp động” rất khẽ của cá được dùng để làm nổi bật cái tĩnh",
+    "Tác dụng: nhấn mạnh sự tĩnh lặng tuyệt đối của không gian làng quê mùa thu",
+    "Gợi tâm trạng nhân vật trữ tình: trầm ngâm, suy tư, có nỗi buồn thầm kín",
+    "Tạo cho câu kết dư âm, gợi nhiều hơn tả"
+   ],
+   "model": "Câu thơ dùng một âm thanh rất nhỏ – tiếng cá đớp động dưới chân bèo – để lấy động tả tĩnh. Không gian phải tĩnh lặng đến mức nào thì một tiếng động khẽ như thế mới nghe rõ được. Nhờ vậy, cảnh thu làng quê hiện lên vắng lặng tuyệt đối. Đồng thời, tiếng động bất chợt ấy như kéo nhà thơ ra khỏi dòng suy tư, hé lộ một tâm hồn đang trầm ngâm, mang nỗi buồn thầm kín trước thời thế."
+  },
+  {
+   "q": "Câu 4 (1,0 điểm). Qua hai câu thơ “Tựa gối, ôm cần lâu chẳng được, / Cá đâu đớp động dưới chân bèo.”, anh/chị hiểu gì về tâm trạng của nhân vật trữ tình?",
+   "type": "noidung",
+   "points": [
+    "Tư thế “tựa gối, ôm cần” lâu: câu cá mà không chú tâm vào việc câu",
+    "Câu cá chỉ là cái cớ; nhà thơ đang chìm vào suy tư",
+    "Tâm trạng cô đơn, buồn, uẩn khúc của nhà nho thanh bạch trước thời cuộc",
+    "Gắn bó, yêu thiên nhiên làng quê"
+   ],
+   "model": "Nhân vật trữ tình ngồi tựa gối, ôm cần rất lâu mà chẳng câu được cá, chứng tỏ ông không thật sự để tâm vào việc câu. Câu cá chỉ là cái cớ để ông hòa mình vào thiên nhiên và chìm trong suy tư. Đằng sau dáng ngồi lặng lẽ ấy là nỗi cô đơn, buồn bã của một nhà nho thanh bạch, lui về ở ẩn, nặng lòng với đất nước nhưng bất lực trước thời cuộc."
+  },
+  {
+   "q": "Câu 5 (1,0 điểm). Từ văn bản, anh/chị hãy nêu suy nghĩ về ý nghĩa của việc dành thời gian sống chậm, lắng nghe thiên nhiên trong cuộc sống hôm nay (trình bày trong đoạn văn khoảng 5–7 dòng).",
+   "type": "quandiem",
+   "points": [
+    "Nêu rõ quan điểm của bản thân",
+    "Lí giải: sống chậm giúp tâm hồn thư thái, cân bằng, nhận ra vẻ đẹp bình dị",
+    "Liên hệ thực tế: nhịp sống vội vã, lệ thuộc thiết bị điện tử",
+    "Diễn đạt mạch lạc, đúng dung lượng"
+   ],
+   "model": "Giữa nhịp sống hối hả và màn hình điện thoại luôn sáng, việc dành thời gian sống chậm, lắng nghe thiên nhiên là vô cùng cần thiết. Giống như Nguyễn Khuyến lặng ngắm ao thu, chúng ta cần những khoảnh khắc tĩnh lặng để tâm hồn được nghỉ ngơi, nhận ra vẻ đẹp giản dị quanh mình. Sống chậm giúp ta bớt căng thẳng, suy nghĩ thấu đáo hơn và hiểu chính mình. Tuy nhiên, sống chậm không phải là sống lười biếng, mà là sống sâu sắc và có ý thức."
+  }
+ ],
+ "essays": [
+  {
+   "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích bức tranh mùa thu làng quê trong bài thơ Thu điếu của Nguyễn Khuyến.",
+   "type": "viet",
+   "points": [
+    "Đúng hình thức đoạn văn, khoảng 200 chữ, có câu chủ đề",
+    "Phân tích các hình ảnh: ao thu, nước trong veo, thuyền câu, sóng biếc, lá vàng, trời xanh ngắt, ngõ trúc",
+    "Nhận xét đặc điểm: cảnh trong trẻo, tĩnh lặng, nhỏ nhắn, đậm chất làng quê Bắc Bộ",
+    "Chỉ ra nghệ thuật: vần “eo”, từ láy, lấy động tả tĩnh, gam màu xanh",
+    "Diễn đạt trôi chảy, có cảm nhận riêng"
+   ],
+   "model": "Câu chủ đề: Thu điếu vẽ nên bức tranh thu làng quê Bắc Bộ trong trẻo, tĩnh lặng và đượm buồn.\n- Không gian thu thu nhỏ trong ao: nước trong veo, thuyền bé tẻo teo, sóng gợn tí.\n- Chuyển động rất khẽ: lá vàng đưa vèo, mây lơ lửng; cảnh vật tĩnh và vắng (khách vắng teo).\n- Màu sắc: sắc xanh chủ đạo (nước, sóng biếc, trời xanh ngắt) điểm sắc vàng của lá.\n- Nghệ thuật: vần “eo” gợi sự thu hẹp, từ láy, lấy động tả tĩnh.\n- Đánh giá: cảnh đẹp mà buồn, thể hiện tình yêu quê hương và tâm sự thầm kín của nhà thơ."
+  },
+  {
+   "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) bàn về vấn đề: Giới trẻ hôm nay có còn biết lắng nghe và gắn bó với quê hương?",
+   "type": "viet",
+   "points": [
+    "Đúng kiểu bài nghị luận về một vấn đề xã hội, đủ mở bài – thân bài – kết bài, khoảng 600 chữ",
+    "Giải thích: lắng nghe, gắn bó với quê hương là hiểu, yêu, có trách nhiệm với nơi mình sinh ra",
+    "Thực trạng: một bộ phận giới trẻ xa rời quê hương, nhưng nhiều bạn vẫn quảng bá, đóng góp cho quê",
+    "Nguyên nhân, ý nghĩa và giải pháp hợp lí",
+    "Dẫn chứng xác thực, lập luận chặt chẽ; bài học cho bản thân",
+    "Sáng tạo, chính tả và ngữ pháp chuẩn"
+   ],
+   "model": "MB: Dẫn từ tình yêu cảnh quê trong thơ Nguyễn Khuyến, nêu vấn đề.\nTB1: Giải thích thế nào là lắng nghe và gắn bó với quê hương.\nTB2: Thực trạng hai mặt: có người thờ ơ, rời bỏ; có người trở về khởi nghiệp, quảng bá quê hương trên mạng xã hội.\nTB3: Nguyên nhân (đô thị hóa, áp lực mưu sinh, mạng xã hội) và ý nghĩa của sự gắn bó (cội nguồn, bản sắc, động lực phát triển).\nTB4: Giải pháp: gia đình, nhà trường giáo dục; bản thân tìm hiểu lịch sử, văn hóa địa phương.\nKB: Khẳng định quê hương là cội nguồn; liên hệ hành động của bản thân."
+  }
+ ],
+ "confidence_note": "Rất chắc chắn về toàn bộ 8 câu thơ. Câu 7 có dị bản giữa các bản in: “Tựa gối, ôm cần lâu chẳng được” (bản SGK) / “Tựa gối, buông cần…”; đề dùng bản “ôm cần” theo SGK."
+}

@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import StylePicker from "../StylePicker";
 import { useApp } from "@/lib/store";
 import { toast } from "@/lib/toast";
 import { ACCENTS } from "@/lib/data/curriculum";
@@ -62,7 +63,10 @@ export default function Settings() {
         </div>
         <h2>Giao diện</h2>
         <div className="panel">
-          <label className="flabel !mt-0">Chế độ</label>
+          <label className="flabel !mt-0">Phong cách chữ</label>
+          <StylePicker />
+          <div className="h-3" />
+          <label className="flabel">Chế độ</label>
           <div className="seg">
             {([["auto", "Theo máy"], ["light", "Sáng: trang vở"], ["dark", "Tối: bảng đen"]] as const).map(([k, l]) => (
               <button key={k} aria-pressed={S.theme.mode === k} onClick={() => update((S) => { S.theme.mode = k; })}>{l}</button>
@@ -86,6 +90,12 @@ export default function Settings() {
           <p className="small">{syncNote}.{user?.email ? ` Tài khoản: ${user.email}.` : ""}</p>
           <div className="flex flex-wrap gap-2.5">
             {hasSupabase && <Link href="/dang-nhap" className="btn btn-ghost">{user ? "Quản lý tài khoản" : "Đăng nhập để đồng bộ"}</Link>}
+            <button className="btn btn-line" onClick={() => {
+              // Mở lại các câu hỏi bắt đầu (lớp, kỳ thi, môn, mục tiêu); tiến độ học vẫn giữ nguyên
+              update((S) => { S.onboarded = false; });
+              setUI({ ob: 0 });
+              window.scrollTo(0, 0);
+            }}>Làm lại các câu hỏi bắt đầu</button>
             <button className="btn btn-line" onClick={() => {
               if (!confirm("Xóa toàn bộ tiến độ, lựa chọn, sổ lỗi sai và đề AI? Không thể hoàn tác.")) return;
               update((S) => { const th = S.theme; Object.assign(S, DEF()); S.theme = th; });

@@ -1,0 +1,611 @@
+{
+ "grade": 10,
+ "subject": "Tiếng Anh",
+ "exam": "ck1",
+ "duration_min": 60,
+ "title": "Đề ôn cuối học kì 1 – Tiếng Anh 10 (đề số 1)",
+ "scope": "Global Success 10: Unit 1 Family life; Unit 2 Humans and the environment; Unit 3 Music; Unit 4 For a better community; Unit 5 Inventions (trọng tâm Unit 4–5)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "robot$\\underline{\\text{s}}$",
+    "laptop$\\underline{\\text{s}}$",
+    "donation$\\underline{\\text{s}}$",
+    "benefit$\\underline{\\text{s}}$"
+   ],
+   "answer": 2,
+   "explanation": "“donations” đuôi -s đọc /z/ (sau âm hữu thanh /n/); “benefits”, “robots”, “laptops” đọc /s/ (sau /t/, /p/)."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "$\\underline{\\text{ch}}$ore",
+    "$\\underline{\\text{ch}}$arity",
+    "$\\underline{\\text{ch}}$ildren",
+    "te$\\underline{\\text{ch}}$nology"
+   ],
+   "answer": 3,
+   "explanation": "“technology” có “ch” đọc /k/; “charity”, “chore”, “children” đọc /tʃ/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "donation",
+    "important",
+    "volunteer",
+    "disabled"
+   ],
+   "answer": 2,
+   "explanation": "“volunteer” /ˌvɒlənˈtɪə/ nhấn âm 3; “disabled”, “important”, “donation” nhấn âm 2."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "device",
+    "useful",
+    "invention",
+    "computer"
+   ],
+   "answer": 1,
+   "explanation": "“useful” /ˈjuːsfl/ nhấn âm 1; “invention”, “computer”, “device” nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Unit 4: For a better community – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nOur class decided to ______ money to help children in remote areas.",
+   "options": [
+    "arise",
+    "grow",
+    "rise",
+    "raise"
+   ],
+   "answer": 3,
+   "explanation": "raise money: quyên góp, gây quỹ; “rise”, “arise” là nội động từ, không có tân ngữ."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Unit 4: For a better community – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nThe volunteers helped ______ people, such as the elderly and the disabled, in the village.",
+   "options": [
+    "advantageous",
+    "disadvantage",
+    "disadvantaged",
+    "advantage"
+   ],
+   "answer": 2,
+   "explanation": "Trước danh từ “people” cần tính từ: disadvantaged (thiệt thòi, khó khăn)."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Unit 4: For a better community – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nTaking part in community activities brings teenagers many ______, such as learning new skills and making new friends.",
+   "options": [
+    "benefits",
+    "beneficiary",
+    "beneficial",
+    "beneficially"
+   ],
+   "answer": 0,
+   "explanation": "Sau “many” cần danh từ số nhiều: benefits (lợi ích)."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Unit 5: Inventions – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe telephone was one of the most important ______ of the 19th century.",
+   "options": [
+    "invent",
+    "inventions",
+    "inventive",
+    "inventors"
+   ],
+   "answer": 1,
+   "explanation": "“one of the most important + danh từ số nhiều” chỉ vật được phát minh → inventions."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Unit 5: Inventions – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nRobots and ______ intelligence are changing the way we live and work.",
+   "options": [
+    "physical",
+    "artificial",
+    "natural",
+    "manual"
+   ],
+   "answer": 1,
+   "explanation": "Cụm “artificial intelligence” (AI) = trí tuệ nhân tạo."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Unit 1: Family life – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nMy aunt is a ______; she stays at home, does the housework and looks after the children.",
+   "options": [
+    "breadwinner",
+    "housework",
+    "homemaker",
+    "worker"
+   ],
+   "answer": 2,
+   "explanation": "homemaker: người nội trợ, ở nhà làm việc nhà và chăm sóc gia đình."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Unit 2: Humans and the environment – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nPlanting more trees is a good way to ______ the effects of climate change.",
+   "options": [
+    "produce",
+    "raise",
+    "increase",
+    "reduce"
+   ],
+   "answer": 3,
+   "explanation": "reduce the effects: giảm tác động (của biến đổi khí hậu)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Unit 3: Music – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nThe concert was so successful that the band was invited to ______ again the following year.",
+   "options": [
+    "perform",
+    "compose",
+    "take",
+    "hold"
+   ],
+   "answer": 0,
+   "explanation": "perform: biểu diễn – phù hợp với ban nhạc được mời trở lại."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Unit 4 – Grammar: Past simple vs past continuous",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nWhile we ______ trees in the park, it started to rain.",
+   "options": [
+    "have planted",
+    "were planting",
+    "planted",
+    "are planting"
+   ],
+   "answer": 1,
+   "explanation": "Hành động đang diễn ra (While…) thì bị hành động khác xen vào → quá khứ tiếp diễn: were planting."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Unit 4 – Grammar: Past simple vs past continuous",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nWhen the volunteers arrived at the village, the children ______ football in the yard, so they stopped and ran to welcome them.",
+   "options": [
+    "have played",
+    "were playing",
+    "played",
+    "are playing"
+   ],
+   "answer": 1,
+   "explanation": "Bọn trẻ đang chơi bóng (đang diễn ra) thì tình nguyện viên đến; “stopped” cho thấy việc chơi đã diễn ra trước → were playing."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Unit 5 – Grammar: Present perfect",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nAlexander Graham Bell ______ the telephone in 1876.",
+   "options": [
+    "invented",
+    "was inventing",
+    "has invented",
+    "invents"
+   ],
+   "answer": 0,
+   "explanation": "Có thời điểm xác định trong quá khứ (in 1876) → quá khứ đơn: invented."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Unit 5 – Grammar: Present perfect",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nMy grandfather ______ this laptop since 2020, and it still works well.",
+   "options": [
+    "has used",
+    "used",
+    "is using",
+    "uses"
+   ],
+   "answer": 0,
+   "explanation": "“since 2020” → hành động bắt đầu trong quá khứ, kéo dài đến hiện tại → hiện tại hoàn thành: has used."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Unit 5 – Grammar: Present perfect",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nI ______ never ______ a 3D printer before. This is my first time.",
+   "options": [
+    "did / use",
+    "have / used",
+    "was / using",
+    "am / using"
+   ],
+   "answer": 1,
+   "explanation": "Trải nghiệm tính đến hiện tại với “never … before”, “first time” → hiện tại hoàn thành: have never used."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Unit 5 – Grammar: Gerunds and to-infinitives",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nMy brother enjoys ______ new apps on his smartphone, and he hopes ______ an inventor in the future.",
+   "options": [
+    "to try / becoming",
+    "to try / to become",
+    "trying / to become",
+    "trying / becoming"
+   ],
+   "answer": 2,
+   "explanation": "enjoy + V-ing; hope + to V → enjoys trying, hopes to become."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "topic": "Unit 2 – Grammar: Passive voice",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nEvery year, thousands of tonnes of plastic ______ into the ocean.",
+   "options": [
+    "are throwing",
+    "threw",
+    "are thrown",
+    "throw"
+   ],
+   "answer": 2,
+   "explanation": "Nhựa “bị” vứt xuống biển, sự việc lặp lại hằng năm → bị động hiện tại đơn: are thrown."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "topic": "Unit 3 – Grammar: To-infinitives and bare infinitives",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nOur teacher lets us ______ our own songs in music lessons.",
+   "options": [
+    "to choose",
+    "choosing",
+    "chose",
+    "choose"
+   ],
+   "answer": 3,
+   "explanation": "let + O + V nguyên mẫu không “to” → lets us choose."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nAnna: “Thank you so much for helping me with the charity event.”\nBen: “______”",
+   "options": [
+    "I'm afraid not.",
+    "Yes, I do.",
+    "It's my pleasure.",
+    "Not at all bad."
+   ],
+   "answer": 2,
+   "explanation": "Đáp lại lời cảm ơn: “It's my pleasure.” (Rất hân hạnh/Không có gì)."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 2,
+   "stem": "Choose the most suitable response to complete the exchange.\nNam: “What do you think about using robots to do the housework?”\nHoa: “______”",
+   "options": [
+    "That's right. I did.",
+    "No, thanks. I'm full.",
+    "Yes, I'd love to.",
+    "I think it's a great idea because it saves time."
+   ],
+   "answer": 3,
+   "explanation": "Câu hỏi xin ý kiến → trả lời bằng quan điểm cá nhân kèm lí do."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Lan: Really? What did you do there?\nb. Minh: I went to a village in Ha Giang as a volunteer.\nc. Minh: We taught English to the children and helped repair their school.\nd. Lan: Minh, what did you do during the summer holidays?",
+   "options": [
+    "b – d – a – c",
+    "d – b – c – a",
+    "d – a – b – c",
+    "d – b – a – c"
+   ],
+   "answer": 3,
+   "explanation": "Hỏi về kì nghỉ (d) → kể đi tình nguyện (b) → hỏi đã làm gì (a) → trả lời cụ thể (c)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. Today, it is used not only for calling but also for studying, shopping and entertainment.\nb. The smartphone is one of the most useful inventions of modern times.\nc. However, spending too much time on it can harm our health and relationships.\nd. Therefore, we should use it wisely.\ne. With just a few touches, we can find information about almost anything.",
+   "options": [
+    "b – e – a – d – c",
+    "a – b – e – c – d",
+    "b – a – e – c – d",
+    "b – a – c – e – d"
+   ],
+   "answer": 2,
+   "explanation": "Câu chủ đề (b) → công dụng ngày nay (a) → bổ sung lợi ích (e) → However: mặt trái (c) → Therefore: kết luận (d)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 4: For a better community)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nLast summer, I joined a volunteer group in my city. Our main (25) ______ was to help street children and elderly people living alone. Every weekend, we (26) ______ food and clothes to them. We also organised free English classes for the children. One day, while I (27) ______ a lesson, a little boy gave me a picture he had drawn. I was so (28) ______ that I nearly cried. Through this experience, I have learnt that small actions can make a big (29) ______ to other people's lives. I am planning (30) ______ part in more volunteer activities next year.\n\nBlank (25):",
+   "options": [
+    "aim",
+    "way",
+    "result",
+    "method"
+   ],
+   "answer": 0,
+   "explanation": "Our main aim was to help…: mục tiêu chính của nhóm là giúp đỡ…"
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 4: For a better community)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nLast summer, I joined a volunteer group in my city. Our main (25) ______ was to help street children and elderly people living alone. Every weekend, we (26) ______ food and clothes to them. We also organised free English classes for the children. One day, while I (27) ______ a lesson, a little boy gave me a picture he had drawn. I was so (28) ______ that I nearly cried. Through this experience, I have learnt that small actions can make a big (29) ______ to other people's lives. I am planning (30) ______ part in more volunteer activities next year.\n\nBlank (26):",
+   "options": [
+    "sold",
+    "delivered",
+    "borrowed",
+    "received"
+   ],
+   "answer": 1,
+   "explanation": "deliver food and clothes to them: mang/phát đồ ăn, quần áo đến cho họ."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 4: For a better community)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nLast summer, I joined a volunteer group in my city. Our main (25) ______ was to help street children and elderly people living alone. Every weekend, we (26) ______ food and clothes to them. We also organised free English classes for the children. One day, while I (27) ______ a lesson, a little boy gave me a picture he had drawn. I was so (28) ______ that I nearly cried. Through this experience, I have learnt that small actions can make a big (29) ______ to other people's lives. I am planning (30) ______ part in more volunteer activities next year.\n\nBlank (27):",
+   "options": [
+    "am teaching",
+    "taught",
+    "have taught",
+    "was teaching"
+   ],
+   "answer": 3,
+   "explanation": "while + quá khứ tiếp diễn: hành động đang diễn ra (đang dạy) thì việc khác xen vào (cậu bé đưa tranh)."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 4: For a better community)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nLast summer, I joined a volunteer group in my city. Our main (25) ______ was to help street children and elderly people living alone. Every weekend, we (26) ______ food and clothes to them. We also organised free English classes for the children. One day, while I (27) ______ a lesson, a little boy gave me a picture he had drawn. I was so (28) ______ that I nearly cried. Through this experience, I have learnt that small actions can make a big (29) ______ to other people's lives. I am planning (30) ______ part in more volunteer activities next year.\n\nBlank (28):",
+   "options": [
+    "touching",
+    "boring",
+    "touched",
+    "bored"
+   ],
+   "answer": 2,
+   "explanation": "Tính từ đuôi -ed chỉ cảm xúc của người: I was touched (xúc động); “bored” trái nghĩa với ngữ cảnh."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 4: For a better community)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nLast summer, I joined a volunteer group in my city. Our main (25) ______ was to help street children and elderly people living alone. Every weekend, we (26) ______ food and clothes to them. We also organised free English classes for the children. One day, while I (27) ______ a lesson, a little boy gave me a picture he had drawn. I was so (28) ______ that I nearly cried. Through this experience, I have learnt that small actions can make a big (29) ______ to other people's lives. I am planning (30) ______ part in more volunteer activities next year.\n\nBlank (29):",
+   "options": [
+    "difference",
+    "decision",
+    "progress",
+    "effort"
+   ],
+   "answer": 0,
+   "explanation": "Cụm “make a big difference to sth” = tạo ra sự thay đổi lớn cho…"
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "topic": "Reading – Cloze (Unit 4: For a better community)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nLast summer, I joined a volunteer group in my city. Our main (25) ______ was to help street children and elderly people living alone. Every weekend, we (26) ______ food and clothes to them. We also organised free English classes for the children. One day, while I (27) ______ a lesson, a little boy gave me a picture he had drawn. I was so (28) ______ that I nearly cried. Through this experience, I have learnt that small actions can make a big (29) ______ to other people's lives. I am planning (30) ______ part in more volunteer activities next year.\n\nBlank (30):",
+   "options": [
+    "to take",
+    "take",
+    "taking",
+    "taken"
+   ],
+   "answer": 0,
+   "explanation": "plan + to V → planning to take part in."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 5: Inventions)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nOf all the inventions of the past few decades, artificial intelligence (AI) may have the greatest impact on our daily lives. AI refers to computer systems that can perform tasks which normally require human intelligence, such as recognising speech, translating languages and making decisions.\n\nAI is already all around us. When you ask a virtual assistant about the weather, or when a music app suggests songs you might like, you are using AI. In hospitals, AI programs help doctors detect diseases earlier by analysing thousands of medical images in a few seconds. In education, AI-powered apps can create lessons that suit each student's level and learning speed.\n\nHowever, this powerful technology also raises some concerns. Some people worry that AI will replace humans in many jobs, especially those that involve repetitive tasks. Others are concerned about privacy, since AI systems often collect large amounts of personal data. There is also the risk that students depend on AI too much and stop thinking for themselves.\n\nExperts believe that AI itself is neither good nor bad; what matters is how we use it. Therefore, young people should learn how AI works and use it responsibly, as a tool to support their learning rather than to replace it.\n\nWhich of the following is the best title for the passage?",
+   "options": [
+    "The History of Computers",
+    "How to Build a Robot",
+    "Why AI Should Be Banned",
+    "Artificial Intelligence: Benefits and Concerns"
+   ],
+   "answer": 3,
+   "explanation": "Bài nói về AI là gì, ứng dụng (lợi ích), mối lo ngại và cách dùng hợp lí."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 5: Inventions)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nOf all the inventions of the past few decades, artificial intelligence (AI) may have the greatest impact on our daily lives. AI refers to computer systems that can perform tasks which normally require human intelligence, such as recognising speech, translating languages and making decisions.\n\nAI is already all around us. When you ask a virtual assistant about the weather, or when a music app suggests songs you might like, you are using AI. In hospitals, AI programs help doctors detect diseases earlier by analysing thousands of medical images in a few seconds. In education, AI-powered apps can create lessons that suit each student's level and learning speed.\n\nHowever, this powerful technology also raises some concerns. Some people worry that AI will replace humans in many jobs, especially those that involve repetitive tasks. Others are concerned about privacy, since AI systems often collect large amounts of personal data. There is also the risk that students depend on AI too much and stop thinking for themselves.\n\nExperts believe that AI itself is neither good nor bad; what matters is how we use it. Therefore, young people should learn how AI works and use it responsibly, as a tool to support their learning rather than to replace it.\n\nAccording to paragraph 1, AI refers to ______.",
+   "options": [
+    "robots that look exactly like humans",
+    "computer systems that can do tasks which normally need human intelligence",
+    "apps that can only play music",
+    "machines used only in factories"
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 1: “AI refers to computer systems that can perform tasks which normally require human intelligence”."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 5: Inventions)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nOf all the inventions of the past few decades, artificial intelligence (AI) may have the greatest impact on our daily lives. AI refers to computer systems that can perform tasks which normally require human intelligence, such as recognising speech, translating languages and making decisions.\n\nAI is already all around us. When you ask a virtual assistant about the weather, or when a music app suggests songs you might like, you are using AI. In hospitals, AI programs help doctors detect diseases earlier by analysing thousands of medical images in a few seconds. In education, AI-powered apps can create lessons that suit each student's level and learning speed.\n\nHowever, this powerful technology also raises some concerns. Some people worry that AI will replace humans in many jobs, especially those that involve repetitive tasks. Others are concerned about privacy, since AI systems often collect large amounts of personal data. There is also the risk that students depend on AI too much and stop thinking for themselves.\n\nExperts believe that AI itself is neither good nor bad; what matters is how we use it. Therefore, young people should learn how AI works and use it responsibly, as a tool to support their learning rather than to replace it.\n\nAccording to the passage, how does AI help doctors?",
+   "options": [
+    "By training medical students",
+    "By making medicine cheaper",
+    "By replacing nurses in hospitals",
+    "By analysing medical images to detect diseases earlier"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 2: “AI programs help doctors detect diseases earlier by analysing thousands of medical images”."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 5: Inventions)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nOf all the inventions of the past few decades, artificial intelligence (AI) may have the greatest impact on our daily lives. AI refers to computer systems that can perform tasks which normally require human intelligence, such as recognising speech, translating languages and making decisions.\n\nAI is already all around us. When you ask a virtual assistant about the weather, or when a music app suggests songs you might like, you are using AI. In hospitals, AI programs help doctors detect diseases earlier by analysing thousands of medical images in a few seconds. In education, AI-powered apps can create lessons that suit each student's level and learning speed.\n\nHowever, this powerful technology also raises some concerns. Some people worry that AI will replace humans in many jobs, especially those that involve repetitive tasks. Others are concerned about privacy, since AI systems often collect large amounts of personal data. There is also the risk that students depend on AI too much and stop thinking for themselves.\n\nExperts believe that AI itself is neither good nor bad; what matters is how we use it. Therefore, young people should learn how AI works and use it responsibly, as a tool to support their learning rather than to replace it.\n\nThe word “concerns” in paragraph 3 is closest in meaning to ______.",
+   "options": [
+    "inventions",
+    "worries",
+    "decisions",
+    "benefits"
+   ],
+   "answer": 1,
+   "explanation": "concerns = worries (mối lo ngại); câu sau dùng “worry”, “are concerned about”."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 5: Inventions)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nOf all the inventions of the past few decades, artificial intelligence (AI) may have the greatest impact on our daily lives. AI refers to computer systems that can perform tasks which normally require human intelligence, such as recognising speech, translating languages and making decisions.\n\nAI is already all around us. When you ask a virtual assistant about the weather, or when a music app suggests songs you might like, you are using AI. In hospitals, AI programs help doctors detect diseases earlier by analysing thousands of medical images in a few seconds. In education, AI-powered apps can create lessons that suit each student's level and learning speed.\n\nHowever, this powerful technology also raises some concerns. Some people worry that AI will replace humans in many jobs, especially those that involve repetitive tasks. Others are concerned about privacy, since AI systems often collect large amounts of personal data. There is also the risk that students depend on AI too much and stop thinking for themselves.\n\nExperts believe that AI itself is neither good nor bad; what matters is how we use it. Therefore, young people should learn how AI works and use it responsibly, as a tool to support their learning rather than to replace it.\n\nThe word “it” in the last sentence of the passage (“…rather than to replace it”) refers to ______.",
+   "options": [
+    "their learning",
+    "the risk",
+    "a tool",
+    "AI"
+   ],
+   "answer": 0,
+   "explanation": "AI là công cụ hỗ trợ việc học chứ không thay thế việc học → “it” = their learning."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "topic": "Reading comprehension (Unit 5: Inventions)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nOf all the inventions of the past few decades, artificial intelligence (AI) may have the greatest impact on our daily lives. AI refers to computer systems that can perform tasks which normally require human intelligence, such as recognising speech, translating languages and making decisions.\n\nAI is already all around us. When you ask a virtual assistant about the weather, or when a music app suggests songs you might like, you are using AI. In hospitals, AI programs help doctors detect diseases earlier by analysing thousands of medical images in a few seconds. In education, AI-powered apps can create lessons that suit each student's level and learning speed.\n\nHowever, this powerful technology also raises some concerns. Some people worry that AI will replace humans in many jobs, especially those that involve repetitive tasks. Others are concerned about privacy, since AI systems often collect large amounts of personal data. There is also the risk that students depend on AI too much and stop thinking for themselves.\n\nExperts believe that AI itself is neither good nor bad; what matters is how we use it. Therefore, young people should learn how AI works and use it responsibly, as a tool to support their learning rather than to replace it.\n\nWhich of the following can be inferred from the passage?",
+   "options": [
+    "The writer believes AI will soon replace all teachers.",
+    "AI is only used in hospitals.",
+    "Most people are not worried about AI at all.",
+    "The writer thinks AI should be used wisely rather than avoided."
+   ],
+   "answer": 3,
+   "explanation": "Đoạn cuối: AI không tốt không xấu, quan trọng là cách dùng → nên dùng có trách nhiệm chứ không né tránh."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification – Past simple vs past continuous",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nWhile my mother (A) was cooking dinner, my father (B) was coming home (C) and (D) gave her a big surprise.",
+   "options": [
+    "(A) was cooking",
+    "(B) was coming",
+    "(C) and",
+    "(D) gave"
+   ],
+   "answer": 1,
+   "explanation": "Hành động xen vào hành động đang diễn ra dùng quá khứ đơn: was coming → came (song song với “gave”)."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "topic": "Error identification – Present perfect",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nMy sister (A) has (B) worked as a volunteer (C) for 2020, and she (D) loves helping others.",
+   "options": [
+    "(A) has",
+    "(B) worked as a volunteer",
+    "(C) for",
+    "(D) loves helping"
+   ],
+   "answer": 2,
+   "explanation": "Mốc thời gian (2020) đi với “since”, không dùng “for” → for → since."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Present perfect",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nI started using this smartphone two years ago.",
+   "options": [
+    "I have used this smartphone for two years.",
+    "I haven't used this smartphone for two years.",
+    "I used this smartphone for two years ago.",
+    "I have used this smartphone since two years."
+   ],
+   "answer": 0,
+   "explanation": "started V-ing … ago = have + V3 … for + khoảng thời gian → have used … for two years."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Gerunds and to-infinitives",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nMai said, “Why don't we donate our old books to the school library?”",
+   "options": [
+    "Mai suggested donating our old books to the school library.",
+    "Mai promised donating our old books to the school library.",
+    "Mai refused to donate our old books to the school library.",
+    "Mai suggested to donate our old books to the school library."
+   ],
+   "answer": 0,
+   "explanation": "“Why don't we…?” là lời đề nghị → suggest + V-ing: suggested donating."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu; kiểm tra bằng Python: JSON hợp lệ, đủ 40 câu mcq, mỗi câu 4 phương án khác nhau, đáp án phân bố đều A/B/C/D (10/10/10/10), số từ bài đọc hiểu trong khoảng 180–250."
+}

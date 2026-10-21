@@ -1,0 +1,439 @@
+{
+ "grade": 11,
+ "subject": "Vật lí",
+ "exam": "gk1",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 1 – Vật lí 11 (đề số 1)",
+ "scope": "Chương I Dao động: dao động điều hòa, mô tả dao động, vận tốc và gia tốc, động năng – thế năng – cơ năng, dao động tắt dần, dao động cưỡng bức, cộng hưởng",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 1,
+   "stem": "Một vật dao động điều hòa theo phương trình $x = A\\cos(\\omega t + \\varphi)$. Đại lượng $\\omega$ được gọi là",
+   "options": [
+    "biên độ của dao động.",
+    "pha ban đầu của dao động.",
+    "tần số góc của dao động.",
+    "chu kì của dao động."
+   ],
+   "answer": 2,
+   "explanation": "Trong phương trình $x = A\\cos(\\omega t+\\varphi)$: $A$ là biên độ, $\\omega$ là tần số góc (rad/s), $\\varphi$ là pha ban đầu."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 1,
+   "stem": "Chu kì của dao động điều hòa là",
+   "options": [
+    "khoảng thời gian ngắn nhất để vật thực hiện được một dao động toàn phần.",
+    "số dao động toàn phần vật thực hiện được trong một giây.",
+    "khoảng thời gian để vật đi từ vị trí cân bằng ra biên.",
+    "khoảng thời gian để vật đi từ biên này sang biên kia."
+   ],
+   "answer": 0,
+   "explanation": "Chu kì là thời gian thực hiện một dao động toàn phần; số dao động trong một giây là tần số; đi từ biên này sang biên kia chỉ mất nửa chu kì."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 1,
+   "stem": "Một vật dao động điều hòa với phương trình $x = 5\\cos\\left(4\\pi t + \\dfrac{\\pi}{3}\\right)$ (cm). Biên độ dao động của vật là",
+   "options": [
+    "10 cm.",
+    "5 cm.",
+    "$4\\pi$ cm.",
+    "$\\dfrac{\\pi}{3}$ cm."
+   ],
+   "answer": 1,
+   "explanation": "So sánh với $x = A\\cos(\\omega t+\\varphi)$ ta có $A = 5$ cm."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 1,
+   "stem": "Hệ thức liên hệ giữa chu kì $T$, tần số $f$ và tần số góc $\\omega$ của dao động điều hòa là",
+   "options": [
+    "$\\omega = \\dfrac{2\\pi}{f} = 2\\pi T$.",
+    "$\\omega = \\pi f = \\dfrac{\\pi}{T}$.",
+    "$\\omega = \\dfrac{f}{2\\pi} = \\dfrac{1}{2\\pi T}$.",
+    "$\\omega = 2\\pi f = \\dfrac{2\\pi}{T}$."
+   ],
+   "answer": 3,
+   "explanation": "$f = \\dfrac{1}{T}$ và $\\omega = 2\\pi f = \\dfrac{2\\pi}{T}$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Vận tốc, gia tốc trong dao động điều hòa",
+   "level": 1,
+   "stem": "Trong dao động điều hòa, tốc độ của vật đạt giá trị cực đại khi vật",
+   "options": [
+    "đi qua vị trí cân bằng.",
+    "ở vị trí biên dương.",
+    "ở vị trí biên âm.",
+    "có li độ bằng một nửa biên độ."
+   ],
+   "answer": 0,
+   "explanation": "$|v| = \\omega\\sqrt{A^2 - x^2}$ lớn nhất khi $x = 0$, tức vật qua vị trí cân bằng."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Vận tốc, gia tốc trong dao động điều hòa",
+   "level": 1,
+   "stem": "Một vật dao động điều hòa với tần số góc $\\omega$. Hệ thức giữa gia tốc $a$ và li độ $x$ của vật là",
+   "options": [
+    "$a = \\omega^2 x$.",
+    "$a = -\\omega x$.",
+    "$a = -\\omega^2 x$.",
+    "$a = -\\omega x^2$."
+   ],
+   "answer": 2,
+   "explanation": "Gia tốc luôn ngược dấu và tỉ lệ với li độ: $a = -\\omega^2 x$, luôn hướng về vị trí cân bằng."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Dao động tắt dần, cưỡng bức, cộng hưởng",
+   "level": 1,
+   "stem": "Dao động tắt dần là dao động có",
+   "options": [
+    "tần số giảm dần theo thời gian.",
+    "biên độ giảm dần theo thời gian.",
+    "biên độ không đổi theo thời gian.",
+    "chu kì tăng dần theo thời gian."
+   ],
+   "answer": 1,
+   "explanation": "Do lực cản của môi trường, cơ năng và biên độ của dao động tắt dần giảm dần theo thời gian."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Dao động tắt dần, cưỡng bức, cộng hưởng",
+   "level": 1,
+   "stem": "Hiện tượng cộng hưởng xảy ra khi",
+   "options": [
+    "biên độ của lực cưỡng bức bằng biên độ dao động riêng của hệ.",
+    "tần số của lực cưỡng bức rất lớn so với tần số riêng của hệ.",
+    "lực cản của môi trường bằng không.",
+    "tần số của lực cưỡng bức bằng tần số dao động riêng của hệ."
+   ],
+   "answer": 3,
+   "explanation": "Cộng hưởng là hiện tượng biên độ dao động cưỡng bức tăng đến cực đại khi tần số lực cưỡng bức bằng tần số riêng của hệ."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 1,
+   "stem": "Một con lắc lò xo gồm vật nặng khối lượng 100 g gắn vào lò xo có độ cứng 40 N/m dao động điều hòa. Chu kì dao động của con lắc là",
+   "options": [
+    "$0{,}1\\pi$ s.",
+    "$0{,}2\\pi$ s.",
+    "$0{,}05\\pi$ s.",
+    "$4\\pi$ s."
+   ],
+   "answer": 0,
+   "explanation": "$T = 2\\pi\\sqrt{\\dfrac{m}{k}} = 2\\pi\\sqrt{\\dfrac{0{,}1}{40}} = 2\\pi\\cdot 0{,}05 = 0{,}1\\pi$ s (nhớ đổi 100 g = 0,1 kg)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 2,
+   "stem": "Một con lắc đơn có chiều dài dây treo 1 m dao động nhỏ tại nơi có gia tốc trọng trường $g = \\pi^2$ m/s². Chu kì dao động của con lắc là",
+   "options": [
+    "1 s.",
+    "0,5 s.",
+    "2 s.",
+    "$2\\pi$ s."
+   ],
+   "answer": 2,
+   "explanation": "$T = 2\\pi\\sqrt{\\dfrac{\\ell}{g}} = 2\\pi\\sqrt{\\dfrac{1}{\\pi^2}} = 2$ s."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Vận tốc, gia tốc trong dao động điều hòa",
+   "level": 2,
+   "stem": "Một vật dao động điều hòa với phương trình $x = 6\\cos(2\\pi t)$ (cm). Tốc độ cực đại của vật là",
+   "options": [
+    "$6\\pi$ cm/s.",
+    "$24\\pi^2$ cm/s.",
+    "$3\\pi$ cm/s.",
+    "$12\\pi$ cm/s."
+   ],
+   "answer": 3,
+   "explanation": "$v_{\\max} = \\omega A = 2\\pi\\cdot 6 = 12\\pi$ cm/s."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Động năng, thế năng, cơ năng",
+   "level": 2,
+   "stem": "Một con lắc lò xo có độ cứng 100 N/m dao động điều hòa với biên độ 5 cm. Cơ năng của con lắc là",
+   "options": [
+    "0,25 J.",
+    "0,125 J.",
+    "125 J.",
+    "2,5 J."
+   ],
+   "answer": 1,
+   "explanation": "$W = \\dfrac{1}{2}kA^2 = \\dfrac{1}{2}\\cdot 100\\cdot 0{,}05^2 = 0{,}125$ J (đổi 5 cm = 0,05 m)."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 2,
+   "stem": "Một vật dao động điều hòa với phương trình $x = A\\cos(\\omega t + \\varphi)$. Chọn gốc thời gian lúc vật đi qua vị trí cân bằng theo chiều dương. Pha ban đầu $\\varphi$ bằng",
+   "options": [
+    "$-\\dfrac{\\pi}{2}$.",
+    "$\\dfrac{\\pi}{2}$.",
+    "0.",
+    "$\\pi$."
+   ],
+   "answer": 0,
+   "explanation": "Tại $t=0$: $x = A\\cos\\varphi = 0$ và $v = -\\omega A\\sin\\varphi > 0$ nên $\\sin\\varphi < 0$, suy ra $\\varphi = -\\dfrac{\\pi}{2}$."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Động năng, thế năng, cơ năng",
+   "level": 2,
+   "stem": "Một vật dao động điều hòa với tần số 5 Hz. Động năng của vật biến thiên tuần hoàn với tần số",
+   "options": [
+    "5 Hz.",
+    "2,5 Hz.",
+    "10 Hz.",
+    "20 Hz."
+   ],
+   "answer": 2,
+   "explanation": "Động năng và thế năng biến thiên tuần hoàn với tần số gấp đôi tần số dao động: $2f = 10$ Hz."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Vận tốc, gia tốc trong dao động điều hòa",
+   "level": 3,
+   "stem": "Một vật dao động điều hòa với biên độ 4 cm và tần số góc 10 rad/s. Khi vật có li độ 2 cm thì tốc độ của vật xấp xỉ bằng",
+   "options": [
+    "40 cm/s.",
+    "20 cm/s.",
+    "17,3 cm/s.",
+    "34,6 cm/s."
+   ],
+   "answer": 3,
+   "explanation": "$|v| = \\omega\\sqrt{A^2 - x^2} = 10\\sqrt{16 - 4} = 20\\sqrt{3} \\approx 34{,}6$ cm/s."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Động năng, thế năng, cơ năng",
+   "level": 3,
+   "stem": "Một vật dao động điều hòa với biên độ 8 cm. Tại vị trí động năng bằng 3 lần thế năng, li độ của vật có độ lớn bằng",
+   "options": [
+    "$4\\sqrt{3}$ cm.",
+    "4 cm.",
+    "2 cm.",
+    "$4\\sqrt{2}$ cm."
+   ],
+   "answer": 1,
+   "explanation": "$W = W_{\\text{đ}} + W_t = 4W_t \\Rightarrow \\dfrac{1}{2}kA^2 = 4\\cdot\\dfrac{1}{2}kx^2 \\Rightarrow |x| = \\dfrac{A}{2} = 4$ cm."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 3,
+   "stem": "Li độ $x$ của một vật dao động điều hòa được ghi lại theo thời gian $t$ như bảng sau (đồ thị li độ – thời gian có dạng hình sin): $\\begin{array}{|c|c|c|c|c|c|}\\hline t\\ (\\text{s}) & 0 & 0{,}25 & 0{,}5 & 0{,}75 & 1 \\\\ \\hline x\\ (\\text{cm}) & 0 & 4 & 0 & -4 & 0 \\\\ \\hline\\end{array}$ Phương trình dao động của vật là",
+   "options": [
+    "$x = 4\\cos\\left(2\\pi t + \\dfrac{\\pi}{2}\\right)$ (cm).",
+    "$x = 4\\cos\\left(\\pi t - \\dfrac{\\pi}{2}\\right)$ (cm).",
+    "$x = 4\\cos\\left(2\\pi t - \\dfrac{\\pi}{2}\\right)$ (cm).",
+    "$x = 4\\cos(2\\pi t)$ (cm)."
+   ],
+   "answer": 2,
+   "explanation": "Từ bảng: $A = 4$ cm, $T = 1$ s nên $\\omega = 2\\pi$ rad/s. Tại $t = 0$ vật ở vị trí cân bằng, sau đó li độ tăng (đi theo chiều dương) nên $\\varphi = -\\dfrac{\\pi}{2}$."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Dao động tắt dần, cưỡng bức, cộng hưởng",
+   "level": 3,
+   "stem": "Một người xách một xô nước đi trên đường, mỗi bước đi dài 45 cm. Chu kì dao động riêng của nước trong xô là 0,9 s. Nước trong xô bị sóng sánh mạnh nhất khi người đó đi với tốc độ",
+   "options": [
+    "1,8 km/h.",
+    "0,5 km/h.",
+    "3,6 km/h.",
+    "2,4 km/h."
+   ],
+   "answer": 0,
+   "explanation": "Cộng hưởng khi thời gian mỗi bước bằng chu kì riêng: $v = \\dfrac{0{,}45}{0{,}9} = 0{,}5$ m/s $= 1{,}8$ km/h."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 2,
+   "stem": "Một con lắc lò xo nằm ngang gồm lò xo có độ cứng 50 N/m và vật nặng khối lượng 500 g. Kéo vật ra khỏi vị trí cân bằng 4 cm rồi thả nhẹ cho vật dao động điều hòa, bỏ qua mọi ma sát.",
+   "statements": [
+    {
+     "t": "Biên độ dao động của vật là 4 cm.",
+     "a": true
+    },
+    {
+     "t": "Chu kì dao động của con lắc là 0,2 s.",
+     "a": false
+    },
+    {
+     "t": "Tốc độ cực đại của vật là 0,4 m/s.",
+     "a": true
+    },
+    {
+     "t": "Cơ năng của con lắc là 0,08 J.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: thả nhẹ nên $A = 4$ cm. b) Sai: $\\omega = \\sqrt{k/m} = 10$ rad/s, $T = 2\\pi/\\omega \\approx 0{,}63$ s. c) Đúng: $v_{\\max} = \\omega A = 10\\cdot 0{,}04 = 0{,}4$ m/s. d) Sai: $W = \\dfrac{1}{2}kA^2 = \\dfrac{1}{2}\\cdot 50\\cdot 0{,}04^2 = 0{,}04$ J."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "topic": "Dao động điều hòa",
+   "level": 2,
+   "stem": "Một vật dao động điều hòa với phương trình $x = 10\\cos\\left(\\pi t + \\dfrac{\\pi}{3}\\right)$ (cm), $t$ tính bằng giây.",
+   "statements": [
+    {
+     "t": "Biên độ dao động của vật là 10 cm.",
+     "a": true
+    },
+    {
+     "t": "Tần số dao động của vật là 1 Hz.",
+     "a": false
+    },
+    {
+     "t": "Tại thời điểm $t = 0$, vật có li độ 5 cm và đang chuyển động theo chiều âm.",
+     "a": true
+    },
+    {
+     "t": "Quãng đường vật đi được trong 2 s đầu tiên là 40 cm.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $A = 10$ cm. b) Sai: $f = \\dfrac{\\omega}{2\\pi} = 0{,}5$ Hz. c) Đúng: $x_0 = 10\\cos\\dfrac{\\pi}{3} = 5$ cm, $v_0 = -10\\pi\\sin\\dfrac{\\pi}{3} < 0$. d) Đúng: $T = 2$ s nên trong 2 s vật đi được $4A = 40$ cm."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "topic": "Dao động tắt dần, cưỡng bức, cộng hưởng",
+   "level": 1,
+   "stem": "Ô tô, xe máy đều có bộ phận giảm xóc gồm lò xo và ống chứa dầu nhớt. Khi xe đi qua chỗ xóc, khung xe dao động rồi nhanh chóng dừng lại. Một số cây cầu, tòa nhà cũng có thể dao động mạnh khi chịu tác dụng của ngoại lực tuần hoàn.",
+   "statements": [
+    {
+     "t": "Dao động tắt dần có biên độ giảm dần theo thời gian do lực cản của môi trường.",
+     "a": true
+    },
+    {
+     "t": "Bộ phận giảm xóc của xe là một ứng dụng của dao động tắt dần.",
+     "a": true
+    },
+    {
+     "t": "Dao động cưỡng bức ở giai đoạn ổn định có tần số bằng tần số dao động riêng của hệ.",
+     "a": false
+    },
+    {
+     "t": "Khi xảy ra cộng hưởng, lực cản của môi trường càng nhỏ thì biên độ dao động cộng hưởng càng lớn.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: lực cản làm cơ năng giảm dần. b) Đúng: dầu nhớt tạo lực cản lớn làm dao động của khung xe tắt nhanh. c) Sai: dao động cưỡng bức ổn định có tần số bằng tần số của lực cưỡng bức. d) Đúng: lực cản càng nhỏ thì cộng hưởng càng rõ, biên độ cộng hưởng càng lớn."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "topic": "Động năng, thế năng, cơ năng",
+   "level": 3,
+   "stem": "Một con lắc lò xo gồm vật nặng khối lượng 100 g dao động điều hòa theo phương ngang với phương trình $x = 5\\cos(10t)$ (cm), $t$ tính bằng giây. Chọn mốc thế năng tại vị trí cân bằng.",
+   "statements": [
+    {
+     "t": "Độ cứng của lò xo là 10 N/m.",
+     "a": true
+    },
+    {
+     "t": "Cơ năng của con lắc là 12,5 mJ.",
+     "a": true
+    },
+    {
+     "t": "Động năng và thế năng của con lắc biến thiên tuần hoàn với chu kì bằng chu kì dao động của vật.",
+     "a": false
+    },
+    {
+     "t": "Khi vật có li độ 3 cm thì động năng của vật gấp 2 lần thế năng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $k = m\\omega^2 = 0{,}1\\cdot 100 = 10$ N/m. b) Đúng: $W = \\dfrac{1}{2}kA^2 = \\dfrac{1}{2}\\cdot 10\\cdot 0{,}05^2 = 0{,}0125$ J. c) Sai: chúng biến thiên với chu kì $T/2$. d) Sai: $W_t = \\dfrac{1}{2}\\cdot 10\\cdot 0{,}03^2 = 4{,}5$ mJ, $W_{\\text{đ}} = 12{,}5 - 4{,}5 = 8$ mJ, tỉ số $\\approx 1{,}78 \\ne 2$."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 1,
+   "stem": "Một con lắc lò xo gồm vật nặng khối lượng 400 g và lò xo có độ cứng 100 N/m. Lấy $\\pi^2 = 10$. Chu kì dao động của con lắc là bao nhiêu giây?",
+   "answer_text": "0,4",
+   "explanation": "$T = 2\\pi\\sqrt{\\dfrac{m}{k}} = 2\\pi\\sqrt{\\dfrac{0{,}4}{100}} = 2\\sqrt{10\\cdot 0{,}004} = 0{,}4$ s."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 2,
+   "stem": "Một con lắc đơn dao động nhỏ tại nơi có gia tốc trọng trường 9,8 m/s² với chu kì 2 s. Chiều dài dây treo của con lắc là bao nhiêu mét (làm tròn đến hàng phần trăm)?",
+   "answer_text": "0,99",
+   "explanation": "$\\ell = \\dfrac{gT^2}{4\\pi^2} = \\dfrac{9{,}8\\cdot 4}{4\\pi^2} \\approx 0{,}993$ m $\\approx 0{,}99$ m."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "topic": "Vận tốc, gia tốc trong dao động điều hòa",
+   "level": 3,
+   "stem": "Một vật dao động điều hòa với phương trình $x = 8\\cos(5t)$ (cm), $t$ tính bằng giây. Khi vật có li độ 4,8 cm thì tốc độ của vật là bao nhiêu cm/s?",
+   "answer_text": "32",
+   "explanation": "$|v| = \\omega\\sqrt{A^2 - x^2} = 5\\sqrt{64 - 23{,}04} = 5\\cdot 6{,}4 = 32$ cm/s."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "topic": "Động năng, thế năng, cơ năng",
+   "level": 2,
+   "stem": "Một vật nhỏ khối lượng 200 g dao động điều hòa với tần số góc 20 rad/s và biên độ 3 cm. Động năng cực đại của vật là bao nhiêu mJ?",
+   "answer_text": "36",
+   "explanation": "$W_{\\text{đ}\\max} = \\dfrac{1}{2}m\\omega^2A^2 = \\dfrac{1}{2}\\cdot 0{,}2\\cdot 400\\cdot 0{,}03^2 = 0{,}036$ J $= 36$ mJ."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "topic": "Dao động điều hòa",
+   "level": 3,
+   "stem": "Một vật dao động điều hòa với chu kì 1,2 s và biên độ $A$. Thời gian ngắn nhất để vật đi từ vị trí có li độ $x = A$ đến vị trí có li độ $x = \\dfrac{A}{2}$ là bao nhiêu giây?",
+   "answer_text": "0,2",
+   "explanation": "Dùng đường tròn pha: từ $x = A$ đến $x = A/2$ vectơ quay góc $\\dfrac{\\pi}{3}$, ứng với thời gian $\\dfrac{T}{6} = \\dfrac{1{,}2}{6} = 0{,}2$ s."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "topic": "Dao động tắt dần, cưỡng bức, cộng hưởng",
+   "level": 3,
+   "stem": "Một chiếc xe chạy trên con đường lát bê tông, cứ cách 12 m lại có một rãnh nhỏ giữa các tấm bê tông. Chu kì dao động riêng của khung xe trên các lò xo giảm xóc là 1,5 s. Xe bị xóc mạnh nhất khi chạy với tốc độ bao nhiêu km/h?",
+   "answer_text": "28,8",
+   "explanation": "Cộng hưởng khi thời gian xe đi hết 12 m bằng chu kì riêng: $v = \\dfrac{12}{1{,}5} = 8$ m/s $= 28{,}8$ km/h."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; các câu đã kiểm tra bằng Python: 9, 10, 11, 12, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28."
+}

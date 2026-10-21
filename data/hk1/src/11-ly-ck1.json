@@ -1,0 +1,439 @@
+{
+ "grade": 11,
+ "subject": "Vật lí",
+ "exam": "ck1",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 1 – Vật lí 11 (đề số 1)",
+ "scope": "Chương I Dao động (dao động điều hòa, vận tốc – gia tốc, năng lượng, dao động tắt dần, cưỡng bức, cộng hưởng); Chương II Sóng (mô tả sóng, sóng ngang – sóng dọc, sóng điện từ, giao thoa sóng, sóng dừng, đo tốc độ truyền âm)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 1,
+   "stem": "Một vật dao động điều hòa theo phương trình $x = A\\cos(\\omega t + \\varphi)$. Đại lượng $(\\omega t + \\varphi)$ được gọi là",
+   "options": [
+    "pha ban đầu của dao động.",
+    "pha của dao động tại thời điểm $t$.",
+    "tần số góc của dao động.",
+    "li độ của dao động."
+   ],
+   "answer": 1,
+   "explanation": "$(\\omega t+\\varphi)$ là pha dao động tại thời điểm $t$; $\\varphi$ là pha ban đầu, $\\omega$ là tần số góc."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 1,
+   "stem": "Một con lắc đơn có chiều dài $\\ell$ dao động nhỏ tại nơi có gia tốc trọng trường $g$. Chu kì dao động của con lắc là",
+   "options": [
+    "$T = 2\\pi\\sqrt{\\dfrac{g}{\\ell}}$.",
+    "$T = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{\\ell}{g}}$.",
+    "$T = \\sqrt{\\dfrac{\\ell}{g}}$.",
+    "$T = 2\\pi\\sqrt{\\dfrac{\\ell}{g}}$."
+   ],
+   "answer": 3,
+   "explanation": "Chu kì dao động nhỏ của con lắc đơn: $T = 2\\pi\\sqrt{\\dfrac{\\ell}{g}}$, không phụ thuộc khối lượng vật."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "topic": "Dao động tắt dần, cưỡng bức, cộng hưởng",
+   "level": 1,
+   "stem": "Một hệ dao động có tần số riêng $f_0$ chịu tác dụng của ngoại lực cưỡng bức tuần hoàn có tần số $f$. Biên độ dao động cưỡng bức của hệ lớn nhất khi",
+   "options": [
+    "$f = f_0$.",
+    "$f = 2f_0$.",
+    "$f = \\dfrac{f_0}{2}$.",
+    "$f$ rất lớn so với $f_0$."
+   ],
+   "answer": 0,
+   "explanation": "Biên độ dao động cưỡng bức đạt cực đại (cộng hưởng) khi tần số lực cưỡng bức bằng tần số riêng của hệ."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "topic": "Năng lượng trong dao động",
+   "level": 2,
+   "stem": "Một con lắc lò xo có độ cứng 80 N/m dao động điều hòa với biên độ 5 cm. Cơ năng của con lắc là",
+   "options": [
+    "0,2 J.",
+    "1000 J.",
+    "0,1 J.",
+    "2 J."
+   ],
+   "answer": 2,
+   "explanation": "$W = \\dfrac{1}{2}kA^2 = \\dfrac{1}{2}\\cdot 80\\cdot 0{,}05^2 = 0{,}1$ J (đổi 5 cm = 0,05 m)."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 2,
+   "stem": "Một vật dao động điều hòa với phương trình $x = 4\\cos(10t)$ (cm), $t$ tính bằng giây. Độ lớn gia tốc cực đại của vật là",
+   "options": [
+    "0,4 m/s².",
+    "4 m/s².",
+    "40 m/s².",
+    "400 m/s²."
+   ],
+   "answer": 1,
+   "explanation": "$a_{\\max} = \\omega^2A = 100\\cdot 4 = 400$ cm/s² $= 4$ m/s²."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 2,
+   "stem": "Tại cùng một nơi, nếu tăng chiều dài dây treo của con lắc đơn lên 4 lần thì chu kì dao động nhỏ của con lắc",
+   "options": [
+    "tăng 2 lần.",
+    "tăng 4 lần.",
+    "giảm 2 lần.",
+    "tăng 16 lần."
+   ],
+   "answer": 0,
+   "explanation": "$T \\sim \\sqrt{\\ell}$ nên $\\ell$ tăng 4 lần thì $T$ tăng $\\sqrt{4} = 2$ lần."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 3,
+   "stem": "Một vật dao động điều hòa có tốc độ cực đại 40 cm/s và độ lớn gia tốc cực đại 4 m/s². Biên độ dao động của vật là",
+   "options": [
+    "10 cm.",
+    "0,4 cm.",
+    "16 cm.",
+    "4 cm."
+   ],
+   "answer": 3,
+   "explanation": "$\\omega = \\dfrac{a_{\\max}}{v_{\\max}} = \\dfrac{400}{40} = 10$ rad/s; $A = \\dfrac{v_{\\max}}{\\omega} = \\dfrac{40}{10} = 4$ cm."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "topic": "Mô tả sóng",
+   "level": 1,
+   "stem": "Sóng cơ là",
+   "options": [
+    "sự chuyển động của các phần tử môi trường theo phương truyền sóng.",
+    "dao động của mọi điểm trong môi trường.",
+    "dao động cơ lan truyền trong một môi trường.",
+    "sự truyền chuyển động cơ trong chân không."
+   ],
+   "answer": 2,
+   "explanation": "Sóng cơ là dao động cơ lan truyền trong môi trường vật chất; các phần tử chỉ dao động quanh vị trí cân bằng, không bị cuốn theo sóng; sóng cơ không truyền được trong chân không."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "topic": "Sóng ngang, sóng dọc",
+   "level": 1,
+   "stem": "Sóng ngang là sóng có phương dao động của các phần tử môi trường",
+   "options": [
+    "vuông góc với phương truyền sóng.",
+    "trùng với phương truyền sóng.",
+    "luôn theo phương thẳng đứng.",
+    "luôn theo phương nằm ngang."
+   ],
+   "answer": 0,
+   "explanation": "Theo định nghĩa: sóng ngang có phương dao động vuông góc với phương truyền sóng; sóng dọc có phương dao động trùng với phương truyền sóng."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "topic": "Mô tả sóng",
+   "level": 1,
+   "stem": "Bước sóng là",
+   "options": [
+    "quãng đường sóng truyền được trong một giây.",
+    "quãng đường sóng truyền được trong một chu kì.",
+    "khoảng cách giữa hai điểm dao động ngược pha bất kì.",
+    "khoảng cách từ nguồn sóng đến điểm xa nhất có sóng."
+   ],
+   "answer": 1,
+   "explanation": "Bước sóng $\\lambda = vT$ là quãng đường sóng truyền trong một chu kì, cũng là khoảng cách giữa hai điểm gần nhau nhất trên phương truyền dao động cùng pha."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "topic": "Sóng điện từ",
+   "level": 1,
+   "stem": "Trong các bức xạ điện từ sau, bức xạ có bước sóng dài nhất là",
+   "options": [
+    "tia hồng ngoại.",
+    "ánh sáng nhìn thấy.",
+    "tia X.",
+    "sóng vô tuyến."
+   ],
+   "answer": 3,
+   "explanation": "Theo thang sóng điện từ, bước sóng giảm dần theo thứ tự: sóng vô tuyến, tia hồng ngoại, ánh sáng nhìn thấy, tia tử ngoại, tia X, tia gamma."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "topic": "Sóng dừng",
+   "level": 1,
+   "stem": "Khi có sóng dừng trên một sợi dây, khoảng cách giữa hai nút sóng liên tiếp bằng",
+   "options": [
+    "một bước sóng.",
+    "một phần tư bước sóng.",
+    "nửa bước sóng.",
+    "hai lần bước sóng."
+   ],
+   "answer": 2,
+   "explanation": "Hai nút (hoặc hai bụng) liên tiếp cách nhau $\\dfrac{\\lambda}{2}$; nút và bụng liền kề cách nhau $\\dfrac{\\lambda}{4}$."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "topic": "Mô tả sóng",
+   "level": 2,
+   "stem": "Một sóng cơ có tần số 50 Hz truyền trong một môi trường với bước sóng 4 cm. Tốc độ truyền sóng là",
+   "options": [
+    "2 m/s.",
+    "12,5 m/s.",
+    "0,08 m/s.",
+    "200 m/s."
+   ],
+   "answer": 0,
+   "explanation": "$v = \\lambda f = 0{,}04\\cdot 50 = 2$ m/s."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "topic": "Giao thoa sóng",
+   "level": 2,
+   "stem": "Trên mặt nước có hai nguồn kết hợp dao động cùng pha, phát sóng có bước sóng 2 cm. Điểm M trên mặt nước cách hai nguồn lần lượt 10 cm và 16 cm. Điểm M nằm trên",
+   "options": [
+    "đường cực tiểu giao thoa thứ 3.",
+    "đường cực đại giao thoa bậc 6.",
+    "đường cực tiểu giao thoa thứ 4.",
+    "đường cực đại giao thoa bậc 3."
+   ],
+   "answer": 3,
+   "explanation": "$d_2 - d_1 = 6$ cm $= 3\\lambda$, là số nguyên lần bước sóng nên M thuộc cực đại bậc $k = 3$."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Sóng điện từ",
+   "level": 2,
+   "stem": "Một đài phát thanh FM phát sóng điện từ có tần số 100 MHz. Lấy tốc độ ánh sáng $c = 3\\cdot 10^8$ m/s. Bước sóng của sóng này trong không khí (coi như chân không) là",
+   "options": [
+    "30 m.",
+    "3 m.",
+    "0,3 m.",
+    "300 m."
+   ],
+   "answer": 1,
+   "explanation": "$\\lambda = \\dfrac{c}{f} = \\dfrac{3\\cdot 10^8}{10^8} = 3$ m."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Giao thoa sóng",
+   "level": 2,
+   "stem": "Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là 1 mm, khoảng cách từ hai khe đến màn là 2 m, ánh sáng đơn sắc có bước sóng 0,6 μm. Khoảng cách từ vân sáng trung tâm đến vân sáng bậc 4 là",
+   "options": [
+    "1,2 mm.",
+    "2,4 mm.",
+    "4,8 mm.",
+    "5,4 mm."
+   ],
+   "answer": 2,
+   "explanation": "$i = \\dfrac{\\lambda D}{a} = \\dfrac{0{,}6\\cdot 10^{-6}\\cdot 2}{10^{-3}} = 1{,}2\\cdot 10^{-3}$ m $= 1{,}2$ mm; vân sáng bậc 4 cách vân trung tâm $4i = 4{,}8$ mm."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Sóng dừng",
+   "level": 3,
+   "stem": "Một sợi dây đàn hồi dài 1,2 m có hai đầu cố định. Khi trên dây có sóng dừng với 4 bụng sóng thì tần số dao động là 50 Hz. Tốc độ truyền sóng trên dây là",
+   "options": [
+    "30 m/s.",
+    "15 m/s.",
+    "60 m/s.",
+    "24 m/s."
+   ],
+   "answer": 0,
+   "explanation": "Hai đầu cố định: $\\ell = k\\dfrac{\\lambda}{2}$ với $k = 4$ bụng $\\Rightarrow \\lambda = \\dfrac{2\\cdot 1{,}2}{4} = 0{,}6$ m; $v = \\lambda f = 0{,}6\\cdot 50 = 30$ m/s."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Đo tốc độ truyền âm",
+   "level": 3,
+   "stem": "Trong giờ thực hành đo tốc độ truyền âm, một nhóm học sinh đặt âm thoa có tần số 440 Hz trên miệng một ống thủy tinh có một đầu kín (do mực nước), thay đổi chiều dài cột không khí trong ống. Hai vị trí liên tiếp nghe thấy âm to nhất ứng với chiều dài cột không khí chênh lệch nhau 38 cm. Tốc độ truyền âm trong không khí đo được là",
+   "options": [
+    "167,2 m/s.",
+    "668,8 m/s.",
+    "340,0 m/s.",
+    "334,4 m/s."
+   ],
+   "answer": 3,
+   "explanation": "Hai vị trí cộng hưởng liên tiếp cách nhau $\\dfrac{\\lambda}{2} = 38$ cm $\\Rightarrow \\lambda = 0{,}76$ m; $v = \\lambda f = 0{,}76\\cdot 440 = 334{,}4$ m/s."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "topic": "Dao động điều hòa",
+   "level": 2,
+   "stem": "Một vật dao động điều hòa với phương trình $x = 6\\cos\\left(4\\pi t - \\dfrac{\\pi}{2}\\right)$ (cm), $t$ tính bằng giây.",
+   "statements": [
+    {
+     "t": "Tần số dao động của vật là 2 Hz.",
+     "a": true
+    },
+    {
+     "t": "Tại thời điểm $t = 0$, vật đi qua vị trí cân bằng theo chiều âm.",
+     "a": false
+    },
+    {
+     "t": "Tốc độ cực đại của vật là $24\\pi$ cm/s.",
+     "a": true
+    },
+    {
+     "t": "Quãng đường vật đi được trong 0,125 s đầu tiên là 6 cm.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $f = \\dfrac{4\\pi}{2\\pi} = 2$ Hz. b) Sai: $x_0 = 0$, $v_0 = -24\\pi\\sin\\left(-\\dfrac{\\pi}{2}\\right) = 24\\pi > 0$ nên vật đi theo chiều dương. c) Đúng: $v_{\\max} = \\omega A = 24\\pi$ cm/s. d) Đúng: $T = 0{,}5$ s, 0,125 s $= \\dfrac{T}{4}$, vật đi từ vị trí cân bằng ra biên được $A = 6$ cm."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "topic": "Mô tả sóng",
+   "level": 2,
+   "stem": "Tại điểm O trên mặt nước yên lặng, một cần rung dao động với tần số 10 Hz tạo ra sóng tròn lan rộng. Người ta đo được khoảng cách giữa 5 gợn lồi liên tiếp trên cùng một phương truyền là 20 cm.",
+   "statements": [
+    {
+     "t": "Sóng trên mặt nước trong thí nghiệm này được xem là sóng ngang.",
+     "a": true
+    },
+    {
+     "t": "Bước sóng của sóng là 4 cm.",
+     "a": false
+    },
+    {
+     "t": "Tốc độ truyền sóng trên mặt nước là 50 cm/s.",
+     "a": true
+    },
+    {
+     "t": "Hai điểm trên cùng một phương truyền sóng cách nhau 7,5 cm dao động cùng pha.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: các phần tử nước dao động theo phương thẳng đứng, vuông góc với phương truyền. b) Sai: 5 gợn lồi liên tiếp ứng với $4\\lambda = 20$ cm nên $\\lambda = 5$ cm. c) Đúng: $v = \\lambda f = 5\\cdot 10 = 50$ cm/s. d) Sai: $\\Delta\\varphi = \\dfrac{2\\pi d}{\\lambda} = \\dfrac{2\\pi\\cdot 7{,}5}{5} = 3\\pi$ nên hai điểm dao động ngược pha."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "topic": "Giao thoa sóng",
+   "level": 3,
+   "stem": "Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là 0,5 mm, khoảng cách từ mặt phẳng chứa hai khe đến màn là 1,5 m, ánh sáng đơn sắc dùng trong thí nghiệm có bước sóng 0,5 μm.",
+   "statements": [
+    {
+     "t": "Tại vị trí chính giữa màn (vân trung tâm) là một vân sáng.",
+     "a": true
+    },
+    {
+     "t": "Khoảng vân trên màn là 1,5 mm.",
+     "a": true
+    },
+    {
+     "t": "Tại điểm M trên màn cách vân trung tâm 3,75 mm có một vân tối.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay ánh sáng trên bằng ánh sáng đơn sắc có bước sóng 0,6 μm (giữ nguyên các điều kiện khác) thì khoảng vân giảm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: hiệu đường đi tại tâm bằng 0. b) Đúng: $i = \\dfrac{\\lambda D}{a} = \\dfrac{0{,}5\\cdot 10^{-6}\\cdot 1{,}5}{0{,}5\\cdot 10^{-3}} = 1{,}5\\cdot 10^{-3}$ m. c) Đúng: $\\dfrac{x_M}{i} = 2{,}5$ (bán nguyên) nên M là vân tối thứ 3. d) Sai: $i$ tỉ lệ thuận với $\\lambda$, $\\lambda$ tăng thì $i$ tăng."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "topic": "Sóng dừng",
+   "level": 3,
+   "stem": "Một sợi dây AB dài 90 cm căng ngang, đầu B cố định, đầu A gắn với cần rung dao động với tần số 20 Hz (coi A là một nút sóng). Trên dây có sóng dừng với 3 bụng sóng.",
+   "statements": [
+    {
+     "t": "Hai đầu A và B của dây đều là nút sóng.",
+     "a": true
+    },
+    {
+     "t": "Bước sóng của sóng trên dây là 60 cm.",
+     "a": true
+    },
+    {
+     "t": "Tốc độ truyền sóng trên dây là 6 m/s.",
+     "a": false
+    },
+    {
+     "t": "Giữ nguyên tốc độ truyền sóng, muốn trên dây có sóng dừng với 5 bụng sóng thì tần số của cần rung phải xấp xỉ 33,3 Hz.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: B cố định là nút, A được coi là nút. b) Đúng: $\\ell = 3\\cdot\\dfrac{\\lambda}{2} \\Rightarrow \\lambda = 60$ cm. c) Sai: $v = \\lambda f = 0{,}6\\cdot 20 = 12$ m/s. d) Đúng: $f' = \\dfrac{5v}{2\\ell} = \\dfrac{5\\cdot 12}{1{,}8} \\approx 33{,}3$ Hz."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 1,
+   "stem": "Một con lắc lò xo dao động điều hòa với tần số 5 Hz. Chu kì dao động của con lắc là bao nhiêu giây?",
+   "answer_text": "0,2",
+   "explanation": "$T = \\dfrac{1}{f} = \\dfrac{1}{5} = 0{,}2$ s."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "topic": "Con lắc lò xo, con lắc đơn",
+   "level": 1,
+   "stem": "Một con lắc đơn có chiều dài dây treo 64 cm dao động nhỏ tại nơi có $g = \\pi^2$ m/s². Chu kì dao động của con lắc là bao nhiêu giây?",
+   "answer_text": "1,6",
+   "explanation": "$T = 2\\pi\\sqrt{\\dfrac{\\ell}{g}} = 2\\pi\\sqrt{\\dfrac{0{,}64}{\\pi^2}} = 2\\cdot 0{,}8 = 1{,}6$ s."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "topic": "Mô tả sóng",
+   "level": 1,
+   "stem": "Một sóng âm có tần số 680 Hz truyền trong không khí với tốc độ 340 m/s. Bước sóng của sóng âm này là bao nhiêu mét?",
+   "answer_text": "0,5",
+   "explanation": "$\\lambda = \\dfrac{v}{f} = \\dfrac{340}{680} = 0{,}5$ m."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "topic": "Mô tả sóng",
+   "level": 2,
+   "stem": "Một nguồn âm điểm phát sóng âm đều theo mọi hướng với công suất 3 W. Bỏ qua sự hấp thụ âm của môi trường. Cường độ âm tại điểm cách nguồn 2 m là bao nhiêu W/m² (làm tròn đến hàng phần trăm)?",
+   "answer_text": "0,06",
+   "explanation": "Năng lượng phân bố đều trên mặt cầu bán kính $r$: $I = \\dfrac{P}{4\\pi r^2} = \\dfrac{3}{4\\pi\\cdot 2^2} \\approx 0{,}0597 \\approx 0{,}06$ W/m²."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "topic": "Giao thoa sóng",
+   "level": 3,
+   "stem": "Trên mặt nước có hai nguồn kết hợp A và B cách nhau 10 cm, dao động cùng pha, phát sóng có bước sóng 3 cm. Trên đoạn thẳng AB có bao nhiêu điểm dao động với biên độ cực đại (không tính A và B)?",
+   "answer_text": "7",
+   "explanation": "Cực đại: $d_2 - d_1 = k\\lambda$ với $-AB < k\\lambda < AB \\Rightarrow -3{,}33 < k < 3{,}33 \\Rightarrow k = -3, \\dots, 3$: có 7 điểm."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "topic": "Sóng dừng",
+   "level": 3,
+   "stem": "Một dây đàn guitar dài 65 cm giữa hai điểm cố định. Khi gảy, dây phát âm cơ bản (trên dây có sóng dừng với 1 bụng sóng) có tần số 196 Hz. Tốc độ truyền sóng trên dây là bao nhiêu m/s (làm tròn đến hàng đơn vị)?",
+   "answer_text": "255",
+   "explanation": "Âm cơ bản: $\\ell = \\dfrac{\\lambda}{2} \\Rightarrow \\lambda = 1{,}3$ m; $v = \\lambda f = 1{,}3\\cdot 196 = 254{,}8 \\approx 255$ m/s."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; các câu đã kiểm tra bằng Python: 4, 5, 7, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28."
+}
