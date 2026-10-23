@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "Tin học",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – Tin học 12",
+ "scope": "Định dạng trang web với CSS: cú pháp, cách nhúng CSS, bộ chọn (phần tử, lớp, id, nhóm, con cháu, lớp giả), thuộc tính màu sắc, văn bản, mô hình hộp, đường viền, tính kế thừa và độ ưu tiên.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Giới thiệu CSS",
+   "level": 1,
+   "stem": "CSS là viết tắt của",
+   "options": [
+    "Creative Style System",
+    "Computer Style Sheets",
+    "Colorful Style Sheets",
+    "Cascading Style Sheets"
+   ],
+   "answer": 3,
+   "explanation": "CSS (Cascading Style Sheets – bảng định kiểu xếp chồng) dùng để định dạng cách hiển thị các phần tử HTML."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Cú pháp CSS",
+   "level": 1,
+   "stem": "Một mẫu định dạng CSS có cấu trúc chung là",
+   "options": [
+    "bộ_chọn ( thuộc_tính = giá_trị )",
+    "bộ_chọn { thuộc_tính: giá_trị; }",
+    "<bộ_chọn thuộc_tính=\"giá_trị\">",
+    "thuộc_tính { bộ_chọn: giá_trị; }"
+   ],
+   "answer": 1,
+   "explanation": "Mẫu CSS gồm bộ chọn và khối khai báo trong cặp ngoặc nhọn; mỗi khai báo có dạng thuộc_tính: giá_trị; ."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng màu sắc",
+   "level": 1,
+   "stem": "Thuộc tính CSS nào dùng để đặt màu chữ?",
+   "options": [
+    "font-color",
+    "color",
+    "text-color",
+    "background-color"
+   ],
+   "answer": 1,
+   "explanation": "color đặt màu chữ; background-color đặt màu nền; font-color và text-color không phải thuộc tính CSS."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng màu sắc",
+   "level": 1,
+   "stem": "Thuộc tính CSS nào dùng để đặt màu nền cho phần tử?",
+   "options": [
+    "color",
+    "bgcolor",
+    "background-color",
+    "border-color"
+   ],
+   "answer": 2,
+   "explanation": "background-color quy định màu nền; border-color là màu viền; bgcolor là thuộc tính HTML cũ, không phải CSS."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng văn bản",
+   "level": 1,
+   "stem": "Thuộc tính CSS nào quy định cỡ chữ?",
+   "options": [
+    "font-family",
+    "font-weight",
+    "text-size",
+    "font-size"
+   ],
+   "answer": 3,
+   "explanation": "font-size đặt cỡ chữ; font-family đặt phông chữ; font-weight đặt độ đậm."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Bộ chọn lớp và định danh",
+   "level": 1,
+   "stem": "Trong CSS, bộ chọn lớp (class) và bộ chọn định danh (id) lần lượt bắt đầu bằng kí tự nào?",
+   "options": [
+    "dấu thăng (#) và dấu chấm (.)",
+    "dấu chấm (.) và dấu thăng (#)",
+    "dấu sao (*) và dấu chấm (.)",
+    "dấu hai chấm (:) và dấu thăng (#)"
+   ],
+   "answer": 1,
+   "explanation": "Ví dụ .note { … } áp dụng cho các phần tử có class=\"note\"; #menu { … } áp dụng cho phần tử có id=\"menu\"."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Các cách nhúng CSS",
+   "level": 1,
+   "stem": "Để liên kết trang HTML với tệp CSS bên ngoài style.css, ta đặt trong phần <head> thẻ",
+   "options": [
+    "<style src=\"style.css\">",
+    "<link rel=\"stylesheet\" href=\"style.css\">",
+    "<css href=\"style.css\">",
+    "<script src=\"style.css\"></script>"
+   ],
+   "answer": 1,
+   "explanation": "Thẻ <link> với rel=\"stylesheet\" và href trỏ tới tệp CSS dùng để nhúng CSS ngoài."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng văn bản",
+   "level": 1,
+   "stem": "Khai báo CSS nào căn giữa nội dung văn bản trong một đoạn?",
+   "options": [
+    "align: middle;",
+    "text-align: middle;",
+    "text-align: center;",
+    "font-align: center;"
+   ],
+   "answer": 2,
+   "explanation": "Thuộc tính text-align căn lề văn bản với các giá trị left, right, center, justify."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Mô hình hộp",
+   "level": 1,
+   "stem": "Trong mô hình hộp CSS, khoảng cách giữa nội dung và đường viền của phần tử được quy định bởi thuộc tính",
+   "options": [
+    "padding",
+    "margin",
+    "border",
+    "spacing"
+   ],
+   "answer": 0,
+   "explanation": "padding là vùng đệm bên trong viền; margin là lề bên ngoài viền."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Mô hình hộp",
+   "level": 2,
+   "stem": "Thứ tự các thành phần của mô hình hộp CSS, tính từ trong ra ngoài là",
+   "options": [
+    "content → margin → border → padding",
+    "margin → border → padding → content",
+    "content → border → padding → margin",
+    "content → padding → border → margin"
+   ],
+   "answer": 3,
+   "explanation": "Trong cùng là nội dung, tiếp đến vùng đệm (padding), đường viền (border) và ngoài cùng là lề (margin)."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Bộ chọn CSS",
+   "level": 2,
+   "stem": "Mẫu định dạng h1, h2 { color: red; } có tác dụng",
+   "options": [
+    "chỉ đặt màu đỏ cho phần tử h2 nằm trong h1",
+    "chỉ đặt màu đỏ cho phần tử h1 đầu tiên và h2 đầu tiên",
+    "đặt màu chữ đỏ cho mọi phần tử h1 và mọi phần tử h2",
+    "báo lỗi vì một mẫu chỉ có một bộ chọn"
+   ],
+   "answer": 2,
+   "explanation": "Dấu phẩy nhóm nhiều bộ chọn để dùng chung một khối định dạng."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Bộ chọn CSS",
+   "level": 2,
+   "stem": "Mẫu định dạng div p { font-style: italic; } áp dụng cho",
+   "options": [
+    "mọi phần tử p nằm bên trong (là con cháu của) một phần tử div",
+    "mọi phần tử div và mọi phần tử p",
+    "phần tử div nằm bên trong phần tử p",
+    "chỉ phần tử p đứng ngay sau div"
+   ],
+   "answer": 0,
+   "explanation": "Hai bộ chọn cách nhau bởi dấu cách là bộ chọn con cháu (descendant): chọn p ở bất kì cấp nào bên trong div."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Độ ưu tiên trong CSS",
+   "level": 2,
+   "stem": "Khi nhiều mẫu CSS cùng áp dụng cho một phần tử và mâu thuẫn nhau, thứ tự ưu tiên từ cao đến thấp là",
+   "options": [
+    "bộ chọn phần tử → bộ chọn lớp → bộ chọn id → CSS nội tuyến",
+    "bộ chọn lớp → bộ chọn id → CSS nội tuyến → bộ chọn phần tử",
+    "CSS nội tuyến (thuộc tính style) → bộ chọn id → bộ chọn lớp → bộ chọn phần tử",
+    "bộ chọn id → CSS nội tuyến → bộ chọn phần tử → bộ chọn lớp"
+   ],
+   "answer": 2,
+   "explanation": "Độ ưu tiên (specificity): style nội tuyến cao nhất, rồi id, rồi lớp, cuối cùng là tên phần tử."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Độ ưu tiên trong CSS",
+   "level": 2,
+   "stem": "Cho đoạn CSS:\np { color: blue; }\np { color: red; }\nĐoạn văn <p>Xin chào</p> sẽ có màu chữ",
+   "options": [
+    "xanh dương",
+    "đen (mặc định)",
+    "đỏ",
+    "tím (pha trộn hai màu)"
+   ],
+   "answer": 2,
+   "explanation": "Hai mẫu có cùng độ ưu tiên thì mẫu viết sau ghi đè mẫu viết trước, nên chữ màu đỏ."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Mô hình hộp",
+   "level": 2,
+   "stem": "Khai báo margin: 10px 20px; đặt lề cho phần tử như thế nào?",
+   "options": [
+    "Lề trên và dưới 10px, lề trái và phải 20px",
+    "Lề trên 10px, lề dưới 20px",
+    "Lề trái 10px, lề phải 20px",
+    "Lề trên và dưới 20px, lề trái và phải 10px"
+   ],
+   "answer": 0,
+   "explanation": "Với hai giá trị, giá trị thứ nhất cho trên – dưới, giá trị thứ hai cho phải – trái."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng văn bản",
+   "level": 2,
+   "stem": "Để in đậm chữ trong các phần tử có class=\"chu-y\", ta viết",
+   "options": [
+    "#chu-y { font-weight: bold; }",
+    ".chu-y { font-style: bold; }",
+    "chu-y { text-weight: bold; }",
+    ".chu-y { font-weight: bold; }"
+   ],
+   "answer": 3,
+   "explanation": "Bộ chọn lớp bắt đầu bằng dấu chấm; độ đậm của chữ dùng thuộc tính font-weight."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Độ ưu tiên trong CSS",
+   "level": 3,
+   "stem": "Cho đoạn HTML và CSS:\n<p class=\"a\" id=\"b\">Tin học 12</p>\n\np { color: blue; }\n#b { color: green; }\n.a { color: red; }\nDòng chữ \"Tin học 12\" hiển thị màu",
+   "options": [
+    "đỏ (red)",
+    "xanh lá (green)",
+    "xanh dương (blue)",
+    "đen (mặc định)"
+   ],
+   "answer": 1,
+   "explanation": "Cả ba mẫu đều áp dụng cho phần tử; bộ chọn id (#b) có độ ưu tiên cao nhất nên màu là green, dù .a viết sau."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Mô hình hộp",
+   "level": 3,
+   "stem": "Cho mẫu CSS (box-sizing mặc định là content-box):\n.hop {\n  width: 200px;\n  padding: 10px;\n  border: 2px solid black;\n  margin: 5px;\n}\nChiều rộng hiển thị của hộp tính đến hết đường viền (không kể margin) là",
+   "options": [
+    "200px",
+    "234px",
+    "214px",
+    "224px"
+   ],
+   "answer": 3,
+   "explanation": "Với content-box, width chỉ là phần nội dung: 200 + 2 × 10 (padding) + 2 × 2 (border) = 224px. Nếu tính cả margin thì chiếm 234px."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Lớp giả (pseudo-class)",
+   "level": 3,
+   "stem": "Mẫu định dạng a:hover { color: orange; } có tác dụng",
+   "options": [
+    "đổi màu chữ của liên kết thành cam khi di chuột lên liên kết",
+    "đổi màu mọi liên kết thành cam ngay khi tải trang",
+    "đổi màu liên kết đã được truy cập",
+    "đổi màu liên kết khi nhấn phím Tab"
+   ],
+   "answer": 0,
+   "explanation": "Lớp giả :hover áp dụng khi con trỏ chuột đang di chuyển trên phần tử."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Tính kế thừa",
+   "level": 3,
+   "stem": "Cho CSS:\nbody { color: navy; font-family: Arial; }\nh1 { color: maroon; }\nTrong trang có <h1>Tiêu đề</h1> và <p>Đoạn văn</p>. Nhận xét nào đúng?",
+   "options": [
+    "h1 và p đều có chữ màu navy",
+    "h1 có màu maroon nhưng không dùng phông Arial",
+    "h1 có chữ màu maroon, phông Arial; p có chữ màu navy, phông Arial",
+    "p dùng phông mặc định vì không có mẫu riêng cho p"
+   ],
+   "answer": 2,
+   "explanation": "Các thuộc tính chữ như color, font-family được kế thừa từ body; h1 có mẫu riêng ghi đè màu thành maroon nhưng vẫn kế thừa phông Arial."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Độ ưu tiên trong CSS",
+   "level": 3,
+   "stem": "Cho HTML: <p id=\"x\" style=\"color: red;\">Chào</p> và CSS: #x { color: blue; }\nDòng chữ \"Chào\" có màu",
+   "options": [
+    "đỏ",
+    "xanh dương",
+    "đen (mặc định)",
+    "không hiển thị"
+   ],
+   "answer": 0,
+   "explanation": "CSS nội tuyến (thuộc tính style) có độ ưu tiên cao hơn bộ chọn id."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Đường viền",
+   "level": 2,
+   "stem": "Khai báo border: 1px solid black; tạo cho phần tử",
+   "options": [
+    "đường viền nét đứt, dày 1px, màu đen",
+    "đường viền liền nét, dày 1px, màu đen",
+    "nền đen có lề 1px",
+    "đường gạch chân màu đen"
+   ],
+   "answer": 1,
+   "explanation": "Thuộc tính viết tắt border gồm độ dày, kiểu đường (solid = liền nét, dashed = nét đứt, dotted = chấm) và màu."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Các cách nhúng CSS",
+   "level": 2,
+   "stem": "Cách nào sau đây KHÔNG phải là cách đưa CSS vào trang web?",
+   "options": [
+    "Dùng thuộc tính style trong thẻ HTML",
+    "Viết CSS trong thẻ <style> ở phần <head>",
+    "Liên kết tới tệp .css bên ngoài bằng thẻ <link>",
+    "Viết CSS trong thẻ <title>"
+   ],
+   "answer": 3,
+   "explanation": "Có ba cách: nội tuyến (style), CSS trong (thẻ <style>), CSS ngoài (thẻ <link>). Thẻ <title> chỉ chứa tiêu đề trang."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Bộ chọn lớp và định danh",
+   "level": 3,
+   "stem": "Cho HTML:\n<p class=\"note\">A</p>\n<div class=\"note\">B</div>\n<p>C</p>\nvà CSS: p.note { color: red; }\nNhững nội dung nào có màu đỏ?",
+   "options": [
+    "Chỉ A",
+    "A và B",
+    "A và C",
+    "A, B và C"
+   ],
+   "answer": 0,
+   "explanation": "p.note chọn phần tử p có class note: chỉ A. B là div nên không được chọn; C không có class note."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Bộ chọn lớp và định danh",
+   "level": 2,
+   "stem": "Cho đoạn HTML và CSS:\n<h2 id=\"tieude\">Bảng tin</h2>\n<p class=\"tin\">Tin 1</p>\n<p class=\"tin moi\">Tin 2</p>\n\n#tieude { color: blue; }\n.tin { font-size: 14px; }\n.moi { color: red; }",
+   "statements": [
+    {
+     "t": "Tiêu đề \"Bảng tin\" có màu xanh dương.",
+     "a": true
+    },
+    {
+     "t": "Cả \"Tin 1\" và \"Tin 2\" đều có cỡ chữ 14px.",
+     "a": true
+    },
+    {
+     "t": "\"Tin 1\" có chữ màu đỏ.",
+     "a": false
+    },
+    {
+     "t": "Một phần tử chỉ được gán đúng một lớp nên khai báo class=\"tin moi\" là sai.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: bộ chọn id #tieude. b) Đúng: cả hai đoạn có lớp tin. c) Sai: chỉ phần tử có lớp moi (Tin 2) màu đỏ. d) Sai: một phần tử có thể có nhiều lớp, cách nhau bởi dấu cách."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Mô hình hộp",
+   "level": 2,
+   "stem": "Cho mẫu CSS:\n.the {\n  width: 300px;\n  padding: 20px;\n  border: 4px dashed gray;\n  margin: 10px auto;\n  background-color: lightyellow;\n}",
+   "statements": [
+    {
+     "t": "Màu nền lightyellow phủ cả vùng nội dung và vùng padding.",
+     "a": true
+    },
+    {
+     "t": "Đường viền của phần tử là nét liền.",
+     "a": false
+    },
+    {
+     "t": "Với box-sizing mặc định (content-box), tổng chiều rộng tính đến hết viền là 348px.",
+     "a": true
+    },
+    {
+     "t": "margin: 10px auto; làm lề trên – dưới 10px và giúp căn giữa khối theo chiều ngang.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: theo mặc định, màu nền phủ vùng nội dung, vùng padding (và cả phần dưới đường viền), không phủ margin. b) Sai: dashed là nét đứt. c) Đúng: 300 + 2 × 20 + 2 × 4 = 348px. d) Đúng: lề trái – phải auto căn giữa phần tử khối có width xác định."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Độ ưu tiên trong CSS",
+   "level": 3,
+   "stem": "Cho đoạn HTML và CSS:\n<div id=\"menu\">\n  <a class=\"muc\" href=\"#\">Trang chủ</a>\n</div>\n\na { color: black; }\n.muc { color: green; }\n#menu a { color: purple; }",
+   "statements": [
+    {
+     "t": "Liên kết \"Trang chủ\" có màu tím (purple).",
+     "a": true
+    },
+    {
+     "t": "Nếu xóa mẫu #menu a thì liên kết có màu xanh lá (green).",
+     "a": true
+    },
+    {
+     "t": "Mẫu .muc có độ ưu tiên cao hơn mẫu #menu a vì nhắm trực tiếp vào phần tử.",
+     "a": false
+    },
+    {
+     "t": "Nếu thêm style=\"color: orange;\" vào thẻ <a> thì liên kết có màu cam.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: #menu a chứa bộ chọn id nên có độ ưu tiên cao nhất trong ba mẫu. b) Đúng: khi đó .muc (lớp) thắng a (phần tử). c) Sai: độ ưu tiên tính theo loại bộ chọn, id cao hơn lớp. d) Đúng: CSS nội tuyến có độ ưu tiên cao hơn mọi bộ chọn trong tệp CSS."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng văn bản",
+   "level": 3,
+   "stem": "Bạn Lan viết CSS cho trang giới thiệu lớp:\nbody { font-family: Arial, sans-serif; }\nh1 { text-align: center; text-transform: uppercase; }\na { text-decoration: none; }\np { line-height: 1.5; }",
+   "statements": [
+    {
+     "t": "Nếu máy không có phông Arial, trình duyệt dùng một phông sans-serif thay thế.",
+     "a": true
+    },
+    {
+     "t": "Tiêu đề h1 được căn giữa và hiển thị bằng chữ in hoa.",
+     "a": true
+    },
+    {
+     "t": "Các liên kết vẫn có gạch chân như mặc định.",
+     "a": false
+    },
+    {
+     "t": "Chiều cao mỗi dòng trong đoạn văn bằng 1,5 lần cỡ chữ.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: font-family liệt kê các phông theo thứ tự dự phòng. b) Đúng: text-align: center và text-transform: uppercase. c) Sai: text-decoration: none bỏ gạch chân. d) Đúng: line-height không đơn vị là bội số của cỡ chữ."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; các câu CSS (độ ưu tiên, kế thừa, mô hình hộp) đã lập luận lại theo quy tắc specificity và box-sizing, phép tính kích thước hộp đã kiểm lại bằng Python; câu học máy/ nghề nghiệp đối chiếu nội dung SGK Tin học 12 KNTT; phân bố đáp án A/B/C/D đã cân đối."
+}

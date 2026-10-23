@@ -1,0 +1,647 @@
+{
+ "grade": 12,
+ "subject": "Tiếng Anh",
+ "exam": "gk2",
+ "duration_min": 60,
+ "title": "Đề ôn giữa học kì 2 – Tiếng Anh 12 (đề số 1)",
+ "scope": "Global Success 12: Unit 6 Artificial intelligence; Unit 7 The world of mass media; Unit 8 Wildlife conservation (ngữ pháp: thể nhờ vả chủ động – bị động, cụm động từ, câu tường thuật)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "$\\underline{\\text{ch}}$atbot",
+    "te$\\underline{\\text{ch}}$nology",
+    "$\\underline{\\text{ch}}$aracter",
+    "me$\\underline{\\text{ch}}$anical"
+   ],
+   "answer": 0,
+   "explanation": "“chatbot” có “ch” đọc /tʃ/; “technology”, “mechanical”, “character” có “ch” đọc /k/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "connect$\\underline{\\text{ed}}$",
+    "automat$\\underline{\\text{ed}}$",
+    "publish$\\underline{\\text{ed}}$",
+    "download$\\underline{\\text{ed}}$"
+   ],
+   "answer": 2,
+   "explanation": "“published” tận cùng âm vô thanh /ʃ/ → “-ed” đọc /t/; “automated”, “connected”, “downloaded” tận cùng /t/, /d/ → đọc /ɪd/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "robot",
+    "replace",
+    "headline",
+    "media"
+   ],
+   "answer": 1,
+   "explanation": "“replace” /rɪˈpleɪs/ nhấn âm 2; “robot”, “media”, “headline” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "artificial",
+    "intelligence",
+    "photography",
+    "technology"
+   ],
+   "answer": 0,
+   "explanation": "“artificial” /ˌɑːtɪˈfɪʃl/ nhấn âm 3; “intelligence” /ɪnˈtelɪdʒəns/, “technology” /tekˈnɒlədʒi/, “photography” /fəˈtɒɡrəfi/ nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Artificial intelligence – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n______ intelligence allows computers to perform tasks that normally require human intelligence.",
+   "options": [
+    "Physical",
+    "Artistic",
+    "Artificial",
+    "Natural"
+   ],
+   "answer": 2,
+   "explanation": "“Artificial intelligence” (AI) = trí tuệ nhân tạo."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Artificial intelligence – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nA ______ is a computer program that can talk with people through text or voice.",
+   "options": [
+    "website",
+    "keyboard",
+    "laptop",
+    "chatbot"
+   ],
+   "answer": 3,
+   "explanation": "chatbot = chương trình máy tính trò chuyện với con người."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Artificial intelligence – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nSome people worry that robots will ______ humans in many jobs.",
+   "options": [
+    "retire",
+    "remove",
+    "repair",
+    "replace"
+   ],
+   "answer": 3,
+   "explanation": "replace = thay thế; robot có thể thay thế con người trong nhiều công việc."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: The world of mass media – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nFake news can spread very quickly on ______ media.",
+   "options": [
+    "society",
+    "social",
+    "sociable",
+    "socially"
+   ],
+   "answer": 1,
+   "explanation": "“social media” = mạng xã hội; trước danh từ “media” cần tính từ “social”."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: The world of mass media – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nBefore you share a news article, you should check whether its ______ is reliable.",
+   "options": [
+    "force",
+    "course",
+    "sauce",
+    "source"
+   ],
+   "answer": 3,
+   "explanation": "source = nguồn tin; cần kiểm tra nguồn tin có đáng tin cậy không."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: The world of mass media – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe newspaper's ______ caught my attention: “Robots to teach in schools by 2030”.",
+   "options": [
+    "timeline",
+    "deadline",
+    "guideline",
+    "headline"
+   ],
+   "answer": 3,
+   "explanation": "headline = tiêu đề (bài báo); deadline = hạn chót, guideline = hướng dẫn."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: Wildlife conservation – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nRhinos are ______ for their horns, which are sold illegally.",
+   "options": [
+    "poached",
+    "poacher",
+    "poaching",
+    "poach"
+   ],
+   "answer": 0,
+   "explanation": "Bị động “be poached” = bị săn trộm."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: Wildlife conservation – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nMany species are in danger of ______ because of habitat loss.",
+   "options": [
+    "distinction",
+    "extinction",
+    "extinguish",
+    "extinct"
+   ],
+   "answer": 1,
+   "explanation": "Sau giới từ “of” cần danh từ: in danger of extinction (có nguy cơ tuyệt chủng)."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Active and passive causatives",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nI had my laptop ______ by a technician yesterday.",
+   "options": [
+    "repairing",
+    "repair",
+    "repaired",
+    "to repair"
+   ],
+   "answer": 2,
+   "explanation": "Thể nhờ vả bị động: have + vật + V3 (+ by sb) → had my laptop repaired."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Active and passive causatives",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nOur teacher had us ______ an essay about the benefits and risks of AI.",
+   "options": [
+    "to write",
+    "writing",
+    "written",
+    "write"
+   ],
+   "answer": 3,
+   "explanation": "Thể nhờ vả chủ động với “have”: have + người + V nguyên mẫu → had us write."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Active and passive causatives",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nWe are going to get our smart home system ______ next week.",
+   "options": [
+    "install",
+    "to install",
+    "installed",
+    "installing"
+   ],
+   "answer": 2,
+   "explanation": "Thể nhờ vả bị động: get + vật + V3 → get our system installed."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7 – Grammar: Phrasal verbs",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nCould you ______ the TV? I can't hear the news clearly.",
+   "options": [
+    "turn over",
+    "turn off",
+    "turn up",
+    "turn down"
+   ],
+   "answer": 2,
+   "explanation": "turn up = vặn to (âm lượng); không nghe rõ nên cần vặn to."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7 – Grammar: Phrasal verbs",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nI ______ an interesting article about AI while I was reading the newspaper.",
+   "options": [
+    "came over",
+    "came across",
+    "came up",
+    "came back"
+   ],
+   "answer": 1,
+   "explanation": "come across = tình cờ thấy/ gặp."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7 – Grammar: Phrasal verbs",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nMany young people have ______ reading printed newspapers and now get their news online.",
+   "options": [
+    "given in",
+    "given up",
+    "given out",
+    "given away"
+   ],
+   "answer": 1,
+   "explanation": "give up + V-ing = từ bỏ; give in = nhượng bộ, give out = phân phát, give away = cho đi."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Unit 8 – Grammar: Reported speech",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nThe ranger told us ______ the animals.",
+   "options": [
+    "not to feed",
+    "not feed",
+    "to not feeding",
+    "don't feed"
+   ],
+   "answer": 0,
+   "explanation": "Tường thuật mệnh lệnh phủ định: tell sb not to + V."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Unit 8 – Grammar: Reported speech",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nThe tourist asked the guide ______.",
+   "options": [
+    "how many elephants lived in the park",
+    "how many did elephants live in the park",
+    "how many elephants did live in the park",
+    "how many elephants do live in the park"
+   ],
+   "answer": 0,
+   "explanation": "Câu hỏi tường thuật dùng trật tự câu khẳng định (không đảo trợ động từ) và lùi thì: how many elephants lived in the park."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nStudent: “Can you show me how to use this AI app?”\nTeacher: “______”",
+   "options": [
+    "You're welcome.",
+    "No, I don't.",
+    "Yes, I can't.",
+    "Sure. Just type your question here."
+   ],
+   "answer": 3,
+   "explanation": "Đáp lại lời nhờ giúp → đồng ý và hướng dẫn: “Sure. Just type your question here.”"
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nMinh: “I think AI will make our lives much easier.”\nLan: “______”",
+   "options": [
+    "Thanks a lot.",
+    "That's true, but it also brings some risks.",
+    "Yes, please.",
+    "Never mind."
+   ],
+   "answer": 1,
+   "explanation": "Đáp lại một nhận định → đồng ý một phần và bổ sung ý kiến."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Minh: Where did you read it?\nb. Lan: I've just read that all motorbikes will be banned in the city next month.\nc. Lan: On a page someone shared on social media.\nd. Minh: Hmm, you should check reliable news websites. It could be fake news.",
+   "options": [
+    "b – c – a – d",
+    "b – a – c – d",
+    "a – c – b – d",
+    "b – d – a – c"
+   ],
+   "answer": 1,
+   "explanation": "Lan đưa tin (b) → Minh hỏi đọc ở đâu (a) → Lan trả lời trên mạng xã hội (c) → Minh khuyên kiểm tra, có thể là tin giả (d)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. However, AI also raises concerns about job losses and privacy.\nb. For instance, it can help doctors detect diseases earlier and more accurately.\nc. Artificial intelligence is changing many areas of our lives.\nd. Therefore, we need clear rules to make sure it is used responsibly.",
+   "options": [
+    "c – b – a – d",
+    "c – b – d – a",
+    "b – c – a – d",
+    "c – a – b – d"
+   ],
+   "answer": 0,
+   "explanation": "Câu chủ đề (c) → ví dụ lợi ích “For instance” (b) → mặt trái “However” (a) → kết luận “Therefore” (d)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Wildlife conservation)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nWildlife conservation is the protection of wild animals and their habitats. Today, many species are (25) ______ the verge of extinction because of human activities. Forests are cut (26) ______ to make room for farms and cities, so animals lose their homes. In addition, illegal (27) ______ kill thousands of elephants and rhinos every year for their ivory and horns. Conservationists have warned that if nothing (28) ______, many species will disappear forever. In Viet Nam, a wildlife rescue centre recently asked visitors (29) ______ buying products made from wild animals. The centre's director also (30) ______ that every person could help by spreading the message.\n\nBlank (25):",
+   "options": [
+    "to",
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 1,
+   "explanation": "Cụm cố định “on the verge of” = bên bờ vực."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Wildlife conservation)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nWildlife conservation is the protection of wild animals and their habitats. Today, many species are (25) ______ the verge of extinction because of human activities. Forests are cut (26) ______ to make room for farms and cities, so animals lose their homes. In addition, illegal (27) ______ kill thousands of elephants and rhinos every year for their ivory and horns. Conservationists have warned that if nothing (28) ______, many species will disappear forever. In Viet Nam, a wildlife rescue centre recently asked visitors (29) ______ buying products made from wild animals. The centre's director also (30) ______ that every person could help by spreading the message.\n\nBlank (26):",
+   "options": [
+    "out",
+    "off",
+    "up",
+    "down"
+   ],
+   "answer": 3,
+   "explanation": "cut down (trees/forests) = chặt hạ."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Wildlife conservation)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nWildlife conservation is the protection of wild animals and their habitats. Today, many species are (25) ______ the verge of extinction because of human activities. Forests are cut (26) ______ to make room for farms and cities, so animals lose their homes. In addition, illegal (27) ______ kill thousands of elephants and rhinos every year for their ivory and horns. Conservationists have warned that if nothing (28) ______, many species will disappear forever. In Viet Nam, a wildlife rescue centre recently asked visitors (29) ______ buying products made from wild animals. The centre's director also (30) ______ that every person could help by spreading the message.\n\nBlank (27):",
+   "options": [
+    "poachers",
+    "poached",
+    "poach",
+    "poaching"
+   ],
+   "answer": 0,
+   "explanation": "Sau tính từ “illegal” và làm chủ ngữ của “kill” (số nhiều) → danh từ chỉ người số nhiều: poachers."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Wildlife conservation)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nWildlife conservation is the protection of wild animals and their habitats. Today, many species are (25) ______ the verge of extinction because of human activities. Forests are cut (26) ______ to make room for farms and cities, so animals lose their homes. In addition, illegal (27) ______ kill thousands of elephants and rhinos every year for their ivory and horns. Conservationists have warned that if nothing (28) ______, many species will disappear forever. In Viet Nam, a wildlife rescue centre recently asked visitors (29) ______ buying products made from wild animals. The centre's director also (30) ______ that every person could help by spreading the message.\n\nBlank (28):",
+   "options": [
+    "is done",
+    "was done",
+    "does",
+    "will be done"
+   ],
+   "answer": 0,
+   "explanation": "Mệnh đề chính “will disappear” → điều kiện loại 1, nội dung vẫn đúng ở hiện tại nên không lùi thì; “nothing” chịu tác động → bị động hiện tại đơn: is done."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Wildlife conservation)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nWildlife conservation is the protection of wild animals and their habitats. Today, many species are (25) ______ the verge of extinction because of human activities. Forests are cut (26) ______ to make room for farms and cities, so animals lose their homes. In addition, illegal (27) ______ kill thousands of elephants and rhinos every year for their ivory and horns. Conservationists have warned that if nothing (28) ______, many species will disappear forever. In Viet Nam, a wildlife rescue centre recently asked visitors (29) ______ buying products made from wild animals. The centre's director also (30) ______ that every person could help by spreading the message.\n\nBlank (29):",
+   "options": [
+    "to avoid",
+    "avoided",
+    "avoiding",
+    "avoid"
+   ],
+   "answer": 0,
+   "explanation": "Tường thuật lời yêu cầu: ask sb to + V → asked visitors to avoid."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Wildlife conservation)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nWildlife conservation is the protection of wild animals and their habitats. Today, many species are (25) ______ the verge of extinction because of human activities. Forests are cut (26) ______ to make room for farms and cities, so animals lose their homes. In addition, illegal (27) ______ kill thousands of elephants and rhinos every year for their ivory and horns. Conservationists have warned that if nothing (28) ______, many species will disappear forever. In Viet Nam, a wildlife rescue centre recently asked visitors (29) ______ buying products made from wild animals. The centre's director also (30) ______ that every person could help by spreading the message.\n\nBlank (30):",
+   "options": [
+    "asked",
+    "spoke",
+    "said",
+    "told"
+   ],
+   "answer": 2,
+   "explanation": "Sau chỗ trống là mệnh đề “that…” không có tân ngữ chỉ người → said; “told” cần tân ngữ (told us that…)."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 6: Artificial intelligence)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nArtificial intelligence (AI) is no longer something we only see in science fiction films. It has become part of our daily lives. When we ask a virtual assistant about the weather, use a translation app or receive film recommendations on a streaming service, we are using AI.\n\nAI is also changing education. Some schools now use AI-powered apps that can identify each student's strengths and weaknesses and then suggest suitable exercises. Students can get feedback on their writing in seconds instead of waiting days for their teacher to mark it. Chatbots can also answer students' questions at any time of the day.\n\nHowever, many teachers are concerned about the misuse of AI. Some students simply ask chatbots to write their essays instead of doing the work themselves. As a result, they do not develop important skills such as critical thinking and problem-solving. Another problem is that AI tools sometimes give wrong information, so users need to check the facts carefully.\n\nExperts believe that AI should be used as a tool to support learning, not to replace it. Students should learn how to use AI responsibly, and teachers should guide them to use it in a creative and honest way. If used wisely, AI can make learning more personal and effective.\n\nWhat is the passage mainly about?",
+   "options": [
+    "The use of AI in daily life and education, with its benefits and risks",
+    "How to build a chatbot",
+    "Why teachers should stop using technology",
+    "The history of science fiction films"
+   ],
+   "answer": 0,
+   "explanation": "Bài nói AI trong đời sống, trong giáo dục, những lo ngại khi lạm dụng và lời khuyên dùng AI có trách nhiệm."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 6: Artificial intelligence)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nArtificial intelligence (AI) is no longer something we only see in science fiction films. It has become part of our daily lives. When we ask a virtual assistant about the weather, use a translation app or receive film recommendations on a streaming service, we are using AI.\n\nAI is also changing education. Some schools now use AI-powered apps that can identify each student's strengths and weaknesses and then suggest suitable exercises. Students can get feedback on their writing in seconds instead of waiting days for their teacher to mark it. Chatbots can also answer students' questions at any time of the day.\n\nHowever, many teachers are concerned about the misuse of AI. Some students simply ask chatbots to write their essays instead of doing the work themselves. As a result, they do not develop important skills such as critical thinking and problem-solving. Another problem is that AI tools sometimes give wrong information, so users need to check the facts carefully.\n\nExperts believe that AI should be used as a tool to support learning, not to replace it. Students should learn how to use AI responsibly, and teachers should guide them to use it in a creative and honest way. If used wisely, AI can make learning more personal and effective.\n\nAccording to paragraph 2, what can AI-powered apps do?",
+   "options": [
+    "Replace all teachers at school",
+    "Organise school trips",
+    "Write essays for teachers",
+    "Identify each student's strengths and weaknesses"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 2: “AI-powered apps that can identify each student's strengths and weaknesses”."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 6: Artificial intelligence)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nArtificial intelligence (AI) is no longer something we only see in science fiction films. It has become part of our daily lives. When we ask a virtual assistant about the weather, use a translation app or receive film recommendations on a streaming service, we are using AI.\n\nAI is also changing education. Some schools now use AI-powered apps that can identify each student's strengths and weaknesses and then suggest suitable exercises. Students can get feedback on their writing in seconds instead of waiting days for their teacher to mark it. Chatbots can also answer students' questions at any time of the day.\n\nHowever, many teachers are concerned about the misuse of AI. Some students simply ask chatbots to write their essays instead of doing the work themselves. As a result, they do not develop important skills such as critical thinking and problem-solving. Another problem is that AI tools sometimes give wrong information, so users need to check the facts carefully.\n\nExperts believe that AI should be used as a tool to support learning, not to replace it. Students should learn how to use AI responsibly, and teachers should guide them to use it in a creative and honest way. If used wisely, AI can make learning more personal and effective.\n\nThe word “misuse” in paragraph 3 is closest in meaning to ______.",
+   "options": [
+    "low price",
+    "fast development",
+    "popularity",
+    "improper use"
+   ],
+   "answer": 3,
+   "explanation": "misuse = sử dụng sai mục đích, không đúng cách = improper use."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 6: Artificial intelligence)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nArtificial intelligence (AI) is no longer something we only see in science fiction films. It has become part of our daily lives. When we ask a virtual assistant about the weather, use a translation app or receive film recommendations on a streaming service, we are using AI.\n\nAI is also changing education. Some schools now use AI-powered apps that can identify each student's strengths and weaknesses and then suggest suitable exercises. Students can get feedback on their writing in seconds instead of waiting days for their teacher to mark it. Chatbots can also answer students' questions at any time of the day.\n\nHowever, many teachers are concerned about the misuse of AI. Some students simply ask chatbots to write their essays instead of doing the work themselves. As a result, they do not develop important skills such as critical thinking and problem-solving. Another problem is that AI tools sometimes give wrong information, so users need to check the facts carefully.\n\nExperts believe that AI should be used as a tool to support learning, not to replace it. Students should learn how to use AI responsibly, and teachers should guide them to use it in a creative and honest way. If used wisely, AI can make learning more personal and effective.\n\nThe word “it” in paragraph 2 refers to ______.",
+   "options": [
+    "feedback",
+    "their writing",
+    "the app",
+    "the day"
+   ],
+   "answer": 1,
+   "explanation": "“waiting days for their teacher to mark it” – giáo viên chấm bài viết → it = their writing."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 6: Artificial intelligence)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nArtificial intelligence (AI) is no longer something we only see in science fiction films. It has become part of our daily lives. When we ask a virtual assistant about the weather, use a translation app or receive film recommendations on a streaming service, we are using AI.\n\nAI is also changing education. Some schools now use AI-powered apps that can identify each student's strengths and weaknesses and then suggest suitable exercises. Students can get feedback on their writing in seconds instead of waiting days for their teacher to mark it. Chatbots can also answer students' questions at any time of the day.\n\nHowever, many teachers are concerned about the misuse of AI. Some students simply ask chatbots to write their essays instead of doing the work themselves. As a result, they do not develop important skills such as critical thinking and problem-solving. Another problem is that AI tools sometimes give wrong information, so users need to check the facts carefully.\n\nExperts believe that AI should be used as a tool to support learning, not to replace it. Students should learn how to use AI responsibly, and teachers should guide them to use it in a creative and honest way. If used wisely, AI can make learning more personal and effective.\n\nWhich of the following is NOT mentioned in paragraph 1 as an example of using AI?",
+   "options": [
+    "Receiving film recommendations",
+    "Asking a virtual assistant about the weather",
+    "Using a translation app",
+    "Booking flight tickets online"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 1 nêu trợ lí ảo, ứng dụng dịch, gợi ý phim; không nhắc đến đặt vé máy bay."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 6: Artificial intelligence)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nArtificial intelligence (AI) is no longer something we only see in science fiction films. It has become part of our daily lives. When we ask a virtual assistant about the weather, use a translation app or receive film recommendations on a streaming service, we are using AI.\n\nAI is also changing education. Some schools now use AI-powered apps that can identify each student's strengths and weaknesses and then suggest suitable exercises. Students can get feedback on their writing in seconds instead of waiting days for their teacher to mark it. Chatbots can also answer students' questions at any time of the day.\n\nHowever, many teachers are concerned about the misuse of AI. Some students simply ask chatbots to write their essays instead of doing the work themselves. As a result, they do not develop important skills such as critical thinking and problem-solving. Another problem is that AI tools sometimes give wrong information, so users need to check the facts carefully.\n\nExperts believe that AI should be used as a tool to support learning, not to replace it. Students should learn how to use AI responsibly, and teachers should guide them to use it in a creative and honest way. If used wisely, AI can make learning more personal and effective.\n\nThe writer would most likely agree that ______.",
+   "options": [
+    "AI should replace teachers in the future",
+    "students should let chatbots do their homework",
+    "AI is useful for learning if students use it responsibly",
+    "AI tools always give correct information"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn cuối: AI nên là công cụ hỗ trợ việc học, dùng có trách nhiệm thì giúp học hiệu quả hơn."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Error identification – Causatives",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nMy parents (A) had a robot vacuum cleaner (B) deliver (C) to our house (D) last week.",
+   "options": [
+    "(A) had",
+    "(B) deliver",
+    "(C) to our house",
+    "(D) last week"
+   ],
+   "answer": 1,
+   "explanation": "Thể nhờ vả bị động: have + vật + V3 → deliver → delivered."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Error identification – Reported speech",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nThe guide (A) asked us (B) whether we (C) have ever seen a wild elephant (D) before.",
+   "options": [
+    "(A) asked us",
+    "(B) whether we",
+    "(C) have ever seen",
+    "(D) before"
+   ],
+   "answer": 2,
+   "explanation": "Câu hỏi tường thuật với động từ tường thuật ở quá khứ phải lùi thì: have ever seen → had ever seen."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Sentence transformation – Causatives",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nA mechanic repaired my car yesterday.",
+   "options": [
+    "I repaired my car by a mechanic yesterday.",
+    "I had my car repairing by a mechanic yesterday.",
+    "I had my car repaired by a mechanic yesterday.",
+    "I had a mechanic repaired my car yesterday."
+   ],
+   "answer": 2,
+   "explanation": "Thể nhờ vả bị động: have + vật + V3 + by sb; “have + người” phải đi với V nguyên mẫu (had a mechanic repair)."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Sentence transformation – Reported speech",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\n“Don't touch the baby turtles,” the ranger said to us.",
+   "options": [
+    "The ranger said us not to touch the baby turtles.",
+    "The ranger told us not touching the baby turtles.",
+    "The ranger told us not to touch the baby turtles.",
+    "The ranger told us to touch the baby turtles."
+   ],
+   "answer": 2,
+   "explanation": "Tường thuật mệnh lệnh phủ định: tell sb not to + V; “say” không đi trực tiếp với tân ngữ chỉ người."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu; kiểm tra phiên âm/trọng âm, mỗi câu chỉ có một đáp án đúng, độ dài đoạn đọc, JSON và phân bố đáp án bằng Python. LƯU Ý: không tra lại được sách nên điểm ngữ pháp Unit 7 (cụm động từ) và Unit 8 (câu tường thuật) được chọn theo trọng tâm phổ biến của lớp 12; Unit 6 dùng thể nhờ vả (causative). Nếu khác sách cần đổi nhãn topic tương ứng."
+}

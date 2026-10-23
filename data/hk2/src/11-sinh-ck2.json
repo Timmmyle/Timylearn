@@ -1,0 +1,467 @@
+{
+ "grade": 11,
+ "subject": "Sinh học",
+ "exam": "ck2",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 2 – Sinh học 11",
+ "scope": "Cảm ứng (khoảng 35%); Sinh trưởng và phát triển ở thực vật và động vật; Sinh sản ở thực vật, động vật và người (khoảng 65%)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 1,
+   "stem": "Tua cuốn của cây mướp quấn quanh giàn là ví dụ về",
+   "options": [
+    "hướng tiếp xúc",
+    "hướng hóa",
+    "hướng nước",
+    "ứng động sức trương"
+   ],
+   "answer": 0,
+   "explanation": "Tua cuốn sinh trưởng quấn quanh giá thể khi tiếp xúc → hướng tiếp xúc."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở động vật",
+   "level": 1,
+   "stem": "Thủy tức có hệ thần kinh dạng",
+   "options": [
+    "chuỗi hạch",
+    "lưới",
+    "ống",
+    "chưa có hệ thần kinh"
+   ],
+   "answer": 1,
+   "explanation": "Thủy tức (ruột khoang) có hệ thần kinh dạng lưới."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Phản xạ",
+   "level": 1,
+   "stem": "Trong cung phản xạ, bộ phận tiếp nhận kích thích là",
+   "options": [
+    "trung ương thần kinh",
+    "cơ quan đáp ứng (cơ, tuyến)",
+    "thụ thể (cơ quan thụ cảm)",
+    "đường dẫn truyền ra (vận động)"
+   ],
+   "answer": 2,
+   "explanation": "Thụ thể tiếp nhận kích thích và chuyển thành xung thần kinh."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 2,
+   "stem": "Trên sợi thần kinh không có bao myelin, xung thần kinh lan truyền",
+   "options": [
+    "theo lối nhảy cóc qua các eo Ranvier",
+    "với tốc độ nhanh hơn trên sợi có bao myelin",
+    "nhảy cóc giữa các synapse trên sợi trục",
+    "liên tục từ vùng này sang vùng kế cận trên màng"
+   ],
+   "answer": 3,
+   "explanation": "Không có bao myelin nên điện thế hoạt động lan truyền liên tục, tuần tự trên màng, tốc độ chậm."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Phản xạ",
+   "level": 2,
+   "stem": "Đặc điểm nào sau đây là của phản xạ có điều kiện?",
+   "options": [
+    "Sinh ra đã có, di truyền được",
+    "Hình thành trong đời sống cá thể, dễ mất nếu không được củng cố",
+    "Bền vững suốt đời, đặc trưng cho loài",
+    "Có số lượng hạn chế và trung ương chủ yếu ở tủy sống"
+   ],
+   "answer": 1,
+   "explanation": "Phản xạ có điều kiện hình thành qua học tập, không di truyền, dễ mất khi không được củng cố; các đặc điểm còn lại là của phản xạ không điều kiện."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Tập tính",
+   "level": 2,
+   "stem": "Tinh tinh xếp chồng các thùng gỗ lên nhau để lấy chuối treo trên cao. Đây là hình thức học tập",
+   "options": [
+    "học khôn",
+    "in vết",
+    "quen nhờn",
+    "điều kiện hóa đáp ứng"
+   ],
+   "answer": 0,
+   "explanation": "Phối hợp kinh nghiệm cũ để giải quyết tình huống mới → học khôn."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Synapse",
+   "level": 3,
+   "stem": "Một số thuốc trừ sâu nhóm phosphate hữu cơ ức chế enzyme acetylcholinesterase. Khi bị nhiễm loại thuốc này, côn trùng bị co giật rồi chết vì",
+   "options": [
+    "acetylcholine không được giải phóng nên cơ không co được",
+    "xung thần kinh không thể lan truyền trên sợi trục",
+    "thụ thể ở màng sau synapse bị phá hủy",
+    "acetylcholine không bị phân giải, tích lũy ở khe synapse kích thích cơ co liên tục"
+   ],
+   "answer": 3,
+   "explanation": "Acetylcholinesterase phân giải acetylcholine sau khi truyền tin; bị ức chế thì acetylcholine tồn tại và kích thích màng sau liên tục gây co cơ liên tục, rối loạn."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Sinh trưởng ở thực vật",
+   "level": 1,
+   "stem": "Sinh trưởng ở thực vật là",
+   "options": [
+    "những biến đổi về cấu trúc và chức năng của tế bào",
+    "quá trình ra hoa, tạo quả",
+    "sự tăng kích thước và khối lượng cơ thể do tăng số lượng và kích thước tế bào",
+    "quá trình phát sinh hình thái các cơ quan"
+   ],
+   "answer": 2,
+   "explanation": "Đây là khái niệm sinh trưởng; các biến đổi về chất (biệt hóa, phát sinh hình thái, ra hoa) thuộc phát triển."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Sinh trưởng ở thực vật",
+   "level": 1,
+   "stem": "Sinh trưởng thứ cấp làm tăng đường kính thân cây gỗ Hai lá mầm là do hoạt động của",
+   "options": [
+    "mô phân sinh đỉnh thân",
+    "mô phân sinh lóng",
+    "mô phân sinh bên",
+    "mô phân sinh đỉnh rễ"
+   ],
+   "answer": 2,
+   "explanation": "Mô phân sinh bên (tầng sinh mạch, tầng sinh vỏ) làm thân to ra."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Hormone thực vật",
+   "level": 2,
+   "stem": "Hormone thực vật có vai trò kích thích hạt nảy mầm, kéo dài thân và phá trạng thái ngủ của hạt là",
+   "options": [
+    "abscisic acid",
+    "ethylene",
+    "cytokinin",
+    "gibberellin"
+   ],
+   "answer": 3,
+   "explanation": "Gibberellin kích thích kéo dài thân, nảy mầm, phá ngủ; abscisic acid có tác dụng ngược lại."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Hormone thực vật",
+   "level": 1,
+   "stem": "Hormone thực vật thúc đẩy quả nhanh chín là",
+   "options": [
+    "ethylene",
+    "auxin",
+    "gibberellin",
+    "cytokinin"
+   ],
+   "answer": 0,
+   "explanation": "Ethylene thúc đẩy quả chín, rụng lá."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Phát triển ở động vật",
+   "level": 2,
+   "stem": "Loài nào sau đây phát triển qua biến thái hoàn toàn?",
+   "options": [
+    "Châu chấu",
+    "Bướm",
+    "Gián",
+    "Người"
+   ],
+   "answer": 1,
+   "explanation": "Bướm: trứng → sâu → nhộng → bướm, ấu trùng khác hẳn con trưởng thành (biến thái hoàn toàn). Châu chấu, gián: biến thái không hoàn toàn; người: không qua biến thái."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Hormone ở động vật",
+   "level": 3,
+   "stem": "Ở một vùng núi, nhiều trẻ em chậm lớn, trí tuệ kém phát triển do khẩu phần ăn thiếu iodine. Nguyên nhân trực tiếp là cơ thể thiếu hormone",
+   "options": [
+    "sinh trưởng (GH)",
+    "testosterone",
+    "estrogen",
+    "thyroxine"
+   ],
+   "answer": 3,
+   "explanation": "Iodine là thành phần của thyroxine (tuyến giáp); thiếu thyroxine làm giảm chuyển hóa, chậm lớn, trí tuệ kém."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Sinh sản vô tính",
+   "level": 1,
+   "stem": "Sinh sản vô tính là hình thức sinh sản",
+   "options": [
+    "có sự hợp nhất giao tử đực và giao tử cái",
+    "luôn tạo ra nhiều biến dị tổ hợp",
+    "không có sự hợp nhất giữa giao tử đực và giao tử cái, con giống nhau và giống cơ thể mẹ",
+    "chỉ có ở động vật bậc cao"
+   ],
+   "answer": 2,
+   "explanation": "Sinh sản vô tính dựa trên nguyên phân, không có thụ tinh, con mang vật chất di truyền giống mẹ."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Sinh sản ở thực vật",
+   "level": 1,
+   "stem": "Cây khoai tây có thể sinh sản sinh dưỡng tự nhiên bằng",
+   "options": [
+    "lá",
+    "thân củ",
+    "rễ củ",
+    "thân bò trên mặt đất"
+   ],
+   "answer": 1,
+   "explanation": "Khoai tây sinh sản sinh dưỡng bằng thân củ (củ khoai tây là thân biến dạng)."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Sinh sản ở thực vật",
+   "level": 2,
+   "stem": "Trong thụ tinh kép ở thực vật hạt kín, nội nhũ được hình thành từ sự kết hợp giữa",
+   "options": [
+    "một giao tử đực và nhân lưỡng bội (2n) ở trung tâm túi phôi",
+    "một giao tử đực và tế bào trứng",
+    "hai giao tử đực với nhau",
+    "một giao tử đực và tế bào kèm"
+   ],
+   "answer": 0,
+   "explanation": "Một giao tử đực + trứng → hợp tử (2n); giao tử đực thứ hai + nhân lưỡng bội → nhân tam bội (3n) phát triển thành nội nhũ."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Sinh sản ở động vật",
+   "level": 2,
+   "stem": "Ở ong mật, ong đực được phát triển từ",
+   "options": [
+    "trứng không được thụ tinh (trinh sinh)",
+    "trứng đã được thụ tinh",
+    "sự nảy chồi của ong chúa",
+    "sự phân mảnh của ấu trùng"
+   ],
+   "answer": 0,
+   "explanation": "Ong đực (n) phát triển từ trứng không thụ tinh; ong thợ và ong chúa (2n) từ trứng thụ tinh."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Điều khiển sinh sản ở người",
+   "level": 3,
+   "stem": "Thuốc tránh thai hằng ngày chứa progesterone và estrogen có tác dụng tránh thai chủ yếu vì",
+   "options": [
+    "tiêu diệt tinh trùng trong âm đạo",
+    "làm tắc ống dẫn trứng",
+    "gây ức chế ngược lên vùng dưới đồi và tuyến yên, giảm tiết FSH, LH nên trứng không chín và không rụng",
+    "làm tử cung co bóp đẩy hợp tử ra ngoài"
+   ],
+   "answer": 2,
+   "explanation": "Nồng độ progesterone, estrogen cao ức chế vùng dưới đồi và tuyến yên, giảm FSH, LH nên nang trứng không phát triển, không rụng trứng."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở động vật",
+   "level": 2,
+   "stem": "Hệ thần kinh dạng ống ở động vật có xương sống gồm bộ phận thần kinh trung ương và bộ phận thần kinh ngoại biên.",
+   "statements": [
+    {
+     "t": "Thần kinh trung ương gồm não bộ và tủy sống.",
+     "a": true
+    },
+    {
+     "t": "So với hệ thần kinh dạng lưới, hệ thần kinh dạng ống có số lượng neuron lớn, tập trung nên phản ứng nhanh và chính xác hơn.",
+     "a": true
+    },
+    {
+     "t": "Các dây thần kinh và hạch thần kinh thuộc bộ phận thần kinh trung ương.",
+     "a": false
+    },
+    {
+     "t": "Phản xạ rụt tay khi chạm vật nóng có trung ương ở vỏ não và là phản xạ có điều kiện.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: dây thần kinh và hạch thần kinh thuộc thần kinh ngoại biên. d) Sai: đây là phản xạ không điều kiện, trung ương ở tủy sống."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Sinh trưởng ở thực vật",
+   "level": 2,
+   "stem": "Cây Hai lá mầm thân gỗ có cả sinh trưởng sơ cấp và sinh trưởng thứ cấp.",
+   "statements": [
+    {
+     "t": "Sinh trưởng sơ cấp do mô phân sinh đỉnh làm thân cao lên, rễ dài ra.",
+     "a": true
+    },
+    {
+     "t": "Vòng gỗ (vòng năm) được hình thành do hoạt động của tầng sinh mạch thay đổi theo mùa.",
+     "a": true
+    },
+    {
+     "t": "Cây Một lá mầm như lúa, ngô có sinh trưởng thứ cấp mạnh làm thân to ra hằng năm.",
+     "a": false
+    },
+    {
+     "t": "Ở vùng có mùa rõ rệt, có thể ước tính tuổi cây gỗ bằng cách đếm số vòng gỗ trên mặt cắt ngang thân.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: gỗ sớm và gỗ muộn tạo thành vòng. c) Sai: cây Một lá mầm thường không có mô phân sinh bên nên không có sinh trưởng thứ cấp. d) Đúng: mỗi năm tạo một vòng gỗ."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Phát triển ở động vật",
+   "level": 3,
+   "stem": "Bướm phát triển qua các giai đoạn: trứng → sâu → nhộng → bướm. Ecdysone gây lột xác; juvenile hormone (JH) ức chế sâu biến thành nhộng và bướm.",
+   "statements": [
+    {
+     "t": "Đây là kiểu phát triển qua biến thái hoàn toàn.",
+     "a": true
+    },
+    {
+     "t": "Sâu và bướm có hình thái, cấu tạo và sinh lí rất khác nhau.",
+     "a": true
+    },
+    {
+     "t": "Nếu phun chất có tác dụng giống JH lên sâu ở giai đoạn cuối, sâu sẽ hóa nhộng sớm hơn.",
+     "a": false
+    },
+    {
+     "t": "Bướm trưởng thành là giai đoạn gây hại chủ yếu cho cây trồng nên cần tập trung diệt bướm hơn diệt sâu.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: JH ức chế sự biến đổi sâu thành nhộng, nên sâu kéo dài giai đoạn sâu, không hóa nhộng. d) Sai: sâu ăn lá mới là giai đoạn gây hại chủ yếu."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Sinh sản ở người",
+   "level": 2,
+   "stem": "Chu kì kinh nguyệt của một phụ nữ khỏe mạnh kéo dài khoảng 28 ngày, trứng rụng vào khoảng ngày thứ 14.",
+   "statements": [
+    {
+     "t": "FSH và LH do tuyến yên tiết ra điều hòa sự phát triển của nang trứng và sự rụng trứng.",
+     "a": true
+    },
+    {
+     "t": "Sau khi trứng rụng, thể vàng tiết progesterone và estrogen làm niêm mạc tử cung dày lên.",
+     "a": true
+    },
+    {
+     "t": "Nếu trứng không được thụ tinh, thể vàng vẫn duy trì và tiết hormone suốt 9 tháng.",
+     "a": false
+    },
+    {
+     "t": "Nồng độ progesterone và estrogen cao gây ức chế ngược lên vùng dưới đồi và tuyến yên.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: không có thụ tinh thì thể vàng thoái hóa, nồng độ hormone giảm, niêm mạc bong ra (hành kinh). d) Đúng."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 3,
+   "stem": "Xung thần kinh lan truyền trên sợi thần kinh vận động có bao myelin với tốc độ 120 m/s. Tính thời gian xung đi từ tủy sống đến cơ ngón chân, biết đoạn sợi dài 1,2 m (đơn vị: ms).",
+   "answer_text": "10",
+   "explanation": "$t = \\dfrac{1{,}2}{120} = 0{,}01$ s $= 10$ ms."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 2,
+   "stem": "Cho các hiện tượng: (1) rễ cây mọc về phía nguồn nước; (2) lá cây trinh nữ cụp lại khi bị chạm; (3) thân cây mọc về phía ánh sáng; (4) hoa nghệ tây nở khi nhiệt độ tăng; (5) tua cuốn cây đậu quấn quanh cọc. Có bao nhiêu hiện tượng là ứng động?",
+   "answer_text": "2",
+   "explanation": "Ứng động: (2) và (4). Hướng động: (1) hướng nước, (3) hướng sáng, (5) hướng tiếp xúc."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Sinh trưởng ở thực vật",
+   "level": 1,
+   "stem": "Mặt cắt ngang thân một cây gỗ ở vùng ôn đới có 35 vòng gỗ. Cây này khoảng bao nhiêu năm tuổi?",
+   "answer_text": "35",
+   "explanation": "Mỗi năm tầng sinh mạch tạo một vòng gỗ nên cây khoảng 35 năm tuổi."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh trưởng và phát triển",
+   "topic": "Sinh trưởng ở thực vật",
+   "level": 2,
+   "stem": "Một cây đậu non cao 5 cm; sau 8 ngày cây cao 29 cm. Tính tốc độ sinh trưởng chiều cao trung bình của cây (đơn vị: cm/ngày).",
+   "answer_text": "3",
+   "explanation": "Tốc độ $= \\dfrac{29 - 5}{8} = 3$ cm/ngày."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Sinh sản ở thực vật",
+   "level": 3,
+   "stem": "Có 50 tế bào mẹ hạt phấn giảm phân bình thường; mỗi hạt phấn tạo thành đều nảy mầm và tạo giao tử đực bình thường. Tính tổng số giao tử đực được tạo ra.",
+   "answer_text": "400",
+   "explanation": "Mỗi tế bào mẹ hạt phấn → 4 hạt phấn; mỗi hạt phấn có tế bào sinh sản nguyên phân tạo 2 giao tử đực. Tổng: $50 \\cdot 4 \\cdot 2 = 400$."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh sản",
+   "topic": "Sinh sản ở thực vật",
+   "level": 2,
+   "stem": "Lúa có bộ nhiễm sắc thể 2n = 24. Mỗi tế bào nội nhũ của hạt lúa (được tạo ra bình thường) có bao nhiêu nhiễm sắc thể?",
+   "answer_text": "36",
+   "explanation": "Nội nhũ có bộ NST tam bội 3n $= 3 \\cdot 12 = 36$."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập 28 câu; kiểm bằng Python: câu 23 (10), 26 (3), 27 (400), 28 (36); đếm lại câu 24; 18/28 câu thuộc phần 2."
+}

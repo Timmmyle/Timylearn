@@ -1,0 +1,467 @@
+{
+ "grade": 11,
+ "subject": "Sinh học",
+ "exam": "gk2",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 2 – Sinh học 11",
+ "scope": "Chủ đề Cảm ứng: cảm ứng ở thực vật (hướng động, ứng động), cảm ứng ở động vật (hệ thần kinh, neuron, xung thần kinh, synapse, phản xạ), tập tính",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Khái quát về cảm ứng",
+   "level": 1,
+   "stem": "Cảm ứng ở sinh vật là",
+   "options": [
+    "khả năng tiếp nhận và phản ứng lại các kích thích từ môi trường, giúp sinh vật tồn tại và phát triển",
+    "sự tăng kích thước và khối lượng cơ thể",
+    "quá trình tạo ra cá thể mới",
+    "quá trình trao đổi chất và chuyển hóa năng lượng"
+   ],
+   "answer": 0,
+   "explanation": "Đây là khái niệm cảm ứng trong SGK."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 1,
+   "stem": "Ngọn cây mọc cong về phía nguồn sáng là ví dụ về",
+   "options": [
+    "hướng sáng âm",
+    "hướng sáng dương",
+    "hướng trọng lực dương",
+    "ứng động không sinh trưởng"
+   ],
+   "answer": 1,
+   "explanation": "Cơ quan sinh trưởng về phía kích thích ánh sáng là hướng sáng dương."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 2,
+   "stem": "Thân cây non chiếu sáng từ một phía uốn cong về phía ánh sáng vì",
+   "options": [
+    "auxin tập trung ở phía được chiếu sáng làm tế bào phía đó kéo dài nhanh hơn",
+    "ánh sáng làm tế bào phía được chiếu sáng chết đi",
+    "auxin tập trung nhiều ở phía khuất sáng làm tế bào phía đó kéo dài nhanh hơn",
+    "tế bào phía khuất sáng mất nước nên co lại"
+   ],
+   "answer": 2,
+   "explanation": "Ánh sáng làm auxin di chuyển sang phía khuất sáng; tế bào phía khuất sáng kéo dài nhanh hơn nên thân uốn cong về phía ánh sáng."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 1,
+   "stem": "Rễ cây luôn mọc hướng xuống đất là biểu hiện của",
+   "options": [
+    "hướng trọng lực âm",
+    "hướng sáng dương",
+    "hướng tiếp xúc",
+    "hướng trọng lực dương"
+   ],
+   "answer": 3,
+   "explanation": "Rễ sinh trưởng theo hướng của trọng lực → hướng trọng lực dương."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 2,
+   "stem": "Lá cây trinh nữ cụp lại khi bị chạm vào. Đây là kiểu",
+   "options": [
+    "ứng động sinh trưởng do tế bào phân chia không đều",
+    "ứng động không sinh trưởng do thay đổi sức trương nước của tế bào",
+    "hướng tiếp xúc",
+    "hướng hóa"
+   ],
+   "answer": 1,
+   "explanation": "Vận động cụp lá trinh nữ không liên quan đến phân chia, lớn lên của tế bào mà do thay đổi sức trương nước ở thể gối → ứng động không sinh trưởng."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 2,
+   "stem": "Hoa nghệ tây nở khi nhiệt độ tăng và khép lại khi nhiệt độ giảm là ví dụ về",
+   "options": [
+    "ứng động sinh trưởng",
+    "hướng sáng",
+    "ứng động không sinh trưởng",
+    "hướng nước"
+   ],
+   "answer": 0,
+   "explanation": "Đây là nhiệt ứng động: do tốc độ sinh trưởng không đều của tế bào hai phía cánh hoa khi nhiệt độ thay đổi → ứng động sinh trưởng."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở động vật",
+   "level": 1,
+   "stem": "Động vật nào sau đây có hệ thần kinh dạng lưới?",
+   "options": [
+    "Giun đất",
+    "Châu chấu",
+    "Ếch đồng",
+    "Thủy tức"
+   ],
+   "answer": 3,
+   "explanation": "Ruột khoang (thủy tức, sứa) có hệ thần kinh dạng lưới."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở động vật",
+   "level": 1,
+   "stem": "Động vật nào sau đây có hệ thần kinh dạng ống?",
+   "options": [
+    "Giun đất",
+    "Tôm sông",
+    "Chim bồ câu",
+    "Sứa"
+   ],
+   "answer": 2,
+   "explanation": "Động vật có xương sống (cá, lưỡng cư, bò sát, chim, thú) có hệ thần kinh dạng ống."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 1,
+   "stem": "Bộ phận của neuron dẫn truyền xung thần kinh đi ra khỏi thân neuron là",
+   "options": [
+    "sợi nhánh",
+    "nhân tế bào",
+    "sợi trục",
+    "thân neuron"
+   ],
+   "answer": 2,
+   "explanation": "Sợi nhánh nhận và dẫn xung về thân; sợi trục dẫn xung từ thân đi đến neuron khác hoặc cơ quan đáp ứng."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 2,
+   "stem": "Ở trạng thái điện thế nghỉ, màng tế bào thần kinh",
+   "options": [
+    "phân cực: mặt trong tích điện dương, mặt ngoài tích điện âm",
+    "không phân cực, hai mặt màng cùng điện tích",
+    "đảo cực liên tục",
+    "phân cực: mặt trong tích điện âm, mặt ngoài tích điện dương"
+   ],
+   "answer": 3,
+   "explanation": "Điện thế nghỉ do K⁺ đi ra ngoài và bơm Na⁺ – K⁺, làm mặt trong màng âm so với mặt ngoài."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 2,
+   "stem": "Tốc độ lan truyền xung thần kinh trên sợi có bao myelin nhanh hơn trên sợi không có bao myelin vì",
+   "options": [
+    "xung thần kinh lan truyền theo lối nhảy cóc từ eo Ranvier này sang eo Ranvier khác",
+    "sợi có bao myelin có đường kính nhỏ hơn",
+    "bao myelin dẫn điện tốt hơn màng tế bào",
+    "xung thần kinh lan truyền liên tục trên toàn bộ màng"
+   ],
+   "answer": 0,
+   "explanation": "Bao myelin cách điện, xung chỉ xuất hiện ở eo Ranvier nên lan truyền nhảy cóc, nhanh và tiết kiệm năng lượng."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Synapse",
+   "level": 2,
+   "stem": "Xung thần kinh qua synapse hóa học chỉ truyền theo một chiều vì",
+   "options": [
+    "màng sau synapse không có khả năng tạo điện thế hoạt động",
+    "chất trung gian hóa học chỉ được giải phóng từ màng trước và thụ thể chỉ có ở màng sau",
+    "khe synapse chỉ cho ion đi theo một chiều",
+    "chùy synapse chỉ có ở neuron cảm giác"
+   ],
+   "answer": 1,
+   "explanation": "Bóng chứa chất trung gian nằm ở chùy synapse (màng trước), thụ thể tiếp nhận ở màng sau nên truyền tin một chiều."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Phản xạ",
+   "level": 1,
+   "stem": "Phản xạ nào sau đây là phản xạ không điều kiện?",
+   "options": [
+    "Dừng xe khi thấy đèn đỏ",
+    "Chó tiết nước bọt khi nghe tiếng chuông sau thời gian luyện tập",
+    "Quay đầu lại khi nghe gọi tên mình",
+    "Tay rụt lại khi chạm phải vật nóng"
+   ],
+   "answer": 3,
+   "explanation": "Rụt tay khi chạm vật nóng là phản xạ bẩm sinh, có trung ương ở tủy sống; các phản xạ còn lại hình thành qua học tập."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Tập tính",
+   "level": 1,
+   "stem": "Tập tính nào sau đây là tập tính bẩm sinh?",
+   "options": [
+    "Chó làm xiếc",
+    "Khỉ đi xe đạp trong rạp xiếc",
+    "Nhện chăng tơ",
+    "Học sinh dừng lại khi thấy đèn đỏ"
+   ],
+   "answer": 2,
+   "explanation": "Nhện chăng tơ là hoạt động sinh ra đã có, di truyền, đặc trưng cho loài."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Tập tính",
+   "level": 3,
+   "stem": "Ngỗng con mới nở đi theo người nuôi như đi theo ngỗng mẹ. Đây là hình thức học tập",
+   "options": [
+    "quen nhờn",
+    "in vết",
+    "điều kiện hóa",
+    "học khôn"
+   ],
+   "answer": 1,
+   "explanation": "Ngỗng con đi theo vật chuyển động đầu tiên chúng nhìn thấy sau khi nở → in vết."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Tập tính",
+   "level": 3,
+   "stem": "Ném hòn đá nhỏ xuống gần đàn gà, lúc đầu chúng chạy tán loạn; lặp lại nhiều lần mà không có nguy hiểm thì chúng không chạy nữa. Đây là hình thức học tập",
+   "options": [
+    "quen nhờn",
+    "in vết",
+    "học khôn",
+    "điều kiện hóa hành động"
+   ],
+   "answer": 0,
+   "explanation": "Động vật phớt lờ kích thích lặp lại nhiều lần không kèm nguy hiểm → quen nhờn."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Ứng dụng cảm ứng ở thực vật",
+   "level": 3,
+   "stem": "Một chậu cây cảnh đặt cạnh cửa sổ có ngọn cong hẳn về phía cửa sổ. Để cây mọc thẳng và cân đối, nên",
+   "options": [
+    "định kì xoay chậu cây để các phía được chiếu sáng như nhau",
+    "tưới nhiều nước hơn",
+    "bón nhiều phân đạm hơn",
+    "đặt chậu cây vào chỗ tối hoàn toàn"
+   ],
+   "answer": 0,
+   "explanation": "Cây cong do hướng sáng; xoay chậu định kì giúp ánh sáng tác động đều các phía nên thân mọc thẳng."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Ứng dụng tập tính",
+   "level": 2,
+   "stem": "Việc huấn luyện chó nghiệp vụ đánh hơi phát hiện ma túy dựa trên cơ sở",
+   "options": [
+    "tập tính bẩm sinh có sẵn của chó",
+    "hiện tượng in vết",
+    "hình thành các phản xạ có điều kiện (điều kiện hóa)",
+    "hiện tượng quen nhờn"
+   ],
+   "answer": 2,
+   "explanation": "Người huấn luyện kết hợp kích thích (mùi) với thưởng/phạt để hình thành phản xạ có điều kiện."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 2,
+   "stem": "Đặt một chậu cây non trong hộp kín có một khe hở để ánh sáng chiếu vào từ một phía. Sau vài ngày quan sát hướng mọc của thân.",
+   "statements": [
+    {
+     "t": "Thân cây non uốn cong về phía khe sáng.",
+     "a": true
+    },
+    {
+     "t": "Auxin vận chuyển từ phía được chiếu sáng sang phía khuất sáng của thân.",
+     "a": true
+    },
+    {
+     "t": "Tế bào ở phía được chiếu sáng kéo dài nhanh hơn tế bào phía khuất sáng.",
+     "a": false
+    },
+    {
+     "t": "Nếu rễ được chiếu sáng từ một phía, rễ có xu hướng uốn cong về phía nguồn sáng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: thân hướng sáng dương. b) Đúng. c) Sai: tế bào phía khuất sáng có nhiều auxin hơn nên kéo dài nhanh hơn. d) Sai: rễ hướng sáng âm, uốn cong tránh xa nguồn sáng."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 3,
+   "stem": "Ghi điện thế màng của một neuron khi bị kích thích: điện thế nghỉ là −70 mV, đỉnh của điện thế hoạt động là +35 mV.",
+   "statements": [
+    {
+     "t": "Ở trạng thái nghỉ, mặt trong màng tích điện âm so với mặt ngoài màng.",
+     "a": true
+    },
+    {
+     "t": "Giai đoạn mất phân cực và đảo cực là do Na⁺ đi từ ngoài vào trong tế bào.",
+     "a": true
+    },
+    {
+     "t": "Giai đoạn tái phân cực chủ yếu do K⁺ đi từ ngoài vào trong tế bào.",
+     "a": false
+    },
+    {
+     "t": "Biên độ của điện thế hoạt động là 105 mV.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: kênh Na⁺ mở, Na⁺ khuếch tán vào trong. c) Sai: tái phân cực do kênh K⁺ mở, K⁺ đi từ trong ra ngoài. d) Đúng: $35 - (-70) = 105$ mV."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Synapse",
+   "level": 2,
+   "stem": "Tại synapse hóa học giữa neuron vận động và tế bào cơ, chất trung gian hóa học là acetylcholine.",
+   "statements": [
+    {
+     "t": "Khi xung thần kinh đến chùy synapse, Ca²⁺ đi vào làm các bóng chứa acetylcholine dung hợp với màng trước và giải phóng chất này vào khe synapse.",
+     "a": true
+    },
+    {
+     "t": "Acetylcholine gắn vào thụ thể ở màng sau làm xuất hiện điện thế hoạt động ở màng sau.",
+     "a": true
+    },
+    {
+     "t": "Nếu enzyme acetylcholinesterase bị ức chế, acetylcholine không bị phân giải nên cơ có thể bị co liên tục.",
+     "a": true
+    },
+    {
+     "t": "Xung thần kinh có thể truyền ngược từ tế bào cơ về neuron vận động qua synapse này.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Đúng: acetylcholine tồn tại lâu trong khe synapse, kích thích màng sau liên tục. d) Sai: synapse hóa học chỉ truyền tin một chiều từ màng trước sang màng sau."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Tập tính",
+   "level": 2,
+   "stem": "Tập tính ở động vật gồm tập tính bẩm sinh và tập tính học được; con người ứng dụng hiểu biết về tập tính trong đời sống và sản xuất.",
+   "statements": [
+    {
+     "t": "Tập tính bẩm sinh là những hoạt động sinh ra đã có, được di truyền và đặc trưng cho loài.",
+     "a": true
+    },
+    {
+     "t": "Tập tính học được hình thành trong đời sống cá thể thông qua học tập và rút kinh nghiệm.",
+     "a": true
+    },
+    {
+     "t": "Gõ kẻng mỗi khi cho gà ăn để tạo phản xạ tập trung khi nghe tiếng kẻng là ứng dụng tập tính trong chăn nuôi.",
+     "a": true
+    },
+    {
+     "t": "Ở người, số lượng tập tính học được ít hơn so với động vật có hệ thần kinh dạng chuỗi hạch.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Đúng: hình thành phản xạ có điều kiện. d) Sai: người có hệ thần kinh phát triển nhất, tuổi thọ dài nên có rất nhiều tập tính học được."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Phản xạ",
+   "level": 1,
+   "stem": "Theo SGK, một cung phản xạ gồm bao nhiêu bộ phận?",
+   "answer_text": "5",
+   "explanation": "Gồm 5 bộ phận: bộ phận tiếp nhận kích thích (thụ thể), đường dẫn truyền vào (cảm giác), bộ phận phân tích và tổng hợp thông tin (trung ương thần kinh), đường dẫn truyền ra (vận động), bộ phận thực hiện phản ứng."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 2,
+   "stem": "Một neuron có điện thế nghỉ là −65 mV; khi bị kích thích, điện thế hoạt động đạt đỉnh +30 mV. Tính biên độ điện thế hoạt động (đơn vị: mV).",
+   "answer_text": "95",
+   "explanation": "Biên độ $= 30 - (-65) = 95$ mV."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 3,
+   "stem": "Xung thần kinh lan truyền trên một sợi thần kinh có bao myelin với tốc độ 100 m/s. Tính thời gian xung đi hết đoạn sợi dài 0,8 m (đơn vị: ms).",
+   "answer_text": "8",
+   "explanation": "$t = \\dfrac{0{,}8}{100} = 0{,}008$ s $= 8$ ms."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Neuron và xung thần kinh",
+   "level": 3,
+   "stem": "Trên một sợi thần kinh không có bao myelin, xung thần kinh lan truyền với tốc độ 2 m/s. Tính thời gian xung đi giữa hai điểm cách nhau 10 cm trên sợi (đơn vị: ms).",
+   "answer_text": "50",
+   "explanation": "$t = \\dfrac{0{,}1}{2} = 0{,}05$ s $= 50$ ms."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Cảm ứng ở thực vật",
+   "level": 2,
+   "stem": "Cho các hiện tượng: (1) ngọn cây mọc về phía ánh sáng; (2) lá cây trinh nữ cụp lại khi bị chạm; (3) rễ cây mọc hướng xuống đất; (4) tua cuốn của cây bầu quấn quanh cọc; (5) hoa bồ công anh nở lúc sáng, khép lúc chiều tối; (6) rễ cây mọc về phía nguồn phân bón. Có bao nhiêu hiện tượng là hướng động?",
+   "answer_text": "4",
+   "explanation": "Hướng động: (1) hướng sáng, (3) hướng trọng lực, (4) hướng tiếp xúc, (6) hướng hóa → 4. (2) và (5) là ứng động."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Cảm ứng",
+   "topic": "Tập tính",
+   "level": 2,
+   "stem": "Cho các tập tính: (1) nhện chăng tơ; (2) ve sầu kêu vào mùa hè; (3) thú con mới sinh biết tìm vú mẹ để bú; (4) khỉ làm xiếc; (5) vẹt nói được tiếng người; (6) trâu bò về chuồng khi nghe tiếng kẻng. Có bao nhiêu tập tính bẩm sinh?",
+   "answer_text": "3",
+   "explanation": "Bẩm sinh: (1), (2), (3). Học được: (4), (5), (6)."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập 28 câu; kiểm bằng Python: câu 20d (105), 24 (95), 25 (8), 26 (50); đếm lại câu 27, 28; tất cả thuộc chủ đề Cảm ứng."
+}

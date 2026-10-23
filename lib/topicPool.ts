@@ -12,6 +12,7 @@ import { qOfTopics } from "./logic";
 import { useApp } from "./store";
 import { remember, loadRandom } from "./remote";
 import { aiJson } from "./api";
+import { useHK, type HKSet } from "./hk";
 
 export const TOPIC_N = 12;
 
@@ -19,6 +20,10 @@ type Rule = { gen?: RegExp; hk?: RegExp };
 /** khóa chủ đề "Môn|Tên" → chương của dạng tự sinh + nhãn chủ đề trong đề ôn */
 const RULES: Record<string, Rule> = {
   "Toán|Mệnh đề – tập hợp": { gen: /Mệnh đề và tập hợp/, hk: /Mệnh đề|[Tt]ập hợp/ },
+  "Toán|Bất phương trình bậc nhất hai ẩn": { gen: /Bất phương trình/, hk: /[Bb]ất phương trình bậc nhất hai ẩn/ },
+  "Toán|Thống kê": { gen: /Chương V\. Các số đặc trưng/, hk: /Số gần đúng|Số trung bình|Phương sai|Tứ phân vị|số đặc trưng/ },
+  "Toán|Thống kê ghép nhóm": { gen: /ghép nhóm/, hk: /ghép nhóm/ },
+  "Toán|Thống kê – độ phân tán": { gen: /phân tán/, hk: /Khoảng biến thiên|Phương sai/ },
   "Toán|Hệ thức lượng trong tam giác": { gen: /Hệ thức lượng/, hk: /Định lí (sin|côsin)|Diện tích tam giác|Giải tam giác|Hệ thức lượng|góc từ 0/ },
   "Toán|Vectơ": { gen: /Chương IV\. Vectơ/, hk: /[Vv]ectơ/ },
   "Toán|Lượng giác": { gen: /lượng giác/, hk: /[Ll]ượng giác/ },
@@ -54,8 +59,6 @@ const RULES: Record<string, Rule> = {
   "Tiếng Anh|Từ vựng, collocation": { hk: /Vocabulary|Closest meaning|Communication/ },
   "Tiếng Anh|Đọc hiểu tiếng Anh": { hk: /Reading|Arrangement/ },
 };
-const HKSUB: Record<string, string> = { "Toán": "toan", "Vật lí": "ly", "Hóa học": "hoa", "Tiếng Anh": "anh" };
-
 const rnd = (n: number) => Math.floor(Math.random() * n);
 const shuffle = <T,>(a: T[]) => { for (let i = a.length - 1; i > 0; i--) { const j = rnd(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
@@ -63,20 +66,25 @@ const hkCache: Record<string, Promise<Question[]>> = {};
 function hkFile(id: string): Promise<Question[]> {
   return (hkCache[id] ||= fetch(`/de-hk/${id}.json`).then((r) => (r.ok ? r.json() : { questions: [] })).then((d) => (d.questions || []) as Question[]).catch(() => { delete hkCache[id]; return []; }));
 }
-async function fromHK(subject: string, grades: number[], re: RegExp): Promise<Question[]> {
-  const code = HKSUB[subject]; if (!code) return [];
-  const files = grades.flatMap((g) => ["gk1", "ck1"].map((e) => `hk-${g}-${code}-${e}`));
-  const all = (await Promise.all(files.map(hkFile))).flat();
+let idxP: Promise<HKSet[]> | null = null;
+function hkIndex(): Promise<HKSet[]> {
+  const have = useHK.getState().sets; if (have.length) return Promise.resolve(have);
+  return (idxP ||= fetch("/de-hk/index.json").then((r) => r.json() as Promise<HKSet[]>).catch(() => { idxP = null; return []; }));
+}
+/** Câu trong đề ôn soạn sẵn cùng chủ đề: khớp khóa tk; đề cũ chưa gắn tk thì so nhãn bằng regex */
+async function fromHK(k: string, subject: string, grades: number[], re?: RegExp): Promise<Question[]> {
+  const sets = (await hkIndex()).filter((x) => x.kind === "quiz" && x.subject === subject && grades.includes(x.grade));
+  const all = (await Promise.all(sets.map((x) => hkFile(x.id)))).flat();
   const seen = new Set<string>();
-  return all.filter((q) => re.test(q.t) && !seen.has(q.id) && seen.add(q.id));
+  return all.filter((q) => (q.tk ? q.tk === k : !!re && re.test(q.t)) && !seen.has(q.id) && seen.add(q.id));
 }
 
-async function fromGen(subject: string, grade: number, re: RegExp, n: number): Promise<Question[]> {
+async function fromGen(k: string, subject: string, grade: number, re: RegExp | undefined, n: number): Promise<Question[]> {
   const G = await import("./gen/build");
-  const pool = G.TEMPLATES.filter((t) => t.subject === subject && t.grade === grade && re.test(t.chapter));
+  const pool = G.TEMPLATES.filter((t) => t.tk ? t.tk === k : !!re && t.subject === subject && t.grade === grade && re.test(t.chapter));
   if (!pool.length) return [];
-  // trải đều mức độ: lấy lần lượt từ nhận biết → vận dụng, mỗi dạng tối đa 1 câu trong một lượt
-  const picks = shuffle([...pool]).sort((a, b) => a.level - b.level).slice(0, n);
+  // trải đều mức độ: nhận biết → vận dụng, mỗi dạng tối đa 1 câu trong một lượt
+  const picks = shuffle([...pool]).slice(0, n).sort((a, b) => a.level - b.level);
   const out: Question[] = [];
   for (const t of picks) { try { out.push(G.toQuestion(t, 1 + rnd(2_000_000_000))); } catch { /* bỏ */ } }
   return out;
@@ -107,8 +115,8 @@ export async function topicQuestions(k: string, n = TOPIC_N): Promise<{ ids: str
 
   const bank = shuffle(qOfTopics([k]));
   const [gen, hk] = await Promise.all([
-    rule.gen && t.g ? fromGen(t.s, t.g, rule.gen, Math.ceil(n * 0.6)).catch(() => []) : Promise.resolve([] as Question[]),
-    rule.hk ? fromHK(t.s, t.g ? [t.g] : [myGrade, ...[10, 11, 12].filter((g) => g !== myGrade)], rule.hk).catch(() => []) : Promise.resolve([] as Question[]),
+    t.g ? fromGen(k, t.s, t.g, rule.gen, Math.ceil(n * 0.6)).catch(() => [] as Question[]) : Promise.resolve([] as Question[]),
+    fromHK(k, t.s, t.g ? [t.g] : [10, 11, 12], rule.hk).catch(() => [] as Question[]),
   ]);
   // Tiếng Anh (lớp 0): ưu tiên đề đúng lớp mình
   const hkSorted = t.g ? shuffle(hk) : [...shuffle(hk.filter((q) => q.id.startsWith(`hk-${myGrade}-`))), ...shuffle(hk.filter((q) => !q.id.startsWith(`hk-${myGrade}-`)))];
@@ -134,5 +142,6 @@ export async function topicQuestions(k: string, n = TOPIC_N): Promise<{ ids: str
   return { ids, ai };
 }
 
-/** Chủ đề này có dạng tự sinh / đề ôn không (để ghi chú trên nút) */
-export const topicHasGen = (k: string) => !!(RULES[k]?.gen && TOP[k]?.g);
+/** Chủ đề này có dạng tự sinh không (để ghi chú trên nút) */
+const GEN_HK2 = new Set(["Toán", "Vật lí", "Hóa học"]);
+export const topicHasGen = (k: string) => { const t = TOP[k]; return !!t && t.g > 0 && (!!RULES[k]?.gen || (t.hk === 2 && GEN_HK2.has(t.s))); };

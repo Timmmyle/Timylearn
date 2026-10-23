@@ -1,0 +1,647 @@
+{
+ "grade": 10,
+ "subject": "Tiếng Anh",
+ "exam": "gk2",
+ "duration_min": 60,
+ "title": "Đề ôn giữa học kì 2 – Tiếng Anh 10 (đề số 1)",
+ "scope": "Global Success 10: Unit 6 Gender equality; Unit 7 Viet Nam and international organisations; Unit 8 New ways to learn (ngữ pháp: bị động với động từ khuyết thiếu, so sánh hơn – so sánh nhất, mệnh đề quan hệ xác định – không xác định)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "$\\underline{\\text{g}}$ive",
+    "$\\underline{\\text{g}}$ap",
+    "$\\underline{\\text{g}}$oal",
+    "$\\underline{\\text{g}}$ender"
+   ],
+   "answer": 3,
+   "explanation": "“gender” có “g” đọc /dʒ/; “gap”, “give”, “goal” đọc /ɡ/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "join$\\underline{\\text{ed}}$",
+    "allow$\\underline{\\text{ed}}$",
+    "encourag$\\underline{\\text{ed}}$",
+    "promot$\\underline{\\text{ed}}$"
+   ],
+   "answer": 3,
+   "explanation": "“promoted” tận cùng âm /t/ nên “-ed” đọc /ɪd/; “encouraged”, “allowed”, “joined” đọc /d/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "equal",
+    "career",
+    "household",
+    "female"
+   ],
+   "answer": 1,
+   "explanation": "“career” /kəˈrɪə/ nhấn âm 2; “equal”, “female”, “household” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "development",
+    "economic",
+    "discriminate",
+    "equality"
+   ],
+   "answer": 1,
+   "explanation": "“economic” /ˌiːkəˈnɒmɪk/ nhấn âm 3; “equality” /iˈkwɒləti/, “development” /dɪˈveləpmənt/, “discriminate” /dɪˈskrɪmɪneɪt/ nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Gender equality – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nGender ______ means that men and women have the same rights and opportunities.",
+   "options": [
+    "equal",
+    "equality",
+    "equally",
+    "unequal"
+   ],
+   "answer": 1,
+   "explanation": "Sau “gender” cần danh từ tạo cụm “gender equality” (bình đẳng giới)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Gender equality – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nNo one should be treated unfairly. Discrimination ______ women in the workplace must be stopped.",
+   "options": [
+    "on",
+    "for",
+    "against",
+    "with"
+   ],
+   "answer": 2,
+   "explanation": "Cụm “discrimination against sb” = sự phân biệt đối xử với ai."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Gender equality – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nToday many women are able to pursue a ______ in fields such as engineering and medicine.",
+   "options": [
+    "salary",
+    "income",
+    "career",
+    "wage"
+   ],
+   "answer": 2,
+   "explanation": "“pursue a career” = theo đuổi sự nghiệp; salary/wage/income là tiền lương, thu nhập, không đi với “pursue”."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: Viet Nam and international organisations – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nViet Nam became a ______ of the United Nations in 1977.",
+   "options": [
+    "memorable",
+    "membership",
+    "member",
+    "remember"
+   ],
+   "answer": 2,
+   "explanation": "Sau “a” và trước “of” cần danh từ đếm được: member (thành viên). Việt Nam gia nhập Liên Hợp Quốc năm 1977."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: Viet Nam and international organisations – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nThe World Bank lends money to developing countries to help them reduce ______ and improve living standards.",
+   "options": [
+    "poor",
+    "poverty",
+    "poorly",
+    "rich"
+   ],
+   "answer": 1,
+   "explanation": "Sau động từ “reduce” cần danh từ: poverty (sự nghèo đói)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: Viet Nam and international organisations – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nViet Nam has ______ a lot from joining the World Trade Organization, especially in trade and investment.",
+   "options": [
+    "provided",
+    "benefited",
+    "offered",
+    "supported"
+   ],
+   "answer": 1,
+   "explanation": "Cấu trúc “benefit from sth” = hưởng lợi từ điều gì; các động từ còn lại không hợp nghĩa với “from”."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: New ways to learn – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nIn a ______ classroom, students watch video lectures at home and then do exercises and discussions in class.",
+   "options": [
+    "flipped",
+    "physical",
+    "traditional",
+    "private"
+   ],
+   "answer": 0,
+   "explanation": "“flipped classroom” (lớp học đảo ngược): xem bài giảng ở nhà, luyện tập, thảo luận trên lớp."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: New ways to learn – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nWith an Internet connection, students can ______ online learning materials at any time.",
+   "options": [
+    "reach",
+    "connect",
+    "approach",
+    "access"
+   ],
+   "answer": 3,
+   "explanation": "“access materials” = truy cập tài liệu; “connect” cần “to”, “approach/reach” không hợp nghĩa."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Passive voice with modal verbs",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nWomen ______ equal pay for equal work.",
+   "options": [
+    "should give",
+    "should gave",
+    "should be given",
+    "should be giving"
+   ],
+   "answer": 2,
+   "explanation": "Phụ nữ “được trả” → bị động với động từ khuyết thiếu: should + be + V3 → should be given."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Passive voice with modal verbs",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nGender inequality ______ by changing people's attitudes and traditional beliefs.",
+   "options": [
+    "can be solving",
+    "can be solved",
+    "can solved",
+    "can solve"
+   ],
+   "answer": 1,
+   "explanation": "Chủ ngữ “gender inequality” chịu tác động → can + be + V3: can be solved."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Passive voice with modal verbs",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nGirls ______ to study science and technology subjects as much as boys.",
+   "options": [
+    "must be encouraged",
+    "must encourage",
+    "must be encouraging",
+    "must encouraged"
+   ],
+   "answer": 0,
+   "explanation": "Các em gái “được khuyến khích” → must + be + V3: must be encouraged."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|So sánh",
+   "topic": "Unit 7 – Grammar: Comparatives and superlatives",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nViet Nam's economy is growing ______ than it was twenty years ago.",
+   "options": [
+    "faster",
+    "more faster",
+    "more fast",
+    "fastest"
+   ],
+   "answer": 0,
+   "explanation": "Có “than” → so sánh hơn; “fast” là từ ngắn → faster."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|So sánh",
+   "topic": "Unit 7 – Grammar: Comparatives and superlatives",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nUNICEF is one of ______ organisations that help children around the world.",
+   "options": [
+    "most famous",
+    "the famousest",
+    "more famous",
+    "the most famous"
+   ],
+   "answer": 3,
+   "explanation": "“one of + the + so sánh nhất + danh từ số nhiều”; “famous” là tính từ dài → the most famous."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|So sánh",
+   "topic": "Unit 7 – Grammar: Comparatives and superlatives",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nThis year's youth conference was ______ than last year's because more countries took part.",
+   "options": [
+    "very more successful",
+    "much more successful",
+    "more much successful",
+    "most successful"
+   ],
+   "answer": 1,
+   "explanation": "So sánh hơn của tính từ dài: more successful; nhấn mạnh bằng “much” đặt trước “more”; không dùng “very” với so sánh hơn."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Mệnh đề quan hệ",
+   "topic": "Unit 8 – Grammar: Relative clauses",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe teacher ______ taught us English last year has moved to Ha Noi.",
+   "options": [
+    "who",
+    "which",
+    "whose",
+    "whom"
+   ],
+   "answer": 0,
+   "explanation": "Thay cho danh từ chỉ người, làm chủ ngữ của mệnh đề quan hệ → who."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Mệnh đề quan hệ",
+   "topic": "Unit 8 – Grammar: Relative clauses",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nMy school, ______ was built in 1990, has just introduced blended learning.",
+   "options": [
+    "who",
+    "that",
+    "which",
+    "where"
+   ],
+   "answer": 2,
+   "explanation": "Mệnh đề quan hệ không xác định (có dấu phẩy), thay cho vật, làm chủ ngữ → which; không dùng “that” sau dấu phẩy; “where” không làm chủ ngữ."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nNam: “Could you tell me what UNICEF does?”\nMai: “______”",
+   "options": [
+    "I don't think so.",
+    "No, I couldn't.",
+    "Sure. It's a UN agency that works for children's rights.",
+    "You're welcome."
+   ],
+   "answer": 2,
+   "explanation": "Đáp lại lời nhờ cung cấp thông tin bằng cách trả lời trực tiếp nội dung được hỏi."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nLan: “I think women should be paid the same as men for the same job.”\nHung: “______”",
+   "options": [
+    "I totally agree with you.",
+    "Thank you very much.",
+    "Yes, please.",
+    "It's my pleasure."
+   ],
+   "answer": 0,
+   "explanation": "Đáp lại một ý kiến → bày tỏ đồng tình: “I totally agree with you.” Các phương án còn lại dùng để cảm ơn/ nhận lời mời."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Lan: That sounds convenient. Is it difficult?\nb. Minh: I'm taking an online English course.\nc. Lan: What are you doing this summer, Minh?\nd. Minh: Not really. I can study at my own pace.",
+   "options": [
+    "c – a – b – d",
+    "c – d – a – b",
+    "b – c – a – d",
+    "c – b – a – d"
+   ],
+   "answer": 3,
+   "explanation": "Lan hỏi kế hoạch hè (c) → Minh trả lời học khóa tiếng Anh online (b) → Lan nhận xét và hỏi có khó không (a) → Minh trả lời “Not really…” (d)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. Since then, it has actively taken part in many UN programmes.\nb. Viet Nam joined the United Nations in 1977.\nc. For example, Vietnamese officers and doctors have joined UN peacekeeping missions since 2014.\nd. Thanks to these contributions, Viet Nam has gained respect from the international community.",
+   "options": [
+    "b – c – a – d",
+    "a – b – c – d",
+    "b – a – c – d",
+    "b – a – d – c"
+   ],
+   "answer": 2,
+   "explanation": "Câu chủ đề (b) nêu sự kiện gia nhập → “Since then” (a) nối tiếp → ví dụ “For example” (c) → kết luận “Thanks to these contributions” (d)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 6: Gender equality)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nGender equality means that men and women have the same rights and (25) ______. In the past, many girls were not allowed to go to school, and women (26) ______ to stay at home and look after their families. Today, the situation has changed a lot. More and more women are working in jobs (27) ______ were once considered men's work, such as engineering, politics and the army. However, gender (28) ______ still exists in many places. In some countries, women are paid (29) ______ than men for the same work. To solve this problem, many people believe that girls should (30) ______ the same chances as boys from an early age.\n\nBlank (25):",
+   "options": [
+    "opportunism",
+    "opportune",
+    "opportunely",
+    "opportunities"
+   ],
+   "answer": 3,
+   "explanation": "Sau “rights and” cần danh từ song song với “rights”: opportunities (cơ hội)."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 6: Gender equality)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nGender equality means that men and women have the same rights and (25) ______. In the past, many girls were not allowed to go to school, and women (26) ______ to stay at home and look after their families. Today, the situation has changed a lot. More and more women are working in jobs (27) ______ were once considered men's work, such as engineering, politics and the army. However, gender (28) ______ still exists in many places. In some countries, women are paid (29) ______ than men for the same work. To solve this problem, many people believe that girls should (30) ______ the same chances as boys from an early age.\n\nBlank (26):",
+   "options": [
+    "were expected",
+    "expected",
+    "were expecting",
+    "expect"
+   ],
+   "answer": 0,
+   "explanation": "Phụ nữ “bị/được mong đợi” ở nhà trong quá khứ → bị động quá khứ đơn: were expected."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 6: Gender equality)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nGender equality means that men and women have the same rights and (25) ______. In the past, many girls were not allowed to go to school, and women (26) ______ to stay at home and look after their families. Today, the situation has changed a lot. More and more women are working in jobs (27) ______ were once considered men's work, such as engineering, politics and the army. However, gender (28) ______ still exists in many places. In some countries, women are paid (29) ______ than men for the same work. To solve this problem, many people believe that girls should (30) ______ the same chances as boys from an early age.\n\nBlank (27):",
+   "options": [
+    "who",
+    "where",
+    "whose",
+    "that"
+   ],
+   "answer": 3,
+   "explanation": "Thay cho danh từ chỉ vật “jobs”, làm chủ ngữ của “were” → that (= which)."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 6: Gender equality)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nGender equality means that men and women have the same rights and (25) ______. In the past, many girls were not allowed to go to school, and women (26) ______ to stay at home and look after their families. Today, the situation has changed a lot. More and more women are working in jobs (27) ______ were once considered men's work, such as engineering, politics and the army. However, gender (28) ______ still exists in many places. In some countries, women are paid (29) ______ than men for the same work. To solve this problem, many people believe that girls should (30) ______ the same chances as boys from an early age.\n\nBlank (28):",
+   "options": [
+    "discriminating",
+    "discriminated",
+    "discrimination",
+    "discriminate"
+   ],
+   "answer": 2,
+   "explanation": "Sau “gender” cần danh từ: gender discrimination (phân biệt giới tính)."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 6: Gender equality)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nGender equality means that men and women have the same rights and (25) ______. In the past, many girls were not allowed to go to school, and women (26) ______ to stay at home and look after their families. Today, the situation has changed a lot. More and more women are working in jobs (27) ______ were once considered men's work, such as engineering, politics and the army. However, gender (28) ______ still exists in many places. In some countries, women are paid (29) ______ than men for the same work. To solve this problem, many people believe that girls should (30) ______ the same chances as boys from an early age.\n\nBlank (29):",
+   "options": [
+    "more little",
+    "least",
+    "less",
+    "fewer"
+   ],
+   "answer": 2,
+   "explanation": "Có “than” → so sánh hơn; “paid less than” = được trả ít hơn; “fewer” dùng với danh từ đếm được số nhiều."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 6: Gender equality)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nGender equality means that men and women have the same rights and (25) ______. In the past, many girls were not allowed to go to school, and women (26) ______ to stay at home and look after their families. Today, the situation has changed a lot. More and more women are working in jobs (27) ______ were once considered men's work, such as engineering, politics and the army. However, gender (28) ______ still exists in many places. In some countries, women are paid (29) ______ than men for the same work. To solve this problem, many people believe that girls should (30) ______ the same chances as boys from an early age.\n\nBlank (30):",
+   "options": [
+    "be given",
+    "given",
+    "be giving",
+    "give"
+   ],
+   "answer": 0,
+   "explanation": "Các em gái “được trao” cơ hội → bị động với should: should be given."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 8: New ways to learn)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nTechnology has changed the way students learn. In the past, learning mainly took place in classrooms, where teachers gave lectures and students took notes. Today, thanks to the Internet and digital devices, students can learn almost anywhere and at any time.\n\nOne popular model is blended learning, which combines face-to-face lessons with online activities. Students meet their teachers at school a few times a week and complete the rest of their work online. Another model is the flipped classroom. In this model, students watch short video lectures at home before class. Class time is then used for discussions, group projects and practice exercises, so teachers can give more support to students who need it.\n\nThese new ways of learning have many advantages. Students can study at their own pace and review difficult lessons as many times as they want. They also become more independent and learn how to manage their time. However, online learning also has some drawbacks. Some students find it hard to concentrate when they study alone at home, and others do not have a reliable Internet connection. Moreover, spending too much time in front of screens may harm their eyes.\n\nIn conclusion, new ways of learning can be very effective, but students need self-discipline and good support from teachers and parents to benefit from them.\n\nWhat is the passage mainly about?",
+   "options": [
+    "How to buy digital devices for students",
+    "The history of traditional classrooms",
+    "Why teachers should stop giving lectures",
+    "New ways of learning and their advantages and disadvantages"
+   ],
+   "answer": 3,
+   "explanation": "Bài giới thiệu blended learning, flipped classroom rồi nêu ưu và nhược điểm → nói về các cách học mới cùng ưu, nhược điểm."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 8: New ways to learn)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nTechnology has changed the way students learn. In the past, learning mainly took place in classrooms, where teachers gave lectures and students took notes. Today, thanks to the Internet and digital devices, students can learn almost anywhere and at any time.\n\nOne popular model is blended learning, which combines face-to-face lessons with online activities. Students meet their teachers at school a few times a week and complete the rest of their work online. Another model is the flipped classroom. In this model, students watch short video lectures at home before class. Class time is then used for discussions, group projects and practice exercises, so teachers can give more support to students who need it.\n\nThese new ways of learning have many advantages. Students can study at their own pace and review difficult lessons as many times as they want. They also become more independent and learn how to manage their time. However, online learning also has some drawbacks. Some students find it hard to concentrate when they study alone at home, and others do not have a reliable Internet connection. Moreover, spending too much time in front of screens may harm their eyes.\n\nIn conclusion, new ways of learning can be very effective, but students need self-discipline and good support from teachers and parents to benefit from them.\n\nAccording to the passage, what do students in a flipped classroom do at home?",
+   "options": [
+    "They do group projects.",
+    "They take part in discussions.",
+    "They meet their teachers.",
+    "They watch short video lectures."
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 2: “students watch short video lectures at home before class”."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 8: New ways to learn)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nTechnology has changed the way students learn. In the past, learning mainly took place in classrooms, where teachers gave lectures and students took notes. Today, thanks to the Internet and digital devices, students can learn almost anywhere and at any time.\n\nOne popular model is blended learning, which combines face-to-face lessons with online activities. Students meet their teachers at school a few times a week and complete the rest of their work online. Another model is the flipped classroom. In this model, students watch short video lectures at home before class. Class time is then used for discussions, group projects and practice exercises, so teachers can give more support to students who need it.\n\nThese new ways of learning have many advantages. Students can study at their own pace and review difficult lessons as many times as they want. They also become more independent and learn how to manage their time. However, online learning also has some drawbacks. Some students find it hard to concentrate when they study alone at home, and others do not have a reliable Internet connection. Moreover, spending too much time in front of screens may harm their eyes.\n\nIn conclusion, new ways of learning can be very effective, but students need self-discipline and good support from teachers and parents to benefit from them.\n\nThe word “drawbacks” in paragraph 3 is closest in meaning to ______.",
+   "options": [
+    "devices",
+    "benefits",
+    "disadvantages",
+    "methods"
+   ],
+   "answer": 2,
+   "explanation": "“drawbacks” = mặt hạn chế, nhược điểm = disadvantages; câu chứa từ này bắt đầu bằng “However”, đối lập với “advantages”."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 8: New ways to learn)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nTechnology has changed the way students learn. In the past, learning mainly took place in classrooms, where teachers gave lectures and students took notes. Today, thanks to the Internet and digital devices, students can learn almost anywhere and at any time.\n\nOne popular model is blended learning, which combines face-to-face lessons with online activities. Students meet their teachers at school a few times a week and complete the rest of their work online. Another model is the flipped classroom. In this model, students watch short video lectures at home before class. Class time is then used for discussions, group projects and practice exercises, so teachers can give more support to students who need it.\n\nThese new ways of learning have many advantages. Students can study at their own pace and review difficult lessons as many times as they want. They also become more independent and learn how to manage their time. However, online learning also has some drawbacks. Some students find it hard to concentrate when they study alone at home, and others do not have a reliable Internet connection. Moreover, spending too much time in front of screens may harm their eyes.\n\nIn conclusion, new ways of learning can be very effective, but students need self-discipline and good support from teachers and parents to benefit from them.\n\nThe word “them” in the last paragraph refers to ______.",
+   "options": [
+    "screens",
+    "new ways of learning",
+    "teachers and parents",
+    "students"
+   ],
+   "answer": 1,
+   "explanation": "“benefit from them” = hưởng lợi từ các cách học mới (new ways of learning) được nhắc ở đầu câu."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 8: New ways to learn)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nTechnology has changed the way students learn. In the past, learning mainly took place in classrooms, where teachers gave lectures and students took notes. Today, thanks to the Internet and digital devices, students can learn almost anywhere and at any time.\n\nOne popular model is blended learning, which combines face-to-face lessons with online activities. Students meet their teachers at school a few times a week and complete the rest of their work online. Another model is the flipped classroom. In this model, students watch short video lectures at home before class. Class time is then used for discussions, group projects and practice exercises, so teachers can give more support to students who need it.\n\nThese new ways of learning have many advantages. Students can study at their own pace and review difficult lessons as many times as they want. They also become more independent and learn how to manage their time. However, online learning also has some drawbacks. Some students find it hard to concentrate when they study alone at home, and others do not have a reliable Internet connection. Moreover, spending too much time in front of screens may harm their eyes.\n\nIn conclusion, new ways of learning can be very effective, but students need self-discipline and good support from teachers and parents to benefit from them.\n\nWhich of the following is NOT mentioned as a problem of online learning?",
+   "options": [
+    "The high cost of online courses",
+    "Difficulty concentrating at home",
+    "An unreliable Internet connection",
+    "Possible harm to the eyes"
+   ],
+   "answer": 0,
+   "explanation": "Đoạn 3 nêu khó tập trung, mạng không ổn định, hại mắt; không nhắc đến chi phí khóa học."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 8: New ways to learn)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nTechnology has changed the way students learn. In the past, learning mainly took place in classrooms, where teachers gave lectures and students took notes. Today, thanks to the Internet and digital devices, students can learn almost anywhere and at any time.\n\nOne popular model is blended learning, which combines face-to-face lessons with online activities. Students meet their teachers at school a few times a week and complete the rest of their work online. Another model is the flipped classroom. In this model, students watch short video lectures at home before class. Class time is then used for discussions, group projects and practice exercises, so teachers can give more support to students who need it.\n\nThese new ways of learning have many advantages. Students can study at their own pace and review difficult lessons as many times as they want. They also become more independent and learn how to manage their time. However, online learning also has some drawbacks. Some students find it hard to concentrate when they study alone at home, and others do not have a reliable Internet connection. Moreover, spending too much time in front of screens may harm their eyes.\n\nIn conclusion, new ways of learning can be very effective, but students need self-discipline and good support from teachers and parents to benefit from them.\n\nIt can be inferred from the passage that ______.",
+   "options": [
+    "students who lack self-discipline may not benefit fully from online learning",
+    "flipped classrooms do not need teachers",
+    "traditional classrooms will soon disappear",
+    "blended learning takes place entirely online"
+   ],
+   "answer": 0,
+   "explanation": "Kết luận nói học sinh cần “self-discipline” mới hưởng lợi → thiếu tính kỉ luật có thể không học hiệu quả. Blended learning có học trực tiếp nên không “entirely online”."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|So sánh",
+   "topic": "Error identification – Comparatives and superlatives",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nSingapore is (A) one of the (B) most richest countries (C) in Southeast Asia, (D) and it is a founding member of ASEAN.",
+   "options": [
+    "(A) one of the",
+    "(B) most richest",
+    "(C) in",
+    "(D) and"
+   ],
+   "answer": 1,
+   "explanation": "“rich” là tính từ ngắn → so sánh nhất là “richest”, không thêm “most”: most richest → richest."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Error identification – Passive voice with modal verbs",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nEqual pay (A) for men and women (B) must (C) be (D) guarantee by law.",
+   "options": [
+    "(A) for",
+    "(B) must",
+    "(C) be",
+    "(D) guarantee"
+   ],
+   "answer": 3,
+   "explanation": "Bị động với động từ khuyết thiếu: must be + V3 → guarantee → guaranteed."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Sentence transformation – Passive voice with modal verbs",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nWe must protect women's rights at work.",
+   "options": [
+    "Women's rights at work must be protecting.",
+    "Women's rights at work must be protected.",
+    "Women's rights at work must protect.",
+    "Women's rights at work were protected."
+   ],
+   "answer": 1,
+   "explanation": "Chuyển sang bị động giữ động từ khuyết thiếu: must + be + V3 → must be protected; “were protected” sai thì và mất nghĩa “phải”."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Mệnh đề quan hệ",
+   "topic": "Sentence transformation – Relative clauses",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nI met a woman. Her daughter teaches at an online school.",
+   "options": [
+    "I met a woman whose daughter teaches at an online school.",
+    "I met a woman which daughter teaches at an online school.",
+    "I met a woman whom daughter teaches at an online school.",
+    "I met a woman who's daughter teaches at an online school."
+   ],
+   "answer": 0,
+   "explanation": "“Her daughter” chỉ sự sở hữu → dùng “whose + danh từ”; “who's” = who is."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu, kiểm tra mỗi câu chỉ có một phương án đúng (loại các phương án cũng có thể chấp nhận như “that” ở mệnh đề quan hệ xác định khi đáp án là who). Kiểm tra phiên âm/trọng âm từng từ, độ dài đoạn đọc, JSON, số câu và phân bố đáp án bằng Python. Dữ kiện: Việt Nam gia nhập LHQ năm 1977, tham gia gìn giữ hòa bình LHQ từ 2014."
+}

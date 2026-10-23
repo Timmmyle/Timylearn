@@ -1,0 +1,467 @@
+{
+ "grade": 12,
+ "subject": "Sinh học",
+ "exam": "gk1",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 1 – Sinh học 12 (đề số 1)",
+ "scope": "Di truyền phân tử (DNA và tái bản DNA, gene, phiên mã, dịch mã, mã di truyền, điều hòa biểu hiện gene – operon lac); Di truyền nhiễm sắc thể (cấu trúc NST, đột biến gene, đột biến cấu trúc và số lượng NST)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Tái bản DNA",
+   "level": 1,
+   "stem": "Quá trình tái bản DNA diễn ra theo các nguyên tắc nào?",
+   "options": [
+    "Bổ sung và bán bảo toàn",
+    "Bổ sung và bảo toàn",
+    "Bán bảo toàn và phân tán",
+    "Chỉ theo nguyên tắc bổ sung"
+   ],
+   "answer": 0,
+   "explanation": "Các nucleotide tự do liên kết với mạch khuôn theo nguyên tắc bổ sung (A–T, G–C); mỗi DNA con có một mạch cũ, một mạch mới (bán bảo toàn)."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Tái bản DNA",
+   "level": 1,
+   "stem": "Enzyme DNA polymerase chỉ tổng hợp mạch DNA mới theo chiều",
+   "options": [
+    "5' → 3'",
+    "3' → 5'",
+    "cả hai chiều 5' → 3' và 3' → 5'",
+    "tùy thuộc vào loại mạch khuôn"
+   ],
+   "answer": 0,
+   "explanation": "DNA polymerase chỉ gắn nucleotide vào đầu 3'-OH tự do nên mạch mới luôn kéo dài theo chiều 5' → 3'."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Mã di truyền",
+   "level": 1,
+   "stem": "Bộ ba mở đầu (codon khởi đầu dịch mã) trên mRNA là",
+   "options": [
+    "UAA",
+    "UAG",
+    "UGA",
+    "AUG"
+   ],
+   "answer": 3,
+   "explanation": "AUG là codon mở đầu, mã hóa methionine (ở nhân sơ là formylmethionine); UAA, UAG, UGA là các codon kết thúc."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Mã di truyền",
+   "level": 2,
+   "stem": "Tính thoái hóa của mã di truyền là hiện tượng",
+   "options": [
+    "một bộ ba mã hóa cho nhiều loại amino acid",
+    "hầu hết các loài dùng chung một bộ mã di truyền",
+    "nhiều bộ ba khác nhau cùng mã hóa cho một loại amino acid",
+    "mã di truyền được đọc liên tục theo từng bộ ba, không gối nhau"
+   ],
+   "answer": 2,
+   "explanation": "Thoái hóa: một amino acid có thể được mã hóa bởi nhiều codon (vd. leucine có 6 codon). Phương án C là tính phổ biến; D là tính liên tục."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Phiên mã",
+   "level": 2,
+   "stem": "Trong quá trình phiên mã, enzyme RNA polymerase di chuyển trên mạch khuôn và tổng hợp mRNA theo chiều nào?",
+   "options": [
+    "Trượt trên mạch khuôn theo chiều 5' → 3', tổng hợp mRNA theo chiều 5' → 3'",
+    "Trượt trên mạch khuôn theo chiều 3' → 5', tổng hợp mRNA theo chiều 5' → 3'",
+    "Trượt trên mạch khuôn theo chiều 3' → 5', tổng hợp mRNA theo chiều 3' → 5'",
+    "Trượt trên cả hai mạch, tổng hợp hai phân tử mRNA cùng lúc"
+   ],
+   "answer": 1,
+   "explanation": "RNA polymerase đọc mạch mã gốc theo chiều 3' → 5' và tổng hợp mRNA bổ sung, ngược chiều, theo chiều 5' → 3'."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Điều hòa biểu hiện gene",
+   "level": 2,
+   "stem": "Ở operon lac của E. coli, khi môi trường có lactose thì",
+   "options": [
+    "lactose gắn trực tiếp vào vùng khởi động, ngăn RNA polymerase bám vào",
+    "lactose liên kết với protein ức chế làm nó không gắn được vào vùng vận hành, các gene cấu trúc được phiên mã",
+    "protein ức chế gắn chặt hơn vào vùng vận hành",
+    "gene điều hòa ngừng phiên mã nên không có protein ức chế"
+   ],
+   "answer": 1,
+   "explanation": "Lactose (allolactose) làm protein ức chế biến đổi cấu hình, không bám vùng vận hành O; RNA polymerase phiên mã các gene Z, Y, A."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Điều hòa biểu hiện gene",
+   "level": 3,
+   "stem": "Một chủng E. coli đột biến ở gene điều hòa làm protein ức chế mất khả năng liên kết với vùng vận hành. Ở chủng này, các gene cấu trúc của operon lac",
+   "options": [
+    "không bao giờ được phiên mã",
+    "chỉ được phiên mã khi môi trường có lactose",
+    "được phiên mã liên tục kể cả khi môi trường không có lactose",
+    "chỉ được phiên mã khi môi trường có glucose"
+   ],
+   "answer": 2,
+   "explanation": "Protein ức chế không bám được vùng O nên không còn ngăn cản RNA polymerase; operon hoạt động liên tục bất kể có lactose hay không."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Phiên mã",
+   "level": 3,
+   "stem": "Một đoạn mạch mã gốc của gene có trình tự 3'-TAC GGA TTC-5'. Trình tự nucleotide tương ứng trên mRNA là",
+   "options": [
+    "5'-UAC GGA UUC-3'",
+    "3'-AUG CCU AAG-5'",
+    "5'-AUG CCU AAG-3'",
+    "5'-ATG CCT AAG-3'"
+   ],
+   "answer": 2,
+   "explanation": "mRNA bổ sung và ngược chiều với mạch mã gốc: T→A, A→U, C→G, G→C; đầu 3' của mạch gốc ứng với đầu 5' của mRNA: 5'-AUG CCU AAG-3'."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Cấu trúc gene",
+   "level": 1,
+   "stem": "Ở phần lớn gene của sinh vật nhân thực, vùng mã hóa có cấu trúc phân mảnh gồm",
+   "options": [
+    "chỉ gồm các đoạn exon liên tục",
+    "các đoạn exon xen kẽ các đoạn intron",
+    "các đoạn intron nằm hai đầu, exon nằm giữa",
+    "các đoạn promoter xen kẽ các đoạn terminator"
+   ],
+   "answer": 1,
+   "explanation": "Gene phân mảnh có các đoạn mã hóa (exon) xen kẽ đoạn không mã hóa (intron); intron bị cắt bỏ khi hoàn thiện mRNA."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Cấu trúc nhiễm sắc thể",
+   "level": 1,
+   "stem": "Mỗi nucleosome – đơn vị cấu trúc cơ bản của nhiễm sắc thể ở sinh vật nhân thực – gồm",
+   "options": [
+    "một đoạn DNA khoảng 146 cặp nucleotide quấn quanh khối 8 phân tử histone",
+    "một đoạn DNA khoảng 146 cặp nucleotide quấn quanh 4 phân tử histone",
+    "một đoạn DNA quấn 3 vòng quanh khối 8 phân tử histone",
+    "một phân tử RNA quấn quanh khối 8 phân tử histone"
+   ],
+   "answer": 0,
+   "explanation": "Nucleosome gồm lõi 8 phân tử histone, được đoạn DNA dài khoảng 146 cặp nucleotide quấn quanh khoảng 1¾ vòng."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 1,
+   "stem": "Hội chứng Down ở người là do",
+   "options": [
+    "mất một đoạn nhiễm sắc thể số 5",
+    "trong tế bào chỉ có 1 nhiễm sắc thể giới tính X",
+    "trong tế bào có 3 nhiễm sắc thể giới tính X",
+    "trong tế bào có 3 nhiễm sắc thể số 21"
+   ],
+   "answer": 3,
+   "explanation": "Down là thể ba nhiễm sắc thể số 21 (2n + 1 = 47). Mất đoạn NST số 5 gây hội chứng tiếng mèo kêu; XO là Turner; XXX là hội chứng 3X."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến gene",
+   "level": 2,
+   "stem": "Dạng đột biến điểm nào sau đây thường gây hậu quả nghiêm trọng nhất do làm dịch khung đọc mã di truyền?",
+   "options": [
+    "Thay thế một cặp nucleotide ở bộ ba gần cuối vùng mã hóa",
+    "Mất một cặp nucleotide ở gần đầu vùng mã hóa",
+    "Thay thế một cặp nucleotide tạo bộ ba mới cùng mã hóa amino acid cũ",
+    "Thay thế một cặp nucleotide trong vùng intron"
+   ],
+   "answer": 1,
+   "explanation": "Mất (hoặc thêm) một cặp nucleotide làm thay đổi cách đọc tất cả các bộ ba từ điểm đột biến về sau; càng gần đầu gene, chuỗi polypeptide càng bị thay đổi nhiều."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến cấu trúc NST",
+   "level": 1,
+   "stem": "Ở cây đại mạch, dạng đột biến cấu trúc NST nào làm tăng hoạt tính enzyme amylase, có ý nghĩa trong công nghiệp sản xuất bia?",
+   "options": [
+    "Lặp đoạn",
+    "Mất đoạn",
+    "Đảo đoạn",
+    "Chuyển đoạn"
+   ],
+   "answer": 0,
+   "explanation": "Lặp đoạn chứa gene amylase làm tăng số bản sao gene, tăng lượng sản phẩm, hoạt tính amylase tăng."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 2,
+   "stem": "Thể tam bội (3n) thường không có khả năng sinh sản hữu tính bình thường vì",
+   "options": [
+    "thể tam bội không có quá trình giảm phân",
+    "thể tam bội luôn chết ở giai đoạn phôi",
+    "tế bào thể tam bội có ít NST hơn thể lưỡng bội",
+    "các NST trong bộ ba không phân li đồng đều trong giảm phân, tạo giao tử mất cân bằng gene"
+   ],
+   "answer": 3,
+   "explanation": "Mỗi nhóm có 3 NST tương đồng, giảm phân phân li không đều nên phần lớn giao tử có bộ NST không cân bằng, không có khả năng thụ tinh hoặc hợp tử chết."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến cấu trúc NST",
+   "level": 3,
+   "stem": "Một NST có trình tự các gene là ABCD•EFGH (dấu • là tâm động). Sau đột biến, NST có trình tự A•DCBEFGH. Đây là dạng đột biến",
+   "options": [
+    "chuyển đoạn trong một NST",
+    "đảo đoạn có chứa tâm động",
+    "lặp đoạn",
+    "mất đoạn"
+   ],
+   "answer": 1,
+   "explanation": "Đoạn BCD• bị đứt ra và quay 180° rồi gắn lại thành •DCB, tâm động nằm trong đoạn đảo; số lượng gene không đổi, chỉ đổi vị trí."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 1,
+   "stem": "Ở một loài có bộ NST 2n = 24, thể một (2n − 1) có số NST trong tế bào sinh dưỡng là",
+   "options": [
+    "25",
+    "22",
+    "12",
+    "23"
+   ],
+   "answer": 3,
+   "explanation": "Thể một thiếu 1 NST ở một cặp: 2n − 1 = 24 − 1 = 23."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 3,
+   "stem": "Một tế bào sinh tinh có kiểu gene AaBb giảm phân; cặp NST mang Aa không phân li trong giảm phân I, giảm phân II bình thường; cặp Bb phân li bình thường. Tế bào này tạo ra các loại giao tử nào?",
+   "options": [
+    "AB, Ab, aB và ab",
+    "AaB, Aab, B và b",
+    "AaB và b hoặc Aab và B",
+    "AAB, aab, B và b"
+   ],
+   "answer": 2,
+   "explanation": "Cặp Aa không phân li ở giảm phân I tạo hai tế bào (Aa) và (O). Một tế bào sinh tinh chỉ có một cách sắp xếp nên cho 2 loại giao tử: AaB và b, hoặc Aab và B."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến gene",
+   "level": 3,
+   "stem": "Một đột biến thay thế một cặp nucleotide làm codon 5'-UGG-3' (mã hóa tryptophan) trên mRNA trở thành 5'-UGA-3'. Hậu quả của đột biến này là",
+   "options": [
+    "chuỗi polypeptide dài hơn bình thường",
+    "chỉ thay một amino acid này bằng một amino acid khác",
+    "chuỗi polypeptide bị ngắn lại do dịch mã kết thúc sớm",
+    "không làm thay đổi chuỗi polypeptide do mã di truyền có tính thoái hóa"
+   ],
+   "answer": 2,
+   "explanation": "UGA là codon kết thúc; đột biến vô nghĩa làm dịch mã dừng sớm tại vị trí này, chuỗi polypeptide ngắn hơn, thường mất chức năng."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Tái bản DNA",
+   "level": 2,
+   "stem": "Quá trình tái bản phân tử DNA vùng nhân ở vi khuẩn E. coli.",
+   "statements": [
+    {
+     "t": "Tái bản bắt đầu tại điểm khởi đầu tái bản (ori) và diễn ra theo hai chạc tái bản.",
+     "a": true
+    },
+    {
+     "t": "Trên mỗi chạc tái bản, mạch mới tổng hợp liên tục được tạo ra trên mạch khuôn có chiều 3' → 5' (tính theo chiều tháo xoắn).",
+     "a": true
+    },
+    {
+     "t": "Các đoạn Okazaki được nối lại với nhau nhờ enzyme DNA ligase.",
+     "a": true
+    },
+    {
+     "t": "Mỗi phân tử DNA con tạo ra có hai mạch đều được tổng hợp mới hoàn toàn.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: mạch mới kéo dài theo chiều 5' → 3' cùng chiều tháo xoắn nên tổng hợp liên tục. c) Đúng. d) Sai: theo nguyên tắc bán bảo toàn, mỗi DNA con có một mạch cũ và một mạch mới."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Điều hòa biểu hiện gene",
+   "level": 3,
+   "stem": "Operon lac của E. coli gồm vùng khởi động (P), vùng vận hành (O) và các gene cấu trúc Z, Y, A; gene điều hòa lacI nằm ở phía trước operon.",
+   "statements": [
+    {
+     "t": "Khi môi trường không có lactose, protein ức chế liên kết với vùng vận hành, ngăn cản phiên mã các gene Z, Y, A.",
+     "a": true
+    },
+    {
+     "t": "Gene điều hòa lacI chỉ được phiên mã khi môi trường có lactose.",
+     "a": false
+    },
+    {
+     "t": "Đột biến làm mất vùng khởi động P của operon khiến các gene Z, Y, A không được phiên mã kể cả khi có lactose.",
+     "a": true
+    },
+    {
+     "t": "Các gene Z, Y, A được phiên mã thành ba phân tử mRNA riêng biệt.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: gene điều hòa phiên mã liên tục, luôn tạo protein ức chế. c) Đúng: RNA polymerase không có vị trí bám. d) Sai: Z, Y, A được phiên mã chung thành một phân tử mRNA."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Cấu trúc nhiễm sắc thể",
+   "level": 1,
+   "stem": "Khi tìm hiểu về nhiễm sắc thể ở sinh vật nhân thực, một học sinh đưa ra các nhận định sau.",
+   "statements": [
+    {
+     "t": "Mỗi NST kép gồm 2 chromatid giống hệt nhau, dính nhau ở tâm động.",
+     "a": true
+    },
+    {
+     "t": "Đầu mút (telomere) giúp bảo vệ NST, ngăn các NST dính vào nhau.",
+     "a": true
+    },
+    {
+     "t": "Loài có số lượng NST trong bộ lưỡng bội càng nhiều thì càng tiến hóa.",
+     "a": false
+    },
+    {
+     "t": "Ở kì giữa của nguyên phân, NST co xoắn cực đại, có hình thái đặc trưng, dễ quan sát nhất.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: số lượng NST không phản ánh mức độ tiến hóa (vd. người 2n = 46, tinh tinh 2n = 48). d) Đúng."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 3,
+   "stem": "Ở cà chua, bộ NST lưỡng bội 2n = 24. Xét các thể đột biến số lượng NST: thể một, thể ba, thể tam bội và thể tứ bội.",
+   "statements": [
+    {
+     "t": "Tế bào sinh dưỡng của thể ba có 25 NST.",
+     "a": true
+    },
+    {
+     "t": "Tế bào sinh dưỡng của thể tam bội có 36 NST.",
+     "a": true
+    },
+    {
+     "t": "Ở loài này có tối đa 24 dạng thể một khác nhau (mỗi dạng thiếu 1 NST ở một cặp).",
+     "a": false
+    },
+    {
+     "t": "Thể tứ bội được tạo ra khi tất cả các cặp NST nhân đôi nhưng không phân li, tế bào có 46 NST.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 2n + 1 = 25. b) Đúng: 3n = 36. c) Sai: có n = 12 cặp nên tối đa 12 dạng thể một. d) Sai: thể tứ bội 4n = 48 NST."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Mã di truyền",
+   "level": 2,
+   "stem": "Một gene ở vi khuẩn (không có intron) có 2400 nucleotide. Phân tử mRNA do gene này phiên mã có bao nhiêu bộ ba (codon)? Giả sử toàn bộ chiều dài gene đều được phiên mã.",
+   "answer_text": "400",
+   "explanation": "mRNA có số nucleotide bằng số nucleotide của một mạch: 2400 : 2 = 1200; số codon = 1200 : 3 = 400."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Tái bản DNA",
+   "level": 3,
+   "stem": "Một phân tử DNA chỉ chứa ¹⁵N được chuyển sang môi trường chỉ chứa ¹⁴N và tái bản liên tiếp 4 lần. Trong số các phân tử DNA con tạo ra, có bao nhiêu phân tử chỉ chứa ¹⁴N?",
+   "answer_text": "14",
+   "explanation": "Tạo ra 2⁴ = 16 phân tử DNA; theo nguyên tắc bán bảo toàn, 2 mạch ¹⁵N nằm trong 2 phân tử. Số phân tử chỉ chứa ¹⁴N = 16 − 2 = 14."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Tái bản DNA",
+   "level": 3,
+   "stem": "Một gene có 2400 nucleotide, trong đó số nucleotide loại G chiếm 30%. Gene này tái bản liên tiếp 2 lần. Môi trường nội bào cung cấp bao nhiêu nucleotide loại A?",
+   "answer_text": "1440",
+   "explanation": "%A = 50% − 30% = 20% → A = 0,2 × 2400 = 480. Số A môi trường cung cấp = 480 × (2² − 1) = 1440."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 1,
+   "stem": "Ruồi giấm có bộ NST 2n = 8. Tế bào sinh dưỡng của thể ba (2n + 1) ở ruồi giấm có bao nhiêu NST?",
+   "answer_text": "9",
+   "explanation": "Thể ba: 2n + 1 = 8 + 1 = 9 NST."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 2,
+   "stem": "Một loài thực vật có bộ NST 2n = 14. Ở loài này có thể có tối đa bao nhiêu dạng thể ba (2n + 1) khác nhau?",
+   "answer_text": "7",
+   "explanation": "Thể ba có thể xảy ra ở mỗi cặp NST; loài có n = 7 cặp nên có tối đa 7 dạng thể ba."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 3,
+   "stem": "Ở một loài thực vật, allele A quy định hoa đỏ trội hoàn toàn so với allele a quy định hoa trắng. Cho hai cây tứ bội AAaa giao phấn với nhau; biết cây tứ bội giảm phân chỉ tạo giao tử lưỡng bội có khả năng thụ tinh. Tỉ lệ cây hoa trắng ở đời con là $\\dfrac{1}{x}$. Tìm x.",
+   "answer_text": "36",
+   "explanation": "AAaa tạo giao tử: 1/6 AA : 4/6 Aa : 1/6 aa. Cây hoa trắng aaaa = (1/6)² = 1/36 → x = 36."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập toàn bộ 28 câu; phạm vi Di truyền phân tử và Di truyền NST, đột biến (Sinh học 12 KNTT); kiểm bằng Python các câu tính toán: giao tử AAaa, ¹⁵N/¹⁴N, số nucleotide môi trường, số dạng thể ba (23–28) và trình tự mRNA câu 8."
+}

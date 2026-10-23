@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "Công nghệ",
+ "exam": "gk1",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 1 – Công nghệ 11",
+ "scope": "Vật liệu và gia công cơ khí: phân loại và tính chất vật liệu cơ khí (kim loại đen, kim loại màu, phi kim loại, composite), gia công không phoi (đúc, gia công áp lực, hàn), gia công cắt gọt (tiện, phay, khoan, mài)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Phân loại vật liệu cơ khí",
+   "level": 1,
+   "stem": "Thép thuộc nhóm vật liệu nào sau đây?",
+   "options": [
+    "Vật liệu phi kim loại",
+    "Kim loại màu",
+    "Vật liệu composite",
+    "Kim loại đen"
+   ],
+   "answer": 3,
+   "explanation": "Thép là hợp kim của sắt với carbon nên thuộc kim loại đen (kim loại và hợp kim của sắt)."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gang và thép",
+   "level": 1,
+   "stem": "Gang và thép khác nhau chủ yếu ở",
+   "options": [
+    "hàm lượng carbon: gang có không quá 2,14% carbon, thép có trên 2,14% carbon",
+    "hàm lượng carbon: gang có trên 2,14% carbon, thép có không quá 2,14% carbon",
+    "gang là kim loại màu còn thép là kim loại đen",
+    "gang không chứa carbon còn thép có chứa carbon"
+   ],
+   "answer": 1,
+   "explanation": "Gang và thép đều là hợp kim sắt – carbon; gang có hàm lượng carbon > 2,14%, thép ≤ 2,14%."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Phân loại vật liệu cơ khí",
+   "level": 1,
+   "stem": "Vật liệu nào sau đây là kim loại màu?",
+   "options": [
+    "Nhôm",
+    "Thép hợp kim",
+    "Gang xám",
+    "Thép carbon"
+   ],
+   "answer": 0,
+   "explanation": "Nhôm là kim loại màu; gang và thép là kim loại đen."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Tính chất của vật liệu",
+   "level": 1,
+   "stem": "Độ cứng của vật liệu là khả năng",
+   "options": [
+    "dẫn nhiệt và dẫn điện của vật liệu",
+    "chống lại biến dạng dẻo hay phá hủy của toàn bộ vật liệu dưới tác dụng của ngoại lực",
+    "chống lại biến dạng dẻo của lớp bề mặt dưới tác dụng của ngoại lực",
+    "biến đổi hình dạng mà không bị phá hủy khi chịu ngoại lực"
+   ],
+   "answer": 2,
+   "explanation": "Độ cứng đặc trưng cho khả năng chống biến dạng dẻo của lớp bề mặt; phương án khác lần lượt là độ bền, độ dẻo, tính chất vật lí."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Tính chất của vật liệu",
+   "level": 1,
+   "stem": "Tính chất cho biết khả năng biến dạng dẻo của vật liệu dưới tác dụng của ngoại lực mà không bị phá hủy là",
+   "options": [
+    "tính dẫn điện",
+    "độ cứng",
+    "độ bền",
+    "độ dẻo"
+   ],
+   "answer": 3,
+   "explanation": "Độ dẻo biểu thị khả năng biến dạng dẻo (thay đổi hình dạng) của vật liệu mà không bị phá hủy."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Vật liệu phi kim loại",
+   "level": 1,
+   "stem": "Vật liệu thường dùng làm vỏ bọc cách điện cho dây điện là",
+   "options": [
+    "thép",
+    "chất dẻo (nhựa PVC)",
+    "gang",
+    "đồng"
+   ],
+   "answer": 1,
+   "explanation": "Chất dẻo như PVC cách điện tốt, dẻo, bền nên dùng làm vỏ bọc dây điện; thép, đồng, gang đều dẫn điện."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Vật liệu composite",
+   "level": 1,
+   "stem": "Vật liệu composite được tạo thành từ",
+   "options": [
+    "chỉ các phân tử polymer mạch thẳng",
+    "hai hay nhiều vật liệu khác nhau, gồm vật liệu nền và vật liệu cốt",
+    "sắt và carbon với hàm lượng carbon trên 2,14%",
+    "một kim loại nguyên chất duy nhất"
+   ],
+   "answer": 1,
+   "explanation": "Composite gồm vật liệu nền (liên kết) và vật liệu cốt (gia cường), kết hợp ưu điểm của các thành phần."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Vật liệu composite",
+   "level": 2,
+   "stem": "Cánh tua bin gió, vỏ thuyền thường được chế tạo từ composite cốt sợi thủy tinh vì vật liệu này",
+   "options": [
+    "nhẹ, bền và chịu ăn mòn tốt",
+    "rẻ nhất trong các loại vật liệu",
+    "dễ nấu chảy để đúc lại nhiều lần",
+    "dẫn điện tốt"
+   ],
+   "answer": 0,
+   "explanation": "Composite cốt sợi thủy tinh có khối lượng riêng nhỏ, độ bền cao, chịu nước và ăn mòn tốt."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gia công không phoi",
+   "level": 1,
+   "stem": "Nhóm phương pháp nào sau đây đều là gia công không phoi?",
+   "options": [
+    "Bào, mài, khoan",
+    "Đúc, gia công áp lực, hàn",
+    "Tiện, phay, khoan",
+    "Tiện, hàn, mài"
+   ],
+   "answer": 1,
+   "explanation": "Đúc, gia công áp lực (rèn, dập, cán…) và hàn không tạo phoi; tiện, phay, khoan, bào, mài là gia công cắt gọt."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Đúc",
+   "level": 1,
+   "stem": "Trong đúc khuôn cát, lòng khuôn được tạo ra nhờ",
+   "options": [
+    "mẫu có hình dạng tương tự vật đúc",
+    "dao tiện",
+    "que hàn",
+    "búa rèn"
+   ],
+   "answer": 0,
+   "explanation": "Mẫu (bằng gỗ, kim loại…) có hình dạng tương tự vật đúc được dùng để tạo lòng khuôn trong hỗn hợp cát."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Đúc",
+   "level": 2,
+   "stem": "Ưu điểm của phương pháp đúc là",
+   "options": [
+    "vật đúc không bao giờ bị rỗ khí, nứt",
+    "vật đúc luôn có độ chính xác và độ nhẵn rất cao, không cần gia công thêm",
+    "chỉ đúc được kim loại có nhiệt độ nóng chảy thấp",
+    "tạo được vật có hình dạng phức tạp, khối lượng từ nhỏ đến rất lớn"
+   ],
+   "answer": 3,
+   "explanation": "Đúc tạo được vật phức tạp, từ vài gam đến hàng trăm tấn, từ nhiều loại kim loại; nhược điểm là dễ có khuyết tật, độ chính xác không cao."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gia công áp lực",
+   "level": 1,
+   "stem": "Gia công áp lực dựa trên",
+   "options": [
+    "tính đúc của kim loại, rót kim loại lỏng vào khuôn",
+    "tính cắt gọt, lấy đi lớp vật liệu dư thành phoi",
+    "tính dẻo của kim loại, dùng ngoại lực làm biến dạng phôi ở trạng thái rắn",
+    "tính hàn của kim loại, nung chảy cục bộ chỗ nối"
+   ],
+   "answer": 2,
+   "explanation": "Gia công áp lực (rèn, dập, cán, kéo…) làm biến dạng dẻo kim loại ở trạng thái rắn để tạo hình."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Hàn",
+   "level": 2,
+   "stem": "Mối ghép bằng phương pháp hàn có đặc điểm là",
+   "options": [
+    "mối ghép động, các chi tiết chuyển động tương đối với nhau",
+    "mối ghép tháo được dễ dàng",
+    "mối ghép cố định, không tháo được",
+    "chỉ thực hiện được với vật liệu phi kim loại"
+   ],
+   "answer": 2,
+   "explanation": "Hàn nối các chi tiết thành một khối liền nhờ kim loại nóng chảy kết tinh, tạo mối ghép cố định không tháo được."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gia công cắt gọt",
+   "level": 1,
+   "stem": "Bản chất của gia công cắt gọt là",
+   "options": [
+    "dùng búa hoặc máy ép làm biến dạng dẻo phôi",
+    "rót kim loại lỏng vào khuôn để tạo hình",
+    "nối các phôi lại với nhau bằng nhiệt",
+    "lấy đi một phần vật liệu của phôi dưới dạng phoi nhờ dụng cụ cắt để được chi tiết có hình dạng, kích thước theo yêu cầu"
+   ],
+   "answer": 3,
+   "explanation": "Gia công cắt gọt dùng dụng cụ cắt cứng hơn phôi để bóc lớp vật liệu dư thành phoi."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Tiện",
+   "level": 2,
+   "stem": "Khi tiện, chuyển động của phôi và dao là",
+   "options": [
+    "phôi quay tròn, dao tịnh tiến dọc hoặc ngang",
+    "dao và phôi đều đứng yên",
+    "dao quay tròn, phôi tịnh tiến",
+    "dao quay tròn, phôi đứng yên"
+   ],
+   "answer": 0,
+   "explanation": "Trên máy tiện, phôi quay tròn (chuyển động cắt chính), dao tịnh tiến (chuyển động tiến). Dao quay, phôi tịnh tiến là đặc điểm của phay."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Phay",
+   "level": 2,
+   "stem": "Trên máy phay, chuyển động cắt chính là",
+   "options": [
+    "chuyển động quay tròn của phôi",
+    "chuyển động tịnh tiến của phôi",
+    "chuyển động quay tròn của dao phay",
+    "chuyển động tịnh tiến của dao"
+   ],
+   "answer": 2,
+   "explanation": "Khi phay, dao phay quay tròn (chuyển động cắt chính), phôi gá trên bàn máy tịnh tiến (chuyển động tiến)."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn phương pháp gia công",
+   "level": 3,
+   "stem": "Cần gia công một trục bậc có các mặt trụ tròn xoay từ phôi thép thanh tròn. Phương pháp gia công phù hợp nhất là",
+   "options": [
+    "tiện",
+    "đúc",
+    "khoan",
+    "hàn"
+   ],
+   "answer": 0,
+   "explanation": "Tiện thích hợp gia công các mặt tròn xoay (mặt trụ, mặt côn, bậc trục) từ phôi tròn."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn phương pháp gia công",
+   "level": 3,
+   "stem": "Cần tạo một lỗ tròn Ø10 xuyên qua tấm thép dày 8 mm. Phương pháp gia công phù hợp nhất là",
+   "options": [
+    "bào",
+    "khoan",
+    "tiện",
+    "rèn"
+   ],
+   "answer": 1,
+   "explanation": "Khoan dùng mũi khoan vừa quay vừa tiến dọc trục để tạo lỗ trên vật liệu đặc."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn vật liệu",
+   "level": 3,
+   "stem": "Khi chọn vật liệu làm dao cắt gọt kim loại, yêu cầu quan trọng nhất của vật liệu là",
+   "options": [
+    "dễ biến dạng dẻo",
+    "độ cứng cao, chịu mài mòn và chịu nhiệt tốt",
+    "dẫn điện tốt",
+    "khối lượng riêng nhỏ"
+   ],
+   "answer": 1,
+   "explanation": "Dao phải cứng hơn phôi, chịu mài mòn và giữ được độ cứng ở nhiệt độ cao sinh ra khi cắt."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn vật liệu",
+   "level": 2,
+   "stem": "Lõi dây dẫn điện trong nhà thường làm bằng đồng vì đồng",
+   "options": [
+    "dẫn điện tốt, dẻo, dễ kéo thành sợi",
+    "không bị oxi hóa trong mọi điều kiện",
+    "rẻ hơn thép",
+    "cứng nhất trong các kim loại"
+   ],
+   "answer": 0,
+   "explanation": "Đồng có điện trở suất nhỏ, độ dẻo cao nên dễ kéo sợi làm dây dẫn."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn phương pháp gia công",
+   "level": 3,
+   "stem": "Một chi tiết bằng thép cần chịu tải trọng va đập lớn, yêu cầu độ bền cao. Phương pháp tạo phôi phù hợp nhất là",
+   "options": [
+    "đúc từ gang xám",
+    "in 3D bằng nhựa",
+    "hàn ghép từ nhiều mẩu thép vụn",
+    "rèn (gia công áp lực) từ thép"
+   ],
+   "answer": 3,
+   "explanation": "Rèn làm tổ chức kim loại mịn, chặt, tăng cơ tính nên phôi rèn chịu va đập tốt; gang xám giòn, nhựa không đủ bền, ghép thép vụn có nhiều mối hàn yếu."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn vật liệu",
+   "level": 3,
+   "stem": "Gang xám thường được dùng để chế tạo thân máy, bệ máy bằng phương pháp đúc vì gang xám",
+   "options": [
+    "dẫn điện tốt nhất trong các kim loại",
+    "nhẹ hơn nhôm",
+    "rất dẻo nên dễ rèn",
+    "có tính đúc tốt, chịu nén và giảm rung tốt"
+   ],
+   "answer": 3,
+   "explanation": "Gang xám chảy loãng tốt khi đúc, chịu nén và hấp thụ rung động tốt; gang giòn, khó rèn."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Vật liệu phi kim loại",
+   "level": 2,
+   "stem": "Chất dẻo nhiệt rắn khác chất dẻo nhiệt dẻo ở điểm",
+   "options": [
+    "dẫn điện tốt hơn kim loại",
+    "có hàm lượng carbon trên 2,14%",
+    "sau khi đóng rắn, khi đun nóng không chảy mềm trở lại nên không tái chế bằng nung chảy được",
+    "khi đun nóng thì chảy mềm, để nguội thì cứng lại và gia công lại được nhiều lần"
+   ],
+   "answer": 2,
+   "explanation": "Chất dẻo nhiệt dẻo nóng chảy khi đun và tái chế được; chất dẻo nhiệt rắn sau khi đóng rắn không nóng chảy lại."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Mài",
+   "level": 3,
+   "stem": "Một trục đã được tiện, cần gia công thêm để bề mặt đạt độ nhẵn bóng và độ chính xác cao. Phương pháp phù hợp là",
+   "options": [
+    "khoan",
+    "đúc",
+    "mài",
+    "rèn"
+   ],
+   "answer": 2,
+   "explanation": "Mài dùng đá mài có hạt mài cứng, cắt lớp rất mỏng nên thường là bước gia công tinh đạt độ nhẵn cao."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Vật liệu cơ khí",
+   "level": 2,
+   "stem": "Một xưởng có các vật liệu: thép carbon, gang xám, nhôm, nhựa PVC và composite cốt sợi carbon.",
+   "statements": [
+    {
+     "t": "Thép carbon và gang xám đều là kim loại đen.",
+     "a": true
+    },
+    {
+     "t": "Nhôm là kim loại đen vì có màu trắng bạc.",
+     "a": false
+    },
+    {
+     "t": "Nhựa PVC là vật liệu phi kim loại, cách điện tốt.",
+     "a": true
+    },
+    {
+     "t": "Composite cốt sợi carbon nặng hơn thép nên ít được dùng trong chế tạo máy bay.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đều là hợp kim sắt – carbon. b) Sai: nhôm là kim loại màu; kim loại đen là sắt và hợp kim của sắt, không phân loại theo màu. c) Đúng: PVC là chất dẻo, cách điện. d) Sai: composite sợi carbon nhẹ hơn thép nhiều và rất bền nên được dùng rộng rãi trong máy bay."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Đúc trong khuôn cát",
+   "level": 2,
+   "stem": "Quy trình đúc trong khuôn cát gồm: chuẩn bị mẫu và hỗn hợp làm khuôn; làm khuôn; nấu chảy kim loại; rót kim loại lỏng vào khuôn; phá khuôn lấy vật đúc.",
+   "statements": [
+    {
+     "t": "Khuôn cát chỉ dùng được một lần.",
+     "a": true
+    },
+    {
+     "t": "Vật đúc có hình dạng giống lòng khuôn.",
+     "a": true
+    },
+    {
+     "t": "Đúc là phương pháp gia công có phoi.",
+     "a": false
+    },
+    {
+     "t": "Vật đúc trong khuôn cát luôn có bề mặt nhẵn bóng, không cần gia công cắt gọt tiếp.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: phải phá khuôn để lấy vật đúc. b) Đúng: kim loại lỏng điền đầy và đông đặc theo lòng khuôn. c) Sai: đúc là gia công không phoi. d) Sai: bề mặt vật đúc khuôn cát thường thô, có thể có rỗ, thường phải gia công cắt gọt tiếp."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gia công cắt gọt",
+   "level": 3,
+   "stem": "Một xưởng gia công chi tiết trục có lỗ ở đầu theo trình tự: tiện mặt trụ ngoài, khoan lỗ ở đầu trục, mài tinh mặt trụ.",
+   "statements": [
+    {
+     "t": "Khi tiện, phôi quay tròn còn dao tịnh tiến.",
+     "a": true
+    },
+    {
+     "t": "Khoan là phương pháp gia công không phoi.",
+     "a": false
+    },
+    {
+     "t": "Mài thường được dùng để gia công tinh, đạt độ nhẵn bề mặt cao.",
+     "a": true
+    },
+    {
+     "t": "Trong các phương pháp cắt gọt trên, vật liệu dụng cụ cắt phải cứng hơn vật liệu phôi.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: đúng đặc điểm chuyển động của tiện. b) Sai: khoan là gia công cắt gọt, tạo phoi. c) Đúng: mài cắt lớp rất mỏng, độ nhẵn cao. d) Đúng: dụng cụ cắt phải cứng hơn phôi mới cắt được."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gia công áp lực và hàn",
+   "level": 3,
+   "stem": "Một xưởng rèn – hàn: dao rựa được rèn từ thép; khung cửa được ghép từ các thanh thép hộp bằng hàn hồ quang.",
+   "statements": [
+    {
+     "t": "Rèn là phương pháp gia công áp lực, kim loại ở trạng thái rắn bị biến dạng dẻo.",
+     "a": true
+    },
+    {
+     "t": "Khi rèn, kim loại được nung chảy hoàn toàn rồi rót vào khuôn.",
+     "a": false
+    },
+    {
+     "t": "Mối hàn trên khung cửa là mối ghép cố định, không tháo được.",
+     "a": true
+    },
+    {
+     "t": "Khi hàn hồ quang, thợ hàn cần đeo mặt nạ hàn để bảo vệ mắt và mặt.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: rèn dùng lực búa làm biến dạng dẻo phôi đã nung nóng nhưng chưa chảy. b) Sai: đó là đúc; khi rèn kim loại vẫn ở trạng thái rắn. c) Đúng: hàn tạo liên kết liền khối. d) Đúng: hồ quang phát ánh sáng mạnh, tia cực tím và có xỉ bắn."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập 28 câu theo SGK Công nghệ 11 KNTT (Công nghệ cơ khí); kiểm tra mỗi câu trắc nghiệm chỉ có một phương án đúng. Đề không có câu tính toán."
+}

@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "Tin học",
+ "exam": "gk1",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 1 – Tin học 11",
+ "scope": "Hệ điều hành, phần mềm nguồn mở, phần mềm chạy trên Internet, phần mềm tiện ích, quản lí tệp; Khai thác thông tin số: lưu trữ và chia sẻ tệp trực tuyến, tìm kiếm thông tin, thư điện tử nâng cao, mạng xã hội, giao tiếp an toàn",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Hệ điều hành",
+   "level": 1,
+   "stem": "Hệ điều hành là",
+   "options": [
+    "phần mềm ứng dụng dùng để soạn thảo văn bản",
+    "một thiết bị phần cứng gắn trên bo mạch chủ",
+    "phần mềm chỉ dùng để diệt virus",
+    "phần mềm hệ thống quản lí tài nguyên phần cứng, phần mềm của máy tính và cung cấp môi trường giao tiếp giữa người dùng với máy tính"
+   ],
+   "answer": 3,
+   "explanation": "Hệ điều hành là phần mềm hệ thống: quản lí CPU, bộ nhớ, thiết bị, tệp và là cầu nối giữa người dùng, phần mềm ứng dụng với phần cứng."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Hệ điều hành",
+   "level": 1,
+   "stem": "Hệ điều hành nào sau đây dùng cho điện thoại thông minh?",
+   "options": [
+    "MS-DOS",
+    "Android",
+    "Windows 7",
+    "macOS"
+   ],
+   "answer": 1,
+   "explanation": "Android (và iOS) là hệ điều hành cho thiết bị di động; MS-DOS, Windows 7, macOS dùng cho máy tính."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm nguồn mở",
+   "level": 1,
+   "stem": "Phần mềm nguồn mở là phần mềm",
+   "options": [
+    "được công bố mã nguồn, cho phép người dùng xem, sửa đổi và phân phối lại theo giấy phép",
+    "luôn được dùng mà không cần tuân theo giấy phép nào",
+    "chỉ chạy được trên Internet",
+    "không cho phép người dùng sửa đổi mã nguồn"
+   ],
+   "answer": 0,
+   "explanation": "Phần mềm nguồn mở đi kèm mã nguồn và giấy phép nguồn mở (như GPL) cho phép sử dụng, nghiên cứu, sửa đổi, phân phối lại."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm nguồn mở",
+   "level": 1,
+   "stem": "Phần mềm nào sau đây là phần mềm nguồn mở?",
+   "options": [
+    "Microsoft Office",
+    "Adobe Photoshop",
+    "LibreOffice",
+    "Windows 11"
+   ],
+   "answer": 2,
+   "explanation": "LibreOffice là bộ phần mềm văn phòng nguồn mở; các phần mềm còn lại là phần mềm thương mại, không công bố mã nguồn."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm chạy trên Internet",
+   "level": 2,
+   "stem": "Phần mềm chạy trên Internet (ứng dụng web) có đặc điểm",
+   "options": [
+    "phải cài đặt từ đĩa CD vào máy mới dùng được",
+    "dùng được khi máy tính không kết nối mạng",
+    "chỉ chạy được trên một máy tính duy nhất",
+    "không cần cài đặt trên máy, sử dụng qua trình duyệt khi có kết nối Internet"
+   ],
+   "answer": 3,
+   "explanation": "Ứng dụng web (Google Docs, Canva…) chạy trên máy chủ, người dùng truy cập qua trình duyệt từ nhiều thiết bị khác nhau."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Hệ điều hành",
+   "level": 1,
+   "stem": "Chức năng nào sau đây KHÔNG phải là chức năng của hệ điều hành?",
+   "options": [
+    "Quản lí tệp và thư mục",
+    "Soạn thảo và định dạng văn bản",
+    "Quản lí bộ nhớ và CPU",
+    "Quản lí thiết bị ngoại vi"
+   ],
+   "answer": 1,
+   "explanation": "Soạn thảo văn bản là việc của phần mềm ứng dụng (như Word, Writer); hệ điều hành quản lí tài nguyên và tệp."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm tiện ích",
+   "level": 2,
+   "stem": "Phần mềm nào sau đây là phần mềm tiện ích?",
+   "options": [
+    "Hệ điều hành Windows",
+    "Phần mềm nén và giải nén tệp 7-Zip",
+    "Trò chơi điện tử",
+    "Phần mềm kế toán của doanh nghiệp"
+   ],
+   "answer": 1,
+   "explanation": "Phần mềm tiện ích hỗ trợ bảo trì, tối ưu, bảo vệ máy tính (nén tệp, diệt virus, chống phân mảnh ổ đĩa…)."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Giao diện hệ điều hành",
+   "level": 2,
+   "stem": "Điểm khác biệt chính của giao diện đồ họa (GUI) so với giao diện dòng lệnh là",
+   "options": [
+    "người dùng ra lệnh chủ yếu bằng cách nháy chuột, chạm vào biểu tượng, cửa sổ, bảng chọn",
+    "người dùng phải gõ chính xác từng câu lệnh",
+    "máy tính không cần hệ điều hành",
+    "không hiển thị được hình ảnh"
+   ],
+   "answer": 0,
+   "explanation": "Giao diện đồ họa dùng cửa sổ, biểu tượng, bảng chọn, con trỏ; giao diện dòng lệnh yêu cầu gõ lệnh."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Quản lí tệp và thư mục",
+   "level": 2,
+   "stem": "Bạn Hùng chọn một tệp trong Windows rồi nhấn tổ hợp phím Shift + Delete và xác nhận. Phát biểu nào sau đây đúng?",
+   "options": [
+    "Tệp được chuyển vào Thùng rác, có thể khôi phục bằng lệnh Restore",
+    "Tệp bị xóa mà không chuyển vào Thùng rác (Recycle Bin) nên không khôi phục được bằng lệnh Restore",
+    "Tệp được chuyển sang thư mục Documents",
+    "Tệp vẫn còn nguyên, chỉ bị ẩn đi"
+   ],
+   "answer": 1,
+   "explanation": "Phím Delete chuyển tệp vào Thùng rác; Shift + Delete xóa thẳng, bỏ qua Thùng rác."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Giấy phép phần mềm nguồn mở",
+   "level": 3,
+   "stem": "Một công ty sửa đổi một phần mềm phát hành theo giấy phép GNU GPL rồi phân phối phiên bản mới cho khách hàng. Theo giấy phép GPL, công ty phải",
+   "options": [
+    "cung cấp mã nguồn của phiên bản đã sửa đổi và phân phối theo cùng giấy phép GPL",
+    "giữ bí mật mã nguồn phiên bản mới",
+    "đăng kí bản quyền mới và cấm khách hàng sao chép",
+    "phân phối miễn phí, không được thu bất kì khoản phí nào"
+   ],
+   "answer": 0,
+   "explanation": "GPL yêu cầu sản phẩm phái sinh khi phân phối phải giữ giấy phép GPL và kèm mã nguồn; GPL không cấm thu phí phân phối."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Hệ điều hành",
+   "level": 2,
+   "stem": "Khi khởi động máy tính, hệ điều hành được nạp",
+   "options": [
+    "từ RAM vào ổ đĩa cứng",
+    "từ Internet về CPU mỗi lần bật máy",
+    "từ màn hình vào bàn phím",
+    "từ bộ nhớ ngoài (ổ đĩa cứng, SSD) vào bộ nhớ trong (RAM)"
+   ],
+   "answer": 3,
+   "explanation": "Hệ điều hành được lưu ở bộ nhớ ngoài; khi khởi động, chương trình khởi động nạp các thành phần cần thiết của hệ điều hành vào RAM để CPU thực hiện."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Quản lí tệp và thư mục",
+   "level": 3,
+   "stem": "Tệp hinh.png nằm trong thư mục Anh; thư mục Anh nằm trong thư mục HocTap ở gốc ổ đĩa D. Đường dẫn đầy đủ của tệp là",
+   "options": [
+    "D:\\Anh\\HocTap\\hinh.png",
+    "hinh.png\\Anh\\HocTap\\D:",
+    "D:\\HocTap\\Anh\\hinh.png",
+    "D:\\HocTap\\hinh.png\\Anh"
+   ],
+   "answer": 2,
+   "explanation": "Đường dẫn ghi từ ổ đĩa, qua các thư mục từ ngoài vào trong, cuối cùng là tên tệp: D:\\HocTap\\Anh\\hinh.png."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Lưu trữ và chia sẻ tệp trên Internet",
+   "level": 1,
+   "stem": "Dịch vụ nào sau đây cho phép lưu trữ và chia sẻ tệp trực tuyến?",
+   "options": [
+    "Microsoft Paint",
+    "Notepad",
+    "OneDrive",
+    "Calculator"
+   ],
+   "answer": 2,
+   "explanation": "OneDrive (cũng như Google Drive, Dropbox) là dịch vụ lưu trữ đám mây; các phần mềm còn lại là ứng dụng cài trên máy."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Lưu trữ và chia sẻ tệp trên Internet",
+   "level": 2,
+   "stem": "Lan chia sẻ một tài liệu trên Google Drive và muốn bạn chỉ góp ý mà không sửa trực tiếp nội dung. Lan nên cấp quyền",
+   "options": [
+    "Người chỉnh sửa (Editor)",
+    "Chủ sở hữu (Owner)",
+    "Người xem (Viewer)",
+    "Người nhận xét (Commenter)"
+   ],
+   "answer": 3,
+   "explanation": "Người nhận xét xem và thêm nhận xét được nhưng không sửa nội dung; Người xem không thêm nhận xét được; Người chỉnh sửa sửa được nội dung."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Tìm kiếm thông tin trên Internet",
+   "level": 1,
+   "stem": "Để máy tìm kiếm trả về các trang chứa chính xác cụm từ phần mềm nguồn mở (các từ liền nhau, đúng thứ tự), ta gõ",
+   "options": [
+    "\"phần mềm nguồn mở\"",
+    "phần mềm -nguồn mở",
+    "phần mềm OR nguồn mở",
+    "site:nguồn mở phần mềm"
+   ],
+   "answer": 0,
+   "explanation": "Đặt cụm từ trong dấu ngoặc kép để tìm chính xác cụm từ đó."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Tìm kiếm thông tin trên Internet",
+   "level": 2,
+   "stem": "Khi gõ từ khóa: hệ điều hành site:edu.vn, kết quả tìm kiếm là",
+   "options": [
+    "mọi trang web có chứa chữ “site”",
+    "các trang có tên miền edu.vn nhưng không chứa “hệ điều hành”",
+    "các trang có nội dung liên quan đến “hệ điều hành” thuộc các website có tên miền edu.vn",
+    "các tệp ảnh có tên “hệ điều hành”"
+   ],
+   "answer": 2,
+   "explanation": "Toán tử site: giới hạn kết quả trong một website hoặc tên miền xác định."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Tìm kiếm thông tin trên Internet",
+   "level": 3,
+   "stem": "An muốn tìm thông tin về quả táo nhưng kết quả hiện nhiều trang về hãng Apple. Từ khóa phù hợp để loại các trang có chữ Apple là",
+   "options": [
+    "táo -Apple",
+    "táo +Apple",
+    "táo OR Apple",
+    "\"táo Apple\""
+   ],
+   "answer": 0,
+   "explanation": "Dấu trừ đặt sát trước một từ để loại các kết quả chứa từ đó; OR mở rộng kết quả; ngoặc kép tìm cụm chính xác."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Thư điện tử nâng cao",
+   "level": 2,
+   "stem": "Khi gửi thư điện tử, những địa chỉ được nhập ở ô BCC",
+   "options": [
+    "không nhận được thư",
+    "nhận được thư nhưng những người nhận khác không nhìn thấy các địa chỉ này",
+    "được mọi người nhận khác nhìn thấy",
+    "chỉ nhận được tệp đính kèm"
+   ],
+   "answer": 1,
+   "explanation": "BCC (Blind Carbon Copy) là gửi bản sao ẩn: người nhận trong To/CC không thấy địa chỉ BCC."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Thư điện tử nâng cao",
+   "level": 1,
+   "stem": "Chức năng Forward (Chuyển tiếp) trong thư điện tử dùng để",
+   "options": [
+    "trả lời riêng người gửi",
+    "gửi lại một thư đã nhận (kèm tệp đính kèm) cho người khác",
+    "trả lời tất cả người nhận",
+    "xóa vĩnh viễn thư"
+   ],
+   "answer": 1,
+   "explanation": "Forward chuyển tiếp thư cho người khác; Reply trả lời người gửi; Reply all trả lời tất cả."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Thư điện tử nâng cao",
+   "level": 3,
+   "stem": "Lan muốn mọi thư gửi từ địa chỉ của câu lạc bộ Tin học tự động được gắn nhãn “CLB” và không nằm lẫn trong hộp thư đến. Lan nên",
+   "options": [
+    "tạo bộ lọc thư với điều kiện người gửi là địa chỉ đó, hành động là gắn nhãn “CLB” và bỏ qua hộp thư đến",
+    "chặn địa chỉ đó",
+    "đánh dấu mọi thư từ địa chỉ đó là thư rác",
+    "mỗi lần nhận thư thì trả lời để lưu lại"
+   ],
+   "answer": 0,
+   "explanation": "Bộ lọc (filter) tự động áp dụng hành động (gắn nhãn, lưu trữ, chuyển thư mục) cho thư thỏa điều kiện; chặn hay đánh dấu thư rác sẽ làm mất thư cần đọc."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Giao tiếp an toàn trên Internet",
+   "level": 1,
+   "stem": "Xác thực hai yếu tố (2FA) khi đăng nhập giúp",
+   "options": [
+    "không cần dùng mật khẩu nữa",
+    "tăng tốc độ kết nối Internet",
+    "tự động diệt virus trên máy",
+    "tăng bảo mật vì ngoài mật khẩu còn cần thêm một yếu tố khác như mã OTP gửi về điện thoại"
+   ],
+   "answer": 3,
+   "explanation": "2FA yêu cầu thêm một yếu tố (mã OTP, ứng dụng xác thực, vân tay…), nên kẻ gian biết mật khẩu cũng khó đăng nhập."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Đánh giá độ tin cậy của thông tin",
+   "level": 2,
+   "stem": "Khi tìm số liệu về tiêm chủng cho bài thuyết trình, nguồn thông tin đáng tin cậy nhất là",
+   "options": [
+    "bài đăng ẩn danh trên mạng xã hội",
+    "bình luận trong một diễn đàn",
+    "video ngắn không rõ người đăng",
+    "trang thông tin điện tử chính thức của Bộ Y tế"
+   ],
+   "answer": 3,
+   "explanation": "Ưu tiên nguồn chính thống, có tác giả, cơ quan chịu trách nhiệm rõ ràng; thông tin ẩn danh cần kiểm chứng."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Lưu trữ và chia sẻ tệp trên Internet",
+   "level": 3,
+   "stem": "Lan chia sẻ tệp chứa thông tin cá nhân (số điện thoại, địa chỉ) của cả lớp trên Google Drive ở chế độ “Bất kì ai có đường liên kết đều xem được”, rồi đăng liên kết lên một nhóm công khai. Nhận định nào sau đây đúng?",
+   "options": [
+    "Chỉ học sinh trong lớp mới xem được tệp",
+    "Người xem có thể xóa tệp gốc khỏi Drive của Lan",
+    "Bất kì ai có liên kết, kể cả người lạ, đều xem được thông tin cá nhân của cả lớp",
+    "Không có nguy cơ gì vì liên kết rất dài, không ai đoán được"
+   ],
+   "answer": 2,
+   "explanation": "Chế độ “Bất kì ai có đường liên kết” không giới hạn người xem; đăng liên kết công khai làm lộ thông tin cá nhân. Người có quyền xem không xóa được tệp."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Mạng xã hội",
+   "level": 1,
+   "stem": "Khi đặt quyền riêng tư của bài đăng trên mạng xã hội là “Bạn bè”, thì",
+   "options": [
+    "mọi người dùng mạng xã hội đều xem được",
+    "chỉ mình người đăng xem được",
+    "chỉ những người trong danh sách bạn bè mới xem được bài đăng",
+    "không ai xem được bài đăng"
+   ],
+   "answer": 2,
+   "explanation": "Quyền “Bạn bè” giới hạn người xem trong danh sách bạn bè; “Công khai” cho mọi người; “Chỉ mình tôi” cho riêng người đăng."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm nguồn mở và phần mềm thương mại",
+   "level": 2,
+   "stem": "Nhà trường cân nhắc trang bị phần mềm văn phòng cho phòng máy: phương án 1 mua bản quyền Microsoft Office (phần mềm thương mại); phương án 2 dùng LibreOffice (phần mềm nguồn mở).",
+   "statements": [
+    {
+     "t": "LibreOffice được dùng miễn phí và được phép cài đặt trên nhiều máy.",
+     "a": true
+    },
+    {
+     "t": "Dùng bản Microsoft Office bẻ khóa là hợp pháp nếu chỉ dùng cho mục đích giáo dục.",
+     "a": false
+    },
+    {
+     "t": "Người dùng LibreOffice có thể tải mã nguồn về để nghiên cứu, sửa đổi.",
+     "a": true
+    },
+    {
+     "t": "Phần mềm nguồn mở không có giấy phép sử dụng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: giấy phép nguồn mở cho phép sử dụng và cài đặt tự do. b) Sai: bẻ khóa phần mềm thương mại là vi phạm bản quyền, bất kể mục đích. c) Đúng: mã nguồn được công bố. d) Sai: phần mềm nguồn mở vẫn có giấy phép (GPL, MPL…) quy định quyền và nghĩa vụ."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Quản lí tệp và thư mục",
+   "level": 3,
+   "stem": "Cho cấu trúc thư mục trên ổ đĩa D như sau:\nD:\\HocTap\n ├─ Toan\n │   └─ bt1.docx\n └─ Tin\n     ├─ bai1.py\n     └─ Anh\n         └─ logo.png",
+   "statements": [
+    {
+     "t": "Đường dẫn đầy đủ của tệp logo.png là D:\\HocTap\\Tin\\Anh\\logo.png.",
+     "a": true
+    },
+    {
+     "t": "Thư mục Anh là thư mục con trực tiếp của thư mục HocTap.",
+     "a": false
+    },
+    {
+     "t": "Nếu xóa thư mục Tin thì tệp bai1.py và tệp logo.png cũng bị xóa.",
+     "a": true
+    },
+    {
+     "t": "Có thể tạo thêm một tệp khác cũng tên bt1.docx ngay trong thư mục Toan.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đi từ D: qua HocTap, Tin, Anh. b) Sai: Anh là con của Tin, Tin mới là con trực tiếp của HocTap. c) Đúng: xóa thư mục thì xóa toàn bộ nội dung bên trong. d) Sai: trong cùng một thư mục không được có hai tệp trùng tên."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Tìm kiếm thông tin trên Internet",
+   "level": 2,
+   "stem": "An gõ vào máy tìm kiếm: \"hệ điều hành\" filetype:pdf site:moet.gov.vn",
+   "statements": [
+    {
+     "t": "Kết quả tìm được là các tệp có định dạng PDF.",
+     "a": true
+    },
+    {
+     "t": "Kết quả tìm được thuộc website có tên miền moet.gov.vn.",
+     "a": true
+    },
+    {
+     "t": "Toán tử filetype:pdf dùng để tìm các trang web có chữ “pdf” trong tiêu đề.",
+     "a": false
+    },
+    {
+     "t": "Thông tin trong mọi tệp tìm được đều chính xác tuyệt đối nên không cần kiểm chứng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: filetype: giới hạn định dạng tệp. b) Đúng: site: giới hạn tên miền. c) Sai: filetype: lọc theo loại tệp, không phải chữ trong tiêu đề. d) Sai: luôn cần đánh giá, đối chiếu thông tin, kể cả khi nguồn tin cậy."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Thư điện tử nâng cao",
+   "level": 3,
+   "stem": "Minh gửi một thư điện tử với: To: địa chỉ thầy chủ nhiệm; CC: địa chỉ lớp trưởng; BCC: địa chỉ của Lan.",
+   "statements": [
+    {
+     "t": "Thầy chủ nhiệm nhìn thấy địa chỉ của lớp trưởng trong thư.",
+     "a": true
+    },
+    {
+     "t": "Lớp trưởng nhìn thấy địa chỉ của Lan trong thư.",
+     "a": false
+    },
+    {
+     "t": "Nếu lớp trưởng chọn Reply all (Trả lời tất cả) thì Lan không nhận được thư trả lời đó.",
+     "a": true
+    },
+    {
+     "t": "Nếu sau đó Minh nhận được thư chứa liên kết lạ yêu cầu đăng nhập lại Gmail, Minh nên đăng nhập ngay qua liên kết đó.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: địa chỉ To và CC hiển thị cho mọi người nhận. b) Sai: BCC là bản sao ẩn. c) Đúng: Reply all chỉ gồm người gửi và các địa chỉ To, CC hiển thị; địa chỉ BCC không có trong danh sách. d) Sai: đó là dấu hiệu lừa đảo đánh cắp tài khoản."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; câu đếm bản ghi thỏa điều kiện, câu Đúng/Sai về bảng HOCSINH–DIEM (điểm cao nhất, tính duy nhất của khóa) đã kiểm bằng Python; quyền chia sẻ Google Drive, toán tử tìm kiếm, CC/BCC đối chiếu với SGK Tin học 11 KNTT."
+}

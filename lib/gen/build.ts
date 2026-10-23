@@ -54,15 +54,19 @@ function pickTemplates(pool: Template[], n: number): Template[] {
   return out;
 }
 
-/** Đề thi thử theo ma trận: gk1 = nửa đầu HK1; ck1 = cả HK1, ~60% nửa sau */
+const hkOf = (t: Template) => t.hk || 1;
+const EN: Record<Exam, string> = { gk1: "giữa học kì 1", ck1: "cuối học kì 1", gk2: "giữa học kì 2", ck2: "cuối học kì 2" };
+
+/** Đề thi thử theo ma trận: giữa kì = nửa đầu học kì; cuối kì = cả học kì, ~60% nửa sau */
 export function buildExam(subject: Subject, grade: number, exam: Exam): { questions: Question[]; minutes: number; title: string } {
   const S = STRUCT[subject];
-  const all = TEMPLATES.filter((t) => t.subject === subject && t.grade === grade && (exam === "ck1" || t.half === 1));
+  const hk = exam.endsWith("2") ? 2 : 1, full = exam.startsWith("ck");
+  const all = TEMPLATES.filter((t) => t.subject === subject && t.grade === grade && hkOf(t) === hk && (full || t.half === 1));
   const qs: Question[] = [];
   for (const kind of ["mcq", "tf", "short"] as Kind[]) {
     const n = S[kind]; const pool = all.filter((t) => t.kind === kind);
     let picks: Template[];
-    if (exam === "ck1") {
+    if (full) {
       const n2 = Math.round(n * 0.6);
       picks = [...pickTemplates(pool.filter((t) => t.half === 1), n - n2), ...pickTemplates(pool.filter((t) => t.half === 2), n2)];
       if (picks.length < n) picks.push(...pickTemplates(pool, n - picks.length));
@@ -72,8 +76,7 @@ export function buildExam(subject: Subject, grade: number, exam: Exam): { questi
     picks.sort((a, b) => order.indexOf(a.chapter) - order.indexOf(b.chapter) || a.level - b.level);
     for (const t of picks) { try { qs.push(toQuestion(t, newSeed())); } catch { /* bỏ dạng lỗi */ } }
   }
-  const en = exam === "gk1" ? "giữa học kì 1" : "cuối học kì 1";
-  return { questions: qs, minutes: S.min, title: `Đề tự sinh ${en} – ${subject} ${grade}` };
+  return { questions: qs, minutes: S.min, title: `Đề tự sinh ${EN[exam]} – ${subject} ${grade}` };
 }
 
 /** Luyện một dạng: n biến thể khác nhau */
@@ -85,8 +88,8 @@ export function practiceSet(templateId: string, n = 5): Question[] {
 }
 
 /** Danh mục dạng theo chương (cho mục "Luyện theo dạng") */
-export function catalog(subject: string, grade: number) {
-  const list = TEMPLATES.filter((t) => t.subject === subject && t.grade === grade);
+export function catalog(subject: string, grade: number, hk: 1 | 2 = 1) {
+  const list = TEMPLATES.filter((t) => t.subject === subject && t.grade === grade && hkOf(t) === hk);
   const chapters = [...new Set(list.map((t) => t.chapter))];
   return chapters.map((c) => ({ chapter: c, half: list.find((t) => t.chapter === c)!.half, items: list.filter((t) => t.chapter === c).map((t) => ({ id: t.id, topic: t.topic, level: t.level, kind: t.kind })) }));
 }

@@ -8,6 +8,7 @@ import { BANK, EXB, EXLIST, LV, SCI, SUBJECT_OPTS, TOP, TOPICS } from "@/lib/dat
 import { examLabel, getQ, gradeNum, lc, qOfTopics, today } from "@/lib/logic";
 import { aiErrorText, aiJson } from "@/lib/api";
 import { startHK, useHK, type HKSet } from "@/lib/hk";
+import { MathText } from "@/components/MathText";
 import { examSeason } from "@/lib/logic";
 import { startWrite } from "../WritePanel";
 import GenPanel from "../GenPanel";
@@ -232,7 +233,7 @@ function Bank() {
 }
 
 /* ---------------- Đề ôn giữa kì / cuối kì soạn theo SGK mới ---------------- */
-const SUB_ORDER = ["Toán", "Ngữ văn", "Tiếng Anh", "Vật lí", "Hóa học"];
+const SUB_ORDER = ["Toán", "Ngữ văn", "Tiếng Anh", "Vật lí", "Hóa học", "Sinh học", "Tin học", "Công nghệ", "GD Kinh tế và Pháp luật"];
 function HKList({ ef }: { ef: { exam: string; grade: string; subject: string } }) {
   const S = useApp((s) => s.S);
   const sets = useHK((h) => h.sets);
@@ -256,7 +257,7 @@ function HKList({ ef }: { ef: { exam: string; grade: string; subject: string } }
                 <div className="min-w-0 flex-1">
                   <h3>{x.title}</h3>
                   <p className="small muted !mb-1">{x.kind === "write" ? `Đọc hiểu ${x.count - 2} câu + Viết 2 câu · ${x.duration_min} phút` : `${x.count} câu${x.parts && x.parts.tf ? ` (${x.parts.mcq} trắc nghiệm, ${x.parts.tf} Đúng/Sai, ${x.parts.short} trả lời ngắn)` : ""} · ${x.duration_min} phút`}</p>
-                  <p className="read !m-0 text-[13px] leading-snug opacity-75">{x.kind === "write" ? "Văn bản: " + x.work : x.scope}</p>
+                  <p className="read !m-0 text-[13px] leading-snug opacity-75">{x.kind === "write" ? "Văn bản: " + x.work : <MathText text={x.scope} />}</p>
                 </div>
                 <div className="flex flex-col items-end gap-1">
                   {hot && <span className="tag tag-l3">Mùa thi</span>}
@@ -282,7 +283,8 @@ function Mine() {
   let ef = efUI;
   if (!ef) { const first = p.exams.find((id) => id !== "other" && !EXB[id].dgnl); ef = { exam: first || "Tất cả", grade: first === "thpt" ? "12" : String(gradeNum(S)), subject: "Tất cả" }; }
   const all = examSets(S);
-  const exOpts = ["Tất cả", ...EXLIST.filter((e) => e.id !== "other" || p.examOther).map((e) => e.id)], grOpts = ["Tất cả", "10", "11", "12"], subOpts = ["Tất cả", ...new Set(all.map((x) => x.subject))];
+  const hkSets = useHK((h) => h.sets); const hkSubs = hkSets.map((x) => x.subject);
+  const exOpts = ["Tất cả", ...EXLIST.filter((e) => e.id !== "other" || p.examOther).map((e) => e.id)], grOpts = ["Tất cả", "10", "11", "12"], subOpts = ["Tất cả", ...new Set([...all.map((x) => x.subject), ...hkSubs])];
   const list = all.filter((x) => (ef!.exam === "Tất cả" || x.exam === ef!.exam || x.exam === "*") && (ef!.grade === "Tất cả" || String(x.grade) === ef!.grade || x.grade === "*") && (ef!.subject === "Tất cả" || x.subject === ef!.subject));
   const name = (o: string) => (o === "Tất cả" ? o : EXB[o] ? (o === "other" ? examLabel(S, "other") : EXB[o].n) : /^\d+$/.test(o) ? "Lớp " + o : o);
   const sel = (id: "exam" | "grade" | "subject", opts: string[], v: string, lab: string) => (

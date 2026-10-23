@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "GD Kinh tế và Pháp luật",
+ "exam": "ck2",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 2 – GD Kinh tế và Pháp luật 11",
+ "scope": "Quyền bình đẳng của công dân; quyền dân chủ (tham gia quản lí nhà nước và xã hội, bầu cử ứng cử, khiếu nại tố cáo, bảo vệ Tổ quốc); quyền bất khả xâm phạm về thân thể, được bảo hộ về tính mạng, sức khỏe, danh dự, nhân phẩm; quyền bất khả xâm phạm về chỗ ở; quyền được bảo đảm an toàn, bí mật thư tín, điện thoại, điện tín; quyền tự do ngôn luận, báo chí, tiếp cận thông tin; quyền tự do tín ngưỡng, tôn giáo.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng về quyền và nghĩa vụ",
+   "level": 1,
+   "stem": "Biểu hiện nào sau đây thể hiện công dân bình đẳng về nghĩa vụ?",
+   "options": [
+    "Người giàu được miễn đóng góp các khoản theo quy định.",
+    "Chỉ người có việc làm mới phải tuân thủ pháp luật.",
+    "Học sinh giỏi được miễn nghĩa vụ học tập.",
+    "Công dân nam đủ điều kiện theo luật định đều phải thực hiện nghĩa vụ quân sự."
+   ],
+   "answer": 3,
+   "explanation": "Bình đẳng về nghĩa vụ: mọi công dân đủ điều kiện đều phải thực hiện nghĩa vụ như nhau theo quy định pháp luật, không phân biệt địa vị, giàu nghèo."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các dân tộc",
+   "level": 1,
+   "stem": "Nhà nước bảo đảm các dân tộc có quyền dùng tiếng nói, chữ viết, giữ gìn bản sắc dân tộc. Đây là biểu hiện của quyền bình đẳng giữa các dân tộc về",
+   "options": [
+    "văn hóa.",
+    "chính trị.",
+    "kinh tế.",
+    "quốc phòng."
+   ],
+   "answer": 0,
+   "explanation": "Bình đẳng về văn hóa: các dân tộc có quyền dùng tiếng nói, chữ viết, giữ gìn, phát huy phong tục, tập quán, truyền thống văn hóa tốt đẹp của mình."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các tôn giáo",
+   "level": 1,
+   "stem": "Theo quy định của pháp luật, các cơ sở tôn giáo hợp pháp",
+   "options": [
+    "được hoạt động ngoài khuôn khổ pháp luật.",
+    "được pháp luật bảo hộ.",
+    "phải chịu sự quản lí của tôn giáo lớn hơn.",
+    "không được Nhà nước công nhận."
+   ],
+   "answer": 1,
+   "explanation": "Nhà nước tôn trọng và bảo hộ quyền tự do tín ngưỡng, tôn giáo; các cơ sở tôn giáo hợp pháp được pháp luật bảo hộ."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền bầu cử, ứng cử",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, công dân Việt Nam đủ bao nhiêu tuổi trở lên có quyền ứng cử vào Quốc hội, Hội đồng nhân dân?",
+   "options": [
+    "Đủ 21 tuổi.",
+    "Đủ 18 tuổi.",
+    "Đủ 20 tuổi.",
+    "Đủ 25 tuổi."
+   ],
+   "answer": 0,
+   "explanation": "Điều 27 Hiến pháp 2013: đủ 18 tuổi có quyền bầu cử, đủ 21 tuổi có quyền ứng cử vào Quốc hội, Hội đồng nhân dân."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Nghĩa vụ bảo vệ Tổ quốc",
+   "level": 1,
+   "stem": "Việc làm nào sau đây thể hiện học sinh trung học phổ thông thực hiện nghĩa vụ bảo vệ Tổ quốc?",
+   "options": [
+    "Tham gia câu lạc bộ âm nhạc của trường.",
+    "Tích cực học tập môn Giáo dục quốc phòng và an ninh.",
+    "Từ chối đăng kí nghĩa vụ quân sự khi đủ tuổi.",
+    "Đăng tải thông tin chưa kiểm chứng về quốc phòng lên mạng."
+   ],
+   "answer": 1,
+   "explanation": "Học tập giáo dục quốc phòng và an ninh, rèn luyện sức khỏe, sẵn sàng thực hiện nghĩa vụ quân sự là biểu hiện thực hiện nghĩa vụ bảo vệ Tổ quốc của học sinh."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giới",
+   "level": 2,
+   "stem": "Bố mẹ chị Y không cho chị thi vào đại học vì cho rằng con gái học nhiều không để làm gì, chỉ cho em trai chị đi học. Việc làm của bố mẹ chị Y vi phạm bình đẳng giới trong lĩnh vực",
+   "options": [
+    "lao động.",
+    "giáo dục và đào tạo.",
+    "chính trị.",
+    "kinh tế."
+   ],
+   "answer": 1,
+   "explanation": "Luật Bình đẳng giới: nam, nữ bình đẳng về độ tuổi đi học, đào tạo, bồi dưỡng, lựa chọn ngành nghề học tập; cha mẹ không được phân biệt đối xử giữa con trai, con gái."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền tham gia quản lí nhà nước và xã hội",
+   "level": 2,
+   "stem": "Người dân tổ dân phố H họp bàn và biểu quyết mức đóng góp tự nguyện để xây dựng nhà văn hóa. Việc làm này thể hiện quyền",
+   "options": [
+    "tham gia quản lí nhà nước và xã hội ở phạm vi cơ sở.",
+    "tham gia quản lí nhà nước và xã hội ở phạm vi cả nước.",
+    "khiếu nại.",
+    "tự do ngôn luận ở phạm vi cả nước."
+   ],
+   "answer": 0,
+   "explanation": "Theo pháp luật về thực hiện dân chủ ở cơ sở, người dân được bàn và quyết định các công việc chung như chủ trương, mức đóng góp xây dựng công trình công cộng ở cộng đồng dân cư."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền khiếu nại, tố cáo",
+   "level": 2,
+   "stem": "Điểm khác nhau cơ bản giữa khiếu nại và tố cáo là",
+   "options": [
+    "khiếu nại chỉ do cá nhân thực hiện; tố cáo chỉ do cơ quan, tổ chức thực hiện.",
+    "khiếu nại gửi đến Tòa án; tố cáo chỉ được gửi đến Quốc hội.",
+    "khiếu nại nhằm khôi phục quyền, lợi ích hợp pháp của chính người khiếu nại; tố cáo nhằm phát hiện, ngăn chặn hành vi vi phạm pháp luật gây thiệt hại cho Nhà nước, tổ chức, cá nhân.",
+    "khiếu nại là nghĩa vụ; tố cáo là quyền của công dân."
+   ],
+   "answer": 2,
+   "explanation": "Mục đích của khiếu nại là bảo vệ quyền lợi của chính mình bị xâm phạm bởi quyết định, hành vi hành chính; tố cáo nhằm phát hiện, xử lí hành vi vi phạm pháp luật của bất kì ai. Theo Luật Tố cáo, người tố cáo là cá nhân; người khiếu nại có thể là công dân, cơ quan, tổ chức."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng trước pháp luật",
+   "level": 3,
+   "stem": "Ông P là cán bộ lãnh đạo cấp tỉnh, gây tai nạn giao thông làm chết người. Cơ quan chức năng đã khởi tố vụ án, khởi tố bị can đối với ông P như mọi công dân khác. Nhận định nào sau đây là đúng?",
+   "options": [
+    "Ông P là cán bộ lãnh đạo nên phải được miễn trách nhiệm hình sự.",
+    "Việc khởi tố ông P thể hiện công dân bình đẳng về trách nhiệm pháp lí.",
+    "Việc khởi tố ông P là phân biệt đối xử với người có chức vụ.",
+    "Ông P chỉ phải chịu kỉ luật trong cơ quan, không phải chịu trách nhiệm hình sự."
+   ],
+   "answer": 1,
+   "explanation": "Bất kì công dân nào vi phạm pháp luật đều phải chịu trách nhiệm về hành vi vi phạm của mình và bị xử lí theo quy định, không phân biệt chức vụ, địa vị."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền bầu cử, ứng cử",
+   "level": 3,
+   "stem": "Tại điểm bỏ phiếu, anh Y cố tình đứng sát và nhìn vào phiếu bầu của người khác khi họ đang viết phiếu, sau đó kể lại cho mọi người. Hành vi của anh Y vi phạm nguyên tắc bầu cử nào?",
+   "options": [
+    "Phổ thông.",
+    "Bình đẳng.",
+    "Trực tiếp.",
+    "Bỏ phiếu kín."
+   ],
+   "answer": 3,
+   "explanation": "Nguyên tắc bỏ phiếu kín bảo đảm chỉ cử tri biết mình bầu cho ai; xem trộm, tiết lộ nội dung phiếu bầu của người khác là vi phạm nguyên tắc này."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về thân thể",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, không ai bị bắt nếu không có quyết định của Tòa án nhân dân, quyết định hoặc phê chuẩn của Viện kiểm sát nhân dân, trừ trường hợp",
+   "options": [
+    "phạm tội quả tang.",
+    "bị người khác nghi ngờ.",
+    "có đơn tố giác của hàng xóm.",
+    "không có giấy tờ tùy thân."
+   ],
+   "answer": 0,
+   "explanation": "Khoản 2 Điều 20 Hiến pháp 2013: không ai bị bắt nếu không có quyết định của Tòa án nhân dân, quyết định hoặc phê chuẩn của Viện kiểm sát nhân dân, trừ trường hợp phạm tội quả tang."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về chỗ ở",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, nội dung nào sau đây thể hiện quyền bất khả xâm phạm về chỗ ở của công dân?",
+   "options": [
+    "Mọi người được vào nhà người khác khi có việc cần.",
+    "Cán bộ thôn được vào khám nhà dân bất cứ lúc nào.",
+    "Không ai được tự ý vào chỗ ở của người khác nếu không được người đó đồng ý.",
+    "Chủ nhà trọ được tự ý vào phòng người thuê để kiểm tra."
+   ],
+   "answer": 2,
+   "explanation": "Điều 22 Hiến pháp 2013: không ai được tự ý vào chỗ ở của người khác nếu không được người đó đồng ý; việc khám xét chỗ ở do luật định."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bí mật thư tín, điện thoại, điện tín",
+   "level": 1,
+   "stem": "Việc không ai được tự ý bóc mở, thu giữ, tiêu hủy thư tín, điện tín của người khác thể hiện quyền",
+   "options": [
+    "tự do ngôn luận.",
+    "được bảo đảm an toàn và bí mật thư tín, điện thoại, điện tín.",
+    "bất khả xâm phạm về chỗ ở.",
+    "tự do tiếp cận thông tin."
+   ],
+   "answer": 1,
+   "explanation": "Điều 21 Hiến pháp 2013: mọi người có quyền bí mật thư tín, điện thoại, điện tín và các hình thức trao đổi thông tin riêng tư khác."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền tự do ngôn luận, báo chí",
+   "level": 1,
+   "stem": "Công dân trực tiếp phát biểu ý kiến, thể hiện chính kiến của mình về các vấn đề chính trị, kinh tế, văn hóa, xã hội của đất nước là thực hiện quyền",
+   "options": [
+    "tự do ngôn luận.",
+    "tự do tín ngưỡng.",
+    "khiếu nại.",
+    "bất khả xâm phạm về thân thể."
+   ],
+   "answer": 0,
+   "explanation": "Quyền tự do ngôn luận: công dân được tự do phát biểu ý kiến, bày tỏ quan điểm về các vấn đề của đất nước, xã hội trong khuôn khổ pháp luật."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền tự do tín ngưỡng, tôn giáo",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, mọi người có quyền tự do tín ngưỡng, tôn giáo,",
+   "options": [
+    "nhưng bắt buộc phải theo một tôn giáo.",
+    "chỉ được theo tôn giáo của cha mẹ.",
+    "theo hoặc không theo một tôn giáo nào.",
+    "nhưng không được thay đổi tôn giáo."
+   ],
+   "answer": 2,
+   "explanation": "Khoản 1 Điều 24 Hiến pháp 2013: mọi người có quyền tự do tín ngưỡng, tôn giáo, theo hoặc không theo một tôn giáo nào."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền được bảo hộ về tính mạng, sức khỏe, danh dự, nhân phẩm",
+   "level": 1,
+   "stem": "Hành vi nào sau đây xâm phạm quyền được pháp luật bảo hộ về danh dự, nhân phẩm của công dân?",
+   "options": [
+    "Góp ý thẳng thắn với bạn trong buổi họp lớp.",
+    "Khen ngợi bạn có thành tích học tập tốt.",
+    "Bịa đặt, tung tin xấu về người khác trên mạng xã hội.",
+    "Phê bình đúng sự thật hành vi sai trái của người khác trong cuộc họp."
+   ],
+   "answer": 2,
+   "explanation": "Bịa đặt, loan truyền thông tin sai sự thật nhằm xúc phạm người khác là xâm phạm danh dự, nhân phẩm – quyền được pháp luật bảo hộ."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về thân thể",
+   "level": 2,
+   "stem": "Nghi ngờ bạn N lấy trộm điện thoại trong cửa hàng, chủ cửa hàng giữ N trong kho suốt ba giờ để tra hỏi. Hành vi của chủ cửa hàng xâm phạm quyền",
+   "options": [
+    "bất khả xâm phạm về chỗ ở.",
+    "bất khả xâm phạm về thân thể.",
+    "tự do ngôn luận.",
+    "bí mật thư tín, điện thoại, điện tín."
+   ],
+   "answer": 1,
+   "explanation": "Giam giữ người trái pháp luật là xâm phạm quyền bất khả xâm phạm về thân thể; chủ cửa hàng chỉ có thể báo cơ quan công an khi nghi ngờ."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về thân thể",
+   "level": 2,
+   "stem": "Thấy anh H đang cạy khóa lấy trộm xe máy, người dân đã bắt giữ anh H và giải ngay đến cơ quan công an gần nhất. Việc làm của người dân",
+   "options": [
+    "phù hợp pháp luật vì đối với người đang thực hiện tội phạm, bất kì ai cũng có quyền bắt và giải ngay đến cơ quan có thẩm quyền.",
+    "vi phạm pháp luật vì chỉ công an mới được bắt người.",
+    "vi phạm pháp luật vì chưa có quyết định của Tòa án.",
+    "phù hợp pháp luật nếu người dân giữ anh H tại nhà để tự xử lí."
+   ],
+   "answer": 0,
+   "explanation": "Bộ luật Tố tụng hình sự: đối với người đang thực hiện tội phạm hoặc ngay sau khi thực hiện tội phạm thì bị phát hiện hoặc đuổi bắt, bất kì người nào cũng có quyền bắt và giải ngay đến cơ quan Công an, Viện kiểm sát hoặc Ủy ban nhân dân nơi gần nhất."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về chỗ ở",
+   "level": 2,
+   "stem": "Khi người thuê nhà vắng mặt, chủ nhà trọ là bà L tự ý mở khóa vào phòng để kiểm tra đồ đạc. Hành vi của bà L vi phạm quyền",
+   "options": [
+    "được bảo hộ về sức khỏe.",
+    "tự do tín ngưỡng, tôn giáo.",
+    "tham gia quản lí nhà nước và xã hội.",
+    "bất khả xâm phạm về chỗ ở."
+   ],
+   "answer": 3,
+   "explanation": "Phòng trọ đang cho thuê là chỗ ở của người thuê; tự ý vào khi không được người thuê đồng ý là xâm phạm quyền bất khả xâm phạm về chỗ ở."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bí mật thư tín, điện thoại, điện tín",
+   "level": 2,
+   "stem": "Bạn K tự ý mở điện thoại của bạn cùng lớp, đọc tin nhắn riêng rồi chụp màn hình gửi vào nhóm chat của lớp. Hành vi của K xâm phạm quyền",
+   "options": [
+    "tự do ngôn luận.",
+    "bất khả xâm phạm về thân thể.",
+    "được bảo đảm an toàn và bí mật thư tín, điện thoại, điện tín.",
+    "tự do báo chí."
+   ],
+   "answer": 2,
+   "explanation": "Tin nhắn là hình thức trao đổi thông tin riêng tư được pháp luật bảo vệ bí mật; tự ý đọc, phát tán là vi phạm."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền tự do ngôn luận, báo chí",
+   "level": 3,
+   "stem": "Chị V đăng bài trên mạng xã hội với nội dung bịa đặt rằng sản phẩm của công ty A có chất gây ung thư, khiến nhiều người hoang mang. Khi bị xử lí, chị V cho rằng mình chỉ thực hiện quyền tự do ngôn luận. Nhận định nào sau đây đúng?",
+   "options": [
+    "Chị V hiểu đúng, vì công dân được nói bất cứ điều gì trên mạng xã hội.",
+    "Chị V hiểu đúng, vì mạng xã hội không chịu sự điều chỉnh của pháp luật.",
+    "Chị V hiểu sai, vì công dân không có quyền phát biểu ý kiến về doanh nghiệp.",
+    "Chị V hiểu sai, vì tự do ngôn luận phải trong khuôn khổ pháp luật, không được đưa thông tin sai sự thật gây hại cho người khác."
+   ],
+   "answer": 3,
+   "explanation": "Quyền tự do ngôn luận được thực hiện theo quy định của pháp luật; bịa đặt, đưa tin sai sự thật xâm phạm quyền, lợi ích hợp pháp của tổ chức, cá nhân là vi phạm pháp luật."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền tự do tín ngưỡng, tôn giáo",
+   "level": 3,
+   "stem": "Bà G ép con dâu phải bỏ tôn giáo mình đang theo để theo tôn giáo của gia đình chồng, nếu không sẽ đuổi ra khỏi nhà. Hành vi của bà G",
+   "options": [
+    "là quyền của người làm mẹ chồng.",
+    "là thực hiện quyền tự do tôn giáo của bà G.",
+    "không vi phạm vì là chuyện nội bộ gia đình.",
+    "vi phạm quyền tự do tín ngưỡng, tôn giáo của con dâu."
+   ],
+   "answer": 3,
+   "explanation": "Mọi người có quyền tự do theo hoặc không theo tôn giáo; không ai được xâm phạm tự do tín ngưỡng, tôn giáo hay ép buộc người khác theo, bỏ tôn giáo."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về chỗ ở",
+   "level": 3,
+   "stem": "Cơ quan điều tra có lệnh khám xét chỗ ở của ông T và tiến hành khám xét theo đúng trình tự, thủ tục pháp luật quy định. Nhận định nào sau đây là đúng?",
+   "options": [
+    "Việc khám xét là trái pháp luật vì chỗ ở của công dân là tuyệt đối bất khả xâm phạm.",
+    "Việc khám xét chỉ hợp pháp khi được ông T đồng ý.",
+    "Việc khám xét là hợp pháp vì việc khám xét chỗ ở được thực hiện trong trường hợp và theo trình tự do luật định.",
+    "Việc khám xét là trái pháp luật vì chỉ Tòa án được khám xét chỗ ở."
+   ],
+   "answer": 2,
+   "explanation": "Khoản 3 Điều 22 Hiến pháp 2013: việc khám xét chỗ ở do luật định. Cơ quan có thẩm quyền khám xét đúng trường hợp, đúng trình tự thủ tục thì không xâm phạm quyền bất khả xâm phạm về chỗ ở."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền tự do ngôn luận, báo chí",
+   "level": 3,
+   "stem": "Nhà báo T viết bài phản ánh đúng sự thật về việc công ty X xả thải gây ô nhiễm. Giám đốc công ty X nhắn tin đe dọa nhà báo T và gia đình. Nhận định nào sau đây đúng?",
+   "options": [
+    "Nhà báo T vi phạm pháp luật vì làm ảnh hưởng đến uy tín của doanh nghiệp.",
+    "Giám đốc công ty X có quyền đe dọa để bảo vệ doanh nghiệp.",
+    "Cả nhà báo T và giám đốc công ty X đều không vi phạm pháp luật.",
+    "Nhà báo T thực hiện quyền tự do báo chí; hành vi đe dọa của giám đốc công ty X là vi phạm pháp luật."
+   ],
+   "answer": 3,
+   "explanation": "Báo chí được phản ánh đúng sự thật, phát hiện vi phạm pháp luật; đe dọa, cản trở nhà báo hoạt động hợp pháp là vi phạm pháp luật."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền tham gia quản lí nhà nước và xã hội",
+   "level": 2,
+   "stem": "Thôn X tổ chức họp dân để bàn và quyết định việc đóng góp làm đường liên thôn, đồng thời lấy ý kiến người dân về kế hoạch sử dụng đất của địa phương. Ông M không đi họp và cho rằng đây là việc của cán bộ thôn. Cùng thời gian này, chị N gửi ý kiến góp ý một dự thảo luật qua cổng thông tin điện tử của Quốc hội.",
+   "statements": [
+    {
+     "t": "Người dân họp bàn và quyết định việc đóng góp làm đường là thực hiện quyền tham gia quản lí nhà nước và xã hội ở phạm vi cơ sở.",
+     "a": true
+    },
+    {
+     "t": "Ý kiến của ông M là đúng.",
+     "a": false
+    },
+    {
+     "t": "Chị N góp ý dự thảo luật là thực hiện quyền tham gia quản lí nhà nước và xã hội ở phạm vi cả nước.",
+     "a": true
+    },
+    {
+     "t": "Chỉ cán bộ, công chức mới có quyền góp ý dự thảo luật.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: tham gia bàn bạc công việc chung là quyền và trách nhiệm của người dân, không chỉ của cán bộ. c) Đúng. d) Sai: mọi công dân đều có quyền góp ý dự thảo luật."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về thân thể",
+   "level": 2,
+   "stem": "Nghi ngờ anh P lấy trộm tiền của gia đình mình, ông Q cùng con trai đã giữ anh P tại nhà ông và đánh anh P bị thương để bắt anh nhận tội. Sau đó, cơ quan công an đã mời ông Q và con trai lên làm việc.",
+   "statements": [
+    {
+     "t": "Hành vi giữ anh P tại nhà của ông Q xâm phạm quyền bất khả xâm phạm về thân thể của anh P.",
+     "a": true
+    },
+    {
+     "t": "Hành vi đánh anh P bị thương xâm phạm quyền được pháp luật bảo hộ về tính mạng, sức khỏe.",
+     "a": true
+    },
+    {
+     "t": "Vì có căn cứ nghi ngờ nên ông Q có quyền giữ người để tra hỏi.",
+     "a": false
+    },
+    {
+     "t": "Nếu anh P thật sự lấy trộm tiền thì ông Q và con trai không phải chịu trách nhiệm pháp lí về việc đánh anh P.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: công dân không có quyền tự ý giữ người để tra hỏi; khi nghi ngờ phải báo cơ quan có thẩm quyền. d) Sai: dù anh P có vi phạm, hành vi gây thương tích cho người khác vẫn phải chịu trách nhiệm pháp lí."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền bất khả xâm phạm về chỗ ở và bí mật thư tín",
+   "level": 3,
+   "stem": "Chị H cho sinh viên K thuê một phòng trọ. Một hôm, khi K về quê, chị H dùng chìa khóa dự phòng mở cửa vào phòng để xem K có nấu ăn trong phòng không. Thấy một lá thư dán kín gửi cho K trên bàn, chị H bóc ra đọc.",
+   "statements": [
+    {
+     "t": "Chị H là chủ nhà nên được tự ý vào phòng K bất cứ lúc nào.",
+     "a": false
+    },
+    {
+     "t": "Hành vi tự ý vào phòng khi K vắng mặt xâm phạm quyền bất khả xâm phạm về chỗ ở của K.",
+     "a": true
+    },
+    {
+     "t": "Việc chị H bóc thư của K xâm phạm quyền được bảo đảm an toàn và bí mật thư tín.",
+     "a": true
+    },
+    {
+     "t": "Nếu nghi ngờ K cất giấu hàng cấm, chị H được tự mình khám xét toàn bộ phòng của K.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: phòng đang cho thuê là chỗ ở của K, phải được K đồng ý mới được vào. b) Đúng. c) Đúng. d) Sai: việc khám xét chỗ ở do cơ quan có thẩm quyền thực hiện theo luật định; chị H chỉ được báo cho cơ quan công an."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền tự do cơ bản của công dân",
+   "topic": "Quyền tự do ngôn luận và tự do tín ngưỡng, tôn giáo",
+   "level": 3,
+   "stem": "Trong buổi sinh hoạt lớp, bạn A thẳng thắn phát biểu góp ý về kế hoạch tổ chức hoạt động trải nghiệm của lớp. Bạn B đăng bài trên mạng xã hội bịa đặt, chế giễu bạn C vì C theo đạo Tin Lành. Bạn D không theo tôn giáo nào.",
+   "statements": [
+    {
+     "t": "Việc bạn A thẳng thắn phát biểu ý kiến là thực hiện quyền tự do ngôn luận.",
+     "a": true
+    },
+    {
+     "t": "Hành vi của bạn B vừa xúc phạm danh dự, nhân phẩm của C, vừa thể hiện sự kì thị vì lí do tôn giáo.",
+     "a": true
+    },
+    {
+     "t": "Bạn D không theo tôn giáo nào là vi phạm quyền tự do tín ngưỡng, tôn giáo.",
+     "a": false
+    },
+    {
+     "t": "Đăng bài trên mạng xã hội là quyền tự do ngôn luận nên bạn B được viết bất cứ điều gì mình muốn.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: bịa đặt, chế giễu người khác vì tôn giáo là xâm phạm danh dự, nhân phẩm và kì thị tôn giáo. c) Sai: mọi người có quyền theo hoặc không theo tôn giáo nào. d) Sai: tự do ngôn luận phải trong khuôn khổ pháp luật."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu độc lập và đối chiếu với Hiến pháp 2013 cùng các luật lớn (Luật Hôn nhân và gia đình 2014, Bộ luật Dân sự 2015, Luật Bình đẳng giới, Luật Tố cáo, Luật Bầu cử, Bộ luật Tố tụng hình sự, Luật Biên giới quốc gia, Luật Quốc tịch, Luật Điều ước quốc tế, Công ước Luật Biển 1982); tránh các nội dung vừa sửa đổi năm 2025 (số cấp chính quyền địa phương, đơn vị hành chính, Mặt trận Tổ quốc và đoàn thể) và tránh con số dễ thay đổi; mỗi câu trắc nghiệm chỉ có một phương án đúng, các ý Đúng/Sai có cả đúng và sai; vị trí đáp án đúng được xếp đều A/B/C/D bằng script; đã chạy hk-check."
+}

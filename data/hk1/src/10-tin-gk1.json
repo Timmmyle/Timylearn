@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "Tin học",
+ "exam": "gk1",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 1 – Tin học 10",
+ "scope": "Chủ đề 1 Máy tính và xã hội tri thức (thông tin – dữ liệu, đơn vị đo, hệ nhị phân, biểu diễn văn bản, hình ảnh, âm thanh, dữ liệu logic); Chủ đề 2 Mạng máy tính và Internet (LAN, Internet, IoT, điện toán đám mây, an toàn trên không gian mạng)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Thông tin và dữ liệu",
+   "level": 1,
+   "stem": "Phát biểu nào sau đây đúng về dữ liệu trong máy tính?",
+   "options": [
+    "Dữ liệu và thông tin là hai khái niệm hoàn toàn đồng nhất trong mọi trường hợp",
+    "Dữ liệu chỉ gồm các con số, không bao gồm văn bản, hình ảnh, âm thanh",
+    "Dữ liệu là thông tin được đưa vào máy tính, biểu diễn ở dạng máy tính lưu trữ và xử lí được",
+    "Dữ liệu là kết quả cuối cùng con người thu được, không cần xử lí"
+   ],
+   "answer": 2,
+   "explanation": "Theo SGK, dữ liệu là thông tin được đưa vào máy tính; dữ liệu có thể là số, văn bản, hình ảnh, âm thanh… và được máy tính xử lí để tạo ra thông tin mới."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Đơn vị đo dữ liệu",
+   "level": 1,
+   "stem": "Trong tin học, 1 KB (kilobyte) bằng",
+   "options": [
+    "1000 bit",
+    "1024 byte",
+    "1024 bit",
+    "8 byte"
+   ],
+   "answer": 1,
+   "explanation": "Các đơn vị đo dữ liệu hơn kém nhau $2^{10} = 1024$ lần: 1 KB = 1024 B, 1 MB = 1024 KB, …"
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Đơn vị đo dữ liệu",
+   "level": 1,
+   "stem": "Đơn vị nhỏ nhất dùng để biểu diễn thông tin trong máy tính là",
+   "options": [
+    "byte",
+    "bit",
+    "kilobyte",
+    "kí tự"
+   ],
+   "answer": 1,
+   "explanation": "Bit là đơn vị nhỏ nhất, nhận một trong hai giá trị 0 hoặc 1; 1 byte = 8 bit."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Đơn vị đo dữ liệu",
+   "level": 2,
+   "stem": "Một thẻ nhớ còn trống 4 GB. Nếu mỗi bức ảnh có dung lượng 2 MB thì thẻ nhớ chứa được tối đa bao nhiêu bức ảnh?",
+   "options": [
+    "2048 bức ảnh",
+    "2000 bức ảnh",
+    "1024 bức ảnh",
+    "4096 bức ảnh"
+   ],
+   "answer": 0,
+   "explanation": "4 GB = 4 × 1024 MB = 4096 MB; số ảnh = 4096 : 2 = 2048."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Hệ nhị phân",
+   "level": 3,
+   "stem": "Số 45 trong hệ thập phân được biểu diễn trong hệ nhị phân là",
+   "options": [
+    "110101",
+    "101101",
+    "101011",
+    "100101"
+   ],
+   "answer": 1,
+   "explanation": "45 = 32 + 8 + 4 + 1 = $2^5 + 2^3 + 2^2 + 2^0$ nên 45 = 101101₂ (kiểm tra bằng Python: bin(45) = '0b101101')."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Hệ nhị phân",
+   "level": 2,
+   "stem": "Số nhị phân 11010₂ có giá trị trong hệ thập phân là",
+   "options": [
+    "26",
+    "24",
+    "22",
+    "13"
+   ],
+   "answer": 0,
+   "explanation": "11010₂ = 16 + 8 + 0 + 2 + 0 = 26."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Phép toán trên số nhị phân",
+   "level": 3,
+   "stem": "Kết quả của phép cộng hai số nhị phân 1011₂ + 110₂ là",
+   "options": [
+    "1101₂",
+    "10011₂",
+    "10001₂",
+    "11101₂"
+   ],
+   "answer": 2,
+   "explanation": "1011₂ = 11, 110₂ = 6; 11 + 6 = 17 = 10001₂. Cộng theo cột: 1 + 0 = 1; 1 + 1 = 0 nhớ 1; 0 + 1 + 1 = 0 nhớ 1; 1 + 1 = 0 nhớ 1; ghi 1."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Biểu diễn văn bản",
+   "level": 1,
+   "stem": "Bộ mã nào sau đây có thể biểu diễn kí tự của hầu hết các ngôn ngữ trên thế giới, trong đó có đầy đủ chữ tiếng Việt có dấu?",
+   "options": [
+    "ASCII 7 bit",
+    "Mã Morse",
+    "Mã vạch (barcode)",
+    "Unicode"
+   ],
+   "answer": 3,
+   "explanation": "Unicode được xây dựng để mã hóa kí tự của hầu hết các ngôn ngữ trên thế giới; ASCII 7 bit chỉ có 128 kí tự, không có chữ tiếng Việt có dấu."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Biểu diễn văn bản",
+   "level": 2,
+   "stem": "Bảng mã ASCII chuẩn dùng bao nhiêu bit để mã hóa một kí tự và mã hóa được tối đa bao nhiêu kí tự?",
+   "options": [
+    "7 bit, 128 kí tự",
+    "8 bit, 128 kí tự",
+    "16 bit, 65 536 kí tự",
+    "7 bit, 256 kí tự"
+   ],
+   "answer": 0,
+   "explanation": "ASCII chuẩn dùng 7 bit nên mã hóa được $2^7 = 128$ kí tự (ASCII mở rộng dùng 8 bit, 256 kí tự)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Dữ liệu logic",
+   "level": 1,
+   "stem": "Biểu thức logic A AND B nhận giá trị đúng (1) khi",
+   "options": [
+    "ít nhất một trong hai A, B đúng",
+    "cả A và B đều đúng",
+    "A đúng và B sai",
+    "cả A và B đều sai"
+   ],
+   "answer": 1,
+   "explanation": "Phép AND (VÀ) chỉ cho kết quả 1 khi cả hai toán hạng đều bằng 1."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Dữ liệu logic",
+   "level": 3,
+   "stem": "Cho A = 1, B = 0, C = 1. Biểu thức logic nào sau đây có giá trị bằng 1?",
+   "options": [
+    "A AND B",
+    "NOT A OR B",
+    "A AND B AND C",
+    "(A OR B) AND NOT (B OR NOT C)"
+   ],
+   "answer": 3,
+   "explanation": "A OR B = 1; NOT C = 0 nên B OR NOT C = 0, NOT(0) = 1; vậy (A OR B) AND NOT(B OR NOT C) = 1. Các biểu thức còn lại đều bằng 0 vì B = 0 và NOT A = 0 (đã kiểm tra bằng Python)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Biểu diễn hình ảnh",
+   "level": 2,
+   "stem": "Ảnh bitmap (ảnh điểm) được biểu diễn trong máy tính dưới dạng",
+   "options": [
+    "một lưới các điểm ảnh (pixel), mỗi điểm ảnh được mã hóa bằng một dãy bit biểu diễn màu",
+    "tập hợp các công thức toán học mô tả đường thẳng, đường cong",
+    "một dãy kí tự Unicode mô tả nội dung bức ảnh",
+    "dãy giá trị biên độ được lấy mẫu theo thời gian"
+   ],
+   "answer": 0,
+   "explanation": "Ảnh bitmap là ma trận điểm ảnh; màu của mỗi điểm ảnh được mã hóa thành dãy bit (ví dụ 24 bit cho ảnh màu RGB)."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Biểu diễn hình ảnh",
+   "level": 3,
+   "stem": "Một ảnh màu kích thước 800 × 600 điểm ảnh, mỗi điểm ảnh được mã hóa bằng 24 bit, lưu không nén. Dung lượng ảnh là",
+   "options": [
+    "480 000 byte",
+    "11 520 000 byte",
+    "3 840 000 byte",
+    "1 440 000 byte"
+   ],
+   "answer": 3,
+   "explanation": "Số điểm ảnh = 800 × 600 = 480 000; mỗi điểm 24 bit = 3 byte nên dung lượng = 480 000 × 3 = 1 440 000 byte (11 520 000 là số bit)."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Biểu diễn âm thanh",
+   "level": 2,
+   "stem": "Khi số hóa âm thanh, nếu tăng tần số lấy mẫu (số lần lấy mẫu trong một giây) thì",
+   "options": [
+    "âm thanh số trung thực hơn nhưng tệp có dung lượng lớn hơn",
+    "âm thanh số kém trung thực hơn và tệp nhỏ hơn",
+    "dung lượng tệp không thay đổi",
+    "âm thanh bị chuyển thành dạng văn bản"
+   ],
+   "answer": 0,
+   "explanation": "Lấy mẫu dày hơn thì đường âm thanh được mô tả chi tiết hơn (trung thực hơn), nhưng số mẫu cần lưu nhiều hơn nên tệp lớn hơn."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Mạng cục bộ LAN",
+   "level": 1,
+   "stem": "Mạng cục bộ (LAN) là mạng",
+   "options": [
+    "kết nối các máy tính trên phạm vi toàn cầu",
+    "chỉ gồm đúng hai máy tính",
+    "bắt buộc phải kết nối bằng sóng không dây",
+    "kết nối các máy tính trong phạm vi hẹp như một phòng, một tòa nhà, một trường học"
+   ],
+   "answer": 3,
+   "explanation": "LAN (Local Area Network) là mạng kết nối các thiết bị trong phạm vi nhỏ; có thể dùng cáp hoặc không dây."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Internet",
+   "level": 1,
+   "stem": "Internet là",
+   "options": [
+    "một mạng LAN lớn của một công ty công nghệ",
+    "một phần mềm duyệt web",
+    "một trang web chứa mọi thông tin trên thế giới",
+    "mạng máy tính toàn cầu, kết nối rất nhiều mạng máy tính với nhau và sử dụng chung bộ giao thức TCP/IP"
+   ],
+   "answer": 3,
+   "explanation": "Internet là mạng của các mạng, phạm vi toàn cầu, các mạng thành viên trao đổi dữ liệu theo bộ giao thức TCP/IP."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Điện toán đám mây",
+   "level": 1,
+   "stem": "Hoạt động nào sau đây là sử dụng dịch vụ điện toán đám mây?",
+   "options": [
+    "Soạn văn bản bằng phần mềm cài trên máy tính không kết nối mạng",
+    "Sao chép tệp từ máy tính sang USB",
+    "Lưu trữ và soạn thảo tài liệu trực tuyến trên Google Drive",
+    "In tài liệu bằng máy in nối trực tiếp với máy tính qua cáp USB"
+   ],
+   "answer": 2,
+   "explanation": "Điện toán đám mây cung cấp tài nguyên (lưu trữ, phần mềm, máy chủ…) qua Internet; Google Drive là dịch vụ lưu trữ và ứng dụng trực tuyến."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Internet vạn vật (IoT)",
+   "level": 2,
+   "stem": "Ví dụ nào sau đây là một ứng dụng Internet vạn vật (IoT)?",
+   "options": [
+    "Hệ thống tưới cây có cảm biến độ ẩm, gửi dữ liệu qua Internet và được điều khiển từ điện thoại",
+    "Máy tính bỏ túi cầm tay dùng pin",
+    "Đọc sách điện tử đã tải sẵn trên máy tính bảng khi tắt mạng",
+    "Đồng hồ cơ đeo tay"
+   ],
+   "answer": 0,
+   "explanation": "IoT là mạng các đồ vật có cảm biến, phần mềm, kết nối Internet để thu thập và trao đổi dữ liệu, có thể điều khiển từ xa."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Phần mềm độc hại",
+   "level": 1,
+   "stem": "Loại phần mềm độc hại nào có khả năng tự nhân bản và lây lan qua mạng mà không cần gắn vào một tệp chương trình khác?",
+   "options": [
+    "Virus",
+    "Sâu máy tính (worm)",
+    "Trojan",
+    "Phần mềm diệt virus"
+   ],
+   "answer": 1,
+   "explanation": "Virus cần gắn vào tệp/chương trình chủ để lây; sâu (worm) là chương trình độc lập, tự nhân bản và lây qua mạng."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Phần mềm độc hại",
+   "level": 2,
+   "stem": "Một phần mềm “tăng tốc máy tính miễn phí” tải từ trang web lạ, khi chạy thì âm thầm mở cửa hậu cho kẻ xấu điều khiển máy từ xa. Phần mềm đó thuộc loại",
+   "options": [
+    "Sâu máy tính (worm)",
+    "Phần mềm nguồn mở",
+    "Trojan",
+    "Hệ điều hành"
+   ],
+   "answer": 2,
+   "explanation": "Trojan ngụy trang thành phần mềm có ích để người dùng tự cài, sau đó thực hiện hành vi độc hại như mở cửa hậu, đánh cắp dữ liệu."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "An toàn trên không gian mạng",
+   "level": 3,
+   "stem": "Bạn nhận được tin nhắn: “Tài khoản ngân hàng của bạn sắp bị khóa. Nhấn vào liên kết và nhập mã OTP để xác minh”. Cách xử lí phù hợp nhất là",
+   "options": [
+    "Nhấn liên kết và nhập mã OTP thật nhanh để tránh bị khóa tài khoản",
+    "Gửi mã OTP cho bạn thân nhờ kiểm tra hộ",
+    "Trả lời tin nhắn để hỏi thêm thông tin, sau đó nhập OTP nếu thấy hợp lí",
+    "Không nhấn liên kết, không cung cấp mã OTP; liên hệ ngân hàng qua tổng đài chính thức để kiểm tra"
+   ],
+   "answer": 3,
+   "explanation": "Đây là dấu hiệu lừa đảo (phishing): tạo tâm lí khẩn cấp, yêu cầu nhấn liên kết lạ và cung cấp OTP. Ngân hàng không bao giờ yêu cầu khách cung cấp OTP qua tin nhắn."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "An toàn trên không gian mạng",
+   "level": 2,
+   "stem": "Mật khẩu nào sau đây an toàn nhất?",
+   "options": [
+    "12345678",
+    "T@m#2009!hoaMai",
+    "nguyenvanan",
+    "Abc12345"
+   ],
+   "answer": 1,
+   "explanation": "Mật khẩu mạnh cần đủ dài, kết hợp chữ hoa, chữ thường, chữ số và kí tự đặc biệt, không dễ đoán như dãy số liên tiếp hay họ tên."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Mạng cục bộ LAN",
+   "level": 2,
+   "stem": "Phòng tin học có 40 máy tính nối với nhau qua bộ chuyển mạch (switch) và một máy in dùng chung, nhưng chưa kết nối Internet. Phát biểu nào sau đây đúng?",
+   "options": [
+    "Các máy không chia sẻ được gì vì chưa có Internet",
+    "Các máy truy cập được mọi trang web",
+    "Các máy vẫn chia sẻ được máy in và tệp với nhau trong mạng LAN",
+    "Đây là mạng diện rộng (WAN)"
+   ],
+   "answer": 2,
+   "explanation": "Mạng LAN hoạt động độc lập với Internet; các máy trong LAN vẫn chia sẻ tài nguyên (máy in, tệp) với nhau."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Hệ nhị phân",
+   "level": 2,
+   "stem": "Dùng 8 bit để biểu diễn số nguyên không âm thì giá trị lớn nhất biểu diễn được là",
+   "options": [
+    "256",
+    "127",
+    "255",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Số lớn nhất là 11111111₂ = $2^8 - 1 = 255$."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Dữ liệu logic",
+   "level": 3,
+   "stem": "Hệ thống báo động của một cửa hàng dùng ba tín hiệu: D = 1 khi cửa đang mở, K = 1 khi đang bật chế độ bảo vệ, S = 1 khi cảm biến phát hiện khói. Chuông kêu khi biểu thức (D AND K) OR S có giá trị 1.",
+   "statements": [
+    {
+     "t": "Khi D = 1, K = 0, S = 0 thì chuông kêu.",
+     "a": false
+    },
+    {
+     "t": "Khi S = 1 thì chuông luôn kêu, bất kể giá trị của D và K.",
+     "a": true
+    },
+    {
+     "t": "Khi D = 1, K = 1, S = 0 thì chuông không kêu.",
+     "a": false
+    },
+    {
+     "t": "Biểu thức (D AND K) OR S luôn có cùng giá trị với NOT((NOT D OR NOT K) AND NOT S).",
+     "a": true
+    }
+   ],
+   "explanation": "a) Sai: (1 AND 0) OR 0 = 0, chuông không kêu. b) Đúng: X OR 1 = 1. c) Sai: (1 AND 1) OR 0 = 1, chuông kêu. d) Đúng: NOT D OR NOT K = NOT(D AND K), nên biểu thức = NOT(NOT(D AND K) AND NOT S) = (D AND K) OR S; đã kiểm tra đủ 8 bộ giá trị bằng Python."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Biểu diễn văn bản",
+   "level": 2,
+   "stem": "Trong bảng mã ASCII, kí tự “A” có mã thập phân là 65, các chữ cái in hoa tiếp theo có mã tăng dần (B là 66, C là 67, …).",
+   "statements": [
+    {
+     "t": "Mã nhị phân 8 bit của kí tự “A” là 01000001.",
+     "a": true
+    },
+    {
+     "t": "Kí tự “a” (chữ thường) cũng có mã 65.",
+     "a": false
+    },
+    {
+     "t": "Mã nhị phân 8 bit của kí tự “C” là 01000011.",
+     "a": true
+    },
+    {
+     "t": "Bảng mã ASCII chuẩn mã hóa được đầy đủ dòng chữ “Việt Nam” có dấu.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 65 = 64 + 1 = 01000001₂. b) Sai: “a” có mã 97, chữ thường và chữ hoa có mã khác nhau. c) Đúng: 67 = 64 + 2 + 1 = 01000011₂. d) Sai: ASCII chuẩn không có kí tự “ệ”; cần dùng Unicode."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Internet vạn vật và điện toán đám mây",
+   "level": 3,
+   "stem": "Gia đình Minh lắp một camera an ninh kết nối Wi-Fi. Có thể xem hình ảnh trực tiếp qua ứng dụng trên điện thoại; video được tự động lưu lên dịch vụ lưu trữ đám mây của nhà sản xuất. Minh vẫn để mật khẩu mặc định của camera là “admin”.",
+   "statements": [
+    {
+     "t": "Camera này là một thiết bị IoT.",
+     "a": true
+    },
+    {
+     "t": "Video lưu trên đám mây có thể xem lại ở bất kì đâu khi điện thoại có kết nối Internet.",
+     "a": true
+    },
+    {
+     "t": "Để mật khẩu mặc định “admin” là an toàn vì chỉ người trong gia đình biết.",
+     "a": false
+    },
+    {
+     "t": "Video lưu trên đám mây được lưu trên bộ nhớ trong của điện thoại của Minh.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: camera có cảm biến, kết nối Internet, trao đổi dữ liệu với ứng dụng. b) Đúng: dữ liệu đám mây truy cập qua Internet. c) Sai: mật khẩu mặc định được công bố rộng rãi, kẻ xấu dễ dò ra; cần đổi mật khẩu mạnh. d) Sai: dữ liệu lưu trên máy chủ của nhà cung cấp dịch vụ."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "An toàn trên không gian mạng",
+   "level": 2,
+   "stem": "Lan nhận được thư điện tử gửi từ địa chỉ support@faceb00k-security.com với nội dung: “Tài khoản của bạn sẽ bị khóa trong 24 giờ. Hãy tải tệp huongdan.exe đính kèm và làm theo hướng dẫn”.",
+   "statements": [
+    {
+     "t": "Tên miền của địa chỉ gửi khác tên miền chính thức của Facebook là một dấu hiệu lừa đảo.",
+     "a": true
+    },
+    {
+     "t": "Lan có thể yên tâm mở tệp huongdan.exe vì máy đã cài phần mềm diệt virus.",
+     "a": false
+    },
+    {
+     "t": "Tệp .exe đính kèm có thể chứa phần mềm độc hại như Trojan.",
+     "a": true
+    },
+    {
+     "t": "Lan nên trả lời thư, cung cấp mật khẩu để giữ tài khoản.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: “faceb00k-security.com” giả mạo tên miền. b) Sai: phần mềm diệt virus không phát hiện được mọi mã độc mới; không mở tệp thực thi từ nguồn lạ. c) Đúng: tệp .exe chạy được nên rất dễ chứa mã độc. d) Sai: không bao giờ cung cấp mật khẩu qua thư."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; câu đổi hệ nhị phân, phép toán nhị phân, biểu thức logic (gồm bảng chân trị 8 trường hợp ở câu Đúng/Sai), dung lượng ảnh và đơn vị đo đã kiểm bằng Python; nội dung Inkscape đối chiếu thao tác trong SGK Tin học 10 KNTT."
+}

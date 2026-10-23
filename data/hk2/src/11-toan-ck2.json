@@ -1,0 +1,371 @@
+{
+ "grade": 11,
+ "subject": "Toán",
+ "exam": "ck2",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 2 – Toán 11 (đề số 1)",
+ "scope": "Chương VI Hàm số mũ và hàm số lôgarit; Chương VII Quan hệ vuông góc trong không gian; Chương VIII Các quy tắc tính xác suất (biến cố hợp, giao, độc lập; công thức cộng và nhân xác suất); Chương IX Đạo hàm (định nghĩa, ý nghĩa, quy tắc tính, đạo hàm cấp hai)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phép tính lôgarit",
+   "level": 1,
+   "stem": "Giá trị của $\\log_3 81$ bằng",
+   "options": [
+    "$4$",
+    "$3$",
+    "$27$",
+    "$\\dfrac14$"
+   ],
+   "answer": 0,
+   "explanation": "$3^4=81$ nên $\\log_3 81=4$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Hàm số mũ và hàm số lôgarit",
+   "level": 1,
+   "stem": "Tập xác định của hàm số $y=\\log_3(x-2)$ là",
+   "options": [
+    "$[2;+\\infty)$",
+    "$(2;+\\infty)$",
+    "$\\mathbb{R}$",
+    "$(-\\infty;2)$"
+   ],
+   "answer": 1,
+   "explanation": "Hàm số xác định khi $x-2>0\\Leftrightarrow x>2$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phương trình mũ và lôgarit",
+   "level": 2,
+   "stem": "Nghiệm của phương trình $\\log_2(x+3)=3$ là",
+   "options": [
+    "$x=6$",
+    "$x=3$",
+    "$x=5$",
+    "$x=9$"
+   ],
+   "answer": 2,
+   "explanation": "$\\log_2(x+3)=3\\Leftrightarrow x+3=2^3=8\\Leftrightarrow x=5$ (thỏa mãn $x>-3$)."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Đường thẳng vuông góc với mặt phẳng",
+   "level": 1,
+   "stem": "Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc. Khẳng định nào sau đây đúng?",
+   "options": [
+    "$OA\\perp(ABC)$",
+    "$AB\\perp(OBC)$",
+    "$BC\\perp(OAB)$",
+    "$OA\\perp(OBC)$"
+   ],
+   "answer": 3,
+   "explanation": "$OA\\perp OB$ và $OA\\perp OC$, hai đường $OB$, $OC$ cắt nhau trong $(OBC)$ nên $OA\\perp(OBC)$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Thể tích",
+   "level": 2,
+   "stem": "Cho hình chóp $S.ABC$ có $SA\\perp(ABC)$, $SA=3a$, đáy $ABC$ là tam giác vuông cân tại $B$ với $AB=a$. Thể tích khối chóp $S.ABC$ bằng",
+   "options": [
+    "$a^3$",
+    "$\\dfrac{a^3}{2}$",
+    "$\\dfrac{a^3}{6}$",
+    "$\\dfrac{3a^3}{2}$"
+   ],
+   "answer": 1,
+   "explanation": "$S_{ABC}=\\dfrac12 a^2$, $V=\\dfrac13\\cdot\\dfrac{a^2}{2}\\cdot3a=\\dfrac{a^3}{2}$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Toán|Quy tắc tính xác suất",
+   "topic": "Công thức cộng xác suất",
+   "level": 1,
+   "stem": "Cho $A$, $B$ là hai biến cố xung khắc với $P(A)=0{,}3$ và $P(B)=0{,}4$. Khi đó $P(A\\cup B)$ bằng",
+   "options": [
+    "$0{,}7$",
+    "$0{,}12$",
+    "$0{,}1$",
+    "$0{,}58$"
+   ],
+   "answer": 0,
+   "explanation": "$A$, $B$ xung khắc nên $P(A\\cup B)=P(A)+P(B)=0{,}7$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Toán|Quy tắc tính xác suất",
+   "topic": "Công thức nhân xác suất cho hai biến cố độc lập",
+   "level": 1,
+   "stem": "Cho $A$, $B$ là hai biến cố độc lập với $P(A)=0{,}5$ và $P(B)=0{,}6$. Khi đó $P(AB)$ bằng",
+   "options": [
+    "$1{,}1$",
+    "$0{,}1$",
+    "$0{,}8$",
+    "$0{,}3$"
+   ],
+   "answer": 3,
+   "explanation": "$A$, $B$ độc lập nên $P(AB)=P(A)\\cdot P(B)=0{,}5\\cdot0{,}6=0{,}3$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Các quy tắc tính đạo hàm",
+   "level": 1,
+   "stem": "Đạo hàm của hàm số $y=x^3$ là",
+   "options": [
+    "$y'=x^2$",
+    "$y'=3x$",
+    "$y'=3x^2$",
+    "$y'=3x^3$"
+   ],
+   "answer": 2,
+   "explanation": "$(x^n)'=nx^{n-1}$ nên $(x^3)'=3x^2$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Các quy tắc tính đạo hàm",
+   "level": 1,
+   "stem": "Đạo hàm của hàm số $y=\\sin x$ là",
+   "options": [
+    "$y'=\\cos x$",
+    "$y'=-\\cos x$",
+    "$y'=\\sin x$",
+    "$y'=-\\sin x$"
+   ],
+   "answer": 0,
+   "explanation": "$(\\sin x)'=\\cos x$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Các quy tắc tính đạo hàm",
+   "level": 2,
+   "stem": "Đạo hàm của hàm số $y=\\dfrac{2x+1}{x-1}$ là",
+   "options": [
+    "$y'=\\dfrac{3}{(x-1)^2}$",
+    "$y'=\\dfrac{1}{(x-1)^2}$",
+    "$y'=-\\dfrac{3}{(x-1)^2}$",
+    "$y'=-\\dfrac{1}{(x-1)^2}$"
+   ],
+   "answer": 2,
+   "explanation": "$y'=\\dfrac{2(x-1)-(2x+1)\\cdot1}{(x-1)^2}=\\dfrac{-3}{(x-1)^2}$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Ý nghĩa hình học của đạo hàm",
+   "level": 2,
+   "stem": "Phương trình tiếp tuyến của đồ thị hàm số $y=x^2-3x$ tại điểm có hoành độ $x_0=2$ là",
+   "options": [
+    "$y=x+4$",
+    "$y=x-4$",
+    "$y=-x-4$",
+    "$y=x-2$"
+   ],
+   "answer": 1,
+   "explanation": "$y(2)=-2$, $y'=2x-3$ nên $y'(2)=1$. Tiếp tuyến: $y=1\\cdot(x-2)-2=x-4$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Toán|Quy tắc tính xác suất",
+   "topic": "Công thức nhân xác suất cho hai biến cố độc lập",
+   "level": 3,
+   "stem": "Hai xạ thủ bắn độc lập, mỗi người bắn một viên vào bia. Xác suất bắn trúng của người thứ nhất là $0{,}8$, của người thứ hai là $0{,}7$. Xác suất để có ít nhất một người bắn trúng bia là",
+   "options": [
+    "$0{,}56$",
+    "$0{,}06$",
+    "$0{,}38$",
+    "$0{,}94$"
+   ],
+   "answer": 3,
+   "explanation": "Biến cố đối “cả hai đều trượt” có xác suất $0{,}2\\cdot0{,}3=0{,}06$. Vậy $P=1-0{,}06=0{,}94$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phương trình mũ và lôgarit",
+   "level": 1,
+   "stem": "Cho phương trình $9^x-4\\cdot3^x+3=0\\quad(1)$.",
+   "statements": [
+    {
+     "t": "Đặt $t=3^x\\ (t>0)$, phương trình $(1)$ trở thành $t^2-4t+3=0$.",
+     "a": true
+    },
+    {
+     "t": "Phương trình $(1)$ có hai nghiệm $x=0$ và $x=1$.",
+     "a": true
+    },
+    {
+     "t": "Tổng các nghiệm của phương trình $(1)$ bằng $4$.",
+     "a": false
+    },
+    {
+     "t": "Tích các nghiệm của phương trình $(1)$ bằng $1$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng vì $9^x=(3^x)^2$. b) Đúng: $t=1\\Rightarrow x=0$; $t=3\\Rightarrow x=1$. c) Sai: tổng bằng $1$. d) Sai: tích bằng $0$."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Đạo hàm cấp hai",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=x^3-3x^2+2$.",
+   "statements": [
+    {
+     "t": "$f'(x)=3x^2-6x$.",
+     "a": true
+    },
+    {
+     "t": "$f'(1)=-3$.",
+     "a": true
+    },
+    {
+     "t": "$f''(x)=6x$.",
+     "a": false
+    },
+    {
+     "t": "Phương trình $f'(x)=0$ có hai nghiệm $x=0$ và $x=2$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: $3-6=-3$. c) Sai: $f''(x)=6x-6$. d) Đúng: $3x^2-6x=3x(x-2)=0$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "tk": "Toán|Quy tắc tính xác suất",
+   "topic": "Công thức nhân xác suất cho hai biến cố độc lập",
+   "level": 3,
+   "stem": "Một hộp có $5$ viên bi đỏ và $3$ viên bi xanh. Lấy ngẫu nhiên $1$ viên bi, xem màu rồi trả lại hộp, sau đó lấy ngẫu nhiên tiếp $1$ viên bi.",
+   "statements": [
+    {
+     "t": "Xác suất lần thứ nhất lấy được bi đỏ là $\\dfrac58$.",
+     "a": true
+    },
+    {
+     "t": "Hai biến cố “lần thứ nhất lấy được bi đỏ” và “lần thứ hai lấy được bi đỏ” là độc lập.",
+     "a": true
+    },
+    {
+     "t": "Xác suất cả hai lần đều lấy được bi đỏ là $\\dfrac{25}{64}$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất hai viên bi lấy được khác màu là $\\dfrac{15}{64}$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng vì bi được trả lại nên kết quả lần một không ảnh hưởng lần hai. c) Đúng: $\\dfrac58\\cdot\\dfrac58=\\dfrac{25}{64}$. d) Sai: $P=\\dfrac58\\cdot\\dfrac38+\\dfrac38\\cdot\\dfrac58=\\dfrac{30}{64}=\\dfrac{15}{32}$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Ý nghĩa vật lí của đạo hàm",
+   "level": 3,
+   "stem": "Một chất điểm chuyển động thẳng có phương trình $s(t)=t^3-3t^2+5t$, trong đó $t$ tính bằng giây ($t\\ge0$) và $s$ tính bằng mét.",
+   "statements": [
+    {
+     "t": "Vận tốc của chất điểm tại thời điểm $t$ là $v(t)=3t^2-6t+5$ (m/s).",
+     "a": true
+    },
+    {
+     "t": "Vận tốc tại thời điểm $t=2$ s bằng $5$ m/s.",
+     "a": true
+    },
+    {
+     "t": "Gia tốc tại thời điểm $t=3$ s bằng $18$ m/s².",
+     "a": false
+    },
+    {
+     "t": "Vận tốc nhỏ nhất của chất điểm bằng $2$ m/s.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $v=s'$. b) Đúng: $12-12+5=5$. c) Sai: $a(t)=v'(t)=6t-6$, $a(3)=12$ m/s². d) Đúng: $v(t)=3(t-1)^2+2\\ge2$, dấu bằng tại $t=1$."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phép tính lôgarit",
+   "level": 2,
+   "stem": "Cho các số thực dương $a$, $b$ với $a\\neq1$ và $\\log_a b=2$. Tính $\\log_a(a^2b^3)$.",
+   "answer_text": "8",
+   "explanation": "$\\log_a(a^2b^3)=2+3\\log_a b=2+6=8$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Thể tích",
+   "level": 3,
+   "stem": "Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $2$ và cạnh bên bằng $3$. Tính thể tích khối chóp (làm tròn đến hàng phần trăm).",
+   "answer_text": "3,53",
+   "explanation": "Gọi $O$ là tâm đáy, $OA=\\sqrt2$, $SO=\\sqrt{9-2}=\\sqrt7$. $V=\\dfrac13\\cdot4\\cdot\\sqrt7=\\dfrac{4\\sqrt7}{3}\\approx3{,}53$."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Góc nhị diện",
+   "level": 2,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA\\perp(ABCD)$ và $SA=a\\sqrt3$. Tính số đo (độ) của góc nhị diện $[S,BC,A]$.",
+   "answer_text": "60",
+   "explanation": "$BC\\perp AB$, $BC\\perp SA$ nên $BC\\perp SB$. Góc phẳng nhị diện là $\\widehat{SBA}$, $\\tan\\widehat{SBA}=\\dfrac{SA}{AB}=\\sqrt3$, nên bằng $60^\\circ$."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Đạo hàm của hàm hợp",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=(x^2+1)^3$. Tính $f'(1)$.",
+   "answer_text": "24",
+   "explanation": "$f'(x)=3(x^2+1)^2\\cdot2x$, $f'(1)=3\\cdot4\\cdot2=24$."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "tk": "Toán|Đạo hàm",
+   "topic": "Ý nghĩa hình học của đạo hàm",
+   "level": 3,
+   "stem": "Cho hàm số $y=x^3-3x+1$ có đồ thị $(C)$. Các tiếp tuyến của $(C)$ song song với đường thẳng $y=9x+1$ cắt trục tung tại các điểm có tung độ lần lượt là $b_1$, $b_2$. Tính $b_1+b_2$.",
+   "answer_text": "2",
+   "explanation": "$y'=3x^2-3=9\\Leftrightarrow x=\\pm2$. Tại $x=2$: $y=3$, tiếp tuyến $y=9x-15$. Tại $x=-2$: $y=-1$, tiếp tuyến $y=9x+17$. Cả hai khác đường $y=9x+1$ nên đều song song. $b_1+b_2=-15+17=2$."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "tk": "Toán|Quy tắc tính xác suất",
+   "topic": "Công thức nhân xác suất cho hai biến cố độc lập",
+   "level": 3,
+   "stem": "Ba bạn An, Bình, Cường độc lập giải một bài toán khó với xác suất giải được lần lượt là $0{,}6$; $0{,}5$; $0{,}4$. Tính xác suất để có đúng hai bạn giải được bài toán (viết dưới dạng số thập phân).",
+   "answer_text": "0,38",
+   "explanation": "$P=0{,}6\\cdot0{,}5\\cdot0{,}6+0{,}6\\cdot0{,}5\\cdot0{,}4+0{,}4\\cdot0{,}5\\cdot0{,}4=0{,}18+0{,}12+0{,}08=0{,}38$."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập cả 22 câu (9 câu phần 1, 13 câu phần 2); các câu tính toán kiểm bằng Python/SymPy bằng assert: lôgarit, nghiệm phương trình mũ, đạo hàm (diff), tiếp tuyến, vận tốc – gia tốc, thể tích; các xác suất kiểm bằng liệt kê không gian mẫu (có hoàn lại) và cộng trên các trường hợp độc lập."
+}

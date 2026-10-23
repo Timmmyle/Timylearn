@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
  * Đề ôn giữa kì / cuối kì (soạn theo SGK GDPT 2018) → file tĩnh trong public/de-hk
- *   node scripts/data/hk-build.mjs            (đọc data/hk1/src/*.json)
+ *   node scripts/data/hk-build.mjs            (đọc data/hk1/src/*.json và data/hk2/src/*.json)
  * App tải public/de-hk/index.json, mở đề nào thì tải file đề đó. Không cần Supabase.
  */
 import fs from "node:fs";
 import path from "node:path";
 
-const SRC = path.resolve(process.argv[2] || "data/hk1/src");
+const SRCS = (process.argv[2] ? [process.argv[2]] : ["data/hk1/src", "data/hk2/src"]).map((d) => path.resolve(d)).filter((d) => fs.existsSync(d));
 const OUT = path.resolve("public/de-hk");
 fs.mkdirSync(OUT, { recursive: true });
 for (const f of fs.readdirSync(OUT)) fs.unlinkSync(path.join(OUT, f));
@@ -15,7 +15,8 @@ for (const f of fs.readdirSync(OUT)) fs.unlinkSync(path.join(OUT, f));
 const EXN = { gk1: "giữa học kì 1", ck1: "cuối học kì 1", gk2: "giữa học kì 2", ck2: "cuối học kì 2" };
 const index = [];
 let nq = 0;
-for (const f of fs.readdirSync(SRC).filter((x) => x.endsWith(".json")).sort()) {
+const ALL = SRCS.flatMap((dir) => fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort().map((f) => [dir, f]));
+for (const [SRC, f] of ALL) {
   const d = JSON.parse(fs.readFileSync(path.join(SRC, f), "utf8"));
   const id = "hk-" + f.replace(/\.json$/, "");
   const base = { id, grade: d.grade, subject: d.subject || "Ngữ văn", exam: d.exam, duration_min: d.duration_min || 90,
@@ -33,6 +34,7 @@ for (const f of fs.readdirSync(SRC).filter((x) => x.endsWith(".json")).sort()) {
   }
   const qs = d.questions.map((q, i) => {
     const o = { id: `${id}-${String(i + 1).padStart(2, "0")}`, s: d.subject, t: q.topic || "Đề ôn", l: q.level || 2, q: q.stem, o: [], a: -1, e: q.explanation || "", setId: id, remote: true };
+    if (q.tk) o.tk = q.tk;
     if (q.qtype === "tf") { o.qt = "tf"; o.st = q.statements.map((x) => ({ t: String(x.t).replace(/^[a-d]\)\s*/, ""), a: !!x.a })); }
     else if (q.qtype === "short") { o.qt = "short"; o.sa = String(q.answer_text); }
     else { if (q.options.length !== 4 || !(q.answer >= 0 && q.answer <= 3)) throw new Error(`${f} câu ${i + 1}: mcq sai định dạng`); o.o = q.options.map(String); o.a = q.answer; }

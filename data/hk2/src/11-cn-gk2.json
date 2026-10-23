@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "Công nghệ",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – Công nghệ 11",
+ "scope": "Động cơ đốt trong: khái quát, thuật ngữ cơ bản, nguyên lí làm việc động cơ 4 kì và 2 kì (xăng, diesel), cơ cấu trục khuỷu thanh truyền, cơ cấu phân phối khí, các hệ thống bôi trơn, làm mát, nhiên liệu, đánh lửa, khởi động",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Khái quát về động cơ đốt trong",
+   "level": 1,
+   "stem": "Động cơ đốt trong là loại động cơ biến đổi",
+   "options": [
+    "cơ năng thành điện năng",
+    "điện năng thành cơ năng",
+    "nhiệt năng do nhiên liệu cháy bên trong xi lanh thành cơ năng",
+    "hóa năng của nhiên liệu trực tiếp thành điện năng"
+   ],
+   "answer": 2,
+   "explanation": "Ở động cơ đốt trong, nhiên liệu được đốt cháy ngay bên trong xi lanh, nhiệt năng sinh ra được biến thành cơ năng làm quay trục khuỷu."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Các thuật ngữ cơ bản",
+   "level": 1,
+   "stem": "Điểm chết trên (ĐCT) là vị trí mà tại đó piston",
+   "options": [
+    "ở xa tâm trục khuỷu nhất",
+    "ở gần tâm trục khuỷu nhất",
+    "có vận tốc lớn nhất",
+    "nằm chính giữa hành trình"
+   ],
+   "answer": 0,
+   "explanation": "ĐCT là vị trí piston xa tâm trục khuỷu nhất; ĐCD là vị trí piston gần tâm trục khuỷu nhất. Tại hai điểm chết vận tốc piston bằng 0."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Các thuật ngữ cơ bản",
+   "level": 1,
+   "stem": "Hành trình piston (S) là",
+   "options": [
+    "quãng đường piston đi được trong một chu trình",
+    "khoảng cách từ đỉnh piston đến nắp máy khi piston ở ĐCT",
+    "đường kính của xi lanh",
+    "quãng đường piston đi được giữa hai điểm chết"
+   ],
+   "answer": 3,
+   "explanation": "Hành trình piston là quãng đường piston đi được giữa ĐCT và ĐCD; mỗi hành trình trục khuỷu quay nửa vòng, $S = 2R$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Phân loại động cơ đốt trong",
+   "level": 1,
+   "stem": "Căn cứ vào số hành trình piston trong một chu trình làm việc, động cơ đốt trong được chia thành",
+   "options": [
+    "động cơ xăng và động cơ diesel",
+    "động cơ một xi lanh và nhiều xi lanh",
+    "động cơ 2 kì và động cơ 4 kì",
+    "động cơ làm mát bằng nước và bằng không khí"
+   ],
+   "answer": 2,
+   "explanation": "Theo số hành trình piston của một chu trình: động cơ 4 kì (4 hành trình) và động cơ 2 kì (2 hành trình)."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Cơ cấu trục khuỷu thanh truyền",
+   "level": 1,
+   "stem": "Cơ cấu biến chuyển động tịnh tiến của piston thành chuyển động quay của trục khuỷu là",
+   "options": [
+    "cơ cấu phân phối khí",
+    "hệ thống bôi trơn",
+    "cơ cấu trục khuỷu thanh truyền",
+    "hệ thống khởi động"
+   ],
+   "answer": 2,
+   "explanation": "Cơ cấu trục khuỷu thanh truyền (nhóm piston, thanh truyền, trục khuỷu) nhận lực khí cháy và biến chuyển động tịnh tiến thành chuyển động quay."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Cơ cấu phân phối khí",
+   "level": 1,
+   "stem": "Nhiệm vụ của cơ cấu phân phối khí là",
+   "options": [
+    "cung cấp nhiên liệu vào xi lanh",
+    "đóng, mở các cửa nạp, cửa thải đúng lúc để nạp môi chất mới và thải khí đã cháy",
+    "tạo tia lửa điện để đốt cháy hòa khí",
+    "làm quay trục khuỷu khi khởi động"
+   ],
+   "answer": 1,
+   "explanation": "Cơ cấu phân phối khí điều khiển việc đóng mở cửa nạp, cửa thải (bằng xupap hoặc van trượt) phù hợp với các kì của động cơ."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống đánh lửa",
+   "level": 1,
+   "stem": "Hệ thống đánh lửa có ở loại động cơ nào?",
+   "options": [
+    "Động cơ diesel",
+    "Cả động cơ xăng và động cơ diesel",
+    "Không có ở động cơ đốt trong",
+    "Động cơ xăng"
+   ],
+   "answer": 3,
+   "explanation": "Động cơ xăng cần tia lửa điện ở bugi để đốt hòa khí; động cơ diesel nhiên liệu tự bốc cháy nên không có hệ thống đánh lửa."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống bôi trơn",
+   "level": 1,
+   "stem": "Nhiệm vụ chính của hệ thống bôi trơn là",
+   "options": [
+    "đưa nhiên liệu vào buồng cháy",
+    "đưa dầu bôi trơn đến các bề mặt ma sát để giảm ma sát, mài mòn, đồng thời làm mát và làm sạch",
+    "giữ nhiệt độ nước làm mát luôn ổn định",
+    "làm kín buồng cháy thay cho xéc măng"
+   ],
+   "answer": 1,
+   "explanation": "Dầu bôi trơn giảm ma sát, mài mòn, ngoài ra còn làm mát, tẩy rửa bề mặt, bao kín và chống gỉ."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống khởi động",
+   "level": 1,
+   "stem": "Hệ thống khởi động có nhiệm vụ",
+   "options": [
+    "làm quay trục khuỷu đến tốc độ nhất định để động cơ tự làm việc được",
+    "dừng động cơ khi cần thiết",
+    "tạo tia lửa điện ở bugi",
+    "làm mát động cơ khi mới khởi động"
+   ],
+   "answer": 0,
+   "explanation": "Khi khởi động, cần nguồn năng lượng bên ngoài (động cơ điện, tay quay…) làm quay trục khuỷu để động cơ thực hiện được các kì đầu tiên."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ 4 kì",
+   "level": 1,
+   "stem": "Ở động cơ 4 kì, kì nào sinh công?",
+   "options": [
+    "Kì cháy – giãn nở",
+    "Kì nạp",
+    "Kì nén",
+    "Kì thải"
+   ],
+   "answer": 0,
+   "explanation": "Chỉ ở kì cháy – giãn nở, khí cháy áp suất cao đẩy piston đi xuống, sinh công; ba kì còn lại tiêu tốn công."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ diesel 4 kì",
+   "level": 2,
+   "stem": "Trong kì nạp của động cơ diesel 4 kì, môi chất được nạp vào xi lanh là",
+   "options": [
+    "hòa khí xăng và không khí",
+    "không khí",
+    "nhiên liệu diesel",
+    "hỗn hợp diesel và không khí"
+   ],
+   "answer": 1,
+   "explanation": "Động cơ diesel chỉ nạp không khí; nhiên liệu được vòi phun phun vào cuối kì nén."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ diesel 4 kì",
+   "level": 2,
+   "stem": "Cuối kì nén của động cơ diesel 4 kì, nhiên liệu bốc cháy là do",
+   "options": [
+    "nhiên liệu được phun tơi vào không khí đã bị nén có nhiệt độ, áp suất cao nên tự bốc cháy",
+    "bugi bật tia lửa điện đốt cháy nhiên liệu",
+    "piston ma sát với xi lanh làm nhiên liệu nóng lên",
+    "xupap thải mở cho khí nóng tràn vào"
+   ],
+   "answer": 0,
+   "explanation": "Không khí bị nén mạnh có nhiệt độ cao hơn nhiệt độ tự bốc cháy của diesel; vòi phun phun nhiên liệu tơi vào và nhiên liệu tự cháy."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ 4 kì",
+   "level": 2,
+   "stem": "Trong một chu trình làm việc của động cơ 4 kì, trục khuỷu quay",
+   "options": [
+    "1 vòng",
+    "4 vòng",
+    "nửa vòng",
+    "2 vòng"
+   ],
+   "answer": 3,
+   "explanation": "Một chu trình 4 kì gồm 4 hành trình piston, mỗi hành trình trục khuỷu quay nửa vòng nên tổng cộng 2 vòng ($720^\\circ$)."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nhóm piston",
+   "level": 2,
+   "stem": "Xéc măng khí lắp trên piston có tác dụng chính là",
+   "options": [
+    "gạt dầu bôi trơn bám trên thành xi lanh về cácte",
+    "nối piston với thanh truyền",
+    "bao kín buồng cháy, ngăn khí cháy lọt xuống cácte",
+    "dẫn nhiên liệu vào buồng cháy"
+   ],
+   "answer": 2,
+   "explanation": "Xéc măng khí làm kín buồng cháy; xéc măng dầu gạt dầu thừa trên thành xi lanh. Chốt piston nối piston với thanh truyền."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống làm mát",
+   "level": 2,
+   "stem": "Trong hệ thống làm mát bằng nước tuần hoàn cưỡng bức, khi nhiệt độ nước làm mát còn thấp (động cơ vừa khởi động), van hằng nhiệt",
+   "options": [
+    "mở hoàn toàn để nước qua két làm mát",
+    "xả bớt nước ra ngoài",
+    "đóng đường nước lên két, nước đi tắt về bơm để động cơ nhanh đạt nhiệt độ làm việc",
+    "làm quạt gió quay nhanh hơn"
+   ],
+   "answer": 2,
+   "explanation": "Van hằng nhiệt điều chỉnh lượng nước qua két theo nhiệt độ; khi nước nguội, van đóng đường lên két giúp động cơ nhanh nóng lên."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống làm mát",
+   "level": 2,
+   "stem": "Động cơ xe máy làm mát bằng không khí có đặc điểm nhận biết là",
+   "options": [
+    "có các cánh tản nhiệt trên thân xi lanh và nắp máy",
+    "có két nước và bơm nước",
+    "có van hằng nhiệt",
+    "có két làm mát dầu đặt phía trước xe"
+   ],
+   "answer": 0,
+   "explanation": "Làm mát bằng không khí dùng các cánh tản nhiệt để tăng diện tích tiếp xúc với không khí, nhiệt được tản trực tiếp ra môi trường."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống nhiên liệu",
+   "level": 2,
+   "stem": "Trong hệ thống phun xăng điện tử, bộ phận quyết định lượng xăng phun và thời điểm phun là",
+   "options": [
+    "bơm cao áp",
+    "bộ điều khiển điện tử (ECU) căn cứ vào tín hiệu từ các cảm biến",
+    "bộ chế hòa khí",
+    "bugi"
+   ],
+   "answer": 1,
+   "explanation": "ECU xử lí tín hiệu từ cảm biến (tốc độ, lưu lượng khí, nhiệt độ…) rồi điều khiển vòi phun phun lượng xăng phù hợp đúng thời điểm."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Tỉ số nén",
+   "level": 3,
+   "stem": "Một động cơ có thể tích buồng cháy $V_c = 0{,}05$ L và thể tích công tác $V_s = 0{,}45$ L. Tỉ số nén $\\varepsilon$ của động cơ là",
+   "options": [
+    "10",
+    "9",
+    "0,1",
+    "11"
+   ],
+   "answer": 0,
+   "explanation": "$V_a = V_c + V_s = 0{,}5$ L; $\\varepsilon = \\dfrac{V_a}{V_c} = \\dfrac{0{,}5}{0{,}05} = 10$."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Thể tích công tác",
+   "level": 3,
+   "stem": "Một xi lanh có đường kính $D = 60$ mm, hành trình piston $S = 70$ mm. Thể tích công tác $V_s = \\dfrac{\\pi D^2 S}{4}$ của xi lanh xấp xỉ bằng",
+   "options": [
+    "792 cm³",
+    "165 cm³",
+    "99 cm³",
+    "198 cm³"
+   ],
+   "answer": 3,
+   "explanation": "$V_s = \\dfrac{\\pi \\cdot 60^2 \\cdot 70}{4} \\approx 197\\,920$ mm³ $\\approx 198$ cm³."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ 4 kì",
+   "level": 3,
+   "stem": "Động cơ 4 kì một xi lanh quay với tốc độ 3000 vòng/phút. Số lần sinh công của động cơ trong 1 giây là",
+   "options": [
+    "50 lần",
+    "25 lần",
+    "1500 lần",
+    "12,5 lần"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi chu trình (2 vòng quay) có 1 lần sinh công: $3000 : 2 = 1500$ lần/phút $= 1500 : 60 = 25$ lần/giây."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ 2 kì",
+   "level": 3,
+   "stem": "Động cơ 2 kì một xi lanh quay với tốc độ 3600 vòng/phút. Số lần sinh công trong 1 giây là",
+   "options": [
+    "30 lần",
+    "120 lần",
+    "60 lần",
+    "3600 lần"
+   ],
+   "answer": 2,
+   "explanation": "Động cơ 2 kì mỗi vòng quay trục khuỷu có 1 lần sinh công: $3600 : 60 = 60$ lần/giây."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Cơ cấu phân phối khí",
+   "level": 3,
+   "stem": "Ở động cơ 4 kì dùng xupap, khi trục khuỷu quay 2400 vòng/phút thì trục cam quay",
+   "options": [
+    "2400 vòng/phút",
+    "4800 vòng/phút",
+    "600 vòng/phút",
+    "1200 vòng/phút"
+   ],
+   "answer": 3,
+   "explanation": "Mỗi chu trình (trục khuỷu quay 2 vòng) mỗi xupap mở một lần, nên trục cam quay 1 vòng; tốc độ trục cam bằng một nửa: $2400 : 2 = 1200$ vòng/phút."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Tỉ số nén",
+   "level": 2,
+   "stem": "Tỉ số nén của động cơ diesel lớn hơn của động cơ xăng chủ yếu là để",
+   "options": [
+    "giảm khối lượng của động cơ",
+    "không khí cuối kì nén có nhiệt độ đủ cao làm nhiên liệu tự bốc cháy",
+    "giảm tiếng ồn khi động cơ làm việc",
+    "để bugi dễ bật tia lửa điện hơn"
+   ],
+   "answer": 1,
+   "explanation": "Động cơ diesel không có bugi; nhờ tỉ số nén lớn, không khí bị nén đạt nhiệt độ cao đủ để nhiên liệu phun vào tự cháy."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ 2 kì",
+   "level": 2,
+   "stem": "Ở động cơ xăng 2 kì cỡ nhỏ (loại quét khí qua cácte), việc đóng, mở các cửa nạp, cửa quét, cửa thải do bộ phận nào đảm nhiệm?",
+   "options": [
+    "Xupap",
+    "Trục cam",
+    "Bugi",
+    "Piston"
+   ],
+   "answer": 3,
+   "explanation": "Động cơ 2 kì cỡ nhỏ không dùng xupap; piston chuyển động lên xuống đóng, mở các cửa trên thành xi lanh."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Nguyên lí làm việc động cơ xăng 4 kì",
+   "level": 2,
+   "stem": "Xét chu trình làm việc của một động cơ xăng 4 kì dùng xupap.",
+   "statements": [
+    {
+     "t": "Ở kì nạp, piston đi từ ĐCT xuống ĐCD, xupap nạp mở, hòa khí được nạp vào xi lanh.",
+     "a": true
+    },
+    {
+     "t": "Ở kì nén, cả xupap nạp và xupap thải đều đóng.",
+     "a": true
+    },
+    {
+     "t": "Cuối kì nén, hòa khí tự bốc cháy mà không cần tia lửa điện.",
+     "a": false
+    },
+    {
+     "t": "Ở kì thải, piston đi từ ĐCD lên ĐCT, xupap thải mở.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: hai xupap đóng để nén hòa khí. c) Sai: động cơ xăng cần bugi bật tia lửa điện để đốt hòa khí. d) Đúng."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Các thông số cơ bản của động cơ",
+   "level": 3,
+   "stem": "Một động cơ xăng 4 kì một xi lanh có đường kính xi lanh $D = 80$ mm, hành trình piston $S = 90$ mm, tỉ số nén $\\varepsilon = 9$.",
+   "statements": [
+    {
+     "t": "Thể tích công tác của xi lanh xấp xỉ 452 cm³.",
+     "a": true
+    },
+    {
+     "t": "Thể tích buồng cháy xấp xỉ 56,5 cm³.",
+     "a": true
+    },
+    {
+     "t": "Thể tích toàn phần của xi lanh xấp xỉ 395,9 cm³.",
+     "a": false
+    },
+    {
+     "t": "Bán kính quay của trục khuỷu bằng 90 mm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $V_s = \\dfrac{\\pi \\cdot 80^2 \\cdot 90}{4} \\approx 452\\,389$ mm³ $\\approx 452$ cm³. b) Đúng: $V_s = V_a - V_c = (\\varepsilon - 1)V_c \\Rightarrow V_c = \\dfrac{452{,}4}{8} \\approx 56{,}5$ cm³. c) Sai: $V_a = V_c + V_s \\approx 508{,}9$ cm³. d) Sai: $R = \\dfrac{S}{2} = 45$ mm."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống bôi trơn",
+   "level": 2,
+   "stem": "Hệ thống bôi trơn cưỡng bức của động cơ ô tô gồm: cácte dầu, bơm dầu, van an toàn, bầu lọc dầu, két làm mát dầu, các đường dầu đến các bề mặt ma sát.",
+   "statements": [
+    {
+     "t": "Bơm dầu hút dầu từ cácte và đẩy dầu đi trong hệ thống.",
+     "a": true
+    },
+    {
+     "t": "Van an toàn của bơm mở khi áp suất dầu quá cao, đưa bớt dầu quay về.",
+     "a": true
+    },
+    {
+     "t": "Dầu bôi trơn chỉ có tác dụng giảm ma sát, không có tác dụng làm mát.",
+     "a": false
+    },
+    {
+     "t": "Khi nhiệt độ dầu quá cao, dầu được đưa qua két làm mát dầu trước khi đi bôi trơn.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: van an toàn giữ áp suất dầu không vượt giới hạn. c) Sai: dầu còn làm mát, làm sạch, bao kín, chống gỉ. d) Đúng."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Động cơ đốt trong",
+   "topic": "Hệ thống làm mát",
+   "level": 3,
+   "stem": "Một ô tô dùng hệ thống làm mát bằng nước tuần hoàn cưỡng bức (bơm nước, két nước, quạt gió, van hằng nhiệt) được khởi động vào buổi sáng lạnh rồi chạy đường dài.",
+   "statements": [
+    {
+     "t": "Lúc mới khởi động, van hằng nhiệt đóng đường nước lên két, nước đi tắt về bơm.",
+     "a": true
+    },
+    {
+     "t": "Bơm nước tạo ra dòng nước tuần hoàn trong hệ thống.",
+     "a": true
+    },
+    {
+     "t": "Khi nhiệt độ nước vượt giới hạn quy định, van hằng nhiệt mở để nước qua két được làm mát.",
+     "a": true
+    },
+    {
+     "t": "Quạt gió có nhiệm vụ đẩy nước tuần hoàn trong hệ thống.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: giúp động cơ nhanh đạt nhiệt độ làm việc. b) Đúng. c) Đúng. d) Sai: quạt gió hút không khí qua két để tăng tản nhiệt; bơm nước mới tạo dòng tuần hoàn."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; kiểm tra bằng Python các câu 18–22 và 26 (tỉ số nén, thể tích công tác, số lần sinh công, tốc độ trục cam). Đáp án phần I rải đều 6/6/6/6."
+}

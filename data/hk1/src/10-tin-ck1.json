@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "Tin học",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – Tin học 10",
+ "scope": "Chủ đề 1 Máy tính và xã hội tri thức; Chủ đề 2 Mạng máy tính và Internet; Chủ đề 3 Đạo đức, pháp luật và văn hóa trong môi trường số; Chủ đề 4 Thiết kế đồ họa với Inkscape",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Thông tin và dữ liệu",
+   "level": 1,
+   "stem": "Trong máy tính, mọi dữ liệu (số, văn bản, hình ảnh, âm thanh) đều được biểu diễn dưới dạng",
+   "options": [
+    "dãy chữ số thập phân",
+    "dãy kí tự Unicode",
+    "dãy chữ cái Latinh",
+    "dãy bit (dãy các kí hiệu 0 và 1)"
+   ],
+   "answer": 3,
+   "explanation": "Máy tính chỉ lưu trữ và xử lí dãy bit, nên mọi loại dữ liệu đều phải được mã hóa thành dãy bit."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Đơn vị đo dữ liệu",
+   "level": 2,
+   "stem": "Một tệp có dung lượng 3 MB tương ứng với",
+   "options": [
+    "3000 KB",
+    "3072 byte",
+    "3072 KB",
+    "24 KB"
+   ],
+   "answer": 2,
+   "explanation": "1 MB = 1024 KB nên 3 MB = 3 × 1024 = 3072 KB."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Hệ nhị phân",
+   "level": 3,
+   "stem": "Số 100 trong hệ thập phân được biểu diễn trong hệ nhị phân là",
+   "options": [
+    "1100010",
+    "1010100",
+    "1100110",
+    "1100100"
+   ],
+   "answer": 3,
+   "explanation": "100 = 64 + 32 + 4 = 1100100₂ (kiểm tra bằng Python: bin(100) = '0b1100100')."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Phép toán trên số nhị phân",
+   "level": 3,
+   "stem": "Kết quả phép nhân hai số nhị phân 101₂ × 11₂ là",
+   "options": [
+    "1110₂",
+    "1111₂",
+    "10001₂",
+    "1011₂"
+   ],
+   "answer": 1,
+   "explanation": "101₂ = 5, 11₂ = 3, 5 × 3 = 15 = 1111₂. Nhân như hệ thập phân: 101 + 1010 = 1111."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Dữ liệu logic",
+   "level": 1,
+   "stem": "Biểu thức logic A OR B có giá trị sai (0) khi",
+   "options": [
+    "cả A và B đều đúng",
+    "cả A và B đều sai",
+    "A đúng, B sai",
+    "A sai, B đúng"
+   ],
+   "answer": 1,
+   "explanation": "Phép OR (HOẶC) chỉ cho kết quả 0 khi cả hai toán hạng đều bằng 0."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Phần mềm độc hại",
+   "level": 1,
+   "stem": "Biện pháp nào sau đây giúp phòng chống phần mềm độc hại?",
+   "options": [
+    "Tắt tường lửa để máy tính chạy nhanh hơn",
+    "Tải phần mềm bẻ khóa từ trang web không rõ nguồn gốc",
+    "Dùng một mật khẩu đơn giản cho mọi tài khoản",
+    "Cài đặt, thường xuyên cập nhật phần mềm diệt virus và không mở tệp đính kèm lạ"
+   ],
+   "answer": 3,
+   "explanation": "Phần mềm diệt virus cập nhật và thói quen không mở tệp, liên kết lạ giúp hạn chế lây nhiễm mã độc."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Điện toán đám mây",
+   "level": 2,
+   "stem": "Ưu điểm của điện toán đám mây đối với người dùng là",
+   "options": [
+    "sử dụng được mà không cần kết nối Internet",
+    "dữ liệu tuyệt đối không bao giờ bị lộ",
+    "truy cập dữ liệu, phần mềm từ nhiều thiết bị ở bất kì đâu có Internet mà không cần tự đầu tư máy chủ",
+    "chỉ dùng được trên một máy tính duy nhất"
+   ],
+   "answer": 2,
+   "explanation": "Tài nguyên đám mây nằm trên máy chủ nhà cung cấp, người dùng thuê và truy cập qua Internet; vẫn cần chú ý bảo mật tài khoản."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Internet vạn vật (IoT)",
+   "level": 1,
+   "stem": "Internet vạn vật (IoT) là",
+   "options": [
+    "mạng chỉ gồm các máy tính để bàn trong một phòng",
+    "một phần mềm duyệt web trên điện thoại",
+    "mạng kết nối các đồ vật có gắn cảm biến, phần mềm để chúng thu thập và trao đổi dữ liệu qua Internet",
+    "một kho dữ liệu đặt tại một máy chủ duy nhất"
+   ],
+   "answer": 2,
+   "explanation": "IoT mở rộng Internet tới đồ vật: nhà thông minh, đồng hồ thông minh, cảm biến nông nghiệp…"
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "An toàn trên không gian mạng",
+   "level": 2,
+   "stem": "Tình huống nào sau đây có nguy cơ bị đánh cắp tài khoản cao nhất?",
+   "options": [
+    "Đăng nhập tài khoản ngân hàng trên máy tính ở quán Internet rồi chọn “Ghi nhớ mật khẩu”",
+    "Đăng nhập trên điện thoại cá nhân có khóa màn hình và xác thực hai lớp",
+    "Đọc báo điện tử trên trang web chính thống",
+    "Xem video trên ứng dụng chính thức"
+   ],
+   "answer": 0,
+   "explanation": "Máy công cộng có thể bị cài phần mềm ghi phím; lưu mật khẩu trên đó khiến người dùng sau đăng nhập được tài khoản."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Đạo đức, pháp luật trong môi trường số",
+   "topic": "Quyền tác giả",
+   "level": 2,
+   "stem": "Theo pháp luật Việt Nam, quyền tác giả đối với một tác phẩm phát sinh",
+   "options": [
+    "kể từ khi tác phẩm được sáng tạo và thể hiện dưới một hình thức vật chất nhất định, dù đã đăng kí hay chưa",
+    "chỉ khi tác giả đăng kí tác phẩm tại cơ quan nhà nước",
+    "chỉ khi tác phẩm được bán ra thị trường",
+    "sau khi tác phẩm được công bố một năm"
+   ],
+   "answer": 0,
+   "explanation": "Luật Sở hữu trí tuệ quy định quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và được thể hiện dưới hình thức vật chất nhất định, không phụ thuộc việc đã công bố hay đăng kí."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Đạo đức, pháp luật trong môi trường số",
+   "topic": "Bản quyền phần mềm",
+   "level": 1,
+   "stem": "Hành vi nào sau đây vi phạm bản quyền?",
+   "options": [
+    "Sao chép phần mềm có bản quyền rồi bán lại trên mạng mà không được phép",
+    "Trích dẫn một đoạn ngắn có ghi rõ nguồn trong bài thuyết trình ở lớp",
+    "Sử dụng phần mềm nguồn mở theo đúng giấy phép của nó",
+    "Chia sẻ đường liên kết đến bài viết gốc trên trang chính thức"
+   ],
+   "answer": 0,
+   "explanation": "Sao chép, phân phối phần mềm có bản quyền để kinh doanh khi chưa được chủ sở hữu cho phép là xâm phạm quyền tác giả."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Đạo đức, pháp luật trong môi trường số",
+   "topic": "Luật An ninh mạng",
+   "level": 1,
+   "stem": "Luật An ninh mạng của Việt Nam có hiệu lực thi hành từ ngày",
+   "options": [
+    "01/01/2019",
+    "01/01/2018",
+    "12/6/2018",
+    "01/7/2020"
+   ],
+   "answer": 0,
+   "explanation": "Luật An ninh mạng số 24/2018/QH14 được Quốc hội thông qua ngày 12/6/2018 và có hiệu lực từ ngày 01/01/2019."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Đạo đức, pháp luật trong môi trường số",
+   "topic": "Luật An ninh mạng",
+   "level": 2,
+   "stem": "Theo Luật An ninh mạng, hành vi nào sau đây bị nghiêm cấm?",
+   "options": [
+    "Chia sẻ tài liệu học tập bổ ích có ghi rõ nguồn",
+    "Đặt mật khẩu mạnh cho tài khoản mạng xã hội",
+    "Đăng tải thông tin sai sự thật gây hoang mang trong nhân dân",
+    "Báo cáo nội dung xấu, độc hại cho quản trị viên nền tảng"
+   ],
+   "answer": 2,
+   "explanation": "Luật An ninh mạng nghiêm cấm sử dụng không gian mạng để đăng tải, phát tán thông tin sai sự thật gây hoang mang, gây thiệt hại cho tổ chức, cá nhân."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Đạo đức, pháp luật trong môi trường số",
+   "topic": "Ứng xử trên môi trường số",
+   "level": 2,
+   "stem": "Phát hiện một bạn cùng lớp bị bêu xấu, chế giễu trong nhóm chat của lớp, cách ứng xử phù hợp là",
+   "options": [
+    "Chia sẻ bài viết để nhiều người cùng biết",
+    "Bình luận chửi lại những người đăng bài",
+    "Không bình luận, chia sẻ thêm; lưu lại bằng chứng và báo cho thầy cô hoặc cha mẹ",
+    "Tham gia bình luận trêu chọc cho vui"
+   ],
+   "answer": 2,
+   "explanation": "Đây là bắt nạt trực tuyến; không lan truyền thêm, lưu bằng chứng và báo người có trách nhiệm để can thiệp kịp thời."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Đạo đức, pháp luật trong môi trường số",
+   "topic": "Quyền tác giả",
+   "level": 3,
+   "stem": "Một bạn tải ảnh của một nhiếp ảnh gia trên mạng, xóa chữ kí (watermark) trên ảnh rồi in ra bán. Nhận định nào sau đây đúng?",
+   "options": [
+    "Không vi phạm vì ảnh đã được đăng công khai trên Internet",
+    "Không vi phạm vì bạn đó đã chỉnh sửa ảnh",
+    "Chỉ vi phạm khi bán được trên 100 bản",
+    "Bạn đó vi phạm quyền tác giả vì dùng tác phẩm để kinh doanh khi chưa được tác giả cho phép"
+   ],
+   "answer": 3,
+   "explanation": "Ảnh đăng công khai vẫn được bảo hộ quyền tác giả; xóa thông tin tác giả và khai thác thương mại khi chưa xin phép là vi phạm."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Phần mềm thiết kế đồ họa Inkscape",
+   "level": 1,
+   "stem": "Inkscape là phần mềm thiết kế đồ họa làm việc chủ yếu với",
+   "options": [
+    "đồ họa điểm ảnh (bitmap)",
+    "đồ họa vectơ",
+    "tệp âm thanh",
+    "bảng tính"
+   ],
+   "answer": 1,
+   "explanation": "Inkscape là phần mềm nguồn mở chuyên vẽ đồ họa vectơ."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Phần mềm thiết kế đồ họa Inkscape",
+   "level": 1,
+   "stem": "Định dạng tệp mặc định khi lưu bản vẽ trong Inkscape là",
+   "options": [
+    ".svg",
+    ".png",
+    ".docx",
+    ".jpg"
+   ],
+   "answer": 0,
+   "explanation": "Inkscape lưu bản vẽ mặc định dưới dạng Inkscape SVG (.svg) – một định dạng đồ họa vectơ."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Đồ họa vectơ và đồ họa điểm ảnh",
+   "level": 2,
+   "stem": "Ưu điểm của ảnh vectơ so với ảnh bitmap là",
+   "options": [
+    "thể hiện ảnh chụp phong cảnh chân thực hơn",
+    "luôn có dung lượng lớn hơn",
+    "phóng to, thu nhỏ mà không bị vỡ hình (răng cưa, nhòe)",
+    "không thể chỉnh sửa sau khi vẽ"
+   ],
+   "answer": 2,
+   "explanation": "Ảnh vectơ được mô tả bằng các đối tượng hình học nên khi thay đổi kích thước vẫn sắc nét; ảnh chụp chân thực là thế mạnh của ảnh bitmap."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Màu tô và nét vẽ",
+   "level": 1,
+   "stem": "Trong Inkscape, thẻ Fill trong hộp thoại Fill and Stroke dùng để",
+   "options": [
+    "thiết lập màu cho đường viền đối tượng",
+    "tô màu cho vùng bên trong đối tượng",
+    "chọn kiểu nét viền liền hay nét đứt",
+    "xoay đối tượng"
+   ],
+   "answer": 1,
+   "explanation": "Fill: màu tô bên trong; Stroke paint: màu đường viền; Stroke style: độ dày, kiểu nét viền."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Đối tượng đồ họa cơ bản",
+   "level": 2,
+   "stem": "Trong Inkscape, khi dùng công cụ vẽ hình chữ nhật, muốn vẽ được hình vuông ta giữ phím nào trong lúc kéo chuột?",
+   "options": [
+    "Alt",
+    "Ctrl",
+    "Tab",
+    "Esc"
+   ],
+   "answer": 1,
+   "explanation": "Giữ Ctrl khi kéo công cụ hình chữ nhật (hoặc ellipse) để vẽ hình vuông (hoặc hình tròn)."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Phép toán với đối tượng",
+   "level": 2,
+   "stem": "Có hai hình tròn chồng lên nhau một phần. Muốn gộp chúng thành một đối tượng có đường bao chung, ta chọn cả hai hình rồi dùng lệnh",
+   "options": [
+    "Path > Difference",
+    "Path > Intersection",
+    "Path > Exclusion",
+    "Path > Union"
+   ],
+   "answer": 3,
+   "explanation": "Union hợp các đối tượng thành một; Difference lấy hiệu; Intersection lấy phần giao; Exclusion lấy phần không giao nhau."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Phép toán với đối tượng",
+   "level": 3,
+   "stem": "Chọn hai đối tượng chồng lên nhau: hình vuông ở lớp dưới và hình tròn ở lớp trên, rồi thực hiện Path > Difference. Kết quả là",
+   "options": [
+    "chỉ còn lại phần giao của hai hình",
+    "hai hình hợp thành một đối tượng",
+    "hình tròn bị khoét đi phần giao với hình vuông, hình vuông biến mất",
+    "hình vuông bị khoét đi phần giao với hình tròn, hình tròn biến mất"
+   ],
+   "answer": 3,
+   "explanation": "Difference lấy đối tượng ở dưới trừ đi đối tượng ở trên: phần giao bị cắt khỏi hình vuông, hình tròn bị xóa."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Đường và nút trong Inkscape",
+   "level": 2,
+   "stem": "Khi chỉnh đường cong vẽ bằng công cụ Bézier trong Inkscape, nút góc (cusp) có đặc điểm là",
+   "options": [
+    "hai đường chỉ hướng luôn thẳng hàng và dài bằng nhau",
+    "hai đường chỉ hướng tại nút điều chỉnh độc lập, tạo ra góc gấp tại nút",
+    "hai đường chỉ hướng luôn thẳng hàng nhưng có thể dài khác nhau",
+    "nút không thể di chuyển được"
+   ],
+   "answer": 1,
+   "explanation": "Nút góc: hai đường chỉ hướng độc lập; nút trơn (smooth): thẳng hàng; nút đối xứng (symmetric): thẳng hàng và dài bằng nhau."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Lớp và thứ tự đối tượng",
+   "level": 2,
+   "stem": "Trên bản vẽ, một hình tròn đang che khuất ngôi sao. Muốn ngôi sao hiện lên trên hình tròn mà không xóa đối tượng nào, ta chọn ngôi sao rồi",
+   "options": [
+    "dùng lệnh Object > Raise to Top (phím Home)",
+    "dùng lệnh Object > Lower to Bottom (phím End)",
+    "nhóm hai đối tượng bằng Ctrl + G",
+    "đổi màu viền (Stroke paint) của hình tròn"
+   ],
+   "answer": 0,
+   "explanation": "Raise to Top đưa đối tượng được chọn lên trên cùng trong thứ tự chồng xếp, nên ngôi sao không còn bị hình tròn che."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Máy tính và xã hội tri thức",
+   "topic": "Biểu diễn hình ảnh",
+   "level": 3,
+   "stem": "Một ảnh đen trắng kích thước 8 × 8 điểm ảnh, mỗi điểm ảnh dùng 1 bit (1 là đen, 0 là trắng). Một hàng điểm ảnh của ảnh được mã hóa là 00111100.",
+   "statements": [
+    {
+     "t": "Ảnh có tất cả 64 điểm ảnh.",
+     "a": true
+    },
+    {
+     "t": "Dung lượng ảnh (không nén) là 64 byte.",
+     "a": false
+    },
+    {
+     "t": "Nếu mỗi điểm ảnh dùng 8 bit (256 mức xám) thì dung lượng ảnh là 64 byte.",
+     "a": true
+    },
+    {
+     "t": "Nếu coi hàng 00111100 là một số nhị phân thì giá trị thập phân của nó là 62.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 8 × 8 = 64. b) Sai: 64 bit = 8 byte. c) Đúng: 64 × 8 bit = 512 bit = 64 byte. d) Sai: 00111100₂ = 32 + 16 + 8 + 4 = 60 (kiểm tra bằng Python)."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Mạng máy tính và Internet",
+   "topic": "Mạng máy tính và điện toán đám mây",
+   "level": 2,
+   "stem": "Cửa hàng của chị Hoa có 3 máy tính kết nối với nhau qua bộ định tuyến Wi-Fi của cửa hàng. Chị dùng một phần mềm bán hàng trực tuyến: dữ liệu hàng hóa, hóa đơn lưu trên máy chủ của nhà cung cấp, truy cập qua trình duyệt web.",
+   "statements": [
+    {
+     "t": "Ba máy tính của cửa hàng tạo thành một mạng LAN.",
+     "a": true
+    },
+    {
+     "t": "Phần mềm bán hàng trên là một dịch vụ điện toán đám mây.",
+     "a": true
+    },
+    {
+     "t": "Khi cửa hàng mất kết nối Internet, các máy vẫn truy cập được dữ liệu trên máy chủ của nhà cung cấp.",
+     "a": false
+    },
+    {
+     "t": "Chỉ cần đặt mật khẩu Wi-Fi là đủ, tài khoản phần mềm bán hàng không cần mật khẩu mạnh.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: các máy trong phạm vi cửa hàng nối với nhau. b) Đúng: phần mềm và dữ liệu nằm trên máy chủ nhà cung cấp, dùng qua Internet. c) Sai: dữ liệu đám mây cần Internet để truy cập. d) Sai: tài khoản trực tuyến có thể bị dò mật khẩu từ bất kì đâu, cần mật khẩu mạnh, nên bật xác thực hai lớp."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Đạo đức, pháp luật trong môi trường số",
+   "topic": "Quyền tác giả",
+   "level": 3,
+   "stem": "Nam làm video giới thiệu sản phẩm thủ công của câu lạc bộ để đăng bán trên mạng xã hội. Nam tự viết lời giới thiệu, dùng một số ảnh trên mạng và một bài hát nổi tiếng làm nhạc nền.",
+   "statements": [
+    {
+     "t": "Dùng ảnh có giấy phép Creative Commons CC BY và ghi đúng tên tác giả theo yêu cầu giấy phép là hợp pháp.",
+     "a": true
+    },
+    {
+     "t": "Dùng bài hát nổi tiếng làm nhạc nền video bán hàng mà không xin phép là hợp pháp vì chỉ dùng 30 giây.",
+     "a": false
+    },
+    {
+     "t": "Nam có quyền tác giả đối với lời giới thiệu do mình viết dù chưa đăng kí.",
+     "a": true
+    },
+    {
+     "t": "Nam đăng tin bịa đặt rằng sản phẩm của cửa hàng khác gây hại sức khỏe là quyền tự do ngôn luận, không vi phạm pháp luật.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: CC BY cho phép sử dụng, kể cả mục đích thương mại, nếu ghi công tác giả. b) Sai: dùng tác phẩm âm nhạc cho mục đích thương mại phải được phép, không phụ thuộc thời lượng. c) Đúng: quyền tác giả tự động phát sinh khi tác phẩm được thể hiện. d) Sai: đăng thông tin sai sự thật, xúc phạm uy tín tổ chức, cá nhân là hành vi bị pháp luật nghiêm cấm."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Thiết kế đồ họa",
+   "topic": "Hoàn thiện hình ảnh đồ họa",
+   "level": 3,
+   "stem": "Mai thiết kế logo câu lạc bộ trong Inkscape: vẽ một hình tròn tô màu vàng, viền đỏ dày 4 px; viết dòng chữ “CLB TIN HỌC” uốn theo một cung tròn; cuối cùng xuất logo ra tệp ảnh PNG.",
+   "statements": [
+    {
+     "t": "Để chữ uốn theo cung tròn, chọn cả dòng chữ và đường cung rồi dùng lệnh Text > Put on Path.",
+     "a": true
+    },
+    {
+     "t": "Màu viền đỏ của hình tròn được thiết lập ở thẻ Fill.",
+     "a": false
+    },
+    {
+     "t": "Nhóm các đối tượng (Ctrl + G) giúp di chuyển, thay đổi kích thước cả logo như một đối tượng.",
+     "a": true
+    },
+    {
+     "t": "Tệp PNG xuất ra vẫn là ảnh vectơ nên phóng to bao nhiêu cũng không bị vỡ hình.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Put on Path đặt văn bản chạy theo đường. b) Sai: màu viền thiết lập ở Stroke paint. c) Đúng: Group gộp các đối tượng để thao tác chung. d) Sai: PNG là ảnh bitmap, phóng to quá kích thước gốc sẽ vỡ hình; muốn giữ vectơ phải lưu SVG."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; câu đổi hệ nhị phân, phép toán nhị phân, biểu thức logic (gồm bảng chân trị 8 trường hợp ở câu Đúng/Sai), dung lượng ảnh và đơn vị đo đã kiểm bằng Python; nội dung Inkscape đối chiếu thao tác trong SGK Tin học 10 KNTT."
+}

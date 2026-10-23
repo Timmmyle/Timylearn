@@ -1,0 +1,467 @@
+{
+ "grade": 10,
+ "subject": "Sinh học",
+ "exam": "ck1",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 1 – Sinh học 10 (đề số 1)",
+ "scope": "Chương 1 Thành phần hóa học của tế bào; Chương 2 Cấu trúc tế bào; Chương 3 Trao đổi chất qua màng và truyền tin tế bào; Chương 4 Chuyển hóa năng lượng và enzyme (hô hấp tế bào, quang hợp)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Các nguyên tố hóa học trong tế bào",
+   "level": 1,
+   "stem": "Nguyên tố nào sau đây là thành phần cấu tạo của phân tử diệp lục (chlorophyll)?",
+   "options": [
+    "Fe",
+    "Mg",
+    "Cu",
+    "Zn"
+   ],
+   "answer": 1,
+   "explanation": "Mg nằm ở trung tâm vòng porphyrin của phân tử chlorophyll; Fe là thành phần của hemoglobin."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Carbohydrate",
+   "level": 1,
+   "stem": "Thành tế bào thực vật được cấu tạo chủ yếu từ",
+   "options": [
+    "chitin",
+    "peptidoglycan",
+    "cellulose",
+    "glycogen"
+   ],
+   "answer": 2,
+   "explanation": "Cellulose là polysaccharide cấu trúc, thành phần chính của thành tế bào thực vật."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Protein",
+   "level": 1,
+   "stem": "Cấu trúc bậc 1 của protein là",
+   "options": [
+    "chuỗi polypeptide xoắn α hoặc gấp nếp β",
+    "chuỗi polypeptide co xoắn tạo khối không gian ba chiều",
+    "nhiều chuỗi polypeptide liên kết với nhau",
+    "trình tự sắp xếp các amino acid trong chuỗi polypeptide"
+   ],
+   "answer": 3,
+   "explanation": "Bậc 1 là trình tự amino acid; bậc 2 là xoắn α/gấp nếp β; bậc 3 là cấu trúc không gian ba chiều; bậc 4 gồm nhiều chuỗi polypeptide."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Nhân tế bào",
+   "level": 1,
+   "stem": "Thành phần nào của tế bào nhân thực chứa phần lớn vật chất di truyền và điều khiển mọi hoạt động của tế bào?",
+   "options": [
+    "Ti thể",
+    "Nhân tế bào",
+    "Lục lạp",
+    "Ribosome"
+   ],
+   "answer": 1,
+   "explanation": "Nhân chứa DNA liên kết với protein tạo chromatin (NST), là trung tâm điều khiển hoạt động sống của tế bào."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Khung xương tế bào",
+   "level": 1,
+   "stem": "Khung xương tế bào được cấu tạo từ",
+   "options": [
+    "lớp kép phospholipid và cholesterol",
+    "cellulose và pectin",
+    "các túi dẹp xếp chồng lên nhau",
+    "vi ống, vi sợi và sợi trung gian"
+   ],
+   "answer": 3,
+   "explanation": "Khung xương tế bào là mạng lưới sợi protein gồm vi ống, vi sợi (actin) và sợi trung gian, giúp duy trì hình dạng, neo giữ bào quan."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Tế bào thực vật và tế bào động vật",
+   "level": 2,
+   "stem": "Tế bào động vật khác tế bào thực vật ở đặc điểm nào sau đây?",
+   "options": [
+    "Không có ti thể",
+    "Không có màng sinh chất",
+    "Chưa có nhân hoàn chỉnh",
+    "Không có thành cellulose, thường có trung thể"
+   ],
+   "answer": 3,
+   "explanation": "Tế bào động vật không có thành tế bào, lục lạp, không bào trung tâm lớn nhưng có trung thể; cả hai đều có ti thể, màng sinh chất và nhân hoàn chỉnh."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Ti thể và lục lạp",
+   "level": 3,
+   "stem": "Đặc điểm nào sau đây là bằng chứng ủng hộ giả thuyết ti thể có nguồn gốc từ vi khuẩn sống cộng sinh trong tế bào nhân thực cổ?",
+   "options": [
+    "Ti thể có ở hầu hết tế bào nhân thực",
+    "Ti thể tham gia tổng hợp ATP cho tế bào",
+    "Ti thể có DNA dạng vòng và ribosome giống vi khuẩn",
+    "Ti thể có kích thước lớn hơn ribosome"
+   ],
+   "answer": 2,
+   "explanation": "Ti thể có màng kép, DNA vòng, ribosome tương tự ribosome vi khuẩn và tự nhân đôi – những đặc điểm giống vi khuẩn, ủng hộ thuyết nội cộng sinh."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Vận chuyển thụ động",
+   "level": 1,
+   "stem": "Vận chuyển thụ động là phương thức vận chuyển các chất qua màng sinh chất",
+   "options": [
+    "ngược chiều gradient nồng độ, tiêu tốn ATP",
+    "nhờ sự biến dạng của màng tạo túi",
+    "chỉ đối với các chất có kích thước lớn",
+    "theo chiều gradient nồng độ, không tiêu tốn năng lượng ATP"
+   ],
+   "answer": 3,
+   "explanation": "Vận chuyển thụ động dựa vào chênh lệch nồng độ (khuếch tán), đi từ nơi nồng độ cao đến nơi nồng độ thấp, không tốn ATP."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Vận chuyển thụ động",
+   "level": 1,
+   "stem": "Các phân tử nước đi qua màng sinh chất với tốc độ lớn chủ yếu nhờ",
+   "options": [
+    "bơm Na⁺–K⁺",
+    "túi xuất bào",
+    "lớp cholesterol",
+    "kênh protein aquaporin"
+   ],
+   "answer": 3,
+   "explanation": "Nước thẩm thấu qua màng chủ yếu nhờ kênh protein đặc hiệu aquaporin."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Môi trường ưu trương, nhược trương",
+   "level": 2,
+   "stem": "Cho tế bào hồng cầu vào nước cất (môi trường nhược trương so với tế bào). Hiện tượng xảy ra là",
+   "options": [
+    "tế bào mất nước và co lại",
+    "tế bào hút nước, trương lên và có thể bị vỡ",
+    "tế bào không thay đổi kích thước",
+    "tế bào bị co nguyên sinh"
+   ],
+   "answer": 1,
+   "explanation": "Nồng độ chất tan trong tế bào cao hơn nước cất nên nước thẩm thấu vào tế bào; hồng cầu không có thành tế bào nên trương lên và vỡ."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Vận chuyển chủ động",
+   "level": 2,
+   "stem": "Mỗi chu kì hoạt động, bơm Na⁺–K⁺ trên màng tế bào thần kinh",
+   "options": [
+    "đưa 3 Na⁺ ra ngoài và 2 K⁺ vào trong, tiêu tốn 1 ATP",
+    "đưa 2 Na⁺ ra ngoài và 3 K⁺ vào trong, tiêu tốn 1 ATP",
+    "đưa 3 Na⁺ vào trong và 2 K⁺ ra ngoài, không tốn ATP",
+    "đưa Na⁺ và K⁺ cùng chiều theo gradient nồng độ"
+   ],
+   "answer": 0,
+   "explanation": "Bơm Na⁺–K⁺ là ví dụ vận chuyển chủ động: dùng 1 ATP để đưa 3 Na⁺ ra và 2 K⁺ vào, ngược gradient nồng độ."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Môi trường ưu trương, nhược trương",
+   "level": 3,
+   "stem": "Ướp cá bằng nhiều muối giúp bảo quản cá lâu vì",
+   "options": [
+    "môi trường ưu trương làm tế bào vi sinh vật mất nước, khó sinh trưởng",
+    "muối thấm vào tế bào vi sinh vật làm chúng trương lên và vỡ",
+    "muối trực tiếp phá hủy DNA của mọi vi sinh vật",
+    "môi trường nhược trương làm vi sinh vật hút nước quá mức"
+   ],
+   "answer": 0,
+   "explanation": "Nồng độ muối cao tạo môi trường ưu trương, nước từ tế bào vi sinh vật đi ra ngoài (co nguyên sinh), vi sinh vật không sinh trưởng được."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Truyền tin tế bào",
+   "level": 1,
+   "stem": "Quá trình truyền tin giữa các tế bào gồm các giai đoạn theo trình tự nào?",
+   "options": [
+    "Đáp ứng → tiếp nhận → truyền tin nội bào",
+    "Truyền tin nội bào → tiếp nhận → đáp ứng",
+    "Tiếp nhận → truyền tin nội bào → đáp ứng",
+    "Tiếp nhận → đáp ứng → truyền tin nội bào"
+   ],
+   "answer": 2,
+   "explanation": "Phân tử tín hiệu gắn thụ thể (tiếp nhận), tín hiệu được chuyển tiếp qua chuỗi phân tử trong tế bào (truyền tin nội bào) và gây ra đáp ứng."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "ATP",
+   "level": 1,
+   "stem": "Một phân tử ATP gồm các thành phần nào?",
+   "options": [
+    "Adenine, đường ribose và 3 nhóm phosphate",
+    "Adenine, đường deoxyribose và 3 nhóm phosphate",
+    "Adenine, đường ribose và 2 nhóm phosphate",
+    "Adenine, đường glucose và 3 nhóm phosphate"
+   ],
+   "answer": 0,
+   "explanation": "ATP (adenosine triphosphate) gồm base adenine, đường ribose và 3 nhóm phosphate; liên kết giữa các nhóm phosphate dễ bị phá vỡ giải phóng năng lượng."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Enzyme",
+   "level": 2,
+   "stem": "Khi nhiệt độ tăng vượt quá nhiệt độ tối ưu, hoạt tính của enzyme giảm nhanh vì",
+   "options": [
+    "cấu trúc không gian của enzyme bị biến đổi, trung tâm hoạt động không còn phù hợp với cơ chất",
+    "enzyme bị phân giải hoàn toàn thành amino acid",
+    "cơ chất bị biến tính, không còn liên kết được với enzyme",
+    "tốc độ chuyển động của các phân tử giảm"
+   ],
+   "answer": 0,
+   "explanation": "Enzyme có bản chất protein; nhiệt độ quá cao làm protein biến tính, trung tâm hoạt động biến dạng nên enzyme mất hoạt tính."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Hô hấp tế bào",
+   "level": 2,
+   "stem": "Giai đoạn nào của hô hấp tế bào tạo ra nhiều ATP nhất và diễn ra ở đâu?",
+   "options": [
+    "Chuỗi truyền electron hô hấp – màng trong ti thể",
+    "Đường phân – tế bào chất",
+    "Chu trình Krebs – chất nền ti thể",
+    "Chuỗi truyền electron hô hấp – màng ngoài ti thể"
+   ],
+   "answer": 0,
+   "explanation": "Đường phân và chu trình Krebs mỗi giai đoạn chỉ tạo 2 ATP/glucose; phần lớn ATP được tạo ở chuỗi truyền electron trên màng trong ti thể."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Quang hợp",
+   "level": 1,
+   "stem": "Khí O₂ được giải phóng trong quang hợp có nguồn gốc từ",
+   "options": [
+    "CO₂",
+    "C₆H₁₂O₆",
+    "H₂O",
+    "chlorophyll"
+   ],
+   "answer": 2,
+   "explanation": "Ở pha sáng, nước bị quang phân li: $\\mathrm{2H_2O \\to 4H^+ + 4e^- + O_2}$, giải phóng O₂."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Điều hòa hoạt tính enzyme",
+   "level": 3,
+   "stem": "Chất X có cấu trúc tương tự cơ chất của enzyme E nên có thể gắn vào trung tâm hoạt động của E, làm giảm tốc độ phản ứng. Nhận định nào sau đây đúng?",
+   "options": [
+    "X làm enzyme E biến tính vĩnh viễn",
+    "Tăng nồng độ cơ chất có thể làm giảm mức độ ức chế của X",
+    "X là chất hoạt hóa làm tăng hoạt tính của E",
+    "X gắn vào vị trí khác trung tâm hoạt động làm enzyme đổi hình dạng"
+   ],
+   "answer": 1,
+   "explanation": "X là chất ức chế cạnh tranh: X và cơ chất tranh giành trung tâm hoạt động, nên tăng nồng độ cơ chất làm cơ chất chiếm ưu thế, giảm mức ức chế."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Ti thể và lục lạp",
+   "level": 2,
+   "stem": "Khi so sánh cấu trúc ti thể và lục lạp trong tế bào lá cây, một học sinh nêu các nhận định sau.",
+   "statements": [
+    {
+     "t": "Ti thể và lục lạp đều được bao bọc bởi hai lớp màng.",
+     "a": true
+    },
+    {
+     "t": "Chất nền của lục lạp (stroma) có chứa DNA và ribosome.",
+     "a": true
+    },
+    {
+     "t": "Màng trong của ti thể trơn nhẵn, không gấp nếp.",
+     "a": false
+    },
+    {
+     "t": "Mọi tế bào của cây, kể cả tế bào lông hút ở rễ, đều có lục lạp.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: màng trong ti thể gấp nếp tạo các mào (cristae), chứa chuỗi truyền electron và ATP synthase. d) Sai: tế bào rễ không quang hợp, không có lục lạp."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Thực hành co và phản co nguyên sinh",
+   "level": 3,
+   "stem": "Một nhóm học sinh làm tiêu bản biểu bì lá thài lài tía, nhỏ dung dịch NaCl đặc rồi quan sát; sau đó rửa tiêu bản bằng nước cất và quan sát tiếp.",
+   "statements": [
+    {
+     "t": "Khi nhỏ NaCl đặc, nước đi từ tế bào ra ngoài làm khối nguyên sinh chất co lại, tách khỏi thành tế bào.",
+     "a": true
+    },
+    {
+     "t": "Khi thay bằng nước cất, tế bào đang co nguyên sinh hút nước trở lại (phản co nguyên sinh).",
+     "a": true
+    },
+    {
+     "t": "Co nguyên sinh xảy ra là do thành cellulose co lại mạnh hơn màng sinh chất.",
+     "a": false
+    },
+    {
+     "t": "Nếu dùng tế bào đã bị đun sôi, hiện tượng co nguyên sinh vẫn xảy ra bình thường.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: môi trường ưu trương. b) Đúng: môi trường nhược trương. c) Sai: thành tế bào cứng, ít co; khối nguyên sinh chất mất nước co lại. d) Sai: tế bào chết, màng mất tính thấm chọn lọc nên không xảy ra co nguyên sinh."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Enzyme",
+   "level": 2,
+   "stem": "Thí nghiệm đo hoạt tính của hai enzyme tiêu hóa: amylase nước bọt và pepsin dạ dày ở các giá trị pH khác nhau.",
+   "statements": [
+    {
+     "t": "Pepsin hoạt động mạnh trong môi trường acid (pH khoảng 2).",
+     "a": true
+    },
+    {
+     "t": "Amylase nước bọt hoạt động tốt nhất ở pH gần trung tính.",
+     "a": true
+    },
+    {
+     "t": "Khi xuống dạ dày, amylase nước bọt hoạt động mạnh hơn khi ở khoang miệng.",
+     "a": false
+    },
+    {
+     "t": "Mỗi enzyme có thể xúc tác cho mọi loại phản ứng nếu có đủ cơ chất.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: pH tối ưu khoảng 6,8–7. c) Sai: môi trường acid dạ dày làm amylase bị bất hoạt. d) Sai: enzyme có tính đặc hiệu."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Quang hợp và hô hấp tế bào",
+   "level": 3,
+   "stem": "Trong tế bào thịt lá của một cây đang được chiếu sáng, quang hợp và hô hấp tế bào diễn ra đồng thời.",
+   "statements": [
+    {
+     "t": "Pha sáng của quang hợp tạo ATP và NADPH cung cấp cho chu trình Calvin.",
+     "a": true
+    },
+    {
+     "t": "Chu trình Calvin diễn ra trên màng thylakoid.",
+     "a": false
+    },
+    {
+     "t": "CO₂ do hô hấp tế bào tạo ra có thể được dùng làm nguyên liệu cho quang hợp.",
+     "a": true
+    },
+    {
+     "t": "Lên men tạo ra nhiều ATP hơn hô hấp hiếu khí khi phân giải cùng một lượng glucose.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: chu trình Calvin diễn ra ở chất nền lục lạp (stroma). c) Đúng. d) Sai: lên men chỉ tạo 2 ATP/glucose (từ đường phân), ít hơn nhiều so với hô hấp hiếu khí."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 2,
+   "stem": "Một đoạn DNA mạch kép có tổng số 2400 nucleotide, trong đó có 480 nucleotide loại G. Đoạn DNA này có bao nhiêu nucleotide loại A?",
+   "answer_text": "720",
+   "explanation": "A + G = N/2 = 1200 nên A = 1200 − 480 = 720."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 3,
+   "stem": "Một đoạn DNA có 150 chu kì xoắn. Biết mỗi chu kì xoắn gồm 10 cặp nucleotide và dài 3,4 nm. Chiều dài của đoạn DNA là bao nhiêu nm?",
+   "answer_text": "510",
+   "explanation": "Chiều dài = số chu kì xoắn × 3,4 nm = 150 × 3,4 = 510 nm."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Protein",
+   "level": 2,
+   "stem": "Khi các amino acid liên kết tạo thành một chuỗi polypeptide gồm 300 amino acid, có bao nhiêu phân tử nước được giải phóng?",
+   "answer_text": "299",
+   "explanation": "Mỗi liên kết peptide hình thành giải phóng 1 phân tử H₂O; chuỗi 300 amino acid có 299 liên kết peptide nên giải phóng 299 phân tử nước."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Hô hấp tế bào",
+   "level": 1,
+   "stem": "Qua giai đoạn đường phân, 1 phân tử glucose tạo ra (tích lũy thuần) bao nhiêu phân tử ATP?",
+   "answer_text": "2",
+   "explanation": "Đường phân: glucose → 2 pyruvate, tạo 4 ATP nhưng tiêu tốn 2 ATP, thu thuần 2 ATP và 2 NADH."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Chuyển hóa năng lượng, enzyme",
+   "topic": "Hô hấp tế bào",
+   "level": 3,
+   "stem": "Phương trình tổng quát của hô hấp hiếu khí: $\\mathrm{C_6H_{12}O_6 + 6O_2 \\to 6CO_2 + 6H_2O}$ + năng lượng. Một mẫu tế bào thải ra 0,6 mol CO₂ do hô hấp hiếu khí glucose. Số mol glucose đã bị phân giải là bao nhiêu?",
+   "answer_text": "0,1",
+   "explanation": "Theo phương trình, 1 mol glucose tạo 6 mol CO₂ nên số mol glucose = 0,6 : 6 = 0,1 mol."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Trao đổi chất qua màng",
+   "topic": "Vận chuyển chủ động",
+   "level": 3,
+   "stem": "Bơm Na⁺–K⁺ mỗi lần hoạt động đưa 3 Na⁺ ra ngoài và 2 K⁺ vào trong tế bào. Trong một khoảng thời gian, bơm đã đưa 900 ion Na⁺ ra ngoài. Số ion K⁺ được đưa vào tế bào là bao nhiêu?",
+   "answer_text": "600",
+   "explanation": "Số chu kì bơm = 900 : 3 = 300; số K⁺ đưa vào = 300 × 2 = 600 (tiêu tốn 300 ATP)."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập toàn bộ 28 câu; phạm vi chương 1–4 Sinh học 10 KNTT, 11 câu phần 1 và 17 câu phần 2; các câu tính toán (23–28) kiểm bằng Python trong script sinh đề."
+}

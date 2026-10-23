@@ -1,0 +1,371 @@
+{
+ "grade": 10,
+ "subject": "Toán",
+ "exam": "ck2",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 2 – Toán 10 (đề số 1)",
+ "scope": "Chương VI Hàm số bậc hai, dấu tam thức bậc hai; Chương VII Phương pháp tọa độ trong mặt phẳng; Chương VIII Đại số tổ hợp (quy tắc đếm, hoán vị – chỉnh hợp – tổ hợp, nhị thức Newton); Chương IX Tính xác suất theo định nghĩa cổ điển",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 1,
+   "stem": "Tọa độ đỉnh của parabol $y=2x^2+4x-1$ là",
+   "options": [
+    "$(-1;-3)$",
+    "$(1;5)$",
+    "$(-2;-1)$",
+    "$(-1;-7)$"
+   ],
+   "answer": 0,
+   "explanation": "$x=-\\dfrac{b}{2a}=-1$, $y(-1)=2-4-1=-3$. Đỉnh $I(-1;-3)$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Dấu của tam thức bậc hai",
+   "level": 1,
+   "stem": "Tam thức bậc hai nào sau đây luôn dương với mọi $x\\in\\mathbb{R}$?",
+   "options": [
+    "$x^2-4x+4$",
+    "$x^2-2x+3$",
+    "$-x^2+2x-3$",
+    "$x^2-x-2$"
+   ],
+   "answer": 1,
+   "explanation": "$x^2-2x+3$ có $a=1>0$, $\\Delta'=1-3<0$ nên luôn dương. $x^2-4x+4=(x-2)^2$ bằng $0$ tại $x=2$; $-x^2+2x-3$ luôn âm; $x^2-x-2$ có hai nghiệm $-1$ và $2$ nên đổi dấu."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Phương trình đường thẳng",
+   "level": 1,
+   "stem": "Trong mặt phẳng $Oxy$, phương trình tham số của đường thẳng đi qua $M(2;-1)$ và có vectơ chỉ phương $\\vec{u}=(3;4)$ là",
+   "options": [
+    "$\\begin{cases}x=3+2t\\\\y=4-t\\end{cases}$",
+    "$\\begin{cases}x=2+4t\\\\y=-1+3t\\end{cases}$",
+    "$\\begin{cases}x=2+3t\\\\y=-1+4t\\end{cases}$",
+    "$\\begin{cases}x=2+3t\\\\y=1+4t\\end{cases}$"
+   ],
+   "answer": 2,
+   "explanation": "Đường thẳng qua $M(x_0;y_0)$, vectơ chỉ phương $(a;b)$ có phương trình $x=x_0+at$, $y=y_0+bt$, tức $x=2+3t$, $y=-1+4t$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Đường tròn trong mặt phẳng tọa độ",
+   "level": 2,
+   "stem": "Phương trình đường tròn có tâm $I(2;-1)$ và đi qua điểm $A(5;3)$ là",
+   "options": [
+    "$(x+2)^2+(y-1)^2=25$",
+    "$(x-2)^2+(y+1)^2=5$",
+    "$(x+2)^2+(y-1)^2=5$",
+    "$(x-2)^2+(y+1)^2=25$"
+   ],
+   "answer": 3,
+   "explanation": "$R=IA=\\sqrt{3^2+4^2}=5$. Phương trình $(x-2)^2+(y+1)^2=25$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Ba đường conic",
+   "level": 2,
+   "stem": "Hypebol $(H):\\ \\dfrac{x^2}{16}-\\dfrac{y^2}{9}=1$ có các tiêu điểm là",
+   "options": [
+    "$F_1(-\\sqrt7;0),\\ F_2(\\sqrt7;0)$",
+    "$F_1(-5;0),\\ F_2(5;0)$",
+    "$F_1(0;-5),\\ F_2(0;5)$",
+    "$F_1(-4;0),\\ F_2(4;0)$"
+   ],
+   "answer": 1,
+   "explanation": "Với hypebol, $c=\\sqrt{a^2+b^2}=\\sqrt{16+9}=5$; tiêu điểm $F_1(-5;0)$, $F_2(5;0)$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Toán|Đại số tổ hợp",
+   "topic": "Quy tắc cộng và quy tắc nhân",
+   "level": 1,
+   "stem": "Trên giá sách có $5$ quyển sách Toán khác nhau và $4$ quyển sách Văn khác nhau. Số cách chọn ra $1$ quyển sách từ giá là",
+   "options": [
+    "$9$",
+    "$20$",
+    "$45$",
+    "$10$"
+   ],
+   "answer": 0,
+   "explanation": "Theo quy tắc cộng: $5+4=9$ cách."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Toán|Đại số tổ hợp",
+   "topic": "Hoán vị, chỉnh hợp, tổ hợp",
+   "level": 1,
+   "stem": "Số cách xếp $5$ bạn học sinh thành một hàng dọc là",
+   "options": [
+    "$25$",
+    "$5$",
+    "$60$",
+    "$120$"
+   ],
+   "answer": 3,
+   "explanation": "Mỗi cách xếp là một hoán vị của $5$ phần tử: $P_5=5!=120$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Toán|Đại số tổ hợp",
+   "topic": "Hoán vị, chỉnh hợp, tổ hợp",
+   "level": 1,
+   "stem": "Số cách chọn $3$ học sinh từ một nhóm $7$ học sinh để đi trực nhật là",
+   "options": [
+    "$210$",
+    "$21$",
+    "$35$",
+    "$343$"
+   ],
+   "answer": 2,
+   "explanation": "Chọn $3$ người không phân biệt thứ tự: $C_7^3=35$. ($210=A_7^3$ là số cách có xếp thứ tự.)"
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Toán|Đại số tổ hợp",
+   "topic": "Nhị thức Newton",
+   "level": 2,
+   "stem": "Hệ số của $x^3$ trong khai triển $(2x+1)^4$ là",
+   "options": [
+    "$32$",
+    "$8$",
+    "$24$",
+    "$16$"
+   ],
+   "answer": 0,
+   "explanation": "Số hạng chứa $x^3$: $C_4^3(2x)^3\\cdot1=4\\cdot8x^3=32x^3$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Toán|Xác suất",
+   "topic": "Xác suất của biến cố",
+   "level": 1,
+   "stem": "Gieo một con xúc xắc cân đối và đồng chất. Xác suất để xuất hiện mặt có số chấm chẵn là",
+   "options": [
+    "$\\dfrac{1}{6}$",
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{2}{3}$"
+   ],
+   "answer": 2,
+   "explanation": "$n(\\Omega)=6$, biến cố gồm các mặt $2;4;6$ nên $P=\\dfrac{3}{6}=\\dfrac12$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Toán|Xác suất",
+   "topic": "Biến cố đối",
+   "level": 2,
+   "stem": "Gieo đồng thời hai đồng xu cân đối. Xác suất để có ít nhất một đồng xu xuất hiện mặt ngửa là",
+   "options": [
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{3}{4}$",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{1}{3}$"
+   ],
+   "answer": 1,
+   "explanation": "$\\Omega=\\{SS;SN;NS;NN\\}$. Biến cố đối “cả hai đều sấp” có xác suất $\\dfrac14$, nên $P=1-\\dfrac14=\\dfrac34$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Toán|Xác suất",
+   "topic": "Xác suất của biến cố",
+   "level": 3,
+   "stem": "Một hộp có $5$ viên bi đỏ và $4$ viên bi xanh. Lấy ngẫu nhiên đồng thời $3$ viên bi. Xác suất để lấy được đúng $2$ viên bi đỏ là",
+   "options": [
+    "$\\dfrac{5}{42}$",
+    "$\\dfrac{5}{9}$",
+    "$\\dfrac{4}{21}$",
+    "$\\dfrac{10}{21}$"
+   ],
+   "answer": 3,
+   "explanation": "$n(\\Omega)=C_9^3=84$. Số cách chọn $2$ đỏ, $1$ xanh: $C_5^2\\cdot C_4^1=40$. $P=\\dfrac{40}{84}=\\dfrac{10}{21}$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 2,
+   "stem": "Cho hàm số $y=x^2-4x+3$ có đồ thị là parabol $(P)$.",
+   "statements": [
+    {
+     "t": "$(P)$ có đỉnh $I(2;-1)$.",
+     "a": true
+    },
+    {
+     "t": "Hàm số đồng biến trên khoảng $(-\\infty;2)$.",
+     "a": false
+    },
+    {
+     "t": "$(P)$ cắt trục hoành tại hai điểm có hoành độ $1$ và $3$.",
+     "a": true
+    },
+    {
+     "t": "Tập nghiệm của bất phương trình $x^2-4x+3\\ge0$ là $[1;3]$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $x=2$, $y(2)=-1$. b) Sai: $a>0$ nên hàm số nghịch biến trên $(-\\infty;2)$. c) Đúng: $x^2-4x+3=0\\Leftrightarrow x=1$ hoặc $x=3$. d) Sai: tập nghiệm là $(-\\infty;1]\\cup[3;+\\infty)$."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "tk": "Toán|Đại số tổ hợp",
+   "topic": "Quy tắc cộng và quy tắc nhân",
+   "level": 3,
+   "stem": "Từ các chữ số $0;1;2;3;4;5$ người ta lập các số tự nhiên có ba chữ số.",
+   "statements": [
+    {
+     "t": "Lập được $180$ số tự nhiên có ba chữ số (các chữ số không nhất thiết khác nhau).",
+     "a": true
+    },
+    {
+     "t": "Lập được $100$ số tự nhiên có ba chữ số đôi một khác nhau.",
+     "a": true
+    },
+    {
+     "t": "Lập được $60$ số chẵn có ba chữ số đôi một khác nhau.",
+     "a": false
+    },
+    {
+     "t": "Lập được $36$ số có ba chữ số đôi một khác nhau và chia hết cho $5$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $5\\cdot6\\cdot6=180$. b) Đúng: $5\\cdot5\\cdot4=100$. c) Sai: tận cùng $0$ có $5\\cdot4=20$ số; tận cùng $2$ hoặc $4$ có $2\\cdot4\\cdot4=32$ số; tổng $52$. d) Đúng: tận cùng $0$ có $20$ số; tận cùng $5$ có $4\\cdot4=16$ số; tổng $36$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "tk": "Toán|Xác suất",
+   "topic": "Xác suất của biến cố",
+   "level": 3,
+   "stem": "Một nhóm có $6$ bạn nam và $4$ bạn nữ. Chọn ngẫu nhiên $3$ bạn.",
+   "statements": [
+    {
+     "t": "Số phần tử của không gian mẫu là $120$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất chọn được $3$ bạn nam là $\\dfrac{1}{5}$.",
+     "a": false
+    },
+    {
+     "t": "Xác suất chọn được ít nhất một bạn nữ là $\\dfrac{4}{5}$.",
+     "a": false
+    },
+    {
+     "t": "Xác suất chọn được đúng $2$ bạn nữ là $\\dfrac{3}{10}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $C_{10}^3=120$. b) Sai: $\\dfrac{C_6^3}{120}=\\dfrac{20}{120}=\\dfrac16$. c) Sai: $1-\\dfrac16=\\dfrac56$. d) Đúng: $\\dfrac{C_4^2\\cdot C_6^1}{120}=\\dfrac{36}{120}=\\dfrac{3}{10}$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "tk": "Toán|Xác suất",
+   "topic": "Xác suất của biến cố",
+   "level": 3,
+   "stem": "Gieo hai con xúc xắc cân đối và đồng chất.",
+   "statements": [
+    {
+     "t": "Không gian mẫu có $36$ phần tử.",
+     "a": true
+    },
+    {
+     "t": "Xác suất để tổng số chấm bằng $7$ là $\\dfrac16$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất để tổng số chấm không nhỏ hơn $10$ là $\\dfrac{1}{12}$.",
+     "a": false
+    },
+    {
+     "t": "Xác suất để tích số chấm là số chẵn bằng $\\dfrac12$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $6\\cdot6=36$. b) Đúng: có $6$ kết quả $(1;6),(2;5),\\dots,(6;1)$. c) Sai: có $6$ kết quả $(4;6),(6;4),(5;5),(5;6),(6;5),(6;6)$, xác suất $\\dfrac16$. d) Sai: tích lẻ khi cả hai số lẻ, xác suất $\\dfrac{9}{36}=\\dfrac14$, nên tích chẵn có xác suất $\\dfrac34$."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Tọa độ của vectơ",
+   "level": 1,
+   "stem": "Trong mặt phẳng $Oxy$, cho $A(1;-2)$ và $B(4;2)$. Tính độ dài đoạn thẳng $AB$.",
+   "answer_text": "5",
+   "explanation": "$\\overrightarrow{AB}=(3;4)$, $AB=\\sqrt{9+16}=5$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 3,
+   "stem": "Biết parabol $y=ax^2+bx+2$ đi qua hai điểm $A(1;5)$ và $B(-1;3)$. Tính $a+2b$.",
+   "answer_text": "4",
+   "explanation": "$a+b+2=5$ và $a-b+2=3$ nên $a+b=3$, $a-b=1$, suy ra $a=2$, $b=1$. Vậy $a+2b=4$."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Góc giữa hai đường thẳng",
+   "level": 2,
+   "stem": "Tính số đo (độ) góc giữa hai đường thẳng $d_1:\\ x-2y+1=0$ và $d_2:\\ 3x-y-2=0$.",
+   "answer_text": "45",
+   "explanation": "$\\cos(d_1,d_2)=\\dfrac{|1\\cdot3+(-2)(-1)|}{\\sqrt5\\cdot\\sqrt{10}}=\\dfrac{5}{5\\sqrt2}=\\dfrac{\\sqrt2}{2}$, nên góc bằng $45^\\circ$."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "tk": "Toán|Đại số tổ hợp",
+   "topic": "Hoán vị, chỉnh hợp, tổ hợp",
+   "level": 1,
+   "stem": "Lớp 10A có $10$ bạn ứng cử. Có bao nhiêu cách bầu ra $1$ lớp trưởng và $1$ lớp phó (hai người khác nhau)?",
+   "answer_text": "90",
+   "explanation": "Chọn $2$ người có phân công chức vụ: $A_{10}^2=10\\cdot9=90$."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "tk": "Toán|Đại số tổ hợp",
+   "topic": "Nhị thức Newton",
+   "level": 3,
+   "stem": "Tìm hệ số của $x^2$ trong khai triển $(x-2)^5$.",
+   "answer_text": "-80",
+   "explanation": "Số hạng tổng quát $C_5^k x^{5-k}(-2)^k$. Với $5-k=2$ thì $k=3$: hệ số $C_5^3(-2)^3=10\\cdot(-8)=-80$."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "tk": "Toán|Xác suất",
+   "topic": "Biến cố đối",
+   "level": 3,
+   "stem": "Một hộp có $10$ tấm thẻ đánh số từ $1$ đến $10$. Rút ngẫu nhiên đồng thời $2$ thẻ. Tính xác suất để tích hai số trên thẻ là số chẵn (làm tròn đến hàng phần trăm).",
+   "answer_text": "0,78",
+   "explanation": "$n(\\Omega)=C_{10}^2=45$. Biến cố đối “tích lẻ” xảy ra khi cả hai thẻ mang số lẻ: $C_5^2=10$ cách. $P=1-\\dfrac{10}{45}=\\dfrac79\\approx0{,}78$."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập cả 22 câu (9 câu phần 1, 13 câu phần 2); mọi câu tính toán đã kiểm bằng Python/SymPy bằng assert: đỉnh parabol, tiêu điểm conic, các số đếm (câu 14 đếm bằng liệt kê toàn bộ các bộ chữ số), hệ số nhị thức bằng expand, các xác suất bằng liệt kê không gian mẫu (xúc xắc, rút thẻ) hoặc tổ hợp."
+}

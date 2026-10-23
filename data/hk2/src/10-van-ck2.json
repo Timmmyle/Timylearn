@@ -1,0 +1,99 @@
+{
+ "grade": 10,
+ "subject": "Ngữ văn",
+ "exam": "ck2",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 2 – Ngữ văn 10",
+ "scope": "Bài 8–9: văn bản thông tin, văn bản nghị luận – “Hành trang cuộc sống”; viết đoạn nghị luận văn học và bài nghị luận xã hội",
+ "genre": "Văn bản nghị luận (thư)",
+ "work": {
+  "author": "Hồ Chí Minh",
+  "title": "Thư gửi các học sinh (nhân ngày khai trường đầu tiên, tháng 9 năm 1945)",
+  "source": "Hồ Chí Minh toàn tập; thư viết tháng 9 năm 1945",
+  "public_domain_reason": "Tác giả mất năm 1969; văn bản viết trực tiếp bằng tiếng Việt"
+ },
+ "passage": "Các em học sinh,\nNgày hôm nay là ngày khai trường đầu tiên ở nước Việt Nam Dân chủ Cộng hòa. Tôi đã tưởng tượng thấy trước mắt cái cảnh nhộn nhịp tưng bừng của ngày tựu trường ở khắp các nơi. (…)\nSau 80 năm giời nô lệ làm cho nước nhà bị yếu hèn, ngày nay chúng ta cần phải xây dựng lại cơ đồ mà tổ tiên đã để lại cho chúng ta, làm sao cho chúng ta theo kịp các nước khác trên hoàn cầu. Trong công cuộc kiến thiết đó, nước nhà trông mong chờ đợi ở các em rất nhiều. Non sông Việt Nam có trở nên tươi đẹp hay không, dân tộc Việt Nam có bước tới đài vinh quang để sánh vai với các cường quốc năm châu được hay không, chính là nhờ một phần lớn ở công học tập của các em.",
+ "src": "(Trích Thư gửi các học sinh, Hồ Chí Minh, tháng 9 năm 1945; dấu (…) đánh dấu phần lược bớt)\nChú thích: nước Việt Nam Dân chủ Cộng hòa: nhà nước ra đời sau Cách mạng tháng Tám, công bố bằng bản Tuyên ngôn Độc lập ngày 2/9/1945; giời: trời (cách nói, cách viết cũ); cơ đồ: cơ nghiệp, sự nghiệp lớn; hoàn cầu: toàn thế giới; kiến thiết: xây dựng; cường quốc năm châu: các nước giàu mạnh trên thế giới.",
+ "questions": [
+  {
+   "q": "Câu 1 (0,5 điểm). Văn bản được viết trong hoàn cảnh nào? Người viết hướng tới đối tượng nào?",
+   "type": "nhanbiet",
+   "points": [
+    "Hoàn cảnh: ngày khai trường đầu tiên ở nước Việt Nam Dân chủ Cộng hòa (tháng 9/1945), sau Cách mạng tháng Tám",
+    "Đối tượng: các em học sinh cả nước"
+   ],
+   "model": "Văn bản được viết nhân ngày khai trường đầu tiên của nước Việt Nam Dân chủ Cộng hòa (tháng 9 năm 1945), ngay sau khi đất nước giành độc lập. Người viết hướng tới các em học sinh, thể hiện qua lời gọi “Các em học sinh”."
+  },
+  {
+   "q": "Câu 2 (0,5 điểm). Theo văn bản, sau “80 năm giời nô lệ”, chúng ta cần phải làm gì?",
+   "type": "nhanbiet",
+   "points": [
+    "Xây dựng lại cơ đồ mà tổ tiên đã để lại",
+    "Làm sao cho chúng ta theo kịp các nước khác trên hoàn cầu"
+   ],
+   "model": "Theo văn bản, sau 80 năm nô lệ khiến nước nhà yếu hèn, chúng ta cần phải xây dựng lại cơ đồ mà tổ tiên đã để lại, làm sao cho đất nước theo kịp các nước khác trên hoàn cầu."
+  },
+  {
+   "q": "Câu 3 (1,0 điểm). Chỉ ra và nêu tác dụng của biện pháp điệp cấu trúc trong câu: “Non sông Việt Nam có trở nên tươi đẹp hay không, dân tộc Việt Nam có bước tới đài vinh quang để sánh vai với các cường quốc năm châu được hay không, chính là nhờ một phần lớn ở công học tập của các em.”",
+   "type": "tutu",
+   "points": [
+    "Chỉ ra: điệp cấu trúc “… có … hay không” (“có trở nên tươi đẹp hay không”, “có bước tới… được hay không”), điệp từ “Việt Nam”",
+    "Tác dụng: nhấn mạnh tầm quan trọng của việc học đối với tương lai đất nước",
+    "Đặt ra vấn đề như một câu hỏi lớn, khẳng định trách nhiệm và vai trò của học sinh",
+    "Tạo nhịp điệu trang trọng, thiết tha; thể hiện niềm tin, kì vọng của Bác"
+   ],
+   "model": "Câu văn dùng phép điệp cấu trúc “… có … hay không” (có trở nên tươi đẹp hay không, có bước tới đài vinh quang… được hay không) cùng điệp từ “Việt Nam”. Biện pháp này nêu ra hai khả năng của tương lai đất nước như một câu hỏi lớn, rồi khẳng định câu trả lời nằm “ở công học tập của các em”. Nhờ đó, Bác nhấn mạnh vai trò quyết định của việc học, khơi dậy ý thức trách nhiệm ở học sinh; câu văn có nhịp điệu trang trọng, thiết tha, chứa chan niềm tin và kì vọng."
+  },
+  {
+   "q": "Câu 4 (1,0 điểm). Vì sao người viết cho rằng “nước nhà trông mong chờ đợi ở các em rất nhiều”? Nhận xét về cách lập luận của đoạn văn thứ hai.",
+   "type": "noidung",
+   "points": [
+    "Đất nước vừa thoát 80 năm nô lệ, yếu hèn, cần xây dựng lại, theo kịp thế giới",
+    "Học sinh là thế hệ tương lai, sẽ trực tiếp kiến thiết đất nước",
+    "Lập luận đi từ thực trạng (nô lệ, yếu hèn) → nhiệm vụ (xây dựng lại cơ đồ) → vai trò của học sinh",
+    "Lời lẽ ngắn gọn, giản dị mà chặt chẽ, giàu sức thuyết phục và tình cảm"
+   ],
+   "model": "Bác cho rằng nước nhà trông mong ở học sinh rất nhiều vì đất nước vừa trải qua 80 năm nô lệ, bị yếu hèn, nay cần xây dựng lại cơ đồ và theo kịp các nước trên thế giới; mà các em chính là thế hệ sẽ gánh vác công cuộc kiến thiết ấy. Đoạn văn lập luận chặt chẽ theo trình tự: nêu thực trạng đất nước → chỉ ra nhiệm vụ cấp bách → khẳng định vai trò của học sinh. Lời lẽ giản dị, ngắn gọn nhưng giàu tình cảm nên có sức thuyết phục cao."
+  },
+  {
+   "q": "Câu 5 (1,0 điểm). Lời nhắn nhủ của Bác trong văn bản có còn ý nghĩa với học sinh hôm nay không? Vì sao? (trình bày trong đoạn văn khoảng 5–7 dòng)",
+   "type": "quandiem",
+   "points": [
+    "Khẳng định lời nhắn nhủ vẫn còn nguyên ý nghĩa",
+    "Lí giải: đất nước hội nhập, cạnh tranh bằng tri thức; học tập vẫn là con đường để “sánh vai” với thế giới",
+    "Liên hệ trách nhiệm học tập của bản thân",
+    "Diễn đạt mạch lạc, đúng dung lượng"
+   ],
+   "model": "Gần tám mươi năm đã trôi qua nhưng lời nhắn nhủ của Bác vẫn còn nguyên giá trị. Trong thời đại hội nhập và cách mạng công nghệ, các quốc gia cạnh tranh với nhau chủ yếu bằng tri thức, vì vậy việc học của thế hệ trẻ vẫn quyết định đất nước có “sánh vai với các cường quốc năm châu” hay không. Với tôi, lời Bác là lời nhắc phải học tập nghiêm túc, chủ động, không chỉ vì điểm số mà để trở thành người có ích cho đất nước."
+  }
+ ],
+ "essays": [
+  {
+   "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích nghệ thuật lập luận và tình cảm của người viết trong đoạn trích Thư gửi các học sinh.",
+   "type": "viet",
+   "points": [
+    "Đúng hình thức đoạn văn, khoảng 200 chữ, có câu chủ đề",
+    "Phân tích lập luận: từ hoàn cảnh ngày khai trường → thực trạng đất nước → nhiệm vụ → vai trò của học sinh",
+    "Phân tích ngôn ngữ: giản dị, trang trọng; điệp cấu trúc trong câu kết",
+    "Tình cảm: yêu thương, trìu mến (“Các em học sinh”, “tưởng tượng thấy… nhộn nhịp tưng bừng”), niềm tin, kì vọng",
+    "Đánh giá: lí lẽ chặt chẽ kết hợp tình cảm chân thành tạo sức thuyết phục"
+   ],
+   "model": "Câu chủ đề: Đoạn trích Thư gửi các học sinh thuyết phục người đọc bằng sự kết hợp giữa lập luận chặt chẽ và tình cảm chân thành.\n- Mở đầu thân mật: lời gọi “Các em học sinh”, hình dung “cái cảnh nhộn nhịp tưng bừng” của ngày tựu trường – niềm vui chung của dân tộc độc lập.\n- Lập luận: nêu thực trạng “80 năm giời nô lệ”, “nước nhà bị yếu hèn” → nhiệm vụ “xây dựng lại cơ đồ”, “theo kịp các nước” → khẳng định vai trò học sinh.\n- Câu kết dùng điệp cấu trúc, hình ảnh “đài vinh quang”, “sánh vai với các cường quốc năm châu” giàu sức gợi.\n- Tình cảm: yêu thương, tin tưởng, kì vọng của vị lãnh tụ dành cho thế hệ trẻ.\n- Đánh giá: văn bản ngắn gọn, giản dị mà sâu sắc, có sức lay động lâu bền."
+  },
+  {
+   "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) trả lời câu hỏi: Người trẻ hôm nay cần chuẩn bị những “hành trang” gì để bước vào cuộc sống?",
+   "type": "viet",
+   "points": [
+    "Đúng kiểu bài nghị luận về một vấn đề xã hội, đủ mở bài – thân bài – kết bài, khoảng 600 chữ",
+    "Giải thích: “hành trang” là những phẩm chất, tri thức, kĩ năng mang theo khi bước vào đời",
+    "Nêu và phân tích các hành trang chính: tri thức và tinh thần tự học; kĩ năng sống, ngoại ngữ, công nghệ; nhân cách, lí tưởng, trách nhiệm",
+    "Dẫn chứng thuyết phục; phê phán lối sống thụ động, ỷ lại",
+    "Bài học nhận thức và hành động cho bản thân",
+    "Sáng tạo, chính tả và ngữ pháp chuẩn"
+   ],
+   "model": "MB: Dẫn từ lời Bác “chính là nhờ một phần lớn ở công học tập của các em”, nêu vấn đề hành trang vào đời của người trẻ.\nTB1: Giải thích “hành trang” theo nghĩa ẩn dụ.\nTB2: Hành trang thứ nhất – tri thức và năng lực tự học suốt đời (thế giới thay đổi nhanh, kiến thức lỗi thời nhanh).\nTB3: Hành trang thứ hai – kĩ năng: ngoại ngữ, công nghệ số, giao tiếp, hợp tác, giải quyết vấn đề.\nTB4: Hành trang thứ ba – nhân cách: trung thực, trách nhiệm, bản lĩnh, lí tưởng sống, sức khỏe thể chất và tinh thần.\nTB5: Phê phán người trẻ thụ động, chỉ học để thi, ỷ lại gia đình; khẳng định hành trang phải được tích lũy từ hôm nay.\nKB: Khẳng định ý nghĩa; nêu kế hoạch chuẩn bị hành trang của bản thân."
+  }
+ ],
+ "confidence_note": "Chắc chắn cao về hai câu mở đầu và nguyên đoạn “Sau 80 năm giời nô lệ… ở công học tập của các em.” (đoạn nổi tiếng, giữ chữ “giời” theo bản in phổ biến). Phần giữa thư không trích (ghi (…)) vì không chắc nguyên văn từng chữ.",
+ "self_check": "Chỉ trích những câu nhớ chắc chắn, lược phần giữa bằng (…); đáp án đọc hiểu bám sát văn bản; kiểm tra lại câu 3 đúng là điệp cấu trúc; chạy hk-check."
+}

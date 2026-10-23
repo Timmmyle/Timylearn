@@ -4,6 +4,7 @@ export type Question = {
   /** ảnh đề bài / ảnh lời giải (đường dẫn trong bucket question-images) */ img?: string; imgA?: string;
   /** câu lấy từ kho đề Supabase */ remote?: boolean; setId?: string;
   /** câu tự sinh từ dạng bài có tham số (id g:dạng:seed) */ gen?: boolean;
+  /** khóa chủ đề Vượt Ải "Môn|Chủ đề" (đề ôn soạn sẵn) */ tk?: string;
   /** dạng câu (mặc định mcq): tf = Đúng/Sai 4 ý, short = trả lời ngắn */ qt?: QType;
   /** các ý Đúng/Sai */ st?: { t: string; a: boolean }[];
   /** đáp án trả lời ngắn */ sa?: string;

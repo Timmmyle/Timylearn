@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "GD Kinh tế và Pháp luật",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – GD Kinh tế và Pháp luật 12",
+ "scope": "Bài 1–7: Tăng trưởng và phát triển kinh tế; hội nhập kinh tế quốc tế; bảo hiểm; an sinh xã hội; lập kế hoạch kinh doanh; trách nhiệm xã hội của doanh nghiệp; quản lí thu, chi trong gia đình",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Tăng trưởng và phát triển kinh tế",
+   "topic": "Tổng thu nhập quốc dân (GNI)",
+   "level": 1,
+   "stem": "Tổng thu nhập từ sản phẩm vật chất và dịch vụ cuối cùng do công dân của một nước tạo ra trong một khoảng thời gian nhất định, không phân biệt trong hay ngoài lãnh thổ, là",
+   "options": [
+    "tổng sản phẩm quốc nội (GDP)",
+    "chỉ số phát triển con người (HDI)",
+    "tổng thu nhập quốc dân (GNI)",
+    "tỉ lệ lạm phát"
+   ],
+   "answer": 2,
+   "explanation": "GNI tính theo công dân (quốc tịch); GDP tính theo phạm vi lãnh thổ."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Tăng trưởng và phát triển kinh tế",
+   "topic": "Tiến bộ xã hội trong phát triển",
+   "level": 1,
+   "stem": "Biểu hiện nào sau đây thể hiện tiến bộ xã hội trong phát triển kinh tế?",
+   "options": [
+    "Tỉ lệ hộ nghèo giảm, chỉ số HDI tăng",
+    "Khoảng cách giàu nghèo ngày càng lớn",
+    "Tỉ lệ thất nghiệp tăng cao",
+    "Môi trường bị ô nhiễm nặng"
+   ],
+   "answer": 0,
+   "explanation": "Tiến bộ xã hội thể hiện qua giảm nghèo, nâng cao HDI, công bằng xã hội."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Tăng trưởng và phát triển kinh tế",
+   "topic": "Quan hệ tăng trưởng và phát triển",
+   "level": 2,
+   "stem": "Giả sử GDP của quốc gia X tăng nhanh nhưng chủ yếu nhờ khai thác tài nguyên thô, trong khi khoảng cách giàu nghèo ngày càng lớn. Nhận định nào sau đây đúng?",
+   "options": [
+    "Quốc gia X đã phát triển bền vững",
+    "Quốc gia X không có tăng trưởng kinh tế",
+    "Khoảng cách giàu nghèo không liên quan đến phát triển",
+    "Quốc gia X có tăng trưởng nhưng phát triển chưa bền vững"
+   ],
+   "answer": 3,
+   "explanation": "Tăng trưởng không đi kèm tiến bộ xã hội và bảo vệ tài nguyên thì chưa phải phát triển bền vững."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Tăng trưởng và phát triển kinh tế",
+   "topic": "GDP bình quân đầu người",
+   "level": 3,
+   "stem": "Giả sử năm nay GDP của quốc gia Y là 450 tỉ USD, dân số là 100 triệu người. GDP bình quân đầu người của quốc gia Y là",
+   "options": [
+    "450 USD",
+    "4 500 USD",
+    "45 000 USD",
+    "4 050 USD"
+   ],
+   "answer": 1,
+   "explanation": "GDP/người = 450 000 000 000 : 100 000 000 = 4 500 USD."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Tăng trưởng và phát triển kinh tế",
+   "topic": "Ý nghĩa của tăng trưởng và phát triển",
+   "level": 2,
+   "stem": "Đối với xã hội, tăng trưởng kinh tế có ý nghĩa nào sau đây?",
+   "options": [
+    "Tự động xóa bỏ mọi bất bình đẳng xã hội",
+    "Tạo nguồn lực để giải quyết các vấn đề xã hội như giảm nghèo, phát triển giáo dục, y tế",
+    "Làm giảm nguồn thu ngân sách nhà nước",
+    "Không liên quan đến đời sống người dân"
+   ],
+   "answer": 1,
+   "explanation": "Tăng trưởng tạo nguồn lực vật chất để Nhà nước đầu tư cho phúc lợi xã hội."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hội nhập kinh tế quốc tế",
+   "topic": "Quá trình hội nhập của Việt Nam",
+   "level": 1,
+   "stem": "Việt Nam chính thức trở thành thành viên của Tổ chức Thương mại thế giới (WTO) vào năm nào?",
+   "options": [
+    "1995",
+    "1998",
+    "2000",
+    "2007"
+   ],
+   "answer": 3,
+   "explanation": "Việt Nam trở thành thành viên chính thức của WTO ngày 11/01/2007."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hội nhập kinh tế quốc tế",
+   "topic": "Các hình thức hội nhập kinh tế quốc tế",
+   "level": 1,
+   "stem": "Trong các hình thức hội nhập kinh tế quốc tế sau, hình thức nào có mức độ liên kết cao nhất?",
+   "options": [
+    "Liên minh kinh tế – tiền tệ",
+    "Khu vực mậu dịch tự do",
+    "Thỏa thuận thương mại ưu đãi",
+    "Liên minh thuế quan"
+   ],
+   "answer": 0,
+   "explanation": "Thứ tự mức độ tăng dần: thỏa thuận thương mại ưu đãi → khu vực mậu dịch tự do → liên minh thuế quan → thị trường chung → liên minh kinh tế – tiền tệ."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hội nhập kinh tế quốc tế",
+   "topic": "Các hình thức hội nhập kinh tế quốc tế",
+   "level": 2,
+   "stem": "Ngoài việc xóa bỏ thuế quan và áp dụng biểu thuế chung với bên ngoài, các nước thành viên còn cho phép tự do di chuyển vốn và lao động giữa các nước. Đây là hình thức",
+   "options": [
+    "khu vực mậu dịch tự do",
+    "thỏa thuận thương mại ưu đãi",
+    "thị trường chung",
+    "hợp tác song phương"
+   ],
+   "answer": 2,
+   "explanation": "Thị trường chung là bước cao hơn liên minh thuế quan: thêm tự do di chuyển các yếu tố sản xuất."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hội nhập kinh tế quốc tế",
+   "topic": "Trách nhiệm của công dân với hội nhập",
+   "level": 3,
+   "stem": "Chị A học tiếng Anh và lấy chứng chỉ nghề quốc tế; anh B buôn lậu hàng hóa qua biên giới; chị C tìm hiểu cam kết của các hiệp định thương mại để mở rộng xuất khẩu; anh D dùng chất bảo quản bị cấm cho nông sản xuất khẩu. Những ai có hành vi phù hợp với yêu cầu của hội nhập kinh tế quốc tế?",
+   "options": [
+    "Anh B và anh D",
+    "Chị A và anh D",
+    "Chị A và chị C",
+    "Anh B và chị C"
+   ],
+   "answer": 2,
+   "explanation": "Nâng cao năng lực, hiểu và tận dụng cam kết là phù hợp; buôn lậu, vi phạm tiêu chuẩn an toàn là vi phạm pháp luật, làm tổn hại uy tín hàng Việt."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "Bảo hiểm xã hội",
+   "level": 1,
+   "stem": "Sự bảo đảm thay thế hoặc bù đắp một phần thu nhập của người lao động khi họ bị giảm hoặc mất thu nhập do ốm đau, thai sản, tai nạn lao động, bệnh nghề nghiệp, hết tuổi lao động hoặc chết, trên cơ sở đóng vào quỹ, được gọi là",
+   "options": [
+    "bảo hiểm xã hội",
+    "bảo hiểm thương mại",
+    "trợ giúp xã hội",
+    "tín dụng ưu đãi"
+   ],
+   "answer": 0,
+   "explanation": "Đây là nội dung khái niệm bảo hiểm xã hội theo pháp luật về bảo hiểm xã hội."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "Các loại hình bảo hiểm",
+   "level": 1,
+   "stem": "Bảo hiểm nhân thọ thuộc loại hình bảo hiểm nào?",
+   "options": [
+    "Bảo hiểm xã hội bắt buộc",
+    "Bảo hiểm y tế",
+    "Bảo hiểm thất nghiệp",
+    "Bảo hiểm thương mại"
+   ],
+   "answer": 3,
+   "explanation": "Bảo hiểm nhân thọ do doanh nghiệp bảo hiểm cung cấp theo hợp đồng, thuộc bảo hiểm thương mại."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "Chính sách an sinh xã hội",
+   "level": 1,
+   "stem": "Chính sách nào sau đây thuộc hệ thống chính sách an sinh xã hội?",
+   "options": [
+    "Chính sách tiền tệ thắt chặt",
+    "Chính sách trợ giúp xã hội đối với người có hoàn cảnh đặc biệt khó khăn",
+    "Chính sách thuế xuất khẩu",
+    "Chính sách thu hút đầu tư nước ngoài"
+   ],
+   "answer": 1,
+   "explanation": "An sinh xã hội gồm: hỗ trợ việc làm, đảm bảo thu nhập tối thiểu và giảm nghèo; bảo hiểm xã hội; trợ giúp xã hội; bảo đảm dịch vụ xã hội cơ bản."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "Bảo hiểm thất nghiệp",
+   "level": 2,
+   "stem": "Chị H tham gia bảo hiểm thất nghiệp đủ thời gian theo quy định. Khi bị chấm dứt hợp đồng lao động và chưa tìm được việc làm, nếu đáp ứng các điều kiện khác của pháp luật, chị H có thể được hưởng",
+   "options": [
+    "lương hưu hằng tháng",
+    "trợ cấp thất nghiệp và hỗ trợ tư vấn, giới thiệu việc làm, học nghề",
+    "chế độ thai sản",
+    "tiền chi trả của bảo hiểm nhân thọ"
+   ],
+   "answer": 1,
+   "explanation": "Bảo hiểm thất nghiệp bù đắp một phần thu nhập và hỗ trợ người lao động tìm việc, học nghề."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "Bảo hiểm y tế",
+   "level": 2,
+   "stem": "Anh K có thẻ bảo hiểm y tế. Khi đi khám, chữa bệnh đúng quy định, anh K được",
+   "options": [
+    "nhận lương hưu hằng tháng",
+    "quỹ chi trả mọi chi phí kể cả dịch vụ ngoài phạm vi được hưởng",
+    "nhận trợ cấp thất nghiệp",
+    "quỹ bảo hiểm y tế chi trả chi phí khám, chữa bệnh trong phạm vi quyền lợi và mức hưởng theo quy định"
+   ],
+   "answer": 3,
+   "explanation": "Bảo hiểm y tế chi trả chi phí khám chữa bệnh trong phạm vi quyền lợi, mức hưởng theo quy định."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "Bảo hiểm xã hội tự nguyện",
+   "level": 3,
+   "stem": "Bà T bán hàng tự do ở chợ, không có hợp đồng lao động và mong muốn có lương hưu khi về già. Bà T có thể tham gia loại bảo hiểm nào để đáp ứng mong muốn đó?",
+   "options": [
+    "Bảo hiểm xã hội tự nguyện",
+    "Bảo hiểm xã hội bắt buộc theo hợp đồng lao động",
+    "Bảo hiểm thất nghiệp",
+    "Bảo hiểm vật chất xe máy"
+   ],
+   "answer": 0,
+   "explanation": "Bảo hiểm xã hội tự nguyện dành cho người không thuộc diện bắt buộc, có chế độ hưu trí; người tham gia được chọn mức đóng, phương thức đóng phù hợp."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Kế hoạch kinh doanh, trách nhiệm xã hội",
+   "topic": "Kế hoạch kinh doanh",
+   "level": 1,
+   "stem": "Nội dung nào sau đây thường có trong một bản kế hoạch kinh doanh?",
+   "options": [
+    "Danh sách bạn bè sẽ mua hàng",
+    "Chỉ có số tiền vay ngân hàng",
+    "Mục tiêu kinh doanh, phân tích điều kiện thực hiện, chiến lược và kế hoạch hành động",
+    "Chỉ có tên cửa hàng"
+   ],
+   "answer": 2,
+   "explanation": "Kế hoạch kinh doanh gồm: ý tưởng, mục tiêu, phân tích điều kiện (điểm mạnh, điểm yếu, cơ hội, thách thức), chiến lược, kế hoạch hành động."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Kế hoạch kinh doanh, trách nhiệm xã hội",
+   "topic": "Trách nhiệm xã hội của doanh nghiệp",
+   "level": 1,
+   "stem": "Doanh nghiệp tự nguyện tài trợ học bổng cho học sinh nghèo, ủng hộ đồng bào vùng thiên tai là thể hiện trách nhiệm",
+   "options": [
+    "pháp lí",
+    "kinh tế",
+    "nhân văn (từ thiện)",
+    "nộp thuế"
+   ],
+   "answer": 2,
+   "explanation": "Trách nhiệm xã hội của doanh nghiệp gồm: kinh tế, pháp lí, đạo đức và nhân văn (tự nguyện đóng góp cho cộng đồng)."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Kế hoạch kinh doanh, trách nhiệm xã hội",
+   "topic": "Phân tích điều kiện kinh doanh",
+   "level": 2,
+   "stem": "Khi lập kế hoạch mở tiệm bánh, anh P xác định 'bản thân có tay nghề làm bánh tốt'. Yếu tố này thuộc",
+   "options": [
+    "điểm mạnh",
+    "cơ hội",
+    "thách thức",
+    "điểm yếu"
+   ],
+   "answer": 0,
+   "explanation": "Điểm mạnh, điểm yếu là yếu tố bên trong của chủ thể; cơ hội, thách thức là yếu tố bên ngoài."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Kế hoạch kinh doanh, trách nhiệm xã hội",
+   "topic": "Trách nhiệm xã hội của doanh nghiệp",
+   "level": 2,
+   "stem": "Doanh nghiệp X đóng bảo hiểm xã hội đầy đủ cho người lao động và nộp thuế đúng hạn. Doanh nghiệp X đã thực hiện trách nhiệm",
+   "options": [
+    "nhân văn",
+    "từ thiện",
+    "tự nguyện",
+    "pháp lí"
+   ],
+   "answer": 3,
+   "explanation": "Tuân thủ các nghĩa vụ do pháp luật quy định là trách nhiệm pháp lí."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Kế hoạch kinh doanh, trách nhiệm xã hội",
+   "topic": "Trách nhiệm xã hội của doanh nghiệp",
+   "level": 3,
+   "stem": "Công ty Y sản xuất giấy đầu tư hệ thống xử lí nước thải đạt chuẩn, trả lương đúng hạn và hằng năm trao học bổng cho học sinh nghèo. Nhận định nào sau đây đúng?",
+   "options": [
+    "Trách nhiệm xã hội chỉ làm tăng chi phí, không mang lại lợi ích cho doanh nghiệp",
+    "Công ty Y thực hiện trách nhiệm xã hội ở nhiều khía cạnh, góp phần nâng cao uy tín thương hiệu",
+    "Công ty Y chỉ thực hiện trách nhiệm kinh tế",
+    "Trao học bổng là nghĩa vụ bắt buộc theo pháp luật"
+   ],
+   "answer": 1,
+   "explanation": "Xử lí nước thải, trả lương đúng hạn (pháp lí, đạo đức), trao học bổng (nhân văn) giúp doanh nghiệp tạo uy tín, phát triển bền vững."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quản lí thu, chi trong gia đình",
+   "topic": "Các khoản chi trong gia đình",
+   "level": 1,
+   "stem": "Khoản chi nào sau đây là khoản chi thiết yếu của gia đình?",
+   "options": [
+    "Du lịch nước ngoài",
+    "Tiền ăn uống, điện nước, học phí",
+    "Mua túi xách hàng hiệu",
+    "Đổi điện thoại đời mới"
+   ],
+   "answer": 1,
+   "explanation": "Chi thiết yếu là các khoản cần thiết cho cuộc sống hằng ngày; các phương án còn lại là chi không thiết yếu."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quản lí thu, chi trong gia đình",
+   "topic": "Ý nghĩa của quản lí thu, chi",
+   "level": 1,
+   "stem": "Quản lí thu, chi trong gia đình có ý nghĩa nào sau đây?",
+   "options": [
+    "Làm cho các thành viên không được chi tiêu",
+    "Chỉ cần thiết với gia đình có thu nhập cao",
+    "Làm gia đình phải vay nợ nhiều hơn",
+    "Giúp gia đình chủ động về tài chính, ổn định cuộc sống và thực hiện được mục tiêu tài chính"
+   ],
+   "answer": 3,
+   "explanation": "Quản lí thu chi giúp cân đối thu – chi, tích lũy, phòng rủi ro, thực hiện mục tiêu chung."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quản lí thu, chi trong gia đình",
+   "topic": "Tham gia quản lí thu, chi",
+   "level": 2,
+   "stem": "Bạn H (lớp 12) ghi chép chi tiêu cá nhân, tắt điện khi ra khỏi phòng và giúp bố mẹ ghi sổ thu chi hằng tháng. Việc làm của H thể hiện",
+   "options": [
+    "sự tham gia quản lí thu, chi trong gia đình phù hợp với lứa tuổi",
+    "việc làm không cần thiết với học sinh",
+    "sự can thiệp vào quyền quyết định của bố mẹ",
+    "hành vi tiêu dùng lãng phí"
+   ],
+   "answer": 0,
+   "explanation": "Học sinh có thể tham gia quản lí thu chi bằng cách chi tiêu hợp lí, tiết kiệm, hỗ trợ ghi chép."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quản lí thu, chi trong gia đình",
+   "topic": "Cân đối thu, chi",
+   "level": 3,
+   "stem": "Giả sử gia đình ông A có tổng thu nhập 25 triệu đồng/tháng, chi thiết yếu 15 triệu đồng/tháng, chi không thiết yếu 4 triệu đồng/tháng, phần còn lại để tiết kiệm. Gia đình muốn có 36 triệu đồng để sửa nhà sau 6 tháng chỉ bằng tiền tiết kiệm. Nhận định nào sau đây đúng?",
+   "options": [
+    "Gia đình cần thêm 12 triệu đồng mới đạt mục tiêu",
+    "Gia đình cần ít nhất 9 tháng",
+    "Giữ nguyên mức chi hiện tại thì gia đình đạt mục tiêu sau đúng 6 tháng",
+    "Gia đình không thể đạt mục tiêu vì chi lớn hơn thu"
+   ],
+   "answer": 2,
+   "explanation": "Tiết kiệm mỗi tháng = 25 − 15 − 4 = 6 triệu đồng; sau 6 tháng có 6 × 6 = 36 triệu đồng."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "Các loại hình bảo hiểm",
+   "level": 2,
+   "stem": "Anh B là công nhân của công ty X, làm việc theo hợp đồng lao động thuộc diện tham gia bảo hiểm xã hội bắt buộc. Công ty X và anh B đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp theo quy định. Vợ anh B buôn bán nhỏ, tham gia bảo hiểm xã hội tự nguyện. Gia đình anh còn mua bảo hiểm nhân thọ cho con.",
+   "statements": [
+    {
+     "t": "Bảo hiểm xã hội bắt buộc của anh B do cả người lao động và người sử dụng lao động cùng đóng.",
+     "a": true
+    },
+    {
+     "t": "Vợ anh B tham gia bảo hiểm xã hội tự nguyện nên có thể được hưởng lương hưu khi đủ điều kiện.",
+     "a": true
+    },
+    {
+     "t": "Bảo hiểm nhân thọ là một loại bảo hiểm xã hội do Nhà nước tổ chức thực hiện.",
+     "a": false
+    },
+    {
+     "t": "Việc tham gia bảo hiểm thất nghiệp không mang lại quyền lợi gì cho anh B.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: bảo hiểm xã hội bắt buộc do người lao động và người sử dụng lao động cùng đóng. b) Đúng: bảo hiểm xã hội tự nguyện có chế độ hưu trí. c) Sai: bảo hiểm nhân thọ là bảo hiểm thương mại. d) Sai: anh B có thể được trợ cấp thất nghiệp, hỗ trợ tìm việc, học nghề khi mất việc và đủ điều kiện."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Bảo hiểm và an sinh xã hội",
+   "topic": "An sinh xã hội",
+   "level": 3,
+   "stem": "Giả sử sau một trận lũ lớn, nhiều hộ dân ở xã X bị mất nhà cửa, tài sản. Nhà nước hỗ trợ lương thực và tiền dựng lại nhà; ngân hàng chính sách cho các hộ vay vốn ưu đãi để khôi phục sản xuất; nhiều tổ chức, cá nhân quyên góp ủng hộ.",
+   "statements": [
+    {
+     "t": "Hỗ trợ lương thực, tiền dựng lại nhà thuộc chính sách trợ giúp xã hội.",
+     "a": true
+    },
+    {
+     "t": "Cho vay vốn ưu đãi khôi phục sản xuất góp phần hỗ trợ việc làm, bảo đảm thu nhập và giảm nghèo.",
+     "a": true
+    },
+    {
+     "t": "An sinh xã hội chỉ là trách nhiệm của Nhà nước, các tổ chức và cá nhân không tham gia.",
+     "a": false
+    },
+    {
+     "t": "Các hộ dân được hỗ trợ lương thực phải hoàn trả toàn bộ số lương thực đó cho Nhà nước.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: trợ giúp đột xuất cho người gặp rủi ro thiên tai thuộc trợ giúp xã hội. b) Đúng: đây là chính sách hỗ trợ việc làm, giảm nghèo. c) Sai: an sinh xã hội cần sự chung tay của Nhà nước và toàn xã hội. d) Sai: trợ giúp xã hội không phải khoản vay, không phải hoàn trả."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Kế hoạch kinh doanh, trách nhiệm xã hội",
+   "topic": "Lập kế hoạch kinh doanh",
+   "level": 3,
+   "stem": "Giả sử chị Q lập kế hoạch mở cửa hàng nước ép trái cây gần trường học. Chị xác định: điểm mạnh là có công thức riêng và vốn tự có 100 triệu đồng; điểm yếu là chưa có kinh nghiệm quản lí; cơ hội là học sinh, sinh viên ngày càng thích đồ uống lành mạnh; thách thức là có nhiều quán trà sữa cạnh tranh. Chị đặt mục tiêu cửa hàng có lãi sau 6 tháng và cam kết dùng cốc giấy, ống hút tre.",
+   "statements": [
+    {
+     "t": "Việc có nhiều quán trà sữa cạnh tranh là điểm yếu của cửa hàng.",
+     "a": false
+    },
+    {
+     "t": "Mục tiêu 'có lãi sau 6 tháng' đã có thời hạn cụ thể.",
+     "a": true
+    },
+    {
+     "t": "Việc dùng cốc giấy, ống hút tre thể hiện trách nhiệm với môi trường.",
+     "a": true
+    },
+    {
+     "t": "Kế hoạch kinh doanh khi đã lập thì không được điều chỉnh trong quá trình thực hiện.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: đối thủ cạnh tranh là yếu tố bên ngoài, thuộc thách thức. b) Đúng: mục tiêu có mốc thời gian. c) Đúng: hạn chế đồ nhựa dùng một lần. d) Sai: kế hoạch cần được theo dõi, điều chỉnh cho phù hợp thực tế."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quản lí thu, chi trong gia đình",
+   "topic": "Cân đối thu, chi",
+   "level": 3,
+   "stem": "Giả sử gia đình chị L có thu nhập 30 triệu đồng/tháng, gồm lương của hai vợ chồng 26 triệu đồng và tiền cho thuê phòng 4 triệu đồng. Mỗi tháng, gia đình chi thiết yếu (ăn uống, điện nước, học phí của con) 18 triệu đồng, chi không thiết yếu (mua sắm, giải trí) 7 triệu đồng, số còn lại để tiết kiệm.",
+   "statements": [
+    {
+     "t": "Tiền cho thuê phòng là một nguồn thu của gia đình.",
+     "a": true
+    },
+    {
+     "t": "Mỗi tháng gia đình tiết kiệm được 5 triệu đồng.",
+     "a": true
+    },
+    {
+     "t": "Nếu giảm chi không thiết yếu xuống còn 4 triệu đồng/tháng thì sau 1 năm gia đình tiết kiệm được 96 triệu đồng.",
+     "a": true
+    },
+    {
+     "t": "Học phí của con là khoản chi không thiết yếu.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: thu nhập từ tài sản là một nguồn thu. b) Đúng: 30 − 18 − 7 = 5 triệu đồng. c) Đúng: (30 − 18 − 4) × 12 = 8 × 12 = 96 triệu đồng. d) Sai: học phí là chi thiết yếu (đề bài đã xếp vào chi thiết yếu)."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu theo SGK GD Kinh tế và Pháp luật 12 (Kết nối tri thức); các phép tính (tốc độ tăng trưởng, GNI, GDP/người, cân đối thu chi) đã kiểm bằng Python; mọi số liệu kinh tế là giả định; mốc gia nhập ASEAN (1995), APEC (1998), WTO (2007) là sự kiện chắc chắn; nội dung bảo hiểm chỉ nêu nguyên tắc chung, không nêu tỉ lệ đóng, mức hưởng cụ thể."
+}

@@ -1,0 +1,467 @@
+{
+ "grade": 10,
+ "subject": "Sinh học",
+ "exam": "gk2",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 2 – Sinh học 10",
+ "scope": "Bài 16–19: Chu kì tế bào và nguyên phân, giảm phân, thực hành quan sát phân bào; Công nghệ tế bào và thành tựu",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Chu kì tế bào",
+   "level": 1,
+   "stem": "Chu kì tế bào gồm hai giai đoạn chính là",
+   "options": [
+    "kì trung gian và quá trình nguyên phân (pha M)",
+    "pha G1 và pha G2",
+    "kì đầu và kì cuối",
+    "giảm phân I và giảm phân II"
+   ],
+   "answer": 0,
+   "explanation": "Chu kì tế bào gồm kì trung gian (G1, S, G2) và pha phân chia M (nguyên phân và phân chia tế bào chất)."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Chu kì tế bào",
+   "level": 1,
+   "stem": "Trong kì trung gian, sự nhân đôi DNA và nhiễm sắc thể diễn ra ở pha",
+   "options": [
+    "G1",
+    "S",
+    "G2",
+    "M"
+   ],
+   "answer": 1,
+   "explanation": "Pha S là pha tổng hợp: DNA nhân đôi, nhiễm sắc thể nhân đôi thành nhiễm sắc thể kép."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Chu kì tế bào",
+   "level": 2,
+   "stem": "Tế bào thần kinh trưởng thành ở người hầu như không phân chia vì chúng ra khỏi chu kì tế bào và dừng lại ở",
+   "options": [
+    "pha S",
+    "pha G2",
+    "pha G0",
+    "kì giữa nguyên phân"
+   ],
+   "answer": 2,
+   "explanation": "Tế bào đã biệt hóa cao như tế bào thần kinh không vượt qua điểm kiểm soát G1, đi vào trạng thái G0 và không phân chia."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Ung thư và kiểm soát chu kì tế bào",
+   "level": 2,
+   "stem": "Bệnh ung thư phát sinh chủ yếu do",
+   "options": [
+    "tế bào chết theo chương trình quá nhiều",
+    "tế bào ngừng phân chia vĩnh viễn",
+    "tế bào sinh dục giảm phân tạo giao tử bất thường",
+    "sự phân chia không kiểm soát được của một nhóm tế bào, tạo khối u"
+   ],
+   "answer": 3,
+   "explanation": "Khi cơ chế kiểm soát chu kì tế bào bị hỏng (do đột biến gene kiểm soát), tế bào phân chia liên tục tạo khối u, có thể di căn."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Nguyên phân",
+   "level": 1,
+   "stem": "Ở kì giữa của nguyên phân, các nhiễm sắc thể kép",
+   "options": [
+    "xếp thành hai hàng trên mặt phẳng xích đạo",
+    "xếp thành một hàng trên mặt phẳng xích đạo của thoi phân bào",
+    "bắt đầu nhân đôi",
+    "phân li về hai cực của tế bào"
+   ],
+   "answer": 1,
+   "explanation": "Kì giữa nguyên phân: NST kép co xoắn cực đại, đính vào thoi phân bào ở tâm động và xếp thành một hàng trên mặt phẳng xích đạo."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Nguyên phân",
+   "level": 1,
+   "stem": "Từ một tế bào mẹ có bộ nhiễm sắc thể 2n, sau một lần nguyên phân tạo ra",
+   "options": [
+    "2 tế bào con có bộ nhiễm sắc thể 2n",
+    "4 tế bào con có bộ nhiễm sắc thể n",
+    "2 tế bào con có bộ nhiễm sắc thể n",
+    "4 tế bào con có bộ nhiễm sắc thể 2n"
+   ],
+   "answer": 0,
+   "explanation": "Nguyên phân tạo 2 tế bào con có bộ NST giống hệt nhau và giống tế bào mẹ (2n)."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Nguyên phân",
+   "level": 2,
+   "stem": "Ruồi giấm có 2n = 8. Ở kì sau của nguyên phân, mỗi tế bào có",
+   "options": [
+    "8 nhiễm sắc thể kép",
+    "8 nhiễm sắc thể đơn",
+    "16 nhiễm sắc thể kép",
+    "16 nhiễm sắc thể đơn"
+   ],
+   "answer": 3,
+   "explanation": "Kì sau nguyên phân: mỗi NST kép tách thành 2 NST đơn, tế bào có 4n = 16 NST đơn (chưa phân chia tế bào chất)."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 1,
+   "stem": "Giảm phân xảy ra ở loại tế bào nào sau đây?",
+   "options": [
+    "Tế bào sinh dưỡng",
+    "Tế bào hợp tử",
+    "Tế bào sinh dục ở vùng chín",
+    "Tế bào mô phân sinh đỉnh rễ"
+   ],
+   "answer": 2,
+   "explanation": "Giảm phân xảy ra ở tế bào sinh dục chín (tế bào sinh tinh, sinh trứng, tế bào mẹ bào tử) để tạo giao tử hoặc bào tử."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 2,
+   "stem": "Hiện tượng trao đổi chéo giữa các chromatid không chị em trong cặp nhiễm sắc thể kép tương đồng xảy ra ở",
+   "options": [
+    "kì giữa giảm phân I",
+    "kì đầu giảm phân II",
+    "kì đầu giảm phân I",
+    "kì sau nguyên phân"
+   ],
+   "answer": 2,
+   "explanation": "Ở kì đầu giảm phân I, các NST kép tương đồng tiếp hợp và có thể trao đổi chéo giữa các chromatid không chị em."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 2,
+   "stem": "Ở kì giữa giảm phân I, các nhiễm sắc thể",
+   "options": [
+    "kép xếp thành một hàng trên mặt phẳng xích đạo",
+    "đơn xếp thành hai hàng trên mặt phẳng xích đạo",
+    "đơn phân li về hai cực tế bào",
+    "kép tương đồng xếp thành hai hàng trên mặt phẳng xích đạo"
+   ],
+   "answer": 3,
+   "explanation": "Kì giữa I: các cặp NST kép tương đồng xếp thành hai hàng trên mặt phẳng xích đạo (khác kì giữa nguyên phân là một hàng)."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 3,
+   "stem": "Một tế bào của loài có 2n = 24 đang ở kì sau giảm phân II. Số nhiễm sắc thể trong tế bào này là",
+   "options": [
+    "24 nhiễm sắc thể đơn",
+    "12 nhiễm sắc thể kép",
+    "12 nhiễm sắc thể đơn",
+    "24 nhiễm sắc thể kép"
+   ],
+   "answer": 0,
+   "explanation": "Sau giảm phân I mỗi tế bào có n = 12 NST kép; đến kì sau II, mỗi NST kép tách thành 2 NST đơn nên tế bào có 2n = 24 NST đơn."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 2,
+   "stem": "Sự phối hợp giữa giảm phân, thụ tinh và nguyên phân có ý nghĩa",
+   "options": [
+    "giúp cơ thể đa bào lớn lên",
+    "duy trì bộ nhiễm sắc thể đặc trưng của loài qua các thế hệ và tạo biến dị tổ hợp",
+    "thay thế các tế bào già, chết",
+    "tạo ra các tế bào con giống hệt nhau về vật chất di truyền"
+   ],
+   "answer": 1,
+   "explanation": "Giảm phân tạo giao tử n, thụ tinh khôi phục 2n, nguyên phân giúp hợp tử phát triển: bộ NST loài được duy trì ổn định và tạo nhiều biến dị tổ hợp."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 3,
+   "stem": "Quan sát một tế bào của loài có 2n = 8 thấy có 4 nhiễm sắc thể kép xếp thành một hàng trên mặt phẳng xích đạo. Tế bào này đang ở",
+   "options": [
+    "kì giữa nguyên phân",
+    "kì giữa giảm phân I",
+    "kì sau giảm phân I",
+    "kì giữa giảm phân II"
+   ],
+   "answer": 3,
+   "explanation": "Tế bào chỉ có 4 = n NST kép, xếp một hàng nên đang ở kì giữa giảm phân II (kì giữa nguyên phân có 8 NST kép, kì giữa I xếp hai hàng)."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Thực hành quan sát nguyên phân",
+   "level": 2,
+   "stem": "Trong thực hành quan sát quá trình nguyên phân, người ta thường làm tiêu bản từ đầu rễ hành vì",
+   "options": [
+    "tế bào ở đầu rễ có kích thước lớn nhất cây",
+    "tế bào đầu rễ không có thành cellulose",
+    "mô phân sinh ở đầu rễ có các tế bào đang phân chia mạnh",
+    "tế bào đầu rễ đang giảm phân"
+   ],
+   "answer": 2,
+   "explanation": "Đỉnh rễ có mô phân sinh, tế bào nguyên phân liên tục nên dễ quan sát được các kì của nguyên phân."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Công nghệ tế bào",
+   "topic": "Nguyên lí công nghệ tế bào",
+   "level": 1,
+   "stem": "Cơ sở khoa học của công nghệ tế bào là",
+   "options": [
+    "nguyên tắc bổ sung trong nhân đôi DNA",
+    "tính toàn năng của tế bào",
+    "tính thấm chọn lọc của màng sinh chất",
+    "cơ chế điều hòa biểu hiện gene ở vi khuẩn"
+   ],
+   "answer": 1,
+   "explanation": "Công nghệ tế bào dựa trên tính toàn năng (mỗi tế bào chứa đủ thông tin di truyền để phát triển thành cơ thể hoàn chỉnh) cùng khả năng biệt hóa, phản biệt hóa."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Công nghệ tế bào",
+   "topic": "Tế bào gốc",
+   "level": 1,
+   "stem": "Tế bào gốc phôi có đặc điểm nào sau đây?",
+   "options": [
+    "Có khả năng biệt hóa thành hầu hết các loại tế bào của cơ thể",
+    "Chỉ biệt hóa được thành tế bào máu",
+    "Không có khả năng phân chia",
+    "Đã biệt hóa hoàn toàn và có chức năng chuyên biệt"
+   ],
+   "answer": 0,
+   "explanation": "Tế bào gốc phôi là tế bào gốc vạn năng, có thể phân chia và biệt hóa thành mọi loại tế bào của cơ thể."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Công nghệ tế bào",
+   "topic": "Công nghệ tế bào thực vật",
+   "level": 2,
+   "stem": "Ưu điểm nổi bật của phương pháp nuôi cấy mô tế bào thực vật trong nhân giống là",
+   "options": [
+    "tạo nhanh số lượng lớn cây giống đồng nhất về kiểu gene, sạch bệnh",
+    "tạo ra cây con có kiểu gene rất khác cây mẹ",
+    "tạo giống mới nhờ lai giữa hai loài xa nhau",
+    "luôn tạo ra cây đa bội có năng suất cao"
+   ],
+   "answer": 0,
+   "explanation": "Nuôi cấy mô dựa trên nguyên phân nên cây con giữ nguyên kiểu gene của cây mẹ; nhân giống nhanh, quy mô lớn, cây sạch bệnh."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Công nghệ tế bào",
+   "topic": "Nhân bản vô tính động vật",
+   "level": 3,
+   "stem": "Cừu Dolly được tạo ra bằng cách chuyển nhân tế bào tuyến vú của cừu A vào trứng đã bị loại nhân của cừu B, rồi cấy phôi vào tử cung cừu C. Hệ gene trong nhân của cừu Dolly giống với",
+   "options": [
+    "cừu B",
+    "cừu C",
+    "cừu A",
+    "cả ba cừu với tỉ lệ ngang nhau"
+   ],
+   "answer": 2,
+   "explanation": "Vật chất di truyền trong nhân của Dolly là nhân của tế bào tuyến vú cừu A; cừu B chỉ cho tế bào chất, cừu C mang thai hộ."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Nguyên phân",
+   "level": 2,
+   "stem": "Một học sinh quan sát tiêu bản tế bào đầu rễ hành (2n = 16) đang nguyên phân.",
+   "statements": [
+    {
+     "t": "Ở kì đầu, các nhiễm sắc thể kép bắt đầu co xoắn, màng nhân và nhân con dần biến mất.",
+     "a": true
+    },
+    {
+     "t": "Một tế bào ở kì giữa có 16 nhiễm sắc thể kép, tương ứng 32 chromatid.",
+     "a": true
+    },
+    {
+     "t": "Một tế bào ở kì sau có 16 nhiễm sắc thể đơn.",
+     "a": false
+    },
+    {
+     "t": "Ở kì cuối, tế bào chất của tế bào rễ hành phân chia bằng cách thắt eo màng tế bào từ ngoài vào.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: mỗi NST kép gồm 2 chromatid nên có 32 chromatid. c) Sai: kì sau có 32 NST đơn. d) Sai: tế bào thực vật phân chia tế bào chất bằng cách hình thành vách ngăn (tấm tế bào) ở giữa; thắt eo là ở tế bào động vật."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 3,
+   "stem": "Một tế bào sinh tinh có kiểu gene AaBb (hai cặp gene nằm trên hai cặp nhiễm sắc thể tương đồng khác nhau) giảm phân bình thường, không xảy ra đột biến.",
+   "statements": [
+    {
+     "t": "Tế bào này tạo ra 4 tinh trùng.",
+     "a": true
+    },
+    {
+     "t": "Tế bào này tạo ra tối đa 4 loại tinh trùng.",
+     "a": false
+    },
+    {
+     "t": "Sự phân li độc lập của các cặp nhiễm sắc thể kép tương đồng ở kì sau giảm phân I là cơ sở tạo ra nhiều loại giao tử ở cơ thể.",
+     "a": true
+    },
+    {
+     "t": "Mỗi tinh trùng tạo ra mang bộ nhiễm sắc thể lưỡng bội.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 1 tế bào sinh tinh → 4 tinh trùng. b) Sai: một tế bào chỉ có một cách sắp xếp NST ở kì giữa I nên tạo 2 loại tinh trùng (ví dụ AB, ab hoặc Ab, aB). c) Đúng. d) Sai: tinh trùng mang bộ NST đơn bội n."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Công nghệ tế bào",
+   "topic": "Công nghệ tế bào động vật",
+   "level": 2,
+   "stem": "Liệu pháp tế bào gốc và nhân bản vô tính là những thành tựu của công nghệ tế bào động vật.",
+   "statements": [
+    {
+     "t": "Tế bào gốc trưởng thành (như tế bào gốc tủy xương) có thể biệt hóa thành một số loại tế bào nhất định.",
+     "a": true
+    },
+    {
+     "t": "Con vật được tạo ra bằng nhân bản vô tính có hệ gene nhân giống với cá thể cho nhân.",
+     "a": true
+    },
+    {
+     "t": "Nhân bản vô tính ở động vật là hình thức sinh sản hữu tính vì có sử dụng tế bào trứng.",
+     "a": false
+    },
+    {
+     "t": "Ghép tế bào gốc lấy từ chính bệnh nhân có nguy cơ bị hệ miễn dịch đào thải cao hơn so với ghép tế bào gốc từ người khác.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: tế bào gốc trưởng thành là tế bào gốc đa tiềm năng, biệt hóa thành một số loại tế bào. b) Đúng. c) Sai: không có thụ tinh (không có sự kết hợp giao tử đực và cái) nên là sinh sản vô tính. d) Sai: tế bào của chính bệnh nhân tương thích miễn dịch nên ít bị đào thải hơn."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Công nghệ tế bào",
+   "topic": "Công nghệ tế bào thực vật",
+   "level": 2,
+   "stem": "Một cơ sở nhân giống hoa lan bằng phương pháp nuôi cấy mô tế bào thực vật.",
+   "statements": [
+    {
+     "t": "Mẫu mô (chồi, đỉnh sinh trưởng) cần được khử trùng trước khi cấy vào môi trường nuôi cấy.",
+     "a": true
+    },
+    {
+     "t": "Tỉ lệ các hormone sinh trưởng (auxin, cytokinin) trong môi trường ảnh hưởng đến việc mô sẹo tạo chồi hay tạo rễ.",
+     "a": true
+    },
+    {
+     "t": "Các cây lan con tạo ra có kiểu gene khác nhau nên phương pháp này dùng để tạo giống mới.",
+     "a": false
+    },
+    {
+     "t": "Nuôi cấy hạt phấn rồi lưỡng bội hóa có thể tạo ra dòng cây đồng hợp tử về tất cả các gene.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: tránh nhiễm vi sinh vật. b) Đúng: điều chỉnh tỉ lệ auxin/cytokinin để định hướng tạo chồi hoặc rễ. c) Sai: cây con đồng nhất kiểu gene với cây mẹ, dùng để nhân giống. d) Đúng: hạt phấn đơn bội n, lưỡng bội hóa thành 2n đồng hợp tử tất cả các gene."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Nguyên phân",
+   "level": 2,
+   "stem": "Có 5 tế bào cùng loài, mỗi tế bào nguyên phân liên tiếp 3 lần. Tính tổng số tế bào con được tạo ra.",
+   "answer_text": "40",
+   "explanation": "Mỗi tế bào nguyên phân 3 lần tạo $2^3 = 8$ tế bào con; 5 tế bào tạo $5 \\cdot 8 = 40$ tế bào con."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Nguyên phân",
+   "level": 1,
+   "stem": "Ở người, 2n = 46. Một tế bào sinh dưỡng đang ở kì giữa của nguyên phân có bao nhiêu chromatid?",
+   "answer_text": "92",
+   "explanation": "Kì giữa có 46 NST kép, mỗi NST kép gồm 2 chromatid: $46 \\cdot 2 = 92$."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Nguyên phân",
+   "level": 3,
+   "stem": "Ruồi giấm có 2n = 8. Một tế bào sinh dưỡng nguyên phân liên tiếp 4 lần. Môi trường nội bào đã cung cấp nguyên liệu tương đương bao nhiêu nhiễm sắc thể đơn?",
+   "answer_text": "120",
+   "explanation": "Số NST môi trường cung cấp $= 2n(2^k - 1) = 8 \\cdot (2^4 - 1) = 120$."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Giảm phân",
+   "level": 2,
+   "stem": "Có 6 tế bào sinh trứng của một loài giảm phân bình thường. Tính tổng số thể cực được tạo ra.",
+   "answer_text": "18",
+   "explanation": "Mỗi tế bào sinh trứng giảm phân tạo 1 trứng và 3 thể cực; 6 tế bào tạo $6 \\cdot 3 = 18$ thể cực."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Phân bào",
+   "topic": "Chu kì tế bào",
+   "level": 3,
+   "stem": "Một tế bào có chu kì tế bào là 20 giờ, nguyên phân liên tiếp không nghỉ. Sau 60 giờ, từ tế bào này tạo ra bao nhiêu tế bào con?",
+   "answer_text": "8",
+   "explanation": "Số lần nguyên phân $= 60 : 20 = 3$; số tế bào con $= 2^3 = 8$."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Công nghệ tế bào",
+   "topic": "Công nghệ tế bào thực vật",
+   "level": 3,
+   "stem": "Trong nuôi cấy mô một giống chuối, mỗi chồi sau một lần cấy chuyển tạo ra 5 chồi mới (chồi cũ không được tính lại). Bắt đầu từ 1 chồi, sau 4 lần cấy chuyển liên tiếp thu được bao nhiêu chồi?",
+   "answer_text": "625",
+   "explanation": "Sau mỗi lần cấy chuyển, số chồi nhân 5: $5^4 = 625$ chồi."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập cả 28 câu; kiểm bằng Python các câu tính toán (23–28: 40, 92, 120, 18, 8, 625); kiểm tra đúng phạm vi phần 1 HK2 (Phân bào, Công nghệ tế bào)."
+}

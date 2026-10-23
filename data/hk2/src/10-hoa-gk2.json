@@ -1,0 +1,439 @@
+{
+ "grade": 10,
+ "subject": "Hóa học",
+ "exam": "gk2",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 2 – Hóa học 10",
+ "scope": "Chương 4 Phản ứng oxi hóa – khử (số oxi hóa, chất oxi hóa – chất khử, lập phương trình theo phương pháp thăng bằng electron); Chương 5 Năng lượng hóa học (enthalpy tạo thành, biến thiên enthalpy của phản ứng); Chương 6 Tốc độ phản ứng (biểu thức tốc độ, các yếu tố ảnh hưởng, hệ số nhiệt độ Van't Hoff)",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Số oxi hóa",
+   "level": 1,
+   "stem": "Số oxi hóa của nguyên tử sulfur trong phân tử sulfuric acid (H₂SO₄) là",
+   "options": [
+    "+6",
+    "+4",
+    "−2",
+    "+2"
+   ],
+   "answer": 0,
+   "explanation": "Gọi số oxi hóa của S là x: 2(+1) + x + 4(−2) = 0 nên x = +6."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Chất oxi hóa, chất khử",
+   "level": 1,
+   "stem": "Trong phản ứng oxi hóa – khử, chất khử là chất",
+   "options": [
+    "nhận electron",
+    "nhường electron",
+    "có số oxi hóa giảm sau phản ứng",
+    "bị khử"
+   ],
+   "answer": 1,
+   "explanation": "Chất khử là chất nhường electron (số oxi hóa tăng), nó bị oxi hóa; chất oxi hóa mới là chất nhận electron, bị khử."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Chất oxi hóa, chất khử",
+   "level": 1,
+   "stem": "Cho phản ứng: Fe + CuSO₄ → FeSO₄ + Cu. Chất đóng vai trò chất oxi hóa là",
+   "options": [
+    "Fe",
+    "FeSO₄",
+    "CuSO₄",
+    "Cu"
+   ],
+   "answer": 2,
+   "explanation": "Cu trong CuSO₄ có số oxi hóa giảm từ +2 xuống 0, nhận electron nên CuSO₄ là chất oxi hóa; Fe là chất khử."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Nhận biết phản ứng oxi hóa – khử",
+   "level": 2,
+   "stem": "Phản ứng nào sau đây là phản ứng oxi hóa – khử?",
+   "options": [
+    "NaOH + HCl → NaCl + H₂O",
+    "CaCO₃ → CaO + CO₂ (nung)",
+    "AgNO₃ + KCl → AgCl + KNO₃",
+    "2Na + Cl₂ → 2NaCl"
+   ],
+   "answer": 3,
+   "explanation": "Chỉ phản ứng giữa Na và Cl₂ có sự thay đổi số oxi hóa (Na: 0 → +1; Cl: 0 → −1). Các phản ứng còn lại không có nguyên tố nào thay đổi số oxi hóa."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Chất oxi hóa, chất khử",
+   "level": 2,
+   "stem": "Trong phản ứng điều chế chlorine: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O, hydrochloric acid đóng vai trò",
+   "options": [
+    "chỉ là chất oxi hóa",
+    "vừa là chất khử, vừa là môi trường",
+    "chỉ là môi trường",
+    "vừa là chất oxi hóa, vừa là môi trường"
+   ],
+   "answer": 1,
+   "explanation": "Trong 4 phân tử HCl, có 2 nguyên tử Cl tăng số oxi hóa từ −1 lên 0 (tạo Cl₂) nên HCl là chất khử; 2 nguyên tử Cl còn lại giữ số oxi hóa −1 trong MnCl₂ nên HCl còn đóng vai trò môi trường."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Lập phương trình hóa học của phản ứng oxi hóa – khử",
+   "level": 3,
+   "stem": "Cho phản ứng: Cu + HNO₃ (loãng) → Cu(NO₃)₂ + NO + H₂O. Sau khi cân bằng với các hệ số là số nguyên tối giản, tổng hệ số của các chất trong phương trình là",
+   "options": [
+    "20",
+    "18",
+    "22",
+    "24"
+   ],
+   "answer": 0,
+   "explanation": "Cu⁰ → Cu⁺² + 2e (×3); N⁺⁵ + 3e → N⁺² (×2). Phương trình: 3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O. Tổng hệ số = 3 + 8 + 3 + 2 + 4 = 20."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Số oxi hóa",
+   "level": 2,
+   "stem": "Số oxi hóa của nguyên tử nitrogen trong ion ammonium (NH₄⁺) là",
+   "options": [
+    "+3",
+    "+4",
+    "−4",
+    "−3"
+   ],
+   "answer": 3,
+   "explanation": "Gọi số oxi hóa của N là x: x + 4(+1) = +1 (điện tích ion) nên x = −3."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Phản ứng tỏa nhiệt, thu nhiệt",
+   "level": 1,
+   "stem": "Phản ứng tỏa nhiệt là phản ứng có",
+   "options": [
+    "$\\Delta_r H^\\circ_{298}$ > 0",
+    "$\\Delta_r H^\\circ_{298}$ = 0",
+    "$\\Delta_r H^\\circ_{298}$ < 0",
+    "nhiệt độ của hệ luôn giảm khi phản ứng xảy ra"
+   ],
+   "answer": 2,
+   "explanation": "Phản ứng tỏa nhiệt giải phóng năng lượng ra môi trường nên biến thiên enthalpy của phản ứng âm."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Điều kiện chuẩn",
+   "level": 1,
+   "stem": "Điều kiện chuẩn dùng khi xét biến thiên enthalpy của phản ứng gồm",
+   "options": [
+    "áp suất 1 atm, nồng độ 1 mol/L và nhiệt độ 273 K",
+    "áp suất 1 bar, nồng độ 0,1 mol/L và nhiệt độ 273 K",
+    "áp suất 1 bar (với chất khí), nồng độ 1 mol/L (với chất tan) và nhiệt độ thường chọn là 298 K",
+    "áp suất 2 bar, nồng độ 1 mol/L và nhiệt độ 298 K"
+   ],
+   "answer": 2,
+   "explanation": "Theo SGK, điều kiện chuẩn: áp suất 1 bar đối với chất khí, nồng độ 1 mol/L đối với chất tan trong dung dịch; nhiệt độ thường được chọn là 25 °C (298 K)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Phản ứng tỏa nhiệt, thu nhiệt",
+   "level": 1,
+   "stem": "Phản ứng nào sau đây là phản ứng thu nhiệt?",
+   "options": [
+    "Đốt cháy than: C + O₂ → CO₂",
+    "Đốt cháy cồn trong đèn cồn",
+    "Phản ứng trung hòa giữa HCl và NaOH",
+    "Nung đá vôi: CaCO₃ → CaO + CO₂"
+   ],
+   "answer": 3,
+   "explanation": "Phản ứng nung đá vôi phải cung cấp nhiệt liên tục mới xảy ra nên là phản ứng thu nhiệt; các phản ứng đốt cháy và trung hòa đều tỏa nhiệt."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Enthalpy tạo thành",
+   "level": 2,
+   "stem": "Chất nào sau đây có enthalpy tạo thành chuẩn $\\Delta_f H^\\circ_{298}$ bằng 0?",
+   "options": [
+    "O₂(g)",
+    "H₂O(l)",
+    "CO₂(g)",
+    "O₃(g)"
+   ],
+   "answer": 0,
+   "explanation": "Enthalpy tạo thành chuẩn của đơn chất ở dạng bền nhất bằng 0. O₂(g) là dạng đơn chất bền nhất của oxygen; O₃ là dạng kém bền hơn nên $\\Delta_f H^\\circ_{298}$ khác 0."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Tính biến thiên enthalpy theo enthalpy tạo thành",
+   "level": 3,
+   "stem": "Cho phản ứng: $\\mathrm{CH_4(g) + 2O_2(g) \\to CO_2(g) + 2H_2O(l)}$. Biết enthalpy tạo thành chuẩn (kJ/mol) của CH₄(g), CO₂(g), H₂O(l) lần lượt là −74,9; −393,5; −285,8. Biến thiên enthalpy chuẩn của phản ứng là",
+   "options": [
+    "−604,4 kJ",
+    "−890,2 kJ",
+    "+890,2 kJ",
+    "−965,1 kJ"
+   ],
+   "answer": 1,
+   "explanation": "$\\Delta_r H^\\circ_{298} = (-393{,}5) + 2(-285{,}8) - (-74{,}9) - 2\\cdot 0 = -890{,}2$ kJ."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Tính biến thiên enthalpy theo năng lượng liên kết",
+   "level": 3,
+   "stem": "Cho phản ứng: $\\mathrm{H_2(g) + Cl_2(g) \\to 2HCl(g)}$. Biết năng lượng liên kết (kJ/mol): H–H là 436; Cl–Cl là 243; H–Cl là 432. Biến thiên enthalpy chuẩn của phản ứng là",
+   "options": [
+    "+185 kJ",
+    "+247 kJ",
+    "−432 kJ",
+    "−185 kJ"
+   ],
+   "answer": 3,
+   "explanation": "$\\Delta_r H^\\circ_{298} = E_b(\\mathrm{H{-}H}) + E_b(\\mathrm{Cl{-}Cl}) - 2E_b(\\mathrm{H{-}Cl}) = 436 + 243 - 2\\cdot 432 = -185$ kJ."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Tốc độ phản ứng",
+   "topic": "Khái niệm tốc độ phản ứng",
+   "level": 1,
+   "stem": "Tốc độ phản ứng là",
+   "options": [
+    "lượng sản phẩm tạo thành khi phản ứng kết thúc",
+    "thời gian cần thiết để phản ứng xảy ra hoàn toàn",
+    "đại lượng đặc trưng cho sự biến thiên nồng độ của chất phản ứng hoặc sản phẩm trong một đơn vị thời gian",
+    "lượng nhiệt tỏa ra hoặc thu vào trong một đơn vị thời gian"
+   ],
+   "answer": 2,
+   "explanation": "Theo định nghĩa, tốc độ phản ứng là đại lượng đặc trưng cho sự nhanh hay chậm của phản ứng, được xác định bằng sự biến thiên nồng độ của chất phản ứng hoặc sản phẩm trong một đơn vị thời gian."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Tốc độ phản ứng",
+   "topic": "Chất xúc tác",
+   "level": 1,
+   "stem": "Chất xúc tác là chất",
+   "options": [
+    "làm tăng tốc độ phản ứng và bị tiêu hao hoàn toàn sau phản ứng",
+    "làm tăng tốc độ phản ứng nhưng không bị biến đổi về chất và lượng khi phản ứng kết thúc",
+    "làm chuyển dịch cân bằng theo chiều thuận",
+    "làm tăng lượng sản phẩm tạo thành khi phản ứng kết thúc"
+   ],
+   "answer": 1,
+   "explanation": "Chất xúc tác làm tăng tốc độ phản ứng, sau phản ứng vẫn giữ nguyên về chất và lượng; nó không làm thay đổi lượng sản phẩm cuối cùng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Tốc độ phản ứng",
+   "topic": "Các yếu tố ảnh hưởng đến tốc độ phản ứng",
+   "level": 2,
+   "stem": "Cho đá vôi (CaCO₃) tác dụng với dung dịch hydrochloric acid ở nhiệt độ thường. Biện pháp nào sau đây làm tăng tốc độ phản ứng?",
+   "options": [
+    "Dùng đá vôi dạng bột thay cho dạng viên",
+    "Làm lạnh hỗn hợp phản ứng",
+    "Pha loãng dung dịch HCl bằng nước",
+    "Dùng đá vôi dạng khối lớn"
+   ],
+   "answer": 0,
+   "explanation": "Đá vôi dạng bột có diện tích bề mặt tiếp xúc lớn hơn nên tốc độ phản ứng tăng. Làm lạnh, pha loãng acid hoặc dùng khối lớn đều làm giảm tốc độ."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Tốc độ phản ứng",
+   "topic": "Hệ số nhiệt độ Van't Hoff",
+   "level": 2,
+   "stem": "Một phản ứng có hệ số nhiệt độ Van't Hoff $\\gamma = 2$. Khi tăng nhiệt độ từ 20 °C lên 50 °C thì tốc độ phản ứng tăng",
+   "options": [
+    "8 lần",
+    "6 lần",
+    "3 lần",
+    "9 lần"
+   ],
+   "answer": 0,
+   "explanation": "$\\dfrac{v_2}{v_1} = \\gamma^{\\frac{t_2 - t_1}{10}} = 2^{\\frac{50-20}{10}} = 2^3 = 8$ lần."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Tốc độ phản ứng",
+   "topic": "Tốc độ trung bình của phản ứng",
+   "level": 2,
+   "stem": "Cho phản ứng: $\\mathrm{Br_2 + HCOOH \\to 2HBr + CO_2}$. Nồng độ ban đầu của Br₂ là 0,012 M; sau 50 giây nồng độ Br₂ còn 0,0101 M. Tốc độ trung bình của phản ứng trong 50 giây đầu tính theo Br₂ là",
+   "options": [
+    "$1{,}9\\cdot 10^{-5}$ M/s",
+    "$7{,}6\\cdot 10^{-5}$ M/s",
+    "$3{,}8\\cdot 10^{-5}$ M/s",
+    "$3{,}8\\cdot 10^{-4}$ M/s"
+   ],
+   "answer": 2,
+   "explanation": "$\\bar v = -\\dfrac{\\Delta C_{\\mathrm{Br_2}}}{\\Delta t} = \\dfrac{0{,}012 - 0{,}0101}{50} = 3{,}8\\cdot 10^{-5}$ M/s."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Phản ứng oxi hóa – khử trong luyện kim",
+   "level": 2,
+   "stem": "Trong lò cao, iron(III) oxide bị khử bởi carbon monoxide theo phản ứng: Fe₂O₃ + 3CO → 2Fe + 3CO₂ (nhiệt độ cao).",
+   "statements": [
+    {
+     "t": "CO là chất khử trong phản ứng trên.",
+     "a": true
+    },
+    {
+     "t": "Số oxi hóa của iron giảm từ +3 xuống 0.",
+     "a": true
+    },
+    {
+     "t": "Mỗi phân tử CO nhường 4 electron.",
+     "a": false
+    },
+    {
+     "t": "Để thu được 11,2 gam Fe cần tối thiểu 0,3 mol CO.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: C trong CO tăng số oxi hóa từ +2 lên +4. b) Đúng. c) Sai: C⁺² → C⁺⁴ + 2e, mỗi phân tử CO nhường 2 electron. d) Đúng: n(Fe) = 11,2 : 56 = 0,2 mol, n(CO) = 0,2 · 3 : 2 = 0,3 mol."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Chuẩn độ oxi hóa – khử",
+   "level": 3,
+   "stem": "Để xác định nồng độ dung dịch FeSO₄, người ta lấy 10,00 mL dung dịch này, thêm H₂SO₄ loãng dư rồi chuẩn độ bằng dung dịch KMnO₄ 0,020 M thì hết 12,50 mL. Phản ứng: 10FeSO₄ + 2KMnO₄ + 8H₂SO₄ → 5Fe₂(SO₄)₃ + K₂SO₄ + 2MnSO₄ + 8H₂O.",
+   "statements": [
+    {
+     "t": "KMnO₄ là chất oxi hóa trong phản ứng.",
+     "a": true
+    },
+    {
+     "t": "Mỗi ion MnO₄⁻ nhận 3 electron khi chuyển thành Mn²⁺.",
+     "a": false
+    },
+    {
+     "t": "Tỉ lệ số mol Fe²⁺ : MnO₄⁻ phản ứng là 5 : 1.",
+     "a": true
+    },
+    {
+     "t": "Nồng độ dung dịch FeSO₄ là 0,025 M.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Mn giảm số oxi hóa từ +7 xuống +2. b) Sai: Mn⁺⁷ + 5e → Mn⁺², mỗi ion nhận 5 electron. c) Đúng: theo phương trình 10 : 2 = 5 : 1. d) Sai: n(KMnO₄) = 0,020 · 0,0125 = 2,5·10⁻⁴ mol; n(Fe²⁺) = 5 · 2,5·10⁻⁴ = 1,25·10⁻³ mol; C = 1,25·10⁻³ : 0,0100 = 0,125 M."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Biến thiên enthalpy của phản ứng",
+   "level": 2,
+   "stem": "Cho phản ứng đốt cháy graphite: $\\mathrm{C(graphite) + O_2(g) \\to CO_2(g)}$, $\\Delta_r H^\\circ_{298} = -393{,}5$ kJ.",
+   "statements": [
+    {
+     "t": "Phản ứng trên là phản ứng tỏa nhiệt.",
+     "a": true
+    },
+    {
+     "t": "Enthalpy tạo thành chuẩn của CO₂(g) là −393,5 kJ/mol.",
+     "a": true
+    },
+    {
+     "t": "Tổng enthalpy của sản phẩm lớn hơn tổng enthalpy của các chất đầu.",
+     "a": false
+    },
+    {
+     "t": "Đốt cháy hoàn toàn 6 gam graphite ở điều kiện chuẩn tỏa ra nhiệt lượng 787 kJ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: ΔH < 0. b) Đúng: phản ứng tạo 1 mol CO₂ từ các đơn chất bền ở điều kiện chuẩn. c) Sai: phản ứng tỏa nhiệt nên enthalpy sản phẩm nhỏ hơn chất đầu. d) Sai: 6 gam graphite = 0,5 mol, tỏa ra 0,5 · 393,5 = 196,75 kJ."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Tốc độ phản ứng",
+   "topic": "Các yếu tố ảnh hưởng đến tốc độ phản ứng",
+   "level": 1,
+   "stem": "Cho hai viên zinc (Zn) giống hệt nhau vào hai ống nghiệm ở cùng nhiệt độ: ống (1) chứa 5 mL dung dịch HCl 1 M; ống (2) chứa 5 mL dung dịch HCl 0,1 M.",
+   "statements": [
+    {
+     "t": "Khí thoát ra ở ống (1) nhanh hơn ở ống (2).",
+     "a": true
+    },
+    {
+     "t": "Thí nghiệm cho thấy ảnh hưởng của nồng độ đến tốc độ phản ứng.",
+     "a": true
+    },
+    {
+     "t": "Đun nóng ống (2) thì tốc độ phản ứng trong ống (2) giảm.",
+     "a": false
+    },
+    {
+     "t": "Thay viên Zn ở ống (1) bằng bột Zn cùng khối lượng thì tốc độ phản ứng tăng.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: nồng độ HCl ở ống (1) lớn hơn. b) Đúng: chỉ có nồng độ là khác nhau. c) Sai: tăng nhiệt độ làm tăng tốc độ phản ứng. d) Đúng: bột Zn có diện tích bề mặt tiếp xúc lớn hơn."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Số oxi hóa",
+   "level": 1,
+   "stem": "Số oxi hóa của chromium trong potassium dichromate (K₂Cr₂O₇) là +x. Tìm x.",
+   "answer_text": "6",
+   "explanation": "2(+1) + 2x + 7(−2) = 0 nên x = +6."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Lập phương trình hóa học của phản ứng oxi hóa – khử",
+   "level": 2,
+   "stem": "Cho phản ứng: Al + HNO₃ → Al(NO₃)₃ + N₂O + H₂O. Sau khi cân bằng với các hệ số là số nguyên tối giản, hệ số của HNO₃ là bao nhiêu?",
+   "answer_text": "30",
+   "explanation": "Al⁰ → Al⁺³ + 3e (×8); 2N⁺⁵ + 8e → 2N⁺¹ (×3). Phương trình: 8Al + 30HNO₃ → 8Al(NO₃)₃ + 3N₂O + 15H₂O."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Phản ứng oxi hóa – khử",
+   "topic": "Bảo toàn electron",
+   "level": 3,
+   "stem": "Hòa tan hoàn toàn m gam Mg trong dung dịch H₂SO₄ đặc, nóng, dư thu được 2,479 L khí SO₂ (sản phẩm khử duy nhất, đo ở đkc). Tính m (gam, làm tròn đến hàng phần mười). Cho Mg = 24.",
+   "answer_text": "2,4",
+   "explanation": "n(SO₂) = 2,479 : 24,79 = 0,1 mol. Bảo toàn electron: 2n(Mg) = 2n(SO₂) nên n(Mg) = 0,1 mol, m = 2,4 gam."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Enthalpy tạo thành",
+   "level": 2,
+   "stem": "Cho phản ứng: $\\mathrm{N_2(g) + 3H_2(g) \\to 2NH_3(g)}$, $\\Delta_r H^\\circ_{298} = -91{,}8$ kJ. Enthalpy tạo thành chuẩn của NH₃(g) là bao nhiêu kJ/mol (làm tròn đến hàng đơn vị)?",
+   "answer_text": "-46",
+   "explanation": "Phản ứng tạo 2 mol NH₃ từ đơn chất bền nên $\\Delta_f H^\\circ_{298}(\\mathrm{NH_3}) = \\dfrac{-91{,}8}{2} = -45{,}9 \\approx -46$ kJ/mol."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Năng lượng hóa học",
+   "topic": "Ứng dụng nhiệt phản ứng",
+   "level": 3,
+   "stem": "Đốt cháy propane: $\\mathrm{C_3H_8(g) + 5O_2(g) \\to 3CO_2(g) + 4H_2O(l)}$, $\\Delta_r H^\\circ_{298} = -2220$ kJ. Nhiệt lượng tỏa ra khi đốt cháy hoàn toàn 1,1 kg propane ở điều kiện chuẩn là bao nhiêu MJ (làm tròn đến hàng phần mười)? Cho C = 12, H = 1.",
+   "answer_text": "55,5",
+   "explanation": "n(C₃H₈) = 1100 : 44 = 25 mol; Q = 25 · 2220 = 55 500 kJ = 55,5 MJ."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Tốc độ phản ứng",
+   "topic": "Hệ số nhiệt độ Van't Hoff",
+   "level": 3,
+   "stem": "Một phản ứng có hệ số nhiệt độ Van't Hoff $\\gamma = 3$. Ở 30 °C phản ứng kết thúc sau 54 phút. Ở 50 °C phản ứng đó kết thúc sau bao nhiêu phút?",
+   "answer_text": "6",
+   "explanation": "Tốc độ tăng $3^{\\frac{50-30}{10}} = 9$ lần nên thời gian giảm 9 lần: 54 : 9 = 6 phút."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; kiểm tra bằng Python các câu tính toán: cân bằng phương trình (câu 6, 24 bằng ma trận nguyên tố), ΔH theo enthalpy tạo thành và năng lượng liên kết (12, 13, 21d, 26, 27), tốc độ trung bình và Van't Hoff (17, 18, 28), bảo toàn electron (19d, 20d, 25). Đáp án phần I đã rải đều."
+}

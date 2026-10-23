@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "Công nghệ",
+ "exam": "gk1",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 1 – Công nghệ 10",
+ "scope": "Chương I Công nghệ và đời sống: khái quát về công nghệ, hệ thống kĩ thuật, công nghệ phổ biến (luyện kim, đúc, gia công cơ khí, sản xuất điện, điện – quang, điện – cơ), cách mạng công nghiệp, ngành nghề kĩ thuật, công nghệ",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Khoa học, kĩ thuật, công nghệ",
+   "level": 1,
+   "stem": "Công nghệ là",
+   "options": [
+    "tập hợp toàn bộ máy móc, thiết bị có trong một nhà máy",
+    "việc ứng dụng các nguyên lí khoa học vào thiết kế, chế tạo, vận hành máy móc, thiết bị",
+    "giải pháp, quy trình, bí quyết kĩ thuật để biến đổi vật liệu, năng lượng, thông tin thành sản phẩm hoặc dịch vụ",
+    "hệ thống tri thức về bản chất, quy luật vận động của thế giới tự nhiên"
+   ],
+   "answer": 2,
+   "explanation": "Công nghệ là giải pháp, quy trình, bí quyết kĩ thuật để biến đổi vật liệu, năng lượng, thông tin thành sản phẩm, dịch vụ. Hai phương án còn lại lần lượt là định nghĩa của khoa học và kĩ thuật."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Khoa học, kĩ thuật, công nghệ",
+   "level": 2,
+   "stem": "Hoạt động nào sau đây thuộc lĩnh vực khoa học?",
+   "options": [
+    "Thiết kế hệ thống chiếu sáng cho một tòa nhà",
+    "Phát hiện ra hiện tượng cảm ứng điện từ",
+    "Chế tạo máy phát điện cho nhà máy thủy điện",
+    "Xây dựng quy trình sản xuất pin mặt trời"
+   ],
+   "answer": 1,
+   "explanation": "Khoa học khám phá bản chất, quy luật của tự nhiên (phát hiện hiện tượng cảm ứng điện từ). Chế tạo, thiết kế, xây dựng quy trình sản xuất là hoạt động kĩ thuật, công nghệ."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Mối quan hệ khoa học – kĩ thuật – công nghệ",
+   "level": 1,
+   "stem": "Mối quan hệ giữa khoa học và công nghệ là",
+   "options": [
+    "khoa học và công nghệ phát triển độc lập, không ảnh hưởng đến nhau",
+    "khoa học là cơ sở cho sự phát triển của công nghệ, công nghệ tạo công cụ thúc đẩy khoa học phát triển",
+    "công nghệ luôn ra đời trước và quyết định toàn bộ sự phát triển của khoa học",
+    "khoa học chỉ có giá trị khi tạo ra ngay một sản phẩm công nghệ"
+   ],
+   "answer": 1,
+   "explanation": "Khoa học cung cấp nguyên lí, quy luật làm nền tảng cho công nghệ; ngược lại công nghệ tạo ra thiết bị, công cụ giúp khoa học nghiên cứu sâu hơn."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ và môi trường",
+   "level": 1,
+   "stem": "Tác động tiêu cực của công nghệ đến môi trường là",
+   "options": [
+    "phát thải khí độc, chất thải rắn, nước thải gây ô nhiễm nếu không được xử lí",
+    "giám sát tự động chất lượng không khí",
+    "giúp phân loại, xử lí rác thải hiệu quả hơn",
+    "tạo ra nguồn năng lượng sạch như điện mặt trời"
+   ],
+   "answer": 0,
+   "explanation": "Các phương án còn lại là tác động tích cực. Tác động tiêu cực điển hình là phát thải khí độc, chất thải gây ô nhiễm môi trường."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Hệ thống kĩ thuật",
+   "level": 1,
+   "stem": "Cấu trúc chung của một hệ thống kĩ thuật gồm",
+   "options": [
+    "phần cứng, phần mềm và người dùng",
+    "đầu vào, bộ phận xử lí và đầu ra",
+    "động cơ, hộp số và bánh xe",
+    "nguồn điện, dây dẫn và tải"
+   ],
+   "answer": 1,
+   "explanation": "Hệ thống kĩ thuật gồm đầu vào, bộ phận xử lí và đầu ra (có thể có đường phản hồi)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Hệ thống kĩ thuật",
+   "level": 2,
+   "stem": "Bàn là điện có bộ điều chỉnh nhiệt tự ngắt điện khi mặt bàn là đủ nóng và đóng điện lại khi nguội. Hệ thống này là",
+   "options": [
+    "hệ thống điều khiển vòng kín vì có tín hiệu phản hồi từ đầu ra về bộ phận điều khiển",
+    "hệ thống điều khiển vòng hở vì không có tín hiệu phản hồi",
+    "không phải hệ thống kĩ thuật vì không có bộ phận xử lí",
+    "hệ thống vòng hở vì chỉ có một đầu vào là điện năng"
+   ],
+   "answer": 0,
+   "explanation": "Bộ điều chỉnh nhiệt cảm nhận nhiệt độ (đầu ra) để đóng/ngắt điện, tức là có phản hồi nên đây là hệ thống vòng kín."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Hệ thống kĩ thuật",
+   "level": 2,
+   "stem": "Trong hệ thống kĩ thuật là chiếc quạt điện, đầu vào của hệ thống là",
+   "options": [
+    "động cơ điện",
+    "cánh quạt",
+    "điện năng",
+    "luồng gió do cánh quạt tạo ra"
+   ],
+   "answer": 2,
+   "explanation": "Quạt nhận điện năng (đầu vào), động cơ và cánh quạt là bộ phận xử lí, luồng gió là đầu ra."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ luyện kim",
+   "level": 1,
+   "stem": "Công nghệ luyện kim đen là công nghệ sản xuất",
+   "options": [
+    "nhôm từ quặng bauxite",
+    "đồng từ quặng đồng",
+    "các chi tiết máy bằng phương pháp tiện",
+    "gang và thép từ quặng sắt"
+   ],
+   "answer": 3,
+   "explanation": "Luyện kim đen sản xuất gang, thép (hợp kim của sắt) từ quặng sắt; nhôm, đồng thuộc luyện kim màu."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ đúc",
+   "level": 1,
+   "stem": "Bản chất của công nghệ đúc là",
+   "options": [
+    "rót kim loại lỏng vào khuôn, khi kim loại đông đặc thu được vật có hình dạng của lòng khuôn",
+    "dùng dụng cụ cắt lấy đi lớp vật liệu dư trên phôi",
+    "dùng ngoại lực làm biến dạng dẻo kim loại ở trạng thái rắn",
+    "nung chảy cục bộ mép hai chi tiết để nối chúng lại"
+   ],
+   "answer": 0,
+   "explanation": "Đúc: nấu chảy kim loại, rót vào khuôn, để nguội đông đặc thành vật đúc. Các phương án khác là cắt gọt, gia công áp lực, hàn."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ gia công cắt gọt",
+   "level": 2,
+   "stem": "Phương pháp gia công nào sau đây tạo ra phoi?",
+   "options": [
+    "Rèn",
+    "Tiện",
+    "Dập",
+    "Đúc"
+   ],
+   "answer": 1,
+   "explanation": "Tiện là gia công cắt gọt, lấy đi phần vật liệu dư dưới dạng phoi; rèn, dập, đúc là gia công không phoi."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ sản xuất điện",
+   "level": 1,
+   "stem": "Nhà máy thủy điện biến đổi",
+   "options": [
+    "năng lượng phân hạch hạt nhân thành điện năng",
+    "quang năng thành điện năng nhờ tấm pin",
+    "nhiệt năng của hơi nước do đốt than thành điện năng",
+    "năng lượng của dòng nước thành điện năng thông qua tua bin và máy phát điện"
+   ],
+   "answer": 3,
+   "explanation": "Thủy điện dùng thế năng (cơ năng) của nước làm quay tua bin, kéo máy phát điện."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ điện – quang",
+   "level": 1,
+   "stem": "Công nghệ nào sau đây biến đổi trực tiếp quang năng thành điện năng?",
+   "options": [
+    "Công nghệ pin mặt trời",
+    "Công nghệ điện gió",
+    "Công nghệ thủy điện",
+    "Công nghệ nhiệt điện than"
+   ],
+   "answer": 0,
+   "explanation": "Pin mặt trời (pin quang điện) biến đổi trực tiếp quang năng thành điện năng, không cần tua bin, máy phát."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ điện – cơ",
+   "level": 2,
+   "stem": "Thiết bị nào sau đây là ứng dụng của công nghệ điện – cơ?",
+   "options": [
+    "Đèn LED",
+    "Pin mặt trời",
+    "Bàn là điện",
+    "Máy bơm nước chạy bằng động cơ điện"
+   ],
+   "answer": 3,
+   "explanation": "Công nghệ điện – cơ biến đổi điện năng thành cơ năng (động cơ điện). Đèn LED là điện – quang, bàn là là điện – nhiệt, pin mặt trời là quang – điện."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ điện – quang",
+   "level": 2,
+   "stem": "Đèn LED tiết kiệm điện hơn đèn sợi đốt có cùng độ sáng vì",
+   "options": [
+    "phần lớn điện năng được biến đổi thành quang năng, ít tỏa nhiệt",
+    "không cần nguồn điện khi hoạt động",
+    "sợi đốt bên trong nhỏ hơn",
+    "dùng điện áp cao hơn đèn sợi đốt"
+   ],
+   "answer": 0,
+   "explanation": "Đèn sợi đốt biến phần lớn điện năng thành nhiệt; đèn LED có hiệu suất phát quang cao nên tiêu thụ ít điện năng hơn."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Cách mạng công nghiệp",
+   "level": 1,
+   "stem": "Cuộc cách mạng công nghiệp lần thứ nhất gắn liền với",
+   "options": [
+    "điện tử, máy tính và tự động hóa sản xuất",
+    "Internet vạn vật và trí tuệ nhân tạo",
+    "điện năng và dây chuyền sản xuất hàng loạt",
+    "sự ra đời của máy hơi nước và cơ khí hóa sản xuất"
+   ],
+   "answer": 3,
+   "explanation": "CMCN lần thứ nhất (cuối thế kỉ XVIII) dùng máy hơi nước để cơ khí hóa sản xuất."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Cách mạng công nghiệp",
+   "level": 1,
+   "stem": "Đặc trưng của cuộc cách mạng công nghiệp lần thứ tư là",
+   "options": [
+    "lần đầu tiên sử dụng máy tính trong sản xuất",
+    "sử dụng máy hơi nước thay sức người",
+    "điện khí hóa và sản xuất dây chuyền",
+    "kết nối thế giới thực và ảo dựa trên Internet vạn vật, trí tuệ nhân tạo, dữ liệu lớn"
+   ],
+   "answer": 3,
+   "explanation": "CMCN lần thứ tư dựa trên công nghệ số: IoT, AI, dữ liệu lớn, hệ thống thực – ảo."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Cách mạng công nghiệp",
+   "level": 2,
+   "stem": "Dây chuyền lắp ráp ô tô hàng loạt chạy bằng động cơ điện đầu thế kỉ XX là thành tựu tiêu biểu của",
+   "options": [
+    "cách mạng công nghiệp lần thứ nhất",
+    "cách mạng công nghiệp lần thứ tư",
+    "cách mạng công nghiệp lần thứ hai",
+    "cách mạng công nghiệp lần thứ ba"
+   ],
+   "answer": 2,
+   "explanation": "CMCN lần thứ hai (cuối thế kỉ XIX – đầu thế kỉ XX) gắn với điện năng và sản xuất hàng loạt theo dây chuyền."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Cách mạng công nghiệp",
+   "level": 3,
+   "stem": "Vào thập niên 1980, một nhà máy đưa máy tính và bộ điều khiển lập trình (PLC) vào điều khiển dây chuyền sản xuất. Đây là biểu hiện của",
+   "options": [
+    "cách mạng công nghiệp lần thứ ba",
+    "cách mạng công nghiệp lần thứ tư",
+    "cách mạng công nghiệp lần thứ hai",
+    "cách mạng công nghiệp lần thứ nhất"
+   ],
+   "answer": 0,
+   "explanation": "Dùng điện tử, máy tính để tự động hóa sản xuất là đặc trưng của CMCN lần thứ ba (từ những năm 1970)."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Ngành nghề kĩ thuật, công nghệ",
+   "level": 1,
+   "stem": "Công việc chính của kĩ sư cơ khí là",
+   "options": [
+    "khám và điều trị bệnh",
+    "nghiên cứu, thiết kế, chế tạo, vận hành máy móc và hệ thống cơ khí",
+    "lập trình phần mềm quản lí bán hàng",
+    "thiết kế trang phục thời trang"
+   ],
+   "answer": 1,
+   "explanation": "Kĩ sư cơ khí làm việc trong lĩnh vực thiết kế, chế tạo, vận hành, bảo dưỡng máy móc, thiết bị cơ khí."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Ngành nghề kĩ thuật, công nghệ",
+   "level": 3,
+   "stem": "Bạn An thích tìm hiểu cách máy móc hoạt động, khéo tay, học tốt Toán và Vật lí. Nhóm nghề phù hợp nhất với An là",
+   "options": [
+    "du lịch, nhà hàng – khách sạn",
+    "sư phạm Ngữ văn",
+    "kĩ thuật cơ khí, chế tạo máy",
+    "báo chí, truyền thông"
+   ],
+   "answer": 2,
+   "explanation": "Sở thích máy móc, sự khéo tay và nền tảng Toán – Vật lí phù hợp với nhóm nghề kĩ thuật, công nghệ như cơ khí, chế tạo máy."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Hệ thống kĩ thuật",
+   "level": 3,
+   "stem": "Trong máy điều hòa không khí, cảm biến nhiệt độ đo nhiệt độ phòng rồi gửi tín hiệu về bộ điều khiển. Vai trò của cảm biến trong hệ thống là",
+   "options": [
+    "trực tiếp làm lạnh không khí trong phòng",
+    "cung cấp năng lượng cho máy nén",
+    "là đầu ra của hệ thống",
+    "tạo tín hiệu phản hồi để bộ điều khiển điều chỉnh hoạt động của máy"
+   ],
+   "answer": 3,
+   "explanation": "Cảm biến đo đại lượng đầu ra (nhiệt độ phòng) và gửi về bộ điều khiển, tạo đường phản hồi của hệ thống vòng kín."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ và môi trường",
+   "level": 3,
+   "stem": "Biện pháp phù hợp để hạn chế tác động tiêu cực của nhà máy nhiệt điện than đến môi trường là",
+   "options": [
+    "xả nước làm mát còn nóng trực tiếp ra sông",
+    "lắp hệ thống lọc bụi, khử khí thải và xử lí tro xỉ",
+    "dùng thêm than chất lượng thấp để giảm chi phí",
+    "tăng công suất phát điện để giảm thời gian chạy máy"
+   ],
+   "answer": 1,
+   "explanation": "Lọc bụi, khử khí thải, xử lí tro xỉ giảm ô nhiễm. Xả nước nóng gây ô nhiễm nhiệt; than chất lượng thấp phát thải nhiều hơn."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ luyện kim",
+   "level": 3,
+   "stem": "Dây dẫn điện thường làm bằng đồng hoặc nhôm. Nguyên liệu kim loại này là sản phẩm của",
+   "options": [
+    "công nghệ luyện kim đen",
+    "công nghệ hàn",
+    "công nghệ luyện kim màu",
+    "công nghệ đúc gang"
+   ],
+   "answer": 2,
+   "explanation": "Đồng, nhôm là kim loại màu, được sản xuất bằng công nghệ luyện kim màu."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ đúc",
+   "level": 3,
+   "stem": "Cần sản xuất hàng nghìn vỏ hộp số bằng gang có hình dạng phức tạp, bên trong rỗng. Phương pháp tạo phôi phù hợp nhất là",
+   "options": [
+    "tiện từ phôi thép đặc",
+    "rèn tự do",
+    "đúc",
+    "hàn từ các tấm thép mỏng"
+   ],
+   "answer": 2,
+   "explanation": "Đúc tạo được vật có hình dạng phức tạp, rỗng bên trong, phù hợp với gang (tính đúc tốt, giòn nên khó rèn)."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Hệ thống kĩ thuật",
+   "level": 2,
+   "stem": "Chiếc tủ lạnh gia đình được xem là một hệ thống kĩ thuật: điện năng được cấp cho máy nén; bộ điều khiển nhận tín hiệu từ cảm biến nhiệt độ để bật/ tắt máy nén; kết quả là buồng tủ luôn được giữ ở nhiệt độ thấp.",
+   "statements": [
+    {
+     "t": "Đầu vào của hệ thống là điện năng.",
+     "a": true
+    },
+    {
+     "t": "Nhiệt độ thấp trong buồng tủ là đầu ra của hệ thống.",
+     "a": true
+    },
+    {
+     "t": "Hệ thống không có tín hiệu phản hồi nên là hệ thống vòng hở.",
+     "a": false
+    },
+    {
+     "t": "Máy nén là đầu vào của hệ thống.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: tủ lạnh nhận điện năng để hoạt động. b) Đúng: đó là kết quả hệ thống tạo ra. c) Sai: cảm biến nhiệt độ gửi tín hiệu về bộ điều khiển, đó là phản hồi, nên hệ thống là vòng kín. d) Sai: máy nén thuộc bộ phận xử lí (biến đổi năng lượng để làm lạnh)."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Cách mạng công nghiệp",
+   "level": 2,
+   "stem": "Một nhóm học sinh chuẩn bị bài thuyết trình về các cuộc cách mạng công nghiệp và đưa ra các nhận định sau.",
+   "statements": [
+    {
+     "t": "Cách mạng công nghiệp lần thứ nhất bắt đầu ở nước Anh vào cuối thế kỉ XVIII.",
+     "a": true
+    },
+    {
+     "t": "Điện năng và sản xuất dây chuyền hàng loạt là đặc trưng của cách mạng công nghiệp lần thứ ba.",
+     "a": false
+    },
+    {
+     "t": "Cách mạng công nghiệp lần thứ ba gắn với điện tử, máy tính và tự động hóa sản xuất.",
+     "a": true
+    },
+    {
+     "t": "Cách mạng công nghiệp lần thứ tư không ảnh hưởng đến thị trường lao động.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: gắn với máy hơi nước, khởi đầu ở Anh. b) Sai: đó là đặc trưng của CMCN lần thứ hai. c) Đúng: CMCN lần thứ ba dùng điện tử, công nghệ thông tin để tự động hóa. d) Sai: tự động hóa, AI làm thay đổi nhiều nghề, đòi hỏi người lao động có kĩ năng mới."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ sản xuất điện",
+   "level": 3,
+   "stem": "Một tỉnh ven biển miền Trung có nhiều nắng, gió mạnh quanh năm đang cân nhắc xây dựng nhà máy điện mặt trời và điện gió thay cho một nhà máy nhiệt điện than.",
+   "statements": [
+    {
+     "t": "Điện mặt trời biến đổi trực tiếp quang năng thành điện năng.",
+     "a": true
+    },
+    {
+     "t": "Nhà máy điện gió dùng tua bin gió làm quay máy phát điện.",
+     "a": true
+    },
+    {
+     "t": "Nhiệt điện than là nguồn năng lượng tái tạo.",
+     "a": false
+    },
+    {
+     "t": "Điện mặt trời và điện gió cho sản lượng ổn định, không phụ thuộc thời tiết.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: tấm pin quang điện biến quang năng thành điện năng. b) Đúng: động năng của gió làm quay tua bin, kéo máy phát. c) Sai: than đá là nhiên liệu hóa thạch, không tái tạo. d) Sai: sản lượng phụ thuộc nắng, gió nên thay đổi theo thời tiết, ngày – đêm."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ phổ biến trong cơ khí",
+   "level": 3,
+   "stem": "Một xưởng cơ khí nhỏ sử dụng các công nghệ: đúc phôi bánh đà bằng khuôn cát, tiện chi tiết trục từ phôi thép tròn và hàn khung giá đỡ bằng thép.",
+   "statements": [
+    {
+     "t": "Đúc là phương pháp gia công không phoi.",
+     "a": true
+    },
+    {
+     "t": "Tiện là phương pháp gia công cắt gọt, tạo ra phoi.",
+     "a": true
+    },
+    {
+     "t": "Các chi tiết của khung giá đỡ sau khi hàn có thể tháo rời dễ dàng như mối ghép bu lông.",
+     "a": false
+    },
+    {
+     "t": "Khuôn cát chỉ dùng được một lần vì phải phá khuôn để lấy vật đúc.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: đúc tạo hình bằng kim loại lỏng đông đặc trong khuôn, không tạo phoi. b) Đúng: dao tiện cắt bỏ lớp vật liệu dư thành phoi. c) Sai: mối hàn là mối ghép cố định, không tháo được. d) Đúng: khuôn cát bị phá khi lấy vật đúc."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập 28 câu theo SGK Công nghệ 10 KNTT (Thiết kế và Công nghệ); kiểm tra mỗi câu trắc nghiệm chỉ có một phương án đúng. Đề không có câu tính toán."
+}

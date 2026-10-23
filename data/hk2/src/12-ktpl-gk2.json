@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "GD Kinh tế và Pháp luật",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – GD Kinh tế và Pháp luật 12",
+ "scope": "Quyền và nghĩa vụ công dân về kinh tế: tự do kinh doanh, nộp thuế, sở hữu tài sản và tôn trọng tài sản của người khác; quyền và nghĩa vụ về văn hóa – xã hội: hôn nhân và gia đình, học tập, bảo vệ và chăm sóc sức khỏe, bảo đảm an sinh xã hội, văn hóa, bảo vệ môi trường và tài nguyên thiên nhiên.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Quyền tự do kinh doanh",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, mọi người có quyền tự do kinh doanh trong những ngành nghề",
+   "options": [
+    "mà mình có sở thích.",
+    "được chính quyền địa phương gợi ý.",
+    "có lợi nhuận cao nhất.",
+    "mà pháp luật không cấm."
+   ],
+   "answer": 3,
+   "explanation": "Điều 33 Hiến pháp 2013: mọi người có quyền tự do kinh doanh trong những ngành nghề mà pháp luật không cấm."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Nghĩa vụ nộp thuế",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, nghĩa vụ nộp thuế được quy định là",
+   "options": [
+    "chỉ doanh nghiệp nhà nước có nghĩa vụ nộp thuế.",
+    "mọi người có nghĩa vụ nộp thuế theo luật định.",
+    "công dân tự nguyện nộp thuế nếu có điều kiện.",
+    "chỉ người có thu nhập cao mới phải nộp thuế."
+   ],
+   "answer": 1,
+   "explanation": "Điều 47 Hiến pháp 2013: mọi người có nghĩa vụ nộp thuế theo luật định."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Quyền sở hữu tài sản",
+   "level": 1,
+   "stem": "Theo Bộ luật Dân sự, quyền sở hữu tài sản bao gồm",
+   "options": [
+    "quyền chiếm hữu, quyền sử dụng và quyền định đoạt tài sản.",
+    "quyền chiếm hữu, quyền mua bán và quyền cho thuê tài sản.",
+    "quyền sử dụng, quyền thừa kế và quyền tặng cho tài sản.",
+    "quyền quản lí, quyền khai thác và quyền thế chấp tài sản."
+   ],
+   "answer": 0,
+   "explanation": "Bộ luật Dân sự 2015: quyền sở hữu bao gồm quyền chiếm hữu, quyền sử dụng và quyền định đoạt tài sản của chủ sở hữu."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Nghĩa vụ tôn trọng tài sản của người khác",
+   "level": 1,
+   "stem": "Việc làm nào sau đây thể hiện nghĩa vụ tôn trọng tài sản của người khác?",
+   "options": [
+    "Tự ý sử dụng xe của bạn khi bạn vắng mặt.",
+    "Mượn sách của bạn rồi cho người khác mượn tiếp mà không hỏi bạn.",
+    "Nhặt được của rơi thì tìm cách trả lại cho người mất.",
+    "Giữ lại tiền thừa do người bán hàng trả nhầm."
+   ],
+   "answer": 2,
+   "explanation": "Tôn trọng tài sản của người khác: không xâm phạm, không chiếm giữ trái phép; nhặt được tài sản phải trả lại hoặc giao nộp cho cơ quan có thẩm quyền."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Nghĩa vụ trong kinh doanh",
+   "level": 1,
+   "stem": "Khi tiến hành hoạt động kinh doanh, công dân có nghĩa vụ nào sau đây?",
+   "options": [
+    "Kinh doanh bất kì mặt hàng nào mang lại lợi nhuận.",
+    "Kinh doanh đúng ngành, nghề đã đăng kí và nộp thuế đầy đủ.",
+    "Tự quyết định giá bán mọi hàng hóa không cần niêm yết.",
+    "Chỉ thuê lao động là người thân trong gia đình."
+   ],
+   "answer": 1,
+   "explanation": "Người kinh doanh có nghĩa vụ kinh doanh đúng ngành, nghề đã đăng kí, nộp thuế, bảo vệ môi trường, bảo vệ quyền lợi người tiêu dùng, người lao động."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Nghĩa vụ nộp thuế",
+   "level": 2,
+   "stem": "Anh T bán hàng trực tuyến có doanh thu đến mức phải nộp thuế nhưng cố tình không kê khai, không nộp thuế. Hành vi của anh T vi phạm",
+   "options": [
+    "quyền tự do kinh doanh.",
+    "quyền sở hữu tài sản.",
+    "nghĩa vụ nộp thuế.",
+    "nghĩa vụ bảo vệ môi trường."
+   ],
+   "answer": 2,
+   "explanation": "Kinh doanh trên môi trường mạng cũng là kinh doanh; có thu nhập thuộc diện chịu thuế thì phải kê khai, nộp thuế theo luật định."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Quyền sở hữu tài sản",
+   "level": 2,
+   "stem": "Bà K bán căn nhà thuộc quyền sở hữu hợp pháp của mình cho người khác. Bà K đã thực hiện quyền nào của chủ sở hữu?",
+   "options": [
+    "Quyền định đoạt.",
+    "Quyền chiếm hữu.",
+    "Quyền sử dụng.",
+    "Quyền thừa kế."
+   ],
+   "answer": 0,
+   "explanation": "Quyền định đoạt là quyền chuyển giao quyền sở hữu tài sản, từ bỏ quyền sở hữu, tiêu dùng hoặc tiêu hủy tài sản; bán nhà là chuyển giao quyền sở hữu."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Quyền sở hữu tài sản",
+   "level": 2,
+   "stem": "Ông P cho thuê gian hàng thuộc sở hữu của mình và hằng tháng nhận tiền thuê. Việc ông P nhận tiền thuê thể hiện quyền nào của chủ sở hữu?",
+   "options": [
+    "Quyền định đoạt.",
+    "Quyền chiếm hữu.",
+    "Quyền tặng cho.",
+    "Quyền sử dụng."
+   ],
+   "answer": 3,
+   "explanation": "Bộ luật Dân sự 2015: quyền sử dụng là quyền khai thác công dụng, hưởng hoa lợi, lợi tức từ tài sản; tiền cho thuê là lợi tức từ tài sản."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Nghĩa vụ tôn trọng tài sản của người khác",
+   "level": 2,
+   "stem": "Trên đường đi học, bạn Q nhặt được một chiếc ví có giấy tờ tùy thân và tiền. Theo quy định của pháp luật, Q nên làm gì?",
+   "options": [
+    "Tìm cách trả lại cho người mất hoặc giao nộp cho cơ quan công an, Ủy ban nhân dân nơi gần nhất.",
+    "Giữ lại số tiền và vứt bỏ giấy tờ.",
+    "Giữ chiếc ví làm của riêng vì người mất không biết.",
+    "Chia số tiền cho các bạn cùng đi."
+   ],
+   "answer": 0,
+   "explanation": "Người phát hiện tài sản bị đánh rơi phải thông báo hoặc trả lại cho chủ sở hữu; nếu không biết chủ sở hữu thì thông báo, giao nộp cho Ủy ban nhân dân hoặc công an nơi gần nhất."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Nghĩa vụ tôn trọng tài sản của người khác",
+   "level": 3,
+   "stem": "Anh H mượn xe máy của bạn để đi công việc, sau đó tự ý đem xe đi cầm cố để lấy tiền tiêu xài. Nhận định nào sau đây đúng?",
+   "options": [
+    "Anh H không vi phạm vì đang là người chiếm hữu hợp pháp chiếc xe.",
+    "Anh H chỉ vi phạm đạo đức, không vi phạm pháp luật.",
+    "Anh H thực hiện quyền sử dụng tài sản nên không vi phạm.",
+    "Anh H vi phạm nghĩa vụ tôn trọng tài sản của người khác vì đã định đoạt tài sản không thuộc quyền sở hữu của mình."
+   ],
+   "answer": 3,
+   "explanation": "Người mượn chỉ được sử dụng tài sản theo thỏa thuận và phải trả lại; tự ý cầm cố là định đoạt trái phép tài sản của người khác."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Quyền tự do kinh doanh",
+   "level": 3,
+   "stem": "Ông D mở hiệu thuốc tân dược khi chưa đáp ứng điều kiện kinh doanh theo quy định (chưa có chứng chỉ hành nghề dược). Nhận định nào sau đây đúng?",
+   "options": [
+    "Ông D không vi phạm vì mọi người có quyền tự do kinh doanh.",
+    "Ông D không vi phạm nếu nộp thuế đầy đủ.",
+    "Ông D vi phạm pháp luật vì kinh doanh dược là ngành nghề kinh doanh có điều kiện, phải đáp ứng đủ điều kiện mới được kinh doanh.",
+    "Ông D chỉ vi phạm khi bán thuốc giả."
+   ],
+   "answer": 2,
+   "explanation": "Tự do kinh doanh phải theo quy định pháp luật; với ngành nghề kinh doanh có điều kiện (như dược phẩm), chủ thể phải đáp ứng đủ điều kiện trước khi kinh doanh."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Nghĩa vụ tôn trọng tài sản của người khác",
+   "level": 3,
+   "stem": "Anh V (25 tuổi) chơi bóng trước cửa nhà, sơ ý đá bóng làm vỡ tủ kính của cửa hàng bên cạnh. Theo quy định của pháp luật, anh V",
+   "options": [
+    "không phải bồi thường vì không cố ý.",
+    "phải bồi thường thiệt hại cho chủ cửa hàng.",
+    "chỉ cần xin lỗi chủ cửa hàng.",
+    "được miễn trách nhiệm vì thiệt hại xảy ra trước cửa nhà mình."
+   ],
+   "answer": 1,
+   "explanation": "Người có hành vi xâm phạm tài sản của người khác mà gây thiệt hại thì phải bồi thường (Bộ luật Dân sự); lỗi vô ý vẫn phải bồi thường."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Hôn nhân và gia đình",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, hôn nhân theo nguyên tắc",
+   "options": [
+    "do cha mẹ hai bên quyết định.",
+    "tự nguyện, nhưng người chồng giữ quyền quyết định trong gia đình.",
+    "tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng, tôn trọng lẫn nhau.",
+    "có thể một chồng nhiều vợ nếu các bên đồng ý."
+   ],
+   "answer": 2,
+   "explanation": "Khoản 1 Điều 36 Hiến pháp 2013: nam, nữ có quyền kết hôn, li hôn; hôn nhân theo nguyên tắc tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng, tôn trọng lẫn nhau."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Hôn nhân và gia đình",
+   "level": 1,
+   "stem": "Theo Luật Hôn nhân và gia đình năm 2014, độ tuổi được kết hôn là",
+   "options": [
+    "nam và nữ đều từ đủ 18 tuổi trở lên.",
+    "nam từ đủ 18 tuổi trở lên, nữ từ đủ 16 tuổi trở lên.",
+    "nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên.",
+    "nam từ đủ 21 tuổi trở lên, nữ từ đủ 20 tuổi trở lên."
+   ],
+   "answer": 2,
+   "explanation": "Điều 8 Luật Hôn nhân và gia đình 2014: nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền và nghĩa vụ học tập",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, học tập là",
+   "options": [
+    "quyền và nghĩa vụ của công dân.",
+    "quyền của công dân, không phải nghĩa vụ.",
+    "nghĩa vụ riêng của học sinh phổ thông.",
+    "trách nhiệm riêng của Nhà nước."
+   ],
+   "answer": 0,
+   "explanation": "Điều 39 Hiến pháp 2013: công dân có quyền và nghĩa vụ học tập."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền và nghĩa vụ bảo vệ, chăm sóc sức khỏe",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, mọi người có quyền được bảo vệ, chăm sóc sức khỏe, bình đẳng trong việc sử dụng các dịch vụ y tế và có nghĩa vụ",
+   "options": [
+    "mua bảo hiểm thương mại cho cả gia đình.",
+    "thực hiện các quy định về phòng bệnh, khám bệnh, chữa bệnh.",
+    "tự chữa bệnh tại nhà khi bị ốm.",
+    "khám sức khỏe tại bệnh viện tư nhân."
+   ],
+   "answer": 1,
+   "explanation": "Khoản 1 Điều 38 Hiến pháp 2013 quy định nội dung này."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền và nghĩa vụ bảo vệ môi trường",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, mọi người có quyền được sống trong môi trường trong lành và có nghĩa vụ",
+   "options": [
+    "bảo vệ môi trường.",
+    "khai thác tài nguyên tùy ý.",
+    "nộp thuế môi trường cho mọi hoạt động.",
+    "di dời khỏi vùng bị ô nhiễm."
+   ],
+   "answer": 0,
+   "explanation": "Điều 43 Hiến pháp 2013: mọi người có quyền được sống trong môi trường trong lành và có nghĩa vụ bảo vệ môi trường."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền được bảo đảm an sinh xã hội",
+   "level": 1,
+   "stem": "Trường hợp nào sau đây thể hiện quyền được bảo đảm an sinh xã hội của công dân?",
+   "options": [
+    "Doanh nghiệp được tự do lựa chọn ngành nghề kinh doanh.",
+    "Người lao động tham gia bảo hiểm xã hội được hưởng chế độ khi ốm đau, thai sản.",
+    "Công dân được tự do đi lại trong nước.",
+    "Học sinh được tham gia câu lạc bộ thể thao của trường."
+   ],
+   "answer": 1,
+   "explanation": "Điều 34 Hiến pháp 2013: công dân có quyền được bảo đảm an sinh xã hội; bảo hiểm xã hội là trụ cột của hệ thống an sinh xã hội."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Hôn nhân và gia đình",
+   "level": 2,
+   "stem": "Vì muốn nhận nhiều sính lễ, bố mẹ chị X ép chị (17 tuổi) kết hôn với người mà chị không yêu. Việc làm của bố mẹ chị X",
+   "options": [
+    "phù hợp pháp luật vì cha mẹ có quyền quyết định hôn nhân của con.",
+    "chỉ vi phạm phong tục, không vi phạm pháp luật.",
+    "phù hợp pháp luật nếu được họ hàng đồng ý.",
+    "vi phạm pháp luật vì tổ chức tảo hôn và cưỡng ép kết hôn."
+   ],
+   "answer": 3,
+   "explanation": "Luật Hôn nhân và gia đình cấm tảo hôn (kết hôn khi chưa đủ tuổi) và cưỡng ép kết hôn; chị X 17 tuổi, chưa đủ tuổi kết hôn và không tự nguyện."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Hôn nhân và gia đình",
+   "level": 2,
+   "stem": "Ông K chỉ cho con trai học tiếp đại học, bắt con gái nghỉ học để đi làm vì cho rằng con gái không cần học cao. Việc làm của ông K",
+   "options": [
+    "là quyền của cha mẹ nên không vi phạm pháp luật.",
+    "thể hiện sự quan tâm đến kinh tế gia đình nên được pháp luật khuyến khích.",
+    "vi phạm nghĩa vụ của cha mẹ, phân biệt đối xử giữa các con và xâm phạm quyền học tập của con gái.",
+    "chỉ vi phạm khi con gái chưa đủ 18 tuổi."
+   ],
+   "answer": 2,
+   "explanation": "Cha mẹ không được phân biệt đối xử giữa các con; mọi công dân có quyền học tập, nam nữ bình đẳng về cơ hội học tập."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền và nghĩa vụ về văn hóa",
+   "level": 2,
+   "stem": "Khi đào móng làm nhà, anh N phát hiện một số đồ vật cổ. Anh giữ nguyên hiện trạng và báo ngay cho cơ quan nhà nước có thẩm quyền. Anh N đã thực hiện",
+   "options": [
+    "nghĩa vụ bảo vệ di sản văn hóa.",
+    "quyền sở hữu tài sản.",
+    "quyền tự do kinh doanh.",
+    "nghĩa vụ nộp thuế."
+   ],
+   "answer": 0,
+   "explanation": "Pháp luật về di sản văn hóa quy định tổ chức, cá nhân phát hiện di vật, cổ vật phải bảo vệ nguyên trạng và thông báo kịp thời cho cơ quan nhà nước có thẩm quyền."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền và nghĩa vụ bảo vệ môi trường",
+   "level": 3,
+   "stem": "Cơ sở chăn nuôi của ông M xả nước thải chưa qua xử lí ra kênh, gây mùi hôi cho cả xóm. Người dân trong xóm có thể làm gì để bảo vệ quyền được sống trong môi trường trong lành?",
+   "options": [
+    "Tự ý phá dỡ cơ sở chăn nuôi của ông M.",
+    "Đổ rác vào sân nhà ông M để trả đũa.",
+    "Im lặng vì việc này không liên quan đến mình.",
+    "Phản ánh, kiến nghị, tố cáo đến cơ quan nhà nước có thẩm quyền."
+   ],
+   "answer": 3,
+   "explanation": "Người dân có quyền phản ánh, kiến nghị, tố cáo hành vi vi phạm pháp luật về bảo vệ môi trường; không được tự ý xử lí hay có hành vi trái pháp luật."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền và nghĩa vụ bảo vệ, chăm sóc sức khỏe",
+   "level": 3,
+   "stem": "Khi có dịch bệnh truyền nhiễm nguy hiểm, anh Y trở về từ vùng có dịch nhưng cố tình không thực hiện khai báo y tế theo yêu cầu của cơ quan chức năng. Hành vi của anh Y",
+   "options": [
+    "là quyền tự do đi lại nên không vi phạm.",
+    "vi phạm nghĩa vụ thực hiện các quy định về phòng bệnh.",
+    "không vi phạm vì anh Y chưa có triệu chứng.",
+    "chỉ vi phạm nếu anh Y đến bệnh viện."
+   ],
+   "answer": 1,
+   "explanation": "Mọi người có nghĩa vụ thực hiện các quy định về phòng bệnh, khám bệnh, chữa bệnh; không khai báo y tế theo quy định là vi phạm, có thể gây nguy hại cho sức khỏe cộng đồng."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Hôn nhân và gia đình",
+   "level": 3,
+   "stem": "Anh S tự ý bán chiếc ô tô là tài sản chung của vợ chồng mà không bàn bạc, không được vợ đồng ý. Nhận định nào sau đây đúng?",
+   "options": [
+    "Anh S không vi phạm vì người chồng là chủ gia đình.",
+    "Anh S không vi phạm vì ô tô đứng tên anh.",
+    "Anh S chỉ vi phạm nếu bán với giá thấp.",
+    "Anh S vi phạm nguyên tắc vợ chồng bình đẳng trong việc định đoạt tài sản chung."
+   ],
+   "answer": 3,
+   "explanation": "Luật Hôn nhân và gia đình: vợ chồng bình đẳng trong chiếm hữu, sử dụng, định đoạt tài sản chung; định đoạt tài sản chung là tài sản phải đăng kí quyền sở hữu phải có sự thỏa thuận của vợ chồng."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Quyền tự do kinh doanh, nộp thuế, sở hữu",
+   "level": 2,
+   "stem": "Chị P đăng kí hộ kinh doanh và mở cửa hàng tạp hóa, hằng năm kê khai, nộp thuế đầy đủ. Dịp gần Tết, chị nhập thêm pháo nổ về bán vì thấy nhiều người hỏi mua. Cùng thời gian đó, anh trai chị P là anh Q tự ý lấy chiếc xe máy là tài sản riêng của chị P đem bán để trả nợ.",
+   "statements": [
+    {
+     "t": "Việc chị P đăng kí kinh doanh cửa hàng tạp hóa là thực hiện quyền tự do kinh doanh.",
+     "a": true
+    },
+    {
+     "t": "Việc chị P kê khai, nộp thuế đầy đủ là thực hiện nghĩa vụ nộp thuế.",
+     "a": true
+    },
+    {
+     "t": "Chị P được bán pháo nổ vì đã đăng kí kinh doanh cửa hàng tạp hóa.",
+     "a": false
+    },
+    {
+     "t": "Anh Q là anh trai nên có quyền định đoạt chiếc xe máy của chị P.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: pháo nổ là hàng hóa bị cấm kinh doanh; tự do kinh doanh chỉ trong những ngành nghề pháp luật không cấm. d) Sai: chỉ chủ sở hữu mới có quyền định đoạt tài sản; anh Q vi phạm nghĩa vụ tôn trọng tài sản của người khác."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ công dân về kinh tế",
+   "topic": "Quyền sở hữu, tôn trọng tài sản của người khác",
+   "level": 3,
+   "stem": "Ông H là chủ sở hữu một căn nhà và cho anh K thuê để ở. Trong thời gian thuê, anh K tự ý đập bỏ một bức tường để mở rộng phòng mà không hỏi ý kiến ông H. Phát hiện sự việc, ông H yêu cầu anh K khôi phục lại hiện trạng và bồi thường thiệt hại.",
+   "statements": [
+    {
+     "t": "Việc ông H cho thuê nhà là thực hiện quyền của chủ sở hữu đối với tài sản của mình.",
+     "a": true
+    },
+    {
+     "t": "Anh K là người thuê nên có quyền định đoạt căn nhà.",
+     "a": false
+    },
+    {
+     "t": "Việc anh K tự ý đập tường là vi phạm nghĩa vụ tôn trọng tài sản của người khác.",
+     "a": true
+    },
+    {
+     "t": "Yêu cầu bồi thường của ông H là không có căn cứ vì anh K đã trả tiền thuê nhà.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: chủ sở hữu có quyền sử dụng, khai thác lợi ích từ tài sản. b) Sai: người thuê chỉ được sử dụng theo thỏa thuận, không có quyền định đoạt. c) Đúng. d) Sai: tiền thuê là để sử dụng nhà; gây thiệt hại cho tài sản của người khác thì phải bồi thường."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Hôn nhân và gia đình",
+   "level": 2,
+   "stem": "Anh M (22 tuổi) và chị N (19 tuổi) yêu nhau, tự nguyện quyết định kết hôn. Bố chị N phản đối và ngăn cấm vì anh M là người dân tộc khác. Sau khi kết hôn, anh M cho rằng mọi việc lớn trong nhà phải do chồng quyết định.",
+   "statements": [
+    {
+     "t": "Anh M và chị N đã đủ tuổi kết hôn theo Luật Hôn nhân và gia đình.",
+     "a": true
+    },
+    {
+     "t": "Bố chị N có quyền ngăn cấm cuộc hôn nhân vì anh M là người dân tộc khác.",
+     "a": false
+    },
+    {
+     "t": "Việc kết hôn của anh M và chị N phải được đăng kí tại cơ quan nhà nước có thẩm quyền.",
+     "a": true
+    },
+    {
+     "t": "Quan điểm của anh M phù hợp với nguyên tắc vợ chồng bình đẳng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi. b) Sai: cản trở kết hôn là hành vi bị cấm; hôn nhân giữa các dân tộc được pháp luật tôn trọng và bảo vệ. c) Đúng. d) Sai: vợ chồng bình đẳng, cùng bàn bạc quyết định công việc gia đình."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền và nghĩa vụ về văn hóa – xã hội",
+   "topic": "Quyền học tập, sức khỏe, bảo vệ môi trường",
+   "level": 3,
+   "stem": "Bạn L (15 tuổi) vừa tốt nghiệp trung học cơ sở và muốn học tiếp lên trung học phổ thông, nhưng bố bạn là ông T bắt L nghỉ học ở nhà phụ việc đồng áng. Ông T còn thường xuyên đổ rác sinh hoạt ra bờ sông gần nhà. Khi L bị ốm, ông T cho rằng gia đình không có bảo hiểm y tế nên L không có quyền được khám chữa bệnh.",
+   "statements": [
+    {
+     "t": "Học tập là quyền và nghĩa vụ của công dân; việc ông T bắt L nghỉ học là không tôn trọng quyền học tập của con.",
+     "a": true
+    },
+    {
+     "t": "Việc ông T đổ rác sinh hoạt ra bờ sông là vi phạm nghĩa vụ bảo vệ môi trường.",
+     "a": true
+    },
+    {
+     "t": "Vì L chưa thành niên nên ông T có quyền quyết định thay con mọi việc học tập mà không cần quan tâm đến nguyện vọng của con.",
+     "a": false
+    },
+    {
+     "t": "Quyền được bảo vệ, chăm sóc sức khỏe chỉ dành cho người đã tham gia bảo hiểm y tế.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng (Điều 39 Hiến pháp). b) Đúng (Điều 43 Hiến pháp, Luật Bảo vệ môi trường). c) Sai: cha mẹ có nghĩa vụ tạo điều kiện cho con học tập, tôn trọng ý kiến của con. d) Sai: mọi người đều có quyền được bảo vệ, chăm sóc sức khỏe, bình đẳng trong sử dụng dịch vụ y tế; bảo hiểm y tế chỉ là hình thức hỗ trợ chi phí."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu độc lập và đối chiếu với Hiến pháp 2013 cùng các luật lớn (Luật Hôn nhân và gia đình 2014, Bộ luật Dân sự 2015, Luật Bình đẳng giới, Luật Tố cáo, Luật Bầu cử, Bộ luật Tố tụng hình sự, Luật Biên giới quốc gia, Luật Quốc tịch, Luật Điều ước quốc tế, Công ước Luật Biển 1982); tránh các nội dung vừa sửa đổi năm 2025 (số cấp chính quyền địa phương, đơn vị hành chính, Mặt trận Tổ quốc và đoàn thể) và tránh con số dễ thay đổi; mỗi câu trắc nghiệm chỉ có một phương án đúng, các ý Đúng/Sai có cả đúng và sai; vị trí đáp án đúng được xếp đều A/B/C/D bằng script; đã chạy hk-check."
+}

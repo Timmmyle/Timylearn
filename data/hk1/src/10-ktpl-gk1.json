@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "GD Kinh tế và Pháp luật",
+ "exam": "gk1",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 1 – GD Kinh tế và Pháp luật 10",
+ "scope": "Bài 1–4: Các hoạt động kinh tế cơ bản; các chủ thể của nền kinh tế; thị trường (khái niệm, phân loại, chức năng); cơ chế thị trường và giá cả thị trường",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Các hoạt động kinh tế cơ bản",
+   "level": 1,
+   "stem": "Trong các hoạt động kinh tế cơ bản, hoạt động nào đóng vai trò cơ bản nhất, quyết định các hoạt động còn lại?",
+   "options": [
+    "Hoạt động phân phối",
+    "Hoạt động trao đổi",
+    "Hoạt động sản xuất",
+    "Hoạt động tiêu dùng"
+   ],
+   "answer": 2,
+   "explanation": "Sản xuất tạo ra sản phẩm, là cơ sở tồn tại của xã hội; sản xuất quyết định quy mô, cơ cấu của phân phối, trao đổi và tiêu dùng."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Hoạt động sản xuất",
+   "level": 1,
+   "stem": "Hoạt động con người sử dụng các yếu tố sản xuất để tạo ra sản phẩm đáp ứng nhu cầu của đời sống xã hội được gọi là",
+   "options": [
+    "hoạt động sản xuất",
+    "hoạt động tiêu dùng",
+    "hoạt động trao đổi",
+    "hoạt động phân phối"
+   ],
+   "answer": 0,
+   "explanation": "Đây là khái niệm hoạt động sản xuất trong SGK: kết hợp các yếu tố sản xuất để tạo ra của cải vật chất và dịch vụ."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Hoạt động phân phối",
+   "level": 1,
+   "stem": "Việc phân chia các yếu tố sản xuất cho các ngành sản xuất, các đơn vị sản xuất khác nhau để tạo ra sản phẩm thuộc hoạt động kinh tế nào?",
+   "options": [
+    "Tiêu dùng",
+    "Trao đổi",
+    "Sản xuất",
+    "Phân phối"
+   ],
+   "answer": 3,
+   "explanation": "Phân phối gồm phân phối các yếu tố sản xuất (cho các ngành, đơn vị sản xuất) và phân phối kết quả sản xuất (cho tiêu dùng)."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Hoạt động tiêu dùng",
+   "level": 1,
+   "stem": "Hoạt động con người sử dụng sản phẩm để thỏa mãn nhu cầu sản xuất và sinh hoạt được gọi là",
+   "options": [
+    "hoạt động phân phối",
+    "hoạt động tiêu dùng",
+    "hoạt động sản xuất",
+    "hoạt động trao đổi"
+   ],
+   "answer": 1,
+   "explanation": "Tiêu dùng là hoạt động sử dụng sản phẩm để thỏa mãn nhu cầu sản xuất và sinh hoạt; tiêu dùng là mục đích và động lực của sản xuất."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Các chủ thể của nền kinh tế",
+   "level": 1,
+   "stem": "Chủ thể nào sau đây là chủ thể trung gian trong nền kinh tế?",
+   "options": [
+    "Hộ gia đình mua thực phẩm cho bữa ăn",
+    "Ngân hàng thương mại nhận tiền gửi và cho vay",
+    "Nhà máy dệt sản xuất vải",
+    "Hội đồng nhân dân tỉnh ban hành nghị quyết"
+   ],
+   "answer": 1,
+   "explanation": "Chủ thể trung gian (ngân hàng, môi giới, đại lí…) là cầu nối giữa sản xuất và tiêu dùng, giữa các chủ thể với nhau."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Vai trò của chủ thể nhà nước",
+   "level": 1,
+   "stem": "Vai trò của chủ thể nhà nước trong nền kinh tế là",
+   "options": [
+    "trực tiếp sản xuất mọi loại hàng hóa thay cho doanh nghiệp",
+    "quyết định giá bán của tất cả hàng hóa trên thị trường",
+    "chỉ tham gia tiêu dùng, không tác động đến hoạt động kinh tế",
+    "thực hiện chức năng quản lí nhà nước về kinh tế, tạo môi trường pháp lí và khắc phục những khuyết tật của thị trường"
+   ],
+   "answer": 3,
+   "explanation": "Nhà nước quản lí nền kinh tế bằng pháp luật, chính sách; tạo môi trường thuận lợi và khắc phục khuyết tật của thị trường."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Hoạt động trao đổi",
+   "level": 2,
+   "stem": "Bà H mang rau ra chợ bán, rồi dùng tiền thu được mua dầu ăn và quần áo cho gia đình. Việc bà H bán rau, mua hàng thuộc hoạt động kinh tế nào?",
+   "options": [
+    "Trao đổi",
+    "Sản xuất",
+    "Phân phối các yếu tố sản xuất",
+    "Tiêu dùng cho sản xuất"
+   ],
+   "answer": 0,
+   "explanation": "Trao đổi là hoạt động đưa sản phẩm đến tay người tiêu dùng, ở đây thông qua mua bán bằng tiền trên thị trường."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Hoạt động tiêu dùng",
+   "level": 2,
+   "stem": "Xưởng may Y mua vải, chỉ rồi sử dụng chúng để may áo sơ mi bán ra thị trường. Việc xưởng sử dụng vải, chỉ để may áo thuộc",
+   "options": [
+    "tiêu dùng cho sinh hoạt",
+    "phân phối kết quả sản xuất",
+    "tiêu dùng cho sản xuất",
+    "hoạt động trao đổi"
+   ],
+   "answer": 2,
+   "explanation": "Sử dụng nguyên vật liệu để tạo ra sản phẩm mới là tiêu dùng cho sản xuất; tiêu dùng cho sinh hoạt là dùng sản phẩm thỏa mãn nhu cầu đời sống."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Chủ thể tiêu dùng",
+   "level": 2,
+   "stem": "Chị M luôn mang túi vải đi chợ, chỉ mua thực phẩm có nguồn gốc rõ ràng và tiết kiệm điện, nước. Chị M đã",
+   "options": [
+    "thực hiện vai trò của chủ thể trung gian",
+    "thực hiện vai trò của chủ thể nhà nước",
+    "thực hiện tốt trách nhiệm của chủ thể tiêu dùng",
+    "thực hiện trách nhiệm của chủ thể sản xuất"
+   ],
+   "answer": 2,
+   "explanation": "Chủ thể tiêu dùng có trách nhiệm tiêu dùng thông minh, bền vững, bảo vệ môi trường, không tiếp tay cho hàng kém chất lượng."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Mối quan hệ giữa các hoạt động kinh tế",
+   "level": 2,
+   "stem": "Khi nhu cầu sử dụng khẩu trang y tế tăng mạnh, nhiều doanh nghiệp mở rộng sản xuất khẩu trang. Điều này thể hiện",
+   "options": [
+    "tiêu dùng là mục đích, động lực của sản xuất",
+    "sản xuất không chịu tác động của tiêu dùng",
+    "phân phối quyết định sản xuất",
+    "trao đổi là mục đích cuối cùng của sản xuất"
+   ],
+   "answer": 0,
+   "explanation": "Nhu cầu tiêu dùng tạo ra 'đơn đặt hàng' cho sản xuất, thúc đẩy sản xuất mở rộng."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Trách nhiệm của chủ thể sản xuất",
+   "level": 3,
+   "stem": "Ông P sản xuất nước mắm và xử lí nước thải đúng quy định; bà Q bán rau có dư lượng thuốc trừ sâu vượt mức cho phép; anh R ghi đầy đủ nguồn gốc, hạn sử dụng trên bao bì sản phẩm; chị S quảng cáo sai công dụng của thực phẩm chức năng. Những ai thực hiện đúng trách nhiệm của chủ thể sản xuất?",
+   "options": [
+    "Bà Q và chị S",
+    "Ông P, bà Q và anh R",
+    "Anh R và chị S",
+    "Ông P và anh R"
+   ],
+   "answer": 3,
+   "explanation": "Chủ thể sản xuất phải cung cấp hàng hóa an toàn, thông tin trung thực, bảo vệ môi trường. Bà Q và chị S vi phạm: gây hại sức khỏe, lừa dối người tiêu dùng."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Các chủ thể của nền kinh tế",
+   "level": 3,
+   "stem": "Công ty X vận hành một sàn thương mại điện tử kết nối nông dân với người mua nông sản và thu phí trên mỗi giao dịch. Trong nền kinh tế, công ty X đóng vai trò là",
+   "options": [
+    "chủ thể sản xuất nông sản",
+    "chủ thể trung gian",
+    "chủ thể tiêu dùng",
+    "chủ thể nhà nước"
+   ],
+   "answer": 1,
+   "explanation": "Công ty X không trực tiếp sản xuất hay tiêu dùng nông sản mà làm cầu nối giữa người bán và người mua, nên là chủ thể trung gian."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Khái niệm thị trường",
+   "level": 1,
+   "stem": "Tổng hòa các mối quan hệ kinh tế, trong đó nhu cầu của các chủ thể được đáp ứng thông qua việc trao đổi, mua bán với sự xác định giá cả và số lượng hàng hóa, dịch vụ tương ứng được gọi là",
+   "options": [
+    "ngân sách nhà nước",
+    "thị trường",
+    "cơ chế quản lí",
+    "tín dụng"
+   ],
+   "answer": 1,
+   "explanation": "Đây là khái niệm thị trường theo SGK GD Kinh tế và Pháp luật 10."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Chức năng của thị trường",
+   "level": 1,
+   "stem": "Thị trường có những chức năng nào sau đây?",
+   "options": [
+    "Thước đo giá trị; phương tiện lưu thông; phương tiện thanh toán",
+    "Sản xuất; phân phối; tiêu dùng",
+    "Thu thuế; chi ngân sách; phát hành tiền",
+    "Thừa nhận; thông tin; điều tiết, kích thích hoặc hạn chế sản xuất và tiêu dùng"
+   ],
+   "answer": 3,
+   "explanation": "Thị trường có ba chức năng: thừa nhận, thông tin, điều tiết (kích thích hoặc hạn chế) sản xuất và tiêu dùng. Thước đo giá trị, phương tiện lưu thông… là chức năng của tiền tệ."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Các loại thị trường",
+   "level": 1,
+   "stem": "Căn cứ vào phạm vi không gian, thị trường được chia thành",
+   "options": [
+    "thị trường trong nước và thị trường thế giới",
+    "thị trường hàng hóa và thị trường dịch vụ",
+    "thị trường tư liệu sản xuất và thị trường tư liệu tiêu dùng",
+    "thị trường độc quyền và thị trường cạnh tranh"
+   ],
+   "answer": 0,
+   "explanation": "Theo phạm vi: trong nước, thế giới; theo đối tượng giao dịch: hàng hóa, dịch vụ; theo vai trò của đối tượng: tư liệu sản xuất, tư liệu tiêu dùng; theo tính chất cạnh tranh: cạnh tranh hoàn hảo, không hoàn hảo, độc quyền."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Cơ chế thị trường",
+   "level": 1,
+   "stem": "Hệ thống các quan hệ kinh tế mang đặc tính tự điều chỉnh các cân đối của nền kinh tế theo yêu cầu của các quy luật kinh tế được gọi là",
+   "options": [
+    "ngân sách nhà nước",
+    "kế hoạch hóa tập trung",
+    "cơ chế thị trường",
+    "chính sách tài khóa"
+   ],
+   "answer": 2,
+   "explanation": "Đây là khái niệm cơ chế thị trường: nền kinh tế tự điều chỉnh thông qua các quy luật giá trị, cung – cầu, cạnh tranh…"
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Giá cả thị trường",
+   "level": 1,
+   "stem": "Giá cả thị trường là",
+   "options": [
+    "giá do người bán tùy ý đặt ra, không phụ thuộc người mua",
+    "chi phí sản xuất mà doanh nghiệp bỏ ra",
+    "giá bán thực tế của hàng hóa, là số tiền phải trả cho một hàng hóa, một dịch vụ hoặc một tài sản nào đó",
+    "số tiền Nhà nước quy định cho mọi hàng hóa"
+   ],
+   "answer": 2,
+   "explanation": "Giá cả thị trường là giá bán thực tế, được hình thành dưới tác động của các quy luật kinh tế, nhất là quan hệ cung – cầu."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Chức năng của giá cả",
+   "level": 1,
+   "stem": "Giá cả thị trường có chức năng nào sau đây?",
+   "options": [
+    "Là công cụ để Nhà nước thực hiện quản lí, kích thích hoặc hạn chế sản xuất và tiêu dùng",
+    "Thay thế hoàn toàn vai trò quản lí kinh tế của Nhà nước",
+    "Xóa bỏ cạnh tranh giữa các chủ thể kinh tế",
+    "Bảo đảm mọi hàng hóa sản xuất ra đều bán được"
+   ],
+   "answer": 0,
+   "explanation": "Giá cả có các chức năng: cung cấp thông tin, phân bổ nguồn lực và là công cụ quản lí kinh tế của Nhà nước."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Ưu điểm, nhược điểm của cơ chế thị trường",
+   "level": 2,
+   "stem": "Biểu hiện nào sau đây là nhược điểm của cơ chế thị trường?",
+   "options": [
+    "Kích thích các chủ thể năng động, sáng tạo",
+    "Thúc đẩy cải tiến kĩ thuật, nâng cao năng suất",
+    "Làm cho hàng hóa phong phú, đa dạng",
+    "Chạy theo lợi nhuận dẫn đến khai thác cạn kiệt tài nguyên, ô nhiễm môi trường"
+   ],
+   "answer": 3,
+   "explanation": "Ba phương án còn lại là ưu điểm; nhược điểm gồm: phân hóa giàu nghèo, ô nhiễm môi trường, cạnh tranh không lành mạnh, khủng hoảng…"
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Chức năng của giá cả",
+   "level": 2,
+   "stem": "Nhờ biến động của giá cả, người sản xuất biết nên sản xuất mặt hàng gì, bao nhiêu; người tiêu dùng điều chỉnh việc mua sắm cho phù hợp. Điều này thể hiện chức năng nào của giá cả?",
+   "options": [
+    "Thước đo giá trị của tiền tệ",
+    "Cung cấp thông tin",
+    "Phương tiện cất trữ",
+    "Phương tiện thanh toán"
+   ],
+   "answer": 1,
+   "explanation": "Giá cả phản ánh tình hình cung – cầu, cung cấp thông tin để người sản xuất và người tiêu dùng đưa ra quyết định."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Ưu điểm của cơ chế thị trường",
+   "level": 2,
+   "stem": "Để không mất khách hàng, các hãng điện thoại liên tục cải tiến công nghệ, hạ giá thành sản phẩm. Điều này phản ánh ưu điểm nào của cơ chế thị trường?",
+   "options": [
+    "Xóa bỏ hoàn toàn sự phân hóa giàu nghèo",
+    "Kích thích các chủ thể kinh tế năng động, sáng tạo, nâng cao năng suất và chất lượng",
+    "Tự khắc phục mọi khủng hoảng kinh tế",
+    "Bảo vệ tuyệt đối tài nguyên, môi trường"
+   ],
+   "answer": 1,
+   "explanation": "Cạnh tranh trong cơ chế thị trường buộc doanh nghiệp đổi mới, giảm chi phí; các phương án còn lại cơ chế thị trường không tự làm được."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Các loại thị trường",
+   "level": 3,
+   "stem": "Ở một địa phương, chỉ có duy nhất công ty X cung cấp nước sạch, người dân không có nhà cung cấp nào khác để lựa chọn. Xét theo tính chất cạnh tranh, thị trường nước sạch ở địa phương này thuộc loại",
+   "options": [
+    "thị trường cạnh tranh hoàn hảo",
+    "thị trường cạnh tranh không hoàn hảo",
+    "thị trường thế giới",
+    "thị trường độc quyền"
+   ],
+   "answer": 3,
+   "explanation": "Chỉ có một người bán, không có sản phẩm thay thế, người bán chi phối giá: đó là thị trường độc quyền."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Chức năng của thị trường",
+   "level": 3,
+   "stem": "Mẫu tai nghe mới của công ty Y vừa ra mắt đã bán hết, chứng tỏ người tiêu dùng chấp nhận công dụng và mức giá của sản phẩm. Điều này thể hiện chức năng nào của thị trường?",
+   "options": [
+    "Chức năng thừa nhận",
+    "Chức năng thông tin",
+    "Chức năng điều tiết, hạn chế tiêu dùng",
+    "Chức năng phân bổ ngân sách"
+   ],
+   "answer": 0,
+   "explanation": "Hàng hóa bán được tức là giá trị và giá trị sử dụng của nó được thị trường thừa nhận."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Vận dụng cơ chế thị trường",
+   "level": 3,
+   "stem": "Giả sử giá thịt lợn giảm sâu và kéo dài, trong khi giá gà thả vườn ổn định ở mức có lãi. Là chủ trang trại chăn nuôi, ông T nên lựa chọn cách làm nào phù hợp với cơ chế thị trường?",
+   "options": [
+    "Mở rộng gấp đôi đàn lợn để bù lỗ",
+    "Giữ nguyên đàn lợn và chờ Nhà nước mua hết sản phẩm",
+    "Thu hẹp quy mô đàn lợn, chuyển một phần nguồn lực sang nuôi gà thả vườn",
+    "Bán thịt lợn kém chất lượng để giảm chi phí"
+   ],
+   "answer": 2,
+   "explanation": "Giá cả cung cấp thông tin và phân bổ nguồn lực: người sản xuất nên chuyển nguồn lực sang mặt hàng có giá cao, có lợi nhuận."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Các hoạt động và chủ thể kinh tế",
+   "level": 2,
+   "stem": "Gia đình ông H trồng cà phê. Sau thu hoạch, ông bán cà phê cho công ty X (chuyên thu mua, chế biến và xuất khẩu). Ông dùng tiền bán cà phê mua phân bón cho vụ sau và mua đồ dùng cho gia đình. Để mở rộng vườn, ông vay vốn của ngân hàng Y.",
+   "statements": [
+    {
+     "t": "Khi trồng cà phê, gia đình ông H đóng vai trò là chủ thể sản xuất.",
+     "a": true
+    },
+    {
+     "t": "Việc ông H mua phân bón để chăm sóc vụ sau là tiêu dùng cho sinh hoạt.",
+     "a": false
+    },
+    {
+     "t": "Ngân hàng Y đóng vai trò là chủ thể trung gian trong nền kinh tế.",
+     "a": true
+    },
+    {
+     "t": "Việc ông H bán cà phê cho công ty X thuộc hoạt động phân phối các yếu tố sản xuất.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: hộ gia đình trồng cà phê để bán là chủ thể sản xuất. b) Sai: phân bón dùng cho sản xuất nên là tiêu dùng cho sản xuất. c) Đúng: ngân hàng là cầu nối giữa người có vốn và người cần vốn. d) Sai: bán cà phê lấy tiền là hoạt động trao đổi."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Nền kinh tế và các chủ thể kinh tế",
+   "topic": "Vai trò của Nhà nước và trách nhiệm các chủ thể",
+   "level": 3,
+   "stem": "Trước tình trạng một số cơ sở sản xuất xả thải gây ô nhiễm sông, chính quyền tỉnh X đã kiểm tra, xử phạt các cơ sở vi phạm, đồng thời có chính sách hỗ trợ các cơ sở đầu tư hệ thống xử lí nước thải. Chị M, một người tiêu dùng trong tỉnh, chủ động lựa chọn sản phẩm của các cơ sở sản xuất bảo đảm tiêu chuẩn môi trường.",
+   "statements": [
+    {
+     "t": "Việc chính quyền kiểm tra, xử phạt các cơ sở vi phạm thể hiện vai trò quản lí nền kinh tế của chủ thể nhà nước.",
+     "a": true
+    },
+    {
+     "t": "Chính sách hỗ trợ đầu tư hệ thống xử lí nước thải góp phần khắc phục khuyết tật của thị trường.",
+     "a": true
+    },
+    {
+     "t": "Chủ thể sản xuất chỉ cần quan tâm đến lợi nhuận, bảo vệ môi trường là trách nhiệm riêng của Nhà nước.",
+     "a": false
+    },
+    {
+     "t": "Lựa chọn tiêu dùng của chị M không có tác động gì đến hoạt động của chủ thể sản xuất.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Nhà nước quản lí kinh tế bằng pháp luật, kiểm tra, xử lí vi phạm. b) Đúng: ô nhiễm là khuyết tật của thị trường, Nhà nước dùng chính sách để khắc phục. c) Sai: chủ thể sản xuất có trách nhiệm bảo vệ môi trường. d) Sai: tiêu dùng định hướng sản xuất; người tiêu dùng có trách nhiệm thúc đẩy sản xuất bền vững."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Giá cả thị trường",
+   "level": 2,
+   "stem": "Giả sử trước Tết, giá hoa cúc tăng cao. Thấy vậy, nhiều hộ ở làng hoa Y mở rộng diện tích trồng cúc. Đến mùa Tết năm sau, lượng cúc đưa ra thị trường vượt quá nhu cầu nên giá cúc giảm mạnh, nhiều hộ bị thua lỗ.",
+   "statements": [
+    {
+     "t": "Việc các hộ mở rộng diện tích trồng cúc khi giá tăng cho thấy giá cả cung cấp thông tin, định hướng việc phân bổ nguồn lực.",
+     "a": true
+    },
+    {
+     "t": "Giá cúc do người trồng hoa tùy ý quyết định.",
+     "a": false
+    },
+    {
+     "t": "Giá cúc giảm mạnh khi cung vượt cầu cho thấy giá cả chịu tác động của quan hệ cung – cầu.",
+     "a": true
+    },
+    {
+     "t": "Hiện tượng trên cho thấy cơ chế thị trường luôn bảo đảm sản xuất cân đối, không gây thiệt hại cho người sản xuất.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: giá tăng là tín hiệu để người sản xuất chuyển nguồn lực vào mặt hàng đó. b) Sai: giá cả thị trường hình thành do tác động của các quy luật kinh tế, không do người bán tùy ý. c) Đúng: cung vượt cầu thì giá giảm. d) Sai: tính tự phát của thị trường có thể gây mất cân đối, thua lỗ – một nhược điểm của cơ chế thị trường."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường và cơ chế thị trường",
+   "topic": "Ưu điểm, nhược điểm của cơ chế thị trường",
+   "level": 3,
+   "stem": "Trên thị trường xe máy điện, nhiều doanh nghiệp cạnh tranh với nhau, liên tục giới thiệu mẫu mới, cải tiến pin và đưa ra mức giá hợp lí. Tuy nhiên, một số cơ sở chạy theo lợi nhuận đã bán pin kém chất lượng, không rõ nguồn gốc và quảng cáo sai sự thật về quãng đường di chuyển.",
+   "statements": [
+    {
+     "t": "Việc các doanh nghiệp liên tục ra mẫu mới, cải tiến pin thể hiện ưu điểm của cơ chế thị trường.",
+     "a": true
+    },
+    {
+     "t": "Việc bán pin kém chất lượng, quảng cáo sai sự thật là biểu hiện nhược điểm của cơ chế thị trường khi các chủ thể chạy theo lợi nhuận.",
+     "a": true
+    },
+    {
+     "t": "Để khắc phục, Nhà nước nên xóa bỏ cơ chế thị trường và tự quyết định giá của mọi mặt hàng.",
+     "a": false
+    },
+    {
+     "t": "Thị trường xe máy điện trong tình huống trên là thị trường độc quyền.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: cạnh tranh kích thích đổi mới, sáng tạo. b) Đúng: chạy theo lợi nhuận dẫn tới gian lận là nhược điểm của thị trường. c) Sai: Nhà nước quản lí, khắc phục khuyết tật thị trường bằng pháp luật, chính sách, không xóa bỏ cơ chế thị trường. d) Sai: có nhiều doanh nghiệp cạnh tranh nên không phải độc quyền."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu theo SGK GD Kinh tế và Pháp luật 10 (Kết nối tri thức); các phép tính (tiết kiệm, lãi vay) đã kiểm lại bằng Python; số liệu đều là giả định; khái niệm ngân sách nhà nước, thuế lấy theo Luật Ngân sách nhà nước 2015 và Luật Quản lí thuế 2019, tránh mức thuế suất cụ thể."
+}

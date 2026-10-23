@@ -1,0 +1,371 @@
+{
+ "grade": 10,
+ "subject": "Toán",
+ "exam": "gk2",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 2 – Toán 10 (đề số 1)",
+ "scope": "Chương VI Hàm số, đồ thị và ứng dụng (hàm số, hàm số bậc hai, dấu của tam thức bậc hai, phương trình quy về phương trình bậc hai); Chương VII Phương pháp tọa độ trong mặt phẳng (đường thẳng, đường tròn, ba đường conic)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số",
+   "level": 1,
+   "stem": "Tập xác định của hàm số $y=\\dfrac{1}{x-3}$ là",
+   "options": [
+    "$\\mathbb{R}\\setminus\\{3\\}$",
+    "$(3;+\\infty)$",
+    "$\\mathbb{R}\\setminus\\{-3\\}$",
+    "$[3;+\\infty)$"
+   ],
+   "answer": 0,
+   "explanation": "Hàm số xác định khi $x-3\\neq0\\Leftrightarrow x\\neq3$. Vậy $D=\\mathbb{R}\\setminus\\{3\\}$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 1,
+   "stem": "Tọa độ đỉnh của parabol $y=x^2-4x+1$ là",
+   "options": [
+    "$(-2;13)$",
+    "$(2;-3)$",
+    "$(4;1)$",
+    "$(2;5)$"
+   ],
+   "answer": 1,
+   "explanation": "Hoành độ đỉnh $x=-\\dfrac{b}{2a}=2$, tung độ $y(2)=4-8+1=-3$. Đỉnh $I(2;-3)$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 1,
+   "stem": "Trục đối xứng của parabol $y=-2x^2+8x-3$ là đường thẳng",
+   "options": [
+    "$x=-2$",
+    "$x=4$",
+    "$x=2$",
+    "$x=-4$"
+   ],
+   "answer": 2,
+   "explanation": "Trục đối xứng $x=-\\dfrac{b}{2a}=-\\dfrac{8}{2\\cdot(-2)}=2$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 2,
+   "stem": "Hàm số $y=x^2-6x+5$ đồng biến trên khoảng nào sau đây?",
+   "options": [
+    "$(-\\infty;3)$",
+    "$(-\\infty;-3)$",
+    "$(-3;+\\infty)$",
+    "$(3;+\\infty)$"
+   ],
+   "answer": 3,
+   "explanation": "$a=1>0$, đỉnh có hoành độ $x=3$ nên hàm số nghịch biến trên $(-\\infty;3)$ và đồng biến trên $(3;+\\infty)$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Dấu của tam thức bậc hai",
+   "level": 1,
+   "stem": "Tập nghiệm của bất phương trình $x^2-5x+6<0$ là",
+   "options": [
+    "$(-\\infty;2)\\cup(3;+\\infty)$",
+    "$(2;3)$",
+    "$[2;3]$",
+    "$(-3;-2)$"
+   ],
+   "answer": 1,
+   "explanation": "Tam thức có hai nghiệm $2$ và $3$, hệ số $a=1>0$ nên tam thức âm khi $2<x<3$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Dấu của tam thức bậc hai",
+   "level": 2,
+   "stem": "Tam thức $f(x)=x^2-2x+m$ dương với mọi $x\\in\\mathbb{R}$ khi và chỉ khi",
+   "options": [
+    "$m>1$",
+    "$m<1$",
+    "$m\\ge1$",
+    "$m>-1$"
+   ],
+   "answer": 0,
+   "explanation": "Vì $a=1>0$ nên $f(x)>0,\\ \\forall x\\in\\mathbb{R}\\Leftrightarrow\\Delta'=1-m<0\\Leftrightarrow m>1$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Phương trình quy về phương trình bậc hai",
+   "level": 2,
+   "stem": "Tập nghiệm của phương trình $\\sqrt{2x+3}=x$ là",
+   "options": [
+    "$\\{-1\\}$",
+    "$\\{-1;3\\}$",
+    "$\\{1\\}$",
+    "$\\{3\\}$"
+   ],
+   "answer": 3,
+   "explanation": "Bình phương hai vế: $2x+3=x^2\\Leftrightarrow x^2-2x-3=0\\Leftrightarrow x=-1$ hoặc $x=3$. Thử lại (cần $x\\ge0$): chỉ $x=3$ thỏa mãn."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Phương trình đường thẳng",
+   "level": 1,
+   "stem": "Trong mặt phẳng $Oxy$, một vectơ pháp tuyến của đường thẳng $d:\\ 2x-3y+5=0$ là",
+   "options": [
+    "$\\vec{n}=(3;2)$",
+    "$\\vec{n}=(2;3)$",
+    "$\\vec{n}=(2;-3)$",
+    "$\\vec{n}=(-3;2)$"
+   ],
+   "answer": 2,
+   "explanation": "Đường thẳng $ax+by+c=0$ có vectơ pháp tuyến $(a;b)$, ở đây là $(2;-3)$. Vectơ $(3;2)$ là vectơ chỉ phương."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Đường tròn trong mặt phẳng tọa độ",
+   "level": 1,
+   "stem": "Đường tròn $(x-1)^2+(y+2)^2=9$ có tâm $I$ và bán kính $R$ là",
+   "options": [
+    "$I(1;-2),\\ R=3$",
+    "$I(-1;2),\\ R=3$",
+    "$I(1;-2),\\ R=9$",
+    "$I(-1;2),\\ R=9$"
+   ],
+   "answer": 0,
+   "explanation": "Đường tròn $(x-a)^2+(y-b)^2=R^2$ có tâm $(a;b)$, bán kính $R$. Ở đây $I(1;-2)$, $R=\\sqrt9=3$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Khoảng cách từ một điểm đến một đường thẳng",
+   "level": 2,
+   "stem": "Khoảng cách từ điểm $M(1;2)$ đến đường thẳng $\\Delta:\\ 3x+4y-1=0$ bằng",
+   "options": [
+    "$10$",
+    "$\\dfrac{2}{5}$",
+    "$2$",
+    "$\\dfrac{12}{5}$"
+   ],
+   "answer": 2,
+   "explanation": "$d(M,\\Delta)=\\dfrac{|3\\cdot1+4\\cdot2-1|}{\\sqrt{3^2+4^2}}=\\dfrac{10}{5}=2$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Ba đường conic",
+   "level": 2,
+   "stem": "Tiêu cự của elip $(E):\\ \\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$ bằng",
+   "options": [
+    "$4$",
+    "$8$",
+    "$10$",
+    "$6$"
+   ],
+   "answer": 1,
+   "explanation": "$a=5$, $b=3$, $c=\\sqrt{a^2-b^2}=4$. Tiêu cự $2c=8$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Phương trình đường thẳng",
+   "level": 3,
+   "stem": "Trong mặt phẳng $Oxy$, đường thẳng đi qua điểm $A(1;2)$ và vuông góc với đường thẳng $d:\\ x-2y+3=0$ có phương trình là",
+   "options": [
+    "$x-2y+3=0$",
+    "$2x-y=0$",
+    "$2x+y+4=0$",
+    "$2x+y-4=0$"
+   ],
+   "answer": 3,
+   "explanation": "$d$ có vectơ chỉ phương $(2;1)$, đây là vectơ pháp tuyến của đường cần tìm: $2(x-1)+(y-2)=0\\Leftrightarrow 2x+y-4=0$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 2,
+   "stem": "Cho hàm số $y=-x^2+2x+3$ có đồ thị là parabol $(P)$.",
+   "statements": [
+    {
+     "t": "$(P)$ có bề lõm quay xuống dưới.",
+     "a": true
+    },
+    {
+     "t": "$(P)$ có đỉnh là $I(1;4)$.",
+     "a": true
+    },
+    {
+     "t": "$(P)$ cắt trục tung tại điểm có tung độ bằng $-3$.",
+     "a": false
+    },
+    {
+     "t": "Hàm số nghịch biến trên khoảng $(-\\infty;1)$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng vì $a=-1<0$. b) Đúng: $x=-\\dfrac{b}{2a}=1$, $y(1)=4$. c) Sai: $y(0)=3$. d) Sai: $a<0$ nên hàm số đồng biến trên $(-\\infty;1)$, nghịch biến trên $(1;+\\infty)$."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Dấu của tam thức bậc hai",
+   "level": 2,
+   "stem": "Cho tam thức bậc hai $f(x)=2x^2-7x+3$.",
+   "statements": [
+    {
+     "t": "$f(x)$ có hai nghiệm là $\\dfrac{1}{2}$ và $3$.",
+     "a": true
+    },
+    {
+     "t": "$f(x)>0\\Leftrightarrow \\dfrac{1}{2}<x<3$.",
+     "a": false
+    },
+    {
+     "t": "Bất phương trình $f(x)\\le0$ có đúng $3$ nghiệm nguyên.",
+     "a": true
+    },
+    {
+     "t": "$f(x)\\ge-3$ với mọi $x\\in\\mathbb{R}$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $f(x)=(2x-1)(x-3)$. b) Sai: $a=2>0$ nên $f(x)>0\\Leftrightarrow x<\\dfrac{1}{2}$ hoặc $x>3$. c) Đúng: $f(x)\\le0\\Leftrightarrow \\dfrac{1}{2}\\le x\\le3$, có các nghiệm nguyên $1;2;3$. d) Sai: giá trị nhỏ nhất của $f$ là $f\\left(\\dfrac{7}{4}\\right)=-\\dfrac{25}{8}<-3$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Đường tròn trong mặt phẳng tọa độ",
+   "level": 3,
+   "stem": "Trong mặt phẳng $Oxy$, cho hai điểm $A(1;1)$, $B(5;3)$ và đường tròn $(C)$ có đường kính $AB$.",
+   "statements": [
+    {
+     "t": "Tâm của $(C)$ là $I(3;2)$.",
+     "a": true
+    },
+    {
+     "t": "Bán kính của $(C)$ bằng $2\\sqrt5$.",
+     "a": false
+    },
+    {
+     "t": "Phương trình của $(C)$ là $(x-3)^2+(y-2)^2=5$.",
+     "a": true
+    },
+    {
+     "t": "Tiếp tuyến của $(C)$ tại $A$ có phương trình $2x+y-3=0$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $I$ là trung điểm $AB$. b) Sai: $AB=\\sqrt{16+4}=2\\sqrt5$ nên $R=\\sqrt5$. c) Đúng. d) Đúng: tiếp tuyến tại $A$ nhận $\\overrightarrow{IA}=(-2;-1)$ làm vectơ pháp tuyến: $-2(x-1)-(y-1)=0\\Leftrightarrow 2x+y-3=0$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Phương trình đường thẳng",
+   "level": 3,
+   "stem": "Trong mặt phẳng $Oxy$, cho tam giác $ABC$ với $A(1;2)$, $B(4;-2)$, $C(-3;1)$.",
+   "statements": [
+    {
+     "t": "$AB=5$.",
+     "a": true
+    },
+    {
+     "t": "Đường thẳng $AB$ có một vectơ chỉ phương là $\\vec{u}=(4;3)$.",
+     "a": false
+    },
+    {
+     "t": "Khoảng cách từ $C$ đến đường thẳng $AB$ bằng $\\dfrac{19}{5}$.",
+     "a": true
+    },
+    {
+     "t": "Diện tích tam giác $ABC$ bằng $19$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $\\overrightarrow{AB}=(3;-4)$, $AB=5$. b) Sai: vectơ chỉ phương là $(3;-4)$; $(4;3)$ là vectơ pháp tuyến. c) Đúng: $AB:\\ 4x+3y-10=0$, $d(C,AB)=\\dfrac{|-12+3-10|}{5}=\\dfrac{19}{5}$. d) Sai: $S=\\dfrac12\\cdot5\\cdot\\dfrac{19}{5}=\\dfrac{19}{2}$."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số",
+   "level": 1,
+   "stem": "Cho hàm số $f(x)=2x^2-3x+1$. Tính $f(-2)$.",
+   "answer_text": "15",
+   "explanation": "$f(-2)=2\\cdot4+6+1=15$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Đường tròn trong mặt phẳng tọa độ",
+   "level": 1,
+   "stem": "Tính bán kính của đường tròn $x^2+y^2-4x+6y-3=0$.",
+   "answer_text": "4",
+   "explanation": "Tâm $I(2;-3)$, $R=\\sqrt{2^2+(-3)^2-(-3)}=\\sqrt{16}=4$."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Phương trình quy về phương trình bậc hai",
+   "level": 3,
+   "stem": "Giải phương trình $\\sqrt{x^2+2x+4}=2x-1$. Nhập nghiệm của phương trình (làm tròn đến hàng phần trăm).",
+   "answer_text": "2,41",
+   "explanation": "Điều kiện $x\\ge\\dfrac12$. Bình phương: $x^2+2x+4=4x^2-4x+1\\Leftrightarrow x^2-2x-1=0\\Leftrightarrow x=1\\pm\\sqrt2$. Chỉ $x=1+\\sqrt2\\approx2{,}41$ thỏa mãn."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Hàm số bậc hai",
+   "level": 2,
+   "stem": "Một quả bóng được ném lên từ độ cao $1{,}5$ m; độ cao của bóng (mét) sau $t$ giây là $h(t)=-4{,}9t^2+19{,}6t+1{,}5$. Tính độ cao lớn nhất (mét) mà quả bóng đạt được (làm tròn đến hàng phần mười).",
+   "answer_text": "21,1",
+   "explanation": "$h$ là hàm bậc hai có $a<0$, đạt giá trị lớn nhất tại $t=-\\dfrac{19{,}6}{2\\cdot(-4{,}9)}=2$. $h(2)=-19{,}6+39{,}2+1{,}5=21{,}1$ m."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "tk": "Toán|Hàm số bậc hai",
+   "topic": "Dấu của tam thức bậc hai",
+   "level": 3,
+   "stem": "Có bao nhiêu giá trị nguyên của tham số $m$ để $x^2-2(m-1)x+m+5>0$ với mọi $x\\in\\mathbb{R}$?",
+   "answer_text": "4",
+   "explanation": "Cần $\\Delta'=(m-1)^2-(m+5)=m^2-3m-4<0\\Leftrightarrow -1<m<4$. Các giá trị nguyên: $0;1;2;3$, có $4$ giá trị."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "tk": "Toán|Tọa độ trong mặt phẳng",
+   "topic": "Phương trình đường thẳng",
+   "level": 3,
+   "stem": "Trong mặt phẳng $Oxy$, cho hai điểm $A(2;3)$ và $B(6;1)$. Điểm $M$ thuộc trục hoành sao cho $MA+MB$ nhỏ nhất. Tìm hoành độ của $M$.",
+   "answer_text": "5",
+   "explanation": "$A$, $B$ cùng phía với $Ox$. Lấy $B'(6;-1)$ đối xứng với $B$ qua $Ox$; $MA+MB=MA+MB'\\ge AB'$, dấu bằng khi $M$ là giao của $AB'$ với $Ox$. $AB':\\ y=3-(x-2)$, cho $y=0$ được $x=5$."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập cả 22 câu; mọi câu tính toán (đỉnh, trục đối xứng, nghiệm, dấu tam thức, khoảng cách, tiêu cự, đường tròn, tiếp tuyến, diện tích, giá trị lớn nhất, đếm tham số nguyên, bài toán MA+MB nhỏ nhất) đã kiểm bằng Python/SymPy bằng assert; câu 22 kiểm thêm bằng cách dò số trên lưới."
+}

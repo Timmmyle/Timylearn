@@ -1,0 +1,647 @@
+{
+ "grade": 10,
+ "subject": "Tiếng Anh",
+ "exam": "ck2",
+ "duration_min": 60,
+ "title": "Đề ôn cuối học kì 2 – Tiếng Anh 10 (đề số 1)",
+ "scope": "Global Success 10: Unit 6 Gender equality; Unit 7 Viet Nam and international organisations; Unit 8 New ways to learn; trọng tâm Unit 9 Protecting the environment và Unit 10 Ecotourism (ngữ pháp: câu tường thuật, câu điều kiện loại 1 – 2; ôn bị động với động từ khuyết thiếu, so sánh, mệnh đề quan hệ)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "l$\\underline{\\text{o}}$cal",
+    "p$\\underline{\\text{o}}$llution",
+    "c$\\underline{\\text{o}}$ntrol",
+    "pr$\\underline{\\text{o}}$tect"
+   ],
+   "answer": 0,
+   "explanation": "“local” /ˈləʊkl/ có “o” đọc /əʊ/; “protect”, “pollution”, “control” có “o” đọc /ə/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "habitat$\\underline{\\text{s}}$",
+    "forest$\\underline{\\text{s}}$",
+    "animal$\\underline{\\text{s}}$",
+    "tourist$\\underline{\\text{s}}$"
+   ],
+   "answer": 2,
+   "explanation": "“animals” tận cùng âm hữu thanh /l/ → “-s” đọc /z/; “tourists”, “habitats”, “forests” tận cùng /t/ → đọc /s/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "nature",
+    "travel",
+    "pollute",
+    "tourism"
+   ],
+   "answer": 2,
+   "explanation": "“pollute” /pəˈluːt/ nhấn âm 2; “tourism”, “travel”, “nature” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "habitat",
+    "protection",
+    "important",
+    "pollution"
+   ],
+   "answer": 0,
+   "explanation": "“habitat” /ˈhæbɪtæt/ nhấn âm 1; “pollution”, “protection”, “important” nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Gender equality – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nWomen should not be ______ against when they apply for jobs.",
+   "options": [
+    "discriminating",
+    "discrimination",
+    "discriminated",
+    "discriminate"
+   ],
+   "answer": 2,
+   "explanation": "Bị động “be discriminated against” = bị phân biệt đối xử."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: Viet Nam and international organisations – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe United Nations works to maintain international peace and ______.",
+   "options": [
+    "security",
+    "secure",
+    "securely",
+    "insecure"
+   ],
+   "answer": 0,
+   "explanation": "Sau “peace and” cần danh từ song song: security (an ninh)."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: New ways to learn – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n______ learning combines traditional classroom lessons with online activities.",
+   "options": [
+    "Distance",
+    "Self",
+    "Blended",
+    "Home"
+   ],
+   "answer": 2,
+   "explanation": "“Blended learning” (học kết hợp) = kết hợp học trên lớp và học trực tuyến; “distance learning” là học từ xa."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Protecting the environment – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nCutting down forests destroys the natural ______ of many wild animals.",
+   "options": [
+    "habitats",
+    "habits",
+    "inhabited",
+    "inhabits"
+   ],
+   "answer": 0,
+   "explanation": "“natural habitat” = môi trường sống tự nhiên; “habits” = thói quen."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Protecting the environment – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nFactories must stop releasing chemicals that ______ rivers and lakes.",
+   "options": [
+    "pollutant",
+    "pollute",
+    "polluting",
+    "pollution"
+   ],
+   "answer": 1,
+   "explanation": "Sau đại từ quan hệ “that” (làm chủ ngữ) cần động từ chia: pollute (làm ô nhiễm)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Protecting the environment – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nGlobal warming is one of the most serious ______ problems today.",
+   "options": [
+    "environmental",
+    "environmentalist",
+    "environment",
+    "environmentally"
+   ],
+   "answer": 0,
+   "explanation": "Trước danh từ “problems” cần tính từ: environmental (thuộc về môi trường)."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10: Ecotourism – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n______ is a form of tourism that protects the environment and benefits local people.",
+   "options": [
+    "Space tourism",
+    "Mass tourism",
+    "Ecotourism",
+    "Medical tourism"
+   ],
+   "answer": 2,
+   "explanation": "Du lịch sinh thái (ecotourism) là loại hình bảo vệ môi trường và mang lại lợi ích cho người dân địa phương."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10: Ecotourism – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nThe tour was a great ______: we learnt a lot about the local culture and wildlife.",
+   "options": [
+    "expert",
+    "experiment",
+    "expertise",
+    "experience"
+   ],
+   "answer": 3,
+   "explanation": "“a great experience” = một trải nghiệm tuyệt vời; experiment = thí nghiệm, expertise = chuyên môn."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Passive voice with modal verbs",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nOld batteries ______ properly, not thrown away with household waste.",
+   "options": [
+    "should recycled",
+    "should be recycled",
+    "should be recycling",
+    "should recycle"
+   ],
+   "answer": 1,
+   "explanation": "Pin cũ “được tái chế” → should + be + V3: should be recycled."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|So sánh",
+   "topic": "Unit 7 – Grammar: Comparatives",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nEcotourism is becoming ______ popular among young people.",
+   "options": [
+    "the more",
+    "most and most",
+    "more than",
+    "more and more"
+   ],
+   "answer": 3,
+   "explanation": "So sánh lũy tiến với tính từ dài: more and more + adj (ngày càng…)."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Mệnh đề quan hệ",
+   "topic": "Unit 8 – Grammar: Relative clauses",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nCuc Phuong, ______ is Viet Nam's first national park, attracts many ecotourists every year.",
+   "options": [
+    "who",
+    "that",
+    "where",
+    "which"
+   ],
+   "answer": 3,
+   "explanation": "Mệnh đề quan hệ không xác định thay cho địa danh làm chủ ngữ → which; “where” không làm chủ ngữ, không dùng “that” sau dấu phẩy."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Unit 9 – Grammar: Reported speech",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nHe said that he ______ to the eco-camp the following week.",
+   "options": [
+    "goes",
+    "would go",
+    "will go",
+    "has gone"
+   ],
+   "answer": 1,
+   "explanation": "Động từ tường thuật ở quá khứ, “the following week” (← next week) → will lùi thành would."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Unit 9 – Grammar: Reported speech",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nThe students told me that they ______ trees in their school garden at that moment.",
+   "options": [
+    "plant",
+    "were planting",
+    "are planting",
+    "will plant"
+   ],
+   "answer": 1,
+   "explanation": "Lời nói trực tiếp ở hiện tại tiếp diễn (“now” → “at that moment”) → lùi thì thành quá khứ tiếp diễn: were planting."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Unit 10 – Grammar: Conditional sentences type 1",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nIf we ______ water, we will save money and protect the environment.",
+   "options": [
+    "save",
+    "saved",
+    "would save",
+    "will save"
+   ],
+   "answer": 0,
+   "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V → save."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Unit 10 – Grammar: Conditional sentences type 2",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nIf I ______ rich, I would travel to all the national parks in the world.",
+   "options": [
+    "am",
+    "had been",
+    "will be",
+    "were"
+   ],
+   "answer": 3,
+   "explanation": "Câu điều kiện loại 2 (giả định trái hiện tại): If + quá khứ đơn (“to be” dùng were), S + would + V."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Unit 10 – Grammar: Conditional sentences type 2",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nIf tourists ______ rubbish everywhere, the beaches would be much cleaner.",
+   "options": [
+    "hadn't thrown",
+    "don't throw",
+    "wouldn't throw",
+    "didn't throw"
+   ],
+   "answer": 3,
+   "explanation": "Mệnh đề chính “would be” → điều kiện loại 2, mệnh đề if dùng quá khứ đơn: didn't throw."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nHoa: “Would you like to join our tree-planting activity this Sunday?”\nNam: “______”",
+   "options": [
+    "Congratulations!",
+    "I'd love to. What time does it start?",
+    "No, I wouldn't.",
+    "Yes, I do."
+   ],
+   "answer": 1,
+   "explanation": "Nhận lời mời “Would you like to…?” → “I'd love to.”"
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 2,
+   "stem": "Choose the most suitable response to complete the exchange.\nMai: “What do you think about ecotourism?”\nPeter: “______”",
+   "options": [
+    "That's very kind of you.",
+    "Yes, I'd love to.",
+    "In my opinion, it helps protect nature and supports local people.",
+    "I've never been there."
+   ],
+   "answer": 2,
+   "explanation": "Câu hỏi xin ý kiến → trả lời bằng quan điểm “In my opinion, …”."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Mai: Where did you go?\nb. Nam: I went to Cat Tien National Park with my family.\nc. Mai: Did you have a nice weekend, Nam?\nd. Nam: Yes, it was fantastic.",
+   "options": [
+    "a – b – c – d",
+    "c – a – d – b",
+    "c – d – a – b",
+    "c – b – a – d"
+   ],
+   "answer": 2,
+   "explanation": "Mai hỏi cuối tuần thế nào (c) → Nam trả lời (d) → Mai hỏi đã đi đâu (a) → Nam kể đi Cát Tiên (b)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. Firstly, the smoke causes air pollution, which harms people's health.\nb. Therefore, people should sort their rubbish and recycle it instead.\nc. Burning rubbish is common in many rural areas, but it is very harmful.\nd. Secondly, it releases greenhouse gases that contribute to global warming.",
+   "options": [
+    "c – d – a – b",
+    "c – a – b – d",
+    "a – d – c – b",
+    "c – a – d – b"
+   ],
+   "answer": 3,
+   "explanation": "Câu chủ đề (c) → Firstly (a) → Secondly (d) → kết luận Therefore (b)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: Ecotourism)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nEcotourism is becoming more and more popular in Viet Nam. It is a form of travel that focuses on (25) ______ the environment and supporting local communities. Ecotourists usually visit natural areas such as national parks, forests and islands. They often stay in homestays (26) ______ are run by local families, and they enjoy local food. This helps local people earn money (27) ______ damaging nature. However, if too many tourists (28) ______ a place at the same time, the environment may be harmed. Therefore, tour operators should limit the number of visitors and (29) ______ them about the local culture and wildlife. If everyone (30) ______ responsibly, ecotourism would bring benefits to both nature and people.\n\nBlank (25):",
+   "options": [
+    "protecting",
+    "protect",
+    "protected",
+    "protection"
+   ],
+   "answer": 0,
+   "explanation": "Sau giới từ “on” dùng V-ing, song song với “supporting” → protecting."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: Ecotourism)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nEcotourism is becoming more and more popular in Viet Nam. It is a form of travel that focuses on (25) ______ the environment and supporting local communities. Ecotourists usually visit natural areas such as national parks, forests and islands. They often stay in homestays (26) ______ are run by local families, and they enjoy local food. This helps local people earn money (27) ______ damaging nature. However, if too many tourists (28) ______ a place at the same time, the environment may be harmed. Therefore, tour operators should limit the number of visitors and (29) ______ them about the local culture and wildlife. If everyone (30) ______ responsibly, ecotourism would bring benefits to both nature and people.\n\nBlank (26):",
+   "options": [
+    "which",
+    "what",
+    "where",
+    "who"
+   ],
+   "answer": 0,
+   "explanation": "Thay cho danh từ chỉ vật “homestays”, làm chủ ngữ của “are run” → which."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: Ecotourism)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nEcotourism is becoming more and more popular in Viet Nam. It is a form of travel that focuses on (25) ______ the environment and supporting local communities. Ecotourists usually visit natural areas such as national parks, forests and islands. They often stay in homestays (26) ______ are run by local families, and they enjoy local food. This helps local people earn money (27) ______ damaging nature. However, if too many tourists (28) ______ a place at the same time, the environment may be harmed. Therefore, tour operators should limit the number of visitors and (29) ______ them about the local culture and wildlife. If everyone (30) ______ responsibly, ecotourism would bring benefits to both nature and people.\n\nBlank (27):",
+   "options": [
+    "without",
+    "by",
+    "with",
+    "despite"
+   ],
+   "answer": 0,
+   "explanation": "Người dân kiếm tiền “mà không” làm hại thiên nhiên → without + V-ing."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: Ecotourism)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nEcotourism is becoming more and more popular in Viet Nam. It is a form of travel that focuses on (25) ______ the environment and supporting local communities. Ecotourists usually visit natural areas such as national parks, forests and islands. They often stay in homestays (26) ______ are run by local families, and they enjoy local food. This helps local people earn money (27) ______ damaging nature. However, if too many tourists (28) ______ a place at the same time, the environment may be harmed. Therefore, tour operators should limit the number of visitors and (29) ______ them about the local culture and wildlife. If everyone (30) ______ responsibly, ecotourism would bring benefits to both nature and people.\n\nBlank (28):",
+   "options": [
+    "would visit",
+    "will visit",
+    "visited",
+    "visit"
+   ],
+   "answer": 3,
+   "explanation": "Mệnh đề chính dùng “may be harmed” (khả năng có thật) → điều kiện loại 1: If + hiện tại đơn → visit."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: Ecotourism)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nEcotourism is becoming more and more popular in Viet Nam. It is a form of travel that focuses on (25) ______ the environment and supporting local communities. Ecotourists usually visit natural areas such as national parks, forests and islands. They often stay in homestays (26) ______ are run by local families, and they enjoy local food. This helps local people earn money (27) ______ damaging nature. However, if too many tourists (28) ______ a place at the same time, the environment may be harmed. Therefore, tour operators should limit the number of visitors and (29) ______ them about the local culture and wildlife. If everyone (30) ______ responsibly, ecotourism would bring benefits to both nature and people.\n\nBlank (29):",
+   "options": [
+    "educated",
+    "educating",
+    "educate",
+    "education"
+   ],
+   "answer": 2,
+   "explanation": "Song song với “limit” sau “should” → động từ nguyên mẫu: educate."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: Ecotourism)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nEcotourism is becoming more and more popular in Viet Nam. It is a form of travel that focuses on (25) ______ the environment and supporting local communities. Ecotourists usually visit natural areas such as national parks, forests and islands. They often stay in homestays (26) ______ are run by local families, and they enjoy local food. This helps local people earn money (27) ______ damaging nature. However, if too many tourists (28) ______ a place at the same time, the environment may be harmed. Therefore, tour operators should limit the number of visitors and (29) ______ them about the local culture and wildlife. If everyone (30) ______ responsibly, ecotourism would bring benefits to both nature and people.\n\nBlank (30):",
+   "options": [
+    "had travelled",
+    "travelled",
+    "will travel",
+    "travels"
+   ],
+   "answer": 1,
+   "explanation": "Mệnh đề chính “would bring” → điều kiện loại 2: If + quá khứ đơn → travelled."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Protecting the environment)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nPlastic is one of the most useful materials in the modern world. It is cheap, light and strong, so it is used to make almost everything, from bottles and bags to toys and computers. However, plastic has become a serious threat to the environment.\n\nEvery year, millions of tonnes of plastic waste end up in the oceans. Because plastic takes hundreds of years to break down, it stays in the environment for a very long time. Sea animals such as turtles and seabirds often mistake plastic bags for food. When they eat them, they may become sick or even die. In addition, plastic slowly breaks into tiny pieces called microplastics, which can enter the food chain and finally reach our dinner tables.\n\nMany countries have taken action to solve this problem. Some have banned single-use plastic bags, while others charge customers for each bag they use. In Viet Nam, some supermarkets have started wrapping vegetables in banana leaves instead of plastic.\n\nIndividuals can also make a difference. We can carry reusable bags and bottles, say no to plastic straws, and recycle plastic products whenever possible. If each person makes small changes in their daily habits, together we can greatly reduce plastic pollution and protect our planet for future generations.\n\nWhat is the passage mainly about?",
+   "options": [
+    "How supermarkets sell vegetables",
+    "Why plastic is cheap and useful",
+    "The history of plastic production",
+    "The problem of plastic pollution and ways to reduce it"
+   ],
+   "answer": 3,
+   "explanation": "Bài nêu tác hại của rác nhựa và các giải pháp của quốc gia, cá nhân."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Protecting the environment)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nPlastic is one of the most useful materials in the modern world. It is cheap, light and strong, so it is used to make almost everything, from bottles and bags to toys and computers. However, plastic has become a serious threat to the environment.\n\nEvery year, millions of tonnes of plastic waste end up in the oceans. Because plastic takes hundreds of years to break down, it stays in the environment for a very long time. Sea animals such as turtles and seabirds often mistake plastic bags for food. When they eat them, they may become sick or even die. In addition, plastic slowly breaks into tiny pieces called microplastics, which can enter the food chain and finally reach our dinner tables.\n\nMany countries have taken action to solve this problem. Some have banned single-use plastic bags, while others charge customers for each bag they use. In Viet Nam, some supermarkets have started wrapping vegetables in banana leaves instead of plastic.\n\nIndividuals can also make a difference. We can carry reusable bags and bottles, say no to plastic straws, and recycle plastic products whenever possible. If each person makes small changes in their daily habits, together we can greatly reduce plastic pollution and protect our planet for future generations.\n\nWhy does plastic stay in the environment for a very long time?",
+   "options": [
+    "Because it is cheap and light.",
+    "Because sea animals eat it.",
+    "Because it takes hundreds of years to break down.",
+    "Because people recycle it."
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 2: “Because plastic takes hundreds of years to break down, it stays in the environment for a very long time.”"
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Protecting the environment)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nPlastic is one of the most useful materials in the modern world. It is cheap, light and strong, so it is used to make almost everything, from bottles and bags to toys and computers. However, plastic has become a serious threat to the environment.\n\nEvery year, millions of tonnes of plastic waste end up in the oceans. Because plastic takes hundreds of years to break down, it stays in the environment for a very long time. Sea animals such as turtles and seabirds often mistake plastic bags for food. When they eat them, they may become sick or even die. In addition, plastic slowly breaks into tiny pieces called microplastics, which can enter the food chain and finally reach our dinner tables.\n\nMany countries have taken action to solve this problem. Some have banned single-use plastic bags, while others charge customers for each bag they use. In Viet Nam, some supermarkets have started wrapping vegetables in banana leaves instead of plastic.\n\nIndividuals can also make a difference. We can carry reusable bags and bottles, say no to plastic straws, and recycle plastic products whenever possible. If each person makes small changes in their daily habits, together we can greatly reduce plastic pollution and protect our planet for future generations.\n\nThe word “threat” in paragraph 1 is closest in meaning to ______.",
+   "options": [
+    "solution",
+    "benefit",
+    "danger",
+    "material"
+   ],
+   "answer": 2,
+   "explanation": "“threat” = mối đe dọa, hiểm họa = danger."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Protecting the environment)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nPlastic is one of the most useful materials in the modern world. It is cheap, light and strong, so it is used to make almost everything, from bottles and bags to toys and computers. However, plastic has become a serious threat to the environment.\n\nEvery year, millions of tonnes of plastic waste end up in the oceans. Because plastic takes hundreds of years to break down, it stays in the environment for a very long time. Sea animals such as turtles and seabirds often mistake plastic bags for food. When they eat them, they may become sick or even die. In addition, plastic slowly breaks into tiny pieces called microplastics, which can enter the food chain and finally reach our dinner tables.\n\nMany countries have taken action to solve this problem. Some have banned single-use plastic bags, while others charge customers for each bag they use. In Viet Nam, some supermarkets have started wrapping vegetables in banana leaves instead of plastic.\n\nIndividuals can also make a difference. We can carry reusable bags and bottles, say no to plastic straws, and recycle plastic products whenever possible. If each person makes small changes in their daily habits, together we can greatly reduce plastic pollution and protect our planet for future generations.\n\nThe word “them” in paragraph 2 refers to ______.",
+   "options": [
+    "plastic bags",
+    "the oceans",
+    "seabirds",
+    "sea animals"
+   ],
+   "answer": 0,
+   "explanation": "“When they eat them” – “they” là động vật biển, “them” là thứ chúng ăn nhầm: plastic bags."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Protecting the environment)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nPlastic is one of the most useful materials in the modern world. It is cheap, light and strong, so it is used to make almost everything, from bottles and bags to toys and computers. However, plastic has become a serious threat to the environment.\n\nEvery year, millions of tonnes of plastic waste end up in the oceans. Because plastic takes hundreds of years to break down, it stays in the environment for a very long time. Sea animals such as turtles and seabirds often mistake plastic bags for food. When they eat them, they may become sick or even die. In addition, plastic slowly breaks into tiny pieces called microplastics, which can enter the food chain and finally reach our dinner tables.\n\nMany countries have taken action to solve this problem. Some have banned single-use plastic bags, while others charge customers for each bag they use. In Viet Nam, some supermarkets have started wrapping vegetables in banana leaves instead of plastic.\n\nIndividuals can also make a difference. We can carry reusable bags and bottles, say no to plastic straws, and recycle plastic products whenever possible. If each person makes small changes in their daily habits, together we can greatly reduce plastic pollution and protect our planet for future generations.\n\nWhich of the following is NOT mentioned as an action taken by countries or supermarkets?",
+   "options": [
+    "Wrapping vegetables in banana leaves",
+    "Charging customers for plastic bags",
+    "Banning single-use plastic bags",
+    "Burning plastic waste to produce energy"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 3 nêu cấm túi nilon dùng một lần, thu phí túi, gói rau bằng lá chuối; không nhắc đến đốt rác nhựa."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Protecting the environment)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nPlastic is one of the most useful materials in the modern world. It is cheap, light and strong, so it is used to make almost everything, from bottles and bags to toys and computers. However, plastic has become a serious threat to the environment.\n\nEvery year, millions of tonnes of plastic waste end up in the oceans. Because plastic takes hundreds of years to break down, it stays in the environment for a very long time. Sea animals such as turtles and seabirds often mistake plastic bags for food. When they eat them, they may become sick or even die. In addition, plastic slowly breaks into tiny pieces called microplastics, which can enter the food chain and finally reach our dinner tables.\n\nMany countries have taken action to solve this problem. Some have banned single-use plastic bags, while others charge customers for each bag they use. In Viet Nam, some supermarkets have started wrapping vegetables in banana leaves instead of plastic.\n\nIndividuals can also make a difference. We can carry reusable bags and bottles, say no to plastic straws, and recycle plastic products whenever possible. If each person makes small changes in their daily habits, together we can greatly reduce plastic pollution and protect our planet for future generations.\n\nWhich of the following can be inferred from the last paragraph?",
+   "options": [
+    "Recycling plastic is impossible.",
+    "Small personal changes can help solve the problem.",
+    "Plastic should never be used for any purpose.",
+    "Only governments can solve plastic pollution."
+   ],
+   "answer": 1,
+   "explanation": "Đoạn cuối: nếu mỗi người thay đổi thói quen nhỏ thì cùng nhau có thể giảm mạnh ô nhiễm nhựa."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Error identification – Reported speech",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nShe told me (A) that she (B) would join (C) the clean-up campaign (D) tomorrow.",
+   "options": [
+    "(A) that",
+    "(B) would join",
+    "(C) the clean-up campaign",
+    "(D) tomorrow"
+   ],
+   "answer": 3,
+   "explanation": "Trong câu tường thuật (động từ tường thuật ở quá khứ, đã lùi “will” → “would”), “tomorrow” phải đổi thành “the next day/ the following day”."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Error identification – Conditional sentences type 2",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nIf more people (A) chose ecotourism, nature (B) will be (C) better (D) protected.",
+   "options": [
+    "(A) chose",
+    "(B) will be",
+    "(C) better",
+    "(D) protected"
+   ],
+   "answer": 1,
+   "explanation": "Mệnh đề if ở quá khứ đơn (điều kiện loại 2) → mệnh đề chính dùng would + V: will be → would be."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Sentence transformation – Reported speech",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\n“I am reading a book about endangered animals,” Lan said.",
+   "options": [
+    "Lan said that she had read a book about endangered animals.",
+    "Lan said that she was reading a book about endangered animals.",
+    "Lan said that she is reading a book about endangered animals.",
+    "Lan said that I was reading a book about endangered animals."
+   ],
+   "answer": 1,
+   "explanation": "Đổi ngôi I → she, lùi thì hiện tại tiếp diễn → quá khứ tiếp diễn: was reading."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Sentence transformation – Conditional sentences type 2",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nWe don't have enough money, so we can't go on an eco-tour.",
+   "options": [
+    "If we didn't have enough money, we could go on an eco-tour.",
+    "If we had enough money, we could go on an eco-tour.",
+    "If we have enough money, we can go on an eco-tour.",
+    "If we had had enough money, we could go on an eco-tour."
+   ],
+   "answer": 1,
+   "explanation": "Sự thật ở hiện tại (không đủ tiền) → giả định trái hiện tại bằng điều kiện loại 2: If + quá khứ đơn, S + could + V; đổi phủ định thành khẳng định."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu; khoảng 60% số câu thuộc Unit 9–10 (từ vựng, ngữ pháp, đọc điền từ, đọc hiểu, tìm lỗi, viết lại câu). Kiểm tra phiên âm/trọng âm, mỗi câu chỉ có một đáp án đúng, độ dài đoạn đọc, JSON và phân bố đáp án bằng Python. Dữ kiện: Cúc Phương là vườn quốc gia đầu tiên của Việt Nam (1962); một số siêu thị ở Việt Nam dùng lá chuối gói rau từ 2019."
+}

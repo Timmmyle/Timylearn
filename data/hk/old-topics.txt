@@ -1,0 +1,81 @@
+"Toán","Mệnh đề – tập hợp",10,1,1
+"Toán","Hệ thức lượng trong tam giác",10,1,1
+"Toán","Vectơ",10,1,2
+"Toán","Hàm số bậc hai",10,2,1
+"Toán","Tọa độ trong mặt phẳng",10,2,1
+"Toán","Đại số tổ hợp",10,2,2
+"Toán","Xác suất",10,2,2
+"Toán","Lượng giác",11,1,1
+"Toán","Dãy số – cấp số",11,1,1
+"Toán","Quan hệ song song",11,1,2
+"Toán","Giới hạn",11,1,2
+"Toán","Mũ – logarit",11,2,1
+"Toán","Quan hệ vuông góc – thể tích",11,2,1
+"Toán","Đạo hàm",11,2,2
+"Toán","Ứng dụng đạo hàm",12,1,1
+"Toán","Vectơ trong không gian",12,1,2
+"Toán","Nguyên hàm – tích phân",12,2,1
+"Toán","Phương pháp tọa độ Oxyz",12,2,2
+"Toán","Xác suất có điều kiện",12,2,2
+"Vật lí","Động học",10,1,1
+"Vật lí","Động lực học",10,1,2
+"Vật lí","Năng lượng, công, công suất",10,2,1
+"Vật lí","Động lượng",10,2,1
+"Vật lí","Chuyển động tròn",10,2,2
+"Vật lí","Dao động",11,1,1
+"Vật lí","Sóng",11,1,2
+"Vật lí","Điện trường",11,2,1
+"Vật lí","Dòng điện, mạch điện",11,2,2
+"Vật lí","Vật lí nhiệt",12,1,1
+"Vật lí","Khí lí tưởng",12,1,2
+"Vật lí","Từ trường",12,2,1
+"Vật lí","Dòng điện xoay chiều",12,2,1
+"Vật lí","Hạt nhân",12,2,2
+"Hóa học","Cấu tạo nguyên tử",10,1,1
+"Hóa học","Mol (kiến thức nền)",10,1,1
+"Hóa học","Bảng tuần hoàn",10,1,1
+"Hóa học","Liên kết hóa học",10,1,2
+"Hóa học","Phản ứng oxi hóa – khử",10,2,1
+"Hóa học","Tốc độ phản ứng",10,2,1
+"Hóa học","Halogen",10,2,2
+"Hóa học","Cân bằng hóa học, pH",11,1,1
+"Hóa học","Nitrogen – sulfur",11,1,1
+"Hóa học","Đại cương hóa hữu cơ",11,1,2
+"Hóa học","Hydrocarbon",11,2,1
+"Hóa học","Alcohol – phenol",11,2,2
+"Hóa học","Carbonyl – carboxylic acid",11,2,2
+"Hóa học","Ester – lipid",12,1,1
+"Hóa học","Carbohydrate",12,1,1
+"Hóa học","Amine – amino acid",12,1,2
+"Hóa học","Polymer",12,1,2
+"Hóa học","Pin điện – điện phân",12,2,1
+"Hóa học","Đại cương kim loại",12,2,1
+"Hóa học","Kim loại nhóm IA, IIA",12,2,2
+"Sinh học","Cấu trúc tế bào",10,1,1
+"Sinh học","Trao đổi chất qua màng",10,1,2
+"Sinh học","Phân bào",10,2,1
+"Sinh học","Vi sinh vật và virus",10,2,2
+"Sinh học","Trao đổi chất ở thực vật",11,1,1
+"Sinh học","Trao đổi chất ở động vật",11,1,2
+"Sinh học","Cảm ứng",11,2,1
+"Sinh học","Sinh trưởng và phát triển",11,2,2
+"Sinh học","Sinh sản",11,2,2
+"Sinh học","Di truyền phân tử",12,1,1
+"Sinh học","Quy luật di truyền",12,1,2
+"Sinh học","Tiến hóa",12,2,1
+"Sinh học","Sinh thái",12,2,2
+"Ngữ văn","Trình bày bài đọc hiểu",0,0,1
+"Ngữ văn","Phương thức biểu đạt và thể loại",0,0,1
+"Ngữ văn","Biện pháp tu từ",0,0,1
+"Ngữ văn","Từ Hán Việt",0,0,1
+"Ngữ văn","Lỗi dùng từ, lỗi câu",0,0,1
+"Ngữ văn","Thành phần biệt lập, liên kết câu",0,0,2
+"Tiếng Anh","Phát âm, trọng âm",0,0,1
+"Tiếng Anh","Thì của động từ",0,0,1
+"Tiếng Anh","Câu bị động",0,0,1
+"Tiếng Anh","So sánh",0,0,1
+"Tiếng Anh","Câu điều kiện",0,0,2
+"Tiếng Anh","Mệnh đề quan hệ",0,0,2
+"Tiếng Anh","Câu tường thuật",0,0,2
+"Tiếng Anh","Từ vựng, collocation",0,0,1
+"Tiếng Anh","Đọc hiểu tiếng Anh",0,0,2

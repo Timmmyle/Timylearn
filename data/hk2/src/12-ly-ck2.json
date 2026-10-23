@@ -1,0 +1,439 @@
+{
+ "grade": 12,
+ "subject": "Vật lí",
+ "exam": "ck2",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 2 – Vật lí 12 (đề số 1)",
+ "scope": "Chương III Từ trường (lực từ, cảm ứng từ, từ thông, cảm ứng điện từ, máy phát điện xoay chiều, máy biến áp); Chương IV Vật lí hạt nhân (cấu trúc hạt nhân, độ hụt khối và năng lượng liên kết, phản ứng hạt nhân, phân hạch và nhiệt hạch, hiện tượng phóng xạ, định luật phóng xạ). Lấy $1\\ \\text{u} = 931{,}5$ MeV/c².",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Từ trường",
+   "topic": "Từ trường, đường sức từ",
+   "level": 1,
+   "stem": "Từ trường không tồn tại xung quanh",
+   "options": [
+    "một nam châm vĩnh cửu.",
+    "một dây dẫn mang dòng điện.",
+    "một điện tích đứng yên.",
+    "Trái Đất."
+   ],
+   "answer": 2,
+   "explanation": "Từ trường tồn tại xung quanh nam châm, dòng điện (điện tích chuyển động) và Trái Đất; điện tích đứng yên chỉ gây ra điện trường."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Từ trường",
+   "topic": "Hiện tượng cảm ứng điện từ",
+   "level": 2,
+   "stem": "Một khung dây dẫn kín đặt trong từ trường đều. Trường hợp nào sau đây trong khung xuất hiện dòng điện cảm ứng?",
+   "options": [
+    "Khung tịnh tiến trong từ trường đều, mặt khung luôn vuông góc với đường sức.",
+    "Khung đứng yên trong từ trường đều.",
+    "Khung quay quanh một trục song song với đường sức và vuông góc với mặt khung.",
+    "Khung quay đều quanh một trục nằm trong mặt phẳng khung và vuông góc với đường sức từ."
+   ],
+   "answer": 3,
+   "explanation": "Chỉ khi khung quay quanh trục vuông góc với đường sức thì góc giữa pháp tuyến và $\\vec{B}$ thay đổi, từ thông $\\Phi = BS\\cos\\alpha$ biến thiên nên có dòng cảm ứng. Các trường hợp còn lại $\\Phi$ không đổi."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Từ trường",
+   "topic": "Cảm ứng từ",
+   "level": 3,
+   "stem": "Một đoạn dây dẫn thẳng dài 10 cm mang dòng điện 3 A đặt vuông góc với đường sức của một từ trường đều thì chịu lực từ có độ lớn 0,06 N. Độ lớn cảm ứng từ là",
+   "options": [
+    "0,2 T.",
+    "0,018 T.",
+    "2 T.",
+    "0,02 T."
+   ],
+   "answer": 0,
+   "explanation": "$B = \\dfrac{F}{IL} = \\dfrac{0{,}06}{3\\cdot 0{,}1} = 0{,}2$ T."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện xoay chiều",
+   "topic": "Máy biến áp",
+   "level": 1,
+   "stem": "Máy biến áp là thiết bị",
+   "options": [
+    "biến đổi tần số của dòng điện xoay chiều.",
+    "biến đổi điện áp xoay chiều mà không làm thay đổi tần số.",
+    "biến đổi dòng điện xoay chiều thành dòng điện một chiều.",
+    "biến đổi điện áp một chiều."
+   ],
+   "answer": 1,
+   "explanation": "Máy biến áp hoạt động dựa trên cảm ứng điện từ, thay đổi điện áp xoay chiều nhưng giữ nguyên tần số; không hoạt động với điện áp một chiều."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện xoay chiều",
+   "topic": "Giá trị hiệu dụng",
+   "level": 2,
+   "stem": "Số chỉ của vôn kế xoay chiều khi đo điện áp xoay chiều cho biết",
+   "options": [
+    "giá trị cực đại của điện áp.",
+    "giá trị tức thời của điện áp.",
+    "giá trị trung bình của điện áp trong một chu kì.",
+    "giá trị hiệu dụng của điện áp."
+   ],
+   "answer": 3,
+   "explanation": "Các dụng cụ đo điện xoay chiều chỉ giá trị hiệu dụng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện xoay chiều",
+   "topic": "Máy phát điện xoay chiều",
+   "level": 3,
+   "stem": "Một máy phát điện xoay chiều một pha có rôto là nam châm gồm 2 cặp cực. Để suất điện động do máy tạo ra có tần số 50 Hz thì rôto phải quay với tốc độ",
+   "options": [
+    "25 vòng/phút.",
+    "3000 vòng/phút.",
+    "1500 vòng/phút.",
+    "100 vòng/phút."
+   ],
+   "answer": 2,
+   "explanation": "$f = pn \\Rightarrow n = \\dfrac{50}{2} = 25$ vòng/s $= 1500$ vòng/phút."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Từ trường",
+   "topic": "Từ thông",
+   "level": 2,
+   "stem": "Một khung dây phẳng đặt trong từ trường đều. Từ thông qua khung có độ lớn cực đại khi",
+   "options": [
+    "mặt phẳng khung vuông góc với đường sức từ.",
+    "mặt phẳng khung song song với đường sức từ.",
+    "mặt phẳng khung hợp với đường sức từ góc $45^\\circ$.",
+    "pháp tuyến của khung vuông góc với đường sức từ."
+   ],
+   "answer": 0,
+   "explanation": "$\\Phi = BS\\cos\\alpha$ cực đại khi $\\alpha = 0$: pháp tuyến song song $\\vec{B}$, tức mặt khung vuông góc với đường sức."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Cấu trúc hạt nhân",
+   "level": 1,
+   "stem": "Hạt nhân $^{A}_{Z}\\mathrm{X}$ được cấu tạo gồm",
+   "options": [
+    "$Z$ neutron và $A$ proton.",
+    "$Z$ proton và $(A - Z)$ neutron.",
+    "$Z$ proton và $A$ neutron.",
+    "$Z$ electron và $(A - Z)$ proton."
+   ],
+   "answer": 1,
+   "explanation": "$Z$ là số proton (nguyên tử số), $A$ là số khối = tổng số nucleon, nên số neutron là $A - Z$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Cấu trúc hạt nhân",
+   "level": 1,
+   "stem": "Các hạt nhân đồng vị là những hạt nhân có",
+   "options": [
+    "cùng số proton nhưng khác số neutron.",
+    "cùng số neutron nhưng khác số proton.",
+    "cùng số khối nhưng khác số proton.",
+    "cùng số nucleon và cùng số proton."
+   ],
+   "answer": 0,
+   "explanation": "Đồng vị: cùng $Z$ (cùng vị trí trong bảng tuần hoàn), khác số neutron nên khác số khối $A$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Lực hạt nhân",
+   "level": 1,
+   "stem": "Lực liên kết các nucleon trong hạt nhân với nhau",
+   "options": [
+    "là lực tĩnh điện.",
+    "là lực hấp dẫn.",
+    "là lực hút rất mạnh, có bán kính tác dụng rất ngắn (cỡ $10^{-15}$ m).",
+    "là lực từ, có bán kính tác dụng rất lớn."
+   ],
+   "answer": 2,
+   "explanation": "Lực hạt nhân là lực tương tác mạnh, không phải lực điện hay lực hấp dẫn, chỉ tác dụng trong phạm vi kích thước hạt nhân."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Cấu trúc hạt nhân",
+   "level": 2,
+   "stem": "Số neutron trong hạt nhân $^{238}_{92}\\mathrm{U}$ là",
+   "options": [
+    "92.",
+    "238.",
+    "330.",
+    "146."
+   ],
+   "answer": 3,
+   "explanation": "$N = A - Z = 238 - 92 = 146$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Năng lượng liên kết",
+   "level": 1,
+   "stem": "Đại lượng đặc trưng cho mức độ bền vững của hạt nhân là",
+   "options": [
+    "năng lượng liên kết.",
+    "năng lượng liên kết riêng.",
+    "số khối.",
+    "độ hụt khối."
+   ],
+   "answer": 1,
+   "explanation": "Năng lượng liên kết riêng $\\dfrac{W_{lk}}{A}$ càng lớn thì hạt nhân càng bền vững."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Năng lượng liên kết",
+   "level": 3,
+   "stem": "Cho khối lượng hạt nhân $^{4}_{2}\\mathrm{He}$ là 4,0015 u; khối lượng proton 1,0073 u; khối lượng neutron 1,0087 u. Năng lượng liên kết của hạt nhân $^{4}_{2}\\mathrm{He}$ xấp xỉ",
+   "options": [
+    "7,1 MeV.",
+    "28,4 MeV.",
+    "0,03 MeV.",
+    "3727 MeV."
+   ],
+   "answer": 1,
+   "explanation": "$\\Delta m = 2\\cdot 1{,}0073 + 2\\cdot 1{,}0087 - 4{,}0015 = 0{,}0305$ u; $W_{lk} = \\Delta m c^2 = 0{,}0305\\cdot 931{,}5 \\approx 28{,}4$ MeV."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Phản ứng hạt nhân",
+   "level": 2,
+   "stem": "Cho phản ứng hạt nhân $^{4}_{2}\\mathrm{He} + {}^{14}_{7}\\mathrm{N} \\to {}^{17}_{8}\\mathrm{O} + \\mathrm{X}$. Hạt X là",
+   "options": [
+    "neutron.",
+    "electron.",
+    "hạt $\\alpha$.",
+    "proton."
+   ],
+   "answer": 3,
+   "explanation": "Bảo toàn số khối: $4 + 14 = 17 + A \\Rightarrow A = 1$; bảo toàn điện tích: $2 + 7 = 8 + Z \\Rightarrow Z = 1$. X là $^{1}_{1}\\mathrm{H}$ (proton)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Hiện tượng phóng xạ",
+   "level": 1,
+   "stem": "Phát biểu nào sau đây về hiện tượng phóng xạ là đúng?",
+   "options": [
+    "Có thể làm chậm phóng xạ bằng cách hạ nhiệt độ của mẫu.",
+    "Phóng xạ chỉ xảy ra khi hạt nhân bị bắn phá bằng neutron.",
+    "Phóng xạ là quá trình tự phát, không phụ thuộc vào các tác động bên ngoài như nhiệt độ, áp suất.",
+    "Tốc độ phóng xạ tăng khi tăng áp suất."
+   ],
+   "answer": 2,
+   "explanation": "Phóng xạ là quá trình hạt nhân không bền tự phát biến đổi, hoàn toàn không chịu ảnh hưởng của điều kiện bên ngoài."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Hiện tượng phóng xạ",
+   "level": 2,
+   "stem": "Trong phóng xạ $\\beta^-$, so với hạt nhân mẹ thì hạt nhân con có",
+   "options": [
+    "số khối không đổi, số proton tăng 1.",
+    "số khối giảm 4, số proton giảm 2.",
+    "số khối không đổi, số proton giảm 1.",
+    "số khối giảm 1, số proton không đổi."
+   ],
+   "answer": 0,
+   "explanation": "Phóng xạ $\\beta^-$: $^{A}_{Z}\\mathrm{X} \\to {}^{A}_{Z+1}\\mathrm{Y} + {}^{0}_{-1}e + \\bar{\\nu}$ (một neutron biến thành proton)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Định luật phóng xạ",
+   "level": 3,
+   "stem": "Một chất phóng xạ có chu kì bán rã 8 ngày. Ban đầu có 80 g chất đó. Sau 24 ngày, khối lượng chất phóng xạ còn lại là",
+   "options": [
+    "26,7 g.",
+    "10 g.",
+    "20 g.",
+    "70 g."
+   ],
+   "answer": 1,
+   "explanation": "$m = m_0\\cdot 2^{-t/T} = 80\\cdot 2^{-3} = 10$ g."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Định luật phóng xạ",
+   "level": 3,
+   "stem": "Một mẫu chất phóng xạ $^{24}_{11}\\mathrm{Na}$ có chu kì bán rã 15 giờ, tại một thời điểm chứa $2\\cdot 10^{20}$ hạt nhân. Độ phóng xạ của mẫu tại thời điểm đó xấp xỉ",
+   "options": [
+    "$9{,}24\\cdot 10^{18}$ Bq.",
+    "$1{,}33\\cdot 10^{19}$ Bq.",
+    "$2{,}57\\cdot 10^{15}$ Bq.",
+    "$3{,}70\\cdot 10^{15}$ Bq."
+   ],
+   "answer": 2,
+   "explanation": "$\\lambda = \\dfrac{\\ln 2}{T} = \\dfrac{0{,}693}{15\\cdot 3600} \\approx 1{,}28\\cdot 10^{-5}$ s⁻¹; $H = \\lambda N \\approx 1{,}28\\cdot 10^{-5}\\cdot 2\\cdot 10^{20} \\approx 2{,}57\\cdot 10^{15}$ Bq."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Dòng điện xoay chiều",
+   "topic": "Máy phát điện xoay chiều",
+   "level": 3,
+   "stem": "Một khung dây dẫn phẳng gồm 100 vòng, mỗi vòng có diện tích 200 cm², quay đều với tốc độ 50 vòng/s quanh một trục nằm trong mặt phẳng khung và vuông góc với đường sức của một từ trường đều có cảm ứng từ 0,1 T.",
+   "statements": [
+    {
+     "t": "Suất điện động cảm ứng trong khung có tần số 50 Hz.",
+     "a": true
+    },
+    {
+     "t": "Từ thông cực đại qua một vòng dây là $2\\cdot 10^{-2}$ Wb.",
+     "a": false
+    },
+    {
+     "t": "Suất điện động cảm ứng cực đại trong khung xấp xỉ 62,8 V.",
+     "a": true
+    },
+    {
+     "t": "Suất điện động hiệu dụng trong khung xấp xỉ 62,8 V.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $f = n = 50$ Hz. b) Sai: $\\Phi_0 = BS = 0{,}1\\cdot 200\\cdot 10^{-4} = 2\\cdot 10^{-3}$ Wb. c) Đúng: $E_0 = NBS\\omega = 100\\cdot 0{,}1\\cdot 0{,}02\\cdot 2\\pi\\cdot 50 = 20\\pi \\approx 62{,}8$ V. d) Sai: $E = \\dfrac{E_0}{\\sqrt{2}} \\approx 44{,}4$ V."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Năng lượng liên kết",
+   "level": 3,
+   "stem": "Hạt nhân $^{56}_{26}\\mathrm{Fe}$ có khối lượng 55,9207 u. Cho khối lượng proton 1,0073 u, khối lượng neutron 1,0087 u, $1\\ \\text{u} = 931{,}5$ MeV/c².",
+   "statements": [
+    {
+     "t": "Hạt nhân $^{56}_{26}\\mathrm{Fe}$ có 26 proton và 30 neutron.",
+     "a": true
+    },
+    {
+     "t": "Độ hụt khối của hạt nhân $^{56}_{26}\\mathrm{Fe}$ xấp xỉ 0,53 u.",
+     "a": true
+    },
+    {
+     "t": "Năng lượng liên kết của hạt nhân $^{56}_{26}\\mathrm{Fe}$ xấp xỉ 49,4 MeV.",
+     "a": false
+    },
+    {
+     "t": "Năng lượng liên kết riêng của hạt nhân $^{56}_{26}\\mathrm{Fe}$ xấp xỉ 8,8 MeV/nucleon.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $Z = 26$, $N = 56 - 26 = 30$. b) Đúng: $\\Delta m = 26\\cdot 1{,}0073 + 30\\cdot 1{,}0087 - 55{,}9207 = 0{,}5301$ u. c) Sai: $W_{lk} = 0{,}5301\\cdot 931{,}5 \\approx 493{,}8$ MeV. d) Đúng: $\\dfrac{W_{lk}}{A} = \\dfrac{493{,}8}{56} \\approx 8{,}82$ MeV/nucleon."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Phản ứng hạt nhân",
+   "level": 2,
+   "stem": "Cho phản ứng hạt nhân $^{2}_{1}\\mathrm{H} + {}^{3}_{1}\\mathrm{H} \\to {}^{4}_{2}\\mathrm{He} + \\mathrm{X}$. Khối lượng các hạt: $m_{\\mathrm{H2}} = 2{,}0136$ u; $m_{\\mathrm{H3}} = 3{,}0155$ u; $m_{\\mathrm{He}} = 4{,}0015$ u; $m_{\\mathrm{X}} = 1{,}0087$ u; $1\\ \\text{u} = 931{,}5$ MeV/c².",
+   "statements": [
+    {
+     "t": "X là hạt neutron.",
+     "a": true
+    },
+    {
+     "t": "Đây là phản ứng phân hạch.",
+     "a": false
+    },
+    {
+     "t": "Phản ứng tỏa ra năng lượng xấp xỉ 17,6 MeV.",
+     "a": true
+    },
+    {
+     "t": "Tổng khối lượng các hạt sau phản ứng lớn hơn tổng khối lượng các hạt trước phản ứng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: bảo toàn số khối $2 + 3 = 4 + A \\Rightarrow A = 1$, bảo toàn điện tích $1 + 1 = 2 + Z \\Rightarrow Z = 0$: X là $^{1}_{0}n$. b) Sai: hai hạt nhân nhẹ kết hợp thành hạt nhân nặng hơn là phản ứng nhiệt hạch. c) Đúng: $\\Delta m = (2{,}0136 + 3{,}0155) - (4{,}0015 + 1{,}0087) = 0{,}0189$ u; $W = 0{,}0189\\cdot 931{,}5 \\approx 17{,}6$ MeV. d) Sai: phản ứng tỏa năng lượng nên khối lượng sau nhỏ hơn khối lượng trước."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Định luật phóng xạ",
+   "level": 2,
+   "stem": "Iodine $^{131}_{53}\\mathrm{I}$ là chất phóng xạ $\\beta^-$ được dùng trong y học, có chu kì bán rã 8 ngày. Xét một mẫu $^{131}_{53}\\mathrm{I}$ nguyên chất.",
+   "statements": [
+    {
+     "t": "Hạt nhân con tạo thành có 54 proton.",
+     "a": true
+    },
+    {
+     "t": "Sau 16 ngày, số hạt nhân $^{131}_{53}\\mathrm{I}$ còn lại bằng 25% số hạt nhân ban đầu.",
+     "a": true
+    },
+    {
+     "t": "Sau 24 ngày, số hạt nhân $^{131}_{53}\\mathrm{I}$ đã bị phân rã bằng 12,5% số hạt nhân ban đầu.",
+     "a": false
+    },
+    {
+     "t": "Sau 8 ngày, độ phóng xạ của mẫu tăng lên gấp đôi.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: phóng xạ $\\beta^-$ làm $Z$ tăng 1: $Z = 54$ ($^{131}_{54}\\mathrm{Xe}$). b) Đúng: $t = 2T$ nên $N = \\dfrac{N_0}{4}$. c) Sai: $t = 3T$, còn lại $\\dfrac{1}{8} = 12{,}5\\%$, đã phân rã $87{,}5\\%$. d) Sai: $H = \\lambda N$ giảm theo thời gian; sau 8 ngày độ phóng xạ giảm một nửa."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Cấu trúc hạt nhân",
+   "level": 1,
+   "stem": "Hạt nhân $^{27}_{13}\\mathrm{Al}$ có bao nhiêu neutron?",
+   "answer_text": "14",
+   "explanation": "$N = A - Z = 27 - 13 = 14$."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Định luật phóng xạ",
+   "level": 1,
+   "stem": "Sau khoảng thời gian bằng ba chu kì bán rã, số hạt nhân của một chất phóng xạ còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+   "answer_text": "12,5",
+   "explanation": "$\\dfrac{N}{N_0} = 2^{-3} = \\dfrac{1}{8} = 12{,}5\\%$."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Năng lượng liên kết",
+   "level": 3,
+   "stem": "Hạt nhân $^{12}_{6}\\mathrm{C}$ có khối lượng 11,9967 u. Cho khối lượng proton 1,0073 u, khối lượng neutron 1,0087 u, $1\\ \\text{u} = 931{,}5$ MeV/c². Năng lượng liên kết riêng của hạt nhân $^{12}_{6}\\mathrm{C}$ là bao nhiêu MeV/nucleon (làm tròn đến hàng phần trăm)?",
+   "answer_text": "7,71",
+   "explanation": "$\\Delta m = 6\\cdot 1{,}0073 + 6\\cdot 1{,}0087 - 11{,}9967 = 0{,}0993$ u; $W_{lk} = 0{,}0993\\cdot 931{,}5 \\approx 92{,}50$ MeV; $\\dfrac{W_{lk}}{A} = \\dfrac{92{,}50}{12} \\approx 7{,}71$ MeV/nucleon."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Hiện tượng phóng xạ",
+   "level": 2,
+   "stem": "Hạt nhân $^{232}_{90}\\mathrm{Th}$ sau một chuỗi phóng xạ $\\alpha$ và $\\beta^-$ biến đổi thành hạt nhân bền $^{208}_{82}\\mathrm{Pb}$. Trong chuỗi đó có bao nhiêu lần phóng xạ $\\alpha$?",
+   "answer_text": "6",
+   "explanation": "Phóng xạ $\\beta^-$ không làm đổi số khối, mỗi lần phóng xạ $\\alpha$ làm số khối giảm 4: số lần $\\alpha$ là $\\dfrac{232 - 208}{4} = 6$. (Kiểm tra điện tích: $90 - 2\\cdot 6 + x = 82 \\Rightarrow x = 4$ lần $\\beta^-$.)"
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Hạt nhân",
+   "topic": "Định luật phóng xạ",
+   "level": 3,
+   "stem": "Một mẫu chất phóng xạ nguyên chất ban đầu có khối lượng 200 g, chu kì bán rã 5 ngày. Sau 15 ngày, khối lượng chất phóng xạ đã bị phân rã là bao nhiêu gam?",
+   "answer_text": "175",
+   "explanation": "$t = 3T$: khối lượng còn lại $m = 200\\cdot 2^{-3} = 25$ g; khối lượng đã phân rã $\\Delta m = 200 - 25 = 175$ g."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Dòng điện xoay chiều",
+   "topic": "Máy biến áp",
+   "level": 3,
+   "stem": "Một máy biến áp lí tưởng có cuộn sơ cấp 1000 vòng, cuộn thứ cấp 50 vòng. Đặt vào cuộn sơ cấp điện áp xoay chiều có giá trị hiệu dụng 220 V; hai đầu cuộn thứ cấp nối với điện trở thuần $11\\ \\Omega$. Cường độ dòng điện hiệu dụng trong cuộn sơ cấp là bao nhiêu ampe?",
+   "answer_text": "0,05",
+   "explanation": "$U_2 = 220\\cdot\\dfrac{50}{1000} = 11$ V; $I_2 = \\dfrac{11}{11} = 1$ A; $I_1 = I_2\\dfrac{N_2}{N_1} = 1\\cdot\\dfrac{50}{1000} = 0{,}05$ A."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập toàn bộ 28 câu; mọi câu có tính toán (3, 6, 11, 13, 14, 17–28) được kiểm bằng Python (script dựng đề có assert giá trị). 19/28 câu thuộc chương IV Vật lí hạt nhân."
+}

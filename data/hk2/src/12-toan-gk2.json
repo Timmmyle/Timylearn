@@ -1,0 +1,371 @@
+{
+ "grade": 12,
+ "subject": "Toán",
+ "exam": "gk2",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 2 – Toán 12 (đề số 1)",
+ "scope": "Chương IV Nguyên hàm và tích phân (nguyên hàm, tích phân, ứng dụng hình học của tích phân: diện tích hình phẳng, thể tích khối tròn xoay; ứng dụng tính quãng đường)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "Họ tất cả các nguyên hàm của hàm số $f(x)=x^3$ là",
+   "options": [
+    "$\\dfrac{x^4}{4}+C$",
+    "$3x^2+C$",
+    "$x^4+C$",
+    "$\\dfrac{x^3}{3}+C$"
+   ],
+   "answer": 0,
+   "explanation": "$\\displaystyle\\int x^3\\,dx=\\dfrac{x^4}{4}+C$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "$\\displaystyle\\int\\cos x\\,dx$ bằng",
+   "options": [
+    "$-\\sin x+C$",
+    "$\\sin x+C$",
+    "$\\cos x+C$",
+    "$-\\cos x+C$"
+   ],
+   "answer": 1,
+   "explanation": "$(\\sin x)'=\\cos x$ nên $\\displaystyle\\int\\cos x\\,dx=\\sin x+C$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "Trên khoảng $(0;+\\infty)$, họ các nguyên hàm của hàm số $f(x)=\\dfrac1x$ là",
+   "options": [
+    "$\\dfrac{1}{x^2}+C$",
+    "$-\\dfrac{1}{x^2}+C$",
+    "$\\ln x+C$",
+    "$x\\ln x+C$"
+   ],
+   "answer": 2,
+   "explanation": "Trên $(0;+\\infty)$, $(\\ln x)'=\\dfrac1x$ nên $\\displaystyle\\int\\dfrac1x\\,dx=\\ln x+C$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 1,
+   "stem": "Cho hàm số $f(x)$ liên tục trên $[a;b]$ và $F(x)$ là một nguyên hàm của $f(x)$ trên đoạn đó. Khi đó $\\displaystyle\\int_a^b f(x)\\,dx$ bằng",
+   "options": [
+    "$F(a)-F(b)$",
+    "$F(b)+F(a)$",
+    "$f(b)-f(a)$",
+    "$F(b)-F(a)$"
+   ],
+   "answer": 3,
+   "explanation": "Theo định nghĩa tích phân (công thức Newton – Leibniz): $\\displaystyle\\int_a^b f(x)\\,dx=F(b)-F(a)$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tính chất của tích phân",
+   "level": 2,
+   "stem": "Biết $\\displaystyle\\int_0^2 f(x)\\,dx=3$ và $\\displaystyle\\int_0^2 g(x)\\,dx=-1$. Giá trị của $\\displaystyle\\int_0^2\\left[2f(x)-g(x)\\right]dx$ bằng",
+   "options": [
+    "$5$",
+    "$7$",
+    "$4$",
+    "$2$"
+   ],
+   "answer": 1,
+   "explanation": "$\\displaystyle\\int_0^2[2f(x)-g(x)]\\,dx=2\\cdot3-(-1)=7$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Giá trị của $\\displaystyle\\int_0^1(3x^2+2x)\\,dx$ bằng",
+   "options": [
+    "$2$",
+    "$5$",
+    "$1$",
+    "$3$"
+   ],
+   "answer": 0,
+   "explanation": "$\\displaystyle\\int_0^1(3x^2+2x)\\,dx=\\left.(x^3+x^2)\\right|_0^1=2$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm",
+   "level": 2,
+   "stem": "Biết $F(x)$ là một nguyên hàm của $f(x)=2x+1$ và $F(1)=5$. Khi đó $F(x)$ bằng",
+   "options": [
+    "$x^2+x+5$",
+    "$x^2+x-3$",
+    "$2x^2+x+2$",
+    "$x^2+x+3$"
+   ],
+   "answer": 3,
+   "explanation": "$F(x)=x^2+x+C$, $F(1)=2+C=5\\Rightarrow C=3$. Vậy $F(x)=x^2+x+3$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tính chất của tích phân",
+   "level": 1,
+   "stem": "Biết $\\displaystyle\\int_0^1 f(x)\\,dx=2$ và $\\displaystyle\\int_1^3 f(x)\\,dx=4$. Giá trị của $\\displaystyle\\int_0^3 f(x)\\,dx$ bằng",
+   "options": [
+    "$2$",
+    "$-2$",
+    "$6$",
+    "$8$"
+   ],
+   "answer": 2,
+   "explanation": "$\\displaystyle\\int_0^3 f=\\int_0^1 f+\\int_1^3 f=2+4=6$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính diện tích",
+   "level": 2,
+   "stem": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=x^2$, trục hoành và hai đường thẳng $x=0$, $x=3$ bằng",
+   "options": [
+    "$9$",
+    "$27$",
+    "$3$",
+    "$18$"
+   ],
+   "answer": 0,
+   "explanation": "$S=\\displaystyle\\int_0^3 x^2\\,dx=\\left.\\dfrac{x^3}{3}\\right|_0^3=9$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính diện tích",
+   "level": 1,
+   "stem": "Cho hai hàm số $y=f(x)$, $y=g(x)$ liên tục trên $[a;b]$. Diện tích $S$ của hình phẳng giới hạn bởi đồ thị hai hàm số đó và hai đường thẳng $x=a$, $x=b$ được tính theo công thức",
+   "options": [
+    "$S=\\displaystyle\\int_a^b\\left[f(x)-g(x)\\right]dx$",
+    "$S=\\pi\\displaystyle\\int_a^b\\left[f(x)-g(x)\\right]^2dx$",
+    "$S=\\displaystyle\\int_a^b\\left|f(x)-g(x)\\right|dx$",
+    "$S=\\pi\\displaystyle\\int_a^b\\left|f(x)-g(x)\\right|dx$"
+   ],
+   "answer": 2,
+   "explanation": "Công thức diện tích hình phẳng giữa hai đồ thị: $S=\\displaystyle\\int_a^b|f(x)-g(x)|\\,dx$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính thể tích",
+   "level": 2,
+   "stem": "Cho hình phẳng giới hạn bởi đồ thị hàm số $y=\\sqrt x$, trục hoành và đường thẳng $x=4$. Thể tích khối tròn xoay tạo thành khi quay hình phẳng đó quanh trục $Ox$ bằng",
+   "options": [
+    "$8$",
+    "$8\\pi$",
+    "$16\\pi$",
+    "$4\\pi$"
+   ],
+   "answer": 1,
+   "explanation": "$V=\\pi\\displaystyle\\int_0^4(\\sqrt x)^2dx=\\pi\\int_0^4x\\,dx=8\\pi$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 3,
+   "stem": "Biết $\\displaystyle\\int_1^2\\left(\\dfrac1x+2x\\right)dx=a\\ln2+b$ với $a$, $b$ là các số nguyên. Giá trị của $a+b$ bằng",
+   "options": [
+    "$5$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "answer": 3,
+   "explanation": "$\\displaystyle\\int_1^2\\left(\\dfrac1x+2x\\right)dx=\\left.(\\ln x+x^2)\\right|_1^2=\\ln2+3$. Vậy $a=1$, $b=3$, $a+b=4$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm và tích phân",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=3x^2-4x+1$.",
+   "statements": [
+    {
+     "t": "$\\displaystyle\\int f(x)\\,dx=x^3-2x^2+x+C$.",
+     "a": true
+    },
+    {
+     "t": "Nguyên hàm $F(x)$ của $f(x)$ thỏa mãn $F(1)=1$ là $F(x)=x^3-2x^2+x$.",
+     "a": false
+    },
+    {
+     "t": "$\\displaystyle\\int_0^1 f(x)\\,dx=1$.",
+     "a": false
+    },
+    {
+     "t": "$\\displaystyle\\int_0^2 f(x)\\,dx=2$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: với $F(x)=x^3-2x^2+x$ thì $F(1)=0$; nguyên hàm cần tìm là $x^3-2x^2+x+1$. c) Sai: $\\left.(x^3-2x^2+x)\\right|_0^1=0$. d) Đúng: $8-8+2=2$."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm và tích phân",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=e^x+\\sin x$.",
+   "statements": [
+    {
+     "t": "$\\displaystyle\\int f(x)\\,dx=e^x-\\cos x+C$.",
+     "a": true
+    },
+    {
+     "t": "$\\displaystyle\\int_0^{\\pi}f(x)\\,dx=e^{\\pi}-1$.",
+     "a": false
+    },
+    {
+     "t": "Nguyên hàm $F(x)$ của $f(x)$ thỏa mãn $F(0)=0$ là $F(x)=e^x-\\cos x$.",
+     "a": true
+    },
+    {
+     "t": "$\\displaystyle\\int_0^{\\frac{\\pi}{2}}f(x)\\,dx=e^{\\frac{\\pi}{2}}-1$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $\\left.(e^x-\\cos x)\\right|_0^{\\pi}=(e^{\\pi}+1)-(1-1)=e^{\\pi}+1$. c) Đúng: $e^0-\\cos0=0$. d) Sai: $\\left.(e^x-\\cos x)\\right|_0^{\\frac{\\pi}{2}}=e^{\\frac{\\pi}{2}}-0=e^{\\frac{\\pi}{2}}$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính diện tích",
+   "level": 3,
+   "stem": "Cho parabol $(P):\\ y=x^2-2x$ và đường thẳng $d:\\ y=x$. Gọi $S$ là diện tích hình phẳng giới hạn bởi $(P)$ và $d$.",
+   "statements": [
+    {
+     "t": "Hoành độ giao điểm của $(P)$ và $d$ là $x=0$ và $x=3$.",
+     "a": true
+    },
+    {
+     "t": "Với $0<x<3$ thì $x^2-2x>x$.",
+     "a": false
+    },
+    {
+     "t": "$S=\\displaystyle\\int_0^3(3x-x^2)\\,dx$.",
+     "a": true
+    },
+    {
+     "t": "$S=\\dfrac92$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $x^2-2x=x\\Leftrightarrow x^2-3x=0$. b) Sai: $x-(x^2-2x)=3x-x^2=x(3-x)>0$ trên $(0;3)$, tức đường thẳng nằm trên parabol. c) Đúng theo b. d) Đúng: $\\left.\\left(\\dfrac{3x^2}{2}-\\dfrac{x^3}{3}\\right)\\right|_0^3=\\dfrac{27}{2}-9=\\dfrac92$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân (quãng đường)",
+   "level": 3,
+   "stem": "Một ô tô đang chạy với vận tốc $20$ m/s thì người lái đạp phanh. Từ thời điểm đó, ô tô chuyển động chậm dần đều với vận tốc $v(t)=-5t+20$ (m/s), trong đó $t$ (giây) là thời gian tính từ lúc đạp phanh.",
+   "statements": [
+    {
+     "t": "Ô tô dừng hẳn sau $4$ giây kể từ lúc đạp phanh.",
+     "a": true
+    },
+    {
+     "t": "Quãng đường ô tô đi được từ lúc đạp phanh đến khi dừng là $\\displaystyle\\int_0^4(-5t+20)\\,dt$.",
+     "a": true
+    },
+    {
+     "t": "Quãng đường đó bằng $40$ m.",
+     "a": true
+    },
+    {
+     "t": "Trong giây cuối cùng trước khi dừng, ô tô đi được $5$ m.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $v(t)=0\\Leftrightarrow t=4$. b) Đúng: quãng đường là tích phân của vận tốc (vận tốc không âm). c) Đúng: $\\left.\\left(-\\dfrac{5t^2}{2}+20t\\right)\\right|_0^4=40$. d) Sai: $\\displaystyle\\int_3^4(-5t+20)\\,dt=40-37{,}5=2{,}5$ m."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 1,
+   "stem": "Tính $\\displaystyle\\int_0^2(2x+1)\\,dx$.",
+   "answer_text": "6",
+   "explanation": "$\\left.(x^2+x)\\right|_0^2=4+2=6$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 1,
+   "stem": "Biết $F(x)=x^3$ là một nguyên hàm của hàm số $f(x)$ trên $\\mathbb{R}$. Tính $\\displaystyle\\int_1^2 f(x)\\,dx$.",
+   "answer_text": "7",
+   "explanation": "$\\displaystyle\\int_1^2 f(x)\\,dx=F(2)-F(1)=8-1=7$."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Tính $\\displaystyle\\int_0^{\\ln2}e^{2x}\\,dx$ (viết kết quả dưới dạng số thập phân).",
+   "answer_text": "1,5",
+   "explanation": "$\\left.\\dfrac{e^{2x}}{2}\\right|_0^{\\ln2}=\\dfrac{4-1}{2}=1{,}5$."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính diện tích",
+   "level": 3,
+   "stem": "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=x^3-x$ và trục hoành (viết kết quả dưới dạng số thập phân).",
+   "answer_text": "0,5",
+   "explanation": "$x^3-x=0\\Leftrightarrow x\\in\\{-1;0;1\\}$. $S=\\displaystyle\\int_{-1}^0(x^3-x)\\,dx+\\int_0^1(x-x^3)\\,dx=\\dfrac14+\\dfrac14=0{,}5$."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính thể tích",
+   "level": 3,
+   "stem": "Cho hình phẳng giới hạn bởi parabol $y=2x-x^2$ và trục hoành. Tính thể tích khối tròn xoay tạo thành khi quay hình phẳng đó quanh trục $Ox$ (làm tròn đến hàng phần trăm).",
+   "answer_text": "3,35",
+   "explanation": "Giao với $Ox$ tại $x=0$, $x=2$. $V=\\pi\\displaystyle\\int_0^2(2x-x^2)^2dx=\\pi\\int_0^2(4x^2-4x^3+x^4)\\,dx=\\pi\\left(\\dfrac{32}{3}-16+\\dfrac{32}{5}\\right)=\\dfrac{16\\pi}{15}\\approx3{,}35$."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân (quãng đường)",
+   "level": 3,
+   "stem": "Một vật chuyển động thẳng với gia tốc $a(t)=6t$ (m/s²), $t$ tính bằng giây, và vận tốc ban đầu bằng $2$ m/s. Tính quãng đường (mét) vật đi được trong $3$ giây đầu.",
+   "answer_text": "33",
+   "explanation": "$v(t)=\\displaystyle\\int6t\\,dt=3t^2+C$, $v(0)=2\\Rightarrow v(t)=3t^2+2>0$. Quãng đường $\\displaystyle\\int_0^3(3t^2+2)\\,dt=27+6=33$ m."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập cả 22 câu; mọi nguyên hàm, tích phân, diện tích, thể tích và quãng đường đã kiểm bằng SymPy (integrate) bằng assert, kể cả các ý sai trong câu Đúng/Sai (đã tính giá trị đúng để chắc chắn ý đó sai)."
+}

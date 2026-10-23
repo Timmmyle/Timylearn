@@ -1,0 +1,467 @@
+{
+ "grade": 12,
+ "subject": "Sinh học",
+ "exam": "gk2",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 2 – Sinh học 12",
+ "scope": "Tiến hóa: bằng chứng tiến hóa, học thuyết Darwin, thuyết tiến hóa tổng hợp hiện đại và các nhân tố tiến hóa, loài và quá trình hình thành loài, phát sinh sự sống và lịch sử sinh giới",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 1,
+   "stem": "Cặp cơ quan nào sau đây là cơ quan tương đồng?",
+   "options": [
+    "Cánh dơi và tay người",
+    "Cánh chim và cánh bướm",
+    "Mang cá và mang tôm",
+    "Gai xương rồng và gai hoa hồng"
+   ],
+   "answer": 0,
+   "explanation": "Cánh dơi và tay người cùng nguồn gốc (chi trước của động vật có xương sống). Các cặp còn lại là cơ quan tương tự."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 1,
+   "stem": "Ở người, cơ quan nào sau đây là cơ quan thoái hóa?",
+   "options": [
+    "Tim",
+    "Ruột thừa",
+    "Gan",
+    "Dạ dày"
+   ],
+   "answer": 1,
+   "explanation": "Ruột thừa là vết tích của manh tràng phát triển ở động vật ăn cỏ, ở người không còn chức năng tiêu hóa đáng kể."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 2,
+   "stem": "Cơ quan tương tự (như cánh chim và cánh côn trùng) phản ánh",
+   "options": [
+    "sự tiến hóa phân li",
+    "nguồn gốc chung của các loài",
+    "sự tiến hóa đồng quy (hội tụ)",
+    "sự thoái hóa của cơ quan"
+   ],
+   "answer": 2,
+   "explanation": "Cơ quan tương tự khác nguồn gốc nhưng cùng chức năng, do sống trong điều kiện giống nhau → tiến hóa đồng quy."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 1,
+   "stem": "Mọi sinh vật đều dùng chung bộ mã di truyền và dùng khoảng 20 loại amino acid để cấu tạo protein. Đây là bằng chứng",
+   "options": [
+    "giải phẫu so sánh",
+    "hóa thạch",
+    "địa lí sinh vật học",
+    "sinh học phân tử"
+   ],
+   "answer": 3,
+   "explanation": "Sự giống nhau về DNA, mã di truyền, protein là bằng chứng sinh học phân tử về nguồn gốc chung."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Học thuyết Darwin",
+   "level": 1,
+   "stem": "Theo Darwin, nhân tố chính quy định chiều hướng và tốc độ biến đổi của sinh vật trong tự nhiên là",
+   "options": [
+    "biến dị cá thể",
+    "chọn lọc tự nhiên",
+    "ngoại cảnh thay đổi",
+    "tập quán hoạt động"
+   ],
+   "answer": 1,
+   "explanation": "Darwin cho rằng chọn lọc tự nhiên là nhân tố chính hình thành các đặc điểm thích nghi."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Thuyết tiến hóa tổng hợp hiện đại",
+   "level": 2,
+   "stem": "Theo thuyết tiến hóa tổng hợp hiện đại, đơn vị tiến hóa cơ sở là",
+   "options": [
+    "quần thể",
+    "cá thể",
+    "loài",
+    "quần xã"
+   ],
+   "answer": 0,
+   "explanation": "Quần thể là đơn vị nhỏ nhất có thể tiến hóa: có vốn gene đặc trưng, có thể biến đổi qua các thế hệ."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 1,
+   "stem": "Nhân tố tiến hóa cung cấp nguồn nguyên liệu sơ cấp cho quá trình tiến hóa là",
+   "options": [
+    "giao phối không ngẫu nhiên",
+    "phiêu bạt di truyền",
+    "chọn lọc tự nhiên",
+    "đột biến"
+   ],
+   "answer": 3,
+   "explanation": "Đột biến tạo allele mới (nguyên liệu sơ cấp); giao phối tạo biến dị tổ hợp (nguyên liệu thứ cấp)."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 2,
+   "stem": "Nhân tố làm thay đổi tần số allele một cách ngẫu nhiên, đột ngột, tác động mạnh ở quần thể có kích thước nhỏ là",
+   "options": [
+    "chọn lọc tự nhiên",
+    "đột biến",
+    "phiêu bạt di truyền",
+    "giao phối không ngẫu nhiên"
+   ],
+   "answer": 2,
+   "explanation": "Phiêu bạt di truyền (các yếu tố ngẫu nhiên) có thể loại bỏ hoặc cố định allele bất kể có lợi hay có hại, mạnh ở quần thể nhỏ."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 2,
+   "stem": "Giao phối không ngẫu nhiên (như tự thụ phấn, giao phối gần) làm",
+   "options": [
+    "thay đổi tần số allele theo một hướng xác định",
+    "xuất hiện allele mới trong quần thể",
+    "thay đổi thành phần kiểu gene theo hướng tăng đồng hợp, không làm thay đổi tần số allele",
+    "tăng tỉ lệ dị hợp tử qua các thế hệ"
+   ],
+   "answer": 2,
+   "explanation": "Tự phối, giao phối gần làm tăng đồng hợp, giảm dị hợp nhưng tần số allele không đổi."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 3,
+   "stem": "Chọn lọc tự nhiên đào thải allele trội có hại ra khỏi quần thể nhanh hơn so với allele lặn có hại vì",
+   "options": [
+    "allele trội có tần số đột biến thấp hơn",
+    "allele lặn không bao giờ biểu hiện ra kiểu hình",
+    "allele trội thường nằm trên nhiễm sắc thể giới tính",
+    "allele trội biểu hiện ra kiểu hình ngay cả ở trạng thái dị hợp"
+   ],
+   "answer": 3,
+   "explanation": "Allele trội có hại biểu hiện ở cả AA và Aa nên bị đào thải ngay; allele lặn có hại ẩn trong thể dị hợp nên khó bị loại hết."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Loài và cơ chế cách li",
+   "level": 1,
+   "stem": "Tiêu chuẩn quan trọng nhất để phân biệt hai loài sinh sản hữu tính theo khái niệm loài sinh học là",
+   "options": [
+    "cách li sinh sản",
+    "hình thái",
+    "khu phân bố",
+    "sinh lí – hóa sinh"
+   ],
+   "answer": 0,
+   "explanation": "Các loài sinh học cách li sinh sản với nhau: không giao phối hoặc giao phối tạo con bất thụ."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Loài và cơ chế cách li",
+   "level": 2,
+   "stem": "Ngựa giao phối với lừa sinh ra con la không có khả năng sinh sản. Đây là ví dụ về",
+   "options": [
+    "cách li tập tính",
+    "cách li sau hợp tử",
+    "cách li cơ học",
+    "cách li nơi ở"
+   ],
+   "answer": 1,
+   "explanation": "Hợp tử vẫn hình thành nhưng con lai bất thụ → cách li sau hợp tử."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Loài và cơ chế cách li",
+   "level": 2,
+   "stem": "Hai loài chim có tiếng hót và nghi thức ve vãn khác nhau nên không giao phối với nhau. Đây là dạng",
+   "options": [
+    "cách li sau hợp tử",
+    "cách li thời gian",
+    "cách li cơ học",
+    "cách li tập tính"
+   ],
+   "answer": 3,
+   "explanation": "Khác biệt về tập tính giao phối ngăn cản giao phối → cách li tập tính (trước hợp tử)."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Quá trình hình thành loài",
+   "level": 3,
+   "stem": "Lai hai loài thực vật có bộ nhiễm sắc thể $2n_A$ và $2n_B$ tạo con lai bất thụ; con lai được đa bội hóa thành thể song nhị bội hữu thụ, cách li sinh sản với hai loài bố mẹ. Đây là con đường hình thành loài",
+   "options": [
+    "khác khu vực địa lí",
+    "bằng cách li tập tính",
+    "cùng khu vực bằng lai xa và đa bội hóa",
+    "bằng cách li sinh thái"
+   ],
+   "answer": 2,
+   "explanation": "Thể song nhị bội có bộ NST $2n_A + 2n_B$, hữu thụ và cách li với hai loài gốc ngay trong cùng khu vực → hình thành loài bằng lai xa và đa bội hóa."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Quá trình hình thành loài",
+   "level": 2,
+   "stem": "Trong hình thành loài khác khu vực địa lí, cách li địa lí có vai trò",
+   "options": [
+    "trực tiếp gây ra các biến đổi tương ứng trên cơ thể sinh vật",
+    "ngăn cản trao đổi vốn gene giữa các quần thể, góp phần duy trì sự khác biệt vốn gene",
+    "tạo ra các allele mới trong quần thể",
+    "làm tăng tần số allele có lợi"
+   ],
+   "answer": 1,
+   "explanation": "Cách li địa lí không tạo biến dị mà ngăn dòng gene, giúp các nhân tố tiến hóa phân hóa vốn gene các quần thể."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Phát sinh sự sống",
+   "level": 1,
+   "stem": "Kết quả của giai đoạn tiến hóa hóa học là",
+   "options": [
+    "hình thành các chất hữu cơ từ các chất vô cơ",
+    "hình thành các tế bào sơ khai",
+    "hình thành các loài sinh vật nhân thực",
+    "hình thành loài người"
+   ],
+   "answer": 0,
+   "explanation": "Tiến hóa hóa học: từ chất vô cơ hình thành các phân tử hữu cơ đơn giản rồi đại phân tử."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Lịch sử phát triển của sinh giới",
+   "level": 2,
+   "stem": "Bò sát cổ (khủng long) phát triển mạnh và ngự trị trên Trái Đất ở đại",
+   "options": [
+    "Trung sinh",
+    "Cổ sinh",
+    "Tân sinh",
+    "Nguyên sinh"
+   ],
+   "answer": 0,
+   "explanation": "Đại Trung sinh là thời đại của bò sát khổng lồ."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Phát sinh sự sống",
+   "level": 2,
+   "stem": "Thí nghiệm của Miller và Urey (1953) đã chứng minh",
+   "options": [
+    "sự sống trên Trái Đất có nguồn gốc từ vũ trụ",
+    "tế bào sống có thể tự hình thành trong nước biển",
+    "các hợp chất hữu cơ đơn giản như amino acid có thể được tổng hợp từ chất vô cơ trong điều kiện mô phỏng khí quyển nguyên thủy",
+    "DNA xuất hiện trước RNA trong quá trình tiến hóa"
+   ],
+   "answer": 2,
+   "explanation": "Phóng điện qua hỗn hợp khí CH₄, NH₃, H₂, hơi nước tạo được amino acid → ủng hộ giả thuyết tiến hóa hóa học."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 2,
+   "stem": "Xương chi trước của người, mèo, cá voi và dơi được sắp xếp theo cùng một kiểu cấu tạo, dù chúng thực hiện các chức năng khác nhau.",
+   "statements": [
+    {
+     "t": "Chi trước của các loài này là cơ quan tương đồng.",
+     "a": true
+    },
+    {
+     "t": "Các cơ quan này phản ánh sự tiến hóa phân li từ một tổ tiên chung.",
+     "a": true
+    },
+    {
+     "t": "Cánh dơi và cánh bướm là cơ quan tương đồng vì cùng thực hiện chức năng bay.",
+     "a": false
+    },
+    {
+     "t": "Bằng chứng giải phẫu so sánh là bằng chứng trực tiếp của quá trình tiến hóa.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: cánh dơi và cánh bướm khác nguồn gốc, là cơ quan tương tự. d) Sai: hóa thạch là bằng chứng trực tiếp; giải phẫu so sánh là bằng chứng gián tiếp."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 3,
+   "stem": "Một quần thể thực vật có tần số allele A là 0,6 và a là 0,4. Một trận lũ quét làm phần lớn cá thể chết, chỉ còn một nhóm nhỏ sống sót có tần số allele A là 0,2.",
+   "statements": [
+    {
+     "t": "Sự thay đổi tần số allele trên là kết quả của phiêu bạt di truyền.",
+     "a": true
+    },
+    {
+     "t": "Nhân tố này luôn loại bỏ allele có hại và giữ lại allele có lợi cho quần thể.",
+     "a": false
+    },
+    {
+     "t": "Quần thể có kích thước càng nhỏ thì tác động của phiêu bạt di truyền càng mạnh.",
+     "a": true
+    },
+    {
+     "t": "Nếu nhóm sống sót giao phối ngẫu nhiên, ở thế hệ con tỉ lệ kiểu gene aa là 0,64.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: phiêu bạt di truyền ngẫu nhiên, có thể loại bỏ cả allele có lợi. c) Đúng. d) Đúng: tần số a = 0,8; aa = $0{,}8^2 = 0{,}64$."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Quá trình hình thành loài",
+   "level": 2,
+   "stem": "Từ một loài chim sẻ ở đất liền di cư ra quần đảo, sau thời gian dài đã hình thành nhiều loài chim sẻ có hình dạng mỏ khác nhau, thích nghi với các loại thức ăn khác nhau trên từng đảo.",
+   "statements": [
+    {
+     "t": "Cách li địa lí giữa các đảo góp phần ngăn cản dòng gene giữa các quần thể.",
+     "a": true
+    },
+    {
+     "t": "Cách li địa lí trực tiếp gây ra những biến đổi hình dạng mỏ tương ứng.",
+     "a": false
+    },
+    {
+     "t": "Chọn lọc tự nhiên ở các đảo có nguồn thức ăn khác nhau làm phân hóa vốn gene của các quần thể.",
+     "a": true
+    },
+    {
+     "t": "Loài mới được hình thành khi xuất hiện cách li sinh sản với quần thể gốc.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: cách li địa lí không tạo ra biến dị; biến dị do đột biến và biến dị tổ hợp, chọn lọc tự nhiên giữ lại. c) Đúng. d) Đúng."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Phát sinh sự sống",
+   "level": 2,
+   "stem": "Quá trình phát sinh sự sống trên Trái Đất gồm các giai đoạn: tiến hóa hóa học, tiến hóa tiền sinh học và tiến hóa sinh học.",
+   "statements": [
+    {
+     "t": "Trong tiến hóa hóa học, các chất hữu cơ đơn giản được tạo ra từ chất vô cơ nhờ các nguồn năng lượng tự nhiên.",
+     "a": true
+    },
+    {
+     "t": "Nhiều bằng chứng cho thấy RNA có thể là phân tử tự nhân đôi xuất hiện trước DNA.",
+     "a": true
+    },
+    {
+     "t": "Kết quả của tiến hóa tiền sinh học là hình thành các tế bào sơ khai có màng bao bọc.",
+     "a": true
+    },
+    {
+     "t": "Ngày nay, sự sống vẫn đang tiếp tục được hình thành từ chất vô cơ theo con đường hóa học trong tự nhiên.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: RNA vừa mang thông tin di truyền vừa có hoạt tính xúc tác. c) Đúng. d) Sai: điều kiện hiện nay khác khí quyển nguyên thủy và chất hữu cơ tạo ra bên ngoài cơ thể sẽ bị vi sinh vật phân hủy."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Tiến hóa nhỏ",
+   "level": 1,
+   "stem": "Một quần thể có cấu trúc di truyền 0,36 AA : 0,48 Aa : 0,16 aa. Tính tần số allele A (làm tròn đến hàng phần mười).",
+   "answer_text": "0,6",
+   "explanation": "$p_A = 0{,}36 + \\dfrac{0{,}48}{2} = 0{,}6$."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 3,
+   "stem": "Một quần thể có tần số allele A là 0,6. Một nhóm cá thể nhập cư có tần số allele A là 0,9; sau nhập cư, số cá thể nhập cư chiếm 10% quần thể. Tính tần số allele A của quần thể sau nhập cư (làm tròn đến hàng phần trăm).",
+   "answer_text": "0,63",
+   "explanation": "$p' = 0{,}9 \\cdot 0{,}6 + 0{,}1 \\cdot 0{,}9 = 0{,}63$."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 3,
+   "stem": "Một quần thể có cấu trúc di truyền 0,25 AA : 0,50 Aa : 0,25 aa. Chọn lọc tự nhiên đào thải hoàn toàn các cá thể aa trước khi sinh sản. Tính tần số allele a trong nhóm cá thể còn lại (làm tròn đến hàng phần trăm).",
+   "answer_text": "0,33",
+   "explanation": "Còn lại 0,25 AA : 0,5 Aa (tổng 0,75). $q_a = \\dfrac{0{,}25}{0{,}75} = \\dfrac{1}{3} \\approx 0{,}33$."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 2,
+   "stem": "Một quần thể thực vật ban đầu gồm toàn cây Aa, tự thụ phấn bắt buộc qua 3 thế hệ. Tỉ lệ cây Aa ở thế hệ thứ 3 là bao nhiêu phần trăm?",
+   "answer_text": "12,5",
+   "explanation": "Sau n thế hệ tự thụ phấn, tỉ lệ Aa $= \\left(\\dfrac{1}{2}\\right)^3 = 0{,}125 = 12{,}5\\%$."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 3,
+   "stem": "Đồng vị $^{14}\\mathrm{C}$ có chu kì bán rã khoảng 5730 năm. Một mẫu hóa thạch còn lại $\\dfrac{1}{8}$ lượng $^{14}\\mathrm{C}$ so với ban đầu. Tuổi của mẫu hóa thạch là bao nhiêu nghìn năm (làm tròn đến hàng phần mười)?",
+   "answer_text": "17,2",
+   "explanation": "$\\dfrac{1}{8} = \\left(\\dfrac{1}{2}\\right)^3$ → trải qua 3 chu kì bán rã: $3 \\cdot 5730 = 17\\,190$ năm ≈ 17,2 nghìn năm."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 2,
+   "stem": "Cho các cặp cơ quan: (1) cánh dơi và tay người; (2) cánh chim và cánh bướm; (3) gai xương rồng và tua cuốn của cây đậu Hà Lan; (4) mang cá và mang tôm; (5) tuyến nọc độc của rắn và tuyến nước bọt của người; (6) chân chuột chũi và chân dế dũi. Có bao nhiêu cặp là cơ quan tương đồng?",
+   "answer_text": "3",
+   "explanation": "Tương đồng: (1), (3) (đều là lá biến dạng), (5). Các cặp (2), (4), (6) là cơ quan tương tự."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập 28 câu; kiểm bằng Python: câu 20d (0,64), 23 (0,6), 24 (0,63), 25 (0,33), 26 (12,5), 27 (17,2); đếm lại câu 28; tất cả thuộc chủ đề Tiến hóa."
+}

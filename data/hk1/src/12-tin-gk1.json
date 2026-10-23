@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "Tin học",
+ "exam": "gk1",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 1 – Tin học 12",
+ "scope": "Trí tuệ nhân tạo (khái niệm, đặc trưng, lĩnh vực, ứng dụng, cảnh báo); Kết nối mạng (thiết bị mạng, giao thức, địa chỉ IP, DNS, kết nối thiết bị)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Khái niệm trí tuệ nhân tạo",
+   "level": 1,
+   "stem": "Trí tuệ nhân tạo (AI) là",
+   "options": [
+    "khả năng của máy tính thực hiện những công việc mang tính trí tuệ của con người như học, suy luận, nhận thức, hiểu ngôn ngữ, giải quyết vấn đề",
+    "một loại phần cứng giúp máy tính chạy nhanh hơn",
+    "phần mềm chỉ dùng để tính toán số học",
+    "khả năng lưu trữ lượng dữ liệu rất lớn của máy tính"
+   ],
+   "answer": 0,
+   "explanation": "AI là lĩnh vực nghiên cứu tạo ra các hệ thống máy tính có khả năng thực hiện các nhiệm vụ đòi hỏi trí tuệ con người."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Đặc trưng của trí tuệ nhân tạo",
+   "level": 1,
+   "stem": "Khả năng nào sau đây là một đặc trưng của trí tuệ nhân tạo?",
+   "options": [
+    "Khả năng học từ dữ liệu, kinh nghiệm để cải thiện kết quả",
+    "Quạt tản nhiệt quay với tốc độ cao",
+    "Màn hình có độ phân giải cao",
+    "Ổ cứng có dung lượng lớn"
+   ],
+   "answer": 0,
+   "explanation": "Các đặc trưng của AI gồm khả năng học, suy luận, nhận thức, hiểu ngôn ngữ, giải quyết vấn đề; các phương án còn lại là đặc điểm phần cứng."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "AI hẹp và AI tổng quát",
+   "level": 1,
+   "stem": "Trí tuệ nhân tạo hẹp (AI yếu) là",
+   "options": [
+    "AI có khả năng tư duy tổng quát như con người trong mọi lĩnh vực",
+    "AI được thiết kế để thực hiện tốt một hoặc một số nhiệm vụ cụ thể",
+    "AI hoạt động không cần dữ liệu",
+    "robot có hình dáng giống con người"
+   ],
+   "answer": 1,
+   "explanation": "Các hệ thống AI hiện nay (nhận dạng khuôn mặt, dịch máy, trợ lí ảo…) đều là AI hẹp; AI tổng quát (AI mạnh) vẫn đang là mục tiêu nghiên cứu."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Ứng dụng của trí tuệ nhân tạo",
+   "level": 2,
+   "stem": "Ứng dụng nào sau đây KHÔNG sử dụng trí tuệ nhân tạo?",
+   "options": [
+    "Trợ lí ảo nhận lệnh bằng giọng nói",
+    "Phần mềm dịch tự động Google Dịch",
+    "Điện thoại mở khóa bằng nhận diện khuôn mặt",
+    "Máy tính bỏ túi thực hiện phép cộng hai số"
+   ],
+   "answer": 3,
+   "explanation": "Phép cộng trên máy tính bỏ túi là thuật toán cố định, không có yếu tố học, nhận thức; các phương án còn lại dùng nhận dạng tiếng nói, xử lí ngôn ngữ, thị giác máy tính."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Lĩnh vực của trí tuệ nhân tạo",
+   "level": 2,
+   "stem": "Xe tự lái nhận biết biển báo, vạch kẻ đường, người đi bộ từ hình ảnh camera chủ yếu nhờ lĩnh vực nào của AI?",
+   "options": [
+    "Xử lí ngôn ngữ tự nhiên",
+    "Thị giác máy tính",
+    "Nén dữ liệu",
+    "Soạn thảo văn bản"
+   ],
+   "answer": 1,
+   "explanation": "Thị giác máy tính giúp máy tính “hiểu” hình ảnh, video: phát hiện, nhận dạng đối tượng."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Lĩnh vực của trí tuệ nhân tạo",
+   "level": 2,
+   "stem": "Chatbot hiểu câu hỏi bằng tiếng Việt của người dùng và trả lời bằng câu văn tự nhiên chủ yếu nhờ lĩnh vực nào của AI?",
+   "options": [
+    "Thị giác máy tính",
+    "Robot công nghiệp",
+    "Đồ họa máy tính",
+    "Xử lí ngôn ngữ tự nhiên"
+   ],
+   "answer": 3,
+   "explanation": "Xử lí ngôn ngữ tự nhiên (NLP) giúp máy tính hiểu và tạo ra ngôn ngữ của con người."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Học máy",
+   "level": 1,
+   "stem": "Học máy (Machine Learning) là",
+   "options": [
+    "lĩnh vực của AI giúp máy tính tự học từ dữ liệu để cải thiện hiệu quả mà không cần lập trình tường minh từng bước",
+    "việc học sinh học lập trình trên máy tính",
+    "quá trình lắp ráp linh kiện máy tính",
+    "việc sao chép dữ liệu từ máy này sang máy khác"
+   ],
+   "answer": 0,
+   "explanation": "Học máy xây dựng mô hình từ dữ liệu; mô hình tốt dần lên khi có thêm dữ liệu."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Ứng dụng của trí tuệ nhân tạo",
+   "level": 1,
+   "stem": "Trong y tế, AI có thể được ứng dụng để",
+   "options": [
+    "thay thế hoàn toàn bác sĩ trong mọi quyết định điều trị",
+    "sản xuất thuốc mà không cần nghiên cứu",
+    "hỗ trợ phân tích ảnh X-quang, ảnh chụp CT để phát hiện sớm dấu hiệu bệnh",
+    "chữa mọi bệnh mà không cần dữ liệu bệnh nhân"
+   ],
+   "answer": 2,
+   "explanation": "AI hỗ trợ chẩn đoán hình ảnh, dự báo nguy cơ; quyết định cuối cùng vẫn thuộc về bác sĩ."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Cảnh báo về trí tuệ nhân tạo",
+   "level": 3,
+   "stem": "Trên mạng xuất hiện video một người nổi tiếng kêu gọi đầu tư vào một dự án, giọng nói và khuôn mặt rất giống thật nhưng không được đăng trên kênh chính thức của người đó. Nhận định hợp lí nhất là",
+   "options": [
+    "video chắc chắn là thật vì khuôn mặt và giọng nói giống hệt",
+    "nên chuyển tiền ngay để không bỏ lỡ cơ hội",
+    "nên chia sẻ thật nhanh để nhiều người cùng đầu tư",
+    "video có thể là sản phẩm deepfake do AI tạo ra, cần kiểm chứng qua kênh chính thức trước khi tin"
+   ],
+   "answer": 3,
+   "explanation": "AI tạo sinh có thể giả mạo hình ảnh, giọng nói (deepfake) để lừa đảo; cần xác minh nguồn tin chính thức."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Cảnh báo về trí tuệ nhân tạo",
+   "level": 3,
+   "stem": "Một hệ thống AI sàng lọc hồ sơ xin việc được huấn luyện chủ yếu bằng hồ sơ của nam giới, kết quả là thường chấm điểm thấp hồ sơ của nữ giới. Nguyên nhân chính là",
+   "options": [
+    "máy tính chạy hệ thống có tốc độ xử lí chậm",
+    "AI có ý thức và cố tình phân biệt đối xử",
+    "kết nối Internet của công ty không ổn định",
+    "dữ liệu huấn luyện thiếu đa dạng, mang thiên lệch"
+   ],
+   "answer": 3,
+   "explanation": "AI học từ dữ liệu; dữ liệu thiên lệch dẫn tới quyết định thiên lệch. Cần dữ liệu đa dạng và kiểm tra tính công bằng."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Cảnh báo về trí tuệ nhân tạo",
+   "level": 2,
+   "stem": "Phát biểu nào sau đây là một nguy cơ cần cảnh báo khi ứng dụng AI?",
+   "options": [
+    "Quyền riêng tư bị xâm phạm do AI thu thập, phân tích lượng lớn dữ liệu cá nhân",
+    "AI làm máy tính tiêu thụ ít điện năng hơn",
+    "AI giúp dịch văn bản nhanh hơn",
+    "AI giúp phát hiện sớm hư hỏng của máy móc"
+   ],
+   "answer": 0,
+   "explanation": "Các phương án còn lại là lợi ích; nguy cơ của AI gồm xâm phạm quyền riêng tư, deepfake, thiên lệch, ảnh hưởng việc làm…"
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Sử dụng AI có trách nhiệm",
+   "level": 3,
+   "stem": "Cách sử dụng chatbot AI trong học tập nào sau đây là phù hợp?",
+   "options": [
+    "Chép nguyên văn câu trả lời của chatbot để nộp bài vì AI luôn đúng",
+    "Nhập họ tên, số điện thoại, địa chỉ của bạn bè vào chatbot để nhờ phân tích",
+    "Dùng để gợi ý ý tưởng, giải thích khái niệm, sau đó tự kiểm chứng thông tin và tự hoàn thành bài làm",
+    "Nhờ chatbot làm bài kiểm tra thay mình trong giờ thi"
+   ],
+   "answer": 2,
+   "explanation": "Chatbot có thể sai (“ảo giác”); cần dùng như công cụ hỗ trợ, kiểm chứng thông tin, trung thực trong học tập và bảo vệ dữ liệu cá nhân."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Thiết bị mạng",
+   "level": 1,
+   "stem": "Thiết bị nào dùng để kết nối các mạng khác nhau (ví dụ mạng LAN gia đình với Internet) và chọn đường đi cho gói tin?",
+   "options": [
+    "Hub",
+    "Bộ định tuyến (Router)",
+    "Bộ chuyển mạch (Switch)",
+    "Loa máy tính"
+   ],
+   "answer": 1,
+   "explanation": "Router kết nối các mạng với nhau và định tuyến gói tin; Hub, Switch kết nối thiết bị trong cùng một mạng."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Thiết bị mạng",
+   "level": 1,
+   "stem": "Modem có chức năng",
+   "options": [
+    "hiển thị hình ảnh trang web",
+    "chuyển đổi tín hiệu số của máy tính thành tín hiệu truyền được trên đường truyền (cáp đồng, cáp quang…) và ngược lại",
+    "lưu trữ toàn bộ dữ liệu của Internet",
+    "in tài liệu qua mạng"
+   ],
+   "answer": 1,
+   "explanation": "Modem (điều chế – giải điều chế) chuyển đổi giữa tín hiệu số và tín hiệu trên đường truyền của nhà cung cấp dịch vụ."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Thiết bị mạng",
+   "level": 2,
+   "stem": "Điểm khác nhau giữa Switch và Hub là",
+   "options": [
+    "Hub chuyển dữ liệu đến đúng cổng có thiết bị nhận, còn Switch gửi ra tất cả các cổng",
+    "Switch dùng để phát Wi-Fi, Hub dùng để kết nối Internet",
+    "Hub có tốc độ và độ thông minh cao hơn Switch",
+    "Switch chuyển dữ liệu đến đúng cổng có thiết bị nhận, còn Hub gửi dữ liệu ra tất cả các cổng"
+   ],
+   "answer": 3,
+   "explanation": "Switch dựa vào địa chỉ MAC để chuyển khung dữ liệu tới đúng cổng, giảm xung đột; Hub chỉ khuếch đại và phát lại tín hiệu ra mọi cổng."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Thiết bị mạng",
+   "level": 1,
+   "stem": "Điểm truy cập không dây (Access Point) có chức năng",
+   "options": [
+    "chuyển đổi tên miền thành địa chỉ IP",
+    "cho phép các thiết bị không dây kết nối vào mạng thông qua sóng Wi-Fi",
+    "lưu trữ trang web",
+    "in tài liệu từ xa"
+   ],
+   "answer": 1,
+   "explanation": "Access Point phát sóng Wi-Fi, là cầu nối giữa thiết bị không dây và mạng có dây."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Giao thức mạng",
+   "level": 1,
+   "stem": "Giao thức mạng là",
+   "options": [
+    "một loại cáp mạng",
+    "phần mềm diệt virus trên mạng",
+    "tập hợp các quy tắc, quy ước để các thiết bị trao đổi dữ liệu với nhau qua mạng",
+    "tên của một trang web"
+   ],
+   "answer": 2,
+   "explanation": "Giao thức quy định khuôn dạng, cách gửi, nhận, xử lí dữ liệu, ví dụ TCP, IP, HTTP."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Địa chỉ IP",
+   "level": 2,
+   "stem": "Địa chỉ nào sau đây là một địa chỉ IPv4 hợp lệ?",
+   "options": [
+    "192.168.1.256",
+    "10.0.0",
+    "172.16.300.1",
+    "192.168.1.25"
+   ],
+   "answer": 3,
+   "explanation": "IPv4 gồm 4 số thập phân, mỗi số từ 0 đến 255, cách nhau bởi dấu chấm. 256 và 300 vượt quá 255; “10.0.0” chỉ có 3 số (đã kiểm bằng thư viện ipaddress của Python)."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Địa chỉ IP",
+   "level": 2,
+   "stem": "Một địa chỉ IPv4 có độ dài",
+   "options": [
+    "32 bit",
+    "48 bit",
+    "64 bit",
+    "128 bit"
+   ],
+   "answer": 0,
+   "explanation": "IPv4 dài 32 bit (4 byte); IPv6 dài 128 bit; địa chỉ MAC dài 48 bit."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Giao thức mạng",
+   "level": 2,
+   "stem": "Hệ thống phân giải tên miền (DNS) có chức năng",
+   "options": [
+    "mã hóa nội dung thư điện tử",
+    "chuyển đổi tên miền (ví dụ www.moet.gov.vn) thành địa chỉ IP tương ứng",
+    "cấp điện cho thiết bị mạng",
+    "nén dữ liệu trước khi gửi"
+   ],
+   "answer": 1,
+   "explanation": "Máy tính kết nối với nhau bằng địa chỉ IP; DNS giúp người dùng chỉ cần nhớ tên miền."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Giao thức mạng",
+   "level": 2,
+   "stem": "Giao thức TCP trong bộ giao thức TCP/IP có nhiệm vụ",
+   "options": [
+    "chia dữ liệu thành các gói, kiểm tra và yêu cầu gửi lại gói bị lỗi, mất để dữ liệu đến đích đầy đủ, đúng thứ tự",
+    "gán tên miền cho các trang web",
+    "phát sóng Wi-Fi cho thiết bị",
+    "hiển thị trang web trên trình duyệt"
+   ],
+   "answer": 0,
+   "explanation": "TCP đảm bảo truyền tin cậy; IP chịu trách nhiệm đánh địa chỉ và định tuyến gói tin."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Kết nối thiết bị",
+   "level": 3,
+   "stem": "Nhà Nam có modem quang (tích hợp Wi-Fi) đặt ở tầng 1. Nam muốn nối dây mạng cho 4 máy tính ở phòng làm việc tầng 3 và có Wi-Fi mạnh ở tầng 3, nhưng chỉ kéo được một sợi cáp mạng từ modem lên. Phương án hợp lí là",
+   "options": [
+    "thay modem quang bằng một hub đặt ở tầng 1",
+    "nối cả 4 máy tính vào cùng một đầu cáp mạng",
+    "nối sợi cáp vào một switch ở tầng 3 để cắm 4 máy tính, đồng thời nối thêm một access point vào switch để phát Wi-Fi",
+    "lắp thêm card âm thanh cho mỗi máy tính"
+   ],
+   "answer": 2,
+   "explanation": "Switch chia một đường mạng cho nhiều thiết bị có dây; access point phát Wi-Fi tại chỗ. Hub không thay được modem quang."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Giao thức mạng",
+   "level": 3,
+   "stem": "Máy tính của Lan vẫn kết nối Wi-Fi, gõ địa chỉ IP của một máy chủ web thì mở được trang, nhưng gõ tên miền của chính trang đó thì báo không tìm thấy. Nguyên nhân hợp lí nhất là",
+   "options": [
+    "card mạng của máy tính bị hỏng",
+    "máy tính chưa kết nối Wi-Fi",
+    "dịch vụ phân giải tên miền (DNS) gặp sự cố",
+    "màn hình máy tính bị hỏng"
+   ],
+   "answer": 2,
+   "explanation": "Truy cập bằng địa chỉ IP được chứng tỏ kết nối mạng vẫn tốt; chỉ bước đổi tên miền thành địa chỉ IP (DNS) bị lỗi."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Kết nối thiết bị",
+   "level": 2,
+   "stem": "Kết nối Bluetooth phù hợp nhất cho trường hợp nào sau đây?",
+   "options": [
+    "Truyền dữ liệu giữa hai văn phòng ở hai thành phố",
+    "Kết nối mạng LAN của trường với Internet",
+    "Kết nối tai nghe không dây với điện thoại ở khoảng cách gần",
+    "Truyền hình trực tiếp qua vệ tinh"
+   ],
+   "answer": 2,
+   "explanation": "Bluetooth là kết nối không dây tầm ngắn (thường vài mét đến vài chục mét), tiêu thụ ít năng lượng."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Ứng dụng của trí tuệ nhân tạo",
+   "level": 2,
+   "stem": "Trường của Hoa lắp camera thông minh ở cổng trường để nhận diện khuôn mặt học sinh, tự động điểm danh và gửi tin nhắn cho phụ huynh.",
+   "statements": [
+    {
+     "t": "Hệ thống sử dụng công nghệ thị giác máy tính.",
+     "a": true
+    },
+    {
+     "t": "Hệ thống luôn nhận diện chính xác 100% trong mọi điều kiện ánh sáng.",
+     "a": false
+    },
+    {
+     "t": "Ảnh khuôn mặt học sinh là dữ liệu cá nhân cần được bảo vệ.",
+     "a": true
+    },
+    {
+     "t": "Hệ thống này là một ví dụ về AI tổng quát (AI mạnh).",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: nhận diện khuôn mặt thuộc thị giác máy tính. b) Sai: AI có thể nhầm lẫn khi thiếu sáng, bị che mặt… c) Đúng: dữ liệu sinh trắc học là dữ liệu cá nhân nhạy cảm. d) Sai: hệ thống chỉ làm một nhiệm vụ cụ thể, là AI hẹp."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Sử dụng AI có trách nhiệm",
+   "level": 3,
+   "stem": "Minh hỏi một chatbot AI về năm sinh của một nhà khoa học và nhận được câu trả lời rất tự tin, kèm một “nguồn tham khảo”. Khi tra cứu lại, Minh không tìm thấy nguồn tham khảo đó.",
+   "statements": [
+    {
+     "t": "Chatbot AI có thể đưa ra thông tin sai nhưng trình bày rất thuyết phục.",
+     "a": true
+    },
+    {
+     "t": "Câu trả lời của chatbot là nguồn tin chính thống, không cần kiểm chứng.",
+     "a": false
+    },
+    {
+     "t": "Chatbot dựa trên mô hình học máy được huấn luyện từ lượng lớn dữ liệu văn bản.",
+     "a": true
+    },
+    {
+     "t": "Một chương trình chỉ trả lời theo vài câu hỏi có sẵn bằng các lệnh if cố định cũng có khả năng tự học như chatbot AI.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: hiện tượng “ảo giác” của AI tạo sinh. b) Sai: cần kiểm chứng ở nguồn đáng tin cậy. c) Đúng. d) Sai: chương trình rẽ nhánh cố định không học từ dữ liệu."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Thiết bị mạng",
+   "level": 3,
+   "stem": "Mạng của một gia đình: đường cáp quang của nhà mạng nối vào modem quang (tích hợp router và Wi-Fi); một cổng LAN của modem nối tới switch 8 cổng; switch nối với 3 máy tính để bàn và 1 máy in mạng; điện thoại, laptop kết nối Wi-Fi của modem.",
+   "statements": [
+    {
+     "t": "Ba máy tính để bàn và máy in mạng cùng thuộc mạng LAN của gia đình.",
+     "a": true
+    },
+    {
+     "t": "Nếu switch bị hỏng, điện thoại vẫn truy cập Internet qua Wi-Fi của modem.",
+     "a": true
+    },
+    {
+     "t": "Nếu cáp quang của nhà mạng bị đứt, các máy tính để bàn không thể in được qua máy in mạng.",
+     "a": false
+    },
+    {
+     "t": "Switch là thiết bị kết nối mạng gia đình với mạng của nhà cung cấp dịch vụ Internet.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: điện thoại kết nối trực tiếp modem, không qua switch. c) Sai: in qua mạng LAN không cần Internet. d) Sai: modem/router mới nối mạng gia đình với mạng của nhà cung cấp; switch chỉ kết nối thiết bị trong LAN."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Địa chỉ IP và giao thức",
+   "level": 2,
+   "stem": "Máy tính của Lan có địa chỉ IP 192.168.1.10. Lan gõ địa chỉ https://www.example.vn vào trình duyệt để mở một trang web.",
+   "statements": [
+    {
+     "t": "192.168.1.10 là địa chỉ IPv4 gồm 4 số, mỗi số nằm trong khoảng từ 0 đến 255.",
+     "a": true
+    },
+    {
+     "t": "Trước khi kết nối tới máy chủ, tên miền www.example.vn được DNS phân giải thành địa chỉ IP.",
+     "a": true
+    },
+    {
+     "t": "Giao thức HTTPS truyền dữ liệu giữa trình duyệt và máy chủ ở dạng không mã hóa.",
+     "a": false
+    },
+    {
+     "t": "Địa chỉ IPv4 của máy tính Lan có độ dài 128 bit.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: HTTPS là HTTP có mã hóa (SSL/TLS). d) Sai: IPv4 dài 32 bit; 128 bit là IPv6."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; tính hợp lệ các địa chỉ IPv4 kiểm bằng thư viện ipaddress của Python, số hàng/cột của bảng HTML và đoạn mã trang web kiểm bằng html.parser của Python; thiết bị mạng, giao thức, thẻ HTML đối chiếu SGK Tin học 12 KNTT."
+}

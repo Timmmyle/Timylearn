@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "Tin học",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – Tin học 11",
+ "scope": "Hệ điều hành và phần mềm ứng dụng; Khai thác thông tin số; Cơ sở dữ liệu (CSDL, bảng – bản ghi – trường, khóa chính, khóa ngoài, ràng buộc toàn vẹn, CSDL quan hệ, hệ QTCSDL, hệ CSDL)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Hệ điều hành",
+   "level": 1,
+   "stem": "Hệ điều hành Linux là",
+   "options": [
+    "phần mềm ứng dụng văn phòng",
+    "hệ điều hành thương mại của Microsoft",
+    "hệ điều hành nguồn mở",
+    "phần mềm chỉ chạy trên điện thoại"
+   ],
+   "answer": 2,
+   "explanation": "Linux là hệ điều hành nguồn mở, có nhiều bản phân phối như Ubuntu, Fedora…"
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm tiện ích",
+   "level": 1,
+   "stem": "Phần mềm diệt virus, phần mềm chống phân mảnh ổ đĩa thuộc nhóm",
+   "options": [
+    "phần mềm tiện ích",
+    "hệ điều hành",
+    "phần mềm soạn thảo văn bản",
+    "phần mềm thiết kế đồ họa"
+   ],
+   "answer": 0,
+   "explanation": "Phần mềm tiện ích hỗ trợ bảo vệ, bảo trì, tối ưu hệ thống máy tính."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Hệ điều hành",
+   "level": 2,
+   "stem": "Hệ điều hành đa nhiệm cho phép",
+   "options": [
+    "chỉ một chương trình được chạy tại mỗi thời điểm",
+    "chỉ một người dùng đăng nhập trong suốt thời gian sử dụng máy",
+    "máy tính hoạt động mà không cần bộ nhớ",
+    "nhiều chương trình được thực hiện đồng thời (luân phiên sử dụng CPU)"
+   ],
+   "answer": 3,
+   "explanation": "Hệ điều hành đa nhiệm phân chia thời gian CPU, bộ nhớ cho nhiều chương trình để chúng chạy đồng thời."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm chạy trên Internet",
+   "level": 2,
+   "stem": "So với phần mềm soạn thảo cài trên máy tính, Google Docs (phần mềm chạy trên Internet) có ưu điểm nổi bật là",
+   "options": [
+    "dùng được khi không có kết nối Internet",
+    "nhiều người có thể cùng chỉnh sửa một tài liệu trực tuyến tại cùng một thời điểm",
+    "không cần tài khoản để lưu tài liệu",
+    "chạy nhanh hơn trên mọi máy tính"
+   ],
+   "answer": 1,
+   "explanation": "Ứng dụng web lưu tài liệu trên máy chủ nên cho phép cộng tác thời gian thực từ nhiều thiết bị."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ điều hành và phần mềm ứng dụng",
+   "topic": "Phần mềm ứng dụng",
+   "level": 3,
+   "stem": "Sau khi cài một phần mềm tải từ trang web không chính thức, máy tính của Hà chạy chậm và liên tục hiện quảng cáo. Cách xử lí hợp lí nhất là",
+   "options": [
+    "gỡ bỏ phần mềm vừa cài qua phần cài đặt của hệ điều hành và quét máy bằng phần mềm diệt virus đã cập nhật",
+    "cài thêm nhiều phần mềm tăng tốc khác từ trang web đó",
+    "tắt phần mềm diệt virus để máy chạy nhanh hơn",
+    "xóa thư mục Windows để làm sạch máy"
+   ],
+   "answer": 0,
+   "explanation": "Phần mềm từ nguồn không tin cậy có thể kèm phần mềm quảng cáo, mã độc; cần gỡ bỏ, quét virus và chỉ tải phần mềm từ nguồn chính thức."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Lưu trữ và chia sẻ tệp trên Internet",
+   "level": 1,
+   "stem": "Để lưu trữ tệp và truy cập được từ nhiều thiết bị khác nhau ở bất kì đâu có Internet, nên dùng",
+   "options": [
+    "ổ đĩa cứng trong của máy tính ở nhà",
+    "bộ nhớ RAM",
+    "dịch vụ lưu trữ đám mây như Google Drive",
+    "một đĩa CD"
+   ],
+   "answer": 2,
+   "explanation": "Lưu trữ đám mây giữ tệp trên máy chủ, đồng bộ tới mọi thiết bị đăng nhập cùng tài khoản."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Tìm kiếm thông tin trên Internet",
+   "level": 2,
+   "stem": "Khi tìm kiếm với từ khóa: Python OR Java, kết quả là",
+   "options": [
+    "chỉ các trang chứa đồng thời cả hai từ",
+    "các trang chứa ít nhất một trong hai từ Python, Java",
+    "các trang không chứa từ nào trong hai từ",
+    "các trang chứa chính xác cụm “Python OR Java”"
+   ],
+   "answer": 1,
+   "explanation": "Toán tử OR (viết hoa) mở rộng kết quả tới trang chứa một trong các từ khóa."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Giao tiếp an toàn trên Internet",
+   "level": 2,
+   "stem": "Dấu hiệu nào sau đây thường gặp ở thư điện tử lừa đảo (phishing)?",
+   "options": [
+    "Giả danh tổ chức uy tín, thúc giục khẩn cấp và yêu cầu nhấn liên kết để nhập mật khẩu",
+    "Gửi từ địa chỉ của thầy cô quen biết, nội dung thông báo lịch học",
+    "Thư thông báo không kèm liên kết và không yêu cầu thông tin cá nhân",
+    "Thư có chữ kí đầy đủ của người gửi là bạn cùng lớp, nhắc nộp bài"
+   ],
+   "answer": 0,
+   "explanation": "Thư lừa đảo thường mạo danh, gây áp lực thời gian, dẫn tới trang giả để đánh cắp tài khoản."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Lưu trữ và chia sẻ tệp trên Internet",
+   "level": 2,
+   "stem": "Chủ sở hữu một thư mục Google Drive chia sẻ thư mục cho Bình với quyền Người chỉnh sửa. Bình có thể",
+   "options": [
+    "xóa tài khoản Google của chủ sở hữu",
+    "chỉ xem tên thư mục, không mở được tệp nào",
+    "thêm tệp mới và sửa các tệp trong thư mục",
+    "đổi mật khẩu tài khoản của chủ sở hữu"
+   ],
+   "answer": 2,
+   "explanation": "Người chỉnh sửa được xem, thêm, sửa nội dung trong thư mục; không can thiệp được vào tài khoản của chủ sở hữu."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Cơ sở dữ liệu",
+   "level": 1,
+   "stem": "Cơ sở dữ liệu là",
+   "options": [
+    "tập hợp các dữ liệu có liên quan với nhau, được lưu trữ có tổ chức trên thiết bị nhớ để đáp ứng nhu cầu khai thác thông tin của nhiều người",
+    "một phần mềm dùng để soạn thảo văn bản",
+    "một tệp văn bản bất kì trên máy tính",
+    "một thiết bị lưu trữ như ổ cứng, USB"
+   ],
+   "answer": 0,
+   "explanation": "CSDL là tập hợp dữ liệu liên quan, được tổ chức và lưu trữ để nhiều người dùng khai thác."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Hệ quản trị cơ sở dữ liệu",
+   "level": 1,
+   "stem": "Hệ quản trị cơ sở dữ liệu là",
+   "options": [
+    "tập hợp các bảng dữ liệu",
+    "người quản lí phòng máy tính",
+    "phần mềm cung cấp môi trường để tạo lập, cập nhật, lưu trữ và khai thác cơ sở dữ liệu",
+    "thiết bị phần cứng lưu dữ liệu"
+   ],
+   "answer": 2,
+   "explanation": "Hệ QTCSDL (như MySQL, SQL Server) là phần mềm giúp định nghĩa, cập nhật, truy xuất, bảo mật CSDL."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Hệ quản trị cơ sở dữ liệu",
+   "level": 1,
+   "stem": "Phần mềm nào sau đây là hệ quản trị cơ sở dữ liệu?",
+   "options": [
+    "MySQL",
+    "Microsoft Word",
+    "Inkscape",
+    "Google Chrome"
+   ],
+   "answer": 0,
+   "explanation": "MySQL là hệ quản trị CSDL quan hệ; Word là phần mềm soạn thảo, Inkscape là phần mềm đồ họa, Chrome là trình duyệt."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Bảng, bản ghi và trường",
+   "level": 1,
+   "stem": "Trong cơ sở dữ liệu quan hệ, mỗi hàng của một bảng được gọi là",
+   "options": [
+    "một trường",
+    "một khóa",
+    "một thuộc tính",
+    "một bản ghi"
+   ],
+   "answer": 3,
+   "explanation": "Mỗi hàng là một bản ghi (bộ), mỗi cột là một trường (thuộc tính)."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Khóa chính",
+   "level": 2,
+   "stem": "Khóa chính của một bảng là",
+   "options": [
+    "một trường hoặc một nhóm trường có giá trị xác định duy nhất mỗi bản ghi, không trùng và không để trống",
+    "luôn là trường đầu tiên của bảng",
+    "trường bắt buộc phải có kiểu số",
+    "trường có thể nhận giá trị trùng nhau giữa các bản ghi"
+   ],
+   "answer": 0,
+   "explanation": "Giá trị khóa chính phân biệt các bản ghi nên phải duy nhất và không rỗng; khóa chính không bắt buộc là trường đầu tiên hay kiểu số."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Khóa chính",
+   "level": 2,
+   "stem": "Cho bảng HOCSINH(MaHS, HoTen, NgaySinh, Lop). Trường nào thích hợp nhất để làm khóa chính?",
+   "options": [
+    "HoTen",
+    "NgaySinh",
+    "Lop",
+    "MaHS"
+   ],
+   "answer": 3,
+   "explanation": "Họ tên, ngày sinh, lớp đều có thể trùng giữa các học sinh; mã học sinh được cấp riêng cho mỗi người nên là duy nhất."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Khóa ngoài và liên kết bảng",
+   "level": 2,
+   "stem": "Cho hai bảng HOCSINH(MaHS, HoTen, Lop) với khóa chính MaHS và DIEM(MaHS, MaMon, Diem). Trong bảng DIEM, trường MaHS đóng vai trò",
+   "options": [
+    "khóa chính duy nhất của bảng DIEM",
+    "trường không có liên quan đến bảng HOCSINH",
+    "khóa chính của bảng HOCSINH",
+    "khóa ngoài, tham chiếu đến khóa chính MaHS của bảng HOCSINH"
+   ],
+   "answer": 3,
+   "explanation": "Khóa ngoài là trường của bảng này tham chiếu tới khóa chính của bảng khác, tạo liên kết giữa hai bảng."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Khóa chính",
+   "level": 3,
+   "stem": "Bảng DIEM(MaHS, MaMon, Diem) lưu điểm tổng kết, mỗi học sinh có đúng một điểm cho mỗi môn. Khóa chính phù hợp của bảng là",
+   "options": [
+    "chỉ trường MaHS",
+    "bộ hai trường {MaHS, MaMon}",
+    "chỉ trường MaMon",
+    "chỉ trường Diem"
+   ],
+   "answer": 1,
+   "explanation": "Một học sinh có nhiều môn (MaHS lặp lại), một môn có nhiều học sinh (MaMon lặp lại); chỉ cặp (MaHS, MaMon) là duy nhất."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Ràng buộc toàn vẹn",
+   "level": 3,
+   "stem": "Bảng DIEM có trường MaHS là khóa ngoài tham chiếu tới bảng HOCSINH. Ràng buộc khóa ngoài sẽ ngăn chặn thao tác nào sau đây?",
+   "options": [
+    "Thêm một học sinh mới vào bảng HOCSINH",
+    "Thêm vào bảng DIEM một bản ghi có MaHS chưa có trong bảng HOCSINH",
+    "Sửa điểm của một bản ghi trong bảng DIEM từ 7,0 thành 8,0",
+    "Thêm một học sinh có họ tên trùng với học sinh khác"
+   ],
+   "answer": 1,
+   "explanation": "Ràng buộc tham chiếu yêu cầu giá trị khóa ngoài phải tồn tại ở bảng được tham chiếu, tránh điểm “mồ côi” không thuộc học sinh nào."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Hệ cơ sở dữ liệu",
+   "level": 1,
+   "stem": "Một hệ cơ sở dữ liệu gồm",
+   "options": [
+    "chỉ gồm các bảng dữ liệu",
+    "máy tính và hệ điều hành",
+    "cơ sở dữ liệu và hệ quản trị cơ sở dữ liệu quản trị, khai thác cơ sở dữ liệu đó",
+    "hệ quản trị cơ sở dữ liệu và trình duyệt web"
+   ],
+   "answer": 2,
+   "explanation": "Hệ CSDL gồm CSDL, hệ QTCSDL (và có thể có các phần mềm ứng dụng) phục vụ quản lí, khai thác dữ liệu."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Dư thừa và nhất quán dữ liệu",
+   "level": 2,
+   "stem": "Nếu lưu mọi thông tin trong một bảng DIEM_HS(MaHS, HoTen, Lop, MaMon, Diem) thay vì tách thành hai bảng HOCSINH và DIEM thì dễ xảy ra",
+   "options": [
+    "mất khả năng lưu điểm số",
+    "dư thừa dữ liệu (họ tên, lớp lặp lại nhiều lần) và không nhất quán khi cập nhật",
+    "không thể tìm kiếm theo mã học sinh",
+    "dữ liệu được bảo mật tốt hơn"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi học sinh có nhiều điểm nên họ tên, lớp lặp lại; khi chuyển lớp phải sửa nhiều hàng, sửa thiếu sẽ gây mâu thuẫn."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Khai thác dữ liệu trong bảng",
+   "level": 3,
+   "stem": "Bảng SACH:\nMaSach | TenSach          | NamXB | SoLuong\nS01    | Tin học 11       | 2022  | 15\nS02    | Lập trình Python | 2019  | 5\nS03    | Cơ sở dữ liệu    | 2021  | 8\nS04    | Mạng máy tính    | 2023  | 3\nS05    | Thuật toán       | 2018  | 12\nCó bao nhiêu bản ghi thỏa mãn đồng thời NamXB ≥ 2020 và SoLuong < 10?",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "NamXB ≥ 2020: S01, S03, S04; trong đó SoLuong < 10: S03 (8), S04 (3). Vậy có 2 bản ghi (đã kiểm tra bằng Python)."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Cơ sở dữ liệu quan hệ",
+   "level": 2,
+   "stem": "Đặc điểm nào sau đây KHÔNG đúng với một bảng trong cơ sở dữ liệu quan hệ?",
+   "options": [
+    "Mỗi cột có một tên riêng, không trùng nhau",
+    "Các giá trị trong một cột có cùng kiểu dữ liệu",
+    "Hai bản ghi có thể giống nhau hoàn toàn ở mọi trường",
+    "Thứ tự các hàng không quan trọng"
+   ],
+   "answer": 2,
+   "explanation": "Trong bảng quan hệ không có hai bản ghi giống hệt nhau (mỗi bản ghi được phân biệt bởi khóa)."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Kiểu dữ liệu của trường",
+   "level": 3,
+   "stem": "Trường SoDienThoai lưu số điện thoại dạng 0912345678. Nên chọn kiểu dữ liệu nào cho trường này?",
+   "options": [
+    "Kiểu số nguyên",
+    "Kiểu văn bản (chuỗi kí tự)",
+    "Kiểu số thực",
+    "Kiểu ngày/giờ"
+   ],
+   "answer": 1,
+   "explanation": "Số điện thoại có chữ số 0 ở đầu (kiểu số sẽ làm mất) và không dùng để tính toán, nên lưu dạng chuỗi kí tự."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Hệ quản trị cơ sở dữ liệu",
+   "level": 2,
+   "stem": "Trong hệ thống quản lí điểm, giáo viên chỉ được nhập điểm môn mình dạy, học sinh chỉ được xem điểm của bản thân. Đây là thể hiện chức năng nào của hệ quản trị CSDL?",
+   "options": [
+    "Định nghĩa cấu trúc dữ liệu",
+    "Nén dữ liệu để tiết kiệm bộ nhớ",
+    "Sắp xếp dữ liệu theo thứ tự",
+    "Kiểm soát, điều khiển truy cập (phân quyền người dùng)"
+   ],
+   "answer": 3,
+   "explanation": "Hệ QTCSDL cung cấp cơ chế phân quyền, bảo mật để mỗi người dùng chỉ thực hiện các thao tác được cho phép."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Khai thác thông tin số",
+   "topic": "Lưu trữ và chia sẻ tệp trên Internet",
+   "level": 2,
+   "stem": "Nhóm 4 học sinh làm dự án trên Google Docs. Hà là chủ sở hữu tài liệu, chia sẻ quyền Người chỉnh sửa cho 3 bạn trong nhóm và gửi cô giáo liên kết với quyền Người xem.",
+   "statements": [
+    {
+     "t": "Ba bạn trong nhóm có thể cùng lúc chỉnh sửa tài liệu.",
+     "a": true
+    },
+    {
+     "t": "Cô giáo có thể sửa trực tiếp nội dung tài liệu.",
+     "a": false
+    },
+    {
+     "t": "Nhóm có thể xem lịch sử phiên bản để khôi phục nội dung cũ khi lỡ xóa.",
+     "a": true
+    },
+    {
+     "t": "Khi máy tính của Hà tắt, các bạn trong nhóm không mở được tài liệu.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Google Docs hỗ trợ cộng tác thời gian thực. b) Sai: Người xem không sửa được. c) Đúng: Google Docs lưu lịch sử phiên bản. d) Sai: tài liệu lưu trên máy chủ Google, không phụ thuộc máy của Hà."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Cơ sở dữ liệu quan hệ",
+   "level": 3,
+   "stem": "Cho CSDL quản lí điểm gồm hai bảng (khóa chính của HOCSINH là MaHS; trong DIEM, MaHS là khóa ngoài tham chiếu HOCSINH):\nBảng HOCSINH:\nMaHS | HoTen      | Lop\nHS01 | Nguyễn An  | 11A1\nHS02 | Trần Bình  | 11A2\nHS03 | Lê Chi     | 11A1\n\nBảng DIEM:\nMaHS | MaMon | Diem\nHS01 | TIN   | 8,5\nHS01 | TOAN  | 7,0\nHS02 | TIN   | 9,0\nHS03 | TIN   | 6,5",
+   "statements": [
+    {
+     "t": "Bảng DIEM có 4 bản ghi và 3 trường.",
+     "a": true
+    },
+    {
+     "t": "Có thể thêm vào bảng DIEM bản ghi (HS04, TIN, 8,0).",
+     "a": false
+    },
+    {
+     "t": "Trong các học sinh lớp 11A1, Nguyễn An có điểm môn TIN cao nhất.",
+     "a": true
+    },
+    {
+     "t": "Nếu khóa chính của bảng DIEM chỉ là MaHS thì dữ liệu hiện có vẫn hợp lệ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 4 hàng, 3 cột. b) Sai: HS04 không có trong HOCSINH nên vi phạm ràng buộc khóa ngoài. c) Đúng: lớp 11A1 gồm HS01 (TIN 8,5) và HS03 (TIN 6,5). d) Sai: HS01 xuất hiện hai lần trong DIEM, không thể là khóa chính (đã kiểm bằng Python)."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Hệ cơ sở dữ liệu",
+   "level": 2,
+   "stem": "Thư viện trường dùng một phần mềm quản lí thư viện chạy trên web; dữ liệu sách, bạn đọc, phiếu mượn được lưu trong MySQL trên máy chủ của trường. Thủ thư và học sinh truy cập phần mềm qua trình duyệt.",
+   "statements": [
+    {
+     "t": "MySQL trong tình huống trên là hệ quản trị cơ sở dữ liệu.",
+     "a": true
+    },
+    {
+     "t": "CSDL thư viện, MySQL và phần mềm quản lí thư viện cùng tạo thành một hệ cơ sở dữ liệu.",
+     "a": true
+    },
+    {
+     "t": "Học sinh muốn tra cứu sách bắt buộc phải tự viết câu lệnh truy vấn cho MySQL.",
+     "a": false
+    },
+    {
+     "t": "Không cần sao lưu định kì CSDL vì dữ liệu đã nằm trên máy chủ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: hệ CSDL gồm CSDL, hệ QTCSDL và phần mềm ứng dụng. c) Sai: phần mềm ứng dụng cung cấp giao diện tra cứu, người dùng không cần biết truy vấn. d) Sai: máy chủ vẫn có thể hỏng, bị tấn công; cần sao lưu định kì."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Cơ sở dữ liệu",
+   "topic": "Thiết kế bảng và khóa",
+   "level": 3,
+   "stem": "Thư viện cần quản lí ba bảng:\nSACH(MaSach, TenSach, TacGia) – khóa chính MaSach\nBANDOC(MaThe, HoTen, Lop) – khóa chính MaThe\nMUON(MaThe, MaSach, NgayMuon, NgayTra)\nMỗi bạn đọc có thể mượn nhiều sách, mỗi cuốn sách có thể được mượn nhiều lần.",
+   "statements": [
+    {
+     "t": "Trong bảng MUON, MaThe là khóa ngoài tham chiếu tới bảng BANDOC.",
+     "a": true
+    },
+    {
+     "t": "Riêng trường MaSach có thể làm khóa chính của bảng MUON.",
+     "a": false
+    },
+    {
+     "t": "Thêm trường TenSach vào bảng MUON sẽ gây dư thừa dữ liệu.",
+     "a": true
+    },
+    {
+     "t": "Mỗi bạn đọc chỉ có thể có tối đa một bản ghi trong bảng MUON.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: MaThe trong MUON tham chiếu khóa chính MaThe của BANDOC. b) Sai: một cuốn sách được mượn nhiều lần nên MaSach lặp lại. c) Đúng: TenSach đã có trong SACH, lấy được qua MaSach. d) Sai: bạn đọc mượn nhiều lần thì có nhiều bản ghi."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; câu đếm bản ghi thỏa điều kiện, câu Đúng/Sai về bảng HOCSINH–DIEM (điểm cao nhất, tính duy nhất của khóa) đã kiểm bằng Python; quyền chia sẻ Google Drive, toán tử tìm kiếm, CC/BCC đối chiếu với SGK Tin học 11 KNTT."
+}

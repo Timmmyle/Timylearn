@@ -1,0 +1,371 @@
+{
+ "grade": 12,
+ "subject": "Toán",
+ "exam": "ck2",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 2 – Toán 12 (đề số 1)",
+ "scope": "Chương IV Nguyên hàm và tích phân; Chương V Phương pháp tọa độ trong không gian (phương trình mặt phẳng, đường thẳng, mặt cầu; góc và khoảng cách); Chương VI Xác suất có điều kiện (công thức xác suất toàn phần, công thức Bayes)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "Họ tất cả các nguyên hàm của hàm số $f(x)=2x+3$ là",
+   "options": [
+    "$x^2+3x+C$",
+    "$2x^2+3x+C$",
+    "$x^2+C$",
+    "$2+C$"
+   ],
+   "answer": 0,
+   "explanation": "$\\displaystyle\\int(2x+3)\\,dx=x^2+3x+C$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "$\\displaystyle\\int\\sin x\\,dx$ bằng",
+   "options": [
+    "$\\cos x+C$",
+    "$-\\cos x+C$",
+    "$\\sin x+C$",
+    "$-\\sin x+C$"
+   ],
+   "answer": 1,
+   "explanation": "$(-\\cos x)'=\\sin x$ nên $\\displaystyle\\int\\sin x\\,dx=-\\cos x+C$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tính chất của tích phân",
+   "level": 1,
+   "stem": "Biết $\\displaystyle\\int_1^3 f(x)\\,dx=4$. Giá trị của $\\displaystyle\\int_1^3 3f(x)\\,dx$ bằng",
+   "options": [
+    "$7$",
+    "$\\dfrac43$",
+    "$12$",
+    "$1$"
+   ],
+   "answer": 2,
+   "explanation": "$\\displaystyle\\int_1^3 3f(x)\\,dx=3\\int_1^3 f(x)\\,dx=12$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Giá trị của $\\displaystyle\\int_0^1 e^x\\,dx$ bằng",
+   "options": [
+    "$e$",
+    "$e+1$",
+    "$1$",
+    "$e-1$"
+   ],
+   "answer": 3,
+   "explanation": "$\\left.e^x\\right|_0^1=e-1$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính diện tích",
+   "level": 2,
+   "stem": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=x^2-1$ và trục hoành bằng",
+   "options": [
+    "$-\\dfrac43$",
+    "$\\dfrac43$",
+    "$\\dfrac23$",
+    "$2$"
+   ],
+   "answer": 1,
+   "explanation": "Giao điểm với $Ox$: $x=\\pm1$. $S=\\displaystyle\\int_{-1}^1|x^2-1|\\,dx=\\int_{-1}^1(1-x^2)\\,dx=2-\\dfrac23=\\dfrac43$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Phương trình mặt phẳng",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt phẳng $(P):\\ 2x-y+3z-1=0$ có một vectơ pháp tuyến là",
+   "options": [
+    "$\\vec n=(2;-1;3)$",
+    "$\\vec n=(2;1;3)$",
+    "$\\vec n=(-1;3;-1)$",
+    "$\\vec n=(2;-1;-1)$"
+   ],
+   "answer": 0,
+   "explanation": "Mặt phẳng $ax+by+cz+d=0$ có vectơ pháp tuyến $(a;b;c)=(2;-1;3)$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Phương trình mặt cầu",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt cầu $(S):\\ (x-1)^2+(y+2)^2+z^2=9$ có tâm $I$ và bán kính $R$ là",
+   "options": [
+    "$I(-1;2;0),\\ R=3$",
+    "$I(1;-2;0),\\ R=9$",
+    "$I(-1;2;0),\\ R=9$",
+    "$I(1;-2;0),\\ R=3$"
+   ],
+   "answer": 3,
+   "explanation": "Tâm $I(1;-2;0)$, bán kính $R=\\sqrt9=3$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Phương trình đường thẳng trong không gian",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, đường thẳng $d:\\ \\dfrac{x-1}{2}=\\dfrac{y+1}{-1}=\\dfrac{z}{3}$ có một vectơ chỉ phương là",
+   "options": [
+    "$\\vec u=(1;-1;0)$",
+    "$\\vec u=(-1;1;0)$",
+    "$\\vec u=(2;-1;3)$",
+    "$\\vec u=(2;1;3)$"
+   ],
+   "answer": 2,
+   "explanation": "Phương trình chính tắc $\\dfrac{x-x_0}{a}=\\dfrac{y-y_0}{b}=\\dfrac{z-z_0}{c}$ có vectơ chỉ phương $(a;b;c)=(2;-1;3)$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Khoảng cách từ một điểm đến một mặt phẳng",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, khoảng cách từ điểm $M(1;2;-1)$ đến mặt phẳng $(P):\\ 2x+y-2z+3=0$ bằng",
+   "options": [
+    "$3$",
+    "$9$",
+    "$1$",
+    "$\\dfrac53$"
+   ],
+   "answer": 0,
+   "explanation": "$d=\\dfrac{|2\\cdot1+2-2\\cdot(-1)+3|}{\\sqrt{4+1+4}}=\\dfrac93=3$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Phương trình mặt phẳng",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, mặt phẳng đi qua điểm $A(1;0;2)$ và vuông góc với đường thẳng $d:\\ \\begin{cases}x=1+t\\\\y=2-2t\\\\z=3t\\end{cases}$ có phương trình là",
+   "options": [
+    "$x-2y+3z+7=0$",
+    "$x+2y+3z-7=0$",
+    "$x-2y+3z-7=0$",
+    "$x-2y+3z-1=0$"
+   ],
+   "answer": 2,
+   "explanation": "Mặt phẳng nhận vectơ chỉ phương $(1;-2;3)$ của $d$ làm vectơ pháp tuyến: $(x-1)-2y+3(z-2)=0\\Leftrightarrow x-2y+3z-7=0$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Toán|Xác suất có điều kiện",
+   "topic": "Xác suất có điều kiện",
+   "level": 1,
+   "stem": "Cho hai biến cố $A$, $B$ với $P(B)=0{,}5$ và $P(A\\cap B)=0{,}2$. Xác suất có điều kiện $P(A\\mid B)$ bằng",
+   "options": [
+    "$0{,}1$",
+    "$0{,}4$",
+    "$0{,}7$",
+    "$0{,}25$"
+   ],
+   "answer": 1,
+   "explanation": "$P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{0{,}2}{0{,}5}=0{,}4$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Toán|Xác suất có điều kiện",
+   "topic": "Công thức xác suất toàn phần",
+   "level": 3,
+   "stem": "Một nhà máy có hai phân xưởng. Phân xưởng I sản xuất $60\\%$ tổng số sản phẩm với tỉ lệ phế phẩm $2\\%$; phân xưởng II sản xuất $40\\%$ tổng số sản phẩm với tỉ lệ phế phẩm $3\\%$. Lấy ngẫu nhiên một sản phẩm của nhà máy. Xác suất để sản phẩm đó là phế phẩm bằng",
+   "options": [
+    "$0{,}05$",
+    "$0{,}025$",
+    "$0{,}012$",
+    "$0{,}024$"
+   ],
+   "answer": 3,
+   "explanation": "Công thức xác suất toàn phần: $P=0{,}6\\cdot0{,}02+0{,}4\\cdot0{,}03=0{,}012+0{,}012=0{,}024$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Nguyên hàm và tích phân",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=6x^2-2x$.",
+   "statements": [
+    {
+     "t": "$\\displaystyle\\int f(x)\\,dx=2x^3-x^2+C$.",
+     "a": true
+    },
+    {
+     "t": "Nguyên hàm $F(x)$ của $f(x)$ thỏa mãn $F(1)=3$ là $F(x)=2x^3-x^2+2$.",
+     "a": true
+    },
+    {
+     "t": "$\\displaystyle\\int_0^1 f(x)\\,dx=2$.",
+     "a": false
+    },
+    {
+     "t": "$\\displaystyle\\int_{-1}^1 f(x)\\,dx=4$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: $F(1)=2-1+2=3$. c) Sai: $\\left.(2x^3-x^2)\\right|_0^1=1$. d) Đúng: $(2-1)-(-2-1)=4$."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Phương trình mặt cầu",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, cho hai điểm $A(1;2;3)$, $B(3;0;1)$ và mặt phẳng $(P):\\ x+y+z-5=0$.",
+   "statements": [
+    {
+     "t": "Trung điểm của đoạn thẳng $AB$ là $I(2;1;2)$.",
+     "a": true
+    },
+    {
+     "t": "$AB=2\\sqrt3$.",
+     "a": true
+    },
+    {
+     "t": "Điểm $A$ thuộc mặt phẳng $(P)$.",
+     "a": false
+    },
+    {
+     "t": "Mặt cầu đường kính $AB$ có phương trình $(x-2)^2+(y-1)^2+(z-2)^2=3$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: $\\overrightarrow{AB}=(2;-2;-2)$, $AB=\\sqrt{12}=2\\sqrt3$. c) Sai: $1+2+3-5=1\\neq0$. d) Đúng: tâm $I(2;1;2)$, bán kính $R=\\dfrac{AB}{2}=\\sqrt3$."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Góc giữa đường thẳng và mặt phẳng",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, cho đường thẳng $d:\\ \\begin{cases}x=1+t\\\\y=2-t\\\\z=2t\\end{cases}$ và mặt phẳng $(P):\\ x+y+z-3=0$.",
+   "statements": [
+    {
+     "t": "Đường thẳng $d$ đi qua điểm $M(1;2;0)$.",
+     "a": true
+    },
+    {
+     "t": "Đường thẳng $d$ vuông góc với mặt phẳng $(P)$.",
+     "a": false
+    },
+    {
+     "t": "Đường thẳng $d$ cắt mặt phẳng $(P)$ tại điểm $M(1;2;0)$.",
+     "a": true
+    },
+    {
+     "t": "Gọi $\\alpha$ là góc giữa $d$ và $(P)$, khi đó $\\sin\\alpha=\\dfrac{\\sqrt2}{3}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: ứng với $t=0$. b) Sai: $\\vec u=(1;-1;2)$ không cùng phương với $\\vec n=(1;1;1)$. c) Đúng: thay vào $(P)$: $(1+t)+(2-t)+2t-3=2t=0\\Leftrightarrow t=0$. d) Đúng: $\\sin\\alpha=\\dfrac{|1-1+2|}{\\sqrt6\\cdot\\sqrt3}=\\dfrac{2}{3\\sqrt2}=\\dfrac{\\sqrt2}{3}$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "tk": "Toán|Xác suất có điều kiện",
+   "topic": "Công thức Bayes",
+   "level": 3,
+   "stem": "Tỉ lệ người mắc một bệnh trong cộng đồng là $2\\%$. Một xét nghiệm cho kết quả dương tính với $95\\%$ người mắc bệnh và cho kết quả dương tính (sai) với $10\\%$ người không mắc bệnh. Chọn ngẫu nhiên một người đi xét nghiệm.",
+   "statements": [
+    {
+     "t": "Xác suất người đó có kết quả dương tính, biết người đó mắc bệnh, là $0{,}95$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất người đó có kết quả dương tính là $0{,}019$.",
+     "a": false
+    },
+    {
+     "t": "Biết người đó có kết quả dương tính, xác suất người đó mắc bệnh lớn hơn $0{,}5$.",
+     "a": false
+    },
+    {
+     "t": "Biết người đó có kết quả âm tính, xác suất người đó không mắc bệnh lớn hơn $0{,}99$.",
+     "a": true
+    }
+   ],
+   "explanation": "Gọi $B$: “mắc bệnh”, $D$: “dương tính”. a) Đúng: $P(D\\mid B)=0{,}95$. b) Sai: $P(D)=0{,}02\\cdot0{,}95+0{,}98\\cdot0{,}1=0{,}117$ ($0{,}019$ chỉ là $P(BD)$). c) Sai: $P(B\\mid D)=\\dfrac{0{,}019}{0{,}117}\\approx0{,}162$. d) Đúng: $P(\\overline B\\mid\\overline D)=\\dfrac{0{,}98\\cdot0{,}9}{1-0{,}117}=\\dfrac{0{,}882}{0{,}883}\\approx0{,}9989$."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Tính $\\displaystyle\\int_1^2\\left(3x^2-\\dfrac{1}{x^2}\\right)dx$ (viết kết quả dưới dạng số thập phân).",
+   "answer_text": "6,5",
+   "explanation": "$\\left.\\left(x^3+\\dfrac1x\\right)\\right|_1^2=\\left(8+\\dfrac12\\right)-(1+1)=6{,}5$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính diện tích",
+   "level": 2,
+   "stem": "Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x$ (làm tròn đến hàng phần trăm).",
+   "answer_text": "1,33",
+   "explanation": "$x^2=2x\\Leftrightarrow x=0$ hoặc $x=2$; trên $(0;2)$ có $2x>x^2$. $S=\\displaystyle\\int_0^2(2x-x^2)\\,dx=4-\\dfrac83=\\dfrac43\\approx1{,}33$."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "tk": "Toán|Nguyên hàm – tích phân",
+   "topic": "Ứng dụng tích phân tính thể tích",
+   "level": 3,
+   "stem": "Một chiếc bình có dạng khối tròn xoay, nhận được khi quay hình phẳng giới hạn bởi đồ thị $y=\\sqrt x$, trục hoành và đường thẳng $x=9$ quanh trục $Ox$ (đơn vị trên các trục là dm). Tính thể tích của bình theo đơn vị dm³ (làm tròn đến hàng đơn vị).",
+   "answer_text": "127",
+   "explanation": "$V=\\pi\\displaystyle\\int_0^9 x\\,dx=\\dfrac{81\\pi}{2}\\approx127{,}2$ dm³, làm tròn được $127$."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Phương trình mặt cầu",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, tính bán kính của mặt cầu $(S):\\ x^2+y^2+z^2-2x+4y-6z-2=0$.",
+   "answer_text": "4",
+   "explanation": "Tâm $I(1;-2;3)$, $R=\\sqrt{1+4+9-(-2)}=\\sqrt{16}=4$."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "tk": "Toán|Phương pháp tọa độ Oxyz",
+   "topic": "Vị trí tương đối của mặt phẳng và mặt cầu",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, cho mặt cầu $(S)$ có tâm $I(1;2;-1)$, bán kính $R=3$ và mặt phẳng $(P):\\ 2x+y-2z+m=0$. Tìm giá trị dương của tham số $m$ để $(P)$ tiếp xúc với $(S)$.",
+   "answer_text": "3",
+   "explanation": "$(P)$ tiếp xúc $(S)\\Leftrightarrow d(I,(P))=R\\Leftrightarrow\\dfrac{|2+2+2+m|}{3}=3\\Leftrightarrow|m+6|=9\\Leftrightarrow m=3$ hoặc $m=-15$. Giá trị dương là $m=3$."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "tk": "Toán|Xác suất có điều kiện",
+   "topic": "Công thức Bayes",
+   "level": 3,
+   "stem": "Hộp thứ nhất có $3$ bi đỏ và $2$ bi xanh; hộp thứ hai có $2$ bi đỏ và $3$ bi xanh. Lấy ngẫu nhiên $1$ viên bi từ hộp thứ nhất bỏ sang hộp thứ hai, rồi lấy ngẫu nhiên $1$ viên bi từ hộp thứ hai. Biết viên bi lấy ra từ hộp thứ hai màu đỏ, tính xác suất viên bi được chuyển sang cũng màu đỏ (làm tròn đến hàng phần trăm).",
+   "answer_text": "0,69",
+   "explanation": "Gọi $A$: “bi chuyển sang màu đỏ”, $B$: “bi lấy từ hộp hai màu đỏ”. $P(A)=\\dfrac35$, $P(B\\mid A)=\\dfrac36$, $P(B\\mid\\overline A)=\\dfrac26$. $P(B)=\\dfrac35\\cdot\\dfrac12+\\dfrac25\\cdot\\dfrac13=\\dfrac{13}{30}$. $P(A\\mid B)=\\dfrac{3/10}{13/30}=\\dfrac{9}{13}\\approx0{,}69$."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập cả 22 câu (9 câu phần 1, 13 câu phần 2); tích phân, diện tích, thể tích kiểm bằng SymPy (integrate); các câu Oxyz (trung điểm, độ dài, khoảng cách, giao điểm, góc giữa đường thẳng và mặt phẳng, điều kiện tiếp xúc) kiểm bằng tính vectơ trong SymPy; các xác suất toàn phần và Bayes kiểm bằng phân số chính xác. Đã kiểm tra các ý sai trong câu Đúng/Sai bằng cách tính giá trị đúng."
+}

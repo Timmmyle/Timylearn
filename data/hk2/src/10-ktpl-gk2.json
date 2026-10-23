@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "GD Kinh tế và Pháp luật",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – GD Kinh tế và Pháp luật 10",
+ "scope": "Hệ thống chính trị nước CHXHCN Việt Nam; bộ máy nhà nước (Quốc hội, Chủ tịch nước, Chính phủ, Tòa án nhân dân, Viện kiểm sát nhân dân, chính quyền địa phương); pháp luật trong đời sống xã hội, hệ thống pháp luật và văn bản pháp luật, thực hiện pháp luật.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Quốc hội",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, cơ quan đại biểu cao nhất của Nhân dân, cơ quan quyền lực nhà nước cao nhất của nước Cộng hòa xã hội chủ nghĩa Việt Nam là",
+   "options": [
+    "Chính phủ.",
+    "Chủ tịch nước.",
+    "Quốc hội.",
+    "Tòa án nhân dân tối cao."
+   ],
+   "answer": 2,
+   "explanation": "Điều 69 Hiến pháp 2013: Quốc hội là cơ quan đại biểu cao nhất của Nhân dân, cơ quan quyền lực nhà nước cao nhất của nước CHXHCN Việt Nam."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Chính phủ",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, Chính phủ là",
+   "options": [
+    "cơ quan quyền lực nhà nước cao nhất, thực hiện quyền lập hiến và lập pháp.",
+    "cơ quan xét xử cao nhất, thực hiện quyền tư pháp.",
+    "cơ quan thực hành quyền công tố và kiểm sát hoạt động tư pháp.",
+    "cơ quan hành chính nhà nước cao nhất, thực hiện quyền hành pháp, là cơ quan chấp hành của Quốc hội."
+   ],
+   "answer": 3,
+   "explanation": "Điều 94 Hiến pháp 2013 quy định Chính phủ là cơ quan hành chính nhà nước cao nhất, thực hiện quyền hành pháp, là cơ quan chấp hành của Quốc hội."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Chủ tịch nước",
+   "level": 1,
+   "stem": "Người đứng đầu Nhà nước, thay mặt nước Cộng hòa xã hội chủ nghĩa Việt Nam về đối nội và đối ngoại là",
+   "options": [
+    "Thủ tướng Chính phủ.",
+    "Chủ tịch Quốc hội.",
+    "Chủ tịch nước.",
+    "Chánh án Tòa án nhân dân tối cao."
+   ],
+   "answer": 2,
+   "explanation": "Điều 86 Hiến pháp 2013: Chủ tịch nước là người đứng đầu Nhà nước, thay mặt nước CHXHCN Việt Nam về đối nội và đối ngoại."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Tòa án nhân dân",
+   "level": 1,
+   "stem": "Tòa án nhân dân là cơ quan xét xử của nước Cộng hòa xã hội chủ nghĩa Việt Nam, thực hiện quyền",
+   "options": [
+    "lập pháp.",
+    "hành pháp.",
+    "lập hiến.",
+    "tư pháp."
+   ],
+   "answer": 3,
+   "explanation": "Điều 102 Hiến pháp 2013: Tòa án nhân dân là cơ quan xét xử, thực hiện quyền tư pháp. Lập hiến, lập pháp thuộc Quốc hội; hành pháp thuộc Chính phủ."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Viện kiểm sát nhân dân",
+   "level": 1,
+   "stem": "Viện kiểm sát nhân dân có chức năng nào sau đây?",
+   "options": [
+    "Xét xử các vụ án hình sự, dân sự, hành chính.",
+    "Ban hành luật và quyết định ngân sách nhà nước.",
+    "Thực hành quyền công tố, kiểm sát hoạt động tư pháp.",
+    "Thống nhất quản lí nền hành chính quốc gia."
+   ],
+   "answer": 2,
+   "explanation": "Điều 107 Hiến pháp 2013: Viện kiểm sát nhân dân thực hành quyền công tố, kiểm sát hoạt động tư pháp. Xét xử là chức năng của Tòa án; ban hành luật thuộc Quốc hội; quản lí hành chính thuộc Chính phủ."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Hệ thống chính trị",
+   "level": 1,
+   "stem": "Trong hệ thống chính trị nước ta, lực lượng lãnh đạo Nhà nước và xã hội là",
+   "options": [
+    "Quốc hội.",
+    "Đảng Cộng sản Việt Nam.",
+    "Mặt trận Tổ quốc Việt Nam.",
+    "Chính phủ."
+   ],
+   "answer": 1,
+   "explanation": "Điều 4 Hiến pháp 2013: Đảng Cộng sản Việt Nam là lực lượng lãnh đạo Nhà nước và xã hội."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Chính quyền địa phương",
+   "level": 1,
+   "stem": "Cơ quan nào sau đây là cơ quan chấp hành của Hội đồng nhân dân, cơ quan hành chính nhà nước ở địa phương?",
+   "options": [
+    "Tòa án nhân dân.",
+    "Viện kiểm sát nhân dân.",
+    "Mặt trận Tổ quốc Việt Nam.",
+    "Ủy ban nhân dân."
+   ],
+   "answer": 3,
+   "explanation": "Theo Hiến pháp, Ủy ban nhân dân do Hội đồng nhân dân cùng cấp bầu, là cơ quan chấp hành của Hội đồng nhân dân, cơ quan hành chính nhà nước ở địa phương."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Quốc hội",
+   "level": 2,
+   "stem": "Tại kì họp, Quốc hội thảo luận và biểu quyết thông qua Luật Thủ đô. Hoạt động này thể hiện chức năng nào của Quốc hội?",
+   "options": [
+    "Chức năng lập pháp.",
+    "Chức năng giám sát tối cao.",
+    "Chức năng hành pháp.",
+    "Chức năng xét xử."
+   ],
+   "answer": 0,
+   "explanation": "Làm luật và sửa đổi luật là thực hiện quyền lập pháp – một chức năng cơ bản của Quốc hội."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Quốc hội",
+   "level": 2,
+   "stem": "Tại phiên họp của Quốc hội, đại biểu H chất vấn Bộ trưởng Bộ Y tế về tình trạng thiếu thuốc ở các bệnh viện. Hoạt động chất vấn của đại biểu H thể hiện",
+   "options": [
+    "quyền lập pháp của Quốc hội.",
+    "quyền giám sát tối cao của Quốc hội đối với hoạt động của Nhà nước.",
+    "quyền hành pháp của Chính phủ.",
+    "quyền công tố của Viện kiểm sát."
+   ],
+   "answer": 1,
+   "explanation": "Chất vấn thành viên Chính phủ là một hình thức giám sát; Quốc hội thực hiện quyền giám sát tối cao đối với hoạt động của Nhà nước."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Viện kiểm sát nhân dân",
+   "level": 2,
+   "stem": "Tại phiên tòa xét xử vụ án lừa đảo chiếm đoạt tài sản, kiểm sát viên đọc bản cáo trạng, đưa ra chứng cứ và tranh luận để buộc tội bị cáo. Hoạt động của kiểm sát viên thể hiện chức năng",
+   "options": [
+    "xét xử.",
+    "thực hành quyền công tố.",
+    "giám sát tối cao.",
+    "quản lí hành chính nhà nước."
+   ],
+   "answer": 1,
+   "explanation": "Truy tố, buộc tội người phạm tội trước Tòa là hoạt động thực hành quyền công tố của Viện kiểm sát nhân dân; quyết định bản án là việc của Hội đồng xét xử."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Chủ tịch nước",
+   "level": 2,
+   "stem": "Sau khi Quốc hội thông qua một đạo luật, người có thẩm quyền công bố luật đó là",
+   "options": [
+    "Thủ tướng Chính phủ.",
+    "Chủ tịch nước.",
+    "Chủ tịch Ủy ban nhân dân cấp tỉnh.",
+    "Viện trưởng Viện kiểm sát nhân dân tối cao."
+   ],
+   "answer": 1,
+   "explanation": "Theo Điều 88 Hiến pháp 2013, Chủ tịch nước công bố Hiến pháp, luật, pháp lệnh."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Nguyên tắc tổ chức bộ máy nhà nước",
+   "level": 3,
+   "stem": "Khi thảo luận về nguyên tắc tổ chức và hoạt động của bộ máy nhà nước, các bạn lớp 10A phát biểu:\n– Bạn A: Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp, kiểm soát giữa các cơ quan nhà nước.\n– Bạn B: Tòa án nhân dân được giao thực hiện quyền hành pháp.\n– Bạn C: Quốc hội là cơ quan thực hiện quyền lập pháp.\n– Bạn D: Chính phủ là cơ quan thực hiện quyền tư pháp.\nNhững bạn nào phát biểu đúng?",
+   "options": [
+    "Bạn A và bạn C.",
+    "Bạn A và bạn B.",
+    "Bạn B và bạn D.",
+    "Bạn C và bạn D."
+   ],
+   "answer": 0,
+   "explanation": "A đúng (Điều 2 Hiến pháp 2013), C đúng (Quốc hội thực hiện quyền lập hiến, lập pháp). B sai vì Tòa án thực hiện quyền tư pháp; D sai vì Chính phủ thực hiện quyền hành pháp."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Quốc hội",
+   "level": 3,
+   "stem": "Anh M cho rằng: \"Chính phủ quản lí mọi mặt của đất nước nên Chính phủ là cơ quan có quyền thông qua luật\". Nhận định nào sau đây về ý kiến của anh M là đúng?",
+   "options": [
+    "Ý kiến của anh M đúng, vì Chính phủ là cơ quan hành chính nhà nước cao nhất.",
+    "Ý kiến của anh M đúng, vì Chính phủ là cơ quan chấp hành của Quốc hội.",
+    "Ý kiến của anh M sai, vì chỉ Chủ tịch nước mới có quyền thông qua luật.",
+    "Ý kiến của anh M sai, vì thông qua luật là quyền lập pháp do Quốc hội thực hiện."
+   ],
+   "answer": 3,
+   "explanation": "Chính phủ thực hiện quyền hành pháp; Quốc hội mới thực hiện quyền lập hiến, lập pháp, biểu quyết thông qua luật. Chủ tịch nước chỉ công bố luật chứ không thông qua luật."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Khái niệm pháp luật",
+   "level": 1,
+   "stem": "Pháp luật là hệ thống các quy tắc xử sự chung",
+   "options": [
+    "do các tổ chức xã hội ban hành và bảo đảm thực hiện.",
+    "do cộng đồng dân cư thỏa thuận và tự nguyện thực hiện.",
+    "được hình thành từ phong tục, tập quán và dư luận xã hội.",
+    "do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước."
+   ],
+   "answer": 3,
+   "explanation": "Pháp luật do Nhà nước ban hành và được bảo đảm thực hiện bằng quyền lực nhà nước; đây là điểm khác biệt với đạo đức, phong tục, quy định của tổ chức xã hội."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Đặc điểm của pháp luật",
+   "level": 1,
+   "stem": "Pháp luật được áp dụng nhiều lần, ở nhiều nơi, đối với tất cả mọi người trong phạm vi điều chỉnh của nó. Điều này thể hiện đặc điểm nào của pháp luật?",
+   "options": [
+    "Tính quyền lực, bắt buộc chung.",
+    "Tính xác định chặt chẽ về mặt hình thức.",
+    "Tính quy phạm phổ biến.",
+    "Tính nhân văn."
+   ],
+   "answer": 2,
+   "explanation": "Tính quy phạm phổ biến: pháp luật là khuôn mẫu chung, được áp dụng nhiều lần, ở nhiều nơi, với mọi người trong phạm vi điều chỉnh."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Thực hiện pháp luật",
+   "level": 1,
+   "stem": "Hình thức thực hiện pháp luật trong đó cá nhân, tổ chức kiềm chế, không làm những điều mà pháp luật cấm là",
+   "options": [
+    "tuân thủ pháp luật.",
+    "thi hành pháp luật.",
+    "sử dụng pháp luật.",
+    "áp dụng pháp luật."
+   ],
+   "answer": 0,
+   "explanation": "Tuân thủ pháp luật: không làm điều pháp luật cấm. Thi hành: làm điều pháp luật bắt buộc; sử dụng: làm điều pháp luật cho phép; áp dụng: cơ quan, người có thẩm quyền ra quyết định cụ thể."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Hệ thống pháp luật",
+   "level": 1,
+   "stem": "Bộ phận nhỏ nhất cấu thành nên hệ thống pháp luật là",
+   "options": [
+    "chế định pháp luật.",
+    "ngành luật.",
+    "quy phạm pháp luật.",
+    "văn bản quy phạm pháp luật."
+   ],
+   "answer": 2,
+   "explanation": "Hệ thống cấu trúc của pháp luật gồm quy phạm pháp luật (đơn vị nhỏ nhất), chế định pháp luật (nhóm quy phạm) và ngành luật."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Thực hiện pháp luật",
+   "level": 2,
+   "stem": "Chị H đủ điều kiện theo quy định và đã nộp hồ sơ đăng kí hộ kinh doanh để mở cửa hàng bán văn phòng phẩm. Chị H đã thực hiện pháp luật theo hình thức nào?",
+   "options": [
+    "Sử dụng pháp luật.",
+    "Thi hành pháp luật.",
+    "Tuân thủ pháp luật.",
+    "Áp dụng pháp luật."
+   ],
+   "answer": 0,
+   "explanation": "Kinh doanh là quyền của công dân; chị H làm điều pháp luật cho phép nên đây là sử dụng pháp luật."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Thực hiện pháp luật",
+   "level": 2,
+   "stem": "Ông T kê khai và nộp thuế thu nhập cá nhân đầy đủ, đúng hạn. Ông T đã thực hiện pháp luật theo hình thức nào?",
+   "options": [
+    "Sử dụng pháp luật.",
+    "Thi hành pháp luật.",
+    "Tuân thủ pháp luật.",
+    "Áp dụng pháp luật."
+   ],
+   "answer": 1,
+   "explanation": "Nộp thuế là nghĩa vụ mà pháp luật buộc phải làm; chủ động thực hiện nghĩa vụ là thi hành pháp luật."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Thực hiện pháp luật",
+   "level": 2,
+   "stem": "Phát hiện cơ sở sản xuất của bà K xả khói bụi vượt quy chuẩn, người có thẩm quyền đã ra quyết định xử phạt vi phạm hành chính đối với cơ sở này. Việc ra quyết định xử phạt là hình thức",
+   "options": [
+    "sử dụng pháp luật.",
+    "thi hành pháp luật.",
+    "áp dụng pháp luật.",
+    "tuân thủ pháp luật."
+   ],
+   "answer": 2,
+   "explanation": "Áp dụng pháp luật là việc cơ quan, người có thẩm quyền căn cứ pháp luật ra quyết định làm phát sinh, thay đổi, chấm dứt quyền, nghĩa vụ cụ thể của cá nhân, tổ chức."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Đặc điểm của pháp luật",
+   "level": 2,
+   "stem": "Ông B cho rằng quy định đội mũ bảo hiểm khi đi xe máy chỉ mang tính khuyến khích nên không đội và bị cảnh sát giao thông xử phạt. Việc ông B bị xử phạt thể hiện đặc điểm nào của pháp luật?",
+   "options": [
+    "Tính quy phạm phổ biến.",
+    "Tính xác định chặt chẽ về mặt hình thức.",
+    "Tính tự nguyện.",
+    "Tính quyền lực, bắt buộc chung."
+   ],
+   "answer": 3,
+   "explanation": "Pháp luật được bảo đảm thực hiện bằng quyền lực nhà nước, bắt buộc với mọi người; ai vi phạm sẽ bị xử lí – đó là tính quyền lực, bắt buộc chung."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Thực hiện pháp luật",
+   "level": 3,
+   "stem": "Trên đường đi học, bạn N điều khiển xe đạp điện vượt đèn đỏ và bị cảnh sát giao thông xử phạt. Hành vi vượt đèn đỏ của N cho thấy N đã không thực hiện đúng hình thức thực hiện pháp luật nào?",
+   "options": [
+    "Sử dụng pháp luật.",
+    "Tuân thủ pháp luật.",
+    "Áp dụng pháp luật.",
+    "Phổ biến pháp luật."
+   ],
+   "answer": 1,
+   "explanation": "Vượt đèn đỏ là làm điều pháp luật cấm, tức là không tuân thủ pháp luật. Việc cảnh sát xử phạt mới là áp dụng pháp luật."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Vai trò của pháp luật",
+   "level": 3,
+   "stem": "Anh Q bị công ty đơn phương chấm dứt hợp đồng lao động trái pháp luật. Anh đã căn cứ vào Bộ luật Lao động để khởi kiện ra Tòa án và được Tòa án buộc công ty bồi thường. Trường hợp này thể hiện vai trò nào của pháp luật?",
+   "options": [
+    "Pháp luật là phương tiện để công dân thực hiện và bảo vệ quyền, lợi ích hợp pháp của mình.",
+    "Pháp luật là phương tiện để doanh nghiệp quản lí người lao động.",
+    "Pháp luật là công cụ để công dân xử lí người vi phạm.",
+    "Pháp luật là phương tiện để Tòa án ban hành luật mới."
+   ],
+   "answer": 0,
+   "explanation": "Anh Q dựa vào pháp luật để bảo vệ quyền lợi của mình bị xâm phạm – vai trò của pháp luật đối với công dân. Công dân không tự xử lí người vi phạm, Tòa án không ban hành luật."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Hệ thống pháp luật",
+   "level": 3,
+   "stem": "Trong quá trình rà soát, cơ quan có thẩm quyền phát hiện một văn bản quy phạm pháp luật có nội dung trái với Hiến pháp. Theo quy định, văn bản đó cần được xử lí như thế nào?",
+   "options": [
+    "Phải được sửa đổi hoặc bãi bỏ vì mọi văn bản pháp luật khác phải phù hợp với Hiến pháp.",
+    "Vẫn được áp dụng bình thường vì đã được ban hành đúng thẩm quyền.",
+    "Được ưu tiên áp dụng vì là văn bản ban hành sau Hiến pháp.",
+    "Chỉ cần lấy ý kiến nhân dân là tiếp tục áp dụng."
+   ],
+   "answer": 0,
+   "explanation": "Điều 119 Hiến pháp 2013: Hiến pháp có hiệu lực pháp lí cao nhất, mọi văn bản pháp luật khác phải phù hợp với Hiến pháp; mọi hành vi vi phạm Hiến pháp đều bị xử lí."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Quốc hội và Chủ tịch nước",
+   "level": 2,
+   "stem": "Tại kì họp, Quốc hội thảo luận và biểu quyết thông qua một số dự án luật. Trong phiên chất vấn, nhiều đại biểu Quốc hội chất vấn Bộ trưởng Bộ Giáo dục và Đào tạo về chất lượng đội ngũ giáo viên; Bộ trưởng đã trả lời trực tiếp tại hội trường. Sau đó, Chủ tịch nước kí lệnh công bố các luật đã được Quốc hội thông qua.",
+   "statements": [
+    {
+     "t": "Việc biểu quyết thông qua các dự án luật thể hiện chức năng lập pháp của Quốc hội.",
+     "a": true
+    },
+    {
+     "t": "Hoạt động chất vấn Bộ trưởng là một hình thức thực hiện quyền giám sát tối cao của Quốc hội.",
+     "a": true
+    },
+    {
+     "t": "Chủ tịch nước là người có thẩm quyền thông qua luật.",
+     "a": false
+    },
+    {
+     "t": "Đại biểu Quốc hội chỉ được chất vấn Thủ tướng Chính phủ, không được chất vấn Bộ trưởng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: làm luật là quyền lập pháp của Quốc hội. b) Đúng: chất vấn là hình thức giám sát. c) Sai: Quốc hội thông qua luật, Chủ tịch nước công bố luật. d) Sai: đại biểu Quốc hội có quyền chất vấn Chủ tịch nước, Thủ tướng, Bộ trưởng và các thành viên khác của Chính phủ, Chánh án, Viện trưởng…"
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Hệ thống chính trị và bộ máy nhà nước",
+   "topic": "Chính quyền địa phương",
+   "level": 2,
+   "stem": "Hội đồng nhân dân tỉnh X tổ chức kì họp, ra nghị quyết về các biện pháp phát triển kinh tế – xã hội của tỉnh và bầu Chủ tịch Ủy ban nhân dân tỉnh. Sau đó, Ủy ban nhân dân tỉnh X xây dựng kế hoạch tổ chức thực hiện nghị quyết của Hội đồng nhân dân.",
+   "statements": [
+    {
+     "t": "Hội đồng nhân dân tỉnh X là cơ quan quyền lực nhà nước ở địa phương, do Nhân dân địa phương bầu ra.",
+     "a": true
+    },
+    {
+     "t": "Ủy ban nhân dân tỉnh X là cơ quan chấp hành của Hội đồng nhân dân, cơ quan hành chính nhà nước ở địa phương.",
+     "a": true
+    },
+    {
+     "t": "Chủ tịch Ủy ban nhân dân tỉnh X do Thủ tướng Chính phủ trực tiếp bầu ra.",
+     "a": false
+    },
+    {
+     "t": "Ủy ban nhân dân tỉnh X có quyền xét xử các vụ án xảy ra trên địa bàn tỉnh.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng theo Hiến pháp. b) Đúng: Ủy ban nhân dân do Hội đồng nhân dân cùng cấp bầu, là cơ quan chấp hành của Hội đồng nhân dân. c) Sai: Chủ tịch Ủy ban nhân dân do Hội đồng nhân dân bầu. d) Sai: xét xử là chức năng của Tòa án nhân dân."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Thực hiện pháp luật",
+   "level": 3,
+   "stem": "Gia đình ông P đăng kí kinh doanh và mở xưởng sản xuất đồ gỗ. Hằng năm, xưởng kê khai, nộp thuế đầy đủ. Để giảm chi phí, ông P cho xả nước thải chưa qua xử lí ra con sông gần xưởng. Cơ quan chức năng kiểm tra và ra quyết định xử phạt vi phạm hành chính, buộc ông P khắc phục hậu quả.",
+   "statements": [
+    {
+     "t": "Việc ông P đăng kí kinh doanh là hình thức sử dụng pháp luật.",
+     "a": true
+    },
+    {
+     "t": "Việc xưởng nộp thuế đầy đủ là hình thức tuân thủ pháp luật.",
+     "a": false
+    },
+    {
+     "t": "Hành vi xả nước thải chưa qua xử lí ra sông cho thấy ông P đã không tuân thủ pháp luật.",
+     "a": true
+    },
+    {
+     "t": "Quyết định xử phạt của cơ quan chức năng là hình thức áp dụng pháp luật.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: kinh doanh là quyền, làm điều pháp luật cho phép. b) Sai: nộp thuế là nghĩa vụ, thuộc hình thức thi hành pháp luật. c) Đúng: xả thải chưa xử lí là làm điều pháp luật cấm. d) Đúng: cơ quan có thẩm quyền ra quyết định cá biệt là áp dụng pháp luật."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Pháp luật và hệ thống pháp luật",
+   "topic": "Pháp luật trong đời sống",
+   "level": 3,
+   "stem": "Trong buổi ngoại khóa về pháp luật, các bạn lớp 10B phát biểu:\n– Lan: Pháp luật do Nhà nước ban hành và bảo đảm thực hiện bằng quyền lực nhà nước.\n– Minh: Nội quy của trường cũng là văn bản quy phạm pháp luật vì học sinh bắt buộc phải thực hiện.\n– Hùng: Nhờ có pháp luật, công dân có cơ sở để bảo vệ quyền lợi của mình khi bị xâm phạm.\n– Mai: Pháp luật chỉ cần thiết với người vi phạm, người sống lương thiện thì không cần tìm hiểu pháp luật.",
+   "statements": [
+    {
+     "t": "Ý kiến của Lan là đúng.",
+     "a": true
+    },
+    {
+     "t": "Ý kiến của Minh là đúng.",
+     "a": false
+    },
+    {
+     "t": "Ý kiến của Hùng thể hiện vai trò của pháp luật là phương tiện để công dân thực hiện và bảo vệ quyền, lợi ích hợp pháp.",
+     "a": true
+    },
+    {
+     "t": "Ý kiến của Mai là đúng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đúng khái niệm pháp luật. b) Sai: nội quy trường do nhà trường ban hành, chỉ áp dụng trong trường, không phải văn bản quy phạm pháp luật do cơ quan nhà nước có thẩm quyền ban hành. c) Đúng. d) Sai: mọi công dân cần hiểu biết pháp luật để thực hiện quyền, nghĩa vụ và tự bảo vệ mình."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu độc lập và đối chiếu với Hiến pháp 2013 cùng các luật lớn (Luật Hôn nhân và gia đình 2014, Bộ luật Dân sự 2015, Luật Bình đẳng giới, Luật Tố cáo, Luật Bầu cử, Bộ luật Tố tụng hình sự, Luật Biên giới quốc gia, Luật Quốc tịch, Luật Điều ước quốc tế, Công ước Luật Biển 1982); tránh các nội dung vừa sửa đổi năm 2025 (số cấp chính quyền địa phương, đơn vị hành chính, Mặt trận Tổ quốc và đoàn thể) và tránh con số dễ thay đổi; mỗi câu trắc nghiệm chỉ có một phương án đúng, các ý Đúng/Sai có cả đúng và sai; vị trí đáp án đúng được xếp đều A/B/C/D bằng script; đã chạy hk-check."
+}

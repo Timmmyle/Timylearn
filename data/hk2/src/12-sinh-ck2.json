@@ -1,0 +1,467 @@
+{
+ "grade": 12,
+ "subject": "Sinh học",
+ "exam": "ck2",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 2 – Sinh học 12",
+ "scope": "Tiến hóa (khoảng 35%); Sinh thái: môi trường và nhân tố sinh thái, quần thể, quần xã, hệ sinh thái, sinh quyển, sinh thái học phục hồi và bảo tồn (khoảng 65%)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 1,
+   "stem": "Hóa thạch là",
+   "options": [
+    "di tích của sinh vật để lại trong các lớp đất đá của vỏ Trái Đất",
+    "các loài sinh vật đã bị tuyệt chủng",
+    "cơ quan thoái hóa ở sinh vật hiện nay",
+    "các bộ xương của sinh vật hiện đang sống"
+   ],
+   "answer": 0,
+   "explanation": "Hóa thạch là di tích (xác, dấu vết) của sinh vật sống trong các thời đại trước được lưu giữ trong đất đá; là bằng chứng trực tiếp."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 1,
+   "stem": "Nhân tố tiến hóa làm thay đổi tần số allele của quần thể theo một hướng xác định là",
+   "options": [
+    "đột biến",
+    "chọn lọc tự nhiên",
+    "phiêu bạt di truyền",
+    "dòng gene"
+   ],
+   "answer": 1,
+   "explanation": "Chọn lọc tự nhiên là nhân tố tiến hóa có hướng."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 2,
+   "stem": "Dòng gene (di – nhập gene) có thể",
+   "options": [
+    "luôn làm giảm sự đa dạng di truyền của quần thể",
+    "chỉ xảy ra ở các loài thực vật",
+    "mang đến allele mới hoặc làm thay đổi tần số allele của quần thể",
+    "không ảnh hưởng đến vốn gene của quần thể"
+   ],
+   "answer": 2,
+   "explanation": "Cá thể hoặc giao tử di chuyển giữa các quần thể làm thay đổi tần số allele, có thể đưa allele mới vào quần thể."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Loài và cơ chế cách li",
+   "level": 2,
+   "stem": "Hai quần thể thực vật sống cùng một khu vực nhưng ra hoa vào hai mùa khác nhau nên không thụ phấn được cho nhau. Đây là dạng",
+   "options": [
+    "cách li sau hợp tử",
+    "cách li cơ học",
+    "cách li địa lí",
+    "cách li thời gian (mùa vụ)"
+   ],
+   "answer": 3,
+   "explanation": "Khác thời điểm sinh sản ngăn cản giao phối → cách li thời gian, thuộc cách li trước hợp tử."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Sự phát sinh loài người",
+   "level": 1,
+   "stem": "Loài người hiện đại có tên khoa học là",
+   "options": [
+    "Homo erectus",
+    "Homo sapiens",
+    "Homo habilis",
+    "Homo neanderthalensis"
+   ],
+   "answer": 1,
+   "explanation": "Người hiện đại là Homo sapiens."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 3,
+   "stem": "Việc lạm dụng kháng sinh làm số chủng vi khuẩn kháng thuốc tăng nhanh vì",
+   "options": [
+    "kháng sinh đóng vai trò nhân tố chọn lọc, giữ lại và làm tăng tỉ lệ vi khuẩn mang allele kháng thuốc",
+    "kháng sinh gây ra đột biến kháng thuốc ở mọi vi khuẩn tiếp xúc với nó",
+    "vi khuẩn chủ động điều chỉnh cơ thể để quen dần với kháng sinh",
+    "kháng sinh làm vi khuẩn sinh sản chậm lại"
+   ],
+   "answer": 0,
+   "explanation": "Allele kháng thuốc có sẵn (do đột biến ngẫu nhiên); kháng sinh tiêu diệt vi khuẩn mẫn cảm, vi khuẩn kháng thuốc sống sót, sinh sản nhanh → tỉ lệ kháng tăng."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Lịch sử phát triển của sinh giới",
+   "level": 2,
+   "stem": "Loài người xuất hiện vào kỉ Đệ tứ thuộc đại",
+   "options": [
+    "Trung sinh",
+    "Cổ sinh",
+    "Nguyên sinh",
+    "Tân sinh"
+   ],
+   "answer": 3,
+   "explanation": "Kỉ Đệ tứ thuộc đại Tân sinh, là thời điểm xuất hiện loài người."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Môi trường và nhân tố sinh thái",
+   "level": 1,
+   "stem": "Giới hạn sinh thái là",
+   "options": [
+    "khoảng nhiệt độ thuận lợi nhất cho sinh vật",
+    "khu vực địa lí mà loài phân bố",
+    "khoảng giá trị xác định của một nhân tố sinh thái mà trong đó sinh vật có thể tồn tại và phát triển",
+    "giới hạn số lượng cá thể của quần thể"
+   ],
+   "answer": 2,
+   "explanation": "Đây là khái niệm giới hạn sinh thái."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Môi trường và nhân tố sinh thái",
+   "level": 1,
+   "stem": "Nhân tố nào sau đây là nhân tố sinh thái hữu sinh?",
+   "options": [
+    "Ánh sáng",
+    "Nhiệt độ",
+    "Mối quan hệ giữa vật ăn thịt và con mồi",
+    "Độ ẩm"
+   ],
+   "answer": 2,
+   "explanation": "Nhân tố hữu sinh là các sinh vật và mối quan hệ giữa chúng; ánh sáng, nhiệt độ, độ ẩm là nhân tố vô sinh."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần xã sinh vật",
+   "level": 1,
+   "stem": "Mối quan hệ nào sau đây là quan hệ cộng sinh?",
+   "options": [
+    "Cây tầm gửi sống trên cây thân gỗ",
+    "Lúa và cỏ dại trong ruộng",
+    "Chim sáo bắt rận trên lưng trâu",
+    "Vi khuẩn lam và nấm trong địa y"
+   ],
+   "answer": 3,
+   "explanation": "Địa y: nấm và vi khuẩn lam (hoặc tảo) sống chung, cả hai cùng có lợi và bắt buộc → cộng sinh. Tầm gửi: kí sinh; lúa – cỏ: cạnh tranh; sáo – trâu: hợp tác."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần thể sinh vật",
+   "level": 2,
+   "stem": "Hiện tượng các cây thông nhựa mọc gần nhau có rễ nối liền nhau, giúp cây sinh trưởng nhanh và chịu hạn tốt hơn là biểu hiện của",
+   "options": [
+    "quan hệ hỗ trợ cùng loài",
+    "quan hệ cạnh tranh cùng loài",
+    "quan hệ cộng sinh",
+    "quan hệ hội sinh"
+   ],
+   "answer": 0,
+   "explanation": "Các cá thể cùng loài hỗ trợ nhau → quan hệ hỗ trợ trong quần thể (hiệu quả nhóm)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần thể sinh vật",
+   "level": 2,
+   "stem": "Kiểu phân bố đều của các cá thể trong quần thể thường gặp khi",
+   "options": [
+    "điều kiện sống phân bố không đồng đều, các cá thể thích sống tụ họp",
+    "điều kiện sống phân bố đồng đều và các cá thể cạnh tranh gay gắt",
+    "điều kiện sống đồng đều và các cá thể không cạnh tranh",
+    "nguồn sống dồi dào, các cá thể hỗ trợ nhau"
+   ],
+   "answer": 1,
+   "explanation": "Phân bố đều xuất hiện khi môi trường đồng nhất và cạnh tranh gay gắt, làm giảm mức cạnh tranh."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần thể sinh vật",
+   "level": 2,
+   "stem": "Trong môi trường bị giới hạn về nguồn sống, quần thể thường tăng trưởng theo đường cong",
+   "options": [
+    "hình chữ J",
+    "hình chữ U",
+    "đường thẳng đi lên",
+    "hình chữ S"
+   ],
+   "answer": 3,
+   "explanation": "Môi trường có giới hạn: tăng trưởng chậm lúc đầu, tăng nhanh rồi chậm dần khi gần sức chứa → đường cong hình chữ S."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Hệ sinh thái",
+   "level": 1,
+   "stem": "Nhóm sinh vật nào sau đây là sinh vật sản xuất trong hệ sinh thái?",
+   "options": [
+    "Nấm hoại sinh",
+    "Động vật ăn cỏ",
+    "Thực vật, tảo và vi khuẩn lam",
+    "Vi khuẩn phân giải chất hữu cơ"
+   ],
+   "answer": 2,
+   "explanation": "Sinh vật sản xuất tổng hợp chất hữu cơ từ chất vô cơ (chủ yếu nhờ quang hợp)."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần xã sinh vật",
+   "level": 2,
+   "stem": "Diễn thế sinh thái diễn ra trên một hòn đảo núi lửa mới hình thành, chưa có sinh vật, là",
+   "options": [
+    "diễn thế thứ sinh",
+    "diễn thế nguyên sinh",
+    "diễn thế phân hủy",
+    "diễn thế dưới nước"
+   ],
+   "answer": 1,
+   "explanation": "Diễn thế bắt đầu từ môi trường chưa có sinh vật là diễn thế nguyên sinh."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Sinh quyển và biến đổi khí hậu",
+   "level": 2,
+   "stem": "Biện pháp nào sau đây góp phần làm giảm hiệu ứng nhà kính?",
+   "options": [
+    "Trồng rừng và giảm sử dụng nhiên liệu hóa thạch",
+    "Tăng cường đốt rừng làm nương rẫy",
+    "Tăng sử dụng than đá để phát điện",
+    "Mở rộng khai thác rừng ngập mặn"
+   ],
+   "answer": 0,
+   "explanation": "Trồng rừng tăng hấp thụ CO₂; giảm đốt nhiên liệu hóa thạch giảm phát thải khí nhà kính."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Sinh thái học phục hồi và bảo tồn",
+   "level": 2,
+   "stem": "Hình thức nào sau đây là bảo tồn chuyển chỗ (ngoài nơi sống tự nhiên)?",
+   "options": [
+    "Ngân hàng hạt giống",
+    "Vườn quốc gia",
+    "Khu bảo tồn thiên nhiên",
+    "Khu dự trữ sinh quyển"
+   ],
+   "answer": 0,
+   "explanation": "Bảo tồn chuyển chỗ: đưa sinh vật ra khỏi nơi sống tự nhiên (vườn thú, vườn thực vật, ngân hàng hạt giống, ngân hàng gene). Các phương án còn lại là bảo tồn tại chỗ."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Hệ sinh thái",
+   "level": 3,
+   "stem": "Trong chuỗi thức ăn: tảo → giáp xác → cá nhỏ → cá lớn → chim bói cá, chất độc DDT khó phân hủy sẽ tích lũy với nồng độ cao nhất trong cơ thể",
+   "options": [
+    "tảo",
+    "giáp xác",
+    "chim bói cá",
+    "cá nhỏ"
+   ],
+   "answer": 2,
+   "explanation": "DDT tích lũy và khuếch đại qua các bậc dinh dưỡng (khuếch đại sinh học), nồng độ cao nhất ở bậc dinh dưỡng cao nhất."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Học thuyết tiến hóa",
+   "level": 2,
+   "stem": "So sánh quan niệm tiến hóa của Darwin với thuyết tiến hóa tổng hợp hiện đại.",
+   "statements": [
+    {
+     "t": "Darwin cho rằng chọn lọc tự nhiên tác động lên các biến dị cá thể, giữ lại những cá thể có biến dị thích nghi.",
+     "a": true
+    },
+    {
+     "t": "Darwin đã giải thích được nguyên nhân phát sinh và cơ chế di truyền các biến dị.",
+     "a": false
+    },
+    {
+     "t": "Theo thuyết tiến hóa tổng hợp, chọn lọc tự nhiên tác động trực tiếp lên kiểu hình và gián tiếp làm biến đổi tần số kiểu gene, tần số allele của quần thể.",
+     "a": true
+    },
+    {
+     "t": "Theo thuyết tiến hóa tổng hợp, tiến hóa nhỏ kết thúc khi hình thành loài mới.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: thời Darwin chưa có di truyền học nên ông chưa giải thích được nguyên nhân phát sinh và cơ chế di truyền biến dị. c) Đúng. d) Đúng."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần thể sinh vật",
+   "level": 2,
+   "stem": "Một quần thể chuột đồng sống trên cánh đồng lúa có kích thước thay đổi theo mùa.",
+   "statements": [
+    {
+     "t": "Mật độ quần thể là số lượng cá thể trên một đơn vị diện tích hoặc thể tích.",
+     "a": true
+    },
+    {
+     "t": "Khi mật độ quá cao, cạnh tranh cùng loài tăng làm tỉ lệ tử vong tăng và mức sinh sản giảm.",
+     "a": true
+    },
+    {
+     "t": "Kích thước quần thể chỉ phụ thuộc vào mức sinh sản và mức tử vong, không phụ thuộc vào xuất cư và nhập cư.",
+     "a": false
+    },
+    {
+     "t": "Nếu kích thước quần thể giảm xuống dưới mức tối thiểu, quần thể dễ suy giảm và có thể bị diệt vong.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: cơ chế tự điều chỉnh số lượng. c) Sai: kích thước quần thể phụ thuộc cả sinh sản, tử vong, xuất cư, nhập cư. d) Đúng."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Hệ sinh thái",
+   "level": 3,
+   "stem": "Trong một hệ sinh thái, năng lượng tích lũy ở các bậc dinh dưỡng như sau: sinh vật sản xuất $2 \\cdot 10^6$ kcal; sinh vật tiêu thụ bậc 1: $2 \\cdot 10^5$ kcal; sinh vật tiêu thụ bậc 2: $1{,}5 \\cdot 10^4$ kcal; sinh vật tiêu thụ bậc 3: $1{,}2 \\cdot 10^3$ kcal.",
+   "statements": [
+    {
+     "t": "Hiệu suất sinh thái giữa sinh vật tiêu thụ bậc 1 và sinh vật sản xuất là 10%.",
+     "a": true
+    },
+    {
+     "t": "Hiệu suất sinh thái giữa sinh vật tiêu thụ bậc 2 và sinh vật tiêu thụ bậc 1 là 15%.",
+     "a": false
+    },
+    {
+     "t": "Năng lượng trong hệ sinh thái được truyền theo một chu trình khép kín và được tái sử dụng.",
+     "a": false
+    },
+    {
+     "t": "Phần lớn năng lượng bị thất thoát qua hô hấp, chất thải và các bộ phận rơi rụng.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $\\dfrac{2 \\cdot 10^5}{2 \\cdot 10^6} = 10\\%$. b) Sai: $\\dfrac{1{,}5 \\cdot 10^4}{2 \\cdot 10^5} = 7{,}5\\%$. c) Sai: năng lượng truyền một chiều, không tái sử dụng; vật chất mới tuần hoàn. d) Đúng."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Sinh thái học phục hồi và bảo tồn",
+   "level": 2,
+   "stem": "Một khu rừng ngập mặn ven biển bị chặt phá để làm đầm nuôi tôm. Sau đó, địa phương thực hiện dự án trồng lại rừng ngập mặn.",
+   "statements": [
+    {
+     "t": "Trồng lại rừng ngập mặn là một biện pháp của sinh thái học phục hồi.",
+     "a": true
+    },
+    {
+     "t": "Rừng ngập mặn có vai trò chắn sóng, bảo vệ bờ biển và là nơi sinh sản của nhiều loài thủy sản.",
+     "a": true
+    },
+    {
+     "t": "Quá trình phục hồi quần xã trên vùng đất trước đây đã có quần xã sinh vật là diễn thế nguyên sinh.",
+     "a": false
+    },
+    {
+     "t": "Chặt phá rừng ngập mặn để nuôi tôm làm tăng đa dạng sinh học của vùng ven biển.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: khởi đầu từ môi trường đã có quần xã là diễn thế thứ sinh. d) Sai: làm mất nơi sống, giảm đa dạng sinh học."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Tiến hóa nhỏ",
+   "level": 2,
+   "stem": "Một quần thể có 400 cá thể AA, 400 cá thể Aa và 200 cá thể aa. Tính tần số allele a (làm tròn đến hàng phần mười).",
+   "answer_text": "0,4",
+   "explanation": "$q_a = \\dfrac{400 + 2 \\cdot 200}{2 \\cdot 1000} = 0{,}4$."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Tiến hóa",
+   "topic": "Các nhân tố tiến hóa",
+   "level": 3,
+   "stem": "Một quần thể thực vật có cấu trúc di truyền 0,4 AA : 0,4 Aa : 0,2 aa tự thụ phấn bắt buộc qua 2 thế hệ. Tính tỉ lệ kiểu gene aa ở thế hệ thứ 2 (làm tròn đến hàng phần trăm).",
+   "answer_text": "0,35",
+   "explanation": "Sau 2 thế hệ, Aa $= 0{,}4 \\cdot \\dfrac{1}{4} = 0{,}1$; aa $= 0{,}2 + \\dfrac{0{,}4 - 0{,}1}{2} = 0{,}35$."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần thể sinh vật",
+   "level": 2,
+   "stem": "Để ước tính số lượng cá chép trong một hồ, người ta bắt 60 con, đánh dấu rồi thả lại. Lần bắt thứ hai được 80 con, trong đó có 15 con được đánh dấu. Giả sử không có sinh, tử, di cư; ước tính số cá chép trong hồ.",
+   "answer_text": "320",
+   "explanation": "$N = \\dfrac{60 \\cdot 80}{15} = 320$ con."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Quần thể sinh vật",
+   "level": 3,
+   "stem": "Một quần thể có 500 cá thể vào đầu năm. Trong năm, tỉ lệ sinh là 12% và tỉ lệ tử vong là 4% (tính theo số cá thể đầu năm); không có xuất cư, nhập cư. Tính số cá thể của quần thể vào cuối năm.",
+   "answer_text": "540",
+   "explanation": "$N = 500 + 500 \\cdot (0{,}12 - 0{,}04) = 540$ cá thể."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Hệ sinh thái",
+   "level": 3,
+   "stem": "Trong một chuỗi thức ăn, sinh vật tiêu thụ bậc 1 tích lũy $1{,}2 \\cdot 10^5$ kcal, sinh vật tiêu thụ bậc 2 tích lũy $9{,}6 \\cdot 10^3$ kcal. Tính hiệu suất sinh thái giữa sinh vật tiêu thụ bậc 2 và bậc 1 (đơn vị: %).",
+   "answer_text": "8",
+   "explanation": "$H = \\dfrac{9{,}6 \\cdot 10^3}{1{,}2 \\cdot 10^5} \\cdot 100\\% = 8\\%$."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Sinh thái",
+   "topic": "Hệ sinh thái",
+   "level": 2,
+   "stem": "Trong một lưới thức ăn: cỏ là thức ăn của thỏ, chuột và châu chấu; châu chấu là thức ăn của ếch; ếch là thức ăn của rắn; chuột là thức ăn của rắn và cáo; thỏ là thức ăn của cáo; rắn là thức ăn của đại bàng. Lưới thức ăn này có bao nhiêu chuỗi thức ăn?",
+   "answer_text": "4",
+   "explanation": "Các chuỗi: cỏ → thỏ → cáo; cỏ → chuột → cáo; cỏ → chuột → rắn → đại bàng; cỏ → châu chấu → ếch → rắn → đại bàng. Có 4 chuỗi."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập 28 câu; kiểm bằng Python: câu 21a–b, 23 (0,4), 24 (0,35), 25 (320), 26 (540), 27 (8); câu 28 đếm số chuỗi bằng đệ quy (4). 18/28 câu thuộc Sinh thái."
+}

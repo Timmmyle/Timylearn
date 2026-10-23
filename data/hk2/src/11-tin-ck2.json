@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "Tin học",
+ "exam": "ck2",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 2 – Tin học 11",
+ "scope": "Hệ quản trị CSDL và SQL; thuật toán tìm kiếm tuần tự, tìm kiếm nhị phân; sắp xếp chèn, sắp xếp chọn, sắp xếp nổi bọt; độ phức tạp thời gian; mảng một chiều và hai chiều trong Python.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Tạo bảng",
+   "level": 1,
+   "stem": "Câu lệnh DROP TABLE HOCSINH; có tác dụng",
+   "options": [
+    "xóa toàn bộ bảng HOCSINH, gồm cả cấu trúc và dữ liệu",
+    "chỉ xóa dữ liệu, giữ lại cấu trúc bảng",
+    "xóa bản ghi đầu tiên của bảng",
+    "đổi tên bảng HOCSINH"
+   ],
+   "answer": 0,
+   "explanation": "DROP TABLE xóa hẳn bảng khỏi CSDL; khác với DELETE FROM chỉ xóa các bản ghi."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 1,
+   "stem": "Trong câu lệnh SELECT * FROM HOCSINH;, dấu * có nghĩa là",
+   "options": [
+    "nhân các trường với nhau",
+    "lấy bản ghi đầu tiên",
+    "lấy các trường có giá trị khác rỗng",
+    "lấy tất cả các trường của bảng"
+   ],
+   "answer": 3,
+   "explanation": "Dấu * thay cho danh sách tất cả các trường (cột) của bảng."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 1,
+   "stem": "Điều kiện WHERE HoTen LIKE 'Nguyen%' chọn ra các bản ghi có họ tên",
+   "options": [
+    "kết thúc bằng Nguyen",
+    "đúng bằng Nguyen%",
+    "bắt đầu bằng Nguyen",
+    "không chứa Nguyen"
+   ],
+   "answer": 2,
+   "explanation": "Trong LIKE, kí tự % đại diện cho một dãy kí tự bất kì (kể cả rỗng), nên 'Nguyen%' khớp với các xâu bắt đầu bằng Nguyen."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Hệ quản trị CSDL",
+   "level": 1,
+   "stem": "Chức năng nào KHÔNG phải của hệ quản trị cơ sở dữ liệu?",
+   "options": [
+    "Tạo lập cấu trúc CSDL",
+    "Cập nhật và truy xuất dữ liệu",
+    "Kiểm soát, điều khiển truy cập dữ liệu",
+    "Soạn thảo và định dạng văn bản báo cáo"
+   ],
+   "answer": 3,
+   "explanation": "Hệ QTCSDL cung cấp công cụ tạo lập CSDL, cập nhật, truy xuất và kiểm soát truy cập; soạn thảo văn bản là việc của phần mềm soạn thảo."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 2,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCâu truy vấn SELECT COUNT(*) FROM HOCSINH WHERE DiemTB BETWEEN 6 AND 8; cho kết quả là",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "BETWEEN 6 AND 8 lấy cả hai giá trị biên: Binh (6.0) và Chi (7.5) – 2 bản ghi."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 2,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCâu truy vấn SELECT DISTINCT MaLop FROM HOCSINH; trả về bao nhiêu dòng?",
+   "options": [
+    "5",
+    "3",
+    "2",
+    "1"
+   ],
+   "answer": 2,
+   "explanation": "DISTINCT loại bỏ các dòng trùng nhau; cột MaLop chỉ có hai giá trị khác nhau là L1 và L2."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Khóa ngoài",
+   "level": 2,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nThao tác nào có thể vi phạm ràng buộc khóa ngoài?",
+   "options": [
+    "Thêm lớp mới L3 vào bảng LOP",
+    "Sửa điểm trung bình của học sinh HS01",
+    "Xóa học sinh HS05 khỏi bảng HOCSINH",
+    "Xóa bản ghi L2 khỏi bảng LOP khi vẫn còn học sinh thuộc lớp L2"
+   ],
+   "answer": 3,
+   "explanation": "Nếu xóa L2 khỏi LOP thì các bản ghi Binh, Dung tham chiếu tới một lớp không còn tồn tại – hệ QTCSDL sẽ từ chối thao tác này."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Cập nhật dữ liệu",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nThực hiện lần lượt hai lệnh:\nUPDATE HOCSINH SET MaLop = 'L2' WHERE DiemTB < 6;\nSELECT COUNT(*) FROM HOCSINH WHERE MaLop = 'L2';\nKết quả của lệnh thứ hai là",
+   "options": [
+    "2",
+    "1",
+    "4",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "Chỉ Hoa (5.5) có DiemTB < 6 nên được chuyển sang L2. Lớp L2 lúc này có Binh, Dung, Hoa – 3 học sinh."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn nhiều bảng (JOIN)",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCâu truy vấn nào cho biết họ tên các học sinh do giáo viên Tran Lan chủ nhiệm?",
+   "options": [
+    "SELECT HoTen FROM HOCSINH WHERE GVCN = 'Tran Lan';",
+    "SELECT HoTen FROM LOP WHERE GVCN = 'Tran Lan';",
+    "SELECT HoTen FROM HOCSINH INNER JOIN LOP ON HOCSINH.MaLop = LOP.MaLop WHERE GVCN = 'Tran Lan';",
+    "SELECT HoTen, GVCN FROM HOCSINH INNER JOIN LOP WHERE HoTen = 'Tran Lan';"
+   ],
+   "answer": 2,
+   "explanation": "HoTen nằm ở bảng HOCSINH, GVCN nằm ở bảng LOP nên phải ghép hai bảng theo MaLop rồi lọc GVCN = 'Tran Lan'; kết quả là An, Chi, Hoa."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Cập nhật dữ liệu",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nSau khi thực hiện DELETE FROM HOCSINH WHERE DiemTB < 7;, bảng HOCSINH còn lại bao nhiêu bản ghi?",
+   "options": [
+    "3",
+    "2",
+    "5",
+    "0"
+   ],
+   "answer": 0,
+   "explanation": "Bị xóa: Binh (6.0) và Hoa (5.5). Còn lại An, Chi, Dung – 3 bản ghi."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Tìm kiếm tuần tự",
+   "level": 1,
+   "stem": "Thuật toán tìm kiếm tuần tự thực hiện như thế nào?",
+   "options": [
+    "So sánh với phần tử ở giữa rồi loại bỏ một nửa dãy",
+    "Sắp xếp dãy rồi lấy phần tử đầu tiên",
+    "Lần lượt so sánh giá trị cần tìm với từng phần tử từ đầu dãy cho đến khi tìm thấy hoặc hết dãy",
+    "So sánh với phần tử cuối cùng của dãy"
+   ],
+   "answer": 2,
+   "explanation": "Tìm kiếm tuần tự duyệt lần lượt từng phần tử; cách loại bỏ một nửa dãy là của tìm kiếm nhị phân."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Tìm kiếm nhị phân",
+   "level": 1,
+   "stem": "Điều kiện để áp dụng được thuật toán tìm kiếm nhị phân trên một dãy là",
+   "options": [
+    "dãy có số phần tử chẵn",
+    "dãy đã được sắp xếp",
+    "dãy không có phần tử âm",
+    "dãy có các phần tử đôi một khác nhau"
+   ],
+   "answer": 1,
+   "explanation": "Tìm kiếm nhị phân dựa vào thứ tự của dãy để loại bỏ một nửa sau mỗi lần so sánh, nên dãy phải được sắp xếp."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Độ phức tạp thời gian",
+   "level": 1,
+   "stem": "Độ phức tạp thời gian của thuật toán tìm kiếm tuần tự trên dãy n phần tử (trường hợp xấu nhất) là",
+   "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n²)"
+   ],
+   "answer": 1,
+   "explanation": "Trường hợp xấu nhất phải so sánh với cả n phần tử, nên thời gian tỉ lệ với n."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Sắp xếp nổi bọt",
+   "level": 1,
+   "stem": "Ý tưởng của thuật toán sắp xếp nổi bọt (Bubble Sort) là",
+   "options": [
+    "chọn phần tử nhỏ nhất đưa về đầu dãy",
+    "lặp lại việc so sánh và đổi chỗ hai phần tử liền kề nếu chúng sai thứ tự",
+    "chèn từng phần tử vào đúng vị trí trong đoạn đã sắp xếp",
+    "chia đôi dãy rồi sắp xếp từng nửa"
+   ],
+   "answer": 1,
+   "explanation": "Nổi bọt đổi chỗ các cặp liền kề sai thứ tự; chọn phần tử nhỏ nhất là sắp xếp chọn; chèn vào đoạn đã sắp là sắp xếp chèn."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Mảng hai chiều",
+   "level": 1,
+   "stem": "Trong Python, mảng hai chiều A (dạng danh sách các danh sách), phần tử ở hàng i, cột j được truy cập bằng",
+   "options": [
+    "A[i, j]",
+    "A[i][j]",
+    "A(i)(j)",
+    "A[j][i]"
+   ],
+   "answer": 1,
+   "explanation": "A[i] là hàng thứ i (một danh sách), A[i][j] là phần tử thứ j của hàng đó."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Sắp xếp chọn",
+   "level": 2,
+   "stem": "Áp dụng sắp xếp chọn (tăng dần, mỗi lượt chọn phần tử nhỏ nhất của đoạn chưa sắp và đổi chỗ với phần tử đầu đoạn) cho dãy [5, 2, 8, 1, 9]. Sau lượt thứ nhất, dãy là\nA = [5, 2, 8, 1, 9]\nk = A.index(min(A))\nA[0], A[k] = A[k], A[0]\nprint(A)",
+   "options": [
+    "[1, 2, 8, 5, 9]",
+    "[2, 5, 8, 1, 9]",
+    "[1, 5, 2, 8, 9]",
+    "[1, 2, 5, 8, 9]"
+   ],
+   "answer": 0,
+   "explanation": "Phần tử nhỏ nhất là 1 (vị trí 3), đổi chỗ với phần tử đầu 5: [1, 2, 8, 5, 9]."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Tìm kiếm nhị phân",
+   "level": 2,
+   "stem": "Dùng tìm kiếm nhị phân trên dãy đã sắp xếp gồm 15 phần tử, trong trường hợp xấu nhất cần tối đa bao nhiêu lần so sánh với phần tử giữa?\ndef tim(A, x):\n    l, r = 0, len(A) - 1\n    dem = 0\n    while l <= r:\n        m = (l + r) // 2\n        dem += 1\n        if A[m] == x:\n            return dem\n        elif A[m] < x:\n            l = m + 1\n        else:\n            r = m - 1\n    return -1\nA = list(range(15))\nprint(max(tim(A, x) for x in A))",
+   "options": [
+    "15",
+    "8",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "Mỗi lần so sánh loại khoảng một nửa: 15 → 7 → 3 → 1 → 0 phần tử còn lại, tối đa 4 lần."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Sắp xếp nổi bọt",
+   "level": 2,
+   "stem": "Sắp xếp dãy [4, 3, 2, 1] tăng dần bằng thuật toán nổi bọt. Tổng số lần đổi chỗ hai phần tử là\nA = [4, 3, 2, 1]\nd = 0\nn = len(A)\nfor i in range(n - 1):\n    for j in range(n - 1 - i):\n        if A[j] > A[j + 1]:\n            A[j], A[j + 1] = A[j + 1], A[j]\n            d += 1\nprint(d)",
+   "options": [
+    "3",
+    "6",
+    "4",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi lần đổi chỗ hai phần tử liền kề sửa đúng một cặp ngược thứ tự; dãy có 3 + 2 + 1 = 6 cặp ngược thứ tự nên cần 6 lần đổi chỗ."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Mảng hai chiều",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nA = [[1, 2, 3], [4, 5, 6]]\nprint(A[1][2])\nKết quả in ra màn hình là",
+   "options": [
+    "6",
+    "5",
+    "2",
+    "Báo lỗi"
+   ],
+   "answer": 0,
+   "explanation": "A[1] là hàng thứ hai [4, 5, 6]; A[1][2] là phần tử chỉ số 2 của hàng đó, bằng 6."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Tìm kiếm nhị phân",
+   "level": 3,
+   "stem": "Cho hàm tìm kiếm nhị phân (biến dem đếm số lần lặp):\ndef tim(A, x):\n    l, r = 0, len(A) - 1\n    dem = 0\n    while l <= r:\n        m = (l + r) // 2\n        dem += 1\n        if A[m] == x:\n            return dem\n        elif A[m] < x:\n            l = m + 1\n        else:\n            r = m - 1\n    return -1\nA = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]\nprint(tim(A, 23))\nKết quả in ra màn hình là",
+   "options": [
+    "3",
+    "1",
+    "4",
+    "6"
+   ],
+   "answer": 0,
+   "explanation": "l = 0, r = 9: m = 4, A[4] = 16 < 23 → l = 5; m = 7, A[7] = 56 > 23 → r = 6; m = 5, A[5] = 23 → tìm thấy ở lần lặp thứ 3."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Độ phức tạp thời gian",
+   "level": 3,
+   "stem": "Thuật toán sắp xếp chọn có độ phức tạp O(n²). Sắp xếp dãy 1000 phần tử mất khoảng 0,2 giây. Ước tính thời gian sắp xếp dãy 3000 phần tử trên cùng máy là",
+   "options": [
+    "khoảng 0,6 giây",
+    "khoảng 0,4 giây",
+    "khoảng 1,8 giây",
+    "khoảng 6 giây"
+   ],
+   "answer": 2,
+   "explanation": "Thời gian tỉ lệ với n²: số phần tử tăng 3 lần thì thời gian tăng 3² = 9 lần, 0,2 × 9 = 1,8 giây."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Mảng hai chiều",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\nA = [[1, 2, 3],\n     [4, 5, 6],\n     [7, 8, 9]]\ns = 0\nfor i in range(len(A)):\n    s = s + A[i][i]\nprint(s)\nKết quả in ra màn hình là",
+   "options": [
+    "45",
+    "12",
+    "15",
+    "6"
+   ],
+   "answer": 2,
+   "explanation": "Vòng lặp cộng các phần tử A[i][i] trên đường chéo chính: 1 + 5 + 9 = 15."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Sắp xếp chèn",
+   "level": 2,
+   "stem": "Áp dụng sắp xếp chèn (tăng dần) cho dãy [7, 3, 5, 1]. Sau khi chèn xong phần tử thứ hai và thứ ba (tức 3 và 5), dãy là\nA = [7, 3, 5, 1]\nfor i in range(1, 3):\n    x = A[i]\n    j = i - 1\n    while j >= 0 and A[j] > x:\n        A[j + 1] = A[j]\n        j -= 1\n    A[j + 1] = x\nprint(A)",
+   "options": [
+    "[3, 7, 5, 1]",
+    "[1, 3, 5, 7]",
+    "[3, 5, 1, 7]",
+    "[3, 5, 7, 1]"
+   ],
+   "answer": 3,
+   "explanation": "Chèn 3 vào trước 7 được [3, 7, 5, 1]; chèn 5 vào giữa 3 và 7 được [3, 5, 7, 1]."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Tìm kiếm tuần tự",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\ndef tim(A, x):\n    for i in range(len(A)):\n        if A[i] == x:\n            return i\n    return -1\n\nprint(tim([4, 7, 1, 9, 2, 9], 9))\nKết quả in ra màn hình là",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "-1"
+   ],
+   "answer": 1,
+   "explanation": "Duyệt từ đầu, phần tử 9 đầu tiên ở chỉ số 3 nên hàm trả về 3 (không xét lần xuất hiện sau ở chỉ số 5)."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 2,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nXét các phát biểu sau:",
+   "statements": [
+    {
+     "t": "Câu truy vấn SELECT HoTen FROM HOCSINH WHERE HoTen LIKE '%n'; chỉ trả về một dòng là An.",
+     "a": true
+    },
+    {
+     "t": "Câu truy vấn SELECT MIN(DiemTB) FROM HOCSINH; cho kết quả 5.5.",
+     "a": true
+    },
+    {
+     "t": "Lệnh UPDATE HOCSINH SET DiemTB = 10; chỉ sửa điểm của bản ghi đầu tiên.",
+     "a": false
+    },
+    {
+     "t": "Câu truy vấn SELECT TenLop FROM LOP WHERE GVCN = 'Le Hung'; cho kết quả 11A1.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: '%n' khớp các xâu kết thúc bằng chữ n, chỉ có An (Binh kết thúc bằng h, Dung kết thúc bằng g). b) Đúng. c) Sai: không có WHERE nên sửa điểm của mọi bản ghi. d) Sai: Le Hung chủ nhiệm lớp 11A2."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Sắp xếp nổi bọt",
+   "level": 2,
+   "stem": "Cho chương trình sắp xếp:\nA = [5, 2, 9, 1, 6]\nn = len(A)\nfor i in range(n - 1):\n    for j in range(n - 1 - i):\n        if A[j] < A[j + 1]:\n            A[j], A[j + 1] = A[j + 1], A[j]\nprint(A)",
+   "statements": [
+    {
+     "t": "Chương trình sắp xếp dãy theo thứ tự tăng dần.",
+     "a": false
+    },
+    {
+     "t": "Chương trình in ra [9, 6, 5, 2, 1].",
+     "a": true
+    },
+    {
+     "t": "Thuật toán được dùng là sắp xếp nổi bọt.",
+     "a": true
+    },
+    {
+     "t": "Với dãy n phần tử, độ phức tạp thời gian của chương trình là O(n).",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: điều kiện A[j] < A[j + 1] thì đổi chỗ, nên phần tử lớn được đưa lên trước – sắp xếp giảm dần. b) Đúng. c) Đúng: so sánh và đổi chỗ các cặp liền kề. d) Sai: hai vòng lặp lồng nhau, độ phức tạp O(n²)."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Tìm kiếm nhị phân",
+   "level": 3,
+   "stem": "Cho hàm tìm kiếm nhị phân (dem là số lần lặp) và dãy A = [3, 8, 15, 21, 30, 42, 57]:\ndef tim(A, x):\n    l, r = 0, len(A) - 1\n    dem = 0\n    while l <= r:\n        m = (l + r) // 2\n        dem += 1\n        if A[m] == x:\n            return dem\n        elif A[m] < x:\n            l = m + 1\n        else:\n            r = m - 1\n    return -1\n",
+   "statements": [
+    {
+     "t": "tim(A, 21) trả về 1.",
+     "a": true
+    },
+    {
+     "t": "tim(A, 57) trả về 3.",
+     "a": true
+    },
+    {
+     "t": "tim(A, 10) trả về -1 sau 3 lần lặp.",
+     "a": true
+    },
+    {
+     "t": "Nếu dãy A chưa được sắp xếp, hàm vẫn luôn tìm thấy x khi x có trong dãy.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: m = 3, A[3] = 21 ngay lần đầu. b) Đúng: m = 3 (21 < 57) → l = 4, m = 5 (42 < 57) → l = 6, m = 6 tìm thấy ở lần 3. c) Đúng: m = 3 (21 > 10) → r = 2; m = 1 (8 < 10) → l = 2; m = 2 (15 > 10) → r = 1 < l, dừng sau 3 lần, trả về -1. d) Sai: tìm kiếm nhị phân chỉ đúng với dãy đã sắp xếp; ví dụ tim([5, 1, 3], 5) trả về -1 dù 5 có trong dãy."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Thuật toán sắp xếp, tìm kiếm",
+   "topic": "Mảng hai chiều",
+   "level": 3,
+   "stem": "Bảng điểm 3 học sinh, mỗi học sinh 3 môn, được lưu trong mảng hai chiều D:\nD = [[8, 7, 9],\n     [4, 7, 8],\n     [9, 8, 7]]\nT = []\nfor j in range(3):\n    s = 0\n    for i in range(3):\n        s = s + D[i][j]\n    T.append(s)\nprint(T)",
+   "statements": [
+    {
+     "t": "D[2][0] có giá trị 9.",
+     "a": true
+    },
+    {
+     "t": "Chương trình in ra tổng điểm của từng học sinh, lần lượt là 24, 18, 25.",
+     "a": false
+    },
+    {
+     "t": "Danh sách T sau vòng lặp là [21, 22, 24].",
+     "a": true
+    },
+    {
+     "t": "Nếu thêm lệnh print(len(D), len(D[0])) thì in ra 3 3.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: hàng chỉ số 2 là [9, 8, 7]. b) Sai: chương trình tính tổng theo cột (từng môn), không theo hàng; kết quả in là [21, 22, 24]. c) Đúng: 8 + 4 + 9 = 21, 7 + 7 + 8 = 22, 9 + 8 + 7 = 24. d) Đúng: 3 hàng, mỗi hàng 3 phần tử."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; mọi câu SQL có dữ liệu được chạy trên sqlite3 (Python) với đúng bảng LOP/HOCSINH trong đề, kể cả ràng buộc khóa chính/khóa ngoài; mọi đoạn code Python (tìm kiếm, sắp xếp, mảng hai chiều) được chạy bằng python3 và so khớp tự động với đáp án; phân bố đáp án A/B/C/D đã cân đối."
+}

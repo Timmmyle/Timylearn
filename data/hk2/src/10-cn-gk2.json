@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "Công nghệ",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – Công nghệ 10",
+ "scope": "Hình chiếu trục đo (vuông góc đều, xiên góc cân), hình chiếu phối cảnh; bản vẽ cơ khí (bản vẽ chi tiết, bản vẽ lắp), bản vẽ xây dựng (bản vẽ nhà), vẽ kĩ thuật với sự hỗ trợ của máy tính (CAD)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo",
+   "level": 1,
+   "stem": "Hình chiếu trục đo được xây dựng dựa trên phép chiếu nào?",
+   "options": [
+    "Phép chiếu song song",
+    "Phép chiếu xuyên tâm",
+    "Phép chiếu từ một điểm nhìn cố định gần vật thể",
+    "Phép chiếu vuông góc lên ba mặt phẳng hình chiếu đôi một vuông góc"
+   ],
+   "answer": 0,
+   "explanation": "Hình chiếu trục đo là hình biểu diễn ba chiều của vật thể, xây dựng bằng phép chiếu song song (tia chiếu song song với nhau)."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo vuông góc đều",
+   "level": 1,
+   "stem": "Trong hình chiếu trục đo vuông góc đều, các góc trục đo $\\widehat{X'O'Y'}$, $\\widehat{Y'O'Z'}$, $\\widehat{X'O'Z'}$",
+   "options": [
+    "đều bằng $135^\\circ$",
+    "đều bằng $120^\\circ$",
+    "đều bằng $90^\\circ$",
+    "lần lượt bằng $135^\\circ$, $135^\\circ$, $90^\\circ$"
+   ],
+   "answer": 1,
+   "explanation": "Hình chiếu trục đo vuông góc đều có ba góc trục đo bằng nhau và bằng $120^\\circ$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo xiên góc cân",
+   "level": 1,
+   "stem": "Hệ số biến dạng của hình chiếu trục đo xiên góc cân là",
+   "options": [
+    "$p = r = 1$, $q = 0{,}5$",
+    "$p = q = r = 1$",
+    "$p = q = 1$, $r = 0{,}5$",
+    "$p = q = r = 0{,}5$"
+   ],
+   "answer": 0,
+   "explanation": "Hình chiếu trục đo xiên góc cân: mặt phẳng tọa độ XOZ song song với mặt phẳng hình chiếu nên $p = r = 1$; hệ số biến dạng theo trục O'Y' là $q = 0{,}5$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo xiên góc cân",
+   "level": 2,
+   "stem": "Trong hình chiếu trục đo xiên góc cân, mặt của vật thể song song với mặt phẳng tọa độ nào được biểu diễn đúng hình dạng và kích thước thật?",
+   "options": [
+    "Mặt phẳng XOY",
+    "Mặt phẳng YOZ",
+    "Không có mặt nào giữ nguyên hình dạng",
+    "Mặt phẳng XOZ"
+   ],
+   "answer": 3,
+   "explanation": "Ở hình chiếu trục đo xiên góc cân, mặt phẳng tọa độ XOZ song song với mặt phẳng hình chiếu, góc $\\widehat{X'O'Z'} = 90^\\circ$ và $p = r = 1$ nên các mặt song song với XOZ không bị biến dạng."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo vuông góc đều",
+   "level": 2,
+   "stem": "Một đường tròn nằm trên mặt song song với một mặt phẳng tọa độ của vật thể. Trên hình chiếu trục đo vuông góc đều, đường tròn đó được biểu diễn thành",
+   "options": [
+    "một đường tròn bằng đường tròn thật",
+    "một đoạn thẳng",
+    "một hình elip",
+    "một hình thoi"
+   ],
+   "answer": 2,
+   "explanation": "Mặt chứa đường tròn không song song với mặt phẳng hình chiếu nên hình chiếu song song của đường tròn là một elip."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo xiên góc cân",
+   "level": 3,
+   "stem": "Khối hộp chữ nhật có chiều dài 60 mm (theo trục OX), chiều rộng 40 mm (theo trục OY), chiều cao 30 mm (theo trục OZ). Khi vẽ hình chiếu trục đo xiên góc cân với tỉ lệ 1:1, cạnh chiều rộng được vẽ dài",
+   "options": [
+    "40 mm",
+    "30 mm",
+    "20 mm",
+    "32,8 mm"
+   ],
+   "answer": 2,
+   "explanation": "Theo trục O'Y' hệ số biến dạng $q = 0{,}5$ nên cạnh vẽ dài $40 \\cdot 0{,}5 = 20$ mm."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo vuông góc đều",
+   "level": 3,
+   "stem": "Khi vẽ hình chiếu trục đo vuông góc đều, nếu dùng hệ số biến dạng thực $p = q = r = 0{,}82$ thì một cạnh dài 50 mm song song với trục OZ được vẽ dài",
+   "options": [
+    "41 mm",
+    "50 mm",
+    "25 mm",
+    "61 mm"
+   ],
+   "answer": 0,
+   "explanation": "Độ dài trục đo = độ dài thật × hệ số biến dạng $= 50 \\cdot 0{,}82 = 41$ mm."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu phối cảnh",
+   "level": 1,
+   "stem": "Hình chiếu phối cảnh được xây dựng bằng phép chiếu nào?",
+   "options": [
+    "Phép chiếu song song",
+    "Phép chiếu vuông góc",
+    "Phép chiếu xuyên tâm",
+    "Phép chiếu xiên góc cân"
+   ],
+   "answer": 2,
+   "explanation": "Hình chiếu phối cảnh dùng phép chiếu xuyên tâm, tâm chiếu là điểm nhìn của người quan sát, nên tạo cảm giác xa nhỏ, gần to như mắt nhìn."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu phối cảnh",
+   "level": 1,
+   "stem": "Trong hình chiếu phối cảnh, đường chân trời là giao tuyến của",
+   "options": [
+    "mặt phẳng vật thể với mặt tranh",
+    "mặt phẳng tầm mắt với mặt phẳng vật thể",
+    "mặt tranh với mặt phẳng hình chiếu đứng",
+    "mặt phẳng tầm mắt với mặt tranh"
+   ],
+   "answer": 3,
+   "explanation": "Mặt phẳng tầm mắt đi qua điểm nhìn và song song với mặt phẳng vật thể; giao tuyến của nó với mặt tranh là đường chân trời (đường tầm mắt)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu phối cảnh",
+   "level": 2,
+   "stem": "Hình chiếu phối cảnh một điểm tụ nhận được khi",
+   "options": [
+    "mặt tranh không song song với mặt nào của vật thể",
+    "mặt tranh vuông góc với mặt phẳng tầm mắt và đi qua điểm nhìn",
+    "mặt tranh song song với một mặt của vật thể",
+    "điểm nhìn nằm trên mặt tranh"
+   ],
+   "answer": 2,
+   "explanation": "Khi mặt tranh song song với một mặt của vật thể, chỉ nhóm cạnh vuông góc với mặt tranh hội tụ về một điểm tụ duy nhất trên đường chân trời."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu phối cảnh",
+   "level": 2,
+   "stem": "Hình chiếu phối cảnh thường được dùng trong trường hợp nào sau đây?",
+   "options": [
+    "Thể hiện hình dáng công trình kiến trúc, nội thất như khi mắt người nhìn thấy",
+    "Làm căn cứ để đo kích thước chế tạo chi tiết máy",
+    "Thay thế bản vẽ lắp khi lắp ráp sản phẩm",
+    "Biểu diễn sơ đồ nguyên lí mạch điện"
+   ],
+   "answer": 0,
+   "explanation": "Hình chiếu phối cảnh tạo hình ảnh giống thực tế nên dùng trong bản vẽ thiết kế kiến trúc, xây dựng, nội thất; nó không giữ đúng tỉ lệ kích thước nên không dùng để chế tạo."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu phối cảnh",
+   "level": 3,
+   "stem": "Một ngôi nhà một tầng được vẽ phối cảnh với đường chân trời đặt cao hơn hẳn mái nhà. Hình vẽ nhận được cho người xem cảm giác",
+   "options": [
+    "nhìn ngôi nhà từ trên cao xuống, thấy được mái nhà",
+    "nhìn ngôi nhà từ dưới thấp lên, thấy được mặt dưới mái hiên",
+    "nhìn thẳng chính diện, chỉ thấy một mặt của ngôi nhà",
+    "ngôi nhà được vẽ đúng kích thước thật"
+   ],
+   "answer": 0,
+   "explanation": "Đường chân trời thể hiện độ cao tầm mắt. Tầm mắt cao hơn mái nhà thì người quan sát nhìn từ trên xuống nên thấy được mặt mái."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ chi tiết",
+   "level": 1,
+   "stem": "Bản vẽ chi tiết gồm những nội dung nào?",
+   "options": [
+    "Hình biểu diễn, kích thước, bảng kê, khung tên",
+    "Hình biểu diễn, bảng kê, yêu cầu kĩ thuật, khung tên",
+    "Kích thước, bảng kê, yêu cầu kĩ thuật, khung tên",
+    "Hình biểu diễn, kích thước, yêu cầu kĩ thuật, khung tên"
+   ],
+   "answer": 3,
+   "explanation": "Bản vẽ chi tiết có bốn nội dung: hình biểu diễn, kích thước, yêu cầu kĩ thuật và khung tên. Bảng kê chỉ có ở bản vẽ lắp."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ lắp",
+   "level": 1,
+   "stem": "Nội dung nào sau đây có trong bản vẽ lắp nhưng không có trong bản vẽ chi tiết?",
+   "options": [
+    "Khung tên",
+    "Bảng kê",
+    "Hình biểu diễn",
+    "Kích thước"
+   ],
+   "answer": 1,
+   "explanation": "Bảng kê liệt kê tên gọi, số lượng, vật liệu của các chi tiết trong sản phẩm, chỉ có ở bản vẽ lắp."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ chi tiết",
+   "level": 1,
+   "stem": "Bản vẽ chi tiết được dùng để",
+   "options": [
+    "lắp ráp các chi tiết thành sản phẩm",
+    "thi công xây dựng ngôi nhà",
+    "giới thiệu hình dáng sản phẩm cho khách hàng bằng hình phối cảnh",
+    "chế tạo và kiểm tra chi tiết"
+   ],
+   "answer": 3,
+   "explanation": "Bản vẽ chi tiết thể hiện hình dạng, kích thước và yêu cầu kĩ thuật của một chi tiết, dùng để chế tạo và kiểm tra chi tiết đó."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Đọc bản vẽ chi tiết",
+   "level": 2,
+   "stem": "Trình tự đọc bản vẽ chi tiết là",
+   "options": [
+    "hình biểu diễn → khung tên → kích thước → yêu cầu kĩ thuật → tổng hợp",
+    "khung tên → bảng kê → hình biểu diễn → kích thước → tổng hợp",
+    "kích thước → hình biểu diễn → khung tên → yêu cầu kĩ thuật → tổng hợp",
+    "khung tên → hình biểu diễn → kích thước → yêu cầu kĩ thuật → tổng hợp"
+   ],
+   "answer": 3,
+   "explanation": "Đọc khung tên trước để biết tên chi tiết, vật liệu, tỉ lệ; sau đó đọc hình biểu diễn, kích thước, yêu cầu kĩ thuật rồi tổng hợp."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ nhà",
+   "level": 1,
+   "stem": "Mặt bằng của ngôi nhà là",
+   "options": [
+    "hình chiếu vuông góc mặt ngoài ngôi nhà lên mặt phẳng chiếu đứng",
+    "hình cắt có mặt phẳng cắt song song với mặt phẳng chiếu đứng",
+    "hình chiếu của mái nhà lên mặt phẳng nằm ngang",
+    "hình cắt bằng của ngôi nhà, mặt phẳng cắt nằm ngang đi qua các cửa sổ"
+   ],
+   "answer": 3,
+   "explanation": "Mặt bằng là hình cắt bằng (mặt phẳng cắt nằm ngang đi qua cửa sổ), thể hiện vị trí, kích thước tường, cửa, phòng và đồ đạc."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ nhà",
+   "level": 1,
+   "stem": "Hình biểu diễn quan trọng nhất của bản vẽ nhà là",
+   "options": [
+    "mặt đứng",
+    "mặt bằng",
+    "mặt cắt",
+    "hình chiếu phối cảnh"
+   ],
+   "answer": 1,
+   "explanation": "Mặt bằng thể hiện bố trí các phòng, tường, cửa, kích thước chiều dài, chiều rộng ngôi nhà nên là hình biểu diễn quan trọng nhất."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ nhà",
+   "level": 2,
+   "stem": "Mặt đứng trong bản vẽ nhà dùng để biểu diễn",
+   "options": [
+    "bố trí các phòng bên trong ngôi nhà",
+    "hình dáng bên ngoài của ngôi nhà (mặt chính, mặt bên)",
+    "kết cấu và chiều cao các tầng bên trong",
+    "vị trí đặt móng và đường ống ngầm"
+   ],
+   "answer": 1,
+   "explanation": "Mặt đứng là hình chiếu vuông góc các mặt ngoài của ngôi nhà, thể hiện hình dáng, vẻ đẹp bên ngoài."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ nhà – tỉ lệ",
+   "level": 3,
+   "stem": "Trên mặt bằng ngôi nhà vẽ theo tỉ lệ 1:100, phòng khách hình chữ nhật đo được 45 mm × 36 mm. Diện tích thực của phòng khách là",
+   "options": [
+    "16,2 m²",
+    "1,62 m²",
+    "162 m²",
+    "8,1 m²"
+   ],
+   "answer": 0,
+   "explanation": "Kích thước thật: $45 \\cdot 100 = 4500$ mm $= 4{,}5$ m; $36 \\cdot 100 = 3600$ mm $= 3{,}6$ m. Diện tích $4{,}5 \\cdot 3{,}6 = 16{,}2$ m²."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Ghi kích thước trên bản vẽ",
+   "level": 3,
+   "stem": "Một chi tiết có chiều dài thật 120 mm được vẽ theo tỉ lệ 1:2. Trên bản vẽ, đoạn biểu diễn chiều dài đó dài bao nhiêu và con số kích thước ghi là gì?",
+   "options": [
+    "Dài 60 mm, ghi số 60",
+    "Dài 60 mm, ghi số 120",
+    "Dài 240 mm, ghi số 120",
+    "Dài 120 mm, ghi số 60"
+   ],
+   "answer": 1,
+   "explanation": "Tỉ lệ 1:2 là thu nhỏ một nửa nên vẽ dài 60 mm; con số kích thước luôn ghi giá trị thật (120), không phụ thuộc tỉ lệ bản vẽ."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Kí hiệu trên bản vẽ cơ khí",
+   "level": 2,
+   "stem": "Trên bản vẽ chi tiết, kí hiệu $\\varnothing 20$ cho biết",
+   "options": [
+    "bán kính cung tròn bằng 20 mm",
+    "cạnh của hình vuông bằng 20 mm",
+    "đường kính của phần hình trụ (hoặc lỗ) bằng 20 mm",
+    "ren hệ mét có đường kính 20 mm"
+   ],
+   "answer": 2,
+   "explanation": "Kí hiệu $\\varnothing$ đặt trước con số chỉ đường kính; bán kính dùng kí hiệu R, ren hệ mét dùng kí hiệu M."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Vẽ kĩ thuật bằng máy tính (CAD)",
+   "level": 2,
+   "stem": "Ưu điểm của việc lập bản vẽ kĩ thuật bằng phần mềm CAD so với vẽ tay là",
+   "options": [
+    "người vẽ không cần biết các tiêu chuẩn vẽ kĩ thuật",
+    "không cần đến thiết bị phần cứng như máy tính, máy in",
+    "độ chính xác cao, dễ chỉnh sửa, lưu trữ và sao chép bản vẽ",
+    "bản vẽ không cần có khung tên và kích thước"
+   ],
+   "answer": 2,
+   "explanation": "CAD giúp vẽ nhanh, chính xác, dễ sửa, lưu trữ, trao đổi; người vẽ vẫn phải tuân theo tiêu chuẩn vẽ kĩ thuật và cần hệ thống phần cứng."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Vẽ kĩ thuật bằng máy tính (CAD)",
+   "level": 1,
+   "stem": "Phần mềm nào sau đây là phần mềm hỗ trợ vẽ kĩ thuật (CAD)?",
+   "options": [
+    "Microsoft Excel",
+    "AutoCAD",
+    "Adobe Premiere",
+    "Google Chrome"
+   ],
+   "answer": 1,
+   "explanation": "AutoCAD là phần mềm CAD phổ biến để vẽ bản vẽ kĩ thuật 2D, 3D. Các phần mềm còn lại là bảng tính, dựng video, trình duyệt web."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu trục đo vuông góc đều",
+   "level": 2,
+   "stem": "Bạn An vẽ hình chiếu trục đo vuông góc đều của một khối hộp chữ nhật kích thước 60 mm × 40 mm × 30 mm, dùng hệ số biến dạng quy ước $p = q = r = 1$.",
+   "statements": [
+    {
+     "t": "Ba góc trục đo $\\widehat{X'O'Y'}$, $\\widehat{Y'O'Z'}$, $\\widehat{X'O'Z'}$ đều bằng $120^\\circ$.",
+     "a": true
+    },
+    {
+     "t": "Trục O'Z' thường được đặt thẳng đứng.",
+     "a": true
+    },
+    {
+     "t": "Các cạnh của khối hộp song song với trục OX được vẽ song song với trục O'Y'.",
+     "a": false
+    },
+    {
+     "t": "Cạnh dài 40 mm song song với trục OY được vẽ dài 20 mm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đặc điểm của hình chiếu trục đo vuông góc đều. b) Đúng: trục O'Z' đặt thẳng đứng, hai trục kia hợp với nó góc $120^\\circ$. c) Sai: cạnh song song OX được vẽ song song O'X'. d) Sai: với $q = 1$ cạnh vẫn vẽ dài 40 mm."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Hình chiếu trục đo, phối cảnh",
+   "topic": "Hình chiếu phối cảnh hai điểm tụ",
+   "level": 3,
+   "stem": "Một kiến trúc sư vẽ hình chiếu phối cảnh hai điểm tụ của một ngôi nhà hình hộp để giới thiệu với khách hàng.",
+   "statements": [
+    {
+     "t": "Hình chiếu phối cảnh được xây dựng bằng phép chiếu xuyên tâm, tâm chiếu là điểm nhìn.",
+     "a": true
+    },
+    {
+     "t": "Các cạnh thẳng đứng của ngôi nhà trên hình vẫn thẳng đứng và song song với nhau.",
+     "a": true
+    },
+    {
+     "t": "Hai điểm tụ đều nằm trên đường chân trời.",
+     "a": true
+    },
+    {
+     "t": "Để có phối cảnh hai điểm tụ, mặt tranh phải song song với mặt tiền ngôi nhà.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: cạnh thẳng đứng song song với mặt tranh nên không hội tụ. c) Đúng: các nhóm cạnh nằm ngang hội tụ tại các điểm tụ trên đường chân trời. d) Sai: mặt tranh song song với một mặt vật thể cho phối cảnh một điểm tụ; phối cảnh hai điểm tụ có mặt tranh không song song với mặt nào của ngôi nhà."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ lắp",
+   "level": 2,
+   "stem": "Tổ kĩ thuật được giao bản vẽ lắp của bộ giá đỡ gồm: giá đỡ, trục, bạc lót, vòng đệm, đai ốc.",
+   "statements": [
+    {
+     "t": "Bảng kê của bản vẽ cho biết tên gọi, số lượng và vật liệu của từng chi tiết.",
+     "a": true
+    },
+    {
+     "t": "Bản vẽ lắp ghi đầy đủ kích thước của từng chi tiết để chế tạo các chi tiết đó.",
+     "a": false
+    },
+    {
+     "t": "Khi đọc bản vẽ lắp, sau khung tên cần đọc bảng kê.",
+     "a": true
+    },
+    {
+     "t": "Kích thước trên bản vẽ lắp gồm kích thước chung của sản phẩm và kích thước lắp ghép giữa các chi tiết.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: bản vẽ lắp chỉ ghi kích thước chung, kích thước lắp ghép…; kích thước chế tạo từng chi tiết nằm ở bản vẽ chi tiết. c) Đúng: trình tự khung tên → bảng kê → hình biểu diễn → kích thước → phân tích chi tiết → tổng hợp. d) Đúng."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Bản vẽ cơ khí và xây dựng",
+   "topic": "Bản vẽ nhà – tỉ lệ",
+   "level": 3,
+   "stem": "Trên mặt bằng một ngôi nhà vẽ theo tỉ lệ 1:100, phòng ngủ hình chữ nhật đo được 40 mm × 35 mm.",
+   "statements": [
+    {
+     "t": "Kích thước thật của phòng ngủ là 4 m × 3,5 m.",
+     "a": true
+    },
+    {
+     "t": "Diện tích thật của phòng ngủ là 14 m².",
+     "a": true
+    },
+    {
+     "t": "Mặt bằng là hình chiếu vuông góc của mái nhà lên mặt phẳng nằm ngang.",
+     "a": false
+    },
+    {
+     "t": "Nếu vẽ lại theo tỉ lệ 1:50 thì cạnh dài 4 m của phòng được vẽ dài 40 mm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $40 \\cdot 100 = 4000$ mm, $35 \\cdot 100 = 3500$ mm. b) Đúng: $4 \\cdot 3{,}5 = 14$ m². c) Sai: mặt bằng là hình cắt bằng đi qua các cửa sổ. d) Sai: $4000 : 50 = 80$ mm."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; kiểm tra bằng Python các câu tính toán 6, 7, 20, 21, 28 (tỉ lệ bản vẽ, hệ số biến dạng, diện tích). Đáp án phần I rải đều 6/6/6/6."
+}

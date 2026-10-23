@@ -1,0 +1,644 @@
+{
+ "grade": 11,
+ "subject": "Tiếng Anh",
+ "exam": "gk2",
+ "duration_min": 60,
+ "title": "Đề ôn giữa học kì 2 – Tiếng Anh 11 (đề số 1)",
+ "scope": "Global Success 11: Unit 6 Preserving our heritage; Unit 7 Education options for school-leavers; Unit 8 Becoming independent (ngữ pháp: mệnh đề to-infinitive, danh động từ hoàn thành và mệnh đề phân từ hoàn thành, câu chẻ It is/was … that/who)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "$\\underline{\\text{h}}$eritage",
+    "$\\underline{\\text{h}}$istoric",
+    "$\\underline{\\text{h}}$ouse",
+    "$\\underline{\\text{h}}$onour"
+   ],
+   "answer": 3,
+   "explanation": "“honour” /ˈɒnə/ có “h” câm; “heritage”, “historic”, “house” có “h” đọc /h/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "damag$\\underline{\\text{ed}}$",
+    "respect$\\underline{\\text{ed}}$",
+    "restor$\\underline{\\text{ed}}$",
+    "preserv$\\underline{\\text{ed}}$"
+   ],
+   "answer": 1,
+   "explanation": "“respected” tận cùng âm /t/ → “-ed” đọc /ɪd/; “preserved”, “restored”, “damaged” đọc /d/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "preserve",
+    "ancient",
+    "heritage",
+    "culture"
+   ],
+   "answer": 0,
+   "explanation": "“preserve” /prɪˈzɜːv/ nhấn âm 2; “heritage”, “ancient”, “culture” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "vocational",
+    "academic",
+    "apprentice",
+    "reliable"
+   ],
+   "answer": 1,
+   "explanation": "“academic” /ˌækəˈdemɪk/ nhấn âm 3; “vocational” /vəʊˈkeɪʃənl/, “apprentice” /əˈprentɪs/, “reliable” /rɪˈlaɪəbl/ nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Preserving our heritage – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe Complex of Hue Monuments was recognised as a World ______ Site by UNESCO in 1993.",
+   "options": [
+    "Heritage",
+    "History",
+    "Inheritance",
+    "Tradition"
+   ],
+   "answer": 0,
+   "explanation": "“World Heritage Site” = Di sản Thế giới; Quần thể di tích Cố đô Huế được công nhận năm 1993."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Preserving our heritage – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nWe should ______ our historic buildings for future generations.",
+   "options": [
+    "prevent",
+    "present",
+    "preserve",
+    "pretend"
+   ],
+   "answer": 2,
+   "explanation": "preserve = bảo tồn; prevent = ngăn chặn, present = trình bày, pretend = giả vờ."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Preserving our heritage – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe ancient town of Hoi An is a popular tourist ______.",
+   "options": [
+    "attractive",
+    "attractively",
+    "attract",
+    "attraction"
+   ],
+   "answer": 3,
+   "explanation": "Sau “a popular tourist” cần danh từ tạo cụm “tourist attraction” (điểm thu hút khách du lịch)."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: Education options for school-leavers – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nAfter finishing secondary school, some students attend a ______ school to learn practical skills for a job.",
+   "options": [
+    "vocational",
+    "academic",
+    "nursery",
+    "primary"
+   ],
+   "answer": 0,
+   "explanation": "“vocational school” = trường nghề, dạy kĩ năng thực hành cho một nghề cụ thể."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: Education options for school-leavers – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nMy brother is doing an ______ at a car company, where he learns the job while working.",
+   "options": [
+    "apprentice",
+    "apprenticeship",
+    "appreciation",
+    "application"
+   ],
+   "answer": 1,
+   "explanation": "“do an apprenticeship” = học nghề (vừa học vừa làm); “apprentice” là người học việc, không đi với “do”."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: Education options for school-leavers – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nMany students take a ______ year to travel or work before going to university.",
+   "options": [
+    "free",
+    "break",
+    "gap",
+    "spare"
+   ],
+   "answer": 2,
+   "explanation": "“gap year” = năm nghỉ giữa phổ thông và đại học để đi du lịch, làm việc…"
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: Becoming independent – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nBeing able to manage your time well is an important life ______.",
+   "options": [
+    "skilled",
+    "skilful",
+    "skilfully",
+    "skill"
+   ],
+   "answer": 3,
+   "explanation": "Sau “an important life” cần danh từ: life skill (kĩ năng sống)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: Becoming independent – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nA ______ person is someone others can trust to do what they promise.",
+   "options": [
+    "reliant",
+    "relying",
+    "reliance",
+    "reliable"
+   ],
+   "answer": 3,
+   "explanation": "reliable = đáng tin cậy; reliant (on) = phụ thuộc vào; reliance là danh từ."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 6 – Grammar: To-infinitive clauses",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nNeil Armstrong was the first person ______ on the Moon.",
+   "options": [
+    "to walk",
+    "walks",
+    "walking",
+    "walked"
+   ],
+   "answer": 0,
+   "explanation": "Sau “the first/ the last/ the only + danh từ” dùng mệnh đề to-infinitive: the first person to walk."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 6 – Grammar: To-infinitive clauses",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nHue was the first place in Viet Nam ______ as a World Heritage Site.",
+   "options": [
+    "being recognised",
+    "to recognise",
+    "to be recognised",
+    "recognising"
+   ],
+   "answer": 2,
+   "explanation": "Sau “the first + danh từ” dùng to-V; Huế “được công nhận” → bị động: to be recognised."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 6 – Grammar: To-infinitive clauses",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nYoung people have many ways ______ to the preservation of heritage, such as joining volunteer clubs.",
+   "options": [
+    "contributed",
+    "contribute",
+    "contributing",
+    "to contribute"
+   ],
+   "answer": 3,
+   "explanation": "Danh từ “ways” được bổ nghĩa bằng mệnh đề to-infinitive: ways to contribute (cách để đóng góp)."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 7 – Grammar: Perfect gerunds and perfect participle clauses",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nShe denied ______ the exam questions before the test.",
+   "options": [
+    "to see",
+    "to have seen",
+    "having seen",
+    "having been seen"
+   ],
+   "answer": 2,
+   "explanation": "deny + V-ing; hành động “nhìn thấy” xảy ra trước hành động “phủ nhận” → danh động từ hoàn thành: having seen."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 7 – Grammar: Perfect gerunds and perfect participle clauses",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n______ the entrance exam, Nam started looking for a part-time job.",
+   "options": [
+    "Passed",
+    "Having passed",
+    "Having been passed",
+    "Pass"
+   ],
+   "answer": 1,
+   "explanation": "Hai hành động cùng chủ ngữ “Nam”, “thi đỗ” xảy ra trước → mệnh đề phân từ hoàn thành chủ động: Having passed."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 7 – Grammar: Perfect gerunds and perfect participle clauses",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n______ by the university, he decided to do an apprenticeship instead.",
+   "options": [
+    "Rejecting",
+    "Having rejected",
+    "Having been rejected",
+    "To reject"
+   ],
+   "answer": 2,
+   "explanation": "Anh ấy “bị từ chối” trước khi quyết định → phân từ hoàn thành bị động: Having been rejected."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "topic": "Unit 8 – Grammar: Cleft sentences (It is/was … that/who …)",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nIt was my grandmother ______ taught me how to cook.",
+   "options": [
+    "which",
+    "what",
+    "whom",
+    "who"
+   ],
+   "answer": 3,
+   "explanation": "Câu chẻ nhấn mạnh chủ ngữ chỉ người: It was + người + who/that + V."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "topic": "Unit 8 – Grammar: Cleft sentences (It is/was … that/who …)",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nIt is good time management skills ______ help teenagers become independent.",
+   "options": [
+    "who",
+    "that",
+    "where",
+    "what"
+   ],
+   "answer": 1,
+   "explanation": "Câu chẻ nhấn mạnh chủ ngữ chỉ vật: It is + N + that + V; “who” chỉ dùng cho người, “what/where” không dùng trong câu chẻ."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nMai: “Thank you for helping me with my project.”\nLan: “______”",
+   "options": [
+    "I'm afraid not.",
+    "Go ahead.",
+    "Yes, you can.",
+    "It's my pleasure."
+   ],
+   "answer": 3,
+   "explanation": "Đáp lại lời cảm ơn: “It's my pleasure.” (Rất hân hạnh/ Không có gì.)"
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nTeacher: “Which would you prefer, going to university or attending a vocational school?”\nNam: “______”",
+   "options": [
+    "I'd rather go to university because I love academic subjects.",
+    "Yes, I'd prefer it.",
+    "I don't think so.",
+    "No, thanks."
+   ],
+   "answer": 0,
+   "explanation": "Câu hỏi lựa chọn (Which…?) → phải chọn một phương án và nêu lí do; không trả lời Yes/No."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Lan: Really? What will you study there?\nb. Nam: I've decided to attend a vocational school after I finish Grade 12.\nc. Nam: Car repair. I want to become a mechanic.\nd. Lan: Have you decided what to do after leaving school, Nam?",
+   "options": [
+    "d – b – c – a",
+    "d – b – a – c",
+    "b – d – a – c",
+    "d – a – b – c"
+   ],
+   "answer": 1,
+   "explanation": "Lan hỏi dự định (d) → Nam trả lời học trường nghề (b) → Lan hỏi học ngành gì (a) → Nam trả lời sửa ô tô (c)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. For example, too many tourists and poor management have damaged some ancient buildings.\nb. Therefore, both the government and local people need to take action to preserve them.\nc. However, many of these sites are facing serious threats.\nd. Viet Nam has many cultural and natural heritage sites recognised by UNESCO.",
+   "options": [
+    "d – c – a – b",
+    "c – d – a – b",
+    "d – c – b – a",
+    "d – a – c – b"
+   ],
+   "answer": 0,
+   "explanation": "Câu chủ đề (d) → “However” nêu vấn đề (c) → ví dụ (a) → giải pháp “Therefore” (b)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Becoming independent)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nBecoming independent is an important part of growing up. Independent teenagers are able to make their own decisions and take (25) ______ for their actions. One of the first steps (26) ______ independent is learning basic life skills, such as cooking, doing the laundry and managing money. (27) ______ these skills at home, teenagers will feel more confident when they live on their own at university. Time management is also important. It is good time management (28) ______ helps students balance their study, work and free time. Of course, becoming independent does not mean that you should (29) ______ your parents' advice. Parents can still give useful guidance, but teenagers should be (30) ______ for their own choices.\n\nBlank (25):",
+   "options": [
+    "responsibility",
+    "irresponsible",
+    "responsible",
+    "responsibly"
+   ],
+   "answer": 0,
+   "explanation": "Cụm “take responsibility for sth” = chịu trách nhiệm về điều gì; cần danh từ."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Becoming independent)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nBecoming independent is an important part of growing up. Independent teenagers are able to make their own decisions and take (25) ______ for their actions. One of the first steps (26) ______ independent is learning basic life skills, such as cooking, doing the laundry and managing money. (27) ______ these skills at home, teenagers will feel more confident when they live on their own at university. Time management is also important. It is good time management (28) ______ helps students balance their study, work and free time. Of course, becoming independent does not mean that you should (29) ______ your parents' advice. Parents can still give useful guidance, but teenagers should be (30) ______ for their own choices.\n\nBlank (26):",
+   "options": [
+    "to become",
+    "becoming",
+    "became",
+    "become"
+   ],
+   "answer": 0,
+   "explanation": "Danh từ “steps” được bổ nghĩa bằng to-infinitive: steps to become independent."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Becoming independent)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nBecoming independent is an important part of growing up. Independent teenagers are able to make their own decisions and take (25) ______ for their actions. One of the first steps (26) ______ independent is learning basic life skills, such as cooking, doing the laundry and managing money. (27) ______ these skills at home, teenagers will feel more confident when they live on their own at university. Time management is also important. It is good time management (28) ______ helps students balance their study, work and free time. Of course, becoming independent does not mean that you should (29) ______ your parents' advice. Parents can still give useful guidance, but teenagers should be (30) ______ for their own choices.\n\nBlank (27):",
+   "options": [
+    "Having been learnt",
+    "To have learnt",
+    "Learnt",
+    "Having learnt"
+   ],
+   "answer": 3,
+   "explanation": "Cùng chủ ngữ “teenagers”, việc học kĩ năng xảy ra trước → phân từ hoàn thành chủ động: Having learnt."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Becoming independent)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nBecoming independent is an important part of growing up. Independent teenagers are able to make their own decisions and take (25) ______ for their actions. One of the first steps (26) ______ independent is learning basic life skills, such as cooking, doing the laundry and managing money. (27) ______ these skills at home, teenagers will feel more confident when they live on their own at university. Time management is also important. It is good time management (28) ______ helps students balance their study, work and free time. Of course, becoming independent does not mean that you should (29) ______ your parents' advice. Parents can still give useful guidance, but teenagers should be (30) ______ for their own choices.\n\nBlank (28):",
+   "options": [
+    "that",
+    "where",
+    "what",
+    "who"
+   ],
+   "answer": 0,
+   "explanation": "Câu chẻ nhấn mạnh chủ ngữ chỉ vật “good time management” → It is … that …"
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Becoming independent)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nBecoming independent is an important part of growing up. Independent teenagers are able to make their own decisions and take (25) ______ for their actions. One of the first steps (26) ______ independent is learning basic life skills, such as cooking, doing the laundry and managing money. (27) ______ these skills at home, teenagers will feel more confident when they live on their own at university. Time management is also important. It is good time management (28) ______ helps students balance their study, work and free time. Of course, becoming independent does not mean that you should (29) ______ your parents' advice. Parents can still give useful guidance, but teenagers should be (30) ______ for their own choices.\n\nBlank (29):",
+   "options": [
+    "ignored",
+    "ignore",
+    "ignoring",
+    "to ignore"
+   ],
+   "answer": 1,
+   "explanation": "Sau động từ khuyết thiếu “should” dùng động từ nguyên mẫu không “to”: ignore."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 8: Becoming independent)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nBecoming independent is an important part of growing up. Independent teenagers are able to make their own decisions and take (25) ______ for their actions. One of the first steps (26) ______ independent is learning basic life skills, such as cooking, doing the laundry and managing money. (27) ______ these skills at home, teenagers will feel more confident when they live on their own at university. Time management is also important. It is good time management (28) ______ helps students balance their study, work and free time. Of course, becoming independent does not mean that you should (29) ______ your parents' advice. Parents can still give useful guidance, but teenagers should be (30) ______ for their own choices.\n\nBlank (30):",
+   "options": [
+    "dependent",
+    "reliable",
+    "responsible",
+    "capable"
+   ],
+   "answer": 2,
+   "explanation": "“be responsible for sth” = chịu trách nhiệm về; reliable không đi với “for” theo nghĩa này, dependent đi với “on”, capable đi với “of”."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 7: Education options for school-leavers)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nAfter leaving secondary school, students in Viet Nam have several options. The most common choice is to go to university. A university degree can open the door to many well-paid jobs, especially in fields such as medicine, law and engineering. However, university education is expensive, and it usually takes four to six years to complete a degree.\n\nAnother option is vocational training. Vocational schools offer shorter courses, usually from several months to three years, that teach practical skills for specific jobs such as cooking, hairdressing or car repair. Students at these schools spend much of their time doing hands-on practice in workshops. As a result, many of them can find a job right after graduation.\n\nSome students choose to do an apprenticeship. Apprentices work for a company and receive on-the-job training from experienced workers. They also earn a small salary while learning, which helps them become financially independent early.\n\nFinally, a growing number of school-leavers decide to take a gap year before continuing their education. They use this time to travel, do volunteer work or get work experience. Having taken a gap year, many students feel more mature and have a clearer idea of what they want to study.\n\nWhatever option they choose, students should consider their interests, abilities and the needs of the job market carefully.\n\nWhat is the passage mainly about?",
+   "options": [
+    "The cost of university education in Viet Nam",
+    "How to find a job after graduation",
+    "Different education options for school-leavers",
+    "The benefits of travelling during a gap year"
+   ],
+   "answer": 2,
+   "explanation": "Bài lần lượt giới thiệu đại học, học nghề, học việc và gap year – các lựa chọn sau khi rời trường phổ thông."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 7: Education options for school-leavers)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nAfter leaving secondary school, students in Viet Nam have several options. The most common choice is to go to university. A university degree can open the door to many well-paid jobs, especially in fields such as medicine, law and engineering. However, university education is expensive, and it usually takes four to six years to complete a degree.\n\nAnother option is vocational training. Vocational schools offer shorter courses, usually from several months to three years, that teach practical skills for specific jobs such as cooking, hairdressing or car repair. Students at these schools spend much of their time doing hands-on practice in workshops. As a result, many of them can find a job right after graduation.\n\nSome students choose to do an apprenticeship. Apprentices work for a company and receive on-the-job training from experienced workers. They also earn a small salary while learning, which helps them become financially independent early.\n\nFinally, a growing number of school-leavers decide to take a gap year before continuing their education. They use this time to travel, do volunteer work or get work experience. Having taken a gap year, many students feel more mature and have a clearer idea of what they want to study.\n\nWhatever option they choose, students should consider their interests, abilities and the needs of the job market carefully.\n\nHow long does it usually take to complete a university degree?",
+   "options": [
+    "One year",
+    "Up to three years",
+    "Several months",
+    "Four to six years"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 1: “it usually takes four to six years to complete a degree”."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 7: Education options for school-leavers)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nAfter leaving secondary school, students in Viet Nam have several options. The most common choice is to go to university. A university degree can open the door to many well-paid jobs, especially in fields such as medicine, law and engineering. However, university education is expensive, and it usually takes four to six years to complete a degree.\n\nAnother option is vocational training. Vocational schools offer shorter courses, usually from several months to three years, that teach practical skills for specific jobs such as cooking, hairdressing or car repair. Students at these schools spend much of their time doing hands-on practice in workshops. As a result, many of them can find a job right after graduation.\n\nSome students choose to do an apprenticeship. Apprentices work for a company and receive on-the-job training from experienced workers. They also earn a small salary while learning, which helps them become financially independent early.\n\nFinally, a growing number of school-leavers decide to take a gap year before continuing their education. They use this time to travel, do volunteer work or get work experience. Having taken a gap year, many students feel more mature and have a clearer idea of what they want to study.\n\nWhatever option they choose, students should consider their interests, abilities and the needs of the job market carefully.\n\nThe word “hands-on” in paragraph 2 is closest in meaning to ______.",
+   "options": [
+    "difficult",
+    "theoretical",
+    "practical",
+    "boring"
+   ],
+   "answer": 2,
+   "explanation": "“hands-on practice” = thực hành trực tiếp → practical."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 7: Education options for school-leavers)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nAfter leaving secondary school, students in Viet Nam have several options. The most common choice is to go to university. A university degree can open the door to many well-paid jobs, especially in fields such as medicine, law and engineering. However, university education is expensive, and it usually takes four to six years to complete a degree.\n\nAnother option is vocational training. Vocational schools offer shorter courses, usually from several months to three years, that teach practical skills for specific jobs such as cooking, hairdressing or car repair. Students at these schools spend much of their time doing hands-on practice in workshops. As a result, many of them can find a job right after graduation.\n\nSome students choose to do an apprenticeship. Apprentices work for a company and receive on-the-job training from experienced workers. They also earn a small salary while learning, which helps them become financially independent early.\n\nFinally, a growing number of school-leavers decide to take a gap year before continuing their education. They use this time to travel, do volunteer work or get work experience. Having taken a gap year, many students feel more mature and have a clearer idea of what they want to study.\n\nWhatever option they choose, students should consider their interests, abilities and the needs of the job market carefully.\n\nAccording to paragraph 3, what is one advantage of an apprenticeship?",
+   "options": [
+    "Apprentices can travel around the world.",
+    "Apprentices earn money while they are learning.",
+    "Apprentices do not have to work.",
+    "Apprentices get a university degree."
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 3: “They also earn a small salary while learning”."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 7: Education options for school-leavers)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nAfter leaving secondary school, students in Viet Nam have several options. The most common choice is to go to university. A university degree can open the door to many well-paid jobs, especially in fields such as medicine, law and engineering. However, university education is expensive, and it usually takes four to six years to complete a degree.\n\nAnother option is vocational training. Vocational schools offer shorter courses, usually from several months to three years, that teach practical skills for specific jobs such as cooking, hairdressing or car repair. Students at these schools spend much of their time doing hands-on practice in workshops. As a result, many of them can find a job right after graduation.\n\nSome students choose to do an apprenticeship. Apprentices work for a company and receive on-the-job training from experienced workers. They also earn a small salary while learning, which helps them become financially independent early.\n\nFinally, a growing number of school-leavers decide to take a gap year before continuing their education. They use this time to travel, do volunteer work or get work experience. Having taken a gap year, many students feel more mature and have a clearer idea of what they want to study.\n\nWhatever option they choose, students should consider their interests, abilities and the needs of the job market carefully.\n\nThe word “They” in paragraph 4 refers to ______.",
+   "options": [
+    "experienced workers",
+    "school-leavers who take a gap year",
+    "apprentices",
+    "vocational schools"
+   ],
+   "answer": 1,
+   "explanation": "Câu trước nói về “a growing number of school-leavers decide to take a gap year” → “They” chỉ những học sinh này."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 7: Education options for school-leavers)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nAfter leaving secondary school, students in Viet Nam have several options. The most common choice is to go to university. A university degree can open the door to many well-paid jobs, especially in fields such as medicine, law and engineering. However, university education is expensive, and it usually takes four to six years to complete a degree.\n\nAnother option is vocational training. Vocational schools offer shorter courses, usually from several months to three years, that teach practical skills for specific jobs such as cooking, hairdressing or car repair. Students at these schools spend much of their time doing hands-on practice in workshops. As a result, many of them can find a job right after graduation.\n\nSome students choose to do an apprenticeship. Apprentices work for a company and receive on-the-job training from experienced workers. They also earn a small salary while learning, which helps them become financially independent early.\n\nFinally, a growing number of school-leavers decide to take a gap year before continuing their education. They use this time to travel, do volunteer work or get work experience. Having taken a gap year, many students feel more mature and have a clearer idea of what they want to study.\n\nWhatever option they choose, students should consider their interests, abilities and the needs of the job market carefully.\n\nWhich of the following can be inferred from the passage?",
+   "options": [
+    "Students who take a gap year never go to university.",
+    "Vocational training is more expensive than university.",
+    "There is no single best option for all school-leavers.",
+    "Apprentices do not need any training."
+   ],
+   "answer": 2,
+   "explanation": "Mỗi lựa chọn đều có ưu điểm và câu cuối khuyên cân nhắc sở thích, năng lực → không có lựa chọn nào tốt nhất cho mọi người."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Error identification – To-infinitive clauses",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nShe was the last person (A) leaving the museum, so she (B) had to (C) turn off all (D) the lights.",
+   "options": [
+    "(A) leaving",
+    "(B) had to",
+    "(C) turn off",
+    "(D) the lights"
+   ],
+   "answer": 0,
+   "explanation": "Sau “the last + danh từ” dùng to-infinitive: leaving → to leave."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Error identification – Perfect gerunds",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nHe (A) admitted (B) having (C) took the exam paper (D) without permission.",
+   "options": [
+    "(A) admitted",
+    "(B) having",
+    "(C) took",
+    "(D) without"
+   ],
+   "answer": 2,
+   "explanation": "Danh động từ hoàn thành: having + V3 → took → taken."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Cleft sentences",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nMy mother taught me how to manage money.",
+   "options": [
+    "It was my mother who teaches me how to manage money.",
+    "It was my mother who did not teach me how to manage money.",
+    "It was my mother which taught me how to manage money.",
+    "It was my mother who taught me how to manage money."
+   ],
+   "answer": 3,
+   "explanation": "Câu chẻ nhấn mạnh chủ ngữ chỉ người: It was + my mother + who + taught…; giữ nguyên thì quá khứ và nghĩa khẳng định."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Sentence transformation – Perfect participle clauses",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nAfter he had finished the course, he applied for a job at a hotel.",
+   "options": [
+    "Having been finished the course, he applied for a job at a hotel.",
+    "Having finished the course, he applied for a job at a hotel.",
+    "Having finished the course, the hotel offered him a job.",
+    "Finished the course, he applied for a job at a hotel."
+   ],
+   "answer": 1,
+   "explanation": "Hai mệnh đề cùng chủ ngữ “he”, hành động xảy ra trước, chủ động → Having + V3. Phương án cuối sai vì chủ ngữ “the hotel” không phải người hoàn thành khóa học."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu; kiểm tra mỗi câu chỉ có một đáp án đúng (câu chẻ không đưa “that” vào phương án khi đáp án là “who”), phiên âm/trọng âm từng từ, độ dài đoạn đọc, JSON, số câu và phân bố đáp án bằng Python. Câu chẻ (Unit 8) không có chủ đề tương ứng trong TOPICS.md nên không gán tk. Dữ kiện: Quần thể di tích Cố đô Huế được UNESCO công nhận năm 1993 (di sản thế giới đầu tiên của Việt Nam)."
+}

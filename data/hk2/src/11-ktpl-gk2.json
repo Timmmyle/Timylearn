@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "GD Kinh tế và Pháp luật",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – GD Kinh tế và Pháp luật 11",
+ "scope": "Quyền bình đẳng của công dân trước pháp luật; bình đẳng giới; bình đẳng giữa các dân tộc, tôn giáo; quyền và nghĩa vụ tham gia quản lí nhà nước và xã hội; quyền bầu cử, ứng cử; quyền khiếu nại, tố cáo; nghĩa vụ bảo vệ Tổ quốc.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng trước pháp luật",
+   "level": 1,
+   "stem": "Công dân bình đẳng trước pháp luật có nghĩa là mọi công dân",
+   "options": [
+    "đều có mức thu nhập và tài sản như nhau.",
+    "không bị phân biệt đối xử trong việc hưởng quyền, thực hiện nghĩa vụ và chịu trách nhiệm pháp lí.",
+    "đều được hưởng mọi quyền mà không cần thực hiện nghĩa vụ.",
+    "đều được giữ các chức vụ như nhau trong bộ máy nhà nước."
+   ],
+   "answer": 1,
+   "explanation": "Bình đẳng trước pháp luật: mọi công dân không bị phân biệt đối xử (về dân tộc, giới tính, tôn giáo, thành phần, địa vị xã hội…) trong việc hưởng quyền, thực hiện nghĩa vụ và chịu trách nhiệm pháp lí."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giới",
+   "level": 1,
+   "stem": "Theo Luật Bình đẳng giới, bình đẳng giới là việc nam, nữ",
+   "options": [
+    "được đối xử giống hệt nhau trong mọi trường hợp, không có ngoại lệ.",
+    "phải làm những công việc giống nhau với số giờ như nhau.",
+    "có quyền như nhau nhưng nữ giới không phải thực hiện nghĩa vụ.",
+    "có vị trí, vai trò ngang nhau, được tạo điều kiện và cơ hội phát huy năng lực, thụ hưởng như nhau thành quả của sự phát triển."
+   ],
+   "answer": 3,
+   "explanation": "Khái niệm theo Luật Bình đẳng giới: nam, nữ có vị trí, vai trò ngang nhau, được tạo điều kiện và cơ hội phát huy năng lực và thụ hưởng như nhau về thành quả của sự phát triển."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các dân tộc",
+   "level": 1,
+   "stem": "Quyền bình đẳng giữa các dân tộc được hiểu là các dân tộc trong một quốc gia",
+   "options": [
+    "có số lượng đại biểu bằng nhau trong mọi cơ quan nhà nước.",
+    "phải có cùng phong tục, tập quán và tiếng nói.",
+    "không phân biệt đa số hay thiểu số, trình độ văn hóa cao hay thấp đều được Nhà nước tôn trọng, bảo vệ và tạo điều kiện phát triển.",
+    "có mức sống giống nhau ở mọi vùng miền."
+   ],
+   "answer": 2,
+   "explanation": "Bình đẳng giữa các dân tộc: các dân tộc không phân biệt đa số, thiểu số, trình độ phát triển đều được Nhà nước và pháp luật tôn trọng, bảo vệ, tạo điều kiện phát triển."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các tôn giáo",
+   "level": 1,
+   "stem": "Nội dung nào sau đây thể hiện quyền bình đẳng giữa các tôn giáo?",
+   "options": [
+    "Tôn giáo có nhiều tín đồ được ưu tiên hơn tôn giáo ít tín đồ.",
+    "Các tôn giáo đều bình đẳng trước pháp luật, cơ sở tôn giáo hợp pháp được pháp luật bảo hộ.",
+    "Chỉ tôn giáo lâu đời mới được pháp luật bảo hộ.",
+    "Người có tôn giáo được miễn thực hiện nghĩa vụ công dân."
+   ],
+   "answer": 1,
+   "explanation": "Điều 24 Hiến pháp 2013: các tôn giáo bình đẳng trước pháp luật; Nhà nước tôn trọng và bảo hộ quyền tự do tín ngưỡng, tôn giáo."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền bầu cử, ứng cử",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, công dân Việt Nam đủ bao nhiêu tuổi trở lên có quyền bầu cử?",
+   "options": [
+    "Đủ 16 tuổi.",
+    "Đủ 20 tuổi.",
+    "Đủ 18 tuổi.",
+    "Đủ 21 tuổi."
+   ],
+   "answer": 2,
+   "explanation": "Điều 27 Hiến pháp 2013: công dân đủ 18 tuổi trở lên có quyền bầu cử, đủ 21 tuổi trở lên có quyền ứng cử vào Quốc hội, Hội đồng nhân dân."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền khiếu nại",
+   "level": 1,
+   "stem": "Việc công dân đề nghị cơ quan, người có thẩm quyền xem xét lại quyết định hành chính, hành vi hành chính khi có căn cứ cho rằng quyết định, hành vi đó trái pháp luật, xâm phạm quyền, lợi ích hợp pháp của mình là",
+   "options": [
+    "tố cáo.",
+    "khiếu nại.",
+    "khởi tố.",
+    "kiến nghị."
+   ],
+   "answer": 1,
+   "explanation": "Đây là khái niệm khiếu nại; tố cáo là báo cho cơ quan có thẩm quyền biết về hành vi vi phạm pháp luật của bất kì cơ quan, tổ chức, cá nhân nào."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền tố cáo",
+   "level": 1,
+   "stem": "Việc cá nhân báo cho cơ quan, tổ chức, cá nhân có thẩm quyền biết về hành vi vi phạm pháp luật của bất kì cơ quan, tổ chức, cá nhân nào gây thiệt hại hoặc đe dọa gây thiệt hại đến lợi ích của Nhà nước, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân là",
+   "options": [
+    "khiếu nại.",
+    "khởi kiện.",
+    "tố cáo.",
+    "bãi nại."
+   ],
+   "answer": 2,
+   "explanation": "Đây là khái niệm tố cáo theo Luật Tố cáo."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền tố cáo",
+   "level": 1,
+   "stem": "Theo Luật Tố cáo, chủ thể thực hiện quyền tố cáo là",
+   "options": [
+    "cơ quan nhà nước.",
+    "cá nhân.",
+    "doanh nghiệp.",
+    "tổ chức chính trị – xã hội."
+   ],
+   "answer": 1,
+   "explanation": "Luật Tố cáo quy định tố cáo là việc cá nhân báo cho cơ quan, tổ chức, cá nhân có thẩm quyền biết về hành vi vi phạm pháp luật; còn khiếu nại có thể do công dân, cơ quan, tổ chức thực hiện."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Nghĩa vụ bảo vệ Tổ quốc",
+   "level": 1,
+   "stem": "Theo Hiến pháp năm 2013, bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa là",
+   "options": [
+    "nhiệm vụ riêng của lực lượng quân đội nhân dân.",
+    "quyền của công dân nam, không phải nghĩa vụ.",
+    "nghĩa vụ tự nguyện, không bắt buộc với công dân.",
+    "nghĩa vụ thiêng liêng và quyền cao quý của công dân."
+   ],
+   "answer": 3,
+   "explanation": "Điều 45 Hiến pháp 2013: bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa là nghĩa vụ thiêng liêng và quyền cao quý của công dân."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền tham gia quản lí nhà nước và xã hội",
+   "level": 1,
+   "stem": "Quyền tham gia quản lí nhà nước và xã hội của công dân được thực hiện ở phạm vi nào?",
+   "options": [
+    "Chỉ ở trung ương.",
+    "Cả nước và ở cơ sở.",
+    "Chỉ ở cơ sở.",
+    "Chỉ trong các cơ quan nhà nước."
+   ],
+   "answer": 1,
+   "explanation": "Công dân tham gia quản lí nhà nước và xã hội ở phạm vi cả nước (góp ý dự thảo luật, kiến nghị…) và ở phạm vi cơ sở (bàn, quyết định, giám sát công việc chung của địa phương, cơ quan)."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giới",
+   "level": 1,
+   "stem": "Theo Luật Bình đẳng giới, nội dung nào sau đây thể hiện bình đẳng giới trong lĩnh vực chính trị?",
+   "options": [
+    "Nam, nữ bình đẳng về độ tuổi đi học, lựa chọn ngành nghề học tập.",
+    "Nam, nữ bình đẳng trong việc thành lập doanh nghiệp, tiến hành hoạt động kinh doanh.",
+    "Nam, nữ bình đẳng trong tham gia quản lí nhà nước, trong tự ứng cử và được giới thiệu ứng cử.",
+    "Vợ, chồng bình đẳng trong việc sở hữu tài sản chung."
+   ],
+   "answer": 2,
+   "explanation": "Lĩnh vực chính trị: nam, nữ bình đẳng trong tham gia quản lí nhà nước, tham gia hoạt động xã hội, tự ứng cử và được giới thiệu ứng cử vào cơ quan dân cử. Các phương án còn lại thuộc lĩnh vực giáo dục, kinh tế, gia đình."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng trước pháp luật",
+   "level": 2,
+   "stem": "Ông A là giám đốc một sở và anh B là nông dân cùng điều khiển xe máy vượt đèn đỏ. Cả hai đều bị cảnh sát giao thông xử phạt với mức phạt như nhau. Trường hợp này thể hiện công dân bình đẳng về",
+   "options": [
+    "trách nhiệm pháp lí.",
+    "quyền lao động.",
+    "nghĩa vụ nộp thuế.",
+    "quyền tham gia quản lí nhà nước."
+   ],
+   "answer": 0,
+   "explanation": "Cùng một hành vi vi phạm thì người vi phạm đều bị xử lí như nhau, không phân biệt địa vị – bình đẳng về trách nhiệm pháp lí."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giới",
+   "level": 2,
+   "stem": "Chị H và anh Q có trình độ, kinh nghiệm như nhau cùng nộp hồ sơ vào vị trí kế toán của công ty X. Công ty thông báo chỉ nhận nam dù công việc phù hợp với cả nam và nữ. Việc làm của công ty X vi phạm bình đẳng giới trong lĩnh vực",
+   "options": [
+    "lao động.",
+    "chính trị.",
+    "giáo dục và đào tạo.",
+    "gia đình."
+   ],
+   "answer": 0,
+   "explanation": "Luật Bình đẳng giới: nam, nữ bình đẳng về tiêu chuẩn, độ tuổi khi tuyển dụng, được đối xử bình đẳng tại nơi làm việc – lĩnh vực lao động."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giới",
+   "level": 2,
+   "stem": "Việc pháp luật quy định bảo đảm tỉ lệ thích đáng nữ đại biểu Quốc hội, đại biểu Hội đồng nhân dân là",
+   "options": [
+    "biện pháp thúc đẩy bình đẳng giới trong lĩnh vực chính trị.",
+    "hành vi phân biệt đối xử về giới.",
+    "biện pháp hạn chế quyền ứng cử của nam giới.",
+    "quy định trái với nguyên tắc bình đẳng trước pháp luật."
+   ],
+   "answer": 0,
+   "explanation": "Theo Luật Bình đẳng giới, bảo đảm tỉ lệ thích đáng nữ đại biểu là biện pháp thúc đẩy bình đẳng giới trong lĩnh vực chính trị và không bị coi là phân biệt đối xử về giới."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các dân tộc",
+   "level": 2,
+   "stem": "Trong cơ cấu đại biểu Quốc hội luôn có đại biểu là người dân tộc thiểu số. Điều này thể hiện quyền bình đẳng giữa các dân tộc về",
+   "options": [
+    "kinh tế.",
+    "văn hóa.",
+    "giáo dục.",
+    "chính trị."
+   ],
+   "answer": 3,
+   "explanation": "Bình đẳng về chính trị: các dân tộc đều có quyền tham gia quản lí nhà nước và xã hội, bầu cử, ứng cử; có đại biểu dân tộc thiểu số trong cơ quan quyền lực nhà nước."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền bầu cử, ứng cử",
+   "level": 2,
+   "stem": "Mỗi cử tri chỉ được bỏ một phiếu bầu và mỗi lá phiếu có giá trị như nhau. Điều này thể hiện nguyên tắc bầu cử nào?",
+   "options": [
+    "Phổ thông.",
+    "Trực tiếp.",
+    "Bình đẳng.",
+    "Bỏ phiếu kín."
+   ],
+   "answer": 2,
+   "explanation": "Nguyên tắc bình đẳng: mỗi cử tri có một lá phiếu, các lá phiếu có giá trị ngang nhau. Phổ thông là mọi công dân đủ tuổi đều được bầu cử; trực tiếp là tự mình bỏ phiếu; bỏ phiếu kín là bảo đảm bí mật lá phiếu."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền tham gia quản lí nhà nước và xã hội",
+   "level": 2,
+   "stem": "Chị N gửi ý kiến góp ý dự thảo luật qua cổng thông tin điện tử của Quốc hội. Chị N đã thực hiện quyền",
+   "options": [
+    "tham gia quản lí nhà nước và xã hội ở phạm vi cơ sở.",
+    "khiếu nại.",
+    "tự do báo chí.",
+    "tham gia quản lí nhà nước và xã hội ở phạm vi cả nước."
+   ],
+   "answer": 3,
+   "explanation": "Góp ý dự thảo luật là hình thức tham gia quản lí nhà nước và xã hội ở phạm vi cả nước."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền khiếu nại",
+   "level": 2,
+   "stem": "Ông B nhận được quyết định hành chính của cơ quan nhà nước mà ông cho rằng trái pháp luật, xâm phạm trực tiếp đến quyền lợi của mình. Ông B có quyền",
+   "options": [
+    "tố cáo chính mình.",
+    "khiếu nại quyết định đó.",
+    "tự ý không chấp hành và không cần làm gì thêm.",
+    "yêu cầu Quốc hội hủy quyết định ngay lập tức."
+   ],
+   "answer": 1,
+   "explanation": "Khi quyết định hành chính xâm phạm quyền, lợi ích hợp pháp của chính mình, công dân có quyền khiếu nại để được xem xét lại."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các dân tộc",
+   "level": 3,
+   "stem": "Học sinh người dân tộc thiểu số ở vùng có điều kiện kinh tế – xã hội đặc biệt khó khăn được hưởng chính sách ưu tiên trong tuyển sinh. Nhận định nào sau đây đúng?",
+   "options": [
+    "Đây là sự phân biệt đối xử với học sinh dân tộc Kinh.",
+    "Chính sách này trái với nguyên tắc công dân bình đẳng trước pháp luật.",
+    "Chính sách này làm mất quyền học tập của học sinh vùng khác.",
+    "Đây là chính sách nhằm tạo điều kiện để các dân tộc bình đẳng về giáo dục."
+   ],
+   "answer": 3,
+   "explanation": "Chính sách ưu tiên giúp rút ngắn khoảng cách về điều kiện học tập, bảo đảm bình đẳng thực chất giữa các dân tộc trong giáo dục; không phải phân biệt đối xử."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giới",
+   "level": 3,
+   "stem": "Anh K không cho vợ tham gia khóa học nâng cao trình độ chuyên môn do cơ quan cử đi vì cho rằng phụ nữ chỉ cần lo việc nhà. Hành vi của anh K",
+   "options": [
+    "vi phạm quyền bình đẳng giới.",
+    "là chuyện riêng của gia đình, không liên quan đến pháp luật.",
+    "thể hiện trách nhiệm của người chồng.",
+    "phù hợp với nguyên tắc bình đẳng giới trong gia đình."
+   ],
+   "answer": 0,
+   "explanation": "Luật Bình đẳng giới: vợ, chồng bình đẳng trong quan hệ gia đình; nam, nữ bình đẳng về cơ hội học tập, nâng cao trình độ. Ngăn cản vợ đi học vì định kiến giới là vi phạm bình đẳng giới."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các tôn giáo",
+   "level": 3,
+   "stem": "Ông T theo đạo Phật thường xuyên nói xấu, kích động hàng xóm xa lánh gia đình bà P vì gia đình bà theo đạo Công giáo. Hành vi của ông T",
+   "options": [
+    "vi phạm quyền bình đẳng giữa các tôn giáo.",
+    "thể hiện quyền tự do ngôn luận nên không vi phạm.",
+    "là bảo vệ tôn giáo của mình nên được pháp luật cho phép.",
+    "chỉ vi phạm đạo đức, không vi phạm pháp luật."
+   ],
+   "answer": 0,
+   "explanation": "Pháp luật nghiêm cấm phân biệt đối xử, kì thị vì lí do tín ngưỡng, tôn giáo; kích động xa lánh người theo tôn giáo khác là vi phạm bình đẳng giữa các tôn giáo."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền bầu cử, ứng cử",
+   "level": 3,
+   "stem": "Trong ngày bầu cử, chị A cầm phiếu của cả gia đình đi bỏ phiếu thay vì mọi người bận việc. Hành vi của chị A vi phạm nguyên tắc bầu cử nào?",
+   "options": [
+    "Phổ thông.",
+    "Bình đẳng.",
+    "Trực tiếp.",
+    "Công khai."
+   ],
+   "answer": 2,
+   "explanation": "Nguyên tắc trực tiếp yêu cầu cử tri phải tự mình đi bỏ phiếu, không được nhờ người khác bỏ phiếu thay (cử tri không tự viết được phiếu có thể nhờ người khác viết hộ nhưng vẫn phải tự mình bỏ phiếu)."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Nghĩa vụ bảo vệ Tổ quốc",
+   "level": 3,
+   "stem": "Anh T đủ điều kiện và đã nhận lệnh gọi nhập ngũ nhưng bỏ trốn khỏi địa phương để không phải đi nghĩa vụ quân sự. Hành vi của anh T",
+   "options": [
+    "là quyền tự do đi lại nên không vi phạm.",
+    "chỉ vi phạm nội quy của địa phương.",
+    "không vi phạm vì nghĩa vụ quân sự là tự nguyện.",
+    "vi phạm nghĩa vụ bảo vệ Tổ quốc của công dân."
+   ],
+   "answer": 3,
+   "explanation": "Thực hiện nghĩa vụ quân sự là nội dung cơ bản của nghĩa vụ bảo vệ Tổ quốc; trốn tránh nhập ngũ là vi phạm pháp luật."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền tố cáo",
+   "level": 3,
+   "stem": "Sau khi chị M tố cáo việc giám đốc K nhận hối lộ, giám đốc K tìm cách điều chuyển chị sang công việc nặng nhọc, cắt thưởng để trả đũa. Hành vi của giám đốc K",
+   "options": [
+    "vi phạm pháp luật vì nghiêm cấm trả thù, trù dập người tố cáo.",
+    "đúng vì giám đốc có quyền điều chuyển nhân viên.",
+    "không vi phạm vì chị M chưa chứng minh được việc nhận hối lộ.",
+    "chỉ vi phạm nội quy của công ty."
+   ],
+   "answer": 0,
+   "explanation": "Luật Tố cáo nghiêm cấm trả thù, trù dập, phân biệt đối xử với người tố cáo; người tố cáo được bảo vệ."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giới",
+   "level": 2,
+   "stem": "Anh P và chị Q là vợ chồng. Anh P cho rằng mọi việc lớn trong gia đình như mua nhà, cho con học trường nào… đều phải do chồng quyết định. Khi chị Q được cơ quan cử đi học nâng cao, anh P phản đối. Ít lâu sau, chị Q mang thai; công ty nơi chị làm việc định đơn phương chấm dứt hợp đồng lao động với chị vì lí do này.",
+   "statements": [
+    {
+     "t": "Quan điểm của anh P phù hợp với nguyên tắc bình đẳng giới trong gia đình.",
+     "a": false
+    },
+    {
+     "t": "Chị Q có quyền ngang với chồng trong việc thảo luận, quyết định các công việc chung của gia đình.",
+     "a": true
+    },
+    {
+     "t": "Việc công ty định chấm dứt hợp đồng lao động với chị Q vì lí do mang thai là trái pháp luật.",
+     "a": true
+    },
+    {
+     "t": "Việc anh P phản đối vợ đi học chỉ là chuyện riêng trong gia đình, không liên quan đến quyền bình đẳng giới.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: vợ, chồng bình đẳng, cùng bàn bạc quyết định công việc gia đình. b) Đúng. c) Đúng: Bộ luật Lao động cấm người sử dụng lao động đơn phương chấm dứt hợp đồng lao động vì lí do lao động nữ mang thai. d) Sai: ngăn cản vợ học tập vì định kiến giới là vi phạm bình đẳng giới trong gia đình và giáo dục."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền bình đẳng của công dân",
+   "topic": "Bình đẳng giữa các dân tộc, tôn giáo",
+   "level": 3,
+   "stem": "Xã X là vùng có đông đồng bào dân tộc thiểu số sinh sống. Nhà nước đầu tư xây dựng trường học, trạm y tế, đường giao thông; học sinh dân tộc thiểu số được hưởng chính sách ưu tiên trong tuyển sinh. Ông S là chức sắc của một tôn giáo, đã lợi dụng các buổi sinh hoạt tôn giáo để kêu gọi người dân không cho con đi học, không tham gia bầu cử.",
+   "statements": [
+    {
+     "t": "Việc Nhà nước đầu tư cho xã X thể hiện chính sách bảo đảm bình đẳng giữa các dân tộc về kinh tế, văn hóa, giáo dục.",
+     "a": true
+    },
+    {
+     "t": "Chính sách ưu tiên tuyển sinh cho học sinh dân tộc thiểu số vi phạm nguyên tắc công dân bình đẳng trước pháp luật.",
+     "a": false
+    },
+    {
+     "t": "Hành vi của ông S là lợi dụng tôn giáo để vi phạm pháp luật.",
+     "a": true
+    },
+    {
+     "t": "Vì là chức sắc tôn giáo nên ông S không phải chịu trách nhiệm pháp lí về hành vi của mình.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: đây là chính sách tạo điều kiện để bảo đảm bình đẳng thực chất. c) Đúng: kêu gọi không cho con đi học, không bầu cử là xâm phạm quyền công dân, lợi dụng tôn giáo. d) Sai: mọi công dân bình đẳng về trách nhiệm pháp lí, không phân biệt tôn giáo, địa vị."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền bầu cử, ứng cử",
+   "level": 2,
+   "stem": "Trong cuộc bầu cử đại biểu Quốc hội và đại biểu Hội đồng nhân dân, gia đình bà H có: bà H (60 tuổi), con trai là anh T (25 tuổi) và cháu G (17 tuổi). Vì bận đi công tác, anh T nhờ mẹ bỏ phiếu hộ mình. Cháu G muốn đi bầu cử nhưng tổ bầu cử không phát phiếu bầu.",
+   "statements": [
+    {
+     "t": "Bà H có quyền bầu cử.",
+     "a": true
+    },
+    {
+     "t": "Việc bà H bỏ phiếu thay cho anh T là đúng pháp luật vì là người trong gia đình.",
+     "a": false
+    },
+    {
+     "t": "Tổ bầu cử không phát phiếu bầu cho cháu G là đúng vì G chưa đủ 18 tuổi.",
+     "a": true
+    },
+    {
+     "t": "Anh T đã đủ tuổi để ứng cử đại biểu Quốc hội.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: công dân đủ 18 tuổi trở lên có quyền bầu cử. b) Sai: vi phạm nguyên tắc trực tiếp, không được bỏ phiếu thay. c) Đúng. d) Đúng: đủ 21 tuổi trở lên có quyền ứng cử vào Quốc hội."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Quyền dân chủ của công dân",
+   "topic": "Quyền khiếu nại, tố cáo",
+   "level": 3,
+   "stem": "Cơ quan có thẩm quyền ra quyết định xử phạt hành chính anh K vì cho rằng anh lấn chiếm vỉa hè; anh K cho rằng quyết định này không đúng vì phần vỉa hè đó không do anh sử dụng. Cũng trong thời gian này, anh K phát hiện cán bộ N nhận tiền của một số hộ dân để làm hồ sơ cấp phép trái quy định.",
+   "statements": [
+    {
+     "t": "Anh K có quyền khiếu nại quyết định xử phạt hành chính đối với mình.",
+     "a": true
+    },
+    {
+     "t": "Đối với hành vi của cán bộ N, anh K có quyền tố cáo đến cơ quan có thẩm quyền.",
+     "a": true
+    },
+    {
+     "t": "Khi tố cáo, anh K phải trình bày trung thực và chịu trách nhiệm trước pháp luật về nội dung tố cáo.",
+     "a": true
+    },
+    {
+     "t": "Nếu cố ý tố cáo sai sự thật, anh K cũng không phải chịu trách nhiệm gì vì tố cáo là quyền của công dân.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: quyết định xử phạt là quyết định hành chính tác động trực tiếp đến quyền lợi của anh K. b) Đúng: hành vi nhận tiền trái quy định là vi phạm pháp luật, có thể tố cáo. c) Đúng theo nghĩa vụ của người tố cáo trong Luật Tố cáo. d) Sai: người cố ý tố cáo sai sự thật phải chịu trách nhiệm pháp lí."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu độc lập và đối chiếu với Hiến pháp 2013 cùng các luật lớn (Luật Hôn nhân và gia đình 2014, Bộ luật Dân sự 2015, Luật Bình đẳng giới, Luật Tố cáo, Luật Bầu cử, Bộ luật Tố tụng hình sự, Luật Biên giới quốc gia, Luật Quốc tịch, Luật Điều ước quốc tế, Công ước Luật Biển 1982); tránh các nội dung vừa sửa đổi năm 2025 (số cấp chính quyền địa phương, đơn vị hành chính, Mặt trận Tổ quốc và đoàn thể) và tránh con số dễ thay đổi; mỗi câu trắc nghiệm chỉ có một phương án đúng, các ý Đúng/Sai có cả đúng và sai; vị trí đáp án đúng được xếp đều A/B/C/D bằng script; đã chạy hk-check."
+}

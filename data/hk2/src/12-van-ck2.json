@@ -1,0 +1,102 @@
+{
+ "grade": 12,
+ "subject": "Ngữ văn",
+ "exam": "ck2",
+ "duration_min": 90,
+ "title": "Đề ôn cuối học kì 2 – Ngữ văn 12",
+ "scope": "Bài 8–9: Dấu ấn phong cách tác giả; đọc hiểu thơ trữ tình và nhận diện phong cách nghệ thuật; viết đoạn nghị luận văn học và bài nghị luận xã hội",
+ "genre": "Thơ Nôm Đường luật (phong cách tác giả)",
+ "work": {
+  "author": "Hồ Xuân Hương",
+  "title": "Tự tình (bài II)",
+  "source": "Chùm thơ Tự tình (3 bài) – thơ Nôm Hồ Xuân Hương",
+  "public_domain_reason": "Tác giả sống cuối thế kỉ XVIII – đầu thế kỉ XIX; văn học trung đại"
+ },
+ "passage": "Đêm khuya văng vẳng trống canh dồn,\nTrơ cái hồng nhan với nước non.\nChén rượu hương đưa say lại tỉnh,\nVầng trăng bóng xế khuyết chưa tròn.\nXiên ngang mặt đất rêu từng đám,\nĐâm toạc chân mây đá mấy hòn.\nNgán nỗi xuân đi xuân lại lại,\nMảnh tình san sẻ tí con con!",
+ "src": "(Hồ Xuân Hương, Tự tình – bài II, trong chùm thơ Tự tình gồm ba bài)\nChú thích: Tự tình: tự bộc lộ tình cảm, nỗi lòng của mình; trống canh: tiếng trống điểm canh ban đêm; dồn: liên tiếp, dồn dập; trơ: trơ trọi, lẻ loi, cũng có nghĩa là trơ lì, không biết hổ thẹn, thách thức; hồng nhan: má hồng, chỉ người con gái đẹp; bóng xế: trăng đã ngả về tây, sắp lặn; xuân: mùa xuân, đồng thời chỉ tuổi xuân; xuân lại lại: mùa xuân đi rồi lại trở lại (từ “lại” thứ nhất là trở lại, “lại” thứ hai là thêm lần nữa); san sẻ: chia sẻ, chia nhỏ ra; tí con con: rất nhỏ, ít ỏi.",
+ "questions": [
+  {
+   "q": "Câu 1 (0,5 điểm). Xác định thể thơ và nhân vật trữ tình của bài thơ.",
+   "type": "nhanbiet",
+   "points": [
+    "Thể thơ thất ngôn bát cú Đường luật viết bằng chữ Nôm",
+    "Nhân vật trữ tình: người phụ nữ (chính tác giả) cô đơn, lỡ làng, khao khát hạnh phúc"
+   ],
+   "model": "Bài thơ viết theo thể thất ngôn bát cú Đường luật bằng chữ Nôm (8 câu, mỗi câu 7 chữ, vần “on”). Nhân vật trữ tình là người phụ nữ – cũng chính là nhà thơ – đang một mình trong đêm khuya, cô đơn, buồn tủi vì duyên phận lỡ làng."
+  },
+  {
+   "q": "Câu 2 (0,5 điểm). Chỉ ra những hình ảnh thiên nhiên được miêu tả trong bài thơ.",
+   "type": "nhanbiet",
+   "points": [
+    "Vầng trăng bóng xế khuyết chưa tròn",
+    "Rêu từng đám xiên ngang mặt đất",
+    "Đá mấy hòn đâm toạc chân mây",
+    "Mùa xuân đi rồi lại lại"
+   ],
+   "model": "Các hình ảnh thiên nhiên gồm: vầng trăng bóng xế mà vẫn khuyết chưa tròn; những đám rêu xiên ngang mặt đất; mấy hòn đá đâm toạc chân mây; và mùa xuân cứ đi rồi lại trở lại."
+  },
+  {
+   "q": "Câu 3 (1,0 điểm). Phân tích tác dụng của biện pháp đảo ngữ và các động từ mạnh trong hai câu thơ: “Xiên ngang mặt đất rêu từng đám, / Đâm toạc chân mây đá mấy hòn.”",
+   "type": "tutu",
+   "points": [
+    "Đảo ngữ: đưa cụm động từ “Xiên ngang”, “Đâm toạc” lên đầu câu",
+    "Động từ mạnh “xiên”, “đâm” kết hợp bổ ngữ “ngang”, “toạc”: thể hiện sự bướng bỉnh, ngang ngạnh",
+    "Thiên nhiên nhỏ bé (rêu, đá) cũng vùng lên, phá vỡ giới hạn – ngoại cảnh mang tâm trạng",
+    "Bộc lộ sự phẫn uất, phản kháng, khát vọng sống mãnh liệt của nhân vật trữ tình; đậm cá tính Hồ Xuân Hương"
+   ],
+   "model": "Hai câu thơ dùng phép đảo ngữ, đưa “Xiên ngang”, “Đâm toạc” lên đầu câu, kết hợp các động từ mạnh với bổ ngữ đầy cá tính. Những vật vốn nhỏ bé, mềm yếu như rêu, đá bỗng trở nên dữ dội: rêu xiên ngang mặt đất, đá đâm toạc chân mây. Cảnh vật như đang vùng lên phá vỡ mọi giới hạn, chính là sự hóa thân của tâm trạng phẫn uất, không cam chịu số phận của nhà thơ. Hai câu thơ thể hiện rõ bản lĩnh, cá tính mạnh mẽ – nét riêng trong phong cách Hồ Xuân Hương."
+  },
+  {
+   "q": "Câu 4 (1,0 điểm). Câu thơ “Trơ cái hồng nhan với nước non.” và hai câu kết bộc lộ tâm trạng gì của nhân vật trữ tình?",
+   "type": "noidung",
+   "points": [
+    "“Trơ”: vừa trơ trọi, lẻ loi vừa là thái độ thách thức, bền gan; “cái hồng nhan” – cách nói rẻ rúng, xót xa về thân phận",
+    "Đặt “hồng nhan” nhỏ bé đối diện “nước non” rộng lớn: nỗi cô đơn, bẽ bàng",
+    "Hai câu kết: “ngán” vì tuổi xuân trôi đi mà mùa xuân thiên nhiên cứ trở lại; “mảnh tình” đã nhỏ còn bị “san sẻ” thành “tí con con”",
+    "Tâm trạng: buồn tủi, chán chường trước duyên phận lỡ làng nhưng vẫn khát khao hạnh phúc"
+   ],
+   "model": "Chữ “trơ” đặt đầu câu vừa diễn tả sự trơ trọi, lẻ loi, vừa ẩn chứa thái độ thách thức, bền gan của người phụ nữ; cách nói “cái hồng nhan” thể hiện sự xót xa, tủi hổ cho thân phận. Hình ảnh “hồng nhan” nhỏ bé đối diện với “nước non” mênh mông càng làm nổi bật nỗi cô đơn. Ở hai câu kết, nhân vật trữ tình “ngán” vì mùa xuân thiên nhiên cứ tuần hoàn trở lại, còn tuổi xuân của mình thì qua đi không trở lại; “mảnh tình” vốn đã nhỏ lại bị san sẻ đến “tí con con”. Đó là tâm trạng buồn tủi, chán chường trước duyên phận lẽ mọn, nhưng sâu thẳm vẫn là khát vọng hạnh phúc trọn vẹn."
+  },
+  {
+   "q": "Câu 5 (1,0 điểm). Bài thơ gợi cho anh/chị suy nghĩ gì về khát vọng sống và thái độ không cam chịu trước nghịch cảnh? (trình bày trong đoạn văn khoảng 5–7 dòng)",
+   "type": "quandiem",
+   "points": [
+    "Nêu rõ quan điểm",
+    "Lí giải: khát vọng sống giúp con người không gục ngã; thái độ không cam chịu thúc đẩy thay đổi",
+    "Phân biệt không cam chịu với nổi loạn tiêu cực; liên hệ bản thân",
+    "Diễn đạt mạch lạc, đúng dung lượng"
+   ],
+   "model": "Dù rơi vào cảnh lẻ loi, Hồ Xuân Hương vẫn để rêu “xiên ngang”, đá “đâm toạc” như một lời khẳng định mình không chịu khuất phục. Điều đó cho tôi hiểu rằng khát vọng sống chính là sức mạnh giúp con người đứng vững trước nghịch cảnh. Thái độ không cam chịu thúc đẩy ta tìm cách thay đổi hoàn cảnh thay vì than vãn. Tuy nhiên, không cam chịu không có nghĩa là nổi loạn mù quáng, mà là kiên trì, bản lĩnh và hành động đúng đắn để vươn lên."
+  }
+ ],
+ "essays": [
+  {
+   "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) làm rõ những dấu ấn phong cách thơ Nôm Hồ Xuân Hương thể hiện trong bài Tự tình (bài II).",
+   "type": "viet",
+   "points": [
+    "Đúng hình thức đoạn văn, khoảng 200 chữ, có câu chủ đề",
+    "Nội dung: tiếng nói của người phụ nữ khao khát hạnh phúc, cá tính mạnh mẽ, không cam chịu",
+    "Ngôn ngữ: Việt hóa thơ Đường, từ ngữ thuần Việt giản dị mà đắt (“trơ”, “văng vẳng”, “tí con con”), cách nói “cái hồng nhan”",
+    "Động từ mạnh, bổ ngữ độc đáo (“xiên ngang”, “đâm toạc”), đảo ngữ, phép đối",
+    "Nghệ thuật tăng tiến “san sẻ – tí – con con”, cách dùng “xuân lại lại”",
+    "Đánh giá: “Bà chúa thơ Nôm”, phong cách độc đáo, đậm chất dân tộc"
+   ],
+   "model": "Câu chủ đề: Tự tình (bài II) mang đậm dấu ấn phong cách thơ Nôm Hồ Xuân Hương – vừa xót xa, buồn tủi vừa mạnh mẽ, bướng bỉnh.\n- Cảm hứng: tiếng nói trực tiếp của người phụ nữ về thân phận, duyên tình và khát vọng hạnh phúc.\n- Ngôn ngữ thuần Việt, giản dị mà tinh tế: “trơ”, “cái hồng nhan”, “tí con con”; thể Đường luật được Việt hóa.\n- Hình ảnh giàu sức sống, động từ mạnh và bổ ngữ độc đáo: “xiên ngang”, “đâm toạc”; đảo ngữ, phép đối chỉnh.\n- Cách dùng từ đặc biệt: “xuân lại lại”, phép tăng tiến “mảnh tình – san sẻ – tí – con con”.\n- Đánh giá: cá tính sắc sảo, tài năng ngôn ngữ của “Bà chúa thơ Nôm”."
+  },
+  {
+   "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) bàn về vấn đề: Người trẻ cần làm gì để khẳng định bản sắc riêng của mình mà không đánh mất sự hòa hợp với cộng đồng?",
+   "type": "viet",
+   "points": [
+    "Đúng kiểu bài nghị luận về một vấn đề xã hội, đủ mở bài – thân bài – kết bài, khoảng 600 chữ",
+    "Giải thích: bản sắc riêng là cá tính, quan điểm, năng lực tạo nên sự khác biệt của mỗi người; hòa hợp với cộng đồng là tôn trọng chuẩn mực chung, biết hợp tác",
+    "Ý nghĩa của việc khẳng định bản sắc; mặt trái khi cá tính bị đẩy thành lập dị, ích kỉ hoặc ngược lại, sống a dua, hòa tan",
+    "Giải pháp: hiểu mình, rèn năng lực, bày tỏ quan điểm văn minh, tôn trọng sự khác biệt của người khác",
+    "Dẫn chứng thuyết phục; bài học cho bản thân",
+    "Sáng tạo, chính tả và ngữ pháp chuẩn"
+   ],
+   "model": "MB: Dẫn từ phong cách độc đáo của Hồ Xuân Hương – một cá tính dám khác biệt trong xã hội phong kiến, nêu vấn đề.\nTB1: Giải thích bản sắc riêng và sự hòa hợp với cộng đồng.\nTB2: Vì sao cần khẳng định bản sắc: giúp mỗi người tự tin, sáng tạo, tạo ra giá trị riêng; xã hội phát triển nhờ sự đa dạng.\nTB3: Vì sao cần hòa hợp: con người sống trong cộng đồng; cá tính tách rời chuẩn mực chung dễ thành lập dị, gây tổn thương người khác.\nTB4: Thực trạng: một số bạn trẻ “chạy theo trend”, sống a dua; một số khác cực đoan, coi khác người là cá tính. Giải pháp: hiểu bản thân, rèn luyện năng lực thật, bày tỏ quan điểm văn minh, lắng nghe và tôn trọng người khác.\nKB: Khẳng định cá tính đẹp là cá tính biết hòa hợp; liên hệ bản thân."
+  }
+ ],
+ "confidence_note": "Rất chắc chắn về toàn bộ 8 câu thơ theo bản phổ biến trong SGK. Câu 7 có bản ghi “Ngán nỗi xuân đi xuân lại lại”, đề dùng đúng bản này; câu 2 dùng “Trơ cái hồng nhan với nước non”.",
+ "self_check": "Đã đọc lại từng câu thơ, kiểm tra 8 câu × 7 chữ và vần “on” (dồn – non – tròn – hòn – con); tác phẩm không trùng với các đề HK1; đáp án bám sát văn bản; chạy hk-check."
+}

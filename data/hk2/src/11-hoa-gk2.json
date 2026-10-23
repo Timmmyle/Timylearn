@@ -1,0 +1,439 @@
+{
+ "grade": 11,
+ "subject": "Hóa học",
+ "exam": "gk2",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 2 – Hóa học 11",
+ "scope": "Chương 4 Hydrocarbon: alkane, hydrocarbon không no (alkene, alkyne), arene (benzene, toluene, styrene)",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Alkane",
+   "level": 1,
+   "stem": "Công thức chung của dãy đồng đẳng alkane là",
+   "options": [
+    "$\\mathrm{C_nH_{2n+2}}$ (n ≥ 1)",
+    "$\\mathrm{C_nH_{2n}}$ (n ≥ 2)",
+    "$\\mathrm{C_nH_{2n-2}}$ (n ≥ 2)",
+    "$\\mathrm{C_nH_{2n-6}}$ (n ≥ 6)"
+   ],
+   "answer": 0,
+   "explanation": "Alkane là hydrocarbon no, mạch hở, chỉ có liên kết đơn, công thức chung CₙH₂ₙ₊₂."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Danh pháp alkane",
+   "level": 1,
+   "stem": "Tên theo danh pháp thay thế của CH₃–CH(CH₃)–CH₃ là",
+   "options": [
+    "butane",
+    "2-methylpropane",
+    "1-methylpropane",
+    "2-methylbutane"
+   ],
+   "answer": 1,
+   "explanation": "Mạch chính 3 carbon (propane), nhánh methyl ở C2: 2-methylpropane."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Alkene",
+   "level": 1,
+   "stem": "Chất nào sau đây là alkene?",
+   "options": [
+    "C₂H₆",
+    "C₂H₂",
+    "C₂H₄",
+    "C₆H₆"
+   ],
+   "answer": 2,
+   "explanation": "C₂H₄ (ethylene, CH₂=CH₂) có một liên kết đôi C=C, thuộc dãy alkene CₙH₂ₙ. C₂H₆ là alkane, C₂H₂ là alkyne, C₆H₆ là arene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkane",
+   "level": 1,
+   "stem": "Khi chiếu sáng, methane tác dụng với chlorine tạo chloromethane và hydrogen chloride. Phản ứng này thuộc loại",
+   "options": [
+    "phản ứng cộng",
+    "phản ứng trùng hợp",
+    "phản ứng tách",
+    "phản ứng thế"
+   ],
+   "answer": 3,
+   "explanation": "CH₄ + Cl₂ → CH₃Cl + HCl (ánh sáng): một nguyên tử H được thay thế bởi nguyên tử Cl, đây là phản ứng thế đặc trưng của alkane."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Arene",
+   "level": 1,
+   "stem": "Công thức phân tử của benzene là",
+   "options": [
+    "C₆H₁₂",
+    "C₆H₆",
+    "C₇H₈",
+    "C₆H₁₄"
+   ],
+   "answer": 1,
+   "explanation": "Benzene có công thức phân tử C₆H₆; C₇H₈ là toluene, C₆H₁₂ là cyclohexane/ hexene, C₆H₁₄ là hexane."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkene",
+   "level": 1,
+   "stem": "Ở điều kiện thường, chất nào sau đây làm mất màu dung dịch bromine?",
+   "options": [
+    "Ethylene",
+    "Methane",
+    "Benzene",
+    "Propane"
+   ],
+   "answer": 0,
+   "explanation": "Ethylene có liên kết đôi C=C nên cộng Br₂: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br. Alkane và benzene không làm mất màu nước bromine ở điều kiện thường."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Đồng phân alkane",
+   "level": 2,
+   "stem": "Số đồng phân cấu tạo của alkane có công thức phân tử C₅H₁₂ là",
+   "options": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "Gồm pentane, 2-methylbutane và 2,2-dimethylpropane."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Danh pháp alkene",
+   "level": 2,
+   "stem": "Tên theo danh pháp thay thế của CH₂=CH–CH(CH₃)–CH₃ là",
+   "options": [
+    "2-methylbut-3-ene",
+    "3-methylbutene-1",
+    "3-methylbut-1-ene",
+    "2-methylbut-1-ene"
+   ],
+   "answer": 2,
+   "explanation": "Mạch chính 4C chứa liên kết đôi, đánh số từ đầu gần liên kết đôi: liên kết đôi ở C1, nhánh methyl ở C3 → 3-methylbut-1-ene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Quy tắc Markovnikov",
+   "level": 2,
+   "stem": "Cho propene tác dụng với HBr, sản phẩm chính thu được là",
+   "options": [
+    "1-bromopropane",
+    "1,2-dibromopropane",
+    "2-bromopropane",
+    "propane"
+   ],
+   "answer": 2,
+   "explanation": "Theo quy tắc Markovnikov, nguyên tử H cộng vào carbon mang nhiều H hơn (C1), Br cộng vào C2: CH₃–CHBr–CH₃."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkyne",
+   "level": 2,
+   "stem": "Chất nào sau đây tạo kết tủa khi tác dụng với dung dịch AgNO₃ trong NH₃?",
+   "options": [
+    "But-2-yne",
+    "Ethylene",
+    "Propene",
+    "Propyne"
+   ],
+   "answer": 3,
+   "explanation": "Chỉ alkyne có liên kết ba ở đầu mạch (≡C–H) mới phản ứng tạo kết tủa: CH≡C–CH₃ + AgNO₃ + NH₃ → AgC≡C–CH₃↓ + NH₄NO₃. But-2-yne có liên kết ba giữa mạch nên không phản ứng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Đồng phân hình học",
+   "level": 2,
+   "stem": "Chất nào sau đây có đồng phân hình học (cis – trans)?",
+   "options": [
+    "But-2-ene",
+    "But-1-ene",
+    "Propene",
+    "2-methylpropene"
+   ],
+   "answer": 0,
+   "explanation": "But-2-ene CH₃–CH=CH–CH₃: mỗi carbon của liên kết đôi gắn hai nhóm khác nhau (H và CH₃) nên có đồng phân cis và trans."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của arene",
+   "level": 2,
+   "stem": "Cho toluene phản ứng với HNO₃ đặc (xúc tác H₂SO₄ đặc, đun nóng), tỉ lệ mol 1 : 1. Sản phẩm chính là",
+   "options": [
+    "3-nitrotoluene",
+    "2-nitrotoluene và 4-nitrotoluene",
+    "nitrobenzene",
+    "benzoic acid"
+   ],
+   "answer": 1,
+   "explanation": "Nhóm methyl đẩy electron, định hướng thế vào vị trí ortho và para nên sản phẩm chính là 2-nitrotoluene và 4-nitrotoluene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Ứng dụng của alkene",
+   "level": 2,
+   "stem": "Trùng hợp ethylene thu được polymer có tên là",
+   "options": [
+    "poly(vinyl chloride) (PVC)",
+    "polystyrene (PS)",
+    "polypropylene (PP)",
+    "polyethylene (PE)"
+   ],
+   "answer": 3,
+   "explanation": "nCH₂=CH₂ → (–CH₂–CH₂–)ₙ: polyethylene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Nguồn hydrocarbon trong tự nhiên",
+   "level": 1,
+   "stem": "Thành phần chính của khí thiên nhiên là",
+   "options": [
+    "ethane",
+    "butane",
+    "methane",
+    "ethylene"
+   ],
+   "answer": 2,
+   "explanation": "Khí thiên nhiên chứa chủ yếu methane (CH₄), thường trên 85% thể tích."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Phản ứng cháy của alkane",
+   "level": 2,
+   "stem": "Đốt cháy hoàn toàn 0,1 mol một alkane X thu được 0,3 mol CO₂. Công thức phân tử của X là",
+   "options": [
+    "C₄H₁₀",
+    "C₃H₈",
+    "C₂H₆",
+    "C₆H₁₄"
+   ],
+   "answer": 1,
+   "explanation": "Số nguyên tử C = n(CO₂) : n(X) = 0,3 : 0,1 = 3. X là C₃H₈ (propane)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Phản ứng cháy của alkane",
+   "level": 3,
+   "stem": "Đốt cháy hoàn toàn 2,9 gam một alkane X thu được 4,958 L khí CO₂ (đkc). Công thức phân tử của X là (cho C = 12, H = 1)",
+   "options": [
+    "C₄H₁₀",
+    "C₃H₈",
+    "C₅H₁₂",
+    "C₂H₆"
+   ],
+   "answer": 0,
+   "explanation": "n(CO₂) = 4,958 : 24,79 = 0,2 mol. X là CₙH₂ₙ₊₂: $\\dfrac{2{,}9}{14n+2}\\cdot n = 0{,}2$ nên n = 4, X là C₄H₁₀."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkene",
+   "level": 3,
+   "stem": "Dẫn 2,479 L (đkc) hỗn hợp gồm methane và ethylene qua bình đựng dung dịch bromine dư, thấy khối lượng bình tăng 1,4 gam. Phần trăm thể tích ethylene trong hỗn hợp là (cho C = 12, H = 1)",
+   "options": [
+    "50%",
+    "25%",
+    "40%",
+    "60%"
+   ],
+   "answer": 0,
+   "explanation": "Khối lượng bình tăng là khối lượng ethylene bị hấp thụ: n(C₂H₄) = 1,4 : 28 = 0,05 mol; n(hỗn hợp) = 0,1 mol nên %V(C₂H₄) = 50%."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkyne",
+   "level": 3,
+   "stem": "Dẫn 2,6 gam acetylene vào lượng dư dung dịch AgNO₃ trong NH₃. Khối lượng kết tủa thu được là (cho C = 12, H = 1, Ag = 108)",
+   "options": [
+    "21,6 gam",
+    "12,0 gam",
+    "24,0 gam",
+    "10,8 gam"
+   ],
+   "answer": 2,
+   "explanation": "HC≡CH + 2AgNO₃ + 2NH₃ → AgC≡CAg↓ + 2NH₄NO₃. n(C₂H₂) = 0,1 mol = n(Ag₂C₂); m = 0,1 · 240 = 24,0 gam."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Alkane",
+   "level": 2,
+   "stem": "Butane (C₄H₁₀) cùng với propane là thành phần chính của khí hóa lỏng (LPG) dùng làm nhiên liệu đun nấu.",
+   "statements": [
+    {
+     "t": "Butane có 2 đồng phân cấu tạo.",
+     "a": true
+    },
+    {
+     "t": "Butane tan tốt trong nước.",
+     "a": false
+    },
+    {
+     "t": "Khi cracking, butane có thể tạo thành ethylene và ethane.",
+     "a": true
+    },
+    {
+     "t": "Khi cho butane phản ứng với chlorine (ánh sáng, tỉ lệ mol 1 : 1) thu được 3 dẫn xuất monochloro là đồng phân cấu tạo của nhau.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: butane và 2-methylpropane. b) Sai: alkane không phân cực, hầu như không tan trong nước. c) Đúng: C₄H₁₀ → C₂H₄ + C₂H₆. d) Sai: butane có 2 loại nguyên tử H nên chỉ thu được 2 đồng phân cấu tạo: 1-chlorobutane và 2-chlorobutane."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Alkyne",
+   "level": 2,
+   "stem": "Cho vài mẩu calcium carbide (CaC₂) vào ống nghiệm chứa nước, khí X thoát ra được dẫn lần lượt vào hai ống nghiệm: ống (1) chứa nước bromine, ống (2) chứa dung dịch AgNO₃ trong NH₃.",
+   "statements": [
+    {
+     "t": "Khí X là acetylene.",
+     "a": true
+    },
+    {
+     "t": "Ở ống (1), màu của nước bromine nhạt dần.",
+     "a": true
+    },
+    {
+     "t": "Ở ống (2), xuất hiện kết tủa màu vàng nhạt.",
+     "a": true
+    },
+    {
+     "t": "1 mol X phản ứng cộng tối đa với 1 mol Br₂.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: CaC₂ + 2H₂O → Ca(OH)₂ + C₂H₂. b) Đúng: acetylene cộng bromine. c) Đúng: tạo Ag₂C₂ màu vàng nhạt. d) Sai: liên kết ba gồm 2 liên kết π nên 1 mol C₂H₂ cộng tối đa 2 mol Br₂."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Xác định công thức hydrocarbon",
+   "level": 3,
+   "stem": "Đốt cháy hoàn toàn 0,1 mol hydrocarbon mạch hở X thu được 0,3 mol CO₂ và 0,3 mol H₂O.",
+   "statements": [
+    {
+     "t": "X thuộc dãy đồng đẳng alkene.",
+     "a": true
+    },
+    {
+     "t": "Công thức phân tử của X là C₃H₆.",
+     "a": true
+    },
+    {
+     "t": "X có đồng phân hình học.",
+     "a": false
+    },
+    {
+     "t": "X tác dụng với HBr thu được sản phẩm chính là 1-bromopropane.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: X mạch hở và n(CO₂) = n(H₂O) nên X là alkene. b) Đúng: số C = 3, số H = 2 · 0,3 : 0,1 = 6. c) Sai: propene CH₂=CH–CH₃ có một carbon mang hai nguyên tử H giống nhau nên không có đồng phân hình học. d) Sai: theo quy tắc Markovnikov, sản phẩm chính là 2-bromopropane."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Arene",
+   "level": 2,
+   "stem": "Benzene và toluene là các arene quan trọng, được dùng làm dung môi và nguyên liệu tổng hợp hữu cơ.",
+   "statements": [
+    {
+     "t": "Benzene không làm mất màu dung dịch KMnO₄ kể cả khi đun nóng.",
+     "a": true
+    },
+    {
+     "t": "Toluene làm mất màu dung dịch KMnO₄ khi đun nóng.",
+     "a": true
+    },
+    {
+     "t": "Benzene tham gia phản ứng cộng với chlorine khi chiếu ánh sáng tử ngoại.",
+     "a": true
+    },
+    {
+     "t": "Phản ứng thế bromine (xúc tác FeBr₃) vào vòng benzene xảy ra dễ hơn so với toluene.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: vòng benzene bền với chất oxi hóa. b) Đúng: nhóm CH₃ bị oxi hóa thành nhóm –COOK. c) Đúng: tạo hexachlorocyclohexane C₆H₆Cl₆. d) Sai: nhóm methyl làm vòng giàu electron hơn nên toluene thế dễ hơn benzene."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Alkane",
+   "level": 1,
+   "stem": "Số nguyên tử hydrogen trong một phân tử propane là bao nhiêu?",
+   "answer_text": "8",
+   "explanation": "Propane là C₃H₈."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Đồng phân alkene",
+   "level": 2,
+   "stem": "Có bao nhiêu alkene mạch hở có công thức phân tử C₄H₈ là đồng phân cấu tạo của nhau?",
+   "answer_text": "3",
+   "explanation": "But-1-ene, but-2-ene và 2-methylpropene (cis- và trans-but-2-ene là đồng phân hình học, không tính riêng)."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Cấu tạo alkene",
+   "level": 2,
+   "stem": "Phân tử ethylene (CH₂=CH₂) có bao nhiêu liên kết σ?",
+   "answer_text": "5",
+   "explanation": "4 liên kết σ C–H và 1 liên kết σ trong liên kết đôi C=C, tổng 5 liên kết σ (và 1 liên kết π)."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkyne",
+   "level": 3,
+   "stem": "0,1 mol propyne phản ứng cộng được tối đa bao nhiêu gam bromine trong dung dịch? Cho Br = 80.",
+   "answer_text": "32",
+   "explanation": "Liên kết ba có 2 liên kết π nên n(Br₂) = 2 · 0,1 = 0,2 mol; m = 0,2 · 160 = 32 gam."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của arene",
+   "level": 3,
+   "stem": "Nitro hóa 15,6 kg benzene bằng hỗn hợp HNO₃ đặc và H₂SO₄ đặc thu được nitrobenzene với hiệu suất 80%. Khối lượng nitrobenzene thu được là bao nhiêu kg (làm tròn đến hàng phần mười)? Cho C = 12, H = 1, N = 14, O = 16.",
+   "answer_text": "19,7",
+   "explanation": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O. n(C₆H₆) = 15,6 : 78 = 0,2 kmol; m(C₆H₅NO₂) = 0,2 · 123 · 0,8 = 19,68 ≈ 19,7 kg."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Phản ứng cháy của alkane",
+   "level": 3,
+   "stem": "Đốt cháy hoàn toàn 0,1 mol hỗn hợp X gồm methane và ethane thu được 0,15 mol CO₂. Khối lượng của X là bao nhiêu gam (làm tròn đến hàng phần mười)? Cho C = 12, H = 1.",
+   "answer_text": "2,3",
+   "explanation": "Gọi số mol CH₄, C₂H₆ là a, b: a + b = 0,1; a + 2b = 0,15 nên a = b = 0,05. m = 0,05 · 16 + 0,05 · 30 = 2,3 gam."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; kiểm tra bằng Python các câu tính toán 15, 16 (thử n = 1–6), 17, 18, 21, 26, 27, 28. Danh pháp theo IUPAC/SGK KNTT."
+}

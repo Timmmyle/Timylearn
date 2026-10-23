@@ -1,0 +1,640 @@
+{
+ "grade": 11,
+ "subject": "Tiếng Anh",
+ "exam": "ck2",
+ "duration_min": 60,
+ "title": "Đề ôn cuối học kì 2 – Tiếng Anh 11 (đề số 1)",
+ "scope": "Global Success 11: Unit 6 Preserving our heritage; Unit 7 Education options for school-leavers; Unit 8 Becoming independent; trọng tâm Unit 9 Social issues và Unit 10 The ecosystem (ngữ pháp: từ/cụm từ nối, danh từ ghép; ôn mệnh đề to-infinitive, danh động từ hoàn thành, câu chẻ)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "p$\\underline{\\text{u}}$sh",
+    "p$\\underline{\\text{u}}$t",
+    "b$\\underline{\\text{u}}$lly",
+    "p$\\underline{\\text{u}}$blic"
+   ],
+   "answer": 3,
+   "explanation": "“public” /ˈpʌblɪk/ có “u” đọc /ʌ/; “bully” /ˈbʊli/, “push”, “put” có “u” đọc /ʊ/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "habitat$\\underline{\\text{s}}$",
+    "animal$\\underline{\\text{s}}$",
+    "issue$\\underline{\\text{s}}$",
+    "problem$\\underline{\\text{s}}$"
+   ],
+   "answer": 0,
+   "explanation": "“habitats” tận cùng /t/ → “-s” đọc /s/; “issues”, “problems”, “animals” tận cùng âm hữu thanh → đọc /z/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "poverty",
+    "addiction",
+    "violence",
+    "pressure"
+   ],
+   "answer": 1,
+   "explanation": "“addiction” /əˈdɪkʃn/ nhấn âm 2; “pressure”, “violence”, “poverty” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "ecosystem",
+    "organism",
+    "endangered",
+    "habitat"
+   ],
+   "answer": 2,
+   "explanation": "“endangered” /ɪnˈdeɪndʒəd/ nhấn âm 2; “ecosystem”, “organism”, “habitat” nhấn âm 1."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Preserving our heritage – Vocabulary",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nThe government has spent a lot of money on ______ the ancient citadel.",
+   "options": [
+    "restore",
+    "restoring",
+    "restored",
+    "restoration"
+   ],
+   "answer": 1,
+   "explanation": "Sau giới từ “on” và có tân ngữ “the ancient citadel” → dùng V-ing: restoring; “restoration” cần “of” (the restoration of)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: Becoming independent – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nMaking your own decisions helps you become more ______.",
+   "options": [
+    "independently",
+    "independent",
+    "independence",
+    "depend"
+   ],
+   "answer": 1,
+   "explanation": "Sau “become more” cần tính từ: independent (tự lập)."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Social issues – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nPeer ______ can make teenagers do things they don't really want to do.",
+   "options": [
+    "pressing",
+    "pressed",
+    "pressure",
+    "press"
+   ],
+   "answer": 2,
+   "explanation": "“peer pressure” = áp lực từ bạn bè đồng trang lứa."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Social issues – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nCyber ______ happens when someone uses the Internet to hurt or threaten another person.",
+   "options": [
+    "bullied",
+    "bully",
+    "bullying",
+    "bullies"
+   ],
+   "answer": 2,
+   "explanation": "“cyberbullying” = bắt nạt trên mạng (danh từ chỉ hành vi); “bully” là kẻ bắt nạt."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Social issues – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nMany young people suffer from ______ and stress because of study pressure.",
+   "options": [
+    "depression",
+    "depress",
+    "depressing",
+    "depressed"
+   ],
+   "answer": 0,
+   "explanation": "Sau “suffer from” cần danh từ, song song với “stress”: depression (trầm cảm)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10: The ecosystem – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nAn ______ is a community of living things interacting with each other and with their environment.",
+   "options": [
+    "ecology",
+    "economy",
+    "environmentalist",
+    "ecosystem"
+   ],
+   "answer": 3,
+   "explanation": "ecosystem = hệ sinh thái; ecology = sinh thái học (môn học), economy = nền kinh tế."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10: The ecosystem – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe giant panda is an ______ species; fewer than 2,000 of them live in the wild.",
+   "options": [
+    "endangered",
+    "dangerous",
+    "endanger",
+    "danger"
+   ],
+   "answer": 0,
+   "explanation": "“endangered species” = loài có nguy cơ tuyệt chủng."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10: The ecosystem – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nPlanting more trees helps ______ biodiversity in the area.",
+   "options": [
+    "maintenance",
+    "maintainable",
+    "maintain",
+    "maintained"
+   ],
+   "answer": 2,
+   "explanation": "help + (to) V nguyên mẫu → help maintain (giúp duy trì)."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 6 – Grammar: To-infinitive clauses",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nShe was the only student ______ the heritage quiz.",
+   "options": [
+    "winning",
+    "won",
+    "to win",
+    "wins"
+   ],
+   "answer": 2,
+   "explanation": "Sau “the only + danh từ” dùng to-infinitive: the only student to win."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Danh động từ, động từ nguyên mẫu",
+   "topic": "Unit 7 – Grammar: Perfect gerunds and perfect participle clauses",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nThe student was accused of ______ in the final exam.",
+   "options": [
+    "cheat",
+    "to have cheated",
+    "having been cheated",
+    "having cheated"
+   ],
+   "answer": 3,
+   "explanation": "accuse sb of + V-ing; hành động gian lận xảy ra trước → having cheated (chủ động)."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "topic": "Unit 8 – Grammar: Cleft sentences (It is/was … that/who …)",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nIt was in 2010 ______ my family moved to Ha Noi.",
+   "options": [
+    "that",
+    "what",
+    "who",
+    "which"
+   ],
+   "answer": 0,
+   "explanation": "Câu chẻ nhấn mạnh trạng ngữ thời gian: It was + in 2010 + that + mệnh đề."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Unit 9 – Grammar: Linking words and phrases",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\n______ the campaign against bullying, many students are still afraid to go to school.",
+   "options": [
+    "However",
+    "Despite",
+    "Although",
+    "Because of"
+   ],
+   "answer": 1,
+   "explanation": "Sau chỗ trống là cụm danh từ, quan hệ tương phản → Despite + N; “Although” cần mệnh đề."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Unit 9 – Grammar: Linking words and phrases",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nMany teenagers spend too much time online. ______, they do not get enough sleep.",
+   "options": [
+    "As a result",
+    "However",
+    "Although",
+    "In spite of"
+   ],
+   "answer": 0,
+   "explanation": "Câu sau là kết quả của câu trước → As a result."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Unit 9 – Grammar: Linking words and phrases",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n______ he had been bullied for months, he did not tell anyone.",
+   "options": [
+    "However",
+    "Despite",
+    "Because of",
+    "Although"
+   ],
+   "answer": 3,
+   "explanation": "Sau chỗ trống là mệnh đề, quan hệ tương phản → Although + S + V."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10 – Grammar: Compound nouns",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nSmall fish eat plankton, and bigger fish eat small fish. This is an example of a food ______.",
+   "options": [
+    "row",
+    "queue",
+    "chain",
+    "line"
+   ],
+   "answer": 2,
+   "explanation": "Danh từ ghép “food chain” = chuỗi thức ăn."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10 – Grammar: Compound nouns",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nTropical ______ cover only a small part of the Earth's surface but are home to more than half of the world's plant and animal species.",
+   "options": [
+    "rainsforest",
+    "rains forests",
+    "rainforest's",
+    "rainforests"
+   ],
+   "answer": 3,
+   "explanation": "Danh từ ghép viết liền “rainforest”, số nhiều thêm “-s” ở cuối: rainforests; động từ “cover/are” chia số nhiều."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nTeacher: “Congratulations! You have been chosen to represent our school in the environmental project.”\nMinh: “______”",
+   "options": [
+    "Yes, I'd love to.",
+    "The same to you.",
+    "Thank you. I'll try my best.",
+    "Never mind."
+   ],
+   "answer": 2,
+   "explanation": "Đáp lại lời chúc mừng → cảm ơn: “Thank you. I'll try my best.”"
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nLan: “Do you think we should ban mobile phones at school?”\nHoa: “______”",
+   "options": [
+    "Yes, they are.",
+    "Here you are.",
+    "You're welcome.",
+    "I'm not sure. Phones can be useful for learning."
+   ],
+   "answer": 3,
+   "explanation": "Câu hỏi xin ý kiến → nêu quan điểm và lí do."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Hoa: That's terrible. Have you told your teacher?\nb. Hoa: You look upset, Lan. What's wrong?\nc. Lan: Not yet. I'm afraid they will bully me even more.\nd. Lan: Some classmates keep posting unkind comments about me online.",
+   "options": [
+    "b – d – c – a",
+    "b – d – a – c",
+    "b – a – d – c",
+    "d – b – a – c"
+   ],
+   "answer": 1,
+   "explanation": "Hoa hỏi chuyện (b) → Lan kể bị bình luận ác ý (d) → Hoa hỏi đã báo giáo viên chưa (a) → Lan trả lời “Not yet” (c)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. If bees disappeared, many plants would not be able to produce fruit and seeds.\nb. For example, bees help flowers to reproduce by carrying pollen from one plant to another.\nc. As a result, the animals that feed on these plants would also be in danger.\nd. Every living thing in an ecosystem plays an important role.",
+   "options": [
+    "d – b – a – c",
+    "b – d – a – c",
+    "d – b – c – a",
+    "d – a – b – c"
+   ],
+   "answer": 0,
+   "explanation": "Câu chủ đề (d) → ví dụ về loài ong (b) → giả định nếu ong biến mất (a) → hệ quả “As a result” (c)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: The ecosystem)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nCuc Phuong National Park is one of the most important ecosystems in Viet Nam. It is home (25) ______ thousands of plant and animal species, many of which are rare. However, the park's (26) ______ is under threat. Illegal hunting and logging have reduced the number of wild animals. (27) ______, climate change is affecting the plants and animals living there. To deal with these problems, the park has set up rescue centres (28) ______ endangered animals such as primates and turtles. Visitors can learn about (29) ______ conservation there. Many experts believe that it is local people (30) ______ play the most important role in protecting the park.\n\nBlank (25):",
+   "options": [
+    "to",
+    "of",
+    "for",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": "Cụm “be home to sth” = là nơi sinh sống của."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: The ecosystem)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nCuc Phuong National Park is one of the most important ecosystems in Viet Nam. It is home (25) ______ thousands of plant and animal species, many of which are rare. However, the park's (26) ______ is under threat. Illegal hunting and logging have reduced the number of wild animals. (27) ______, climate change is affecting the plants and animals living there. To deal with these problems, the park has set up rescue centres (28) ______ endangered animals such as primates and turtles. Visitors can learn about (29) ______ conservation there. Many experts believe that it is local people (30) ______ play the most important role in protecting the park.\n\nBlank (26):",
+   "options": [
+    "biologist",
+    "biology",
+    "biodiversity",
+    "biography"
+   ],
+   "answer": 2,
+   "explanation": "biodiversity = đa dạng sinh học; biology = sinh học, biography = tiểu sử."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: The ecosystem)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nCuc Phuong National Park is one of the most important ecosystems in Viet Nam. It is home (25) ______ thousands of plant and animal species, many of which are rare. However, the park's (26) ______ is under threat. Illegal hunting and logging have reduced the number of wild animals. (27) ______, climate change is affecting the plants and animals living there. To deal with these problems, the park has set up rescue centres (28) ______ endangered animals such as primates and turtles. Visitors can learn about (29) ______ conservation there. Many experts believe that it is local people (30) ______ play the most important role in protecting the park.\n\nBlank (27):",
+   "options": [
+    "Although",
+    "In addition",
+    "However",
+    "Because"
+   ],
+   "answer": 1,
+   "explanation": "Câu sau bổ sung thêm một mối đe dọa nữa → In addition; Although/Because cần mệnh đề theo sau, không đứng một mình với dấu phẩy."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: The ecosystem)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nCuc Phuong National Park is one of the most important ecosystems in Viet Nam. It is home (25) ______ thousands of plant and animal species, many of which are rare. However, the park's (26) ______ is under threat. Illegal hunting and logging have reduced the number of wild animals. (27) ______, climate change is affecting the plants and animals living there. To deal with these problems, the park has set up rescue centres (28) ______ endangered animals such as primates and turtles. Visitors can learn about (29) ______ conservation there. Many experts believe that it is local people (30) ______ play the most important role in protecting the park.\n\nBlank (28):",
+   "options": [
+    "for",
+    "by",
+    "with",
+    "from"
+   ],
+   "answer": 0,
+   "explanation": "“rescue centres for endangered animals” = trung tâm cứu hộ dành cho động vật nguy cấp."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: The ecosystem)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nCuc Phuong National Park is one of the most important ecosystems in Viet Nam. It is home (25) ______ thousands of plant and animal species, many of which are rare. However, the park's (26) ______ is under threat. Illegal hunting and logging have reduced the number of wild animals. (27) ______, climate change is affecting the plants and animals living there. To deal with these problems, the park has set up rescue centres (28) ______ endangered animals such as primates and turtles. Visitors can learn about (29) ______ conservation there. Many experts believe that it is local people (30) ______ play the most important role in protecting the park.\n\nBlank (29):",
+   "options": [
+    "wild's life",
+    "lifewild",
+    "wildlife",
+    "wildlifes"
+   ],
+   "answer": 2,
+   "explanation": "Danh từ ghép không đếm được “wildlife” (động vật hoang dã) → wildlife conservation."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 10: The ecosystem)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nCuc Phuong National Park is one of the most important ecosystems in Viet Nam. It is home (25) ______ thousands of plant and animal species, many of which are rare. However, the park's (26) ______ is under threat. Illegal hunting and logging have reduced the number of wild animals. (27) ______, climate change is affecting the plants and animals living there. To deal with these problems, the park has set up rescue centres (28) ______ endangered animals such as primates and turtles. Visitors can learn about (29) ______ conservation there. Many experts believe that it is local people (30) ______ play the most important role in protecting the park.\n\nBlank (30):",
+   "options": [
+    "who",
+    "what",
+    "where",
+    "which"
+   ],
+   "answer": 0,
+   "explanation": "Câu chẻ nhấn mạnh chủ ngữ chỉ người “local people” → It is … who/that …; “which” không dùng cho người."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Social issues)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nIn the digital age, bullying is no longer limited to the school playground. With the popularity of smartphones and social media, more and more teenagers are becoming victims of cyberbullying. Cyberbullying happens when someone uses digital technology to hurt, threaten or embarrass another person. It can take many forms, such as posting unkind comments, spreading rumours or sharing embarrassing photos online.\n\nCyberbullying can be even more harmful than traditional bullying. Firstly, it can happen at any time of the day, so victims feel that they cannot escape from it, even at home. Secondly, hurtful messages and photos can spread to a large audience very quickly and may stay online forever. As a result, victims often suffer from stress, low self-esteem and depression. Some of them even stop going to school.\n\nDespite these serious effects, many victims do not tell anyone about the problem. They may feel ashamed, or they may worry that adults will take away their phones.\n\nThere are several things teenagers can do to protect themselves. They should never share personal information online and should think carefully before posting anything. If they are bullied, they should not reply to the bully. Instead, they should save the evidence, block the bully and talk to a trusted adult. Schools and parents, for their part, need to create a safe environment where young people feel comfortable asking for help.\n\nWhich of the following could be the best title for the passage?",
+   "options": [
+    "The History of Social Media",
+    "Traditional Bullying at School",
+    "How to Make Friends Online",
+    "Cyberbullying: Its Effects and How to Deal with It"
+   ],
+   "answer": 3,
+   "explanation": "Bài định nghĩa bắt nạt trên mạng, tác hại và cách đối phó."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Social issues)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nIn the digital age, bullying is no longer limited to the school playground. With the popularity of smartphones and social media, more and more teenagers are becoming victims of cyberbullying. Cyberbullying happens when someone uses digital technology to hurt, threaten or embarrass another person. It can take many forms, such as posting unkind comments, spreading rumours or sharing embarrassing photos online.\n\nCyberbullying can be even more harmful than traditional bullying. Firstly, it can happen at any time of the day, so victims feel that they cannot escape from it, even at home. Secondly, hurtful messages and photos can spread to a large audience very quickly and may stay online forever. As a result, victims often suffer from stress, low self-esteem and depression. Some of them even stop going to school.\n\nDespite these serious effects, many victims do not tell anyone about the problem. They may feel ashamed, or they may worry that adults will take away their phones.\n\nThere are several things teenagers can do to protect themselves. They should never share personal information online and should think carefully before posting anything. If they are bullied, they should not reply to the bully. Instead, they should save the evidence, block the bully and talk to a trusted adult. Schools and parents, for their part, need to create a safe environment where young people feel comfortable asking for help.\n\nAccording to paragraph 1, which of the following is an example of cyberbullying?",
+   "options": [
+    "Sharing study notes with classmates",
+    "Playing online games with friends",
+    "Spreading rumours about someone online",
+    "Sending birthday wishes on social media"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 1 liệt kê: posting unkind comments, spreading rumours, sharing embarrassing photos online."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Social issues)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nIn the digital age, bullying is no longer limited to the school playground. With the popularity of smartphones and social media, more and more teenagers are becoming victims of cyberbullying. Cyberbullying happens when someone uses digital technology to hurt, threaten or embarrass another person. It can take many forms, such as posting unkind comments, spreading rumours or sharing embarrassing photos online.\n\nCyberbullying can be even more harmful than traditional bullying. Firstly, it can happen at any time of the day, so victims feel that they cannot escape from it, even at home. Secondly, hurtful messages and photos can spread to a large audience very quickly and may stay online forever. As a result, victims often suffer from stress, low self-esteem and depression. Some of them even stop going to school.\n\nDespite these serious effects, many victims do not tell anyone about the problem. They may feel ashamed, or they may worry that adults will take away their phones.\n\nThere are several things teenagers can do to protect themselves. They should never share personal information online and should think carefully before posting anything. If they are bullied, they should not reply to the bully. Instead, they should save the evidence, block the bully and talk to a trusted adult. Schools and parents, for their part, need to create a safe environment where young people feel comfortable asking for help.\n\nThe word “escape” in paragraph 2 is closest in meaning to ______.",
+   "options": [
+    "look after",
+    "get away",
+    "come back",
+    "take part"
+   ],
+   "answer": 1,
+   "explanation": "escape (from) = thoát khỏi = get away (from)."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Social issues)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nIn the digital age, bullying is no longer limited to the school playground. With the popularity of smartphones and social media, more and more teenagers are becoming victims of cyberbullying. Cyberbullying happens when someone uses digital technology to hurt, threaten or embarrass another person. It can take many forms, such as posting unkind comments, spreading rumours or sharing embarrassing photos online.\n\nCyberbullying can be even more harmful than traditional bullying. Firstly, it can happen at any time of the day, so victims feel that they cannot escape from it, even at home. Secondly, hurtful messages and photos can spread to a large audience very quickly and may stay online forever. As a result, victims often suffer from stress, low self-esteem and depression. Some of them even stop going to school.\n\nDespite these serious effects, many victims do not tell anyone about the problem. They may feel ashamed, or they may worry that adults will take away their phones.\n\nThere are several things teenagers can do to protect themselves. They should never share personal information online and should think carefully before posting anything. If they are bullied, they should not reply to the bully. Instead, they should save the evidence, block the bully and talk to a trusted adult. Schools and parents, for their part, need to create a safe environment where young people feel comfortable asking for help.\n\nAccording to paragraph 3, why do many victims not tell anyone about the problem?",
+   "options": [
+    "They want to reply to the bully themselves.",
+    "They do not use social media.",
+    "They think cyberbullying is not serious.",
+    "They feel ashamed or worry that adults will take away their phones."
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 3: “They may feel ashamed, or they may worry that adults will take away their phones.”"
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Social issues)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nIn the digital age, bullying is no longer limited to the school playground. With the popularity of smartphones and social media, more and more teenagers are becoming victims of cyberbullying. Cyberbullying happens when someone uses digital technology to hurt, threaten or embarrass another person. It can take many forms, such as posting unkind comments, spreading rumours or sharing embarrassing photos online.\n\nCyberbullying can be even more harmful than traditional bullying. Firstly, it can happen at any time of the day, so victims feel that they cannot escape from it, even at home. Secondly, hurtful messages and photos can spread to a large audience very quickly and may stay online forever. As a result, victims often suffer from stress, low self-esteem and depression. Some of them even stop going to school.\n\nDespite these serious effects, many victims do not tell anyone about the problem. They may feel ashamed, or they may worry that adults will take away their phones.\n\nThere are several things teenagers can do to protect themselves. They should never share personal information online and should think carefully before posting anything. If they are bullied, they should not reply to the bully. Instead, they should save the evidence, block the bully and talk to a trusted adult. Schools and parents, for their part, need to create a safe environment where young people feel comfortable asking for help.\n\nWhich of the following is NOT advised in the last paragraph?",
+   "options": [
+    "Blocking the bully",
+    "Replying to the bully to defend yourself",
+    "Saving the evidence",
+    "Talking to a trusted adult"
+   ],
+   "answer": 1,
+   "explanation": "Bài khuyên “they should not reply to the bully”; các phương án còn lại đều được khuyên làm."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 9: Social issues)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nIn the digital age, bullying is no longer limited to the school playground. With the popularity of smartphones and social media, more and more teenagers are becoming victims of cyberbullying. Cyberbullying happens when someone uses digital technology to hurt, threaten or embarrass another person. It can take many forms, such as posting unkind comments, spreading rumours or sharing embarrassing photos online.\n\nCyberbullying can be even more harmful than traditional bullying. Firstly, it can happen at any time of the day, so victims feel that they cannot escape from it, even at home. Secondly, hurtful messages and photos can spread to a large audience very quickly and may stay online forever. As a result, victims often suffer from stress, low self-esteem and depression. Some of them even stop going to school.\n\nDespite these serious effects, many victims do not tell anyone about the problem. They may feel ashamed, or they may worry that adults will take away their phones.\n\nThere are several things teenagers can do to protect themselves. They should never share personal information online and should think carefully before posting anything. If they are bullied, they should not reply to the bully. Instead, they should save the evidence, block the bully and talk to a trusted adult. Schools and parents, for their part, need to create a safe environment where young people feel comfortable asking for help.\n\nWhat can be inferred from paragraph 2?",
+   "options": [
+    "Traditional bullying is more dangerous than cyberbullying.",
+    "The harm caused by cyberbullying can last for a long time.",
+    "Cyberbullying rarely affects victims' mental health.",
+    "Cyberbullying only happens at school."
+   ],
+   "answer": 1,
+   "explanation": "Tin nhắn, ảnh “may stay online forever” và nạn nhân bị stress, trầm cảm → tác hại có thể kéo dài."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification – Linking words",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\n(A) Although the government's efforts, (B) poverty (C) is still a serious problem (D) in some rural areas.",
+   "options": [
+    "(A) Although",
+    "(B) poverty",
+    "(C) is still",
+    "(D) in some"
+   ],
+   "answer": 0,
+   "explanation": "Sau chỗ sai là cụm danh từ “the government's efforts” → dùng Despite/In spite of thay cho Although."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Error identification – Compound nouns",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nMany (A) sea turtles are (B) killed every year because they (C) mistake (D) plastics bag for food.",
+   "options": [
+    "(A) sea turtles",
+    "(B) killed",
+    "(C) mistake",
+    "(D) plastics bag"
+   ],
+   "answer": 3,
+   "explanation": "Danh từ ghép “plastic bag”: số nhiều thêm “-s” vào danh từ chính → plastic bags."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Linking words",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nHe was very poor, but he managed to finish university.",
+   "options": [
+    "He was very poor, so he managed to finish university.",
+    "Despite he was very poor, he managed to finish university.",
+    "Because of being very poor, he managed to finish university.",
+    "Despite being very poor, he managed to finish university."
+   ],
+   "answer": 3,
+   "explanation": "Quan hệ tương phản → Despite + V-ing; “Despite” không đi với mệnh đề; “Because of/so” sai nghĩa."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Cleft sentences",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nVolunteering helped Mai become more confident.",
+   "options": [
+    "It is volunteering that will help Mai become more confident.",
+    "It was volunteering that helped Mai become more confident.",
+    "It was volunteering that stopped Mai becoming confident.",
+    "It was volunteering what helped Mai become more confident."
+   ],
+   "answer": 1,
+   "explanation": "Câu chẻ nhấn mạnh chủ ngữ chỉ việc: It was + volunteering + that + helped…; giữ nguyên thì và nghĩa."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu; khoảng 60% số câu thuộc Unit 9–10. Kiểm tra phiên âm/trọng âm, mỗi câu chỉ có một đáp án đúng (câu chẻ không đưa “that” khi đáp án là “who” và ngược lại), độ dài đoạn đọc, JSON và phân bố đáp án bằng Python. Từ nối (Unit 9) và câu chẻ (Unit 8) không có chủ đề tương ứng trong TOPICS.md nên không gán tk; danh từ ghép (Unit 10) gán “Từ vựng, collocation”. Dữ kiện: Cúc Phương có Trung tâm cứu hộ linh trưởng và Trung tâm bảo tồn rùa."
+}

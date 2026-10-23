@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "Công nghệ",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – Công nghệ 11",
+ "scope": "Vật liệu và gia công cơ khí; Sản xuất cơ khí, tự động hóa: quy trình chế tạo cơ khí, an toàn lao động, tự động hóa, robot công nghiệp, sản xuất thông minh, ngành nghề cơ khí",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Phân loại vật liệu cơ khí",
+   "level": 1,
+   "stem": "Vật liệu nào sau đây là vật liệu phi kim loại?",
+   "options": [
+    "Đồng thau",
+    "Gang trắng",
+    "Cao su",
+    "Thép hợp kim"
+   ],
+   "answer": 2,
+   "explanation": "Cao su là vật liệu phi kim loại; đồng thau, gang, thép là vật liệu kim loại."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Tính chất của vật liệu",
+   "level": 1,
+   "stem": "Độ bền của vật liệu là khả năng",
+   "options": [
+    "chống lại biến dạng dẻo hoặc phá hủy dưới tác dụng của ngoại lực",
+    "chống lại biến dạng dẻo của lớp bề mặt",
+    "dẫn điện, dẫn nhiệt",
+    "chống lại tác dụng hóa học của môi trường"
+   ],
+   "answer": 0,
+   "explanation": "Độ bền biểu thị khả năng chống biến dạng dẻo hoặc phá hủy của vật liệu khi chịu ngoại lực."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gang và thép",
+   "level": 1,
+   "stem": "Thép là hợp kim của sắt với carbon, trong đó hàm lượng carbon",
+   "options": [
+    "trên 2,14%",
+    "bằng 0%",
+    "trên 6,67%",
+    "không quá 2,14%"
+   ],
+   "answer": 3,
+   "explanation": "Thép có hàm lượng carbon ≤ 2,14%; gang có hàm lượng carbon > 2,14%."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gia công cắt gọt",
+   "level": 1,
+   "stem": "Phương pháp nào sau đây thuộc gia công cắt gọt?",
+   "options": [
+    "Hàn",
+    "Phay",
+    "Đúc",
+    "Rèn"
+   ],
+   "answer": 1,
+   "explanation": "Phay là gia công cắt gọt; đúc, rèn, hàn là gia công không phoi."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Phân loại vật liệu cơ khí",
+   "level": 2,
+   "stem": "Đặc điểm chung của phần lớn kim loại màu như đồng, nhôm là",
+   "options": [
+    "dẫn điện, dẫn nhiệt tốt và chống ăn mòn tốt hơn thép thông thường",
+    "có hàm lượng carbon trên 2,14%",
+    "không dẫn điện",
+    "thành phần chính là sắt"
+   ],
+   "answer": 0,
+   "explanation": "Kim loại màu không chứa sắt là thành phần chính; đồng, nhôm dẫn điện, dẫn nhiệt tốt và chống ăn mòn tốt."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Khoan",
+   "level": 2,
+   "stem": "Khi khoan, chuyển động của mũi khoan là",
+   "options": [
+    "chỉ quay tròn, phôi tịnh tiến về phía mũi khoan",
+    "chỉ tịnh tiến, không quay",
+    "vừa quay tròn vừa tịnh tiến dọc trục",
+    "đứng yên, phôi quay tròn"
+   ],
+   "answer": 2,
+   "explanation": "Trên máy khoan, mũi khoan quay tròn (chuyển động cắt chính) đồng thời tiến dọc trục (chuyển động tiến)."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Đúc",
+   "level": 2,
+   "stem": "Nhược điểm của phương pháp đúc trong khuôn cát là",
+   "options": [
+    "không đúc được chi tiết có khối lượng lớn",
+    "vật đúc dễ có khuyết tật như rỗ khí, rỗ xỉ; độ chính xác không cao",
+    "khuôn dùng được rất nhiều lần nên tốn kém",
+    "chỉ đúc được thép, không đúc được gang"
+   ],
+   "answer": 1,
+   "explanation": "Đúc khuôn cát dễ sinh rỗ khí, rỗ xỉ, độ chính xác và độ nhẵn thấp; khuôn cát chỉ dùng một lần."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Gia công áp lực",
+   "level": 3,
+   "stem": "Vỏ thân xe ô tô được tạo hình từ thép tấm mỏng với số lượng lớn. Phương pháp gia công phù hợp nhất là",
+   "options": [
+    "dập",
+    "mài",
+    "tiện",
+    "khoan"
+   ],
+   "answer": 0,
+   "explanation": "Dập (gia công áp lực) tạo hình nhanh các chi tiết từ vật liệu tấm, năng suất cao."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn vật liệu",
+   "level": 3,
+   "stem": "Tay cầm của máy khoan cầm tay thường làm bằng vật liệu nào để đảm bảo an toàn điện?",
+   "options": [
+    "Nhôm",
+    "Đồng",
+    "Chất dẻo cách điện",
+    "Thép"
+   ],
+   "answer": 2,
+   "explanation": "Chất dẻo cách điện, nhẹ, dễ tạo hình; đồng, nhôm, thép đều dẫn điện."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Quy trình chế tạo cơ khí",
+   "level": 1,
+   "stem": "Bước đầu tiên trong quy trình chế tạo một sản phẩm cơ khí là",
+   "options": [
+    "tìm hiểu bản vẽ và yêu cầu kĩ thuật của sản phẩm",
+    "kiểm tra chất lượng sản phẩm",
+    "sơn và đóng gói sản phẩm",
+    "lắp ráp sản phẩm"
+   ],
+   "answer": 0,
+   "explanation": "Phải đọc, hiểu bản vẽ và yêu cầu kĩ thuật trước khi chuẩn bị phôi, gia công, lắp ráp."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Quy trình chế tạo cơ khí",
+   "level": 2,
+   "stem": "Trình tự hợp lí trong quy trình chế tạo sản phẩm cơ khí là",
+   "options": [
+    "gia công chi tiết → chuẩn bị phôi → kiểm tra → lắp ráp",
+    "chuẩn bị phôi → lắp ráp → gia công chi tiết → kiểm tra",
+    "chuẩn bị phôi → gia công chi tiết → lắp ráp → kiểm tra",
+    "lắp ráp → chuẩn bị phôi → gia công chi tiết → kiểm tra"
+   ],
+   "answer": 2,
+   "explanation": "Có phôi mới gia công được chi tiết, có chi tiết mới lắp ráp, cuối cùng kiểm tra sản phẩm."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "An toàn lao động trong cơ khí",
+   "level": 1,
+   "stem": "Khi làm việc với máy tiện, người thợ cần",
+   "options": [
+    "đeo kính bảo hộ, mặc quần áo gọn gàng, tóc dài phải buộc gọn",
+    "mặc áo rộng tay, quàng khăn để giữ ấm",
+    "đo kích thước chi tiết khi phôi đang quay",
+    "dùng tay gạt phoi khi máy đang chạy"
+   ],
+   "answer": 0,
+   "explanation": "Kính bảo hộ chống phoi bắn vào mắt; quần áo, tóc gọn để không bị cuốn vào máy. Các phương án khác đều nguy hiểm."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "An toàn lao động trong cơ khí",
+   "level": 3,
+   "stem": "Đang khoan, Nam thấy máy khoan có tiếng kêu lạ và rung mạnh. Việc cần làm đầu tiên là",
+   "options": [
+    "tăng tốc độ để khoan nhanh cho xong",
+    "dùng tay giữ chặt phôi cho đỡ rung",
+    "tiếp tục làm việc, cuối ca mới báo cáo",
+    "dừng máy, ngắt điện rồi báo người phụ trách kiểm tra"
+   ],
+   "answer": 3,
+   "explanation": "Khi máy có dấu hiệu bất thường phải dừng máy, ngắt nguồn và báo cáo để tránh tai nạn, hỏng máy."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Tự động hóa",
+   "level": 1,
+   "stem": "Tự động hóa sản xuất là",
+   "options": [
+    "sử dụng các hệ thống điều khiển, thiết bị tự động để vận hành quá trình sản xuất với sự can thiệp ít nhất của con người",
+    "chỉ sản xuất theo đơn đặt hàng nhỏ lẻ",
+    "thay thế máy móc bằng lao động thủ công",
+    "dùng máy móc do con người điều khiển hoàn toàn bằng tay"
+   ],
+   "answer": 0,
+   "explanation": "Tự động hóa dùng thiết bị, hệ thống điều khiển tự động thay cho con người vận hành trực tiếp."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Tự động hóa",
+   "level": 2,
+   "stem": "Lợi ích của tự động hóa trong sản xuất cơ khí là",
+   "options": [
+    "luôn giảm chi phí đầu tư ban đầu",
+    "loại bỏ hoàn toàn sản phẩm sai hỏng",
+    "không cần người lao động có trình độ",
+    "tăng năng suất, chất lượng sản phẩm ổn định, giảm lao động nặng nhọc, độc hại"
+   ],
+   "answer": 3,
+   "explanation": "Tự động hóa tăng năng suất, ổn định chất lượng, giảm lao động nặng nhọc; nhưng đầu tư ban đầu lớn và cần nhân lực trình độ cao."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Robot công nghiệp",
+   "level": 1,
+   "stem": "Robot công nghiệp là",
+   "options": [
+    "dụng cụ cầm tay của người thợ",
+    "phần mềm thiết kế bản vẽ",
+    "máy công cụ chỉ thực hiện được một nguyên công cố định, không lập trình được",
+    "thiết bị tự động đa năng, có tay máy lập trình được để thực hiện các thao tác trong sản xuất"
+   ],
+   "answer": 3,
+   "explanation": "Robot công nghiệp có thể lập trình lại để thực hiện nhiều thao tác: hàn, sơn, gắp, lắp ráp…"
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Robot công nghiệp",
+   "level": 1,
+   "stem": "Bộ phận giữ vai trò như \"bộ não\" của robot công nghiệp là",
+   "options": [
+    "bộ phận công tác (tay kẹp)",
+    "bộ điều khiển",
+    "cơ cấu chấp hành (động cơ)",
+    "tay máy"
+   ],
+   "answer": 1,
+   "explanation": "Bộ điều khiển xử lí chương trình, tín hiệu cảm biến và ra lệnh cho cơ cấu chấp hành."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Robot công nghiệp",
+   "level": 2,
+   "stem": "Công việc nào sau đây phù hợp nhất để dùng robot công nghiệp thay thế con người?",
+   "options": [
+    "Sáng tác thiết kế mẫu sản phẩm hoàn toàn mới",
+    "Hàn, sơn thân xe ô tô trên dây chuyền, trong môi trường độc hại",
+    "Đàm phán hợp đồng với đối tác",
+    "Tư vấn tâm lí cho khách hàng"
+   ],
+   "answer": 1,
+   "explanation": "Robot công nghiệp phù hợp với công việc lặp lại, cần độ chính xác, nặng nhọc hoặc độc hại."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Robot công nghiệp",
+   "level": 2,
+   "stem": "Một robot công nghiệp có 6 bậc tự do, nghĩa là robot",
+   "options": [
+    "có 6 tay máy",
+    "làm được 6 sản phẩm trong một phút",
+    "có 6 chuyển động độc lập để định vị và định hướng bộ phận công tác",
+    "có khối lượng 6 tấn"
+   ],
+   "answer": 2,
+   "explanation": "Số bậc tự do là số chuyển động độc lập (thường ứng với số khớp) của tay máy."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Sản xuất thông minh",
+   "level": 1,
+   "stem": "Sản xuất thông minh dựa trên các công nghệ",
+   "options": [
+    "máy hơi nước",
+    "Internet vạn vật, dữ liệu lớn, trí tuệ nhân tạo và kết nối giữa máy móc – hệ thống",
+    "dây chuyền cơ khí không có kết nối dữ liệu",
+    "sức lao động thủ công là chủ yếu"
+   ],
+   "answer": 1,
+   "explanation": "Sản xuất thông minh là đặc trưng của CMCN lần thứ tư, dựa trên IoT, dữ liệu lớn, AI."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Sản xuất thông minh",
+   "level": 3,
+   "stem": "Trong một nhà máy, các máy CNC liên tục gửi dữ liệu nhiệt độ, độ rung về hệ thống phân tích để dự báo hỏng hóc và lên lịch bảo trì trước khi máy hỏng. Đây là ví dụ về",
+   "options": [
+    "sản xuất thủ công truyền thống",
+    "sửa chữa sau khi máy đã hỏng",
+    "gia công không phoi",
+    "bảo trì dự đoán trong sản xuất thông minh"
+   ],
+   "answer": 3,
+   "explanation": "Thu thập, phân tích dữ liệu để dự báo sự cố là bảo trì dự đoán, một ứng dụng của sản xuất thông minh."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Quy trình chế tạo cơ khí",
+   "level": 3,
+   "stem": "Chế tạo một bạc lót bằng đồng: phôi được đúc, sau đó tiện mặt trong và mặt ngoài, rồi đo kiểm bằng thước cặp. Bước tiện thuộc giai đoạn nào của quy trình chế tạo?",
+   "options": [
+    "Kiểm tra",
+    "Chuẩn bị phôi",
+    "Gia công chi tiết",
+    "Lắp ráp"
+   ],
+   "answer": 2,
+   "explanation": "Đúc là tạo phôi; tiện để đạt hình dạng, kích thước là gia công chi tiết; đo kiểm thuộc giai đoạn kiểm tra."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Ngành nghề trong lĩnh vực cơ khí",
+   "level": 1,
+   "stem": "Người chịu trách nhiệm nghiên cứu, thiết kế, tính toán các sản phẩm cơ khí là",
+   "options": [
+    "thợ vận hành máy",
+    "kĩ sư cơ khí",
+    "thợ hàn",
+    "nhân viên bán hàng"
+   ],
+   "answer": 1,
+   "explanation": "Kĩ sư cơ khí thiết kế, tính toán; thợ hàn, thợ vận hành máy trực tiếp sản xuất."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Ngành nghề trong lĩnh vực cơ khí",
+   "level": 3,
+   "stem": "Một học sinh có sức khỏe tốt, khéo tay, thích làm việc trực tiếp với máy móc và muốn sớm đi làm. Nghề phù hợp nhất là",
+   "options": [
+    "biên tập viên báo chí",
+    "kế toán doanh nghiệp",
+    "hướng dẫn viên du lịch",
+    "thợ vận hành, sửa chữa máy công cụ (đào tạo ở trường trung cấp, cao đẳng nghề)"
+   ],
+   "answer": 3,
+   "explanation": "Nghề vận hành, sửa chữa máy phù hợp với người khéo tay, thích máy móc; thời gian đào tạo nghề ngắn hơn đại học."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Vật liệu và gia công cơ khí",
+   "topic": "Lựa chọn vật liệu cơ khí",
+   "level": 2,
+   "stem": "Khi thiết kế một chiếc xe đạp, người ta cân nhắc: khung bằng hợp kim nhôm hoặc composite cốt sợi carbon, lốp bằng cao su, xích bằng thép.",
+   "statements": [
+    {
+     "t": "Hợp kim nhôm nhẹ hơn thép và chống ăn mòn tốt.",
+     "a": true
+    },
+    {
+     "t": "Cao su là vật liệu kim loại.",
+     "a": false
+    },
+    {
+     "t": "Composite cốt sợi carbon nhẹ và bền nên được dùng cho khung xe đạp thể thao cao cấp.",
+     "a": true
+    },
+    {
+     "t": "Xích xe đạp bằng thép cần có độ bền cao và chịu mài mòn tốt.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: nhôm có khối lượng riêng nhỏ, tạo lớp oxide bảo vệ. b) Sai: cao su là vật liệu phi kim loại. c) Đúng: tỉ số độ bền/khối lượng rất cao. d) Đúng: xích chịu lực kéo và ma sát liên tục."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Robot công nghiệp, tự động hóa",
+   "level": 2,
+   "stem": "Một dây chuyền lắp ráp điện thoại dùng robot công nghiệp gắp và đặt linh kiện, camera kiểm tra lỗi và băng tải vận chuyển sản phẩm giữa các trạm.",
+   "statements": [
+    {
+     "t": "Robot công nghiệp có thể được lập trình lại để thực hiện thao tác khác.",
+     "a": true
+    },
+    {
+     "t": "Tay kẹp gắn ở cuối tay máy là bộ phận công tác của robot.",
+     "a": true
+    },
+    {
+     "t": "Dây chuyền tự động hoàn toàn không cần con người giám sát, bảo trì.",
+     "a": false
+    },
+    {
+     "t": "Camera kiểm tra là một dạng cảm biến, cung cấp thông tin cho hệ thống điều khiển.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: đó là đặc điểm đa năng của robot công nghiệp. b) Đúng: bộ phận công tác trực tiếp thao tác với đối tượng. c) Sai: vẫn cần người lập trình, giám sát, bảo trì, xử lí sự cố. d) Đúng: camera thu nhận hình ảnh để hệ thống xử lí, ra quyết định."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "An toàn lao động trong cơ khí",
+   "level": 3,
+   "stem": "Trong giờ thực hành ở xưởng cơ khí, một nhóm học sinh được giao tiện và mài một chi tiết trục. Có các ý kiến sau về an toàn lao động.",
+   "statements": [
+    {
+     "t": "Phải đeo kính bảo hộ khi tiện, mài để tránh phoi, hạt mài bắn vào mắt.",
+     "a": true
+    },
+    {
+     "t": "Có thể dùng tay gạt phoi khi máy đang chạy cho nhanh.",
+     "a": false
+    },
+    {
+     "t": "Trước khi vận hành phải kiểm tra tấm che chắn và nút dừng khẩn cấp của máy.",
+     "a": true
+    },
+    {
+     "t": "Nên đo kiểm kích thước chi tiết khi máy tiện đang quay để tiết kiệm thời gian.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: phoi và hạt mài văng ra với tốc độ cao. b) Sai: phoi sắc, nóng, dễ cuốn tay vào máy; phải dừng máy và dùng móc, chổi. c) Đúng: đảm bảo thiết bị an toàn hoạt động. d) Sai: chỉ đo khi máy đã dừng hẳn."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Sản xuất cơ khí, tự động hóa",
+   "topic": "Sản xuất thông minh",
+   "level": 3,
+   "stem": "Nhà máy X áp dụng: các máy kết nối Internet vạn vật, dữ liệu sản xuất được đưa lên điện toán đám mây, trí tuệ nhân tạo phân tích dữ liệu để điều chỉnh tốc độ dây chuyền, robot tự hành vận chuyển vật tư.",
+   "statements": [
+    {
+     "t": "Đây là những đặc trưng của sản xuất thông minh trong cách mạng công nghiệp lần thứ tư.",
+     "a": true
+    },
+    {
+     "t": "Internet vạn vật giúp máy móc trao đổi dữ liệu với nhau và với hệ thống quản lí.",
+     "a": true
+    },
+    {
+     "t": "Sản xuất thông minh không cần nhân lực có trình độ cao.",
+     "a": false
+    },
+    {
+     "t": "Phân tích dữ liệu giúp phát hiện sớm sự cố, giảm thời gian dừng máy.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: kết nối IoT, dữ liệu lớn, AI là đặc trưng của CMCN 4.0. b) Đúng: đúng vai trò của IoT. c) Sai: cần kĩ sư, kĩ thuật viên có trình độ để vận hành, lập trình, phân tích dữ liệu. d) Đúng: đó là lợi ích của bảo trì dự đoán."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập 28 câu theo SGK Công nghệ 11 KNTT (Công nghệ cơ khí); kiểm tra mỗi câu trắc nghiệm chỉ có một phương án đúng. Đề không có câu tính toán."
+}

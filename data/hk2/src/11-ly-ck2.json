@@ -1,0 +1,439 @@
+{
+ "grade": 11,
+ "subject": "Vật lí",
+ "exam": "ck2",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 2 – Vật lí 11 (đề số 1)",
+ "scope": "Chương III Điện trường (định luật Coulomb, cường độ điện trường, điện thế, tụ điện); Chương IV Dòng điện, mạch điện (cường độ dòng điện, điện trở và định luật Ohm, ảnh hưởng của nhiệt độ lên điện trở, nguồn điện, năng lượng và công suất điện). Lấy $k = 9\\cdot 10^9$ N·m²/C².",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Định luật Coulomb",
+   "level": 1,
+   "stem": "Môi trường nào sau đây có hằng số điện môi nhỏ nhất?",
+   "options": [
+    "Chân không.",
+    "Nước nguyên chất.",
+    "Dầu hỏa.",
+    "Thủy tinh."
+   ],
+   "answer": 0,
+   "explanation": "Chân không có $\\varepsilon = 1$; mọi điện môi khác đều có $\\varepsilon > 1$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Tụ điện",
+   "level": 1,
+   "stem": "Đơn vị của điện dung là",
+   "options": [
+    "vôn (V).",
+    "culông (C).",
+    "fara (F).",
+    "henry (H)."
+   ],
+   "answer": 2,
+   "explanation": "Điện dung $C = \\dfrac{Q}{U}$ có đơn vị C/V, gọi là fara (F)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Định luật Coulomb",
+   "level": 2,
+   "stem": "Hai điện tích điểm đặt trong không khí (coi $\\varepsilon = 1$). Đưa chúng vào dầu có hằng số điện môi 2,5 và giữ nguyên khoảng cách thì lực tương tác giữa chúng",
+   "options": [
+    "tăng 2,5 lần.",
+    "giảm 2,5 lần.",
+    "giảm 6,25 lần.",
+    "không đổi."
+   ],
+   "answer": 1,
+   "explanation": "$F = k\\dfrac{|q_1q_2|}{\\varepsilon r^2}$ tỉ lệ nghịch với $\\varepsilon$ nên giảm 2,5 lần."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Điện thế, hiệu điện thế",
+   "level": 2,
+   "stem": "Trong điện trường đều có cường độ 1000 V/m, hai điểm M, N nằm trên cùng một đường sức, cách nhau 5 cm, vectơ $\\overrightarrow{MN}$ cùng chiều đường sức. Hiệu điện thế $U_{MN}$ là",
+   "options": [
+    "$-50$ V.",
+    "5000 V.",
+    "20 V.",
+    "50 V."
+   ],
+   "answer": 3,
+   "explanation": "$U_{MN} = Ed = 1000\\cdot 0{,}05 = 50$ V (dương vì đi theo chiều đường sức điện thế giảm)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Định luật Coulomb",
+   "level": 3,
+   "stem": "Hai điện tích điểm bằng nhau $q = 3\\cdot 10^{-6}$ C đặt cách nhau 30 cm trong chân không. Lực tương tác giữa chúng có độ lớn",
+   "options": [
+    "0,27 N.",
+    "9 N.",
+    "0,09 N.",
+    "0,9 N."
+   ],
+   "answer": 3,
+   "explanation": "$F = 9\\cdot 10^9\\cdot\\dfrac{(3\\cdot 10^{-6})^2}{0{,}3^2} = 0{,}9$ N."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Năng lượng tụ điện",
+   "level": 3,
+   "stem": "Một tụ điện có điện dung 4 μF được nối vào hiệu điện thế 50 V. Năng lượng của tụ điện là",
+   "options": [
+    "$10^{-2}$ J.",
+    "$5\\cdot 10^{-3}$ J.",
+    "$2\\cdot 10^{-4}$ J.",
+    "$10^{-4}$ J."
+   ],
+   "answer": 1,
+   "explanation": "$W = \\dfrac{1}{2}CU^2 = \\dfrac{1}{2}\\cdot 4\\cdot 10^{-6}\\cdot 50^2 = 5\\cdot 10^{-3}$ J."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Cường độ dòng điện",
+   "level": 1,
+   "stem": "Dòng điện là",
+   "options": [
+    "dòng chuyển động hỗn loạn của các electron.",
+    "dòng chuyển dời của các nguyên tử trung hòa.",
+    "dòng chuyển dời có hướng của các hạt mang điện.",
+    "dòng chuyển động nhiệt của các ion."
+   ],
+   "answer": 2,
+   "explanation": "Định nghĩa: dòng điện là dòng chuyển dời có hướng của các hạt mang điện (điện tích)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Cường độ dòng điện",
+   "level": 1,
+   "stem": "Cường độ dòng điện không đổi được xác định bằng công thức",
+   "options": [
+    "$I = \\dfrac{\\Delta q}{\\Delta t}$.",
+    "$I = \\Delta q\\cdot\\Delta t$.",
+    "$I = \\dfrac{\\Delta t}{\\Delta q}$.",
+    "$I = \\dfrac{U}{\\Delta q}$."
+   ],
+   "answer": 0,
+   "explanation": "Cường độ dòng điện bằng điện lượng chuyển qua tiết diện thẳng của dây dẫn trong một đơn vị thời gian."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Định luật Ohm",
+   "level": 1,
+   "stem": "Cường độ dòng điện chạy qua một đoạn mạch chỉ có điện trở $R$, hiệu điện thế hai đầu $U$, là",
+   "options": [
+    "$I = \\dfrac{U}{R}$.",
+    "$I = UR$.",
+    "$I = \\dfrac{R}{U}$.",
+    "$I = \\dfrac{U^2}{R}$."
+   ],
+   "answer": 0,
+   "explanation": "Định luật Ohm cho đoạn mạch chỉ có điện trở: $I = \\dfrac{U}{R}$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Nguồn điện",
+   "level": 1,
+   "stem": "Suất điện động của nguồn điện đặc trưng cho",
+   "options": [
+    "khả năng tích điện của nguồn.",
+    "khả năng tác dụng lực của nguồn.",
+    "điện trở bên trong của nguồn.",
+    "khả năng thực hiện công của lực lạ bên trong nguồn điện."
+   ],
+   "answer": 3,
+   "explanation": "$\\mathscr{E} = \\dfrac{A}{q}$: đặc trưng cho khả năng thực hiện công của lực lạ, đơn vị vôn."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Ảnh hưởng của nhiệt độ lên điện trở",
+   "level": 1,
+   "stem": "Khi nhiệt độ tăng thì điện trở của một dây dẫn kim loại",
+   "options": [
+    "giảm.",
+    "tăng.",
+    "không đổi.",
+    "giảm về 0."
+   ],
+   "answer": 1,
+   "explanation": "Nhiệt độ tăng, các ion dao động mạnh hơn, cản trở chuyển động có hướng của electron nhiều hơn nên điện trở kim loại tăng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Cường độ dòng điện",
+   "level": 2,
+   "stem": "Điện lượng 30 C chuyển qua tiết diện thẳng của một dây dẫn trong 1 phút. Cường độ dòng điện trong dây là",
+   "options": [
+    "30 A.",
+    "2 A.",
+    "0,5 A.",
+    "1800 A."
+   ],
+   "answer": 2,
+   "explanation": "$I = \\dfrac{\\Delta q}{\\Delta t} = \\dfrac{30}{60} = 0{,}5$ A."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Cường độ dòng điện",
+   "level": 2,
+   "stem": "Dòng điện không đổi cường độ 1,6 A chạy qua một dây dẫn kim loại. Số electron chuyển qua tiết diện thẳng của dây trong 1 s là",
+   "options": [
+    "$1{,}6\\cdot 10^{19}$.",
+    "$10^{-19}$.",
+    "$10^{19}$.",
+    "$2{,}56\\cdot 10^{-19}$."
+   ],
+   "answer": 2,
+   "explanation": "$N = \\dfrac{It}{|e|} = \\dfrac{1{,}6\\cdot 1}{1{,}6\\cdot 10^{-19}} = 10^{19}$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Định luật Ohm",
+   "level": 2,
+   "stem": "Hai điện trở $R_1 = 6\\ \\Omega$ và $R_2 = 3\\ \\Omega$ mắc song song. Điện trở tương đương của đoạn mạch là",
+   "options": [
+    "$2\\ \\Omega$.",
+    "$9\\ \\Omega$.",
+    "$4{,}5\\ \\Omega$.",
+    "$18\\ \\Omega$."
+   ],
+   "answer": 0,
+   "explanation": "$R = \\dfrac{R_1R_2}{R_1 + R_2} = \\dfrac{6\\cdot 3}{9} = 2\\ \\Omega$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Năng lượng và công suất điện",
+   "level": 2,
+   "stem": "Một bóng đèn có ghi 220 V – 100 W. Điện trở của bóng đèn khi sáng bình thường là",
+   "options": [
+    "$2{,}2\\ \\Omega$.",
+    "$22\\ \\Omega$.",
+    "$0{,}45\\ \\Omega$.",
+    "$484\\ \\Omega$."
+   ],
+   "answer": 3,
+   "explanation": "$P = \\dfrac{U^2}{R} \\Rightarrow R = \\dfrac{220^2}{100} = 484\\ \\Omega$."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Nguồn điện",
+   "level": 3,
+   "stem": "Một nguồn điện có suất điện động 12 V, điện trở trong $1\\ \\Omega$ được nối với điện trở ngoài $R = 5\\ \\Omega$ thành mạch kín. Cường độ dòng điện trong mạch là",
+   "options": [
+    "2,4 A.",
+    "2 A.",
+    "12 A.",
+    "1,2 A."
+   ],
+   "answer": 1,
+   "explanation": "$I = \\dfrac{\\mathscr{E}}{R + r} = \\dfrac{12}{5 + 1} = 2$ A."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Năng lượng và công suất điện",
+   "level": 3,
+   "stem": "Một ấm điện công suất 1000 W, mỗi ngày dùng 30 phút. Điện năng ấm tiêu thụ trong 30 ngày là",
+   "options": [
+    "30 kWh.",
+    "900 kWh.",
+    "1,5 kWh.",
+    "15 kWh."
+   ],
+   "answer": 3,
+   "explanation": "$A = Pt = 1\\ \\text{kW}\\cdot 0{,}5\\ \\text{h}\\cdot 30 = 15$ kWh."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Nguồn điện",
+   "level": 3,
+   "stem": "Một nguồn điện có suất điện động 6 V, điện trở trong $0{,}5\\ \\Omega$ được nối với điện trở ngoài $2{,}5\\ \\Omega$. Hiệu suất của nguồn điện xấp xỉ",
+   "options": [
+    "83,3%.",
+    "16,7%.",
+    "20%.",
+    "80%."
+   ],
+   "answer": 0,
+   "explanation": "$H = \\dfrac{U}{\\mathscr{E}} = \\dfrac{R}{R + r} = \\dfrac{2{,}5}{3} \\approx 0{,}833 = 83{,}3\\%$."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Công của lực điện",
+   "level": 2,
+   "stem": "Một điện tích $q = 2\\cdot 10^{-8}$ C đặt trong điện trường đều có cường độ $E = 3000$ V/m.",
+   "statements": [
+    {
+     "t": "Lực điện tác dụng lên $q$ có độ lớn $6\\cdot 10^{-5}$ N.",
+     "a": true
+    },
+    {
+     "t": "Lực điện tác dụng lên $q$ ngược hướng với vectơ cường độ điện trường.",
+     "a": false
+    },
+    {
+     "t": "Khi $q$ di chuyển 4 cm dọc theo một đường sức, cùng chiều đường sức, công của lực điện là $2{,}4\\cdot 10^{-6}$ J.",
+     "a": true
+    },
+    {
+     "t": "Khi $q$ di chuyển 4 cm theo phương vuông góc với đường sức, công của lực điện là $2{,}4\\cdot 10^{-6}$ J.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $F = |q|E = 2\\cdot 10^{-8}\\cdot 3000 = 6\\cdot 10^{-5}$ N. b) Sai: $q > 0$ nên lực cùng hướng $\\vec{E}$. c) Đúng: $A = qEd = 6\\cdot 10^{-5}\\cdot 0{,}04 = 2{,}4\\cdot 10^{-6}$ J. d) Sai: đi vuông góc đường sức thì $d = 0$ nên $A = 0$."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Định luật Ohm",
+   "level": 2,
+   "stem": "Một đoạn mạch gồm điện trở $R_1 = 4\\ \\Omega$ mắc nối tiếp với điện trở $R_2 = 6\\ \\Omega$. Đặt vào hai đầu đoạn mạch hiệu điện thế không đổi 20 V.",
+   "statements": [
+    {
+     "t": "Điện trở tương đương của đoạn mạch là $10\\ \\Omega$.",
+     "a": true
+    },
+    {
+     "t": "Cường độ dòng điện chạy qua mạch là 2 A.",
+     "a": true
+    },
+    {
+     "t": "Hiệu điện thế giữa hai đầu $R_1$ là 12 V.",
+     "a": false
+    },
+    {
+     "t": "Công suất tỏa nhiệt trên $R_2$ là 24 W.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $R = R_1 + R_2 = 10\\ \\Omega$. b) Đúng: $I = \\dfrac{20}{10} = 2$ A. c) Sai: $U_1 = IR_1 = 8$ V. d) Đúng: $P_2 = I^2R_2 = 4\\cdot 6 = 24$ W."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Nguồn điện",
+   "level": 3,
+   "stem": "Một nguồn điện có suất điện động 9 V, điện trở trong $1\\ \\Omega$ được nối với điện trở ngoài $R = 8\\ \\Omega$ thành mạch kín.",
+   "statements": [
+    {
+     "t": "Cường độ dòng điện trong mạch là 1 A.",
+     "a": true
+    },
+    {
+     "t": "Hiệu điện thế giữa hai cực của nguồn là 9 V.",
+     "a": false
+    },
+    {
+     "t": "Công suất của nguồn điện là 9 W.",
+     "a": true
+    },
+    {
+     "t": "Hiệu suất của nguồn điện là 80%.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $I = \\dfrac{\\mathscr{E}}{R + r} = \\dfrac{9}{9} = 1$ A. b) Sai: $U = \\mathscr{E} - Ir = 9 - 1 = 8$ V. c) Đúng: $P_{ng} = \\mathscr{E}I = 9$ W. d) Sai: $H = \\dfrac{U}{\\mathscr{E}} = \\dfrac{8}{9} \\approx 88{,}9\\%$."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Năng lượng và công suất điện",
+   "level": 3,
+   "stem": "Một bàn là điện có ghi 220 V – 1100 W. Coi điện trở của bàn là không đổi.",
+   "statements": [
+    {
+     "t": "Khi bàn là hoạt động bình thường, cường độ dòng điện qua nó là 5 A.",
+     "a": true
+    },
+    {
+     "t": "Điện trở của bàn là là $44\\ \\Omega$.",
+     "a": true
+    },
+    {
+     "t": "Khi hoạt động bình thường trong 10 phút, bàn là tỏa ra nhiệt lượng 660 kJ.",
+     "a": true
+    },
+    {
+     "t": "Nếu mắc bàn là vào hiệu điện thế 110 V thì công suất của nó là 550 W.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $I = \\dfrac{P}{U} = \\dfrac{1100}{220} = 5$ A. b) Đúng: $R = \\dfrac{U^2}{P} = \\dfrac{220^2}{1100} = 44\\ \\Omega$. c) Đúng: $Q = Pt = 1100\\cdot 600 = 660\\,000$ J. d) Sai: $P' = \\dfrac{110^2}{44} = 275$ W (giảm 4 lần khi $U$ giảm 2 lần)."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Định luật Ohm",
+   "level": 1,
+   "stem": "Đặt hiệu điện thế 12 V vào hai đầu một điện trở $10\\ \\Omega$. Cường độ dòng điện qua điện trở là bao nhiêu ampe?",
+   "answer_text": "1,2",
+   "explanation": "$I = \\dfrac{U}{R} = \\dfrac{12}{10} = 1{,}2$ A."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Điện trường đều",
+   "level": 2,
+   "stem": "Hai bản kim loại phẳng song song cách nhau 3 mm được nối với nguồn có hiệu điện thế 12 V. Cường độ điện trường đều giữa hai bản là bao nhiêu V/m?",
+   "answer_text": "4000",
+   "explanation": "$E = \\dfrac{U}{d} = \\dfrac{12}{3\\cdot 10^{-3}} = 4000$ V/m."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Nguồn điện",
+   "level": 3,
+   "stem": "Mắc một nguồn điện với điện trở ngoài $R_1 = 2\\ \\Omega$ thì cường độ dòng điện trong mạch là 2 A; thay bằng điện trở ngoài $R_2 = 5\\ \\Omega$ thì cường độ dòng điện là 1 A. Suất điện động của nguồn là bao nhiêu vôn?",
+   "answer_text": "6",
+   "explanation": "$\\mathscr{E} = I_1(R_1 + r) = I_2(R_2 + r) \\Rightarrow 2(2 + r) = 5 + r \\Rightarrow r = 1\\ \\Omega$; $\\mathscr{E} = 2\\cdot(2 + 1) = 6$ V."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Năng lượng và công suất điện",
+   "level": 1,
+   "stem": "Một bóng đèn có ghi 6 V – 3 W. Cường độ dòng điện định mức của đèn là bao nhiêu ampe?",
+   "answer_text": "0,5",
+   "explanation": "$I = \\dfrac{P}{U} = \\dfrac{3}{6} = 0{,}5$ A."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Dòng điện, mạch điện",
+   "topic": "Năng lượng và công suất điện",
+   "level": 3,
+   "stem": "Dùng một ấm điện có công suất 1000 W để đun sôi 1,5 lít nước từ $25\\,^\\circ$C ở áp suất tiêu chuẩn. Hiệu suất của ấm là 90%, nhiệt dung riêng của nước là 4200 J/(kg·K), khối lượng riêng của nước là 1 kg/lít. Thời gian đun là bao nhiêu giây?",
+   "answer_text": "525",
+   "explanation": "Nhiệt lượng có ích: $Q = mc\\Delta t = 1{,}5\\cdot 4200\\cdot 75 = 472\\,500$ J. $Q = HPt \\Rightarrow t = \\dfrac{472\\,500}{0{,}9\\cdot 1000} = 525$ s."
+  },
+  {
+   "qtype": "short",
+   "tk": "Vật lí|Điện trường",
+   "topic": "Điện thế, hiệu điện thế",
+   "level": 3,
+   "stem": "Một electron (khối lượng $9{,}1\\cdot 10^{-31}$ kg, điện tích $-1{,}6\\cdot 10^{-19}$ C) bắt đầu chuyển động không vận tốc đầu từ bản âm đến bản dương của hai bản kim loại phẳng song song có hiệu điện thế 45,5 V. Bỏ qua trọng lực. Tốc độ của electron khi tới bản dương là $x\\cdot 10^6$ m/s. Giá trị của $x$ là bao nhiêu?",
+   "answer_text": "4",
+   "explanation": "$\\dfrac{1}{2}mv^2 = |e|U \\Rightarrow v = \\sqrt{\\dfrac{2\\cdot 1{,}6\\cdot 10^{-19}\\cdot 45{,}5}{9{,}1\\cdot 10^{-31}}} = \\sqrt{1{,}6\\cdot 10^{13}} = 4\\cdot 10^6$ m/s."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập toàn bộ 28 câu; mọi câu có tính toán (4, 5, 6, 11–28) được kiểm bằng Python (script dựng đề có assert giá trị). 19/28 câu thuộc chương IV Dòng điện, mạch điện."
+}

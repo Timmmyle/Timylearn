@@ -3,7 +3,7 @@
    nên mỗi lần sinh ra một câu mới mà đáp án luôn đúng. Cùng seed → cùng câu (tái tạo được từ id). */
 
 export type Kind = "mcq" | "tf" | "short";
-export type Exam = "gk1" | "ck1";
+export type Exam = "gk1" | "ck1" | "gk2" | "ck2";
 export type Subject = "Toán" | "Vật lí" | "Hóa học";
 
 export interface Rng {
@@ -29,7 +29,9 @@ export type Template = {
   grade: 10 | 11 | 12;
   chapter: string;       // tên chương, vd "Chương I. Mệnh đề và tập hợp"
   topic: string;         // tên dạng bài ngắn, vd "Phủ định của mệnh đề"
-  half: 1 | 2;           // 1 = nửa đầu HK1 (vào đề giữa kì và cuối kì), 2 = nửa sau HK1 (chỉ cuối kì)
+  /** học kì; bỏ trống = 1 */ hk?: 1 | 2;
+  half: 1 | 2;           // 1 = nửa đầu học kì (vào đề giữa kì và cuối kì), 2 = nửa sau học kì (chỉ cuối kì)
+  /** khóa chủ đề trong mục Vượt Ải, vd "Toán|Đạo hàm" (để nút "Luyện chủ đề này" lấy đúng dạng) */ tk?: string;
   level: 1 | 2 | 3;      // 1 nhận biết, 2 thông hiểu, 3 vận dụng
   kind: Kind;
   make: (r: Rng) => GenOut;

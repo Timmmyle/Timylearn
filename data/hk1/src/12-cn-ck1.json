@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "Công nghệ",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – Công nghệ 12",
+ "scope": "Hệ thống điện quốc gia, mạch ba pha; Điện trong gia đình, an toàn điện: mạng điện hạ áp, thiết bị đóng cắt – bảo vệ (cầu chì, aptomat, RCD), tiết kiệm điện năng, an toàn điện",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Lưới điện truyền tải và phân phối",
+   "level": 1,
+   "stem": "Lưới điện phân phối có chức năng",
+   "options": [
+    "phân phối điện năng đến các hộ tiêu thụ trong một khu vực",
+    "biến đổi điện năng thành nhiệt năng",
+    "truyền tải điện năng đi rất xa giữa các vùng bằng điện áp 500 kV",
+    "sản xuất điện năng"
+   ],
+   "answer": 0,
+   "explanation": "Lưới phân phối nhận điện từ lưới truyền tải (qua trạm hạ áp) và cung cấp đến các tải trong khu vực."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Sản xuất điện năng",
+   "level": 1,
+   "stem": "Nguồn điện nào sau đây sử dụng năng lượng tái tạo?",
+   "options": [
+    "Điện chạy dầu diesel",
+    "Nhiệt điện khí",
+    "Điện gió",
+    "Nhiệt điện than"
+   ],
+   "answer": 2,
+   "explanation": "Gió là năng lượng tái tạo; than, khí, dầu là nhiên liệu hóa thạch."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối tam giác",
+   "level": 1,
+   "stem": "Khi nối tam giác, quan hệ giữa điện áp dây $U_d$ và điện áp pha $U_p$ là",
+   "options": [
+    "$U_p = \\sqrt{3}U_d$",
+    "$U_d = U_p$",
+    "$U_d = \\sqrt{3}U_p$",
+    "$U_d = 3U_p$"
+   ],
+   "answer": 1,
+   "explanation": "Nối tam giác: mỗi pha nối giữa hai dây pha nên $U_d = U_p$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối hình sao",
+   "level": 1,
+   "stem": "Khi nối hình sao, quan hệ giữa dòng điện dây $I_d$ và dòng điện pha $I_p$ là",
+   "options": [
+    "$I_d = \\sqrt{3}I_p$",
+    "$I_d = I_p$",
+    "$I_p = \\sqrt{3}I_d$",
+    "$I_d = 3I_p$"
+   ],
+   "answer": 1,
+   "explanation": "Nối sao: dòng điện chạy trong dây pha cũng chính là dòng điện qua pha, $I_d = I_p$."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Điện áp dây, điện áp pha",
+   "level": 1,
+   "stem": "Trong mạch ba pha bốn dây, điện áp pha là",
+   "options": [
+    "điện áp giữa hai dây pha",
+    "tổng điện áp của ba dây pha",
+    "điện áp giữa dây trung tính và đất",
+    "điện áp giữa một dây pha và dây trung tính"
+   ],
+   "answer": 3,
+   "explanation": "Điện áp pha là điện áp giữa dây pha và dây trung tính (220 V ở lưới hạ áp)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Truyền tải điện năng",
+   "level": 2,
+   "stem": "Biện pháp hiệu quả nhất để giảm tổn hao điện năng trên đường dây truyền tải đi xa là",
+   "options": [
+    "tăng điện áp truyền tải bằng máy biến áp",
+    "tăng chiều dài dây dẫn",
+    "giảm điện áp truyền tải",
+    "dùng dây dẫn có điện trở suất lớn"
+   ],
+   "answer": 0,
+   "explanation": "Tổn hao tỉ lệ nghịch với bình phương điện áp nên tăng điện áp làm tổn hao giảm mạnh."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối hình sao",
+   "level": 3,
+   "stem": "Một tải ba pha nối hình sao vào lưới có điện áp dây 380 V. Điện áp đặt lên mỗi pha của tải xấp xỉ",
+   "options": [
+    "380 V",
+    "658 V",
+    "127 V",
+    "220 V"
+   ],
+   "answer": 3,
+   "explanation": "$U_p = \\dfrac{U_d}{\\sqrt{3}} = \\dfrac{380}{\\sqrt{3}} \\approx 219$ V ≈ 220 V."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối tam giác",
+   "level": 3,
+   "stem": "Một tải ba pha đối xứng nối tam giác, đo được dòng điện dây 17,3 A. Dòng điện qua mỗi pha của tải xấp xỉ",
+   "options": [
+    "10 A",
+    "17,3 A",
+    "5,8 A",
+    "30 A"
+   ],
+   "answer": 0,
+   "explanation": "$I_p = \\dfrac{I_d}{\\sqrt{3}} = \\dfrac{17{,}3}{\\sqrt{3}} \\approx 10$ A."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Cách nối tải ba pha",
+   "level": 3,
+   "stem": "Trên nhãn một động cơ ba pha ghi Δ/Y – 220/380 V. Khi nối vào lưới 380/220 V, ba cuộn dây động cơ phải nối",
+   "options": [
+    "song song cả ba cuộn vào một dây pha và dây trung tính",
+    "hình sao hay tam giác đều được",
+    "hình sao (Y)",
+    "hình tam giác (Δ)"
+   ],
+   "answer": 2,
+   "explanation": "Kí hiệu Δ/Y – 220/380 V: mỗi cuộn dây chịu 220 V; nối Δ khi điện áp dây lưới 220 V, nối Y khi điện áp dây lưới 380 V."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Mạng điện hạ áp trong gia đình",
+   "level": 1,
+   "stem": "Mạng điện sinh hoạt một pha trong gia đình ở nước ta có điện áp định mức",
+   "options": [
+    "220 V",
+    "110 V",
+    "380 V",
+    "22 kV"
+   ],
+   "answer": 0,
+   "explanation": "Mạng điện một pha trong nhà lấy điện áp pha của lưới 380/220 V, tức 220 V."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Thiết bị đóng cắt, bảo vệ",
+   "level": 1,
+   "stem": "Aptomat (cầu dao tự động) có chức năng",
+   "options": [
+    "chỉ báo trong mạch có điện hay không",
+    "đo điện năng tiêu thụ",
+    "biến đổi điện áp",
+    "đóng cắt mạch điện và tự động ngắt mạch khi quá tải hoặc ngắn mạch"
+   ],
+   "answer": 3,
+   "explanation": "Aptomat vừa là thiết bị đóng cắt vừa là thiết bị bảo vệ quá tải, ngắn mạch."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Mạng điện hạ áp trong gia đình",
+   "level": 1,
+   "stem": "Thiết bị dùng để đo điện năng tiêu thụ của hộ gia đình là",
+   "options": [
+    "cầu dao",
+    "aptomat",
+    "công tơ điện",
+    "ổ cắm"
+   ],
+   "answer": 2,
+   "explanation": "Công tơ điện đo điện năng tiêu thụ theo đơn vị kWh."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Thiết bị đóng cắt, bảo vệ",
+   "level": 1,
+   "stem": "Cầu chì bảo vệ mạch điện nhờ",
+   "options": [
+    "nam châm hút làm tăng điện áp",
+    "dây chảy nóng chảy và đứt khi dòng điện vượt quá trị số định mức",
+    "điện trở lớn làm giảm điện áp đặt vào tải",
+    "lò xo tự bật lại khi có điện"
+   ],
+   "answer": 1,
+   "explanation": "Dây chảy của cầu chì được chọn sao cho khi dòng điện quá lớn (quá tải, ngắn mạch) thì nóng chảy, cắt mạch."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Thiết bị đóng cắt, bảo vệ",
+   "level": 2,
+   "stem": "Công tắc điều khiển một bóng đèn phải được mắc",
+   "options": [
+    "nối tiếp với đèn và trên dây pha",
+    "song song với đèn và trên dây pha",
+    "song song với đèn và trên dây trung tính",
+    "nối tiếp với đèn và trên dây trung tính"
+   ],
+   "answer": 0,
+   "explanation": "Công tắc mắc nối tiếp để đóng/cắt mạch; đặt trên dây pha để khi tắt, đèn không còn mang điện, an toàn khi thay bóng."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Thiết bị đóng cắt, bảo vệ",
+   "level": 2,
+   "stem": "Thiết bị chống dòng điện rò (RCD, aptomat chống giật) tự động ngắt mạch khi",
+   "options": [
+    "điện áp lưới tăng nhẹ",
+    "có dòng điện rò xuống đất vượt ngưỡng cài đặt, chẳng hạn khi người chạm vào phần mang điện",
+    "công suất tiêu thụ giảm",
+    "bật thêm một bóng đèn"
+   ],
+   "answer": 1,
+   "explanation": "RCD so sánh dòng đi và dòng về; khi chênh lệch (dòng rò) vượt ngưỡng thì cắt mạch, bảo vệ người."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Mạng điện hạ áp trong gia đình",
+   "level": 2,
+   "stem": "Thứ tự hợp lí các phần tử trong mạng điện gia đình tính từ lưới điện vào là",
+   "options": [
+    "aptomat tổng → đồ dùng điện → công tơ điện → aptomat nhánh",
+    "công tơ điện → aptomat tổng → các aptomat nhánh → ổ cắm, công tắc, đồ dùng điện",
+    "aptomat nhánh → công tơ điện → aptomat tổng → đồ dùng điện",
+    "đồ dùng điện → aptomat tổng → công tơ điện → aptomat nhánh"
+   ],
+   "answer": 1,
+   "explanation": "Điện từ lưới qua công tơ, đến aptomat tổng bảo vệ toàn mạng, rồi chia ra các nhánh có aptomat nhánh, cuối cùng đến thiết bị."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Lựa chọn aptomat",
+   "level": 3,
+   "stem": "Một mạch nhánh 220 V cấp điện cho bình nóng lạnh 2500 W và máy giặt 800 W cùng hoạt động. Aptomat nhánh có dòng điện định mức phù hợp nhất là",
+   "options": [
+    "10 A",
+    "100 A",
+    "20 A",
+    "6 A"
+   ],
+   "answer": 2,
+   "explanation": "$I = \\dfrac{2500 + 800}{220} = 15$ A. Chọn aptomat lớn hơn dòng làm việc một chút (20 A); 6 A, 10 A sẽ nhảy, 100 A quá lớn không bảo vệ được."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Tiết kiệm điện năng",
+   "level": 3,
+   "stem": "Một gia đình thay 5 bóng đèn sợi đốt 60 W bằng 5 bóng LED 9 W có độ sáng tương đương; mỗi bóng dùng 5 giờ/ngày. Điện năng tiết kiệm được trong 30 ngày là",
+   "options": [
+    "45 kWh",
+    "6,75 kWh",
+    "7,65 kWh",
+    "38,25 kWh"
+   ],
+   "answer": 3,
+   "explanation": "Tiết kiệm $= (60 - 9)\\cdot 5\\cdot 5\\cdot 30 = 38\\,250$ Wh $= 38{,}25$ kWh."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Tiết kiệm điện năng",
+   "level": 1,
+   "stem": "Việc làm nào sau đây giúp tiết kiệm điện năng?",
+   "options": [
+    "Bật đèn chiếu sáng cả ban ngày khi phòng đủ ánh sáng tự nhiên",
+    "Để cửa tủ lạnh mở lâu khi lấy đồ",
+    "Để tivi ở chế độ chờ suốt ngày đêm",
+    "Tắt thiết bị khi không sử dụng, chọn thiết bị có nhãn năng lượng hiệu suất cao"
+   ],
+   "answer": 3,
+   "explanation": "Tắt thiết bị khi không dùng và dùng thiết bị hiệu suất cao làm giảm điện năng tiêu thụ; các việc còn lại gây lãng phí."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Tiết kiệm điện năng",
+   "level": 2,
+   "stem": "Vào mùa hè, để tiết kiệm điện mà vẫn đảm bảo sức khỏe, nên đặt nhiệt độ điều hòa không khí ở khoảng",
+   "options": [
+    "16 °C – 18 °C",
+    "20 °C – 22 °C",
+    "26 °C – 28 °C",
+    "18 °C – 20 °C"
+   ],
+   "answer": 2,
+   "explanation": "Nhiệt độ 26 – 28 °C vừa đủ mát, chênh lệch không quá lớn với ngoài trời; mỗi độ đặt thấp hơn làm máy tốn thêm điện."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "An toàn điện",
+   "level": 1,
+   "stem": "Khi phát hiện có người bị điện giật, việc cần làm trước tiên là",
+   "options": [
+    "dội nước vào người nạn nhân",
+    "nhanh chóng ngắt nguồn điện hoặc dùng vật cách điện khô tách nạn nhân ra khỏi nguồn điện",
+    "dùng tay không kéo nạn nhân ra",
+    "chạy đi gọi người đến xem rồi mới xử lí"
+   ],
+   "answer": 1,
+   "explanation": "Phải tách nạn nhân khỏi nguồn điện an toàn (cắt aptomat, cầu dao hoặc dùng vật cách điện khô), sau đó sơ cứu và gọi cấp cứu."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "An toàn điện",
+   "level": 2,
+   "stem": "Nối đất bảo vệ cho vỏ kim loại của máy giặt, bình nóng lạnh nhằm mục đích",
+   "options": [
+    "giảm điện năng tiêu thụ",
+    "làm thiết bị chạy êm hơn",
+    "tăng hiệu suất của thiết bị",
+    "khi vỏ bị rò điện, dòng điện chủ yếu đi xuống đất, giảm nguy hiểm cho người chạm vào"
+   ],
+   "answer": 3,
+   "explanation": "Dây nối đất có điện trở rất nhỏ so với cơ thể người nên dòng rò đi qua dây xuống đất; kết hợp thiết bị chống rò sẽ cắt điện."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "An toàn điện",
+   "level": 2,
+   "stem": "Dùng bút thử điện chạm vào một lỗ của ổ cắm điện thấy đèn bút sáng. Lỗ đó được nối với",
+   "options": [
+    "không nối với dây nào",
+    "dây trung tính",
+    "dây pha",
+    "dây nối đất"
+   ],
+   "answer": 2,
+   "explanation": "Bút thử điện sáng khi chạm vào vật mang điện áp so với đất, tức dây pha."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "An toàn điện",
+   "level": 3,
+   "stem": "Bạn Minh cần thay một bóng đèn đã cháy ở trần nhà. Cách làm an toàn là",
+   "options": [
+    "ngắt aptomat cấp điện cho mạch đèn, đứng trên thang khô, chắc chắn rồi mới thay bóng",
+    "dùng tay ướt vặn bóng cho nhanh",
+    "giữ nguyên nguồn điện để thử bóng mới sáng ngay",
+    "đứng trên ghế kim loại bị ướt cho vững"
+   ],
+   "answer": 0,
+   "explanation": "Phải cắt nguồn trước khi thao tác, đứng trên vật cách điện khô, chắc chắn; tay và vật đứng ướt làm tăng nguy cơ điện giật."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Mạch ba pha bốn dây",
+   "level": 2,
+   "stem": "Một xưởng sản xuất được cấp điện từ lưới hạ áp ba pha bốn dây 380/220 V, cấp cho các động cơ ba pha và hệ thống đèn chiếu sáng 220 V.",
+   "statements": [
+    {
+     "t": "Điện áp giữa hai dây pha là 380 V.",
+     "a": true
+    },
+    {
+     "t": "Đèn chiếu sáng 220 V được mắc giữa một dây pha và dây trung tính.",
+     "a": true
+    },
+    {
+     "t": "Động cơ ba pha có điện áp định mức mỗi cuộn dây 380 V phải nối hình sao vào lưới này.",
+     "a": false
+    },
+    {
+     "t": "Dây trung tính giúp giữ điện áp pha trên các tải một pha ổn định khi tải các pha không đối xứng.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: điện áp dây $U_d = 380$ V. b) Đúng: đó là điện áp pha 220 V. c) Sai: nối sao mỗi cuộn chỉ chịu 220 V; muốn mỗi cuộn chịu 380 V phải nối tam giác. d) Đúng: đó là vai trò của dây trung tính."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Thiết bị đóng cắt, bảo vệ",
+   "level": 2,
+   "stem": "Bảng điện của một gia đình gồm: aptomat tổng, aptomat chống dòng rò cho nhánh nhà tắm, aptomat nhánh 16 A cho điều hòa và các công tắc điều khiển đèn.",
+   "statements": [
+    {
+     "t": "Aptomat tổng tự động ngắt mạch khi xảy ra quá tải hoặc ngắn mạch.",
+     "a": true
+    },
+    {
+     "t": "Aptomat chống dòng rò ở nhánh nhà tắm giúp bảo vệ người khi có rò điện.",
+     "a": true
+    },
+    {
+     "t": "Công tắc điều khiển đèn được mắc song song với đèn.",
+     "a": false
+    },
+    {
+     "t": "Có thể thay aptomat nhánh 16 A bằng dây đồng nối tắt để khỏi bị nhảy.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đó là chức năng bảo vệ của aptomat. b) Đúng: nhà tắm ẩm ướt, nguy cơ rò điện cao. c) Sai: công tắc mắc nối tiếp với đèn. d) Sai: nối tắt làm mất bảo vệ, dễ gây cháy dây khi quá tải, ngắn mạch."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "Tiết kiệm điện năng",
+   "level": 3,
+   "stem": "Một gia đình dùng máy điều hòa công suất 1200 W, trung bình 8 giờ mỗi ngày; giá điện bình quân là 3 000 đồng/kWh.",
+   "statements": [
+    {
+     "t": "Điện năng máy điều hòa tiêu thụ mỗi ngày là 9,6 kWh.",
+     "a": true
+    },
+    {
+     "t": "Tiền điện cho máy điều hòa trong 30 ngày là 864 000 đồng.",
+     "a": true
+    },
+    {
+     "t": "Nếu giảm thời gian dùng còn 6 giờ mỗi ngày thì tiết kiệm được 25% điện năng của máy điều hòa.",
+     "a": true
+    },
+    {
+     "t": "Đặt nhiệt độ điều hòa càng thấp thì càng tiết kiệm điện.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $1{,}2 \\cdot 8 = 9{,}6$ kWh. b) Đúng: $9{,}6 \\cdot 30 \\cdot 3\\,000 = 864\\,000$ đồng. c) Đúng: giảm 2 trên 8 giờ, tức $\\dfrac{2}{8} = 25\\%$. d) Sai: nhiệt độ đặt càng thấp, máy nén chạy càng nhiều, tốn điện hơn."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Điện trong gia đình, an toàn điện",
+   "topic": "An toàn điện",
+   "level": 3,
+   "stem": "Nhà bạn Lan có máy bơm nước vỏ kim loại đặt ngoài sân ẩm ướt. Một lần chạm tay vào vỏ máy khi máy đang chạy, Lan thấy tê tay.",
+   "statements": [
+    {
+     "t": "Hiện tượng tê tay cho thấy vỏ máy có thể đã bị rò điện.",
+     "a": true
+    },
+    {
+     "t": "Biện pháp an toàn là nối đất vỏ máy và lắp thiết bị chống dòng rò cho mạch cấp điện máy bơm.",
+     "a": true
+    },
+    {
+     "t": "Để kiểm tra, có thể dùng tay ướt chạm lại vào vỏ máy vài lần.",
+     "a": false
+    },
+    {
+     "t": "Trước khi kiểm tra, sửa chữa máy bơm phải ngắt nguồn điện cấp cho máy.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: dòng điện rò qua vỏ, qua người xuống đất. b) Đúng: nối đất kết hợp RCD giảm nguy cơ điện giật. c) Sai: tay ướt làm điện trở cơ thể giảm, rất nguy hiểm; phải dùng bút thử điện hoặc thiết bị đo. d) Đúng: nguyên tắc an toàn khi sửa chữa thiết bị điện."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập từng câu theo SGK Công nghệ KNTT; kiểm tra mỗi câu trắc nghiệm chỉ có một phương án đúng, phương án nhiễu không đúng một phần. Các câu tính toán đã kiểm bằng Python: 380/√3 ≈ 219; 17,3/√3 ≈ 10; (2500 + 800)/220 = 15 A; (60 − 9)·5·5·30 = 38 250 Wh; 1,2·8 = 9,6 kWh; 9,6·30·3000 = 864 000 đồng; 2/8 = 25%."
+}

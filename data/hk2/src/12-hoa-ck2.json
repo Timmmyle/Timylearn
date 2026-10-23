@@ -1,0 +1,439 @@
+{
+ "grade": 12,
+ "subject": "Hóa học",
+ "exam": "ck2",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 2 – Hóa học 12",
+ "scope": "Chương 5 Pin điện và điện phân; Chương 6 Đại cương về kim loại; Chương 7 Nguyên tố nhóm IA và nhóm IIA; Chương 8 Sơ lược về kim loại chuyển tiếp dãy thứ nhất và phức chất",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Kim loại nhóm IA",
+   "level": 1,
+   "stem": "Cấu hình electron lớp ngoài cùng của nguyên tử kim loại kiềm có dạng",
+   "options": [
+    "$ns^1$",
+    "$ns^2$",
+    "$ns^2np^1$",
+    "$ns^2np^5$"
+   ],
+   "answer": 0,
+   "explanation": "Kim loại kiềm thuộc nhóm IA, có 1 electron lớp ngoài cùng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất vật lí của kim loại",
+   "level": 1,
+   "stem": "Kim loại dẻo nhất, có thể dát thành lá mỏng đến mức ánh sáng xuyên qua được là",
+   "options": [
+    "silver (Ag)",
+    "gold (Au)",
+    "aluminium (Al)",
+    "copper (Cu)"
+   ],
+   "answer": 1,
+   "explanation": "Vàng là kim loại dẻo nhất."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Kim loại nhóm IA",
+   "level": 1,
+   "stem": "Để bảo quản kim loại sodium trong phòng thí nghiệm, người ta ngâm sodium trong",
+   "options": [
+    "nước",
+    "ethanol",
+    "dầu hỏa",
+    "dung dịch NaOH"
+   ],
+   "answer": 2,
+   "explanation": "Sodium phản ứng mạnh với nước, oxygen và ethanol nên được ngâm trong dầu hỏa để cách li với không khí và hơi ẩm."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Cấu hình electron kim loại chuyển tiếp",
+   "level": 1,
+   "stem": "Cấu hình electron của nguyên tử iron (Z = 26) là",
+   "options": [
+    "$\\mathrm{[Ar]3d^8}$",
+    "$\\mathrm{[Ar]4s^24p^6}$",
+    "$\\mathrm{[Ar]3d^54s^1}$",
+    "$\\mathrm{[Ar]3d^64s^2}$"
+   ],
+   "answer": 3,
+   "explanation": "Fe có 26 electron: 1s²2s²2p⁶3s²3p⁶3d⁶4s², viết gọn [Ar]3d⁶4s²."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Điện phân",
+   "level": 1,
+   "stem": "Trong quá trình điện phân, tại cathode xảy ra",
+   "options": [
+    "quá trình oxi hóa",
+    "quá trình khử",
+    "sự nhường electron của anion",
+    "sự hòa tan của điện cực"
+   ],
+   "answer": 1,
+   "explanation": "Cathode nối với cực âm của nguồn điện, các cation hoặc phân tử nước nhận electron (quá trình khử)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Nước cứng",
+   "level": 1,
+   "stem": "Nước cứng là nước chứa nhiều ion",
+   "options": [
+    "Ca²⁺ và Mg²⁺",
+    "Na⁺ và K⁺",
+    "Cl⁻ và SO₄²⁻",
+    "H⁺ và OH⁻"
+   ],
+   "answer": 0,
+   "explanation": "Nước cứng là nước chứa nhiều cation Ca²⁺ và Mg²⁺."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Dãy điện hóa của kim loại",
+   "level": 2,
+   "stem": "Dãy kim loại nào sau đây được sắp xếp theo chiều tính khử giảm dần?",
+   "options": [
+    "Cu, Fe, Zn, Mg",
+    "Zn, Mg, Cu, Fe",
+    "Fe, Cu, Mg, Zn",
+    "Mg, Zn, Fe, Cu"
+   ],
+   "answer": 3,
+   "explanation": "Theo thứ tự thế điện cực chuẩn tăng dần (Mg²⁺/Mg < Zn²⁺/Zn < Fe²⁺/Fe < Cu²⁺/Cu), tính khử của kim loại giảm dần: Mg > Zn > Fe > Cu."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Phức chất",
+   "level": 1,
+   "stem": "Trong phức chất $\\mathrm{[Ag(NH_3)_2]^+}$, số phối trí của nguyên tử trung tâm là",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Ion Ag⁺ liên kết với 2 phối tử NH₃ (mỗi phối tử tạo 1 liên kết cho – nhận) nên số phối trí bằng 2."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Hợp chất của kim loại nhóm IIA",
+   "level": 1,
+   "stem": "Thạch cao nung, dùng để bó bột khi gãy xương, có công thức là",
+   "options": [
+    "$\\mathrm{CaSO_4\\cdot 2H_2O}$",
+    "$\\mathrm{CaSO_4}$",
+    "$\\mathrm{CaSO_4\\cdot 0{,}5H_2O}$",
+    "$\\mathrm{CaCO_3}$"
+   ],
+   "answer": 2,
+   "explanation": "Thạch cao sống là CaSO₄·2H₂O; nung ở khoảng 160 °C thu được thạch cao nung CaSO₄·0,5H₂O, khi trộn với nước sẽ đông cứng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Ứng dụng của điện phân",
+   "level": 2,
+   "stem": "Khi mạ bạc cho một chiếc thìa bằng đồng, chiếc thìa cần mạ được nối với",
+   "options": [
+    "cực dương của nguồn điện (làm anode)",
+    "cầu muối",
+    "không cần nối với nguồn điện",
+    "cực âm của nguồn điện (làm cathode)"
+   ],
+   "answer": 3,
+   "explanation": "Vật cần mạ là cathode, tại đó Ag⁺ + e → Ag bám lên bề mặt; thanh bạc làm anode và tan dần."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Ăn mòn điện hóa",
+   "level": 2,
+   "stem": "Trường hợp nào sau đây iron bị ăn mòn điện hóa?",
+   "options": [
+    "Thanh Fe nối với thanh Cu để trong không khí ẩm",
+    "Thanh Fe nối với thanh Zn để trong không khí ẩm",
+    "Đốt dây Fe trong khí Cl₂",
+    "Thanh Fe để trong khí O₂ khô ở nhiệt độ thường"
+   ],
+   "answer": 0,
+   "explanation": "Fe – Cu tiếp xúc trong môi trường điện li tạo pin, Fe hoạt động mạnh hơn nên là anode và bị ăn mòn. Khi nối với Zn thì Zn bị ăn mòn; đốt trong Cl₂ là ăn mòn hóa học."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Nước cứng",
+   "level": 2,
+   "stem": "Chất nào sau đây làm mềm được nước có tính cứng vĩnh cửu?",
+   "options": [
+    "NaCl",
+    "Na₂CO₃",
+    "HCl",
+    "Ca(OH)₂"
+   ],
+   "answer": 1,
+   "explanation": "Na₂CO₃ kết tủa hết Ca²⁺, Mg²⁺ dưới dạng CaCO₃, MgCO₃. Ca(OH)₂ chỉ làm mềm nước cứng tạm thời; NaCl, HCl không làm mềm được."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Phức chất",
+   "level": 2,
+   "stem": "Phức chất $\\mathrm{[Fe(OH_2)_6]^{3+}}$ có dạng hình học",
+   "options": [
+    "tứ diện",
+    "vuông phẳng",
+    "đường thẳng",
+    "bát diện"
+   ],
+   "answer": 3,
+   "explanation": "Phức chất có số phối trí 6 thường có dạng hình học bát diện."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Phương pháp tách kim loại",
+   "level": 2,
+   "stem": "Phản ứng nào sau đây thể hiện phương pháp thủy luyện?",
+   "options": [
+    "CuO + H₂ → Cu + H₂O (nhiệt độ cao)",
+    "2Al₂O₃ → 4Al + 3O₂ (điện phân nóng chảy)",
+    "Fe + CuSO₄ → FeSO₄ + Cu",
+    "Fe₂O₃ + 3CO → 2Fe + 3CO₂ (nhiệt độ cao)"
+   ],
+   "answer": 2,
+   "explanation": "Thủy luyện dùng kim loại mạnh hơn khử ion kim loại yếu hơn trong dung dịch."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Phức chất aqua và ammine",
+   "level": 2,
+   "stem": "Nhỏ từ từ dung dịch NH₃ đến dư vào dung dịch CuSO₄. Hiện tượng quan sát được là",
+   "options": [
+    "xuất hiện kết tủa trắng không tan",
+    "xuất hiện kết tủa xanh, sau đó kết tủa tan tạo dung dịch màu xanh lam đậm",
+    "xuất hiện kết tủa nâu đỏ không tan",
+    "dung dịch chuyển dần sang không màu"
+   ],
+   "answer": 1,
+   "explanation": "Ban đầu tạo Cu(OH)₂ kết tủa xanh; khi NH₃ dư, kết tủa tan do tạo phức [Cu(NH₃)₄(OH₂)₂]²⁺ màu xanh lam đậm."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Phương pháp tách kim loại",
+   "level": 3,
+   "stem": "Điện phân nóng chảy Al₂O₃ để sản xuất 5,4 tấn Al. Giả sử hiệu suất 100%, khối lượng Al₂O₃ cần dùng là (cho Al = 27, O = 16)",
+   "options": [
+    "10,2 tấn",
+    "20,4 tấn",
+    "5,1 tấn",
+    "8,1 tấn"
+   ],
+   "answer": 0,
+   "explanation": "2Al₂O₃ → 4Al + 3O₂. n(Al) = 0,2·10⁶ mol, n(Al₂O₃) = 0,1·10⁶ mol; m = 0,1·10⁶ · 102 g = 10,2 tấn."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Kim loại nhóm IA",
+   "level": 3,
+   "stem": "Cho 2,3 gam Na vào nước dư. Thể tích khí H₂ thu được ở đkc là (cho Na = 23)",
+   "options": [
+    "1,2395 L",
+    "2,479 L",
+    "0,6198 L",
+    "4,958 L"
+   ],
+   "answer": 0,
+   "explanation": "2Na + 2H₂O → 2NaOH + H₂. n(Na) = 0,1 mol, n(H₂) = 0,05 mol; V = 0,05 · 24,79 = 1,2395 L."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Chuẩn độ oxi hóa – khử",
+   "level": 3,
+   "stem": "Chuẩn độ 10,0 mL dung dịch FeSO₄ (môi trường H₂SO₄ loãng) bằng dung dịch KMnO₄ 0,020 M thì hết 8,0 mL. Nồng độ dung dịch FeSO₄ là",
+   "options": [
+    "0,016 M",
+    "0,040 M",
+    "0,080 M",
+    "0,40 M"
+   ],
+   "answer": 2,
+   "explanation": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. n(Fe²⁺) = 5 · 0,020 · 0,0080 = 8,0·10⁻⁴ mol; C = 8,0·10⁻⁴ : 0,010 = 0,080 M."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Điện phân dung dịch",
+   "level": 2,
+   "stem": "Điện phân dung dịch CuSO₄ với điện cực trơ, cường độ dòng điện 2 A trong 965 giây. Cho Cu = 64, F = 96485 C/mol, hiệu suất 100%.",
+   "statements": [
+    {
+     "t": "Tại cathode có lớp Cu màu đỏ bám vào.",
+     "a": true
+    },
+    {
+     "t": "Tại anode thoát ra khí Cl₂.",
+     "a": false
+    },
+    {
+     "t": "Trong quá trình điện phân, pH của dung dịch giảm dần.",
+     "a": true
+    },
+    {
+     "t": "Khối lượng Cu thu được khoảng 0,64 gam.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: Cu²⁺ + 2e → Cu. b) Sai: dung dịch không có Cl⁻, tại anode nước bị oxi hóa tạo O₂. c) Đúng: tại anode sinh ra H⁺. d) Đúng: $n_e = \\dfrac{2\\cdot 965}{96485} \\approx 0{,}02$ mol; n(Cu) = 0,01 mol, m ≈ 0,64 gam."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Nước cứng",
+   "level": 2,
+   "stem": "Một mẫu nước giếng khoan có chứa các ion Ca²⁺, Mg²⁺ và HCO₃⁻.",
+   "statements": [
+    {
+     "t": "Mẫu nước trên là nước có tính cứng tạm thời.",
+     "a": true
+    },
+    {
+     "t": "Có thể làm mềm mẫu nước trên bằng cách đun sôi.",
+     "a": true
+    },
+    {
+     "t": "Có thể làm mềm mẫu nước trên bằng dung dịch NaCl.",
+     "a": false
+    },
+    {
+     "t": "Dùng mẫu nước trên để giặt quần áo bằng xà phòng sẽ tạo nhiều bọt hơn dùng nước mềm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: nước chứa Ca²⁺, Mg²⁺ cùng anion HCO₃⁻ có tính cứng tạm thời. b) Đúng: đun sôi, Ca(HCO₃)₂ → CaCO₃↓ + CO₂ + H₂O (tương tự với Mg). c) Sai: NaCl không loại được Ca²⁺, Mg²⁺. d) Sai: Ca²⁺, Mg²⁺ tạo kết tủa với xà phòng nên ít bọt, giặt kém sạch."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Hợp chất của sodium",
+   "level": 3,
+   "stem": "Sodium hydrogencarbonate (NaHCO₃) được dùng làm bột nở trong chế biến thực phẩm và làm thuốc giảm đau dạ dày. Cho Na = 23, H = 1, C = 12, O = 16.",
+   "statements": [
+    {
+     "t": "NaHCO₃ dùng làm thuốc giảm đau dạ dày do trung hòa bớt lượng acid dư trong dạ dày.",
+     "a": true
+    },
+    {
+     "t": "Khi đun nóng, NaHCO₃ bị nhiệt phân tạo Na₂CO₃, CO₂ và H₂O.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch NaHCO₃ có môi trường acid mạnh.",
+     "a": false
+    },
+    {
+     "t": "Nhiệt phân hoàn toàn 16,8 gam NaHCO₃ thu được 2,479 L khí CO₂ (đkc).",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: NaHCO₃ + HCl → NaCl + CO₂ + H₂O. b) Đúng: 2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O. c) Sai: dung dịch NaHCO₃ có môi trường base yếu. d) Đúng: n(NaHCO₃) = 0,2 mol, n(CO₂) = 0,1 mol, V = 2,479 L."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Phức chất",
+   "level": 2,
+   "stem": "Nhỏ dung dịch NH₃ đặc, dư vào dung dịch CuSO₄, thu được dung dịch màu xanh lam đậm chứa ion phức $\\mathrm{[Cu(NH_3)_4(OH_2)_2]^{2+}}$.",
+   "statements": [
+    {
+     "t": "Nguyên tử trung tâm trong phức chất là ion Cu²⁺.",
+     "a": true
+    },
+    {
+     "t": "Trong phức chất, phối tử NH₃ liên kết với nguyên tử trung tâm bằng liên kết cho – nhận.",
+     "a": true
+    },
+    {
+     "t": "Số phối trí của nguyên tử trung tâm trong phức chất này là 4.",
+     "a": false
+    },
+    {
+     "t": "Điện tích của ion phức bằng điện tích của ion Cu²⁺ vì các phối tử NH₃ và H₂O đều trung hòa điện.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: cặp electron chưa liên kết của N trong NH₃ được cho vào orbital trống của Cu²⁺. c) Sai: có 4 phối tử NH₃ và 2 phối tử H₂O nên số phối trí là 6. d) Đúng: phức có điện tích +2."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Phương pháp tách kim loại",
+   "level": 2,
+   "stem": "Cho các kim loại: Na, Mg, Al, Fe, Cu. Có bao nhiêu kim loại trong số đó chỉ điều chế được bằng phương pháp điện phân nóng chảy?",
+   "answer_text": "3",
+   "explanation": "Na, Mg, Al là các kim loại hoạt động mạnh, chỉ điều chế được bằng điện phân nóng chảy; Fe, Cu điều chế được bằng nhiệt luyện, thủy luyện hoặc điện phân dung dịch."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Định luật Faraday",
+   "level": 3,
+   "stem": "Điện phân dung dịch CuSO₄ (điện cực trơ) với cường độ dòng điện 2,5 A trong 3860 giây. Thể tích khí O₂ thoát ra ở anode (đkc) là bao nhiêu lít (làm tròn đến hàng phần trăm)? Cho F = 96485 C/mol, hiệu suất 100%, Cu²⁺ chưa bị điện phân hết.",
+   "answer_text": "0,62",
+   "explanation": "$n_e = \\dfrac{2{,}5\\cdot 3860}{96485} \\approx 0{,}1$ mol; 2H₂O → O₂ + 4H⁺ + 4e nên n(O₂) = 0,025 mol; V = 0,025 · 24,79 ≈ 0,62 L."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Sức điện động của pin",
+   "level": 2,
+   "stem": "Cho $E^\\circ_{\\mathrm{Zn^{2+}/Zn}} = -0{,}763$ V và $E^\\circ_{\\mathrm{Ag^{+}/Ag}} = +0{,}799$ V. Sức điện động chuẩn của pin Zn – Ag là bao nhiêu volt (làm tròn đến hàng phần trăm)?",
+   "answer_text": "1,56",
+   "explanation": "$E^\\circ_{pin} = 0{,}799 - (-0{,}763) = 1{,}562 \\approx 1{,}56$ V."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Kim loại nhóm IA, IIA",
+   "topic": "Hợp chất của calcium",
+   "level": 2,
+   "stem": "Nhiệt phân hoàn toàn 20 gam CaCO₃. Khối lượng CaO thu được là bao nhiêu gam (làm tròn đến hàng phần mười)? Cho Ca = 40, C = 12, O = 16.",
+   "answer_text": "11,2",
+   "explanation": "CaCO₃ → CaO + CO₂. n = 0,2 mol; m(CaO) = 0,2 · 56 = 11,2 gam."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Cấu hình electron kim loại chuyển tiếp",
+   "level": 2,
+   "stem": "Ion Fe³⁺ (Z của Fe = 26) có bao nhiêu electron độc thân?",
+   "answer_text": "5",
+   "explanation": "Fe³⁺: [Ar]3d⁵; 5 electron phân bố vào 5 orbital 3d, mỗi orbital 1 electron nên có 5 electron độc thân."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Kim loại chuyển tiếp, phức chất",
+   "topic": "Chuẩn độ oxi hóa – khử",
+   "level": 3,
+   "stem": "Hòa tan hoàn toàn 5,6 gam Fe trong dung dịch H₂SO₄ loãng, dư (không có không khí). Dung dịch thu được làm mất màu vừa hết V mL dung dịch KMnO₄ 0,1 M. Tính V. Cho Fe = 56.",
+   "answer_text": "200",
+   "explanation": "Fe + H₂SO₄ → FeSO₄ + H₂: n(Fe²⁺) = 0,1 mol. n(MnO₄⁻) = 0,1 : 5 = 0,02 mol; V = 0,02 : 0,1 = 0,2 L = 200 mL."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; 17/28 câu thuộc chương 7 và 8. Kiểm tra bằng Python các câu 16, 17, 18, 19d, 21d, 24, 25, 26, 28."
+}

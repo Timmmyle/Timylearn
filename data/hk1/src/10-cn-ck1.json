@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "Công nghệ",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – Công nghệ 10",
+ "scope": "Công nghệ và đời sống; Đánh giá công nghệ, công nghệ mới (tiêu chí đánh giá, nano, CNC, in 3D, năng lượng tái tạo, IoT, robot thông minh, AI); Vẽ kĩ thuật cơ bản (tiêu chuẩn bản vẽ, khổ giấy, tỉ lệ, nét vẽ, ghi kích thước, hình chiếu vuông góc, mặt cắt – hình cắt)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Khoa học, kĩ thuật, công nghệ",
+   "level": 1,
+   "stem": "Kĩ thuật là",
+   "options": [
+    "giải pháp, quy trình, bí quyết để biến đổi vật liệu, năng lượng, thông tin",
+    "các sản phẩm vật chất do con người làm ra",
+    "hệ thống tri thức về bản chất, quy luật của thế giới tự nhiên",
+    "việc ứng dụng các nguyên lí khoa học vào thiết kế, chế tạo, vận hành máy móc, thiết bị, công trình"
+   ],
+   "answer": 3,
+   "explanation": "Kĩ thuật là ứng dụng nguyên lí khoa học vào thiết kế, chế tạo, vận hành máy móc, thiết bị, công trình."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Hệ thống kĩ thuật",
+   "level": 1,
+   "stem": "Hệ thống kĩ thuật có đường tín hiệu phản hồi từ đầu ra về bộ phận điều khiển được gọi là",
+   "options": [
+    "hệ thống truyền động cơ khí",
+    "hệ thống điều khiển vòng hở",
+    "hệ thống điều khiển vòng kín",
+    "hệ thống không có đầu ra"
+   ],
+   "answer": 2,
+   "explanation": "Hệ thống có phản hồi gọi là hệ thống điều khiển vòng kín; không có phản hồi là vòng hở."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ luyện kim",
+   "level": 1,
+   "stem": "Công nghệ luyện kim màu dùng để sản xuất",
+   "options": [
+    "gang, thép",
+    "chất dẻo, cao su",
+    "gốm sứ, thủy tinh",
+    "các kim loại như nhôm, đồng, kẽm"
+   ],
+   "answer": 3,
+   "explanation": "Luyện kim màu sản xuất kim loại màu (nhôm, đồng, kẽm…); gang, thép là sản phẩm luyện kim đen."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ gia công áp lực",
+   "level": 1,
+   "stem": "Rèn, dập, cán thuộc nhóm phương pháp",
+   "options": [
+    "đúc",
+    "gia công áp lực",
+    "gia công cắt gọt",
+    "luyện kim"
+   ],
+   "answer": 1,
+   "explanation": "Rèn, dập, cán dùng ngoại lực làm biến dạng dẻo kim loại ở trạng thái rắn nên thuộc gia công áp lực."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ sản xuất điện",
+   "level": 2,
+   "stem": "Quá trình biến đổi năng lượng trong nhà máy nhiệt điện chạy than là",
+   "options": [
+    "cơ năng → nhiệt năng → hóa năng → điện năng",
+    "hóa năng → nhiệt năng → cơ năng → điện năng",
+    "nhiệt năng → hóa năng → cơ năng → điện năng",
+    "hóa năng → cơ năng → nhiệt năng → điện năng"
+   ],
+   "answer": 1,
+   "explanation": "Đốt than giải phóng hóa năng thành nhiệt năng (đun nóng nước thành hơi), hơi nước quay tua bin (cơ năng), tua bin kéo máy phát tạo điện năng."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Cách mạng công nghiệp",
+   "level": 2,
+   "stem": "Cuộc cách mạng công nghiệp lần thứ hai gắn liền với",
+   "options": [
+    "máy hơi nước và cơ khí hóa",
+    "trí tuệ nhân tạo và dữ liệu lớn",
+    "máy tính và Internet",
+    "điện năng và dây chuyền sản xuất hàng loạt"
+   ],
+   "answer": 3,
+   "explanation": "CMCN lần thứ hai (cuối thế kỉ XIX – đầu thế kỉ XX) điện khí hóa sản xuất, tổ chức sản xuất theo dây chuyền."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Cách mạng công nghiệp",
+   "level": 2,
+   "stem": "Ứng dụng nào sau đây là thành tựu tiêu biểu của cách mạng công nghiệp lần thứ tư?",
+   "options": [
+    "Đầu máy xe lửa chạy bằng hơi nước",
+    "Dây chuyền lắp ráp dùng động cơ điện",
+    "Nhà máy thông minh kết nối thiết bị qua Internet vạn vật, dùng trí tuệ nhân tạo phân tích dữ liệu",
+    "Máy công cụ vận hành hoàn toàn bằng tay"
+   ],
+   "answer": 2,
+   "explanation": "Kết nối IoT, phân tích dữ liệu bằng AI là đặc trưng của CMCN lần thứ tư."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Ngành nghề kĩ thuật, công nghệ",
+   "level": 2,
+   "stem": "Yêu cầu quan trọng đối với người làm nghề kĩ thuật viên điện là",
+   "options": [
+    "có năng khiếu hội họa, âm nhạc",
+    "có năng khiếu sáng tác văn chương",
+    "nắm vững kiến thức về điện, tuân thủ nghiêm ngặt quy tắc an toàn, làm việc cẩn thận",
+    "giỏi ngoại ngữ, không cần kiến thức kĩ thuật"
+   ],
+   "answer": 2,
+   "explanation": "Nghề điện đòi hỏi kiến thức chuyên môn về điện và ý thức an toàn lao động cao."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Hệ thống kĩ thuật",
+   "level": 3,
+   "stem": "Máy giặt tự động nhận nước, quần áo bẩn, điện năng và cho ra quần áo sạch. Nhóm nào sau đây thuộc bộ phận xử lí của hệ thống?",
+   "options": [
+    "Bộ điều khiển, động cơ và lồng giặt",
+    "Điện năng và nước",
+    "Quần áo bẩn",
+    "Quần áo sạch"
+   ],
+   "answer": 0,
+   "explanation": "Bộ điều khiển, động cơ, lồng giặt biến đổi đầu vào thành đầu ra nên là bộ phận xử lí; điện năng, nước, quần áo bẩn là đầu vào; quần áo sạch là đầu ra."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Tiêu chí đánh giá công nghệ",
+   "level": 1,
+   "stem": "Các tiêu chí cơ bản để đánh giá một công nghệ là",
+   "options": [
+    "hiệu quả, độ tin cậy, kinh tế và môi trường",
+    "giá bán, màu sắc, thương hiệu và kích thước",
+    "nguồn gốc, thương hiệu, quảng cáo và bao bì",
+    "tốc độ, khối lượng, màu sắc và độ bóng"
+   ],
+   "answer": 0,
+   "explanation": "Công nghệ được đánh giá theo bốn tiêu chí: hiệu quả, độ tin cậy, kinh tế, môi trường."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Tiêu chí đánh giá công nghệ",
+   "level": 2,
+   "stem": "Tiêu chí độ tin cậy của một công nghệ thể hiện ở",
+   "options": [
+    "khả năng hoạt động ổn định, đúng chức năng trong thời gian dài",
+    "mức độ ít gây ô nhiễm môi trường",
+    "chi phí đầu tư ban đầu thấp",
+    "năng suất tạo ra sản phẩm cao"
+   ],
+   "answer": 0,
+   "explanation": "Độ tin cậy là khả năng thực hiện ổn định, đúng chức năng theo thời gian; chi phí thuộc tiêu chí kinh tế, ô nhiễm thuộc tiêu chí môi trường, năng suất thuộc tiêu chí hiệu quả."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Công nghệ nano",
+   "level": 1,
+   "stem": "Công nghệ nano là công nghệ phân tích, chế tạo và ứng dụng các vật liệu có kích thước cỡ",
+   "options": [
+    "từ 1 nm đến 100 nm",
+    "từ 1 mm đến 100 mm",
+    "từ 1 μm đến 100 μm",
+    "từ 1 cm đến 100 cm"
+   ],
+   "answer": 0,
+   "explanation": "Vật liệu nano có ít nhất một chiều kích thước trong khoảng 1 – 100 nanomet."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Công nghệ CNC",
+   "level": 1,
+   "stem": "Công nghệ CNC là công nghệ",
+   "options": [
+    "tạo vật thể bằng cách đắp từng lớp vật liệu",
+    "kết nối các thiết bị với nhau qua Internet",
+    "điều khiển máy gia công bằng máy tính thông qua chương trình số",
+    "chế tạo vật liệu có kích thước siêu nhỏ"
+   ],
+   "answer": 2,
+   "explanation": "CNC (Computer Numerical Control) là điều khiển số bằng máy tính cho máy công cụ."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Công nghệ in 3D",
+   "level": 1,
+   "stem": "Nguyên lí cơ bản của công nghệ in 3D là",
+   "options": [
+    "rót kim loại lỏng vào khuôn rồi để nguội",
+    "cắt bỏ lớp vật liệu dư khỏi khối phôi",
+    "tạo vật thể bằng cách đắp (bồi) vật liệu từng lớp theo mô hình 3D",
+    "ép kim loại ở trạng thái rắn vào khuôn"
+   ],
+   "answer": 2,
+   "explanation": "In 3D là công nghệ chế tạo đắp dần (bồi đắp) từng lớp vật liệu theo dữ liệu mô hình số."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Internet vạn vật (IoT)",
+   "level": 3,
+   "stem": "Một hệ thống tưới cây dùng cảm biến độ ẩm đất kết nối Internet; người dùng theo dõi và bật/ tắt máy bơm từ xa qua điện thoại. Công nghệ chủ yếu được ứng dụng là",
+   "options": [
+    "công nghệ CNC",
+    "công nghệ in 3D",
+    "công nghệ nano",
+    "Internet vạn vật (IoT)"
+   ],
+   "answer": 3,
+   "explanation": "Các thiết bị (cảm biến, máy bơm) kết nối Internet để thu thập dữ liệu và điều khiển từ xa là ứng dụng IoT."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Đánh giá sản phẩm công nghệ",
+   "level": 3,
+   "stem": "Hai máy giặt A và B có cùng giá bán, độ bền và chất lượng giặt. Mỗi lần giặt, máy A tiêu thụ 0,5 kWh điện và 60 lít nước; máy B tiêu thụ 0,3 kWh điện và 45 lít nước. Nhận xét nào sau đây đúng?",
+   "options": [
+    "Hai máy như nhau theo mọi tiêu chí vì cùng giá bán",
+    "Máy B tốt hơn máy A theo cả tiêu chí kinh tế (chi phí vận hành) và tiêu chí môi trường",
+    "Máy A tốt hơn máy B theo tiêu chí kinh tế",
+    "Máy A tốt hơn máy B theo tiêu chí môi trường"
+   ],
+   "answer": 1,
+   "explanation": "Máy B tốn ít điện, nước hơn nên chi phí vận hành thấp hơn (kinh tế) và tiết kiệm tài nguyên, ít tác động môi trường hơn."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Khổ giấy",
+   "level": 1,
+   "stem": "Theo tiêu chuẩn, khổ giấy A4 có kích thước là",
+   "options": [
+    "297 mm × 210 mm",
+    "594 mm × 420 mm",
+    "420 mm × 297 mm",
+    "210 mm × 148 mm"
+   ],
+   "answer": 0,
+   "explanation": "A4 = 297 × 210 mm; A3 = 420 × 297 mm; A2 = 594 × 420 mm; A5 = 210 × 148 mm."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Nét vẽ",
+   "level": 1,
+   "stem": "Trên bản vẽ kĩ thuật, đường bao thấy của vật thể được vẽ bằng",
+   "options": [
+    "nét liền mảnh",
+    "nét đứt mảnh",
+    "nét liền đậm",
+    "nét gạch dài – chấm – mảnh"
+   ],
+   "answer": 2,
+   "explanation": "Nét liền đậm vẽ đường bao thấy; nét đứt mảnh vẽ đường bao khuất; nét gạch chấm mảnh vẽ đường tâm, trục đối xứng; nét liền mảnh vẽ đường kích thước, đường gióng."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Tỉ lệ",
+   "level": 1,
+   "stem": "Tỉ lệ nào sau đây là tỉ lệ phóng to?",
+   "options": [
+    "1 : 5",
+    "2 : 1",
+    "1 : 1",
+    "1 : 2"
+   ],
+   "answer": 1,
+   "explanation": "Tỉ lệ là tỉ số giữa kích thước trên bản vẽ và kích thước thật; 2 : 1 nghĩa là hình vẽ lớn gấp 2 lần vật thật."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Hình chiếu vuông góc",
+   "level": 2,
+   "stem": "Theo phương pháp chiếu góc thứ nhất, hình chiếu bằng được đặt ở vị trí",
+   "options": [
+    "bên trên hình chiếu đứng",
+    "bên dưới hình chiếu đứng",
+    "bên phải hình chiếu đứng",
+    "bên trái hình chiếu đứng"
+   ],
+   "answer": 1,
+   "explanation": "Phương pháp chiếu góc thứ nhất: hình chiếu bằng ở dưới hình chiếu đứng, hình chiếu cạnh ở bên phải hình chiếu đứng."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Ghi kích thước",
+   "level": 2,
+   "stem": "Trên bản vẽ kĩ thuật, kí hiệu Ø20 ghi cho một lỗ tròn cho biết",
+   "options": [
+    "bán kính của lỗ bằng 20 mm",
+    "chiều sâu của lỗ bằng 20 cm",
+    "cạnh của lỗ vuông bằng 20 mm",
+    "đường kính của lỗ bằng 20 mm"
+   ],
+   "answer": 3,
+   "explanation": "Kí hiệu Ø chỉ đường kính, R chỉ bán kính; đơn vị kích thước trên bản vẽ là mm và không cần ghi đơn vị."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Mặt cắt và hình cắt",
+   "level": 2,
+   "stem": "Hình cắt là hình biểu diễn",
+   "options": [
+    "chỉ phần vật thể tiếp xúc với mặt phẳng cắt",
+    "toàn bộ vật thể khi chưa bị cắt",
+    "phần vật thể ở trước mặt phẳng cắt",
+    "mặt cắt và phần vật thể ở sau mặt phẳng cắt"
+   ],
+   "answer": 3,
+   "explanation": "Mặt cắt chỉ biểu diễn phần tiếp xúc với mặt phẳng cắt; hình cắt biểu diễn mặt cắt và các đường bao của vật thể sau mặt phẳng cắt."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Tỉ lệ",
+   "level": 3,
+   "stem": "Một chi tiết có chiều dài thật 120 mm được vẽ theo tỉ lệ 1 : 2. Trên bản vẽ, đoạn biểu diễn chiều dài đó dài bao nhiêu và con số kích thước ghi là bao nhiêu?",
+   "options": [
+    "Dài 60 mm, ghi số 60",
+    "Dài 60 mm, ghi số 120",
+    "Dài 240 mm, ghi số 240",
+    "Dài 240 mm, ghi số 120"
+   ],
+   "answer": 1,
+   "explanation": "Độ dài vẽ = 120 × 1/2 = 60 mm. Con số kích thước luôn ghi kích thước thật (120), không phụ thuộc tỉ lệ."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Tỉ lệ",
+   "level": 3,
+   "stem": "Một vật thể dài 2 m được biểu diễn trên bản vẽ bằng đoạn thẳng dài 40 mm. Tỉ lệ của bản vẽ là",
+   "options": [
+    "1 : 50",
+    "1 : 5",
+    "1 : 20",
+    "50 : 1"
+   ],
+   "answer": 0,
+   "explanation": "2 m = 2000 mm; tỉ lệ = 40 : 2000 = 1 : 50."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Công nghệ và đời sống",
+   "topic": "Công nghệ phổ biến",
+   "level": 2,
+   "stem": "Trong một khu công nghiệp có: nhà máy luyện thép từ quặng sắt, xưởng đúc, xưởng tiện và nhà máy sản xuất động cơ điện.",
+   "statements": [
+    {
+     "t": "Nhà máy luyện thép từ quặng sắt áp dụng công nghệ luyện kim đen.",
+     "a": true
+    },
+    {
+     "t": "Xưởng tiện gia công chi tiết bằng phương pháp không phoi.",
+     "a": false
+    },
+    {
+     "t": "Động cơ điện biến đổi điện năng thành cơ năng, là sản phẩm của công nghệ điện – cơ.",
+     "a": true
+    },
+    {
+     "t": "Xưởng đúc có thể tạo ra phôi có hình dạng phức tạp, rỗng bên trong.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: luyện kim đen sản xuất gang, thép từ quặng sắt. b) Sai: tiện là gia công cắt gọt, có tạo phoi. c) Đúng: đúng nguyên lí điện – cơ. d) Đúng: đây là ưu điểm của đúc."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Công nghệ mới",
+   "level": 2,
+   "stem": "Một nhà máy sản xuất linh kiện ô tô hiện đại sử dụng: máy phay CNC, máy in 3D để làm mẫu thử, robot thông minh lắp ráp và hệ thống trí tuệ nhân tạo (AI) phát hiện sản phẩm lỗi qua camera.",
+   "statements": [
+    {
+     "t": "Máy phay CNC được điều khiển bằng chương trình số trên máy tính.",
+     "a": true
+    },
+    {
+     "t": "In 3D là công nghệ cắt gọt, bóc tách vật liệu khỏi khối phôi.",
+     "a": false
+    },
+    {
+     "t": "Hệ thống AI có thể học từ dữ liệu ảnh để nhận diện sản phẩm lỗi.",
+     "a": true
+    },
+    {
+     "t": "Robot thông minh không có khả năng thu nhận thông tin từ cảm biến.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đó là bản chất của công nghệ CNC. b) Sai: in 3D là công nghệ đắp dần từng lớp vật liệu. c) Đúng: AI được huấn luyện bằng dữ liệu để nhận dạng. d) Sai: robot thông minh dùng cảm biến (camera, lực…) để nhận biết môi trường và tự điều chỉnh."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Đánh giá công nghệ, công nghệ mới",
+   "topic": "Năng lượng tái tạo, đánh giá công nghệ",
+   "level": 3,
+   "stem": "Một trường học dự định lắp hệ thống điện mặt trời áp mái để giảm tiền điện. Ban giám hiệu dùng các tiêu chí đánh giá công nghệ để xem xét.",
+   "statements": [
+    {
+     "t": "Điện mặt trời là một dạng năng lượng tái tạo.",
+     "a": true
+    },
+    {
+     "t": "Xét theo tiêu chí môi trường, hệ thống hầu như không phát thải khí nhà kính khi vận hành.",
+     "a": true
+    },
+    {
+     "t": "Xét theo tiêu chí kinh tế, chỉ cần quan tâm giá mua tấm pin, không cần tính chi phí lắp đặt, bảo trì và lượng điện tiết kiệm được.",
+     "a": false
+    },
+    {
+     "t": "Hệ thống phát điện như nhau vào ban ngày và ban đêm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: năng lượng mặt trời không cạn kiệt. b) Đúng: pin mặt trời phát điện không đốt nhiên liệu. c) Sai: tiêu chí kinh tế phải tính toàn bộ chi phí đầu tư, vận hành và lợi ích thu được. d) Sai: ban đêm không có ánh sáng mặt trời nên pin không phát điện."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Vẽ kĩ thuật cơ bản",
+   "topic": "Tỉ lệ, ghi kích thước, nét vẽ",
+   "level": 3,
+   "stem": "Một tấm đệm hình chữ nhật dài 80 mm, rộng 50 mm, ở giữa có lỗ tròn đường kính 20 mm, được vẽ theo tỉ lệ 1 : 2 trên khổ giấy A4.",
+   "statements": [
+    {
+     "t": "Trên bản vẽ, chiều dài tấm đệm được vẽ dài 40 mm.",
+     "a": true
+    },
+    {
+     "t": "Con số kích thước ghi cho chiều dài tấm đệm là 40.",
+     "a": false
+    },
+    {
+     "t": "Kích thước lỗ được ghi là Ø20.",
+     "a": true
+    },
+    {
+     "t": "Đường tâm của lỗ tròn được vẽ bằng nét liền đậm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 80 × 1/2 = 40 mm. b) Sai: con số kích thước ghi kích thước thật là 80. c) Đúng: lỗ tròn ghi đường kính kèm kí hiệu Ø và kích thước thật. d) Sai: đường tâm vẽ bằng nét gạch dài – chấm – mảnh."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập từng câu theo SGK Công nghệ KNTT; kiểm tra mỗi câu trắc nghiệm chỉ có một phương án đúng, phương án nhiễu không đúng một phần. Các câu tính toán đã kiểm bằng Python: các câu tỉ lệ bản vẽ 120 mm theo 1 : 2 → 60 mm; 2 m ứng 40 mm → 1 : 50; ý Đúng/Sai 80 mm theo 1 : 2 → 40 mm."
+}

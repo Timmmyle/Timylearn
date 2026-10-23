@@ -1,0 +1,99 @@
+{
+ "grade": 10,
+ "subject": "Ngữ văn",
+ "exam": "gk2",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 2 – Ngữ văn 10",
+ "scope": "Bài 6: Nguyễn Trãi – “Dành còn để trợ dân này” (thơ Nôm Nguyễn Trãi); viết đoạn nghị luận văn học và bài nghị luận xã hội",
+ "genre": "Thơ Nôm Đường luật (thất ngôn xen lục ngôn)",
+ "work": {
+  "author": "Nguyễn Trãi",
+  "title": "Bảo kính cảnh giới – bài 43 (Cảnh ngày hè)",
+  "source": "Quốc âm thi tập – Nguyễn Trãi",
+  "public_domain_reason": "Tác giả mất năm 1442; văn học trung đại"
+ },
+ "passage": "Rồi hóng mát thuở ngày trường,\nHòe lục đùn đùn tán rợp giương.\nThạch lựu hiên còn phun thức đỏ,\nHồng liên trì đã tiễn mùi hương.\nLao xao chợ cá làng ngư phủ,\nDắng dỏi cầm ve lầu tịch dương.\nDẽ có Ngu cầm đàn một tiếng,\nDân giàu đủ khắp đòi phương.",
+ "src": "(Nguyễn Trãi, Bảo kính cảnh giới – bài 43, in trong Quốc âm thi tập; nhan đề “Cảnh ngày hè” do người biên soạn đặt)\nChú thích: Rồi: rảnh rỗi, nhàn rỗi; ngày trường: ngày dài; hòe lục: cây hòe xanh; đùn đùn: (tán lá) bốc lên, xòe ra liên tiếp; thạch lựu: cây lựu; thức: vẻ, màu; hồng liên trì: ao sen hồng; tiễn: ngát, dứt (hương); ngư phủ: người đánh cá; dắng dỏi: âm thanh vang lên inh ỏi, liên tiếp; cầm ve: tiếng ve kêu như tiếng đàn; lầu tịch dương: lầu lúc chiều tà; dẽ: nên, hãy để; Ngu cầm: đàn của vua Ngu Thuấn, gắn với khúc Nam phong ca ngợi cảnh dân giàu, thái bình; đòi phương: mọi nơi, khắp nơi.",
+ "questions": [
+  {
+   "q": "Câu 1 (0,5 điểm). Xác định thể thơ của văn bản. Câu thơ nào có số chữ khác với các câu còn lại?",
+   "type": "nhanbiet",
+   "points": [
+    "Thơ Nôm Đường luật thất ngôn xen lục ngôn (8 câu, phần lớn 7 chữ)",
+    "Câu 1 “Rồi hóng mát thuở ngày trường” và câu 8 “Dân giàu đủ khắp đòi phương” chỉ có 6 chữ"
+   ],
+   "model": "Văn bản viết theo thể thơ Nôm Đường luật thất ngôn xen lục ngôn – một sáng tạo của Nguyễn Trãi trong Quốc âm thi tập. Bài có 8 câu, trong đó câu đầu “Rồi hóng mát thuở ngày trường” và câu cuối “Dân giàu đủ khắp đòi phương” là câu 6 chữ, các câu còn lại 7 chữ."
+  },
+  {
+   "q": "Câu 2 (0,5 điểm). Liệt kê những hình ảnh và âm thanh của cuộc sống ngày hè được nhắc đến trong văn bản.",
+   "type": "nhanbiet",
+   "points": [
+    "Hình ảnh: hòe lục đùn đùn tán rợp giương; thạch lựu phun thức đỏ; hồng liên trì tiễn mùi hương",
+    "Âm thanh: lao xao chợ cá làng ngư phủ; dắng dỏi cầm ve lầu tịch dương"
+   ],
+   "model": "Về hình ảnh: cây hòe xanh tán lá đùn đùn, rợp bóng; hoa lựu bên hiên phun sắc đỏ; ao sen hồng ngát hương. Về âm thanh: tiếng lao xao của chợ cá ở làng chài và tiếng ve dắng dỏi như tiếng đàn trên lầu lúc chiều tà."
+  },
+  {
+   "q": "Câu 3 (1,0 điểm). Phân tích tác dụng của việc sử dụng các từ láy và động từ mạnh “đùn đùn”, “giương”, “phun” trong hai câu thơ: “Hòe lục đùn đùn tán rợp giương. / Thạch lựu hiên còn phun thức đỏ”.",
+   "type": "tutu",
+   "points": [
+    "Chỉ ra: từ láy “đùn đùn”, các động từ mạnh “giương”, “phun”",
+    "Tác dụng: diễn tả sức sống căng tràn, mạnh mẽ đang trào dâng từ bên trong cảnh vật",
+    "Cảnh hè rực rỡ màu sắc (xanh của hòe, đỏ của lựu), sinh động, có hồn",
+    "Cho thấy tâm hồn nhạy cảm, yêu đời, yêu thiên nhiên của Nguyễn Trãi"
+   ],
+   "model": "Từ láy “đùn đùn” cùng các động từ mạnh “giương”, “phun” khiến cảnh vật không đứng yên mà như đang cựa quậy, tuôn trào: tán hòe xanh cứ xòe rộng ra mãi, hoa lựu như phun ra sắc đỏ. Nhờ vậy, bức tranh ngày hè hiện lên rực rỡ sắc màu, căng tràn nhựa sống. Cách miêu tả ấy cũng cho thấy một tâm hồn nhạy cảm, tinh tế, luôn yêu đời, yêu thiên nhiên của Nguyễn Trãi dù ông đang ở những năm tháng nhàn rỗi, cô đơn."
+  },
+  {
+   "q": "Câu 4 (1,0 điểm). Hai câu thơ cuối “Dẽ có Ngu cầm đàn một tiếng, / Dân giàu đủ khắp đòi phương.” thể hiện mong ước gì của tác giả? Mong ước ấy cho thấy vẻ đẹp nào trong con người Nguyễn Trãi?",
+   "type": "noidung",
+   "points": [
+    "Mong có cây đàn của vua Thuấn để gảy khúc Nam phong ca ngợi cảnh thái bình",
+    "Ước nguyện nhân dân khắp nơi đều được ấm no, giàu đủ",
+    "Vẻ đẹp: tấm lòng ưu dân ái quốc, tư tưởng nhân nghĩa “yên dân” trước sau như một",
+    "Dù “rồi” (nhàn) vẫn không nguôi nghĩ về dân, về nước"
+   ],
+   "model": "Nguyễn Trãi mong có được cây đàn của vua Ngu Thuấn để gảy khúc Nam phong, ca ngợi cảnh dân giàu đủ khắp mọi nơi. Đó là khát vọng về một xã hội thái bình, nhân dân ấm no, hạnh phúc. Mong ước ấy cho thấy tấm lòng ưu dân ái quốc, tư tưởng nhân nghĩa lấy dân làm gốc của ông: ngay cả lúc nhàn rỗi, đứng ngoài quan trường, Nguyễn Trãi vẫn đau đáu nghĩ về dân, về nước."
+  },
+  {
+   "q": "Câu 5 (1,0 điểm). Từ tấm lòng của Nguyễn Trãi trong văn bản, anh/chị hãy nêu suy nghĩ về ý nghĩa của việc sống có trách nhiệm với cộng đồng (trình bày trong đoạn văn khoảng 5–7 dòng).",
+   "type": "quandiem",
+   "points": [
+    "Nêu rõ quan điểm của bản thân",
+    "Lí giải: sống có trách nhiệm giúp cộng đồng phát triển, bản thân trưởng thành, được tôn trọng",
+    "Liên hệ biểu hiện cụ thể của người trẻ hôm nay",
+    "Diễn đạt mạch lạc, đúng dung lượng"
+   ],
+   "model": "Nguyễn Trãi dù lúc nhàn rỗi vẫn mong “dân giàu đủ khắp đòi phương” nhắc tôi rằng sống có trách nhiệm với cộng đồng là điều làm nên giá trị của một con người. Khi mỗi người biết nghĩ cho người khác, cộng đồng sẽ gắn kết và phát triển bền vững. Với người trẻ, trách nhiệm ấy có thể bắt đầu từ những việc nhỏ: giữ gìn vệ sinh chung, tham gia tình nguyện, học tập tốt để mai sau góp sức xây dựng quê hương. Sống vì cộng đồng cũng chính là cách để bản thân trưởng thành và sống ý nghĩa hơn."
+  }
+ ],
+ "essays": [
+  {
+   "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích bức tranh thiên nhiên và cuộc sống ngày hè trong văn bản Bảo kính cảnh giới – bài 43 (Cảnh ngày hè) của Nguyễn Trãi.",
+   "type": "viet",
+   "points": [
+    "Đúng hình thức đoạn văn, khoảng 200 chữ, có câu chủ đề",
+    "Phân tích cảnh thiên nhiên: hòe lục, thạch lựu, hồng liên – màu sắc, hương thơm, sức sống trào dâng",
+    "Phân tích cảnh sinh hoạt: chợ cá lao xao, tiếng ve dắng dỏi – cuộc sống thanh bình, ấm no",
+    "Chỉ ra nghệ thuật: động từ mạnh, từ láy, đảo ngữ, phối hợp nhiều giác quan, câu lục ngôn",
+    "Đánh giá: tình yêu thiên nhiên, yêu đời và tấm lòng vì dân của Nguyễn Trãi"
+   ],
+   "model": "Câu chủ đề: Bảo kính cảnh giới – bài 43 vẽ nên bức tranh ngày hè rực rỡ, tràn đầy sức sống, qua đó bộc lộ tâm hồn yêu đời, yêu dân của Nguyễn Trãi.\n- Thiên nhiên: hòe xanh “đùn đùn tán rợp giương”, lựu “phun thức đỏ”, sen hồng “tiễn mùi hương” – cảnh có màu sắc, có hương thơm, sức sống trào dâng từ bên trong.\n- Cuộc sống con người: “lao xao chợ cá”, “dắng dỏi cầm ve” – âm thanh rộn rã của cuộc sống bình dị, no đủ nơi làng chài.\n- Nghệ thuật: động từ mạnh, từ láy, phép đảo ngữ (“Lao xao chợ cá…”, “Dắng dỏi cầm ve…”), cảm nhận bằng nhiều giác quan; câu lục ngôn tạo điểm nhấn.\n- Đánh giá: cảnh vật được cảm nhận bằng một tâm hồn tinh tế, khao khát sống; bức tranh hè khép lại bằng ước nguyện “Dân giàu đủ khắp đòi phương” – vẻ đẹp nhân cách nhà thơ."
+  },
+  {
+   "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) bàn về vấn đề: Tuổi trẻ và tinh thần sống vì cộng đồng.",
+   "type": "viet",
+   "points": [
+    "Đúng kiểu bài nghị luận về một vấn đề xã hội, đủ mở bài – thân bài – kết bài, khoảng 600 chữ",
+    "Giải thích: sống vì cộng đồng là biết quan tâm, sẻ chia, hành động vì lợi ích chung",
+    "Biểu hiện tích cực của người trẻ (tình nguyện, mùa hè xanh, quyên góp, bảo vệ môi trường…) và một bộ phận còn thờ ơ, vô cảm",
+    "Ý nghĩa của tinh thần sống vì cộng đồng; nguyên nhân của lối sống ích kỉ",
+    "Giải pháp, bài học nhận thức và hành động cho bản thân",
+    "Dẫn chứng xác thực, lập luận chặt chẽ, chính tả và ngữ pháp chuẩn"
+   ],
+   "model": "MB: Dẫn từ ước nguyện “Dân giàu đủ khắp đòi phương” của Nguyễn Trãi, nêu vấn đề tuổi trẻ và tinh thần sống vì cộng đồng.\nTB1: Giải thích: cộng đồng là tập thể người cùng chung sống; sống vì cộng đồng là đặt lợi ích chung bên cạnh lợi ích riêng, sẵn sàng sẻ chia và hành động.\nTB2: Biểu hiện: thanh niên tình nguyện, tiếp sức mùa thi, hỗ trợ đồng bào vùng lũ, các dự án môi trường của học sinh; bên cạnh đó còn một bộ phận sống ích kỉ, thờ ơ, chỉ “sống ảo”.\nTB3: Ý nghĩa: giúp xã hội gắn kết, nhân văn; giúp người trẻ trưởng thành, có kĩ năng, được yêu mến. Nguyên nhân của sự thờ ơ: áp lực học tập, lối sống cá nhân, thiếu môi trường trải nghiệm.\nTB4: Giải pháp: nhà trường, đoàn thể tạo sân chơi; mỗi bạn trẻ bắt đầu từ việc nhỏ, phù hợp sức mình. Phản đề: sống vì cộng đồng không có nghĩa là xóa bỏ cá nhân, cũng không phải làm từ thiện để khoe khoang.\nKB: Khẳng định giá trị của tinh thần cộng đồng; liên hệ hành động của bản thân."
+  }
+ ],
+ "confidence_note": "Rất chắc chắn về toàn bộ 8 câu thơ theo bản phổ biến trong SGK (câu 1 và câu 8 là câu 6 chữ). Một số bản ghi “Hòe lục đùn đùn tán rợp trương” thay cho “giương”; đề dùng “giương” theo SGK hiện hành.",
+ "self_check": "Đã đối chiếu từng câu thơ với trí nhớ về bản SGK; kiểm tra lại số chữ mỗi câu (câu 1, 8 lục ngôn); đáp án các câu đọc hiểu chỉ dựa vào văn bản và chú thích; chạy hk-check."
+}

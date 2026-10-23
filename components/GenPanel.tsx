@@ -1,5 +1,5 @@
 "use client";
-/* Đề tự sinh theo ma trận + luyện theo dạng (Toán, Vật lí, Hóa học – HK1 lớp 10–12).
+/* Đề tự sinh theo ma trận + luyện theo dạng (Toán, Vật lí, Hóa học – HK1, HK2 lớp 10–12).
    Bộ dạng bài khá nặng nên chỉ tải khi người dùng bấm. */
 import { useState } from "react";
 import { useApp, startSession } from "@/lib/store";
@@ -23,12 +23,15 @@ export default function GenPanel({ ef }: { ef: { exam: string; grade: string; su
   const grade = /^1[0-2]$/.test(ef.grade) ? +ef.grade : Math.min(12, Math.max(10, gradeNum(S)));
   const subs: Sub[] = (SUBS as readonly string[]).includes(ef.subject) ? [ef.subject as Sub] : ef.subject === "Tất cả" ? [...SUBS] : [];
   const season = examSeason();
-  const exam: "gk1" | "ck1" | null = ef.exam === "gk1" || ef.exam === "ck1" ? ef.exam : ef.exam === "Tất cả" ? (season?.exam === "ck1" ? "ck1" : "gk1") : null;
+  type Ex = "gk1" | "ck1" | "gk2" | "ck2";
+  const EXS: Ex[] = ["gk1", "ck1", "gk2", "ck2"];
+  const exam: Ex | null = (EXS as string[]).includes(ef.exam) ? (ef.exam as Ex) : ef.exam === "Tất cả" ? (season?.exam || "gk1") : null;
   if (!subs.length) return null;
   if (!exam) return (
-    <div className="panel !mt-4"><p className="small !m-0">Đề tự sinh hiện có cho <b>giữa kì 1 và cuối kì 1</b> (Toán, Vật lí, Hóa học lớp 10–12). Học kì 2 đang được soạn.</p></div>
+    <div className="panel !mt-4"><p className="small !m-0">Đề tự sinh có cho <b>giữa kì, cuối kì học kì 1 và học kì 2</b> (Toán, Vật lí, Hóa học lớp 10–12). Chọn một kì kiểm tra để tạo đề.</p></div>
   );
-  const en = exam === "gk1" ? "giữa học kì 1" : "cuối học kì 1";
+  const hk = exam.endsWith("2") ? 2 : 1;
+  const en = { gk1: "giữa học kì 1", ck1: "cuối học kì 1", gk2: "giữa học kì 2", ck2: "cuối học kì 2" }[exam];
 
   const makeExam = async (s: Sub) => {
     setBusy(s);
@@ -50,10 +53,10 @@ export default function GenPanel({ ef }: { ef: { exam: string; grade: string; su
     } finally { setBusy(null); }
   };
   const openCat = async (s: Sub) => {
-    const key = s + grade;
+    const key = s + grade + "-" + hk;
     if (cat?.key === key) return;
     const G = await load();
-    setCat({ key, data: G.catalog(s, grade) as Cat });
+    setCat({ key, data: G.catalog(s, grade, hk) as Cat });
   };
 
   return (
@@ -68,7 +71,7 @@ export default function GenPanel({ ef }: { ef: { exam: string; grade: string; su
             <button className="btn btn-gold w-full" disabled={busy === s} onClick={() => makeExam(s)}>{busy === s ? "Đang tạo đề…" : "Tạo đề mới"}</button>
             <details className="mt-2" onToggle={(e) => { if ((e.target as HTMLDetailsElement).open) openCat(s); }}>
               <summary className="small cursor-pointer py-1 underline underline-offset-4">Luyện từng dạng bài</summary>
-              {cat?.key === s + grade ? cat.data.map((c) => (
+              {cat?.key === s + grade + "-" + hk ? cat.data.map((c) => (
                 <div key={c.chapter} className="mt-2">
                   <p className="small !mb-1 font-semibold">{c.chapter}{c.half === 2 ? " · chỉ cuối kì" : ""}</p>
                   {c.items.map((it) => (

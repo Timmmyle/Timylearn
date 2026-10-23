@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "Công nghệ",
+ "exam": "ck2",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 2 – Công nghệ 12",
+ "scope": "Linh kiện và mạch điện tử (điện trở, tụ điện, cuộn cảm, diode, transistor, mạch chỉnh lưu, khuếch đại thuật toán); Điện tử số (tín hiệu số, cổng logic, mạch tổ hợp, mạch dãy) và vi điều khiển (Arduino, ứng dụng)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Điện trở",
+   "level": 1,
+   "stem": "Công dụng của điện trở trong mạch điện tử là",
+   "options": [
+    "chỉ cho dòng điện đi theo một chiều",
+    "hạn chế, điều chỉnh dòng điện và phân chia điện áp",
+    "ngăn dòng một chiều, cho dòng xoay chiều đi qua",
+    "khuếch đại tín hiệu điện"
+   ],
+   "answer": 1,
+   "explanation": "Điện trở cản trở dòng điện, dùng để hạn dòng, phân áp; các chức năng còn lại là của diode, tụ điện, transistor."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Tụ điện",
+   "level": 1,
+   "stem": "Đơn vị đo điện dung là farad (F). Ta có 1 µF bằng",
+   "options": [
+    "$10^{-6}$ F",
+    "$10^{-3}$ F",
+    "$10^{-9}$ F",
+    "$10^{-12}$ F"
+   ],
+   "answer": 0,
+   "explanation": "Tiền tố micro (µ) bằng $10^{-6}$; nano (n) là $10^{-9}$; pico (p) là $10^{-12}$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Diode",
+   "level": 1,
+   "stem": "Diode chỉ dẫn điện khi",
+   "options": [
+    "anode có điện thế cao hơn cathode (phân cực thuận)",
+    "cathode có điện thế cao hơn anode",
+    "hai cực có điện thế bằng nhau",
+    "được mắc với tụ điện"
+   ],
+   "answer": 0,
+   "explanation": "Diode dẫn khi phân cực thuận: anode dương hơn cathode một lượng lớn hơn ngưỡng (khoảng 0,6–0,7 V với diode silic)."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Transistor",
+   "level": 1,
+   "stem": "Transistor lưỡng cực gồm hai loại là",
+   "options": [
+    "NPN và NNP",
+    "PNP và PPN",
+    "NPN và PNP",
+    "anode và cathode"
+   ],
+   "answer": 2,
+   "explanation": "Theo thứ tự sắp xếp ba lớp bán dẫn, BJT có hai loại NPN và PNP."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Điện trở đặc biệt",
+   "level": 2,
+   "stem": "Linh kiện có điện trở giảm khi cường độ ánh sáng chiếu vào tăng là",
+   "options": [
+    "điện trở nhiệt",
+    "biến trở con chạy",
+    "tụ điện",
+    "quang điện trở"
+   ],
+   "answer": 3,
+   "explanation": "Quang điện trở (LDR) có điện trở giảm khi được chiếu sáng mạnh, dùng trong mạch tự động bật tắt đèn."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Đọc giá trị điện trở theo vạch màu",
+   "level": 3,
+   "stem": "Một điện trở có 4 vòng màu: cam – cam – nâu – nhũ vàng. Quy ước màu: đen – 0, nâu – 1, đỏ – 2, cam – 3, vàng – 4, lục – 5, lam – 6, tím – 7, xám – 8, trắng – 9; nhũ vàng – sai số ±5%, nhũ bạc – sai số ±10%. Giá trị điện trở là",
+   "options": [
+    "33 Ω, sai số ±5%",
+    "3,3 kΩ, sai số ±5%",
+    "331 Ω, sai số ±10%",
+    "330 Ω, sai số ±5%"
+   ],
+   "answer": 3,
+   "explanation": "Cam 3, cam 3 → 33; nâu là hệ số $10^1$: $33 \\cdot 10 = 330$ Ω; nhũ vàng ±5%."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Đọc giá trị điện trở theo vạch màu",
+   "level": 3,
+   "stem": "Một điện trở có 4 vòng màu: lục – lam – vàng – nhũ bạc. Quy ước màu: đen – 0, nâu – 1, đỏ – 2, cam – 3, vàng – 4, lục – 5, lam – 6, tím – 7, xám – 8, trắng – 9; nhũ vàng – sai số ±5%, nhũ bạc – sai số ±10%. Giá trị điện trở là",
+   "options": [
+    "560 kΩ, sai số ±10%",
+    "56 kΩ, sai số ±10%",
+    "5,6 MΩ, sai số ±10%",
+    "564 Ω, sai số ±5%"
+   ],
+   "answer": 0,
+   "explanation": "Lục 5, lam 6 → 56; vàng là hệ số $10^4$: $56 \\cdot 10^4 = 560\\,000$ Ω $= 560$ kΩ; nhũ bạc ±10%."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Mạch chỉnh lưu",
+   "level": 2,
+   "stem": "So với mạch chỉnh lưu nửa chu kì, mạch chỉnh lưu cầu có ưu điểm là",
+   "options": [
+    "chỉ cần dùng một diode",
+    "biến điện một chiều thành điện xoay chiều",
+    "tận dụng được cả hai nửa chu kì, điện áp ra ít gợn sóng hơn",
+    "không cần dùng đến diode"
+   ],
+   "answer": 2,
+   "explanation": "Chỉnh lưu cầu cho dòng qua tải ở cả hai nửa chu kì nên hiệu suất cao, tần số gợn gấp đôi, dễ lọc hơn."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Khuếch đại thuật toán",
+   "level": 3,
+   "stem": "Mạch khuếch đại không đảo dùng OA có $R_1 = 1$ kΩ, $R_{ht} = 4$ kΩ. Khi điện áp vào $U_{vào} = 0{,}3$ V thì điện áp ra là",
+   "options": [
+    "1,5 V",
+    "1,2 V",
+    "−1,2 V",
+    "0,075 V"
+   ],
+   "answer": 0,
+   "explanation": "$K = 1 + \\dfrac{R_{ht}}{R_1} = 1 + 4 = 5$; $U_{ra} = 5 \\cdot 0{,}3 = 1{,}5$ V."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Tụ điện",
+   "level": 2,
+   "stem": "Trên vỏ một tụ hóa có ghi 470 µF – 25 V. Thông số 25 V cho biết",
+   "options": [
+    "điện áp nhỏ nhất để tụ bắt đầu hoạt động",
+    "điện áp tụ tự tạo ra khi được nạp đầy",
+    "điện áp lớn nhất được phép đặt vào tụ khi làm việc",
+    "điện áp xoay chiều hiệu dụng định mức của nguồn"
+   ],
+   "answer": 2,
+   "explanation": "Điện áp ghi trên tụ là điện áp làm việc tối đa; vượt quá giá trị này lớp điện môi có thể bị đánh thủng."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Tín hiệu số",
+   "level": 1,
+   "stem": "Tín hiệu số là tín hiệu",
+   "options": [
+    "biến đổi liên tục theo thời gian, nhận mọi giá trị",
+    "luôn có dạng hình sin",
+    "chỉ tồn tại trong mạch điện xoay chiều",
+    "chỉ nhận các giá trị rời rạc, thường biểu diễn bằng hai mức logic 0 và 1"
+   ],
+   "answer": 3,
+   "explanation": "Tín hiệu tương tự biến đổi liên tục; tín hiệu số có giá trị rời rạc, trong điện tử số dùng hai mức 0 (thấp) và 1 (cao)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Cổng logic",
+   "level": 1,
+   "stem": "Cổng logic có đầu ra luôn ngược với đầu vào là",
+   "options": [
+    "cổng AND",
+    "cổng OR",
+    "cổng NOT",
+    "cổng XOR"
+   ],
+   "answer": 2,
+   "explanation": "Cổng NOT (cổng đảo) có một đầu vào: vào 0 thì ra 1, vào 1 thì ra 0."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Cổng logic",
+   "level": 1,
+   "stem": "Đầu ra của cổng AND hai đầu vào bằng 1 khi",
+   "options": [
+    "cả hai đầu vào đều bằng 1",
+    "có ít nhất một đầu vào bằng 1",
+    "cả hai đầu vào đều bằng 0",
+    "hai đầu vào khác nhau"
+   ],
+   "answer": 0,
+   "explanation": "Cổng AND thực hiện phép nhân logic: $Y = A \\cdot B$, chỉ bằng 1 khi mọi đầu vào bằng 1."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Cổng logic",
+   "level": 1,
+   "stem": "Đầu ra của cổng OR hai đầu vào bằng 0 khi",
+   "options": [
+    "cả hai đầu vào đều bằng 1",
+    "có ít nhất một đầu vào bằng 1",
+    "cả hai đầu vào đều bằng 0",
+    "hai đầu vào khác nhau"
+   ],
+   "answer": 2,
+   "explanation": "Cổng OR thực hiện phép cộng logic: $Y = A + B$, chỉ bằng 0 khi tất cả đầu vào bằng 0."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Cổng logic",
+   "level": 2,
+   "stem": "Với cổng NAND hai đầu vào A, B, đầu ra bằng 0 khi",
+   "options": [
+    "A = 1 và B = 1",
+    "A = 0 và B = 0",
+    "A = 0 và B = 1",
+    "A = 1 và B = 0"
+   ],
+   "answer": 0,
+   "explanation": "$Y = \\overline{A \\cdot B}$; chỉ khi $A = B = 1$ thì $A \\cdot B = 1$ và $Y = 0$."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Cổng logic",
+   "level": 2,
+   "stem": "Cổng XOR (hoặc loại trừ) hai đầu vào cho đầu ra bằng 1 khi",
+   "options": [
+    "hai đầu vào có giá trị giống nhau",
+    "cả hai đầu vào bằng 1",
+    "cả hai đầu vào bằng 0",
+    "hai đầu vào có giá trị khác nhau"
+   ],
+   "answer": 3,
+   "explanation": "$Y = A \\oplus B$: bằng 1 khi $A \\neq B$, bằng 0 khi $A = B$."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Mạch logic tổ hợp",
+   "level": 3,
+   "stem": "Cho $A = 0$, $B = 1$, $C = 1$. Giá trị của $Y_1 = A \\cdot B + C$ và $Y_2 = \\overline{A + B}$ lần lượt là",
+   "options": [
+    "$Y_1 = 0$, $Y_2 = 0$",
+    "$Y_1 = 1$, $Y_2 = 0$",
+    "$Y_1 = 1$, $Y_2 = 1$",
+    "$Y_1 = 0$, $Y_2 = 1$"
+   ],
+   "answer": 1,
+   "explanation": "$Y_1 = 0 \\cdot 1 + 1 = 1$; $A + B = 1$ nên $Y_2 = \\overline{1} = 0$."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Mạch logic tổ hợp",
+   "level": 3,
+   "stem": "Mạch logic có hàm $Y = \\overline{A} \\cdot B$. Tổ hợp đầu vào nào làm đầu ra $Y = 1$?",
+   "options": [
+    "$A = 0$, $B = 0$",
+    "$A = 1$, $B = 0$",
+    "$A = 1$, $B = 1$",
+    "$A = 0$, $B = 1$"
+   ],
+   "answer": 3,
+   "explanation": "$Y = 1$ khi $\\overline{A} = 1$ và $B = 1$, tức $A = 0$, $B = 1$; ba tổ hợp còn lại cho $Y = 0$."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Mạch logic dãy",
+   "level": 1,
+   "stem": "Đặc điểm của mạch logic dãy là",
+   "options": [
+    "trạng thái đầu ra chỉ phụ thuộc tín hiệu vào ở thời điểm đang xét",
+    "trạng thái đầu ra phụ thuộc cả tín hiệu vào hiện tại và trạng thái trước đó của mạch",
+    "không có phần tử nhớ",
+    "chỉ gồm các cổng NOT mắc nối tiếp"
+   ],
+   "answer": 1,
+   "explanation": "Mạch dãy có phần tử nhớ (flip-flop) nên đầu ra phụ thuộc cả trạng thái cũ; mạch tổ hợp thì chỉ phụ thuộc đầu vào hiện tại."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Mạch logic dãy",
+   "level": 2,
+   "stem": "Phần tử nhớ cơ bản của mạch logic dãy, lưu được 1 bit, là",
+   "options": [
+    "cổng AND",
+    "flip-flop (trigơ)",
+    "diode",
+    "điện trở"
+   ],
+   "answer": 1,
+   "explanation": "Flip-flop có hai trạng thái ổn định, giữ được trạng thái 0 hoặc 1 nên là phần tử nhớ 1 bit, dùng xây dựng bộ đếm, thanh ghi."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Vi điều khiển",
+   "level": 1,
+   "stem": "Vi điều khiển là",
+   "options": [
+    "một linh kiện chỉ gồm các cổng logic AND, OR",
+    "một loại cảm biến đo nhiệt độ",
+    "một vi mạch tích hợp bộ xử lí trung tâm, bộ nhớ và các cổng vào/ra trên một chip",
+    "một bộ nguồn biến đổi điện xoay chiều thành một chiều"
+   ],
+   "answer": 2,
+   "explanation": "Vi điều khiển như một máy tính thu nhỏ trên một chip: CPU, bộ nhớ chương trình, bộ nhớ dữ liệu, các cổng vào/ra, bộ định thời…"
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Lập trình Arduino",
+   "level": 2,
+   "stem": "Trong chương trình Arduino, hàm setup() và hàm loop() được thực hiện như thế nào?",
+   "options": [
+    "setup() lặp lại liên tục; loop() chạy một lần",
+    "setup() chạy một lần khi bo khởi động; loop() được lặp lại liên tục",
+    "cả hai hàm chỉ chạy một lần",
+    "loop() chỉ chạy khi nhấn nút reset"
+   ],
+   "answer": 1,
+   "explanation": "setup() dùng để khai báo, cấu hình chân (pinMode…) và chạy một lần; loop() chứa chương trình chính, lặp vô hạn."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Lập trình Arduino",
+   "level": 3,
+   "stem": "Arduino Uno đọc tín hiệu tương tự bằng lệnh analogRead() cho giá trị từ 0 đến 1023, ứng với điện áp 0 V đến 5 V. Khi lệnh trả về giá trị 512 thì điện áp ở chân đọc khoảng",
+   "options": [
+    "5 V",
+    "0,5 V",
+    "1,25 V",
+    "2,5 V"
+   ],
+   "answer": 3,
+   "explanation": "$U \\approx \\dfrac{512}{1023} \\cdot 5 \\approx 2{,}5$ V."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Lập trình Arduino",
+   "level": 3,
+   "stem": "Cho chương trình Arduino điều khiển LED ở chân 13:\nvoid setup() {\n  pinMode(13, OUTPUT);\n}\nvoid loop() {\n  digitalWrite(13, HIGH);\n  delay(500);\n  digitalWrite(13, LOW);\n  delay(1500);\n}\nTrong 1 phút, LED sáng bao nhiêu lần?",
+   "options": [
+    "60 lần",
+    "30 lần",
+    "120 lần",
+    "40 lần"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi vòng loop() kéo dài $500 + 1500 = 2000$ ms $= 2$ s, LED sáng 1 lần. Trong 60 s: $60 : 2 = 30$ lần."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Tụ điện và cuộn cảm",
+   "level": 2,
+   "stem": "Trong mạch phân tần của loa, người ta dùng tụ điện để đưa tín hiệu tần số cao tới loa treble và dùng cuộn cảm để đưa tín hiệu tần số thấp tới loa bass.",
+   "statements": [
+    {
+     "t": "Tụ điện cho dòng điện một chiều đi qua dễ dàng.",
+     "a": false
+    },
+    {
+     "t": "Tần số càng cao thì dung kháng của tụ điện càng nhỏ.",
+     "a": true
+    },
+    {
+     "t": "Tần số càng cao thì cuộn cảm cản trở dòng điện càng mạnh.",
+     "a": true
+    },
+    {
+     "t": "Đơn vị đo điện dung của tụ điện là henry (H).",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: tụ ngăn dòng một chiều. b) Đúng: $X_C = \\dfrac{1}{2\\pi f C}$ giảm khi $f$ tăng. c) Đúng: $X_L = 2\\pi f L$ tăng khi $f$ tăng. d) Sai: điện dung đo bằng farad (F), henry là đơn vị độ tự cảm."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Linh kiện và mạch điện tử",
+   "topic": "Đọc giá trị điện trở theo vạch màu",
+   "level": 3,
+   "stem": "Một điện trở có 4 vòng màu: đỏ – đỏ – cam – nhũ vàng. Quy ước màu: đen – 0, nâu – 1, đỏ – 2, cam – 3, vàng – 4, lục – 5, lam – 6, tím – 7, xám – 8, trắng – 9; nhũ vàng – sai số ±5%, nhũ bạc – sai số ±10%.",
+   "statements": [
+    {
+     "t": "Giá trị danh định của điện trở là 22 kΩ.",
+     "a": true
+    },
+    {
+     "t": "Sai số của điện trở là ±5%.",
+     "a": true
+    },
+    {
+     "t": "Giá trị lớn nhất cho phép của điện trở là 23,1 kΩ.",
+     "a": true
+    },
+    {
+     "t": "Nếu vòng thứ ba là màu đỏ thì điện trở có giá trị 22 kΩ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $22 \\cdot 10^3$ Ω. b) Đúng. c) Đúng: $22 \\cdot 1{,}05 = 23{,}1$ kΩ. d) Sai: $22 \\cdot 10^2 = 2200$ Ω $= 2{,}2$ kΩ."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Ứng dụng cổng logic",
+   "level": 2,
+   "stem": "Mạch báo động chống trộm: cảm biến cửa cho A = 1 khi cửa mở; công tắc hệ thống cho B = 1 khi hệ thống được bật. Còi kêu (Y = 1) chỉ khi cửa mở và hệ thống đang bật.",
+   "statements": [
+    {
+     "t": "Có thể dùng một cổng AND để thực hiện mạch này.",
+     "a": true
+    },
+    {
+     "t": "Khi A = 1 và B = 0 thì còi kêu.",
+     "a": false
+    },
+    {
+     "t": "Nếu thay cổng AND bằng cổng OR thì còi vẫn kêu khi hệ thống tắt mà cửa mở.",
+     "a": true
+    },
+    {
+     "t": "Đây là mạch logic tổ hợp.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $Y = A \\cdot B$. b) Sai: $1 \\cdot 0 = 0$, còi không kêu. c) Đúng: $1 + 0 = 1$. d) Đúng: đầu ra chỉ phụ thuộc đầu vào hiện tại, không có phần tử nhớ."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Điện tử số và vi điều khiển",
+   "topic": "Lập trình Arduino",
+   "level": 3,
+   "stem": "Chương trình Arduino bật đèn ở chân 8 khi trời tối, cảm biến ánh sáng nối vào chân A0 (điện áp tham chiếu 5 V):\nvoid setup() {\n  pinMode(8, OUTPUT);\n}\nvoid loop() {\n  int v = analogRead(A0);\n  if (v < 300) digitalWrite(8, HIGH);\n  else digitalWrite(8, LOW);\n  delay(100);\n}",
+   "statements": [
+    {
+     "t": "Hàm setup() chỉ được thực hiện một lần khi bo mạch khởi động.",
+     "a": true
+    },
+    {
+     "t": "Giá trị của biến v nằm trong khoảng từ 0 đến 1023.",
+     "a": true
+    },
+    {
+     "t": "Khi v = 300 thì đèn ở chân 8 sáng.",
+     "a": false
+    },
+    {
+     "t": "Giá trị ngưỡng 300 ứng với điện áp ở chân A0 khoảng 1,47 V.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: bộ chuyển đổi tương tự – số 10 bit. c) Sai: điều kiện là $v < 300$, với $v = 300$ chương trình chạy nhánh else, đèn tắt. d) Đúng: $\\dfrac{300}{1023} \\cdot 5 \\approx 1{,}47$ V."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; kiểm tra bằng Python các câu vạch màu (6, 7, 26), khuếch đại (9), biểu thức logic và bảng chân lí (15–18, 27), analogRead (23, 28) và đếm chu kì nhấp nháy của đoạn code (24). 16/28 câu thuộc phần Điện tử số và vi điều khiển. Đáp án phần I rải đều 6/6/6/6."
+}

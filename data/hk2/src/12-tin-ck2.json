@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "Tin học",
+ "exam": "ck2",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 2 – Tin học 12",
+ "scope": "Định dạng trang web với CSS; học máy (có giám sát, không giám sát), khoa học dữ liệu, dữ liệu lớn, trực quan hóa dữ liệu, mô phỏng; nghề nghiệp trong lĩnh vực tin học.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng văn bản",
+   "level": 1,
+   "stem": "Thuộc tính CSS nào dùng để chọn phông chữ?",
+   "options": [
+    "font-family",
+    "font-size",
+    "font-style",
+    "text-font"
+   ],
+   "answer": 0,
+   "explanation": "font-family đặt tên phông chữ (có thể liệt kê nhiều phông dự phòng)."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng văn bản",
+   "level": 1,
+   "stem": "Để bỏ gạch chân mặc định của các liên kết, ta dùng khai báo",
+   "options": [
+    "a { underline: none; }",
+    "a { font-style: none; }",
+    "a { text-decoration: none; }",
+    "a { text-align: none; }"
+   ],
+   "answer": 2,
+   "explanation": "text-decoration điều khiển gạch chân, gạch ngang…; giá trị none bỏ gạch chân."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng màu sắc",
+   "level": 1,
+   "stem": "Mã màu #FF0000 trong CSS là màu",
+   "options": [
+    "xanh lá",
+    "xanh dương",
+    "đỏ",
+    "trắng"
+   ],
+   "answer": 2,
+   "explanation": "Mã #RRGGBB: FF cho kênh đỏ (red) tối đa, kênh lục và lam bằng 00, nên là màu đỏ."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Bộ chọn CSS",
+   "level": 1,
+   "stem": "Bộ chọn * trong CSS chọn",
+   "options": [
+    "tất cả các phần tử trong trang",
+    "phần tử đầu tiên",
+    "các phần tử có id",
+    "các phần tử không có lớp"
+   ],
+   "answer": 0,
+   "explanation": "* là bộ chọn toàn cục (universal selector), áp dụng cho mọi phần tử."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Định dạng màu sắc",
+   "level": 2,
+   "stem": "Giá trị màu rgb(0, 0, 255) tương ứng với mã màu nào?",
+   "options": [
+    "#FF0000",
+    "#00FF00",
+    "#000000",
+    "#0000FF"
+   ],
+   "answer": 3,
+   "explanation": "rgb(đỏ, lục, lam): 0, 0, 255 là màu xanh dương, mã hexa #0000FF (255 = FF)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Đường viền",
+   "level": 2,
+   "stem": "Khai báo nào làm cho ảnh có các góc bo tròn?",
+   "options": [
+    "img { border-round: 10px; }",
+    "img { corner: 10px; }",
+    "img { border-style: round; }",
+    "img { border-radius: 10px; }"
+   ],
+   "answer": 3,
+   "explanation": "border-radius quy định bán kính bo góc của phần tử."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Danh sách và hiển thị",
+   "level": 2,
+   "stem": "Khai báo ul { list-style-type: none; } có tác dụng",
+   "options": [
+    "bỏ kí hiệu đầu dòng của các mục trong danh sách không thứ tự",
+    "ẩn toàn bộ danh sách",
+    "đánh số các mục từ 1",
+    "xóa các mục rỗng trong danh sách"
+   ],
+   "answer": 0,
+   "explanation": "list-style-type quy định kiểu kí hiệu đầu dòng (disc, circle, square, decimal…); none là không có kí hiệu."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Độ ưu tiên trong CSS",
+   "level": 3,
+   "stem": "Cho HTML: <ul class=\"ds\"><li class=\"muc\">Toán</li></ul>\nvà CSS:\n.ds li { color: green; }\n.muc { color: red; }\nli { color: blue; }\nChữ \"Toán\" có màu",
+   "options": [
+    "đỏ (red)",
+    "xanh dương (blue)",
+    "xanh lá (green)",
+    "đen (mặc định)"
+   ],
+   "answer": 2,
+   "explanation": ".ds li gồm một lớp và một phần tử nên độ ưu tiên cao hơn .muc (chỉ một lớp) và li (một phần tử); vì vậy màu green thắng, dù .muc viết sau."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Mô hình hộp",
+   "level": 3,
+   "stem": "Cho CSS:\n.khung {\n  box-sizing: border-box;\n  width: 250px;\n  padding: 15px;\n  border: 5px solid blue;\n}\nChiều rộng của phần nội dung bên trong .khung là",
+   "options": [
+    "250px",
+    "210px",
+    "290px",
+    "230px"
+   ],
+   "answer": 1,
+   "explanation": "Với border-box, width 250px đã gồm padding và viền: nội dung = 250 − 2 × 15 − 2 × 5 = 210px."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Danh sách và hiển thị",
+   "level": 3,
+   "stem": "Khai báo nào làm phần tử bị ẩn hoàn toàn và không chiếm chỗ trên trang?",
+   "options": [
+    "visibility: hidden;",
+    "color: transparent;",
+    "display: none;",
+    "opacity: 0;"
+   ],
+   "answer": 2,
+   "explanation": "display: none loại phần tử khỏi bố cục; visibility: hidden và opacity: 0 làm phần tử vô hình nhưng vẫn chiếm chỗ; color: transparent chỉ làm chữ trong suốt."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Học máy",
+   "level": 1,
+   "stem": "Học máy (Machine Learning) là",
+   "options": [
+    "việc lập trình sẵn mọi quy tắc để máy tính làm theo",
+    "việc học sinh dùng máy tính để học trực tuyến",
+    "kĩ thuật lắp ráp và sửa chữa máy tính",
+    "lĩnh vực của trí tuệ nhân tạo giúp máy tính tự cải thiện khả năng giải quyết vấn đề nhờ học từ dữ liệu"
+   ],
+   "answer": 3,
+   "explanation": "Học máy cho phép máy tính rút ra quy luật từ dữ liệu (thay vì lập trình tường minh từng quy tắc) và cải thiện hiệu quả qua kinh nghiệm."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Học máy có giám sát",
+   "level": 1,
+   "stem": "Đặc điểm của học máy có giám sát là",
+   "options": [
+    "dữ liệu huấn luyện không có nhãn",
+    "dữ liệu huấn luyện đã được gán nhãn (biết trước kết quả đúng)",
+    "không cần dữ liệu huấn luyện",
+    "máy chỉ học bằng cách thử – sai với môi trường"
+   ],
+   "answer": 1,
+   "explanation": "Học có giám sát dùng các cặp (dữ liệu, nhãn) để mô hình học cách dự đoán nhãn cho dữ liệu mới."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Học máy không giám sát",
+   "level": 1,
+   "stem": "Bài toán điển hình của học máy không giám sát là",
+   "options": [
+    "phân loại thư rác dựa trên thư đã gán nhãn",
+    "dự đoán giá nhà từ dữ liệu giá đã biết",
+    "phân cụm dữ liệu thành các nhóm có đặc điểm tương đồng",
+    "nhận dạng chữ viết tay từ ảnh đã gán nhãn"
+   ],
+   "answer": 2,
+   "explanation": "Học không giám sát làm việc với dữ liệu không nhãn, tự tìm cấu trúc ẩn như các cụm; ba ví dụ còn lại đều cần dữ liệu có nhãn."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Khoa học dữ liệu",
+   "level": 1,
+   "stem": "Mục tiêu chính của khoa học dữ liệu là",
+   "options": [
+    "thiết kế phần cứng lưu trữ dữ liệu",
+    "khai thác tri thức, thông tin có giá trị từ dữ liệu để hỗ trợ ra quyết định",
+    "xóa bỏ dữ liệu cũ để giải phóng bộ nhớ",
+    "nén dữ liệu để truyền qua mạng"
+   ],
+   "answer": 1,
+   "explanation": "Khoa học dữ liệu kết hợp thống kê, tin học và tri thức chuyên ngành để rút ra hiểu biết từ dữ liệu."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Dữ liệu lớn",
+   "level": 1,
+   "stem": "Đặc trưng nào sau đây mô tả \"Volume\" của dữ liệu lớn?",
+   "options": [
+    "Khối lượng dữ liệu rất lớn",
+    "Tốc độ sinh dữ liệu rất nhanh",
+    "Dữ liệu đa dạng về kiểu và nguồn",
+    "Độ tin cậy của dữ liệu"
+   ],
+   "answer": 0,
+   "explanation": "Volume – khối lượng; Velocity – tốc độ; Variety – tính đa dạng; Veracity – độ tin cậy; Value – giá trị."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Học máy có giám sát",
+   "level": 2,
+   "stem": "Hệ thống lọc thư rác được huấn luyện từ hàng nghìn thư đã được người dùng đánh dấu \"thư rác\" hoặc \"thư thường\". Đây là ứng dụng của",
+   "options": [
+    "học máy có giám sát",
+    "học máy không giám sát",
+    "mô phỏng",
+    "trực quan hóa dữ liệu"
+   ],
+   "answer": 0,
+   "explanation": "Dữ liệu huấn luyện có nhãn (rác/ thường), mô hình học để phân loại thư mới – đó là học có giám sát."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Học máy không giám sát",
+   "level": 2,
+   "stem": "Một siêu thị có dữ liệu mua sắm của khách hàng nhưng chưa biết có những nhóm khách hàng nào. Họ muốn máy tự chia khách hàng thành các nhóm có thói quen mua sắm giống nhau. Phương pháp phù hợp là",
+   "options": [
+    "học máy có giám sát (phân loại)",
+    "học máy không giám sát (phân cụm)",
+    "tìm kiếm nhị phân",
+    "sắp xếp nổi bọt"
+   ],
+   "answer": 1,
+   "explanation": "Dữ liệu chưa có nhãn nhóm, cần tự phát hiện các nhóm tương đồng – bài toán phân cụm của học không giám sát."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Trực quan hóa dữ liệu",
+   "level": 2,
+   "stem": "Để thể hiện sự thay đổi nhiệt độ trung bình theo từng tháng trong năm, loại biểu đồ phù hợp nhất là",
+   "options": [
+    "biểu đồ tròn",
+    "bản đồ nhiệt của một thời điểm",
+    "sơ đồ tư duy",
+    "biểu đồ đường"
+   ],
+   "answer": 3,
+   "explanation": "Biểu đồ đường thể hiện tốt xu hướng biến đổi của đại lượng theo thời gian; biểu đồ tròn dùng cho tỉ lệ các thành phần của tổng thể."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Mô phỏng",
+   "level": 2,
+   "stem": "Lợi ích chính của việc dùng phần mềm mô phỏng buồng lái để huấn luyện phi công là",
+   "options": [
+    "thay thế hoàn toàn việc bay thực tế",
+    "giúp máy bay bay nhanh hơn",
+    "luyện tập các tình huống nguy hiểm một cách an toàn và tiết kiệm chi phí",
+    "thu thập dữ liệu khách hàng của hãng bay"
+   ],
+   "answer": 2,
+   "explanation": "Mô phỏng tái hiện hệ thống thực trên máy tính, cho phép thử nghiệm, huấn luyện những tình huống khó hoặc nguy hiểm mà không gây rủi ro."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Khoa học dữ liệu",
+   "level": 2,
+   "stem": "Trong quy trình khoa học dữ liệu, việc phát hiện và xử lí các giá trị thiếu, trùng lặp, sai định dạng thuộc bước nào?",
+   "options": [
+    "Trực quan hóa kết quả",
+    "Triển khai mô hình",
+    "Xác định câu hỏi nghiên cứu",
+    "Làm sạch, tiền xử lí dữ liệu"
+   ],
+   "answer": 3,
+   "explanation": "Dữ liệu thu thập thường có lỗi; bước làm sạch (tiền xử lí) giúp dữ liệu chính xác trước khi phân tích, xây dựng mô hình."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Học máy",
+   "level": 3,
+   "stem": "Một nhóm học sinh dùng ảnh lá cây đã được chuyên gia ghi rõ \"lá khỏe\"/\"lá bệnh\" để huấn luyện mô hình. Mô hình đạt độ chính xác 99% trên chính tập ảnh huấn luyện nhưng chỉ 60% trên ảnh mới chụp. Nhận định nào hợp lí nhất?",
+   "options": [
+    "Mô hình đang \"học thuộc\" dữ liệu huấn luyện (quá khớp), cần thêm dữ liệu đa dạng và đánh giá trên tập kiểm tra riêng",
+    "Mô hình đã tốt, chỉ cần dùng ngay vì độ chính xác 99%",
+    "Nên chuyển sang học không giám sát vì dữ liệu có nhãn",
+    "Nên bỏ bớt ảnh huấn luyện để mô hình chạy nhanh hơn"
+   ],
+   "answer": 0,
+   "explanation": "Chênh lệch lớn giữa kết quả trên dữ liệu huấn luyện và dữ liệu mới cho thấy mô hình không khái quát hóa tốt; phải đánh giá trên dữ liệu chưa thấy và bổ sung dữ liệu đa dạng."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Nghề nghiệp trong lĩnh vực tin học",
+   "topic": "Nghề nghiệp trong lĩnh vực tin học",
+   "level": 1,
+   "stem": "Công việc chính của nhà phát triển phần mềm (lập trình viên) là",
+   "options": [
+    "lắp đặt hệ thống điện trong tòa nhà",
+    "thiết kế trang phục thời trang",
+    "kiểm toán sổ sách kế toán",
+    "phân tích yêu cầu, thiết kế, viết mã, kiểm thử và bảo trì phần mềm"
+   ],
+   "answer": 3,
+   "explanation": "Phát triển phần mềm bao gồm cả vòng đời: phân tích, thiết kế, lập trình, kiểm thử, triển khai và bảo trì."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Nghề nghiệp trong lĩnh vực tin học",
+   "topic": "Nghề nghiệp trong lĩnh vực tin học",
+   "level": 2,
+   "stem": "Người chịu trách nhiệm cài đặt, cấu hình, giám sát và đảm bảo hệ thống mạng của công ty hoạt động ổn định, an toàn là",
+   "options": [
+    "thiết kế đồ họa",
+    "quản trị mạng",
+    "nhà khoa học dữ liệu",
+    "kiểm thử viên phần mềm"
+   ],
+   "answer": 1,
+   "explanation": "Quản trị mạng lo cấu hình thiết bị mạng, máy chủ, phân quyền, giám sát và khắc phục sự cố mạng."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Nghề nghiệp trong lĩnh vực tin học",
+   "topic": "Nghề nghiệp trong lĩnh vực tin học",
+   "level": 3,
+   "stem": "Bạn Nam thích làm việc với số liệu, giỏi toán thống kê và lập trình Python, muốn tìm ra xu hướng từ dữ liệu để tư vấn cho doanh nghiệp. Nghề phù hợp nhất với Nam là",
+   "options": [
+    "kĩ thuật viên sửa chữa phần cứng",
+    "nhà khoa học dữ liệu (chuyên viên phân tích dữ liệu)",
+    "thiết kế giao diện đồ họa",
+    "quản trị mạng"
+   ],
+   "answer": 1,
+   "explanation": "Khoa học dữ liệu đòi hỏi nền tảng toán – thống kê, kĩ năng lập trình và khả năng phân tích, diễn giải dữ liệu – phù hợp với sở thích và năng lực của Nam."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Định dạng trang web với CSS",
+   "topic": "Bộ chọn CSS",
+   "level": 2,
+   "stem": "Cho đoạn HTML và CSS:\n<nav>\n  <a href=\"a.html\">Trang A</a>\n  <a href=\"b.html\" class=\"dang-xem\">Trang B</a>\n</nav>\n\nnav a { color: white; background-color: navy; padding: 8px; }\nnav a:hover { background-color: orange; }\n.dang-xem { font-weight: bold; }",
+   "statements": [
+    {
+     "t": "Cả hai liên kết đều có chữ màu trắng trên nền xanh đậm (navy).",
+     "a": true
+    },
+    {
+     "t": "Khi di chuột lên \"Trang A\", nền của nó chuyển thành màu cam.",
+     "a": true
+    },
+    {
+     "t": "Liên kết \"Trang A\" được in đậm.",
+     "a": false
+    },
+    {
+     "t": "Mẫu nav a cũng áp dụng cho các liên kết nằm ngoài thẻ <nav>.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: nav a chọn mọi a trong nav. b) Đúng: lớp giả :hover. c) Sai: chỉ Trang B có lớp dang-xem. d) Sai: bộ chọn con cháu chỉ chọn a nằm trong nav."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Học máy và dữ liệu",
+   "level": 2,
+   "stem": "Một bệnh viện thu thập hồ sơ khám bệnh của hàng triệu bệnh nhân, gồm số liệu xét nghiệm, ảnh chụp X-quang, ghi chú của bác sĩ, được cập nhật liên tục mỗi ngày.",
+   "statements": [
+    {
+     "t": "Dữ liệu này có tính đa dạng (Variety) vì gồm nhiều kiểu: số, ảnh, văn bản.",
+     "a": true
+    },
+    {
+     "t": "Dùng ảnh X-quang đã được bác sĩ chẩn đoán để huấn luyện mô hình phát hiện bệnh là học máy không giám sát.",
+     "a": false
+    },
+    {
+     "t": "Khi phân tích dữ liệu bệnh nhân cần bảo vệ thông tin cá nhân, quyền riêng tư của người bệnh.",
+     "a": true
+    },
+    {
+     "t": "Kết quả do mô hình học máy đưa ra luôn chính xác tuyệt đối nên không cần bác sĩ kiểm tra lại.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: ảnh đã có chẩn đoán (nhãn) nên là học có giám sát. c) Đúng: dữ liệu y tế là dữ liệu nhạy cảm. d) Sai: mô hình có thể sai, kết quả chỉ hỗ trợ, bác sĩ phải kiểm tra và quyết định."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Học máy và khoa học dữ liệu",
+   "topic": "Trực quan hóa dữ liệu",
+   "level": 3,
+   "stem": "Một nhóm học sinh khảo sát thời gian dùng mạng xã hội mỗi ngày của 200 bạn và điểm trung bình học kì, rồi dùng Python (thư viện matplotlib) để trực quan hóa.",
+   "statements": [
+    {
+     "t": "Để xem mối liên hệ giữa thời gian dùng mạng xã hội và điểm trung bình, biểu đồ phân tán (scatter) là phù hợp.",
+     "a": true
+    },
+    {
+     "t": "Biểu đồ tròn phù hợp để thể hiện tỉ lệ phần trăm học sinh theo các mức thời gian sử dụng.",
+     "a": true
+    },
+    {
+     "t": "Nếu biểu đồ cho thấy hai đại lượng có xu hướng ngược chiều thì chắc chắn dùng mạng xã hội là nguyên nhân làm điểm giảm.",
+     "a": false
+    },
+    {
+     "t": "Trước khi vẽ, nên loại bỏ hoặc xử lí các phiếu khảo sát bị thiếu, nhập sai (ví dụ 30 giờ/ngày).",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: biểu đồ phân tán thể hiện tương quan giữa hai biến số. b) Đúng: biểu đồ tròn thể hiện cơ cấu, tỉ lệ. c) Sai: tương quan không đồng nghĩa với quan hệ nhân quả. d) Đúng: làm sạch dữ liệu trước khi phân tích."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Nghề nghiệp trong lĩnh vực tin học",
+   "topic": "Nghề nghiệp trong lĩnh vực tin học",
+   "level": 2,
+   "stem": "Xét các phát biểu về một số nghề trong lĩnh vực tin học.",
+   "statements": [
+    {
+     "t": "Chuyên viên an toàn thông tin có nhiệm vụ phát hiện, phòng chống và xử lí các nguy cơ tấn công hệ thống.",
+     "a": true
+    },
+    {
+     "t": "Nghề thiết kế đồ họa và đa phương tiện không cần sử dụng phần mềm máy tính.",
+     "a": false
+    },
+    {
+     "t": "Người làm nghề tin học cần thường xuyên tự học vì công nghệ thay đổi nhanh.",
+     "a": true
+    },
+    {
+     "t": "Nhà khoa học dữ liệu chỉ cần biết lập trình, không cần kiến thức toán và thống kê.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: thiết kế đồ họa dùng các phần mềm như Photoshop, Illustrator, Inkscape, GIMP… c) Đúng. d) Sai: toán và thống kê là nền tảng của khoa học dữ liệu."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; các câu CSS (độ ưu tiên, kế thừa, mô hình hộp) đã lập luận lại theo quy tắc specificity và box-sizing, phép tính kích thước hộp đã kiểm lại bằng Python; câu học máy/ nghề nghiệp đối chiếu nội dung SGK Tin học 12 KNTT; phân bố đáp án A/B/C/D đã cân đối."
+}

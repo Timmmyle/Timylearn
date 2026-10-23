@@ -1,0 +1,642 @@
+{
+ "grade": 12,
+ "subject": "Tiếng Anh",
+ "exam": "ck2",
+ "duration_min": 60,
+ "title": "Đề ôn cuối học kì 2 – Tiếng Anh 12 (đề số 1)",
+ "scope": "Global Success 12: Unit 6 Artificial intelligence; Unit 7 The world of mass media; Unit 8 Wildlife conservation; trọng tâm Unit 9 Career paths và Unit 10 Lifelong learning (ngữ pháp: mệnh đề điều kiện – nhượng bộ (if, unless, provided that, although, despite), câu điều kiện hỗn hợp; ôn thể nhờ vả, cụm động từ, câu tường thuật)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "l$\\underline{\\text{ea}}$der",
+    "t$\\underline{\\text{ea}}$ch",
+    "r$\\underline{\\text{ea}}$ch",
+    "l$\\underline{\\text{ea}}$rn"
+   ],
+   "answer": 3,
+   "explanation": "“learn” có “ea” đọc /ɜː/; “reach”, “teach”, “leader” đọc /iː/."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Pronunciation",
+   "level": 1,
+   "stem": "Choose the word whose underlined part is pronounced differently from the others.",
+   "options": [
+    "skill$\\underline{\\text{s}}$",
+    "goal$\\underline{\\text{s}}$",
+    "job$\\underline{\\text{s}}$",
+    "course$\\underline{\\text{s}}$"
+   ],
+   "answer": 3,
+   "explanation": "“courses” tận cùng âm /s/ → “-s” đọc /ɪz/; “skills”, “jobs”, “goals” đọc /z/."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 1,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "salary",
+    "office",
+    "degree",
+    "subject"
+   ],
+   "answer": 2,
+   "explanation": "“degree” /dɪˈɡriː/ nhấn âm 2; “subject” (danh từ), “office”, “salary” nhấn âm 1."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Phát âm, trọng âm",
+   "topic": "Phonetics – Stress",
+   "level": 2,
+   "stem": "Choose the word that differs from the others in the position of primary stress.",
+   "options": [
+    "interview",
+    "employer",
+    "develop",
+    "certificate"
+   ],
+   "answer": 0,
+   "explanation": "“interview” /ˈɪntəvjuː/ nhấn âm 1; “employer”, “develop”, “certificate” /səˈtɪfɪkət/ nhấn âm 2."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 6: Artificial intelligence – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nFacial ______ technology can identify people from photos or videos.",
+   "options": [
+    "recognisable",
+    "recognised",
+    "recognition",
+    "recognise"
+   ],
+   "answer": 2,
+   "explanation": "“facial recognition” = nhận diện khuôn mặt; cần danh từ."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7: The world of mass media – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nTelevision, radio and newspapers are traditional forms of mass ______.",
+   "options": [
+    "medal",
+    "message",
+    "meeting",
+    "media"
+   ],
+   "answer": 3,
+   "explanation": "“mass media” = phương tiện truyền thông đại chúng."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 8: Wildlife conservation – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nThe government has set up more national parks to ______ endangered species.",
+   "options": [
+    "promote",
+    "produce",
+    "protect",
+    "prevent"
+   ],
+   "answer": 2,
+   "explanation": "protect = bảo vệ (loài nguy cấp)."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Career paths – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nAfter graduating, she wants to ______ a career in medicine.",
+   "options": [
+    "persuade",
+    "pursue",
+    "perform",
+    "purchase"
+   ],
+   "answer": 1,
+   "explanation": "“pursue a career” = theo đuổi sự nghiệp."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Career paths – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nYou should prepare a good ______ before applying for a job.",
+   "options": [
+    "CV",
+    "receipt",
+    "bill",
+    "menu"
+   ],
+   "answer": 0,
+   "explanation": "CV (sơ yếu lí lịch) là giấy tờ cần chuẩn bị khi xin việc."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 9: Career paths – Vocabulary",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nNurses need to be caring and ______ when they work with patients.",
+   "options": [
+    "impatient",
+    "patient",
+    "patiently",
+    "patience"
+   ],
+   "answer": 1,
+   "explanation": "Song song với tính từ “caring” → tính từ “patient” (kiên nhẫn); “impatient” trái nghĩa, không phù hợp."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10: Lifelong learning – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\n______ learning means continuing to learn throughout your life.",
+   "options": [
+    "Lifeless",
+    "Lifestyle",
+    "Lively",
+    "Lifelong"
+   ],
+   "answer": 3,
+   "explanation": "lifelong learning = học tập suốt đời."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 10: Lifelong learning – Vocabulary",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nOnline courses give adults the ______ to study while they are working.",
+   "options": [
+    "flexible",
+    "flexibly",
+    "inflexible",
+    "flexibility"
+   ],
+   "answer": 3,
+   "explanation": "Sau mạo từ “the” cần danh từ: flexibility (sự linh hoạt)."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu bị động",
+   "topic": "Unit 6 – Grammar: Active and passive causatives",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nShe got her assistant ______ the report.",
+   "options": [
+    "to type",
+    "typed",
+    "typing",
+    "type"
+   ],
+   "answer": 0,
+   "explanation": "Thể nhờ vả chủ động với “get”: get + người + to V → got her assistant to type."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Từ vựng, collocation",
+   "topic": "Unit 7 – Grammar: Phrasal verbs",
+   "level": 1,
+   "stem": "Choose the best option to complete the sentence.\nPlease ______ any words you don't know in the dictionary.",
+   "options": [
+    "look up",
+    "look after",
+    "look for",
+    "look into"
+   ],
+   "answer": 0,
+   "explanation": "look up (a word) = tra (từ) trong từ điển."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu tường thuật",
+   "topic": "Unit 8 – Grammar: Reported speech",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nThe scientist said that the number of wild tigers ______ sharply over the previous century.",
+   "options": [
+    "was fall",
+    "has fell",
+    "have falling",
+    "had fallen"
+   ],
+   "answer": 3,
+   "explanation": "Tường thuật với “said”, mốc “over the previous century” → lùi về quá khứ hoàn thành: had fallen; các phương án khác sai cấu trúc."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "topic": "Unit 9 – Grammar: Clauses of condition and concession",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nYou won't get the job ______ you have good communication skills.",
+   "options": [
+    "unless",
+    "although",
+    "if",
+    "because"
+   ],
+   "answer": 0,
+   "explanation": "unless = if … not: Bạn sẽ không được nhận trừ khi có kĩ năng giao tiếp tốt."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "topic": "Unit 9 – Grammar: Clauses of condition and concession",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\n______ he had little experience, he was offered the job.",
+   "options": [
+    "Although",
+    "Despite",
+    "Because of",
+    "Unless"
+   ],
+   "answer": 0,
+   "explanation": "Quan hệ tương phản, sau chỗ trống là mệnh đề → Although; Despite/Because of đi với cụm danh từ."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "topic": "Unit 9 – Grammar: Clauses of condition and concession",
+   "level": 2,
+   "stem": "Choose the best option to complete the sentence.\nYou can apply for this position ______ you have a university degree.",
+   "options": [
+    "unless",
+    "provided that",
+    "although",
+    "even though"
+   ],
+   "answer": 1,
+   "explanation": "provided that = với điều kiện là."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Unit 10 – Grammar: Mixed conditionals",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nIf I had studied harder at school, I ______ a better job now.",
+   "options": [
+    "had",
+    "will have",
+    "would have had",
+    "would have"
+   ],
+   "answer": 3,
+   "explanation": "Câu điều kiện hỗn hợp: điều kiện trái quá khứ (had studied) – kết quả trái hiện tại (now) → would + V: would have."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Unit 10 – Grammar: Mixed conditionals",
+   "level": 3,
+   "stem": "Choose the best option to complete the sentence.\nIf she weren't so busy, she ______ the online course last month.",
+   "options": [
+    "would have finished",
+    "would finish",
+    "finishes",
+    "will finish"
+   ],
+   "answer": 0,
+   "explanation": "Câu điều kiện hỗn hợp: điều kiện trái hiện tại (weren't so busy – tính cách/tình trạng lâu dài) – kết quả trái quá khứ (last month) → would have + V3."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nTeacher: “What do you want to be in the future?”\nNam: “______”",
+   "options": [
+    "I like it very much.",
+    "Yes, I want.",
+    "I'd like to become a software engineer.",
+    "I'm in Grade 12."
+   ],
+   "answer": 2,
+   "explanation": "Câu hỏi về nghề nghiệp tương lai → “I'd like to become …”."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "topic": "Communication",
+   "level": 1,
+   "stem": "Choose the most suitable response to complete the exchange.\nMai: “I've just been offered a job at a big tech company!”\nLan: “______”",
+   "options": [
+    "Help yourself.",
+    "Wow, that's great news! Congratulations!",
+    "I'm sorry to hear that.",
+    "Don't mention it."
+   ],
+   "answer": 1,
+   "explanation": "Đáp lại tin vui → chúc mừng."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "topic": "Arrangement – Conversation",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful conversation.\na. Nam: Because I'm good at maths and I love making apps.\nb. Lan: Why do you want to study computer science?\nc. Lan: That sounds great. Good luck with your entrance exam!\nd. Nam: I'm going to apply to study computer science at university.",
+   "options": [
+    "d – b – c – a",
+    "d – a – b – c",
+    "d – b – a – c",
+    "b – a – d – c"
+   ],
+   "answer": 2,
+   "explanation": "Nam nói dự định (d) → Lan hỏi lí do (b) → Nam giải thích (a) → Lan chúc may mắn (c)."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "topic": "Arrangement – Paragraph",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. Moreover, many employers now prefer workers who keep updating their skills.\nb. In today's fast-changing world, lifelong learning has become more important than ever.\nc. For these reasons, everyone should develop the habit of learning throughout their lives.\nd. New technologies appear every year, so the knowledge we learn at school soon becomes out of date.",
+   "options": [
+    "b – d – c – a",
+    "b – d – a – c",
+    "b – a – d – c",
+    "d – b – a – c"
+   ],
+   "answer": 1,
+   "explanation": "Câu chủ đề (b) → lí do thứ nhất (d) → “Moreover” lí do thứ hai (a) → kết luận “For these reasons” (c)."
+  },
+  {
+   "ord": 25,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 9: Career paths)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (25).\n\nChoosing a career is one of the most important decisions in a person's life. Before making a choice, you should think carefully (25) ______ your interests, skills and personality. For example, if you enjoy helping people with their problems, you may want to become a teacher, a nurse or a (26) ______. You should also do some research on the job market. Some jobs, (27) ______ well-paid now, may disappear in the future because of automation. (28) ______ you are still not sure what to do, you can talk to a careers adviser. Many schools now (29) ______ career fairs where students can meet employers and ask questions. My brother often says, “If I had attended a career fair when I was at school, I (30) ______ more confident about my job now.”\n\nBlank (25):",
+   "options": [
+    "at",
+    "with",
+    "about",
+    "for"
+   ],
+   "answer": 2,
+   "explanation": "think (carefully) about sth = suy nghĩ kĩ về điều gì."
+  },
+  {
+   "ord": 26,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 9: Career paths)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (26).\n\nChoosing a career is one of the most important decisions in a person's life. Before making a choice, you should think carefully (25) ______ your interests, skills and personality. For example, if you enjoy helping people with their problems, you may want to become a teacher, a nurse or a (26) ______. You should also do some research on the job market. Some jobs, (27) ______ well-paid now, may disappear in the future because of automation. (28) ______ you are still not sure what to do, you can talk to a careers adviser. Many schools now (29) ______ career fairs where students can meet employers and ask questions. My brother often says, “If I had attended a career fair when I was at school, I (30) ______ more confident about my job now.”\n\nBlank (26):",
+   "options": [
+    "truck driver",
+    "lab technician",
+    "social worker",
+    "computer programmer"
+   ],
+   "answer": 2,
+   "explanation": "Nghề giúp người khác giải quyết vấn đề của họ, cùng nhóm với giáo viên, y tá → social worker (nhân viên công tác xã hội)."
+  },
+  {
+   "ord": 27,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 9: Career paths)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (27).\n\nChoosing a career is one of the most important decisions in a person's life. Before making a choice, you should think carefully (25) ______ your interests, skills and personality. For example, if you enjoy helping people with their problems, you may want to become a teacher, a nurse or a (26) ______. You should also do some research on the job market. Some jobs, (27) ______ well-paid now, may disappear in the future because of automation. (28) ______ you are still not sure what to do, you can talk to a careers adviser. Many schools now (29) ______ career fairs where students can meet employers and ask questions. My brother often says, “If I had attended a career fair when I was at school, I (30) ______ more confident about my job now.”\n\nBlank (27):",
+   "options": [
+    "although",
+    "unless",
+    "because",
+    "despite"
+   ],
+   "answer": 0,
+   "explanation": "Mệnh đề rút gọn chỉ sự nhượng bộ: although (they are) well-paid; “despite” không đi với tính từ."
+  },
+  {
+   "ord": 28,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 9: Career paths)",
+   "level": 2,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (28).\n\nChoosing a career is one of the most important decisions in a person's life. Before making a choice, you should think carefully (25) ______ your interests, skills and personality. For example, if you enjoy helping people with their problems, you may want to become a teacher, a nurse or a (26) ______. You should also do some research on the job market. Some jobs, (27) ______ well-paid now, may disappear in the future because of automation. (28) ______ you are still not sure what to do, you can talk to a careers adviser. Many schools now (29) ______ career fairs where students can meet employers and ask questions. My brother often says, “If I had attended a career fair when I was at school, I (30) ______ more confident about my job now.”\n\nBlank (28):",
+   "options": [
+    "Unless",
+    "If",
+    "Although",
+    "Despite"
+   ],
+   "answer": 1,
+   "explanation": "Điều kiện có thật: Nếu bạn vẫn chưa chắc chắn → If; “Unless” làm sai nghĩa."
+  },
+  {
+   "ord": 29,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 9: Career paths)",
+   "level": 1,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (29).\n\nChoosing a career is one of the most important decisions in a person's life. Before making a choice, you should think carefully (25) ______ your interests, skills and personality. For example, if you enjoy helping people with their problems, you may want to become a teacher, a nurse or a (26) ______. You should also do some research on the job market. Some jobs, (27) ______ well-paid now, may disappear in the future because of automation. (28) ______ you are still not sure what to do, you can talk to a careers adviser. Many schools now (29) ______ career fairs where students can meet employers and ask questions. My brother often says, “If I had attended a career fair when I was at school, I (30) ______ more confident about my job now.”\n\nBlank (29):",
+   "options": [
+    "make",
+    "take",
+    "do",
+    "hold"
+   ],
+   "answer": 3,
+   "explanation": "hold a career fair = tổ chức hội chợ việc làm."
+  },
+  {
+   "ord": 30,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading – Cloze (Unit 9: Career paths)",
+   "level": 3,
+   "stem": "Read the passage and choose the option that best fits the numbered blank (30).\n\nChoosing a career is one of the most important decisions in a person's life. Before making a choice, you should think carefully (25) ______ your interests, skills and personality. For example, if you enjoy helping people with their problems, you may want to become a teacher, a nurse or a (26) ______. You should also do some research on the job market. Some jobs, (27) ______ well-paid now, may disappear in the future because of automation. (28) ______ you are still not sure what to do, you can talk to a careers adviser. Many schools now (29) ______ career fairs where students can meet employers and ask questions. My brother often says, “If I had attended a career fair when I was at school, I (30) ______ more confident about my job now.”\n\nBlank (30):",
+   "options": [
+    "felt",
+    "would have felt",
+    "would feel",
+    "will feel"
+   ],
+   "answer": 2,
+   "explanation": "Câu điều kiện hỗn hợp: điều kiện trái quá khứ (had attended) – kết quả trái hiện tại (now) → would feel."
+  },
+  {
+   "ord": 31,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 10: Lifelong learning)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nIn the past, people believed that education ended when they left school or university. Today, this idea is out of date. Because technology is developing so fast, the skills that workers need are changing all the time. Therefore, many people are now choosing to become lifelong learners.\n\nLifelong learning means continuing to gain knowledge and skills throughout your life. It can be formal, such as taking a university course in the evening, or informal, such as learning to cook from online videos or reading books about a new topic. Thanks to the Internet, it has never been easier to learn something new. There are thousands of free online courses on almost every subject, from computer programming to photography.\n\nLifelong learning brings many benefits. First, it helps people keep their jobs and get promoted, because employers value workers who can adapt to change. Second, learning new things keeps the brain active. Some studies suggest that older people who keep learning are less likely to have memory problems. Finally, lifelong learning can make life more enjoyable by helping people discover new hobbies and meet people with similar interests.\n\nOf course, it is not always easy to find time to study when you have a job and a family. However, even fifteen minutes a day can make a big difference. The key is to stay curious and never stop asking questions.\n\nWhat is the passage mainly about?",
+   "options": [
+    "The disadvantages of online courses",
+    "The history of universities",
+    "The meaning and benefits of lifelong learning",
+    "How to find a job after school"
+   ],
+   "answer": 2,
+   "explanation": "Bài giải thích học tập suốt đời là gì, các hình thức và lợi ích của nó."
+  },
+  {
+   "ord": 32,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 10: Lifelong learning)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nIn the past, people believed that education ended when they left school or university. Today, this idea is out of date. Because technology is developing so fast, the skills that workers need are changing all the time. Therefore, many people are now choosing to become lifelong learners.\n\nLifelong learning means continuing to gain knowledge and skills throughout your life. It can be formal, such as taking a university course in the evening, or informal, such as learning to cook from online videos or reading books about a new topic. Thanks to the Internet, it has never been easier to learn something new. There are thousands of free online courses on almost every subject, from computer programming to photography.\n\nLifelong learning brings many benefits. First, it helps people keep their jobs and get promoted, because employers value workers who can adapt to change. Second, learning new things keeps the brain active. Some studies suggest that older people who keep learning are less likely to have memory problems. Finally, lifelong learning can make life more enjoyable by helping people discover new hobbies and meet people with similar interests.\n\nOf course, it is not always easy to find time to study when you have a job and a family. However, even fifteen minutes a day can make a big difference. The key is to stay curious and never stop asking questions.\n\nAccording to paragraph 2, which of the following is an example of informal learning?",
+   "options": [
+    "Getting a degree from a college",
+    "Learning to cook from online videos",
+    "Taking a university course in the evening",
+    "Attending classes at school"
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 2: “informal, such as learning to cook from online videos or reading books about a new topic”."
+  },
+  {
+   "ord": 33,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 10: Lifelong learning)",
+   "level": 2,
+   "stem": "Read the passage and answer the question.\n\nIn the past, people believed that education ended when they left school or university. Today, this idea is out of date. Because technology is developing so fast, the skills that workers need are changing all the time. Therefore, many people are now choosing to become lifelong learners.\n\nLifelong learning means continuing to gain knowledge and skills throughout your life. It can be formal, such as taking a university course in the evening, or informal, such as learning to cook from online videos or reading books about a new topic. Thanks to the Internet, it has never been easier to learn something new. There are thousands of free online courses on almost every subject, from computer programming to photography.\n\nLifelong learning brings many benefits. First, it helps people keep their jobs and get promoted, because employers value workers who can adapt to change. Second, learning new things keeps the brain active. Some studies suggest that older people who keep learning are less likely to have memory problems. Finally, lifelong learning can make life more enjoyable by helping people discover new hobbies and meet people with similar interests.\n\nOf course, it is not always easy to find time to study when you have a job and a family. However, even fifteen minutes a day can make a big difference. The key is to stay curious and never stop asking questions.\n\nThe word “adapt” in paragraph 3 is closest in meaning to ______.",
+   "options": [
+    "refuse",
+    "repeat",
+    "adjust",
+    "ignore"
+   ],
+   "answer": 2,
+   "explanation": "adapt (to) = thích nghi, điều chỉnh theo = adjust (to)."
+  },
+  {
+   "ord": 34,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 10: Lifelong learning)",
+   "level": 1,
+   "stem": "Read the passage and answer the question.\n\nIn the past, people believed that education ended when they left school or university. Today, this idea is out of date. Because technology is developing so fast, the skills that workers need are changing all the time. Therefore, many people are now choosing to become lifelong learners.\n\nLifelong learning means continuing to gain knowledge and skills throughout your life. It can be formal, such as taking a university course in the evening, or informal, such as learning to cook from online videos or reading books about a new topic. Thanks to the Internet, it has never been easier to learn something new. There are thousands of free online courses on almost every subject, from computer programming to photography.\n\nLifelong learning brings many benefits. First, it helps people keep their jobs and get promoted, because employers value workers who can adapt to change. Second, learning new things keeps the brain active. Some studies suggest that older people who keep learning are less likely to have memory problems. Finally, lifelong learning can make life more enjoyable by helping people discover new hobbies and meet people with similar interests.\n\nOf course, it is not always easy to find time to study when you have a job and a family. However, even fifteen minutes a day can make a big difference. The key is to stay curious and never stop asking questions.\n\nAccording to paragraph 3, why do employers value lifelong learners?",
+   "options": [
+    "Because they have more free time.",
+    "Because they discover new hobbies.",
+    "Because they never ask questions.",
+    "Because they can adapt to change."
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 3: “employers value workers who can adapt to change”."
+  },
+  {
+   "ord": 35,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 10: Lifelong learning)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nIn the past, people believed that education ended when they left school or university. Today, this idea is out of date. Because technology is developing so fast, the skills that workers need are changing all the time. Therefore, many people are now choosing to become lifelong learners.\n\nLifelong learning means continuing to gain knowledge and skills throughout your life. It can be formal, such as taking a university course in the evening, or informal, such as learning to cook from online videos or reading books about a new topic. Thanks to the Internet, it has never been easier to learn something new. There are thousands of free online courses on almost every subject, from computer programming to photography.\n\nLifelong learning brings many benefits. First, it helps people keep their jobs and get promoted, because employers value workers who can adapt to change. Second, learning new things keeps the brain active. Some studies suggest that older people who keep learning are less likely to have memory problems. Finally, lifelong learning can make life more enjoyable by helping people discover new hobbies and meet people with similar interests.\n\nOf course, it is not always easy to find time to study when you have a job and a family. However, even fifteen minutes a day can make a big difference. The key is to stay curious and never stop asking questions.\n\nWhich of the following is NOT mentioned as a benefit of lifelong learning?",
+   "options": [
+    "Discovering new hobbies",
+    "Keeping the brain active",
+    "Keeping one's job and getting promoted",
+    "Earning a higher salary than one's manager"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 3 nêu giữ việc, thăng tiến, giữ trí não hoạt động, tìm sở thích mới; không nói đến lương cao hơn quản lí."
+  },
+  {
+   "ord": 36,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Đọc hiểu tiếng Anh",
+   "topic": "Reading comprehension (Unit 10: Lifelong learning)",
+   "level": 3,
+   "stem": "Read the passage and answer the question.\n\nIn the past, people believed that education ended when they left school or university. Today, this idea is out of date. Because technology is developing so fast, the skills that workers need are changing all the time. Therefore, many people are now choosing to become lifelong learners.\n\nLifelong learning means continuing to gain knowledge and skills throughout your life. It can be formal, such as taking a university course in the evening, or informal, such as learning to cook from online videos or reading books about a new topic. Thanks to the Internet, it has never been easier to learn something new. There are thousands of free online courses on almost every subject, from computer programming to photography.\n\nLifelong learning brings many benefits. First, it helps people keep their jobs and get promoted, because employers value workers who can adapt to change. Second, learning new things keeps the brain active. Some studies suggest that older people who keep learning are less likely to have memory problems. Finally, lifelong learning can make life more enjoyable by helping people discover new hobbies and meet people with similar interests.\n\nOf course, it is not always easy to find time to study when you have a job and a family. However, even fifteen minutes a day can make a big difference. The key is to stay curious and never stop asking questions.\n\nIt can be inferred from the last paragraph that ______.",
+   "options": [
+    "busy people can still be lifelong learners if they study a little every day",
+    "learning is only useful when it takes many hours a day",
+    "people with jobs and families cannot continue learning",
+    "curious people do not need to study"
+   ],
+   "answer": 0,
+   "explanation": "Đoạn cuối: dù bận, chỉ 15 phút mỗi ngày cũng tạo khác biệt lớn."
+  },
+  {
+   "ord": 37,
+   "qtype": "mcq",
+   "topic": "Error identification – Clauses of concession",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\n(A) Despite (B) she had no experience, she (C) was offered (D) the job.",
+   "options": [
+    "(A) Despite",
+    "(B) she had",
+    "(C) was offered",
+    "(D) the job"
+   ],
+   "answer": 0,
+   "explanation": "Sau “Despite” phải là cụm danh từ/V-ing; ở đây là mệnh đề → đổi thành Although."
+  },
+  {
+   "ord": 38,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Error identification – Mixed conditionals",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction in the following sentence:\nIf I (A) had learnt English when I was young, I (B) will have (C) more job opportunities (D) now.",
+   "options": [
+    "(A) had learnt",
+    "(B) will have",
+    "(C) more job opportunities",
+    "(D) now"
+   ],
+   "answer": 1,
+   "explanation": "Câu điều kiện hỗn hợp (trái quá khứ → kết quả hiện tại “now”): will have → would have."
+  },
+  {
+   "ord": 39,
+   "qtype": "mcq",
+   "tk": "Tiếng Anh|Câu điều kiện",
+   "topic": "Sentence transformation – Mixed conditionals",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nI didn't take the computer course, so I can't use this software now.",
+   "options": [
+    "If I had taken the computer course, I can use this software now.",
+    "If I had taken the computer course, I could use this software now.",
+    "If I hadn't taken the computer course, I couldn't use this software now.",
+    "If I took the computer course, I could have used this software now."
+   ],
+   "answer": 1,
+   "explanation": "Điều kiện trái quá khứ (had taken) – kết quả trái hiện tại (now) → could + V; đổi phủ định thành khẳng định."
+  },
+  {
+   "ord": 40,
+   "qtype": "mcq",
+   "topic": "Sentence transformation – Clauses of condition",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to the given one.\nYou must have a degree to apply for this job.",
+   "options": [
+    "You can apply for this job unless you have a degree.",
+    "You can't apply for this job unless you have a degree.",
+    "Unless you don't have a degree, you can't apply for this job.",
+    "You can't apply for this job if you have a degree."
+   ],
+   "answer": 1,
+   "explanation": "unless = if not: Không thể nộp đơn trừ khi có bằng cấp; “unless” không đi với mệnh đề phủ định."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 40 câu; khoảng 60% số câu thuộc Unit 9–10. Kiểm tra phiên âm/trọng âm, mỗi câu chỉ có một đáp án đúng, độ dài đoạn đọc, JSON và phân bố đáp án bằng Python. LƯU Ý: không tra lại được sách nên điểm ngữ pháp Unit 9 (mệnh đề điều kiện/ nhượng bộ) và Unit 10 (câu điều kiện hỗn hợp), cũng như Unit 7–8, được chọn theo trọng tâm phổ biến của lớp 12; nếu khác sách cần đổi nhãn topic. Mệnh đề điều kiện/nhượng bộ với liên từ không có chủ đề phù hợp trong TOPICS.md nên không gán tk (trừ câu điều kiện hỗn hợp gán “Câu điều kiện”)."
+}

@@ -1,0 +1,371 @@
+{
+ "grade": 11,
+ "subject": "Toán",
+ "exam": "gk2",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 2 – Toán 11 (đề số 1)",
+ "scope": "Chương VI Hàm số mũ và hàm số lôgarit (lũy thừa, lôgarit, hàm số mũ – lôgarit, phương trình và bất phương trình mũ – lôgarit); Chương VII Quan hệ vuông góc trong không gian (góc, đường thẳng và mặt phẳng vuông góc, góc nhị diện, khoảng cách, thể tích)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phép tính lũy thừa",
+   "level": 1,
+   "stem": "Cho số thực $a>0$. Biểu thức $a^{\\frac12}\\cdot a^{\\frac32}$ bằng",
+   "options": [
+    "$a^2$",
+    "$a^{\\frac34}$",
+    "$a^3$",
+    "$a$"
+   ],
+   "answer": 0,
+   "explanation": "$a^{\\frac12}\\cdot a^{\\frac32}=a^{\\frac12+\\frac32}=a^2$."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phép tính lôgarit",
+   "level": 1,
+   "stem": "Giá trị của $\\log_2 8$ bằng",
+   "options": [
+    "$4$",
+    "$3$",
+    "$\\dfrac13$",
+    "$2$"
+   ],
+   "answer": 1,
+   "explanation": "$2^3=8$ nên $\\log_2 8=3$."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phép tính lôgarit",
+   "level": 1,
+   "stem": "Với $a$, $b$ là các số thực dương tùy ý, $\\log(ab)$ bằng",
+   "options": [
+    "$\\log a\\cdot\\log b$",
+    "$\\log a-\\log b$",
+    "$\\log a+\\log b$",
+    "$b\\log a$"
+   ],
+   "answer": 2,
+   "explanation": "Lôgarit của một tích: $\\log(ab)=\\log a+\\log b$."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Hàm số mũ và hàm số lôgarit",
+   "level": 1,
+   "stem": "Hàm số nào sau đây nghịch biến trên $\\mathbb{R}$?",
+   "options": [
+    "$y=2^x$",
+    "$y=e^x$",
+    "$y=\\left(\\dfrac{\\pi}{3}\\right)^x$",
+    "$y=\\left(\\dfrac{2}{3}\\right)^x$"
+   ],
+   "answer": 3,
+   "explanation": "Hàm số $y=a^x$ nghịch biến khi $0<a<1$. Chỉ có $a=\\dfrac23$ thỏa mãn ($\\dfrac{\\pi}{3}>1$)."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phương trình mũ và lôgarit",
+   "level": 2,
+   "stem": "Nghiệm của phương trình $2^{x+1}=16$ là",
+   "options": [
+    "$x=4$",
+    "$x=3$",
+    "$x=7$",
+    "$x=2$"
+   ],
+   "answer": 1,
+   "explanation": "$2^{x+1}=2^4\\Leftrightarrow x+1=4\\Leftrightarrow x=3$."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Bất phương trình mũ và lôgarit",
+   "level": 2,
+   "stem": "Tập nghiệm của bất phương trình $\\log_3(x-1)<2$ là",
+   "options": [
+    "$(1;10)$",
+    "$(-\\infty;10)$",
+    "$(1;7)$",
+    "$(10;+\\infty)$"
+   ],
+   "answer": 0,
+   "explanation": "Điều kiện $x>1$. Vì cơ số $3>1$: $\\log_3(x-1)<2\\Leftrightarrow x-1<9\\Leftrightarrow x<10$. Tập nghiệm $(1;10)$."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Hàm số mũ và hàm số lôgarit",
+   "level": 2,
+   "stem": "Tập xác định của hàm số $y=\\log_2(x^2-4x+3)$ là",
+   "options": [
+    "$(1;3)$",
+    "$[1;3]$",
+    "$\\mathbb{R}\\setminus\\{1;3\\}$",
+    "$(-\\infty;1)\\cup(3;+\\infty)$"
+   ],
+   "answer": 3,
+   "explanation": "Cần $x^2-4x+3>0\\Leftrightarrow x<1$ hoặc $x>3$."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Hai đường thẳng vuông góc",
+   "level": 1,
+   "stem": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AB$ và $A'D'$ bằng",
+   "options": [
+    "$30^\\circ$",
+    "$45^\\circ$",
+    "$90^\\circ$",
+    "$60^\\circ$"
+   ],
+   "answer": 2,
+   "explanation": "$A'D'\\parallel AD$ nên góc giữa $AB$ và $A'D'$ bằng góc giữa $AB$ và $AD$, bằng $90^\\circ$."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Đường thẳng vuông góc với mặt phẳng",
+   "level": 1,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông và $SA\\perp(ABCD)$. Khẳng định nào sau đây đúng?",
+   "options": [
+    "$BC\\perp(SAB)$",
+    "$BC\\perp(SAC)$",
+    "$AC\\perp(SBD)$",
+    "$CD\\perp(SBC)$"
+   ],
+   "answer": 0,
+   "explanation": "$BC\\perp AB$ (hình vuông) và $BC\\perp SA$ (vì $SA\\perp(ABCD)$), mà $AB$, $SA$ cắt nhau trong $(SAB)$ nên $BC\\perp(SAB)$."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Thể tích",
+   "level": 2,
+   "stem": "Một khối chóp có diện tích đáy bằng $6$ và chiều cao bằng $4$. Thể tích của khối chóp đó bằng",
+   "options": [
+    "$24$",
+    "$12$",
+    "$8$",
+    "$10$"
+   ],
+   "answer": 2,
+   "explanation": "$V=\\dfrac13 Sh=\\dfrac13\\cdot6\\cdot4=8$."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Góc giữa đường thẳng và mặt phẳng",
+   "level": 2,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA\\perp(ABCD)$ và $SA=a\\sqrt2$. Góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ bằng",
+   "options": [
+    "$30^\\circ$",
+    "$45^\\circ$",
+    "$60^\\circ$",
+    "$90^\\circ$"
+   ],
+   "answer": 1,
+   "explanation": "$AC$ là hình chiếu của $SC$ trên $(ABCD)$ nên góc cần tìm là $\\widehat{SCA}$. $AC=a\\sqrt2=SA$ nên tam giác $SAC$ vuông cân tại $A$, $\\widehat{SCA}=45^\\circ$."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Khoảng cách",
+   "level": 3,
+   "stem": "Cho hình chóp $S.ABC$ có $SA\\perp(ABC)$, tam giác $ABC$ vuông tại $B$ và $SA=AB=a$. Khoảng cách từ $A$ đến mặt phẳng $(SBC)$ bằng",
+   "options": [
+    "$a$",
+    "$\\dfrac{a\\sqrt3}{2}$",
+    "$\\dfrac{a\\sqrt3}{3}$",
+    "$\\dfrac{a\\sqrt2}{2}$"
+   ],
+   "answer": 3,
+   "explanation": "$BC\\perp AB$, $BC\\perp SA$ nên $BC\\perp(SAB)$. Kẻ $AH\\perp SB$ tại $H$ thì $AH\\perp(SBC)$. Tam giác $SAB$ vuông cân tại $A$ nên $AH=\\dfrac{SB}{2}=\\dfrac{a\\sqrt2}{2}$."
+  },
+  {
+   "ord": 13,
+   "qtype": "tf",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phép tính lôgarit",
+   "level": 2,
+   "stem": "Đặt $a=\\log_2 3$.",
+   "statements": [
+    {
+     "t": "$\\log_2 9=2a$.",
+     "a": true
+    },
+    {
+     "t": "$\\log_2 12=a+2$.",
+     "a": true
+    },
+    {
+     "t": "$\\log_2\\dfrac34=a+2$.",
+     "a": false
+    },
+    {
+     "t": "$\\log_4 3=2a$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $\\log_2 9=2\\log_2 3$. b) Đúng: $\\log_2 12=\\log_2 3+\\log_2 4=a+2$. c) Sai: $\\log_2\\dfrac34=a-2$. d) Sai: $\\log_4 3=\\dfrac{\\log_2 3}{\\log_2 4}=\\dfrac a2$."
+  },
+  {
+   "ord": 14,
+   "qtype": "tf",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Hàm số mũ (ứng dụng lãi kép)",
+   "level": 3,
+   "stem": "Một người gửi $100$ triệu đồng vào ngân hàng với lãi suất $6\\%$/năm theo hình thức lãi kép (tiền lãi mỗi năm được nhập vào vốn), không rút tiền trong suốt thời gian gửi.",
+   "statements": [
+    {
+     "t": "Sau $1$ năm, người đó có $106$ triệu đồng.",
+     "a": true
+    },
+    {
+     "t": "Số tiền (triệu đồng) người đó có sau $n$ năm là $100\\cdot(1{,}06)^n$.",
+     "a": true
+    },
+    {
+     "t": "Sau $5$ năm, số tiền người đó có (làm tròn đến hàng phần mười) là $133{,}8$ triệu đồng.",
+     "a": true
+    },
+    {
+     "t": "Cần ít nhất $11$ năm để số tiền người đó có không ít hơn $200$ triệu đồng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $100\\cdot1{,}06=106$. b) Đúng theo công thức lãi kép. c) Đúng: $100\\cdot1{,}06^5\\approx133{,}82$. d) Sai: $1{,}06^n\\ge2\\Leftrightarrow n\\ge\\log_{1{,}06}2\\approx11{,}9$ nên cần ít nhất $12$ năm (sau $11$ năm chỉ có khoảng $189{,}8$ triệu)."
+  },
+  {
+   "ord": 15,
+   "qtype": "tf",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Đường thẳng vuông góc với mặt phẳng",
+   "level": 2,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA\\perp(ABCD)$ và $SA=a$.",
+   "statements": [
+    {
+     "t": "$BD\\perp(SAC)$.",
+     "a": true
+    },
+    {
+     "t": "$(SAB)\\perp(SAD)$.",
+     "a": true
+    },
+    {
+     "t": "Góc giữa đường thẳng $SB$ và mặt phẳng $(ABCD)$ bằng $60^\\circ$.",
+     "a": false
+    },
+    {
+     "t": "Thể tích khối chóp $S.ABCD$ bằng $\\dfrac{a^3}{3}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $BD\\perp AC$ và $BD\\perp SA$. b) Đúng: $AB\\perp(SAD)$ (vì $AB\\perp AD$, $AB\\perp SA$) mà $AB\\subset(SAB)$. c) Sai: góc là $\\widehat{SBA}$, $\\tan\\widehat{SBA}=\\dfrac{SA}{AB}=1$ nên bằng $45^\\circ$. d) Đúng: $V=\\dfrac13\\cdot a^2\\cdot a=\\dfrac{a^3}{3}$."
+  },
+  {
+   "ord": 16,
+   "qtype": "tf",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Góc nhị diện, thể tích lăng trụ",
+   "level": 3,
+   "stem": "Cho hình lăng trụ đứng $ABC.A'B'C'$ có đáy $ABC$ là tam giác đều cạnh $2$ và $AA'=3$. Gọi $M$ là trung điểm của $BC$.",
+   "statements": [
+    {
+     "t": "$AA'\\perp(ABC)$.",
+     "a": true
+    },
+    {
+     "t": "Diện tích tam giác $ABC$ bằng $\\sqrt3$.",
+     "a": true
+    },
+    {
+     "t": "Thể tích khối lăng trụ $ABC.A'B'C'$ bằng $\\sqrt3$.",
+     "a": false
+    },
+    {
+     "t": "Số đo của góc nhị diện $[A',BC,A]$ bằng $60^\\circ$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: lăng trụ đứng có cạnh bên vuông góc với đáy. b) Đúng: $S=\\dfrac{\\sqrt3}{4}\\cdot2^2=\\sqrt3$. c) Sai: $V=S\\cdot h=3\\sqrt3$. d) Đúng: $BC\\perp AM$, $BC\\perp AA'$ nên $BC\\perp A'M$; góc phẳng nhị diện là $\\widehat{A'MA}$ với $\\tan\\widehat{A'MA}=\\dfrac{AA'}{AM}=\\dfrac{3}{\\sqrt3}=\\sqrt3$, nên bằng $60^\\circ$."
+  },
+  {
+   "ord": 17,
+   "qtype": "short",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phép tính lôgarit",
+   "level": 1,
+   "stem": "Tính giá trị biểu thức $P=\\log_2 32+\\log_3 27$.",
+   "answer_text": "8",
+   "explanation": "$\\log_2 32=5$, $\\log_3 27=3$, nên $P=8$."
+  },
+  {
+   "ord": 18,
+   "qtype": "short",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Phương trình mũ và lôgarit",
+   "level": 2,
+   "stem": "Tính tổng các nghiệm của phương trình $4^x-6\\cdot2^x+8=0$.",
+   "answer_text": "3",
+   "explanation": "Đặt $t=2^x>0$: $t^2-6t+8=0\\Leftrightarrow t=2$ hoặc $t=4$, tức $x=1$ hoặc $x=2$. Tổng bằng $3$."
+  },
+  {
+   "ord": 19,
+   "qtype": "short",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Bất phương trình mũ và lôgarit",
+   "level": 3,
+   "stem": "Bất phương trình $\\log_{\\frac12}(x-2)\\ge-3$ có bao nhiêu nghiệm nguyên?",
+   "answer_text": "8",
+   "explanation": "Điều kiện $x>2$. Vì cơ số $\\dfrac12<1$: $\\log_{\\frac12}(x-2)\\ge-3\\Leftrightarrow x-2\\le\\left(\\dfrac12\\right)^{-3}=8\\Leftrightarrow x\\le10$. Nghiệm nguyên $x\\in\\{3;4;\\dots;10\\}$, có $8$ số."
+  },
+  {
+   "ord": 20,
+   "qtype": "short",
+   "tk": "Toán|Mũ – logarit",
+   "topic": "Hàm số mũ (ứng dụng)",
+   "level": 3,
+   "stem": "Số lượng vi khuẩn trong một mẻ nuôi cấy sau $t$ giờ được tính bởi $N(t)=500\\cdot e^{0{,}2t}$. Sau bao nhiêu giờ thì số vi khuẩn đạt $4000$ con? (làm tròn kết quả đến hàng phần mười)",
+   "answer_text": "10,4",
+   "explanation": "$500e^{0{,}2t}=4000\\Leftrightarrow e^{0{,}2t}=8\\Leftrightarrow t=\\dfrac{\\ln8}{0{,}2}=5\\ln8\\approx10{,}4$ giờ."
+  },
+  {
+   "ord": 21,
+   "qtype": "short",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Thể tích",
+   "level": 1,
+   "stem": "Tính thể tích của khối lăng trụ đứng có đáy là hình vuông cạnh $3$ cm và chiều cao $5$ cm (đơn vị: cm³).",
+   "answer_text": "45",
+   "explanation": "$V=S_{\\text{đáy}}\\cdot h=3^2\\cdot5=45$ cm³."
+  },
+  {
+   "ord": 22,
+   "qtype": "short",
+   "tk": "Toán|Quan hệ vuông góc – thể tích",
+   "topic": "Khoảng cách giữa hai đường thẳng chéo nhau",
+   "level": 3,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $2$, $SA\\perp(ABCD)$ và $SA=2$. Tính khoảng cách giữa hai đường thẳng $AB$ và $SC$ (làm tròn đến hàng phần trăm).",
+   "answer_text": "1,41",
+   "explanation": "$AB\\parallel CD$ nên $AB\\parallel(SCD)$, do đó $d(AB,SC)=d(A,(SCD))$. Vì $CD\\perp(SAD)$, kẻ $AH\\perp SD$ thì $AH\\perp(SCD)$. $AH=\\dfrac{SA\\cdot AD}{SD}=\\dfrac{4}{2\\sqrt2}=\\sqrt2\\approx1{,}41$."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập cả 22 câu; các câu tính toán kiểm bằng Python/SymPy bằng assert: lũy thừa, lôgarit, nghiệm phương trình/bất phương trình (đếm nghiệm nguyên bằng vòng lặp), lãi kép, thời gian tăng trưởng; các câu hình học không gian (góc giữa đường và mặt, góc nhị diện, khoảng cách từ điểm đến mặt phẳng, khoảng cách giữa hai đường chéo nhau, thể tích) được kiểm lại bằng cách đặt hệ tọa độ và tính bằng tích có hướng."
+}

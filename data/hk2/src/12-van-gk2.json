@@ -1,0 +1,102 @@
+{
+ "grade": 12,
+ "subject": "Ngữ văn",
+ "exam": "gk2",
+ "duration_min": 90,
+ "title": "Đề ôn giữa học kì 2 – Ngữ văn 12",
+ "scope": "Bài 6: Hồ Chí Minh – “Văn hóa phải soi đường cho quốc dân đi” (văn chính luận Hồ Chí Minh); viết đoạn nghị luận văn học và bài nghị luận xã hội",
+ "genre": "Văn bản nghị luận (văn chính luận)",
+ "work": {
+  "author": "Hồ Chí Minh",
+  "title": "Tuyên ngôn Độc lập (đoạn mở đầu)",
+  "source": "Hồ Chí Minh toàn tập; đọc ngày 2 tháng 9 năm 1945 tại Quảng trường Ba Đình, Hà Nội",
+  "public_domain_reason": "Tác giả mất năm 1969; văn bản viết trực tiếp bằng tiếng Việt"
+ },
+ "passage": "Hỡi đồng bào cả nước,\n“Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc.”\nLời bất hủ ấy ở trong bản Tuyên ngôn Độc lập năm 1776 của nước Mĩ. Suy rộng ra, câu ấy có ý nghĩa là: tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do.\nBản Tuyên ngôn Nhân quyền và Dân quyền của Cách mạng Pháp năm 1791 cũng nói: “Người ta sinh ra tự do và bình đẳng về quyền lợi; và phải luôn luôn được tự do và bình đẳng về quyền lợi”.\nĐó là những lẽ phải không ai chối cãi được.\nThế mà hơn 80 năm nay, bọn thực dân Pháp lợi dụng lá cờ tự do, bình đẳng, bác ái, đến cướp đất nước ta, áp bức đồng bào ta. Hành động của chúng trái hẳn với nhân đạo và chính nghĩa.",
+ "src": "(Trích Tuyên ngôn Độc lập, Hồ Chí Minh, ngày 2 tháng 9 năm 1945)\nHoàn cảnh: Sau khi Cách mạng tháng Tám thành công, ngày 26/8/1945 Chủ tịch Hồ Chí Minh từ chiến khu về Hà Nội, soạn thảo bản Tuyên ngôn Độc lập tại số nhà 48 phố Hàng Ngang. Ngày 2/9/1945, Người đọc bản Tuyên ngôn tại Quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.\nChú thích: bất hủ: còn mãi, không bao giờ mất; mưu cầu: tìm cách để đạt được; Tuyên ngôn Nhân quyền và Dân quyền: văn kiện của Cách mạng Pháp (thường ghi năm 1789; trong văn bản Tuyên ngôn Độc lập ghi năm 1791 – năm văn kiện được đưa vào Hiến pháp Pháp); bác ái: lòng thương yêu rộng khắp mọi người.",
+ "questions": [
+  {
+   "q": "Câu 1 (0,5 điểm). Văn bản được trích dẫn những văn kiện nào để làm căn cứ pháp lí? Chỉ ra câu văn nêu nhận định chung về những lời trích dẫn ấy.",
+   "type": "nhanbiet",
+   "points": [
+    "Tuyên ngôn Độc lập năm 1776 của nước Mĩ",
+    "Tuyên ngôn Nhân quyền và Dân quyền của Cách mạng Pháp năm 1791",
+    "Câu nhận định: “Đó là những lẽ phải không ai chối cãi được.”"
+   ],
+   "model": "Văn bản trích dẫn hai văn kiện: bản Tuyên ngôn Độc lập năm 1776 của nước Mĩ và bản Tuyên ngôn Nhân quyền và Dân quyền của Cách mạng Pháp năm 1791. Câu văn nêu nhận định chung là: “Đó là những lẽ phải không ai chối cãi được.”"
+  },
+  {
+   "q": "Câu 2 (0,5 điểm). Theo văn bản, con người có những quyền nào “không ai có thể xâm phạm được”?",
+   "type": "nhanbiet",
+   "points": [
+    "Quyền được sống",
+    "Quyền tự do",
+    "Quyền mưu cầu hạnh phúc"
+   ],
+   "model": "Theo lời trích từ Tuyên ngôn Độc lập của Mĩ, con người có những quyền không ai có thể xâm phạm được, trong đó có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc."
+  },
+  {
+   "q": "Câu 3 (1,0 điểm). Phân tích ý nghĩa của thao tác “Suy rộng ra” trong câu: “Suy rộng ra, câu ấy có ý nghĩa là: tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do.”",
+   "type": "tutu",
+   "points": [
+    "Từ quyền của mỗi con người (cá nhân) suy rộng thành quyền của các dân tộc",
+    "Đây là sáng tạo, đóng góp riêng của Hồ Chí Minh về tư tưởng quyền dân tộc",
+    "Tạo cơ sở lí luận vững chắc cho việc khẳng định quyền độc lập, tự do của dân tộc Việt Nam",
+    "Lập luận khéo léo, chặt chẽ, khó bác bỏ"
+   ],
+   "model": "Bằng thao tác “Suy rộng ra”, Hồ Chí Minh đã nâng quyền của mỗi con người cá nhân trong Tuyên ngôn của Mĩ thành quyền của các dân tộc: dân tộc nào cũng sinh ra bình đẳng, có quyền sống, quyền sung sướng, quyền tự do. Đây là một đóng góp sáng tạo, mang tầm vóc thời đại của Người. Thao tác này tạo ra cơ sở lí luận vững chắc cho việc khẳng định quyền độc lập của dân tộc Việt Nam, đồng thời khiến lập luận trở nên chặt chẽ, không ai có thể bác bỏ."
+  },
+  {
+   "q": "Câu 4 (1,0 điểm). Vì sao Hồ Chí Minh mở đầu bản Tuyên ngôn Độc lập bằng việc trích dẫn tuyên ngôn của Mĩ và Pháp? Câu “Thế mà hơn 80 năm nay, bọn thực dân Pháp lợi dụng lá cờ tự do, bình đẳng, bác ái, đến cướp đất nước ta…” có vai trò gì trong lập luận?",
+   "type": "noidung",
+   "points": [
+    "Dựa vào những chân lí được thế giới thừa nhận để làm cơ sở pháp lí, tăng sức thuyết phục",
+    "Khéo léo, kiên quyết: dùng chính lời của tổ tiên người Pháp, người Mĩ để ràng buộc họ (gậy ông đập lưng ông)",
+    "Đặt cuộc cách mạng và nền độc lập của Việt Nam ngang hàng với các cuộc cách mạng lớn của thế giới",
+    "Câu “Thế mà…”: chuyển ý, tạo sự đối lập, vạch trần sự giả nhân giả nghĩa của thực dân Pháp, chuẩn bị cho phần tố cáo tội ác"
+   ],
+   "model": "Hồ Chí Minh trích dẫn hai bản tuyên ngôn nổi tiếng vì đó là những chân lí đã được cả thế giới công nhận, làm căn cứ pháp lí vững chắc cho bản Tuyên ngôn. Cách mở đầu vừa khéo léo vừa kiên quyết: dùng chính lời lẽ của tổ tiên người Pháp, người Mĩ để ngăn chặn âm mưu xâm lược của họ, đồng thời đặt nền độc lập của Việt Nam ngang hàng với những cuộc cách mạng lớn. Câu “Thế mà hơn 80 năm nay…” là bước chuyển ý quan trọng: từ “lẽ phải” chuyển sang thực tế đối lập, vạch trần bộ mặt giả nhân giả nghĩa của thực dân Pháp và mở đường cho phần tố cáo tội ác của chúng."
+  },
+  {
+   "q": "Câu 5 (1,0 điểm). “Quyền mưu cầu hạnh phúc” được nhắc tới trong văn bản gợi cho anh/chị suy nghĩ gì về cách người trẻ hôm nay theo đuổi hạnh phúc của mình? (trình bày trong đoạn văn khoảng 5–7 dòng)",
+   "type": "quandiem",
+   "points": [
+    "Nêu rõ quan điểm",
+    "Lí giải: hạnh phúc là quyền chính đáng, nhưng phải được theo đuổi bằng nỗ lực và không xâm phạm quyền của người khác",
+    "Liên hệ: trân trọng nền hòa bình, độc lập mà cha ông đã giành được",
+    "Diễn đạt mạch lạc, đúng dung lượng"
+   ],
+   "model": "Quyền mưu cầu hạnh phúc là quyền chính đáng mà mỗi người được hưởng, và với người Việt Nam, quyền ấy được đánh đổi bằng xương máu của bao thế hệ. Vì vậy, người trẻ hôm nay cần theo đuổi hạnh phúc bằng chính sự nỗ lực của mình: học tập, lao động, sống trung thực. Hạnh phúc của mỗi người cũng không thể được xây dựng trên sự thiệt thòi, đau khổ của người khác. Biết trân trọng độc lập, hòa bình chính là nền tảng đầu tiên của hạnh phúc."
+  }
+ ],
+ "essays": [
+  {
+   "q": "Câu 1 (2,0 điểm). Viết đoạn văn nghị luận (khoảng 200 chữ) phân tích nghệ thuật lập luận trong đoạn mở đầu bản Tuyên ngôn Độc lập của Hồ Chí Minh.",
+   "type": "viet",
+   "points": [
+    "Đúng hình thức đoạn văn, khoảng 200 chữ, có câu chủ đề",
+    "Cách nêu cơ sở pháp lí: trích dẫn hai bản tuyên ngôn nổi tiếng, có chọn lọc",
+    "Sáng tạo “suy rộng ra” từ quyền con người đến quyền dân tộc",
+    "Câu khẳng định “Đó là những lẽ phải không ai chối cãi được” và bước chuyển “Thế mà…” vạch trần thực dân Pháp",
+    "Ngôn ngữ chính xác, ngắn gọn, giọng điệu đanh thép mà khéo léo",
+    "Đánh giá: phong cách chính luận Hồ Chí Minh; ý nghĩa lịch sử và giá trị nhân văn"
+   ],
+   "model": "Câu chủ đề: Đoạn mở đầu Tuyên ngôn Độc lập thể hiện nghệ thuật lập luận sắc sảo, chặt chẽ của Hồ Chí Minh.\n- Lời gọi “Hỡi đồng bào cả nước” trang trọng, gần gũi, hướng tới toàn dân và cả thế giới.\n- Trích dẫn hai bản tuyên ngôn của Mĩ và Pháp – chân lí được công nhận – làm căn cứ pháp lí; vừa khéo léo vừa kiên quyết.\n- “Suy rộng ra”: từ quyền con người đến quyền dân tộc – đóng góp sáng tạo của tác giả.\n- Khẳng định “những lẽ phải không ai chối cãi được”; bước chuyển “Thế mà…” vạch trần sự phản bội lí tưởng tự do, bình đẳng, bác ái của thực dân Pháp.\n- Đánh giá: ngôn ngữ chính xác, lập luận chặt chẽ, giàu sức thuyết phục – tiêu biểu cho phong cách chính luận Hồ Chí Minh."
+  },
+  {
+   "q": "Câu 2 (4,0 điểm). Viết bài văn nghị luận (khoảng 600 chữ) bàn về vấn đề: Tự do của người trẻ luôn gắn liền với trách nhiệm.",
+   "type": "viet",
+   "points": [
+    "Đúng kiểu bài nghị luận về một vấn đề xã hội, đủ mở bài – thân bài – kết bài, khoảng 600 chữ",
+    "Giải thích: tự do là được suy nghĩ, lựa chọn, hành động theo ý mình; trách nhiệm là ý thức về hậu quả, bổn phận với bản thân và cộng đồng",
+    "Bàn luận: vì sao tự do phải gắn với trách nhiệm (tự do không trách nhiệm dẫn tới tùy tiện, xâm phạm người khác)",
+    "Dẫn chứng: tự do ngôn luận trên mạng xã hội, lựa chọn nghề nghiệp, lối sống…",
+    "Phê phán lối sống “tự do” vô kỉ luật, vô trách nhiệm; bài học cho bản thân",
+    "Lập luận chặt chẽ, chính tả và ngữ pháp chuẩn"
+   ],
+   "model": "MB: Dẫn từ khẳng định “quyền tự do” trong Tuyên ngôn Độc lập, nêu vấn đề tự do gắn liền với trách nhiệm.\nTB1: Giải thích hai khái niệm và mối quan hệ giữa chúng.\nTB2: Bàn luận: tự do là khát vọng chính đáng, được trả giá bằng xương máu; nhưng tự do chỉ thật sự có ý nghĩa khi người ta chịu trách nhiệm về lựa chọn của mình và tôn trọng tự do của người khác.\nTB3: Dẫn chứng: bình luận, chia sẻ trên mạng xã hội; quyền chọn ngành học, chọn lối sống; người trẻ khởi nghiệp dám chịu trách nhiệm với thất bại.\nTB4: Phê phán những người nhân danh tự do để sống buông thả, xúc phạm người khác, vi phạm pháp luật.\nKB: Khẳng định tự do và trách nhiệm là hai mặt không tách rời; liên hệ bản thân."
+  }
+ ],
+ "confidence_note": "Rất chắc chắn về nguyên văn đoạn mở đầu Tuyên ngôn Độc lập (từ “Hỡi đồng bào cả nước” đến “trái hẳn với nhân đạo và chính nghĩa.”). Chính tả “Mĩ”, “Tạo hóa” theo SGK; năm 1791 giữ đúng như trong văn bản gốc.",
+ "self_check": "Đã đọc lại từng câu đoạn trích, giữ nguyên các trích dẫn lồng trong văn bản và năm 1776, 1791; đáp án đọc hiểu bám sát văn bản; chạy hk-check."
+}

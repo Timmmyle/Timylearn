@@ -1,0 +1,467 @@
+{
+ "grade": 11,
+ "subject": "Sinh học",
+ "exam": "gk1",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 1 – Sinh học 11 (đề số 1)",
+ "scope": "Chương 1 Trao đổi chất và chuyển hóa năng lượng ở thực vật: trao đổi nước và khoáng, quang hợp, hô hấp ở thực vật",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Trao đổi nước ở thực vật",
+   "level": 1,
+   "stem": "Ở thực vật trên cạn, nước và ion khoáng được hấp thụ từ đất vào rễ chủ yếu qua",
+   "options": [
+    "tế bào nội bì",
+    "tế bào mạch gỗ",
+    "tế bào chóp rễ",
+    "tế bào lông hút"
+   ],
+   "answer": 3,
+   "explanation": "Lông hút là tế bào biểu bì rễ kéo dài, thành mỏng, không thấm cutin, có không bào lớn và tạo bề mặt hấp thụ rất lớn."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Trao đổi nước ở thực vật",
+   "level": 1,
+   "stem": "Nước được hấp thụ từ đất vào tế bào lông hút theo cơ chế",
+   "options": [
+    "chủ động, tiêu tốn nhiều ATP",
+    "thẩm thấu, từ nơi có thế nước thấp đến nơi có thế nước cao",
+    "thẩm thấu, từ nơi có thế nước cao đến nơi có thế nước thấp",
+    "nhập bào nhờ biến dạng màng sinh chất"
+   ],
+   "answer": 2,
+   "explanation": "Dịch tế bào lông hút ưu trương so với dung dịch đất nên nước đi thụ động (thẩm thấu) từ đất (thế nước cao) vào tế bào (thế nước thấp)."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Vận chuyển các chất trong cây",
+   "level": 1,
+   "stem": "Dòng mạch rây vận chuyển chủ yếu",
+   "options": [
+    "các chất hữu cơ (sucrose, amino acid…) từ lá đến các cơ quan khác",
+    "nước và ion khoáng từ rễ lên lá",
+    "khí CO₂ từ lá xuống rễ",
+    "nước từ lá xuống rễ theo một chiều duy nhất"
+   ],
+   "answer": 0,
+   "explanation": "Mạch gỗ vận chuyển nước, khoáng từ rễ lên; mạch rây vận chuyển sản phẩm quang hợp từ lá (nơi nguồn) đến nơi sử dụng, dự trữ."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Vận chuyển các chất trong cây",
+   "level": 2,
+   "stem": "Lực đóng vai trò chủ yếu trong việc vận chuyển nước lên ngọn những cây gỗ cao hàng chục mét là",
+   "options": [
+    "lực đẩy của rễ (áp suất rễ)",
+    "lực co bóp của mạch rây",
+    "lực hút do thoát hơi nước ở lá",
+    "trọng lực của cột nước"
+   ],
+   "answer": 2,
+   "explanation": "Áp suất rễ chỉ đẩy nước lên vài mét; ở cây cao, lực hút do thoát hơi nước ở lá (động lực đầu trên) cùng lực liên kết giữa các phân tử nước là chủ yếu."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Thoát hơi nước",
+   "level": 1,
+   "stem": "Ở lá cây trưởng thành, thoát hơi nước diễn ra chủ yếu qua",
+   "options": [
+    "lớp cutin",
+    "khí khổng",
+    "gân lá",
+    "tế bào mô giậu"
+   ],
+   "answer": 1,
+   "explanation": "Thoát hơi nước qua khí khổng có vận tốc lớn và được điều chỉnh bằng sự đóng mở khí khổng; qua cutin chỉ chiếm phần nhỏ ở lá trưởng thành."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Vận chuyển các chất trong cây",
+   "level": 2,
+   "stem": "Vai trò của đai Caspary ở tế bào nội bì rễ là",
+   "options": [
+    "làm tăng tốc độ thoát hơi nước ở lá",
+    "giúp rễ cây bám chặt vào đất",
+    "dự trữ nước và chất khoáng cho rễ",
+    "buộc nước và ion đi theo con đường gian bào phải chuyển vào tế bào chất, giúp kiểm soát các chất vào mạch gỗ"
+   ],
+   "answer": 3,
+   "explanation": "Đai Caspary không thấm nước chặn con đường gian bào, buộc nước và ion đi qua màng tế bào nội bì nên được chọn lọc trước khi vào mạch gỗ."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Trao đổi khoáng và nitrogen",
+   "level": 1,
+   "stem": "Cây hấp thụ nitrogen từ đất chủ yếu ở dạng",
+   "options": [
+    "N₂ và NO₂",
+    "NH₄⁺ và NO₃⁻",
+    "NH₃ và N₂O",
+    "protein và amino acid"
+   ],
+   "answer": 1,
+   "explanation": "Rễ cây chỉ hấp thụ nitrogen dạng ion amonium (NH₄⁺) và nitrate (NO₃⁻); cây không sử dụng trực tiếp N₂ trong không khí."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Vai trò các nguyên tố khoáng",
+   "level": 3,
+   "stem": "Một cây ngô có các lá già chuyển màu vàng trước, sau đó lá non cũng vàng dần, cây còi cọc, sinh trưởng chậm. Cây này nhiều khả năng thiếu nguyên tố",
+   "options": [
+    "sắt",
+    "calcium",
+    "nitrogen",
+    "đồng"
+   ],
+   "answer": 2,
+   "explanation": "Nitrogen là thành phần của diệp lục, protein; N di động trong cây nên khi thiếu được huy động từ lá già sang lá non, lá già vàng trước. Thiếu Fe, Ca thường biểu hiện ở lá non trước."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Trao đổi khoáng và nitrogen",
+   "level": 2,
+   "stem": "Vi khuẩn cố định nitrogen (như Rhizobium trong nốt sần cây họ Đậu) có khả năng",
+   "options": [
+    "chuyển N₂ thành NH₃ nhờ enzyme nitrogenase",
+    "chuyển NO₃⁻ thành N₂ bay vào khí quyển",
+    "chuyển NH₄⁺ thành NO₃⁻ trong đất",
+    "phân giải protein xác sinh vật thành NH₄⁺"
+   ],
+   "answer": 0,
+   "explanation": "Vi khuẩn cố định nitrogen có enzyme nitrogenase phá liên kết ba bền vững của N₂, khử thành NH₃ (cung cấp NH₄⁺ cho cây)."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Trao đổi nước ở thực vật",
+   "level": 3,
+   "stem": "Một người bón quá nhiều phân hóa học cho cây rồi tưới ít nước, sau đó thấy cây bị héo. Nguyên nhân chủ yếu là",
+   "options": [
+    "dung dịch đất trở nên ưu trương, rễ không hút được nước mà còn bị mất nước",
+    "phân bón làm khí khổng đóng hoàn toàn",
+    "cây hấp thụ quá nhiều nước nên tế bào bị vỡ",
+    "phân bón phân giải diệp lục trong lá"
+   ],
+   "answer": 0,
+   "explanation": "Nồng độ chất tan trong đất cao hơn dịch bào lông hút, thế nước đất thấp hơn nên nước không vào rễ, thậm chí đi ra khỏi rễ, cây héo."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Quang hợp",
+   "level": 1,
+   "stem": "Sắc tố quang hợp trực tiếp chuyển hóa năng lượng ánh sáng thành năng lượng hóa học trong ATP, NADPH là",
+   "options": [
+    "chlorophyll b",
+    "carotene",
+    "xanthophyll",
+    "chlorophyll a"
+   ],
+   "answer": 3,
+   "explanation": "Chỉ chlorophyll a ở trung tâm phản ứng tham gia trực tiếp chuyển hóa quang năng thành hóa năng; các sắc tố khác hấp thụ và truyền năng lượng."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Quang hợp ở các nhóm thực vật",
+   "level": 1,
+   "stem": "Ở thực vật C3, sản phẩm ổn định đầu tiên của giai đoạn cố định CO₂ trong chu trình Calvin là",
+   "options": [
+    "3-phosphoglycerate (3-PGA)",
+    "oxaloacetate (OAA)",
+    "ribulose-1,5-bisphosphate (RuBP)",
+    "glucose"
+   ],
+   "answer": 0,
+   "explanation": "RuBP nhận CO₂ (nhờ Rubisco) tạo hợp chất 6C không bền, tách ngay thành 2 phân tử 3-PGA (3C). OAA là sản phẩm đầu tiên ở thực vật C4, CAM."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Quang hợp ở các nhóm thực vật",
+   "level": 2,
+   "stem": "Thực vật CAM (dứa, xương rồng, thanh long…) cố định CO₂ vào ban đêm nhằm",
+   "options": [
+    "tận dụng ánh sáng ban đêm để quang hợp",
+    "tránh cạnh tranh CO₂ với các loài khác",
+    "tăng cường hô hấp sáng vào ban ngày",
+    "tiết kiệm nước vì khí khổng chỉ mở vào ban đêm"
+   ],
+   "answer": 3,
+   "explanation": "Ở vùng khô hạn, ban ngày khí khổng đóng để giảm thoát hơi nước; CO₂ được cố định vào ban đêm thành acid hữu cơ, ban ngày giải phóng cho chu trình Calvin."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Các nhân tố ảnh hưởng đến quang hợp",
+   "level": 3,
+   "stem": "Khi cường độ ánh sáng bằng điểm bù ánh sáng, nhận định nào sau đây đúng?",
+   "options": [
+    "Cường độ quang hợp đạt giá trị cực đại",
+    "Cường độ quang hợp bằng cường độ hô hấp, cây không tích lũy chất hữu cơ",
+    "Cây ngừng hô hấp hoàn toàn",
+    "Cây tích lũy được nhiều chất hữu cơ nhất"
+   ],
+   "answer": 1,
+   "explanation": "Điểm bù ánh sáng là cường độ ánh sáng tại đó lượng CO₂ hấp thụ do quang hợp bằng lượng CO₂ thải ra do hô hấp, chất hữu cơ tích lũy bằng 0."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Các nhân tố ảnh hưởng đến quang hợp",
+   "level": 3,
+   "stem": "Trong một nhà kính trồng rau, ánh sáng, nhiệt độ, nước đều thuận lợi nhưng cường độ quang hợp vẫn thấp do không khí kín, ít lưu thông. Biện pháp hợp lí nhất để tăng năng suất là",
+   "options": [
+    "giảm nồng độ CO₂ trong nhà kính xuống thấp",
+    "tưới nước muối loãng cho cây",
+    "bổ sung CO₂ vào nhà kính đến nồng độ thích hợp",
+    "che tối hoàn toàn nhà kính vào ban ngày"
+   ],
+   "answer": 2,
+   "explanation": "Khi các yếu tố khác thuận lợi, nồng độ CO₂ là nhân tố giới hạn; tăng CO₂ (dưới điểm bão hòa CO₂) làm tăng cường độ quang hợp."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Hô hấp ở thực vật",
+   "level": 1,
+   "stem": "Ở tế bào thực vật, hô hấp hiếu khí diễn ra chủ yếu ở bào quan nào?",
+   "options": [
+    "Lục lạp",
+    "Ti thể",
+    "Không bào",
+    "Bộ máy Golgi"
+   ],
+   "answer": 1,
+   "explanation": "Chu trình Krebs và chuỗi truyền electron của hô hấp hiếu khí diễn ra trong ti thể; đường phân diễn ra ở tế bào chất."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Hô hấp sáng",
+   "level": 2,
+   "stem": "Hô hấp sáng xảy ra mạnh ở thực vật C3 trong điều kiện",
+   "options": [
+    "cường độ ánh sáng yếu, nồng độ CO₂ cao",
+    "cường độ ánh sáng cao, nồng độ O₂ trong lá cao và CO₂ thấp",
+    "trong tối, nồng độ O₂ thấp",
+    "nhiệt độ thấp, khí khổng mở rộng"
+   ],
+   "answer": 1,
+   "explanation": "Khi trời nắng gắt, khí khổng đóng, CO₂ trong lá cạn kiệt, O₂ tích lũy, Rubisco hoạt động như oxygenase gây hô hấp sáng, làm hao hụt sản phẩm quang hợp."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Hô hấp ở thực vật",
+   "level": 3,
+   "stem": "Biện pháp nào sau đây KHÔNG giúp bảo quản hạt giống được lâu?",
+   "options": [
+    "Phơi hoặc sấy khô hạt đến độ ẩm thích hợp",
+    "Bảo quản hạt ở nơi khô ráo, nhiệt độ thấp",
+    "Phun nước định kì để giữ hạt luôn ẩm",
+    "Bảo quản trong túi kín có nồng độ CO₂ cao"
+   ],
+   "answer": 2,
+   "explanation": "Bảo quản cần giảm cường độ hô hấp: giảm độ ẩm, nhiệt độ, tăng CO₂. Hạt ẩm hô hấp mạnh, tiêu hao chất dự trữ, sinh nhiệt, dễ nảy mầm hoặc mốc."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Thoát hơi nước",
+   "level": 1,
+   "stem": "Khi tìm hiểu về quá trình thoát hơi nước ở lá, một học sinh nêu các nhận định sau.",
+   "statements": [
+    {
+     "t": "Thoát hơi nước tạo động lực đầu trên, giúp vận chuyển nước và khoáng trong mạch gỗ.",
+     "a": true
+    },
+    {
+     "t": "Thoát hơi nước giúp hạ nhiệt độ bề mặt lá vào những ngày nắng nóng.",
+     "a": true
+    },
+    {
+     "t": "Khí khổng mở khi tế bào khí khổng (tế bào hạt đậu) mất nước.",
+     "a": false
+    },
+    {
+     "t": "Ở lá trưởng thành, thoát hơi nước qua cutin luôn mạnh hơn qua khí khổng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: tế bào khí khổng trương nước thì khí khổng mở, mất nước thì đóng. d) Sai: ở lá trưởng thành, lớp cutin dày, thoát hơi nước chủ yếu qua khí khổng."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Vai trò các nguyên tố khoáng",
+   "level": 2,
+   "stem": "Một nhà vườn tìm hiểu vai trò của các nguyên tố khoáng để bón phân hợp lí cho cây cà chua.",
+   "statements": [
+    {
+     "t": "Nitrogen là thành phần của protein, nucleic acid và diệp lục.",
+     "a": true
+    },
+    {
+     "t": "Phosphorus là thành phần của ATP, nucleic acid và phospholipid.",
+     "a": true
+    },
+    {
+     "t": "Magnesium là nguyên tố vi lượng, cây chỉ cần với lượng rất nhỏ.",
+     "a": false
+    },
+    {
+     "t": "Bón phân càng nhiều thì năng suất cà chua càng tăng, không có giới hạn.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: Mg là nguyên tố đa lượng, thành phần của diệp lục. d) Sai: bón thừa gây độc cho cây, lãng phí, ô nhiễm môi trường; cần bón đúng lượng, đúng lúc."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Thực hành quang hợp",
+   "level": 3,
+   "stem": "Thí nghiệm: đặt cành rong đuôi chó trong ống nghiệm chứa đầy nước, úp ngược trong cốc nước rồi chiếu sáng; quan sát thấy bọt khí thoát ra từ cành rong. Đặt đèn ở các khoảng cách khác nhau và đếm số bọt khí trong một phút.",
+   "statements": [
+    {
+     "t": "Khí thoát ra chủ yếu là O₂ sinh ra từ quá trình quang phân li nước.",
+     "a": true
+    },
+    {
+     "t": "Trong giới hạn nhất định (nước không bị nóng lên), đặt đèn càng gần thì số bọt khí thoát ra mỗi phút càng nhiều.",
+     "a": true
+    },
+    {
+     "t": "Nếu hòa thêm một ít NaHCO₃ vào nước (bổ sung CO₂) thì số bọt khí giảm.",
+     "a": false
+    },
+    {
+     "t": "Khi đặt ống nghiệm trong tối hoàn toàn, cành rong vẫn thải ra nhiều O₂ do hô hấp.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: cường độ ánh sáng tăng làm cường độ quang hợp tăng (dưới điểm bão hòa ánh sáng). c) Sai: NaHCO₃ cung cấp CO₂ nên quang hợp tăng, bọt khí tăng. d) Sai: hô hấp tiêu thụ O₂, trong tối không có quang hợp nên không thải O₂."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Hô hấp ở thực vật",
+   "level": 3,
+   "stem": "Thí nghiệm: bình A chứa hạt đậu đang nảy mầm, bình B chứa hạt đậu đã luộc chín; đậy kín hai bình. Sau 2 giờ, mở nắp và đưa que đóm đang cháy vào mỗi bình.",
+   "statements": [
+    {
+     "t": "Que đóm ở bình A tắt ngay vì O₂ trong bình đã bị hạt nảy mầm sử dụng cho hô hấp.",
+     "a": true
+    },
+    {
+     "t": "Que đóm ở bình B vẫn tiếp tục cháy.",
+     "a": true
+    },
+    {
+     "t": "Nếu dẫn khí trong mỗi bình qua nước vôi trong, nước vôi ở bình B vẩn đục nhiều hơn ở bình A.",
+     "a": false
+    },
+    {
+     "t": "Nhiệt độ trong bình A tăng nhẹ vì một phần năng lượng hô hấp được giải phóng dưới dạng nhiệt.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: hạt chết không hô hấp, O₂ còn nguyên. c) Sai: bình A có nhiều CO₂ do hô hấp nên nước vôi vẩn đục nhiều hơn. d) Đúng."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Quang hợp",
+   "level": 1,
+   "stem": "Theo phương trình tổng quát của quang hợp, để tổng hợp 1 phân tử glucose, cây cần cố định bao nhiêu phân tử CO₂?",
+   "answer_text": "6",
+   "explanation": "$\\mathrm{6CO_2 + 12H_2O \\to C_6H_{12}O_6 + 6O_2 + 6H_2O}$: cần 6 phân tử CO₂ cho 1 phân tử glucose."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Hô hấp ở thực vật",
+   "level": 2,
+   "stem": "Hệ số hô hấp RQ = số phân tử CO₂ thải ra : số phân tử O₂ hấp thụ. Malic acid bị phân giải hoàn toàn theo phương trình $\\mathrm{C_4H_6O_5 + 3O_2 \\to 4CO_2 + 3H_2O}$. Tính RQ khi nguyên liệu hô hấp là malic acid (làm tròn đến hàng phần trăm).",
+   "answer_text": "1,33",
+   "explanation": "RQ = 4 : 3 ≈ 1,33 (> 1, đặc trưng cho nguyên liệu là acid hữu cơ giàu oxygen)."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Thoát hơi nước",
+   "level": 2,
+   "stem": "Một cây hấp thụ 500 g nước, trong đó chỉ 1 g được giữ lại để cấu tạo cơ thể và tham gia các quá trình chuyển hóa, phần còn lại thoát ra ngoài qua lá. Lượng nước thoát hơi chiếm bao nhiêu phần trăm lượng nước cây hấp thụ (làm tròn đến hàng phần mười)?",
+   "answer_text": "99,8",
+   "explanation": "Phần trăm nước thoát hơi = (500 − 1) : 500 × 100% = 99,8%."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Thoát hơi nước",
+   "level": 3,
+   "stem": "Hệ số thoát hơi nước của một loài cây là 300, nghĩa là để tích lũy 1 g chất khô cây phải thoát 300 g nước. Một cây tích lũy được 40 g chất khô thì lượng nước đã thoát hơi là bao nhiêu kg?",
+   "answer_text": "12",
+   "explanation": "Lượng nước thoát = 300 × 40 = 12 000 g = 12 kg."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Trao đổi khoáng và nitrogen",
+   "level": 3,
+   "stem": "Để đạt năng suất mong muốn, một ruộng lúa cần 150 kg N/ha; đất đã cung cấp sẵn 30 kg N/ha; hệ số sử dụng phân bón nitrogen của cây là 60%. Phân urea chứa 46% N. Tính lượng urea cần bón cho 1 ha (kg, làm tròn đến hàng đơn vị).",
+   "answer_text": "435",
+   "explanation": "Lượng N cần bón = (150 − 30) : 0,6 = 200 kg. Lượng urea = 200 : 0,46 ≈ 434,8 ≈ 435 kg."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Trao đổi chất ở thực vật",
+   "topic": "Quang hợp",
+   "level": 2,
+   "stem": "Một cây quang hợp tạo ra 18 g glucose ($\\mathrm{C_6H_{12}O_6}$, M = 180 g/mol). Số mol O₂ được giải phóng là bao nhiêu?",
+   "answer_text": "0,6",
+   "explanation": "Số mol glucose = 18 : 180 = 0,1 mol; mỗi mol glucose tạo ra 6 mol O₂ nên giải phóng 0,6 mol O₂."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập toàn bộ 28 câu, phạm vi Bài 1–6 Sinh học 11 KNTT (trao đổi nước, khoáng, quang hợp, hô hấp ở thực vật); các câu tính toán 23–28 kiểm bằng Python (cân bằng phương trình malic acid, RQ, phần trăm, lượng urea)."
+}

@@ -1,0 +1,439 @@
+{
+ "grade": 11,
+ "subject": "Hóa học",
+ "exam": "ck2",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 2 – Hóa học 11",
+ "scope": "Chương 4 Hydrocarbon; Chương 5 Dẫn xuất halogen – Alcohol – Phenol; Chương 6 Hợp chất carbonyl (aldehyde, ketone) – Carboxylic acid",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Danh pháp alkyne",
+   "level": 1,
+   "stem": "Chất có công thức CH≡CH có tên thông thường là",
+   "options": [
+    "acetylene",
+    "ethylene",
+    "ethane",
+    "methane"
+   ],
+   "answer": 0,
+   "explanation": "CH≡CH là ethyne, tên thông thường acetylene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Dẫn xuất halogen",
+   "level": 1,
+   "stem": "Tên theo danh pháp thay thế của CH₃CH₂Cl là",
+   "options": [
+    "ethyl chloride",
+    "chloroethane",
+    "chloromethane",
+    "1-chloropropane"
+   ],
+   "answer": 1,
+   "explanation": "Mạch chính 2C (ethane), nhóm thế chloro: chloroethane (ethyl chloride là tên gốc – chức)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất vật lí của alkane",
+   "level": 1,
+   "stem": "Ở điều kiện thường, alkane nào sau đây ở thể lỏng?",
+   "options": [
+    "Methane",
+    "Propane",
+    "Hexane",
+    "Butane"
+   ],
+   "answer": 2,
+   "explanation": "Các alkane C1–C4 ở thể khí; hexane (C₆H₁₄) ở thể lỏng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Bậc của alcohol",
+   "level": 1,
+   "stem": "Alcohol nào sau đây là alcohol bậc II?",
+   "options": [
+    "Propan-1-ol",
+    "2-methylpropan-2-ol",
+    "Methanol",
+    "Propan-2-ol"
+   ],
+   "answer": 3,
+   "explanation": "Bậc alcohol là bậc của nguyên tử carbon gắn nhóm OH. Trong propan-2-ol CH₃–CH(OH)–CH₃, carbon gắn OH liên kết với 2 nguyên tử carbon khác nên là alcohol bậc II."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Danh pháp alkene",
+   "level": 2,
+   "stem": "Tên theo danh pháp thay thế của (CH₃)₂C=CH–CH₃ là",
+   "options": [
+    "3-methylbut-2-ene",
+    "2-methylbut-2-ene",
+    "2-methylbut-1-ene",
+    "pent-2-ene"
+   ],
+   "answer": 1,
+   "explanation": "Mạch chính 4C chứa liên kết đôi ở vị trí 2, nhánh methyl ở C2: 2-methylbut-2-ene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Carbonyl – carboxylic acid",
+   "topic": "Danh pháp aldehyde",
+   "level": 1,
+   "stem": "Chất CH₃CHO có tên theo danh pháp thay thế là",
+   "options": [
+    "ethanal",
+    "methanal",
+    "ethanol",
+    "ethanoic acid"
+   ],
+   "answer": 0,
+   "explanation": "CH₃CHO là aldehyde 2C: ethanal (tên thông thường acetaldehyde)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Alcohol – tính chất và độc tính",
+   "level": 1,
+   "stem": "Alcohol nào sau đây rất độc, uống phải dù lượng nhỏ có thể gây mù lòa hoặc tử vong?",
+   "options": [
+    "Ethanol",
+    "Glycerol",
+    "Sorbitol",
+    "Methanol"
+   ],
+   "answer": 3,
+   "explanation": "Methanol (CH₃OH) rất độc; trong cơ thể bị chuyển hóa thành formaldehyde và formic acid gây tổn thương thần kinh thị giác."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Phenol",
+   "level": 1,
+   "stem": "Chất nào sau đây thuộc loại phenol?",
+   "options": [
+    "C₆H₅CH₂OH",
+    "CH₃OH",
+    "C₆H₅OH",
+    "C₆H₅CH₃"
+   ],
+   "answer": 2,
+   "explanation": "Phenol là hợp chất có nhóm OH liên kết trực tiếp với vòng benzene. C₆H₅CH₂OH là benzyl alcohol vì OH gắn vào carbon no."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Arene",
+   "level": 1,
+   "stem": "Chất nào sau đây là arene?",
+   "options": [
+    "Cyclohexane",
+    "Hexane",
+    "Toluene",
+    "Hex-1-ene"
+   ],
+   "answer": 2,
+   "explanation": "Toluene (C₆H₅CH₃) có vòng benzene nên là arene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Dẫn xuất halogen – phản ứng tách",
+   "level": 2,
+   "stem": "Đun nóng 2-bromobutane với KOH trong ethanol, sản phẩm hữu cơ chính thu được là",
+   "options": [
+    "but-1-ene",
+    "butan-2-ol",
+    "butane",
+    "but-2-ene"
+   ],
+   "answer": 3,
+   "explanation": "KOH/ethanol, đun nóng gây phản ứng tách HBr. Theo quy tắc Zaitsev, H bị tách ở carbon bậc cao hơn bên cạnh, tạo alkene nhiều nhóm thế hơn: but-2-ene."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Tính chất hóa học của alcohol – oxi hóa",
+   "level": 2,
+   "stem": "Oxi hóa propan-2-ol bằng CuO đun nóng thu được sản phẩm hữu cơ là",
+   "options": [
+    "acetone",
+    "propanal",
+    "propanoic acid",
+    "propene"
+   ],
+   "answer": 0,
+   "explanation": "Alcohol bậc II bị oxi hóa thành ketone: CH₃CH(OH)CH₃ + CuO → CH₃COCH₃ + Cu + H₂O."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Polyalcohol",
+   "level": 2,
+   "stem": "Thuốc thử dùng để phân biệt glycerol với ethanol là",
+   "options": [
+    "Na",
+    "Cu(OH)₂",
+    "dung dịch NaCl",
+    "quỳ tím"
+   ],
+   "answer": 1,
+   "explanation": "Glycerol có các nhóm OH liền kề nên hòa tan Cu(OH)₂ tạo dung dịch màu xanh lam; ethanol không có phản ứng này. Cả hai đều tác dụng với Na và không làm đổi màu quỳ tím."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Carbonyl – carboxylic acid",
+   "topic": "Tính chất hóa học của aldehyde",
+   "level": 2,
+   "stem": "Chất nào sau đây phản ứng với thuốc thử Tollens tạo lớp bạc sáng?",
+   "options": [
+    "Acetone",
+    "Ethanol",
+    "Acetic acid",
+    "Formaldehyde"
+   ],
+   "answer": 3,
+   "explanation": "Aldehyde có nhóm –CHO bị oxi hóa bởi thuốc thử Tollens, giải phóng Ag. Ketone, alcohol và carboxylic acid như acetic acid không có phản ứng này."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkyne",
+   "level": 2,
+   "stem": "Chất nào sau đây tạo kết tủa với dung dịch AgNO₃ trong NH₃?",
+   "options": [
+    "But-2-yne",
+    "Buta-1,3-diene",
+    "But-1-yne",
+    "But-1-ene"
+   ],
+   "answer": 2,
+   "explanation": "Chỉ alkyne có liên kết ba đầu mạch (–C≡CH) như but-1-yne mới phản ứng thế nguyên tử H bằng Ag."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Carbonyl – carboxylic acid",
+   "topic": "Tính chất hóa học của carboxylic acid",
+   "level": 2,
+   "stem": "Acetic acid KHÔNG phản ứng với chất nào sau đây?",
+   "options": [
+    "Mg",
+    "Cu",
+    "NaOH",
+    "CaCO₃"
+   ],
+   "answer": 1,
+   "explanation": "Acetic acid có tính acid: tác dụng với kim loại đứng trước H (Mg), base (NaOH), muối carbonate (CaCO₃). Cu đứng sau H nên không phản ứng."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkyne",
+   "level": 3,
+   "stem": "Cho 0,1 mol acetylene phản ứng hoàn toàn với H₂ dư (xúc tác Ni, đun nóng) tạo ethane. Thể tích H₂ (đkc) đã phản ứng là",
+   "options": [
+    "4,958 L",
+    "2,479 L",
+    "7,437 L",
+    "2,24 L"
+   ],
+   "answer": 0,
+   "explanation": "C₂H₂ + 2H₂ → C₂H₆. n(H₂) = 0,2 mol; V = 0,2 · 24,79 = 4,958 L."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Tính chất hóa học của alcohol",
+   "level": 3,
+   "stem": "Cho 9,2 gam ethanol tác dụng với Na dư. Thể tích khí H₂ thu được ở đkc là (cho C = 12, H = 1, O = 16)",
+   "options": [
+    "2,479 L",
+    "4,958 L",
+    "1,2395 L",
+    "2,24 L"
+   ],
+   "answer": 0,
+   "explanation": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂. n(C₂H₅OH) = 9,2 : 46 = 0,2 mol, n(H₂) = 0,1 mol; V = 2,479 L."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Tính chất hóa học của phenol",
+   "level": 2,
+   "stem": "Nhỏ nước bromine vào dung dịch phenol, hiện tượng quan sát được là",
+   "options": [
+    "xuất hiện kết tủa vàng",
+    "dung dịch chuyển sang màu xanh lam",
+    "xuất hiện kết tủa trắng",
+    "có khí không màu thoát ra"
+   ],
+   "answer": 2,
+   "explanation": "Phenol phản ứng thế với bromine tạo 2,4,6-tribromophenol kết tủa trắng: C₆H₅OH + 3Br₂ → C₆H₂Br₃OH↓ + 3HBr."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Alkene",
+   "level": 2,
+   "stem": "Ethylene là nguyên liệu quan trọng của công nghiệp hóa chất, dùng để sản xuất polyethylene, ethanol, ethylene glycol,…",
+   "statements": [
+    {
+     "t": "Hydrate hóa ethylene (xúc tác acid, đun nóng) thu được ethanol.",
+     "a": true
+    },
+    {
+     "t": "Ethylene làm mất màu dung dịch KMnO₄.",
+     "a": true
+    },
+    {
+     "t": "Ethylene có đồng phân hình học.",
+     "a": false
+    },
+    {
+     "t": "Trùng hợp hoàn toàn 28 tấn ethylene thu được 28 tấn polyethylene.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: CH₂=CH₂ + H₂O → CH₃CH₂OH. b) Đúng: liên kết đôi bị oxi hóa tạo ethylene glycol. c) Sai: mỗi carbon của liên kết đôi gắn hai nguyên tử H giống nhau. d) Đúng: phản ứng trùng hợp bảo toàn khối lượng."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Ethanol",
+   "level": 2,
+   "stem": "Ethanol được dùng để pha chế đồ uống, làm dung môi, sát trùng và pha vào xăng sinh học E5.",
+   "statements": [
+    {
+     "t": "Ethanol tan vô hạn trong nước.",
+     "a": true
+    },
+    {
+     "t": "Đun ethanol với H₂SO₄ đặc ở 170 °C thu được ethylene.",
+     "a": true
+    },
+    {
+     "t": "Ethanol phản ứng với dung dịch NaOH tạo sodium ethoxide.",
+     "a": false
+    },
+    {
+     "t": "Oxi hóa ethanol bằng CuO đun nóng thu được acetaldehyde.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: ethanol tạo liên kết hydrogen với nước. b) Đúng: phản ứng tách nước tạo CH₂=CH₂. c) Sai: ethanol không thể hiện tính acid với NaOH; C₂H₅ONa tạo thành khi ethanol phản ứng với Na. d) Đúng: alcohol bậc I bị oxi hóa thành aldehyde."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Phenol",
+   "level": 2,
+   "stem": "Phenol (C₆H₅OH) là chất rắn không màu, được dùng sản xuất nhựa phenol – formaldehyde, chất diệt nấm mốc, thuốc nổ (2,4,6-trinitrophenol).",
+   "statements": [
+    {
+     "t": "Phenol tác dụng được với dung dịch NaOH.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch phenol làm quỳ tím hóa đỏ.",
+     "a": false
+    },
+    {
+     "t": "Phenol tác dụng với nước bromine tạo kết tủa trắng.",
+     "a": true
+    },
+    {
+     "t": "Nhóm OH làm phản ứng thế nguyên tử H ở vòng benzene của phenol dễ hơn so với benzene.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: C₆H₅OH + NaOH → C₆H₅ONa + H₂O. b) Sai: phenol có tính acid rất yếu, không làm đổi màu quỳ tím. c) Đúng: tạo 2,4,6-tribromophenol. d) Đúng: nhóm OH làm tăng mật độ electron ở vòng benzene."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Carbonyl – carboxylic acid",
+   "topic": "Carboxylic acid – chuẩn độ giấm ăn",
+   "level": 3,
+   "stem": "Để xác định hàm lượng acetic acid trong một loại giấm ăn, một học sinh lấy 10,0 mL giấm, thêm vài giọt phenolphthalein rồi chuẩn độ bằng dung dịch NaOH 0,50 M thì hết 16,0 mL. Cho C = 12, H = 1, O = 16.",
+   "statements": [
+    {
+     "t": "Phenolphthalein là chất chỉ thị phù hợp; kết thúc chuẩn độ khi dung dịch chuyển sang màu hồng nhạt bền.",
+     "a": true
+    },
+    {
+     "t": "Nồng độ acetic acid trong giấm là 0,40 M.",
+     "a": false
+    },
+    {
+     "t": "Acetic acid là acid mạnh, phân li hoàn toàn trong nước.",
+     "a": false
+    },
+    {
+     "t": "Trong 100 mL giấm có 4,8 gam acetic acid.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: n(CH₃COOH) = n(NaOH) = 0,50 · 0,016 = 0,008 mol, C = 0,008 : 0,010 = 0,80 M. c) Sai: acetic acid là acid yếu. d) Đúng: 100 mL giấm chứa 0,08 mol · 60 = 4,8 gam CH₃COOH."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Arene",
+   "level": 1,
+   "stem": "Một phân tử toluene có bao nhiêu nguyên tử carbon?",
+   "answer_text": "7",
+   "explanation": "Toluene là C₆H₅CH₃ (C₇H₈)."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Đồng phân arene",
+   "level": 2,
+   "stem": "Có bao nhiêu arene có công thức phân tử C₈H₁₀?",
+   "answer_text": "4",
+   "explanation": "Ethylbenzene, 1,2-dimethylbenzene (o-xylene), 1,3-dimethylbenzene (m-xylene) và 1,4-dimethylbenzene (p-xylene)."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Hydrocarbon",
+   "topic": "Tính chất hóa học của alkene",
+   "level": 3,
+   "stem": "Cho 4,2 gam một alkene X phản ứng vừa đủ với 16 gam Br₂ trong dung dịch. Phân tử khối của X là bao nhiêu? Cho Br = 80.",
+   "answer_text": "42",
+   "explanation": "Alkene cộng Br₂ theo tỉ lệ 1 : 1: n(X) = n(Br₂) = 16 : 160 = 0,1 mol; M(X) = 4,2 : 0,1 = 42 (C₃H₆)."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Đồng phân alcohol",
+   "level": 2,
+   "stem": "Có bao nhiêu alcohol là đồng phân cấu tạo có công thức phân tử C₄H₁₀O?",
+   "answer_text": "4",
+   "explanation": "Butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, 2-methylpropan-2-ol."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Alcohol – phenol",
+   "topic": "Tính chất hóa học của phenol",
+   "level": 3,
+   "stem": "Cho dung dịch chứa m gam phenol tác dụng với nước bromine dư thu được 6,62 gam kết tủa 2,4,6-tribromophenol. Tính m (gam, làm tròn đến hàng phần trăm). Cho C = 12, H = 1, O = 16, Br = 80.",
+   "answer_text": "1,88",
+   "explanation": "M(C₆H₂Br₃OH) = 331; n = 6,62 : 331 = 0,02 mol = n(phenol); m = 0,02 · 94 = 1,88 gam."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Carbonyl – carboxylic acid",
+   "topic": "Tính chất hóa học của aldehyde",
+   "level": 3,
+   "stem": "Cho 2,2 gam acetaldehyde tác dụng với lượng dư thuốc thử Tollens, đun nóng. Khối lượng Ag thu được là bao nhiêu gam (làm tròn đến hàng phần mười)? Cho C = 12, H = 1, O = 16, Ag = 108.",
+   "answer_text": "10,8",
+   "explanation": "CH₃CHO → 2Ag. n(CH₃CHO) = 2,2 : 44 = 0,05 mol, n(Ag) = 0,1 mol; m = 10,8 gam."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; 17/28 câu thuộc phần 2 (dẫn xuất halogen, alcohol, phenol, carbonyl, carboxylic acid). Kiểm tra bằng Python các câu 16, 17, 22 (chuẩn độ giấm), 25, 27, 28; đếm đồng phân (24, 26) bằng liệt kê thủ công."
+}

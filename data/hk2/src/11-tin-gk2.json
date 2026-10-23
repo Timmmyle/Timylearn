@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "Tin học",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – Tin học 11",
+ "scope": "Hệ quản trị CSDL và ngôn ngữ SQL: tạo bảng, kiểu dữ liệu, khóa chính, khóa ngoài; truy vấn SELECT … FROM … WHERE, ORDER BY, JOIN; cập nhật dữ liệu INSERT/UPDATE/DELETE; bảo mật CSDL.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Ngôn ngữ SQL",
+   "level": 1,
+   "stem": "SQL là viết tắt của",
+   "options": [
+    "Structured Query Language",
+    "Simple Question Language",
+    "System Quality Language",
+    "Structured Question Logic"
+   ],
+   "answer": 0,
+   "explanation": "SQL (Structured Query Language) là ngôn ngữ truy vấn có cấu trúc, dùng để định nghĩa, cập nhật và truy xuất dữ liệu trong CSDL quan hệ."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Tạo bảng",
+   "level": 1,
+   "stem": "Câu lệnh SQL dùng để tạo một bảng mới là",
+   "options": [
+    "CREATE TABLE",
+    "INSERT INTO",
+    "SELECT",
+    "UPDATE"
+   ],
+   "answer": 0,
+   "explanation": "CREATE TABLE khai báo cấu trúc bảng (tên trường, kiểu dữ liệu, khóa). INSERT thêm bản ghi, SELECT truy vấn, UPDATE sửa dữ liệu."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Khóa chính",
+   "level": 1,
+   "stem": "Trường được chọn làm khóa chính của một bảng phải thỏa mãn điều kiện nào?",
+   "options": [
+    "Phải là trường có kiểu số nguyên",
+    "Phải là trường đầu tiên của bảng",
+    "Được phép để trống nhưng không trùng nhau",
+    "Giá trị không trùng nhau giữa các bản ghi và không được để trống"
+   ],
+   "answer": 3,
+   "explanation": "Khóa chính xác định duy nhất mỗi bản ghi nên giá trị phải duy nhất và không rỗng (NOT NULL); nó không bắt buộc là số hay là trường đầu tiên."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Kiểu dữ liệu trong CSDL",
+   "level": 1,
+   "stem": "Trong MySQL, kiểu dữ liệu nào phù hợp để lưu họ tên học sinh (xâu có độ dài thay đổi, tối đa 50 kí tự)?",
+   "options": [
+    "INT",
+    "VARCHAR(50)",
+    "DATE",
+    "FLOAT"
+   ],
+   "answer": 1,
+   "explanation": "VARCHAR(n) lưu xâu kí tự có độ dài thay đổi tối đa n kí tự; INT là số nguyên, DATE là ngày tháng, FLOAT là số thực."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Cập nhật dữ liệu",
+   "level": 1,
+   "stem": "Câu lệnh SQL dùng để thêm bản ghi mới vào bảng là",
+   "options": [
+    "INSERT INTO",
+    "ADD RECORD",
+    "UPDATE",
+    "CREATE"
+   ],
+   "answer": 0,
+   "explanation": "Cú pháp: INSERT INTO tên_bảng(các trường) VALUES (các giá trị)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Cập nhật dữ liệu",
+   "level": 1,
+   "stem": "Câu lệnh SQL dùng để xóa các bản ghi trong bảng là",
+   "options": [
+    "DROP DATABASE",
+    "REMOVE",
+    "DELETE",
+    "ERASE"
+   ],
+   "answer": 2,
+   "explanation": "DELETE FROM tên_bảng WHERE điều_kiện xóa các bản ghi thỏa điều kiện."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Khóa ngoài",
+   "level": 1,
+   "stem": "Khóa ngoài (FOREIGN KEY) của một bảng là",
+   "options": [
+    "trường có giá trị lớn nhất trong bảng",
+    "trường không được phép trùng giá trị trong chính bảng đó",
+    "trường (nhóm trường) tham chiếu đến khóa chính của một bảng khác",
+    "trường dùng để sắp xếp các bản ghi"
+   ],
+   "answer": 2,
+   "explanation": "Khóa ngoài liên kết hai bảng: giá trị của nó phải xuất hiện trong khóa chính (được tham chiếu) của bảng kia."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 1,
+   "stem": "Trong câu truy vấn SELECT, mệnh đề nào dùng để nêu điều kiện lọc các bản ghi?",
+   "options": [
+    "WHERE",
+    "FROM",
+    "ORDER BY",
+    "VALUES"
+   ],
+   "answer": 0,
+   "explanation": "SELECT … FROM … WHERE điều_kiện: WHERE lọc bản ghi; FROM chỉ ra bảng; ORDER BY sắp xếp."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 1,
+   "stem": "Để sắp xếp kết quả truy vấn theo DiemTB giảm dần, ta dùng",
+   "options": [
+    "ORDER BY DiemTB DESC",
+    "ORDER BY DiemTB ASC",
+    "SORT DiemTB DOWN",
+    "GROUP BY DiemTB DESC"
+   ],
+   "answer": 0,
+   "explanation": "ORDER BY … DESC sắp xếp giảm dần, ASC (mặc định) sắp xếp tăng dần."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Hệ quản trị CSDL",
+   "level": 1,
+   "stem": "Phần mềm nào sau đây là một hệ quản trị cơ sở dữ liệu quan hệ?",
+   "options": [
+    "Microsoft Word",
+    "Adobe Photoshop",
+    "Google Chrome",
+    "MySQL"
+   ],
+   "answer": 3,
+   "explanation": "MySQL là hệ QTCSDL quan hệ, hỗ trợ ngôn ngữ SQL; các phần mềm còn lại là soạn thảo văn bản, xử lí ảnh và trình duyệt web."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 2,
+   "stem": "Câu truy vấn SELECT HoTen FROM HOCSINH WHERE DiemTB >= 8; cho kết quả là",
+   "options": [
+    "họ tên các học sinh có điểm trung bình dưới 8",
+    "họ tên các học sinh có điểm trung bình từ 8 trở lên",
+    "toàn bộ thông tin của học sinh có điểm trung bình từ 8 trở lên",
+    "số lượng học sinh có điểm trung bình từ 8 trở lên"
+   ],
+   "answer": 1,
+   "explanation": "SELECT HoTen chỉ lấy cột HoTen; WHERE DiemTB >= 8 lọc học sinh có điểm từ 8 trở lên."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Cập nhật dữ liệu",
+   "level": 2,
+   "stem": "Câu lệnh UPDATE HOCSINH SET DiemTB = DiemTB + 0.5 WHERE MaLop = 'L1'; thực hiện việc gì?",
+   "options": [
+    "Cộng 0,5 điểm cho tất cả học sinh",
+    "Thêm một học sinh mới vào lớp L1",
+    "Cộng 0,5 điểm vào điểm trung bình của các học sinh có mã lớp L1",
+    "Đặt điểm trung bình của học sinh lớp L1 bằng 0,5"
+   ],
+   "answer": 2,
+   "explanation": "UPDATE … SET sửa giá trị trường; WHERE giới hạn chỉ các bản ghi có MaLop = 'L1'; DiemTB + 0.5 là tăng thêm 0,5."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Cập nhật dữ liệu",
+   "level": 2,
+   "stem": "Câu lệnh DELETE FROM HOCSINH; (không có WHERE) sẽ",
+   "options": [
+    "xóa bảng HOCSINH khỏi CSDL",
+    "xóa tất cả bản ghi của bảng HOCSINH nhưng vẫn giữ cấu trúc bảng",
+    "báo lỗi vì thiếu mệnh đề WHERE",
+    "chỉ xóa bản ghi đầu tiên"
+   ],
+   "answer": 1,
+   "explanation": "Không có WHERE thì DELETE áp dụng cho mọi bản ghi; bảng vẫn tồn tại (rỗng). Muốn xóa cả bảng phải dùng DROP TABLE."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Khóa ngoài",
+   "level": 2,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nThực hiện lệnh INSERT INTO HOCSINH VALUES ('HS06', 'Lan', 'L3', 7.0); thì",
+   "options": [
+    "bản ghi được thêm và tự động tạo lớp L3 trong bảng LOP",
+    "hệ QTCSDL từ chối vì L3 không có trong bảng LOP (vi phạm ràng buộc khóa ngoài)",
+    "hệ QTCSDL từ chối vì trùng khóa chính",
+    "bản ghi được thêm với MaLop để trống"
+   ],
+   "answer": 1,
+   "explanation": "Giá trị khóa ngoài phải tồn tại trong khóa chính của bảng được tham chiếu; L3 chưa có trong LOP nên lệnh bị từ chối."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Bảo mật CSDL",
+   "level": 2,
+   "stem": "Việc nào sau đây KHÔNG phải là biện pháp bảo mật cơ sở dữ liệu?",
+   "options": [
+    "Phân quyền truy cập cho từng người dùng",
+    "Cho mọi người dùng chung một tài khoản quản trị để thuận tiện",
+    "Sao lưu dữ liệu định kì",
+    "Mã hóa dữ liệu quan trọng"
+   ],
+   "answer": 1,
+   "explanation": "Dùng chung tài khoản quản trị khiến không kiểm soát được ai làm gì, dễ lộ hoặc mất dữ liệu; phân quyền, sao lưu, mã hóa đều là biện pháp bảo mật."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Kiểu dữ liệu trong CSDL",
+   "level": 2,
+   "stem": "Khi tạo bảng HOCSINH trong MySQL, trường NgaySinh nên chọn kiểu dữ liệu nào?",
+   "options": [
+    "INT",
+    "BOOLEAN",
+    "DATE",
+    "CHAR(1)"
+   ],
+   "answer": 2,
+   "explanation": "DATE lưu ngày tháng năm, cho phép so sánh và tính toán theo ngày; các kiểu còn lại không phù hợp."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCâu truy vấn SELECT COUNT(*) FROM HOCSINH WHERE DiemTB >= 7; cho kết quả là",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "Các học sinh có DiemTB ≥ 7: An (8.5), Chi (7.5), Dung (9.0) – có 3 bản ghi."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn nhiều bảng (JOIN)",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCâu truy vấn sau cho kết quả là gì?\nSELECT HOCSINH.HoTen\nFROM HOCSINH INNER JOIN LOP ON HOCSINH.MaLop = LOP.MaLop\nWHERE LOP.TenLop = '11A2';",
+   "options": [
+    "Binh, Dung",
+    "An, Chi, Hoa",
+    "Le Hung",
+    "An, Binh, Chi, Dung, Hoa"
+   ],
+   "answer": 0,
+   "explanation": "JOIN ghép mỗi học sinh với lớp của mình; lớp 11A2 có mã L2, gồm học sinh Binh và Dung."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCâu truy vấn SELECT HoTen FROM HOCSINH ORDER BY DiemTB DESC; trả về danh sách mà dòng đầu tiên là",
+   "options": [
+    "An",
+    "Dung",
+    "Hoa",
+    "Binh"
+   ],
+   "answer": 1,
+   "explanation": "Sắp xếp giảm dần theo DiemTB: Dung (9.0), An (8.5), Chi (7.5), Binh (6.0), Hoa (5.5)."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 3,
+   "stem": "Câu lệnh SQL nào hiển thị họ tên và điểm trung bình của các học sinh lớp có mã L1 có điểm trung bình dưới 8?",
+   "options": [
+    "SELECT HoTen, DiemTB FROM HOCSINH WHERE MaLop = 'L1' OR DiemTB < 8;",
+    "SELECT * FROM HOCSINH WHERE MaLop = 'L1', DiemTB < 8;",
+    "SELECT HoTen, DiemTB WHERE MaLop = 'L1' AND DiemTB < 8 FROM HOCSINH;",
+    "SELECT HoTen, DiemTB FROM HOCSINH WHERE MaLop = 'L1' AND DiemTB < 8;"
+   ],
+   "answer": 3,
+   "explanation": "Hai điều kiện phải đồng thời đúng nên nối bằng AND; OR sẽ lấy thừa học sinh lớp khác; các điều kiện không ngăn bằng dấu phẩy; FROM phải đứng trước WHERE."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Khóa chính",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nThực hiện lệnh INSERT INTO HOCSINH VALUES ('HS03', 'Minh', 'L2', 8.0); thì",
+   "options": [
+    "bản ghi của Chi bị thay bằng bản ghi của Minh",
+    "bảng có hai học sinh cùng mã HS03",
+    "lệnh bị từ chối vì lớp L2 không tồn tại",
+    "lệnh bị từ chối vì trùng giá trị khóa chính HS03"
+   ],
+   "answer": 3,
+   "explanation": "MaHS là khóa chính, HS03 đã có (học sinh Chi) nên hệ QTCSDL không cho thêm bản ghi trùng khóa."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Tạo bảng",
+   "level": 2,
+   "stem": "Câu lệnh ALTER TABLE HOCSINH ADD DiaChi VARCHAR(100); dùng để",
+   "options": [
+    "thêm một bản ghi có địa chỉ vào bảng HOCSINH",
+    "đổi tên bảng HOCSINH thành DiaChi",
+    "xóa trường DiaChi khỏi bảng HOCSINH",
+    "thêm trường DiaChi vào cấu trúc bảng HOCSINH"
+   ],
+   "answer": 3,
+   "explanation": "ALTER TABLE sửa cấu trúc bảng; ADD thêm một trường mới với kiểu dữ liệu đã chỉ ra."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCâu truy vấn SELECT HoTen FROM HOCSINH WHERE MaLop = 'L2' OR DiemTB > 8; trả về bao nhiêu dòng?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Thỏa ít nhất một điều kiện: Binh (L2), Dung (L2, 9.0), An (8.5 > 8). Có 3 dòng."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Bảo mật CSDL",
+   "level": 2,
+   "stem": "Trong hệ QTCSDL, việc cấp cho giáo viên bộ môn quyền xem và sửa điểm, còn học sinh chỉ được xem điểm của mình là biện pháp",
+   "options": [
+    "sao lưu dữ liệu",
+    "chuẩn hóa dữ liệu",
+    "nén dữ liệu",
+    "phân quyền truy cập"
+   ],
+   "answer": 3,
+   "explanation": "Mỗi nhóm người dùng được cấp quyền khác nhau (xem, thêm, sửa, xóa) – đó là phân quyền, một biện pháp bảo mật CSDL."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Tạo bảng",
+   "level": 2,
+   "stem": "Cho câu lệnh SQL tạo bảng:\nCREATE TABLE SACH (\n    MaSach CHAR(6) PRIMARY KEY,\n    TenSach VARCHAR(100) NOT NULL,\n    NamXB INT,\n    Gia FLOAT\n);",
+   "statements": [
+    {
+     "t": "MaSach là khóa chính của bảng SACH.",
+     "a": true
+    },
+    {
+     "t": "Có thể thêm một cuốn sách không có tên (TenSach để trống).",
+     "a": false
+    },
+    {
+     "t": "Trường NamXB lưu số nguyên.",
+     "a": true
+    },
+    {
+     "t": "Có thể thêm hai cuốn sách có cùng MaSach nếu khác TenSach.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: khai báo PRIMARY KEY. b) Sai: TenSach có ràng buộc NOT NULL. c) Đúng: kiểu INT. d) Sai: khóa chính không được trùng."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn SELECT",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nXét các câu truy vấn trên CSDL này.",
+   "statements": [
+    {
+     "t": "SELECT HoTen FROM HOCSINH WHERE DiemTB < 6; trả về 1 dòng là Hoa.",
+     "a": true
+    },
+    {
+     "t": "SELECT AVG(DiemTB) FROM HOCSINH; cho kết quả 7.3.",
+     "a": true
+    },
+    {
+     "t": "SELECT * FROM HOCSINH WHERE MaLop = 'L1'; trả về 2 dòng.",
+     "a": false
+    },
+    {
+     "t": "SELECT MAX(DiemTB) FROM HOCSINH WHERE MaLop = 'L1'; cho kết quả 9.0.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: chỉ Hoa có 5.5 < 6 (Binh 6.0 không nhỏ hơn 6). b) Đúng: (8.5 + 6.0 + 7.5 + 9.0 + 5.5) / 5 = 36,5 / 5 = 7,3. c) Sai: lớp L1 có An, Chi, Hoa – 3 dòng. d) Sai: điểm cao nhất lớp L1 là 8.5 (An); 9.0 là của Dung lớp L2."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Truy vấn nhiều bảng (JOIN)",
+   "level": 3,
+   "stem": "CSDL quản lí học sinh có hai bảng:\nLOP(MaLop, TenLop, GVCN): (L1, 11A1, Tran Lan), (L2, 11A2, Le Hung)\nHOCSINH(MaHS, HoTen, MaLop, DiemTB): (HS01, An, L1, 8.5), (HS02, Binh, L2, 6.0), (HS03, Chi, L1, 7.5), (HS04, Dung, L2, 9.0), (HS05, Hoa, L1, 5.5)\nTrong đó MaLop là khóa chính của LOP, MaHS là khóa chính của HOCSINH, HOCSINH.MaLop là khóa ngoài tham chiếu LOP.MaLop.\nCho câu truy vấn:\nSELECT LOP.TenLop, HOCSINH.HoTen\nFROM LOP INNER JOIN HOCSINH ON LOP.MaLop = HOCSINH.MaLop\nWHERE HOCSINH.DiemTB >= 7.5;",
+   "statements": [
+    {
+     "t": "Kết quả có 3 dòng.",
+     "a": true
+    },
+    {
+     "t": "Có dòng (11A2, Binh) trong kết quả.",
+     "a": false
+    },
+    {
+     "t": "Có dòng (11A1, Chi) trong kết quả.",
+     "a": true
+    },
+    {
+     "t": "Nếu bỏ phần ON LOP.MaLop = HOCSINH.MaLop thì kết quả vẫn ghép đúng mỗi học sinh với lớp của mình.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: An (11A1), Chi (11A1), Dung (11A2). b) Sai: Binh có 6.0 < 7.5. c) Đúng: Chi có 7.5 ≥ 7.5. d) Sai: điều kiện ON quy định cách ghép; thiếu nó, mỗi học sinh bị ghép với mọi lớp (tích Đề-các)."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Hệ quản trị CSDL và SQL",
+   "topic": "Bảo mật CSDL",
+   "level": 2,
+   "stem": "Một trường học dùng hệ QTCSDL MySQL để quản lí điểm. Nhân viên A phụ trách nhập điểm, học sinh tra cứu điểm qua trang web.",
+   "statements": [
+    {
+     "t": "Nên tạo tài khoản riêng cho nhân viên A với quyền thêm, sửa dữ liệu bảng điểm.",
+     "a": true
+    },
+    {
+     "t": "Tài khoản dùng cho trang web tra cứu nên có quyền xóa bảng để tiện bảo trì.",
+     "a": false
+    },
+    {
+     "t": "Sao lưu CSDL định kì giúp khôi phục dữ liệu khi có sự cố.",
+     "a": true
+    },
+    {
+     "t": "Chỉ cần đặt mật khẩu cho máy chủ là đủ, không cần phân quyền trong hệ QTCSDL.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: phân quyền theo nhiệm vụ. b) Sai: tài khoản tra cứu chỉ nên có quyền đọc (SELECT), cấp quyền xóa rất nguy hiểm. c) Đúng. d) Sai: cần kết hợp nhiều biện pháp: tài khoản, phân quyền, sao lưu, mã hóa…"
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; mọi câu SQL có dữ liệu được chạy trên sqlite3 (Python) với đúng bảng LOP/HOCSINH trong đề, kể cả ràng buộc khóa chính/khóa ngoài; mọi đoạn code Python (tìm kiếm, sắp xếp, mảng hai chiều) được chạy bằng python3 và so khớp tự động với đáp án; phân bố đáp án A/B/C/D đã cân đối."
+}

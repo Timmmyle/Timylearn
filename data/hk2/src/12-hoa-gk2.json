@@ -1,0 +1,439 @@
+{
+ "grade": 12,
+ "subject": "Hóa học",
+ "exam": "gk2",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 2 – Hóa học 12",
+ "scope": "Chương 5 Pin điện và điện phân (thế điện cực chuẩn, pin Galvani, điện phân, ứng dụng); Chương 6 Đại cương về kim loại (cấu tạo, tính chất vật lí, tính chất hóa học, tách kim loại, hợp kim, sự ăn mòn kim loại)",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Pin Galvani",
+   "level": 1,
+   "stem": "Trong pin điện hóa Zn – Cu, điện cực Zn đóng vai trò",
+   "options": [
+    "anode, tại đó xảy ra quá trình oxi hóa",
+    "cathode, tại đó xảy ra quá trình khử",
+    "anode, tại đó xảy ra quá trình khử",
+    "cathode, tại đó xảy ra quá trình oxi hóa"
+   ],
+   "answer": 0,
+   "explanation": "Zn có thế điện cực chuẩn nhỏ hơn Cu nên là anode (cực âm): Zn → Zn²⁺ + 2e (quá trình oxi hóa)."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Pin Galvani",
+   "level": 1,
+   "stem": "Trong pin Galvani, cầu muối có vai trò",
+   "options": [
+    "cung cấp electron cho cathode",
+    "cho các ion di chuyển, trung hòa điện tích của các dung dịch điện cực",
+    "là nơi xảy ra phản ứng oxi hóa",
+    "làm tăng thế điện cực chuẩn của cathode"
+   ],
+   "answer": 1,
+   "explanation": "Cầu muối nối hai dung dịch, cho các ion di chuyển để các dung dịch luôn trung hòa điện, giúp pin hoạt động liên tục."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất vật lí của kim loại",
+   "level": 1,
+   "stem": "Kim loại dẫn điện tốt nhất là",
+   "options": [
+    "copper (Cu)",
+    "gold (Au)",
+    "silver (Ag)",
+    "aluminium (Al)"
+   ],
+   "answer": 2,
+   "explanation": "Thứ tự dẫn điện giảm dần: Ag > Cu > Au > Al > Fe."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất vật lí của kim loại",
+   "level": 1,
+   "stem": "Kim loại có nhiệt độ nóng chảy cao nhất, được dùng làm dây tóc bóng đèn sợi đốt là",
+   "options": [
+    "iron (Fe)",
+    "copper (Cu)",
+    "mercury (Hg)",
+    "tungsten (W)"
+   ],
+   "answer": 3,
+   "explanation": "Tungsten có nhiệt độ nóng chảy khoảng 3422 °C, cao nhất trong các kim loại."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất hóa học chung của kim loại",
+   "level": 1,
+   "stem": "Tính chất hóa học chung của kim loại là",
+   "options": [
+    "tính oxi hóa",
+    "tính khử",
+    "tính acid",
+    "tính base"
+   ],
+   "answer": 1,
+   "explanation": "Nguyên tử kim loại dễ nhường electron hóa trị để trở thành ion dương nên tính chất hóa học chung là tính khử."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Thế điện cực chuẩn",
+   "level": 2,
+   "stem": "Cho thế điện cực chuẩn: $E^\\circ_{\\mathrm{Zn^{2+}/Zn}} = -0{,}763$ V; $E^\\circ_{\\mathrm{Fe^{2+}/Fe}} = -0{,}440$ V; $E^\\circ_{\\mathrm{Cu^{2+}/Cu}} = +0{,}340$ V; $E^\\circ_{\\mathrm{Ag^{+}/Ag}} = +0{,}799$ V. Ion có tính oxi hóa mạnh nhất là",
+   "options": [
+    "Ag⁺",
+    "Cu²⁺",
+    "Fe²⁺",
+    "Zn²⁺"
+   ],
+   "answer": 0,
+   "explanation": "Thế điện cực chuẩn càng lớn, dạng oxi hóa có tính oxi hóa càng mạnh. Ag⁺/Ag có $E^\\circ$ lớn nhất."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Sức điện động của pin",
+   "level": 2,
+   "stem": "Cho $E^\\circ_{\\mathrm{Zn^{2+}/Zn}} = -0{,}763$ V và $E^\\circ_{\\mathrm{Cu^{2+}/Cu}} = +0{,}340$ V. Sức điện động chuẩn của pin Zn – Cu là",
+   "options": [
+    "0,423 V",
+    "−1,103 V",
+    "0,340 V",
+    "1,103 V"
+   ],
+   "answer": 3,
+   "explanation": "$E^\\circ_{pin} = E^\\circ_{cathode} - E^\\circ_{anode} = 0{,}340 - (-0{,}763) = 1{,}103$ V."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Điện phân nóng chảy",
+   "level": 1,
+   "stem": "Khi điện phân NaCl nóng chảy (điện cực trơ), tại cathode xảy ra quá trình",
+   "options": [
+    "2Cl⁻ → Cl₂ + 2e",
+    "2H₂O + 2e → H₂ + 2OH⁻",
+    "Na⁺ + e → Na",
+    "Na → Na⁺ + e"
+   ],
+   "answer": 2,
+   "explanation": "Cathode là nơi xảy ra quá trình khử; trong NaCl nóng chảy không có nước nên ion Na⁺ bị khử thành Na."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Điện phân dung dịch",
+   "level": 2,
+   "stem": "Điện phân dung dịch CuSO₄ với điện cực trơ, tại anode xảy ra quá trình",
+   "options": [
+    "Cu²⁺ + 2e → Cu",
+    "2SO₄²⁻ → S₂O₈²⁻ + 2e",
+    "2H₂O → O₂ + 4H⁺ + 4e",
+    "2H₂O + 2e → H₂ + 2OH⁻"
+   ],
+   "answer": 2,
+   "explanation": "Ion SO₄²⁻ không bị oxi hóa trong dung dịch nên nước bị oxi hóa ở anode, giải phóng O₂."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Phương pháp tách kim loại",
+   "level": 2,
+   "stem": "Trong công nghiệp, aluminium được sản xuất bằng phương pháp",
+   "options": [
+    "điện phân dung dịch AlCl₃",
+    "dùng CO khử Al₂O₃ ở nhiệt độ cao",
+    "cho Fe tác dụng với dung dịch Al₂(SO₄)₃",
+    "điện phân nóng chảy Al₂O₃ (có cryolite)"
+   ],
+   "answer": 3,
+   "explanation": "Al là kim loại hoạt động mạnh, chỉ điều chế được bằng điện phân nóng chảy oxide; cryolite giúp hạ nhiệt độ nóng chảy và tăng độ dẫn điện."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất hóa học của kim loại",
+   "level": 2,
+   "stem": "Kim loại nào sau đây khử được ion Cu²⁺ trong dung dịch CuSO₄ thành Cu?",
+   "options": [
+    "Fe",
+    "Ag",
+    "Au",
+    "Pt"
+   ],
+   "answer": 0,
+   "explanation": "Fe có tính khử mạnh hơn Cu: Fe + Cu²⁺ → Fe²⁺ + Cu. Ag, Au, Pt có tính khử yếu hơn Cu."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Ăn mòn điện hóa",
+   "level": 2,
+   "stem": "Một vật bằng sắt tây (sắt tráng thiếc) bị xây xát sâu tới lớp sắt bên trong, để trong không khí ẩm. Hiện tượng xảy ra là",
+   "options": [
+    "Sn bị ăn mòn điện hóa",
+    "Fe bị ăn mòn điện hóa",
+    "Fe được bảo vệ, không bị ăn mòn",
+    "chỉ xảy ra ăn mòn hóa học"
+   ],
+   "answer": 1,
+   "explanation": "Fe và Sn tiếp xúc với nhau trong dung dịch chất điện li tạo pin điện hóa; Fe hoạt động mạnh hơn Sn nên là anode và bị ăn mòn."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Phương pháp tách kim loại",
+   "level": 1,
+   "stem": "Kim loại nào sau đây có thể điều chế bằng phương pháp nhiệt luyện (dùng CO khử oxide ở nhiệt độ cao)?",
+   "options": [
+    "Na",
+    "K",
+    "Ca",
+    "Fe"
+   ],
+   "answer": 3,
+   "explanation": "Nhiệt luyện dùng cho các kim loại có độ hoạt động trung bình như Fe, Zn, Cu, Pb. Na, K, Ca phải điều chế bằng điện phân nóng chảy."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Hợp kim",
+   "level": 1,
+   "stem": "Gang và thép là hợp kim của iron với nguyên tố chủ yếu là",
+   "options": [
+    "copper",
+    "aluminium",
+    "carbon",
+    "zinc"
+   ],
+   "answer": 2,
+   "explanation": "Gang chứa 2–5% carbon, thép chứa dưới 2% carbon cùng một số nguyên tố khác."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Chống ăn mòn kim loại",
+   "level": 2,
+   "stem": "Để bảo vệ vỏ tàu biển bằng thép, người ta gắn vào phía ngoài vỏ tàu (phần chìm dưới nước) các khối kim loại",
+   "options": [
+    "copper (Cu)",
+    "zinc (Zn)",
+    "lead (Pb)",
+    "tin (Sn)"
+   ],
+   "answer": 1,
+   "explanation": "Phương pháp điện hóa: Zn hoạt động mạnh hơn Fe, đóng vai trò anode và bị ăn mòn thay cho vỏ tàu."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Định luật Faraday",
+   "level": 3,
+   "stem": "Điện phân dung dịch CuSO₄ (điện cực trơ) với cường độ dòng điện 5 A trong 1930 giây. Khối lượng Cu bám vào cathode là (cho Cu = 64, F = 96485 C/mol, hiệu suất 100%)",
+   "options": [
+    "3,2 gam",
+    "6,4 gam",
+    "1,6 gam",
+    "4,8 gam"
+   ],
+   "answer": 0,
+   "explanation": "$n_e = \\dfrac{It}{F} = \\dfrac{5\\cdot 1930}{96485} \\approx 0{,}1$ mol; n(Cu) = 0,05 mol; m ≈ 3,2 gam."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất hóa học của kim loại",
+   "level": 3,
+   "stem": "Cho 5,6 gam Fe vào 200 mL dung dịch CuSO₄ 0,5 M đến khi phản ứng hoàn toàn. Khối lượng chất rắn thu được là (cho Fe = 56, Cu = 64)",
+   "options": [
+    "6,4 gam",
+    "5,6 gam",
+    "12,0 gam",
+    "0,8 gam"
+   ],
+   "answer": 0,
+   "explanation": "n(Fe) = 0,1 mol; n(Cu²⁺) = 0,1 mol; Fe + Cu²⁺ → Fe²⁺ + Cu phản ứng vừa đủ, chất rắn chỉ có 0,1 mol Cu = 6,4 gam."
+  },
+  {
+   "qtype": "mcq",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất hóa học của kim loại",
+   "level": 3,
+   "stem": "Cho 2,7 gam Al tác dụng hết với dung dịch HCl dư. Thể tích khí H₂ thu được ở đkc là (cho Al = 27)",
+   "options": [
+    "2,479 L",
+    "4,958 L",
+    "3,7185 L",
+    "1,2395 L"
+   ],
+   "answer": 2,
+   "explanation": "2Al + 6HCl → 2AlCl₃ + 3H₂. n(Al) = 0,1 mol, n(H₂) = 0,15 mol; V = 0,15 · 24,79 = 3,7185 L."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Pin Galvani",
+   "level": 2,
+   "stem": "Một pin Galvani gồm thanh Zn nhúng trong dung dịch ZnSO₄ 1 M và thanh Cu nhúng trong dung dịch CuSO₄ 1 M, hai dung dịch được nối bằng cầu muối KNO₃.",
+   "statements": [
+    {
+     "t": "Electron di chuyển từ thanh Zn sang thanh Cu qua dây dẫn ngoài.",
+     "a": true
+    },
+    {
+     "t": "Khối lượng thanh Cu giảm dần khi pin hoạt động.",
+     "a": false
+    },
+    {
+     "t": "Phản ứng xảy ra trong pin là Zn + Cu²⁺ → Zn²⁺ + Cu.",
+     "a": true
+    },
+    {
+     "t": "Ion K⁺ trong cầu muối di chuyển về phía cốc chứa dung dịch ZnSO₄.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Zn là anode nhường electron. b) Sai: tại cathode Cu²⁺ + 2e → Cu nên thanh Cu tăng khối lượng. c) Đúng. d) Sai: cốc ZnSO₄ dư điện tích dương (tạo Zn²⁺) nên anion NO₃⁻ đi về đó; K⁺ di chuyển về cốc CuSO₄."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Điện phân dung dịch NaCl",
+   "level": 2,
+   "stem": "Trong công nghiệp, điện phân dung dịch NaCl bão hòa (điện cực trơ, có màng ngăn) để sản xuất sodium hydroxide và chlorine.",
+   "statements": [
+    {
+     "t": "Tại cathode thu được khí H₂.",
+     "a": true
+    },
+    {
+     "t": "Tại anode thu được khí Cl₂.",
+     "a": true
+    },
+    {
+     "t": "Nếu không có màng ngăn, Cl₂ phản ứng với NaOH tạo nước Javel.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch thu được sau điện phân có pH < 7.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 2H₂O + 2e → H₂ + 2OH⁻. b) Đúng: 2Cl⁻ → Cl₂ + 2e. c) Đúng: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. d) Sai: dung dịch chứa NaOH nên pH > 7."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Ăn mòn điện hóa",
+   "level": 2,
+   "stem": "Tiến hành thí nghiệm: cốc (1) chứa viên Zn trong dung dịch H₂SO₄ loãng; cốc (2) giống cốc (1) nhưng nhỏ thêm vài giọt dung dịch CuSO₄.",
+   "statements": [
+    {
+     "t": "Ở cốc (1), Zn bị ăn mòn hóa học.",
+     "a": true
+    },
+    {
+     "t": "Ở cốc (2), khí thoát ra nhanh hơn cốc (1).",
+     "a": true
+    },
+    {
+     "t": "Ở cốc (2), khí H₂ thoát ra chủ yếu trên bề mặt Cu bám vào viên Zn.",
+     "a": true
+    },
+    {
+     "t": "Ở cốc (2), Cu đóng vai trò anode.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Zn phản ứng trực tiếp với H⁺. b) Đúng: Zn đẩy Cu ra bám vào viên Zn, tạo pin Zn – Cu, xảy ra ăn mòn điện hóa nhanh hơn. c) Đúng: electron chuyển sang Cu, H⁺ nhận electron tại bề mặt Cu. d) Sai: Cu là cathode, Zn là anode."
+  },
+  {
+   "qtype": "tf",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất hóa học của kim loại",
+   "level": 3,
+   "stem": "Hòa tan hoàn toàn 8,3 gam hỗn hợp Al và Fe trong dung dịch HCl dư, thu được 0,25 mol H₂. Cho Al = 27, Fe = 56, Cl = 35,5.",
+   "statements": [
+    {
+     "t": "Số mol Al trong hỗn hợp là 0,1 mol.",
+     "a": true
+    },
+    {
+     "t": "Phần trăm khối lượng Fe trong hỗn hợp là 32,5%.",
+     "a": false
+    },
+    {
+     "t": "Tổng khối lượng muối thu được là 26,05 gam.",
+     "a": true
+    },
+    {
+     "t": "Fe tác dụng với HCl tạo muối FeCl₃.",
+     "a": false
+    }
+   ],
+   "explanation": "Gọi số mol Al, Fe là a, b: 27a + 56b = 8,3; 1,5a + b = 0,25 nên a = b = 0,1. a) Đúng. b) Sai: %m(Fe) = 5,6 : 8,3 ≈ 67,5%. c) Đúng: m(muối) = m(kim loại) + m(Cl⁻) = 8,3 + 0,5 · 35,5 = 26,05 gam. d) Sai: tạo FeCl₂."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Cấu tạo của kim loại",
+   "level": 1,
+   "stem": "Nguyên tử aluminium (Z = 13) có bao nhiêu electron ở lớp ngoài cùng?",
+   "answer_text": "3",
+   "explanation": "Cấu hình electron: 1s²2s²2p⁶3s²3p¹, lớp ngoài cùng có 3 electron."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Sức điện động của pin",
+   "level": 2,
+   "stem": "Cho $E^\\circ_{\\mathrm{Mg^{2+}/Mg}} = -2{,}356$ V và $E^\\circ_{\\mathrm{Ag^{+}/Ag}} = +0{,}799$ V. Sức điện động chuẩn của pin Mg – Ag là bao nhiêu volt (làm tròn đến hàng phần mười)?",
+   "answer_text": "3,2",
+   "explanation": "$E^\\circ_{pin} = 0{,}799 - (-2{,}356) = 3{,}155 \\approx 3{,}2$ V."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Pin điện – điện phân",
+   "topic": "Định luật Faraday",
+   "level": 3,
+   "stem": "Điện phân dung dịch AgNO₃ (điện cực trơ) với cường độ dòng điện 0,5 A. Cần bao nhiêu phút để thu được 1,08 gam Ag ở cathode (làm tròn đến hàng đơn vị)? Cho Ag = 108, F = 96485 C/mol, hiệu suất 100%.",
+   "answer_text": "32",
+   "explanation": "n(Ag) = 0,01 mol = $n_e$; $t = \\dfrac{n_e F}{I} = \\dfrac{0{,}01\\cdot 96485}{0{,}5} = 1929{,}7$ s ≈ 32,2 phút ≈ 32 phút."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất hóa học của kim loại",
+   "level": 3,
+   "stem": "Cho m gam Zn vào dung dịch AgNO₃ dư, sau khi phản ứng hoàn toàn thu được 10,8 gam Ag. Tính m (làm tròn đến hàng phần trăm). Cho Zn = 65, Ag = 108.",
+   "answer_text": "3,25",
+   "explanation": "Zn + 2Ag⁺ → Zn²⁺ + 2Ag. n(Ag) = 0,1 mol, n(Zn) = 0,05 mol; m = 3,25 gam."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Tính chất hóa học của kim loại",
+   "level": 2,
+   "stem": "Cho các kim loại: Fe, Cu, Al, Ag, Mg, Zn. Có bao nhiêu kim loại tác dụng được với dung dịch HCl?",
+   "answer_text": "4",
+   "explanation": "Fe, Al, Mg, Zn đứng trước H trong dãy điện hóa nên phản ứng; Cu và Ag không phản ứng."
+  },
+  {
+   "qtype": "short",
+   "tk": "Hóa học|Đại cương kim loại",
+   "topic": "Phương pháp tách kim loại",
+   "level": 3,
+   "stem": "Từ 1 tấn quặng hematite chứa 80% Fe₂O₃ (còn lại là tạp chất không chứa iron), luyện được tối đa bao nhiêu kg Fe (giả sử hiệu suất 100%)? Cho Fe = 56, O = 16.",
+   "answer_text": "560",
+   "explanation": "m(Fe₂O₃) = 800 kg; m(Fe) = 800 · 112 : 160 = 560 kg."
+  }
+ ],
+ "self_check": "Đã giải lại toàn bộ 28 câu; kiểm tra bằng Python các câu 7, 16, 17, 18, 22 (giải hệ Al–Fe), 24, 25, 26, 28. Thế điện cực chuẩn lấy theo bảng SGK KNTT và cho sẵn trong đề."
+}

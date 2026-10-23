@@ -1,0 +1,467 @@
+{
+ "grade": 12,
+ "subject": "Sinh học",
+ "exam": "ck1",
+ "duration_min": 50,
+ "title": "Đề ôn cuối học kì 1 – Sinh học 12 (đề số 1)",
+ "scope": "Di truyền phân tử; Di truyền NST và đột biến; Quy luật di truyền (Mendel, liên kết gene, hoán vị gene, di truyền liên kết giới tính, di truyền gene ngoài nhân, tương tác gene); Di truyền quần thể và di truyền người",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Phiên mã",
+   "level": 1,
+   "stem": "Để khởi đầu phiên mã, enzyme RNA polymerase bám vào vùng nào của gene?",
+   "options": [
+    "Vùng kết thúc",
+    "Vùng mã hóa",
+    "Vùng khởi động (promoter)",
+    "Vùng vận hành (operator)"
+   ],
+   "answer": 2,
+   "explanation": "RNA polymerase nhận biết và bám vào vùng khởi động (promoter) thuộc vùng điều hòa của gene để bắt đầu phiên mã."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Dịch mã",
+   "level": 1,
+   "stem": "Bộ ba đối mã (anticodon) nằm trên phân tử nào?",
+   "options": [
+    "mRNA",
+    "tRNA",
+    "rRNA",
+    "DNA"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi tRNA mang một anticodon bắt cặp bổ sung với codon trên mRNA, đưa đúng amino acid vào ribosome."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Công nghệ gene",
+   "level": 1,
+   "stem": "Trong kĩ thuật tạo DNA tái tổ hợp, enzyme được dùng để nối đoạn gene cần chuyển vào plasmid là",
+   "options": [
+    "enzyme cắt giới hạn (restriction enzyme)",
+    "DNA polymerase",
+    "DNA ligase",
+    "RNA polymerase"
+   ],
+   "answer": 2,
+   "explanation": "Enzyme cắt giới hạn cắt DNA tạo đầu dính; DNA ligase nối các đoạn DNA bằng liên kết phosphodiester, tạo DNA tái tổ hợp."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến cấu trúc NST",
+   "level": 1,
+   "stem": "Dạng đột biến cấu trúc NST nào thường được sử dụng để xác định vị trí của gene trên NST?",
+   "options": [
+    "Lặp đoạn",
+    "Đảo đoạn",
+    "Mất đoạn",
+    "Chuyển đoạn tương hỗ"
+   ],
+   "answer": 2,
+   "explanation": "Gây mất đoạn nhỏ rồi quan sát tính trạng lặn biểu hiện giúp xác định gene nằm trong đoạn bị mất."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến gene",
+   "level": 2,
+   "stem": "Đột biến thay thế một cặp A–T bằng một cặp G–C làm số liên kết hydrogen của gene",
+   "options": [
+    "giảm đi 1",
+    "tăng thêm 1",
+    "không thay đổi",
+    "tăng thêm 2"
+   ],
+   "answer": 1,
+   "explanation": "Cặp A–T có 2 liên kết hydrogen, cặp G–C có 3; thay A–T bằng G–C làm số liên kết hydrogen tăng 1."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Mã di truyền",
+   "level": 1,
+   "stem": "Gene mã hóa insulin của người được chuyển vào vi khuẩn E. coli vẫn tổng hợp được insulin có trình tự amino acid như ở người. Đặc điểm nào của mã di truyền giải thích điều này?",
+   "options": [
+    "Tính thoái hóa",
+    "Tính đặc hiệu",
+    "Mã bộ ba",
+    "Tính phổ biến"
+   ],
+   "answer": 3,
+   "explanation": "Hầu hết các loài sinh vật dùng chung một bộ mã di truyền (tính phổ biến) nên vi khuẩn dịch mã gene người cho ra cùng chuỗi amino acid."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 3,
+   "stem": "Lai cải bắp (2n = 18) với cải củ (2n = 18) thu được con lai bất thụ; tiến hành đa bội hóa con lai tạo được thể song nhị bội hữu thụ. Thể song nhị bội này có",
+   "options": [
+    "18 NST, gồm bộ NST đơn bội của cả hai loài",
+    "27 NST, gồm 3 bộ NST đơn bội",
+    "36 NST, gồm bộ NST lưỡng bội của cả hai loài",
+    "72 NST, gồm 4 bộ NST lưỡng bội"
+   ],
+   "answer": 2,
+   "explanation": "Con lai F1 có 9 + 9 = 18 NST (không tương đồng nên bất thụ); đa bội hóa tạo thể song nhị bội 2 × 18 = 36 NST = 2n cải bắp + 2n cải củ, giảm phân bình thường nên hữu thụ."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Học thuyết di truyền Mendel",
+   "level": 1,
+   "stem": "Phép lai phân tích là phép lai giữa cơ thể mang tính trạng trội cần xác định kiểu gene với cơ thể",
+   "options": [
+    "mang tính trạng lặn (đồng hợp lặn)",
+    "mang tính trạng trội thuần chủng",
+    "dị hợp về tất cả các cặp gene",
+    "có cùng kiểu gene với nó"
+   ],
+   "answer": 0,
+   "explanation": "Cơ thể đồng hợp lặn chỉ tạo một loại giao tử mang allele lặn, nên kiểu hình đời con phản ánh trực tiếp các loại giao tử của cơ thể trội cần kiểm tra."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Học thuyết di truyền Mendel",
+   "level": 1,
+   "stem": "Điều kiện để các cặp gene phân li độc lập trong giảm phân là",
+   "options": [
+    "các cặp gene cùng nằm trên một NST",
+    "các gene nằm trong ti thể",
+    "các gene đều là gene trội",
+    "các cặp gene nằm trên các cặp NST tương đồng khác nhau"
+   ],
+   "answer": 3,
+   "explanation": "Các cặp NST tương đồng phân li độc lập trong giảm phân nên các cặp gene nằm trên các cặp NST khác nhau phân li độc lập."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Học thuyết di truyền Mendel",
+   "level": 2,
+   "stem": "Cho biết mỗi gene quy định một tính trạng, trội hoàn toàn, các gene phân li độc lập. Phép lai AaBb × aabb cho đời con có tỉ lệ kiểu hình là",
+   "options": [
+    "9 : 3 : 3 : 1",
+    "3 : 1",
+    "1 : 2 : 1",
+    "1 : 1 : 1 : 1"
+   ],
+   "answer": 3,
+   "explanation": "AaBb tạo 4 loại giao tử AB, Ab, aB, ab với tỉ lệ bằng nhau; aabb tạo 1 loại ab → đời con 4 kiểu hình tỉ lệ 1 : 1 : 1 : 1."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Liên kết gene",
+   "level": 2,
+   "stem": "Hai cặp gene A, a và B, b cùng nằm trên một cặp NST, liên kết hoàn toàn; trội hoàn toàn. Phép lai $\\dfrac{AB}{ab} \\times \\dfrac{ab}{ab}$ cho đời con có tỉ lệ kiểu hình là",
+   "options": [
+    "1 : 1",
+    "1 : 1 : 1 : 1",
+    "3 : 1",
+    "9 : 3 : 3 : 1"
+   ],
+   "answer": 0,
+   "explanation": "Liên kết hoàn toàn: AB/ab chỉ tạo 2 loại giao tử AB và ab (mỗi loại 50%) → đời con 1 AB/ab : 1 ab/ab, tỉ lệ kiểu hình 1 : 1."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Di truyền liên kết giới tính",
+   "level": 2,
+   "stem": "Ở người, bệnh máu khó đông do allele lặn a nằm trên NST X (không có allele trên Y) quy định. Mẹ có kiểu gene $X^AX^a$, bố có kiểu gene $X^AY$. Trong số các con trai của cặp vợ chồng này, tỉ lệ bị bệnh là",
+   "options": [
+    "25%",
+    "50%",
+    "100%",
+    "0%"
+   ],
+   "answer": 1,
+   "explanation": "Con trai nhận Y từ bố và một X từ mẹ: $X^A$ hoặc $X^a$ với xác suất bằng nhau → 50% con trai bị bệnh ($X^aY$)."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Di truyền gene ngoài nhân",
+   "level": 2,
+   "stem": "Lai thuận: cây lá đốm (♀) × cây lá xanh (♂) → F1 100% cây lá đốm. Lai nghịch: cây lá xanh (♀) × cây lá đốm (♂) → F1 100% cây lá xanh. Kết luận nào sau đây phù hợp?",
+   "options": [
+    "Tính trạng do gene ngoài nhân (trong lục lạp) quy định, di truyền theo dòng mẹ",
+    "Tính trạng do gene trên NST X quy định",
+    "Tính trạng do gene trội trên NST thường quy định",
+    "Tính trạng do gene trên NST Y quy định"
+   ],
+   "answer": 0,
+   "explanation": "Kết quả lai thuận nghịch khác nhau và F1 luôn có kiểu hình giống mẹ → gene nằm trong tế bào chất (lục lạp), con nhận tế bào chất chủ yếu từ trứng."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Tương tác gene",
+   "level": 3,
+   "stem": "Cho hai cây hoa trắng thuần chủng khác nhau giao phấn được F1 toàn hoa đỏ; F1 tự thụ phấn được F2 có tỉ lệ 9 cây hoa đỏ : 7 cây hoa trắng. Tính trạng màu hoa di truyền theo quy luật",
+   "options": [
+    "trội không hoàn toàn",
+    "tương tác bổ sung giữa hai gene không allele",
+    "phân li của một gene có hai allele",
+    "liên kết gene hoàn toàn"
+   ],
+   "answer": 1,
+   "explanation": "F2 có 9 + 7 = 16 tổ hợp → F1 dị hợp 2 cặp gene (AaBb) phân li độc lập; kiểu A-B- cho hoa đỏ, các kiểu còn lại hoa trắng → tương tác bổ sung."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền quần thể, di truyền người",
+   "topic": "Định luật Hardy – Weinberg",
+   "level": 2,
+   "stem": "Quần thể nào sau đây đang ở trạng thái cân bằng di truyền theo định luật Hardy – Weinberg?",
+   "options": [
+    "0,36 AA : 0,48 Aa : 0,16 aa",
+    "0,5 AA : 0,5 aa",
+    "0,4 AA : 0,4 Aa : 0,2 aa",
+    "0,6 AA : 0,2 Aa : 0,2 aa"
+   ],
+   "answer": 0,
+   "explanation": "Quần thể cân bằng khi có cấu trúc p² AA : 2pq Aa : q² aa. Với 0,36 : 0,48 : 0,16 có p = 0,6, q = 0,4 thỏa mãn; các quần thể còn lại không thỏa mãn."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền quần thể, di truyền người",
+   "topic": "Quần thể tự phối",
+   "level": 1,
+   "stem": "Qua nhiều thế hệ tự thụ phấn hoặc giao phối gần, cấu trúc di truyền của quần thể thay đổi theo hướng",
+   "options": [
+    "tỉ lệ dị hợp tăng dần, tỉ lệ đồng hợp giảm dần",
+    "tần số allele trội tăng dần",
+    "tỉ lệ dị hợp giảm dần, tỉ lệ đồng hợp tăng dần",
+    "tỉ lệ các kiểu gene luôn không đổi"
+   ],
+   "answer": 2,
+   "explanation": "Mỗi thế hệ tự thụ, tỉ lệ dị hợp giảm một nửa, tỉ lệ đồng hợp tăng; tần số allele không đổi."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền quần thể, di truyền người",
+   "topic": "Cấu trúc di truyền quần thể",
+   "level": 2,
+   "stem": "Một quần thể có cấu trúc di truyền 0,4 AA : 0,4 Aa : 0,2 aa. Tần số allele A của quần thể là",
+   "options": [
+    "0,4",
+    "0,6",
+    "0,8",
+    "0,5"
+   ],
+   "answer": 1,
+   "explanation": "p(A) = tỉ lệ AA + ½ tỉ lệ Aa = 0,4 + 0,2 = 0,6."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Di truyền quần thể, di truyền người",
+   "topic": "Di truyền học người",
+   "level": 3,
+   "stem": "Một cặp vợ chồng đều có kiểu hình bình thường sinh được một con gái bị bệnh bạch tạng. Nhận định nào sau đây đúng?",
+   "options": [
+    "Bệnh do allele trội trên NST thường quy định; xác suất sinh con tiếp theo bị bệnh là 75%",
+    "Bệnh do allele lặn trên NST X quy định; con gái nhận allele bệnh từ cả bố và mẹ",
+    "Bệnh do allele lặn trên NST thường quy định; xác suất sinh con tiếp theo bị bệnh là 50%",
+    "Bệnh do allele lặn trên NST thường quy định; bố mẹ đều dị hợp, xác suất sinh con tiếp theo bị bệnh là 25%"
+   ],
+   "answer": 3,
+   "explanation": "Bố mẹ bình thường sinh con bệnh → bệnh do allele lặn. Con gái bệnh mà bố bình thường → gene không nằm trên X (nếu trên X thì bố phải bị bệnh). Aa × Aa → 1/4 aa = 25%."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Dịch mã",
+   "level": 2,
+   "stem": "Quá trình dịch mã tổng hợp chuỗi polypeptide ở tế bào nhân thực.",
+   "statements": [
+    {
+     "t": "Ribosome dịch chuyển trên mRNA theo chiều 5' → 3'.",
+     "a": true
+    },
+    {
+     "t": "Amino acid mở đầu ở sinh vật nhân thực là methionine.",
+     "a": true
+    },
+    {
+     "t": "Mỗi loại tRNA có thể vận chuyển nhiều loại amino acid khác nhau.",
+     "a": false
+    },
+    {
+     "t": "Nhiều ribosome cùng trượt trên một mRNA (polysome) giúp tăng hiệu suất tổng hợp protein.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: mỗi loại tRNA chỉ vận chuyển một loại amino acid đặc hiệu với anticodon của nó. d) Đúng."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Hoán vị gene",
+   "level": 3,
+   "stem": "Ở ruồi giấm, allele B (thân xám) trội hoàn toàn so với b (thân đen), allele V (cánh dài) trội hoàn toàn so với v (cánh cụt); hai gene cùng nằm trên một NST thường. Cho ruồi cái F1 có kiểu gene $\\dfrac{BV}{bv}$ lai với ruồi đực thân đen, cánh cụt, thu được Fa: 41,5% xám, dài : 41,5% đen, cụt : 8,5% xám, cụt : 8,5% đen, dài.",
+   "statements": [
+    {
+     "t": "Tần số hoán vị gene là 17%.",
+     "a": true
+    },
+    {
+     "t": "Ruồi cái F1 tạo giao tử Bv với tỉ lệ 8,5%.",
+     "a": true
+    },
+    {
+     "t": "Nếu cho ruồi đực F1 $\\dfrac{BV}{bv}$ lai phân tích, đời con cũng có 4 loại kiểu hình như trên.",
+     "a": false
+    },
+    {
+     "t": "Khoảng cách giữa hai gene trên bản đồ di truyền là 17 cM.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: tần số hoán vị = 8,5% + 8,5% = 17%. b) Đúng: giao tử hoán vị Bv = bV = 17% : 2 = 8,5%. c) Sai: ở ruồi giấm đực không xảy ra hoán vị, chỉ cho 2 loại kiểu hình tỉ lệ 1 : 1. d) Đúng: 1% hoán vị = 1 cM."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Di truyền quần thể, di truyền người",
+   "topic": "Định luật Hardy – Weinberg",
+   "level": 3,
+   "stem": "Một quần thể người đang ở trạng thái cân bằng di truyền đối với gene quy định bệnh bạch tạng (allele lặn a trên NST thường); tỉ lệ người bị bạch tạng là 1/10 000.",
+   "statements": [
+    {
+     "t": "Tần số allele a trong quần thể là 0,01.",
+     "a": true
+    },
+    {
+     "t": "Tỉ lệ người mang allele bệnh ở trạng thái dị hợp (Aa) là 1,98%.",
+     "a": true
+    },
+    {
+     "t": "Tần số allele A trong quần thể là 0,9.",
+     "a": false
+    },
+    {
+     "t": "Nếu quần thể giao phối ngẫu nhiên và không chịu tác động của các nhân tố tiến hóa, tần số allele a được duy trì không đổi qua các thế hệ.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: q² = 1/10 000 → q = 0,01. b) Đúng: 2pq = 2 × 0,99 × 0,01 = 0,0198 = 1,98%. c) Sai: p = 1 − 0,01 = 0,99. d) Đúng: nội dung định luật Hardy – Weinberg."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Học thuyết di truyền Mendel",
+   "level": 1,
+   "stem": "Ở đậu Hà Lan, allele A (hạt vàng) trội hoàn toàn so với a (hạt xanh), allele B (vỏ trơn) trội hoàn toàn so với b (vỏ nhăn); hai gene nằm trên hai cặp NST khác nhau. Cho P thuần chủng hạt vàng, vỏ trơn × hạt xanh, vỏ nhăn được F1; F1 tự thụ phấn được F2.",
+   "statements": [
+    {
+     "t": "F1 có 100% cây hạt vàng, vỏ trơn.",
+     "a": true
+    },
+    {
+     "t": "F2 có 9 kiểu gene và 4 kiểu hình.",
+     "a": true
+    },
+    {
+     "t": "Ở F2, cây hạt vàng, vỏ nhăn thuần chủng chiếm tỉ lệ 3/16.",
+     "a": false
+    },
+    {
+     "t": "Tỉ lệ kiểu hình ở F2 bằng tích tỉ lệ kiểu hình của từng tính trạng (3 : 1)(3 : 1).",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: F1 AaBb. b) Đúng: 3 × 3 = 9 kiểu gene, 2 × 2 = 4 kiểu hình. c) Sai: AAbb = 1/4 × 1/4 = 1/16 (cây vàng, nhăn chung chiếm 3/16). d) Đúng."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền phân tử",
+   "topic": "Dịch mã",
+   "level": 3,
+   "stem": "Một gene ở vi khuẩn dài 408 nm (mỗi cặp nucleotide dài 0,34 nm), toàn bộ gene được phiên mã và mRNA có đủ codon mở đầu đến codon kết thúc. Khi dịch mã tổng hợp một chuỗi polypeptide, môi trường nội bào cung cấp bao nhiêu amino acid (codon kết thúc không mã hóa amino acid)?",
+   "answer_text": "399",
+   "explanation": "Số nucleotide = 408 : 0,34 × 2 = 2400 → số codon = 2400 : 6 = 400 → số amino acid môi trường cung cấp = 400 − 1 = 399."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến số lượng NST",
+   "level": 1,
+   "stem": "Một loài có bộ NST 2n = 14. Tế bào sinh dưỡng của thể tam bội ở loài này có bao nhiêu NST?",
+   "answer_text": "21",
+   "explanation": "Thể tam bội 3n = 3 × 7 = 21 NST."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền nhiễm sắc thể, đột biến",
+   "topic": "Đột biến gene",
+   "level": 3,
+   "stem": "Một gene có 3000 nucleotide, trong đó loại A chiếm 20%. Gene bị đột biến thay thế một cặp A–T bằng một cặp G–C. Gene đột biến có bao nhiêu liên kết hydrogen?",
+   "answer_text": "3901",
+   "explanation": "A = T = 600; G = C = 900; H = 2 × 600 + 3 × 900 = 3900. Thay A–T bằng G–C làm tăng 1 liên kết → 3901."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Học thuyết di truyền Mendel",
+   "level": 2,
+   "stem": "Cho biết các gene phân li độc lập. Phép lai AaBbDd × AaBbDd cho đời con có tối đa bao nhiêu loại kiểu gene?",
+   "answer_text": "27",
+   "explanation": "Mỗi phép lai một cặp dị hợp × dị hợp cho 3 kiểu gene → số kiểu gene = 3 × 3 × 3 = 27."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Quy luật di truyền",
+   "topic": "Hoán vị gene",
+   "level": 3,
+   "stem": "Ở một loài thực vật, hai cặp gene A, a và B, b cùng nằm trên một cặp NST; trội hoàn toàn. Cho cây $\\dfrac{AB}{ab}$ tự thụ phấn, hoán vị gene xảy ra ở cả hai giới với tần số 20%. Tỉ lệ cây có kiểu hình lặn về cả hai tính trạng ở đời con là bao nhiêu phần trăm?",
+   "answer_text": "16",
+   "explanation": "Giao tử ab (liên kết) = (1 − 0,2) : 2 = 0,4. Tỉ lệ $\\dfrac{ab}{ab}$ = 0,4 × 0,4 = 0,16 = 16%."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Di truyền quần thể, di truyền người",
+   "topic": "Quần thể tự phối",
+   "level": 3,
+   "stem": "Một quần thể thực vật tự thụ phấn có cấu trúc di truyền ở thế hệ xuất phát: 0,4 AA : 0,4 Aa : 0,2 aa. Sau 2 thế hệ tự thụ phấn, tỉ lệ kiểu gene AA trong quần thể là bao nhiêu (viết dạng số thập phân)?",
+   "answer_text": "0,55",
+   "explanation": "Sau 2 thế hệ: Aa = 0,4 × (1/2)² = 0,1. AA = 0,4 + (0,4 − 0,1) : 2 = 0,55."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập toàn bộ 28 câu; 11 câu phần di truyền phân tử – NST, 17 câu phần quy luật di truyền và di truyền quần thể/người; kiểm bằng Python: các quần thể Hardy – Weinberg (câu 15), tần số allele, phép lai AaBb × aabb, hoán vị gene ruồi giấm, 2pq, các câu trả lời ngắn 23–28."
+}

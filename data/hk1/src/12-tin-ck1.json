@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "Tin học",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – Tin học 12",
+ "scope": "Trí tuệ nhân tạo; Kết nối mạng; Giao tiếp và ứng xử trong không gian mạng; Tạo trang web với HTML (thẻ cơ bản, liên kết, danh sách, bảng, hình ảnh, biểu mẫu)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Lĩnh vực của trí tuệ nhân tạo",
+   "level": 1,
+   "stem": "Lĩnh vực nào sau đây thuộc trí tuệ nhân tạo?",
+   "options": [
+    "Xử lí ngôn ngữ tự nhiên",
+    "Soạn thảo văn bản",
+    "Bảng tính điện tử",
+    "Nén tệp"
+   ],
+   "answer": 0,
+   "explanation": "Các lĩnh vực của AI gồm học máy, xử lí ngôn ngữ tự nhiên, thị giác máy tính, robot thông minh…"
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Ứng dụng của trí tuệ nhân tạo",
+   "level": 1,
+   "stem": "Ví dụ nào sau đây là ứng dụng của trí tuệ nhân tạo trong đời sống?",
+   "options": [
+    "Đèn giao thông đổi màu theo chu kì cố định",
+    "Máy giặt chạy theo chương trình cài sẵn",
+    "Hệ thống gợi ý video dựa trên lịch sử xem của người dùng",
+    "Quạt điện tắt theo hẹn giờ"
+   ],
+   "answer": 2,
+   "explanation": "Hệ thống gợi ý học từ dữ liệu hành vi của người dùng; các thiết bị còn lại hoạt động theo quy trình cố định."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "AI hẹp và AI tổng quát",
+   "level": 2,
+   "stem": "Phát biểu nào sau đây đúng về trí tuệ nhân tạo tổng quát (AI mạnh)?",
+   "options": [
+    "Là các trợ lí ảo phổ biến trên điện thoại hiện nay",
+    "Là AI có khả năng hiểu, học và thực hiện mọi nhiệm vụ trí tuệ như con người; hiện nay vẫn đang là mục tiêu nghiên cứu",
+    "Là AI chỉ làm được đúng một nhiệm vụ",
+    "Là robot có sức mạnh cơ học lớn"
+   ],
+   "answer": 1,
+   "explanation": "Các hệ thống AI hiện có đều là AI hẹp; AI tổng quát chưa được hiện thực."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Cảnh báo về trí tuệ nhân tạo",
+   "level": 2,
+   "stem": "Biện pháp nào sau đây giúp hạn chế rủi ro khi phát triển và sử dụng AI?",
+   "options": [
+    "Cho AI tự đưa ra mọi quyết định quan trọng mà không cần con người giám sát",
+    "Xây dựng khung pháp lí, quy tắc đạo đức; minh bạch về dữ liệu và trách nhiệm khi triển khai AI",
+    "Thu thập càng nhiều dữ liệu cá nhân càng tốt mà không cần sự đồng ý",
+    "Giữ bí mật hoàn toàn cách hệ thống AI đưa ra quyết định"
+   ],
+   "answer": 1,
+   "explanation": "Quản lí rủi ro AI cần pháp luật, đạo đức, minh bạch, có con người giám sát và tôn trọng quyền riêng tư."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Thiết bị mạng",
+   "level": 1,
+   "stem": "Thiết bị gắn trong máy tính giúp máy tính kết nối được vào mạng là",
+   "options": [
+    "card âm thanh",
+    "bộ nguồn",
+    "ổ đĩa quang",
+    "card mạng (NIC)"
+   ],
+   "answer": 3,
+   "explanation": "Card mạng (có dây hoặc không dây) là giao diện giữa máy tính và mạng; mỗi card có một địa chỉ MAC."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Địa chỉ MAC và địa chỉ IP",
+   "level": 2,
+   "stem": "Phát biểu nào sau đây đúng về địa chỉ MAC?",
+   "options": [
+    "Là địa chỉ vật lí gắn với card mạng, dùng để nhận diện thiết bị trong mạng cục bộ",
+    "Là tên miền của một trang web",
+    "Là địa chỉ do người dùng tự đặt mỗi khi truy cập web",
+    "Là địa chỉ IPv6 dài 128 bit"
+   ],
+   "answer": 0,
+   "explanation": "Địa chỉ MAC dài 48 bit, do nhà sản xuất gán cho card mạng; switch dùng địa chỉ MAC để chuyển dữ liệu."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Giao thức mạng",
+   "level": 2,
+   "stem": "Giao thức HTTP được sử dụng để",
+   "options": [
+    "phân giải tên miền thành địa chỉ IP",
+    "cấp phát địa chỉ MAC cho card mạng",
+    "phát sóng Wi-Fi",
+    "truyền tải trang web giữa máy chủ web và trình duyệt"
+   ],
+   "answer": 3,
+   "explanation": "HTTP (HyperText Transfer Protocol) là giao thức truyền siêu văn bản giữa máy khách (trình duyệt) và máy chủ web."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Kết nối thiết bị",
+   "level": 2,
+   "stem": "Một phòng máy có 30 máy tính cần kết nối với nhau thành mạng LAN và cùng truy cập Internet qua một đường truyền. Cần sử dụng",
+   "options": [
+    "switch để kết nối các máy và router để kết nối mạng LAN với Internet",
+    "chỉ cần cáp nối trực tiếp từng cặp máy",
+    "chỉ cần loa và micro",
+    "card âm thanh cho mỗi máy"
+   ],
+   "answer": 0,
+   "explanation": "Switch tạo mạng LAN cho nhiều máy; router (thường cùng modem) nối LAN với Internet."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Địa chỉ IP",
+   "level": 3,
+   "stem": "Lí do chính dẫn tới việc triển khai IPv6 thay thế dần IPv4 là",
+   "options": [
+    "IPv4 không dùng được cho trang web",
+    "IPv4 chỉ dùng được cho mạng không dây",
+    "IPv4 dài 32 bit, chỉ có khoảng 4,3 tỉ địa chỉ, không đủ cho số thiết bị kết nối ngày càng tăng",
+    "IPv6 ngắn hơn nên dễ nhớ hơn"
+   ],
+   "answer": 2,
+   "explanation": "$2^{32} \\approx 4{,}3$ tỉ địa chỉ; IPv6 dài 128 bit cho không gian địa chỉ cực lớn."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Giao tiếp trong không gian mạng",
+   "topic": "Văn hóa giao tiếp trên không gian mạng",
+   "level": 1,
+   "stem": "Hành vi nào sau đây thể hiện văn hóa giao tiếp tốt trên không gian mạng?",
+   "options": [
+    "Dùng ngôn ngữ lịch sự, tôn trọng người khác và kiểm chứng thông tin trước khi chia sẻ",
+    "Viết toàn chữ in hoa và dùng lời lẽ gay gắt khi tranh luận",
+    "Chia sẻ ngay mọi tin giật gân nhận được",
+    "Đăng ảnh của người khác để chế giễu"
+   ],
+   "answer": 0,
+   "explanation": "Giao tiếp có văn hóa: lịch sự, tôn trọng, trung thực, có trách nhiệm với thông tin mình đưa lên mạng."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Giao tiếp trong không gian mạng",
+   "topic": "Bắt nạt trực tuyến",
+   "level": 1,
+   "stem": "Bắt nạt trực tuyến là",
+   "options": [
+    "việc góp ý lịch sự cho bài viết của bạn",
+    "việc chơi trò chơi trực tuyến với bạn bè",
+    "việc báo cáo nội dung xấu cho quản trị viên",
+    "hành vi sử dụng công nghệ số để đe dọa, quấy rối, làm nhục hoặc bêu xấu người khác"
+   ],
+   "answer": 3,
+   "explanation": "Bắt nạt trực tuyến có thể là tin nhắn đe dọa, tung tin sai, phát tán ảnh để làm nhục, cô lập người khác…"
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Giao tiếp trong không gian mạng",
+   "topic": "An toàn khi giao tiếp trên mạng",
+   "level": 2,
+   "stem": "Một tài khoản lạ trên mạng xã hội liên tục nhắn tin hứa tặng quà, đề nghị Hà cho địa chỉ nhà và hẹn gặp riêng. Hà nên",
+   "options": [
+    "gửi địa chỉ để nhận quà",
+    "đi gặp một mình để xem người đó là ai",
+    "không cung cấp thông tin cá nhân, không gặp mặt và báo cho cha mẹ hoặc thầy cô",
+    "chia sẻ số điện thoại của bạn thân cho người đó"
+   ],
+   "answer": 2,
+   "explanation": "Đây là dấu hiệu dụ dỗ, lừa đảo; cần bảo vệ thông tin cá nhân và nhờ người lớn hỗ trợ."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Giao tiếp trong không gian mạng",
+   "topic": "Dấu chân số",
+   "level": 2,
+   "stem": "Vì sao cần cân nhắc kĩ trước khi đăng ảnh, bình luận lên mạng xã hội?",
+   "options": [
+    "Vì nội dung đăng lên sẽ tự xóa sau một ngày",
+    "Vì nội dung đã đăng có thể bị lưu lại, lan truyền lâu dài và ảnh hưởng tới hình ảnh của bản thân sau này",
+    "Vì mạng xã hội không cho phép đăng ảnh",
+    "Vì chỉ người đăng mới nhìn thấy nội dung"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi hoạt động trực tuyến để lại “dấu chân số”; xóa bài gốc chưa chắc xóa được các bản đã bị sao chép."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Giao tiếp trong không gian mạng",
+   "topic": "Tin giả",
+   "level": 3,
+   "stem": "Trong nhóm chat lớp lan truyền tin “Ngày mai trường cho học sinh nghỉ học do bão” nhưng không rõ nguồn. Cách xử lí phù hợp nhất là",
+   "options": [
+    "kiểm tra trên kênh thông tin chính thức của nhà trường hoặc hỏi giáo viên chủ nhiệm trước khi chia sẻ",
+    "chia sẻ ngay cho tất cả bạn bè để mọi người biết",
+    "tự ý nghỉ học mà không cần kiểm tra",
+    "đăng lên mạng xã hội kèm lời bình luận chê trách nhà trường"
+   ],
+   "answer": 0,
+   "explanation": "Cần xác minh thông tin từ nguồn chính thức; lan truyền tin chưa kiểm chứng có thể gây hậu quả và vi phạm quy định."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Ngôn ngữ đánh dấu siêu văn bản HTML",
+   "level": 1,
+   "stem": "HTML là",
+   "options": [
+    "một trình duyệt web",
+    "ngôn ngữ đánh dấu siêu văn bản, dùng để mô tả cấu trúc nội dung trang web",
+    "giao thức truyền tệp",
+    "hệ quản trị cơ sở dữ liệu"
+   ],
+   "answer": 1,
+   "explanation": "HTML (HyperText Markup Language) dùng các thẻ để đánh dấu tiêu đề, đoạn văn, liên kết, ảnh, bảng…"
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Thẻ định dạng văn bản",
+   "level": 1,
+   "stem": "Thẻ HTML tạo đề mục (tiêu đề) có cỡ chữ lớn nhất là",
+   "options": [
+    "<h6>",
+    "<h1>",
+    "<head>",
+    "<title>"
+   ],
+   "answer": 1,
+   "explanation": "Các thẻ đề mục từ <h1> (lớn nhất) đến <h6> (nhỏ nhất); <head> chứa thông tin đầu trang, <title> là tiêu đề hiển thị trên tab trình duyệt."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Tạo liên kết",
+   "level": 1,
+   "stem": "Thẻ HTML dùng để tạo siêu liên kết trên trang web là",
+   "options": [
+    "<img>",
+    "<p>",
+    "<a>",
+    "<ul>"
+   ],
+   "answer": 2,
+   "explanation": "Thẻ <a> với thuộc tính href tạo siêu liên kết, ví dụ <a href=\"trang2.html\">Trang 2</a>."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Tạo danh sách",
+   "level": 2,
+   "stem": "Đoạn mã HTML sau hiển thị trên trình duyệt như thế nào?\n<ol type=\"A\">\n  <li>Toán</li>\n  <li>Văn</li>\n  <li>Tin</li>\n</ol>",
+   "options": [
+    "Ba dòng có dấu chấm tròn đầu dòng",
+    "Ba dòng được đánh số 1. Toán, 2. Văn, 3. Tin",
+    "Ba dòng được đánh dấu a. Toán, b. Văn, c. Tin",
+    "Ba dòng được đánh dấu lần lượt A. Toán, B. Văn, C. Tin"
+   ],
+   "answer": 3,
+   "explanation": "<ol> là danh sách có thứ tự; thuộc tính type=\"A\" đánh dấu bằng chữ cái in hoa A, B, C."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Chèn hình ảnh",
+   "level": 2,
+   "stem": "Trong thẻ <img src=\"logo.png\" alt=\"Logo trường\">, thuộc tính alt dùng để",
+   "options": [
+    "chỉ định đường dẫn tới tệp ảnh",
+    "đặt chiều rộng cho ảnh",
+    "tạo liên kết từ ảnh tới trang khác",
+    "cung cấp văn bản thay thế, hiển thị khi ảnh không tải được và hỗ trợ trình đọc màn hình"
+   ],
+   "answer": 3,
+   "explanation": "src chỉ đường dẫn tệp ảnh; alt là văn bản thay thế; width/height đặt kích thước."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Tạo bảng",
+   "level": 2,
+   "stem": "Trong bảng HTML, ô được khai báo <td colspan=\"2\">…</td> có đặc điểm",
+   "options": [
+    "trải dài trên 2 hàng (gộp 2 ô theo chiều dọc)",
+    "có đường viền dày 2 điểm ảnh",
+    "trải rộng trên 2 cột (gộp 2 ô liền nhau theo chiều ngang)",
+    "có chiều rộng 2 cm"
+   ],
+   "answer": 2,
+   "explanation": "colspan gộp ô theo cột (chiều ngang); rowspan gộp ô theo hàng (chiều dọc)."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Tạo bảng",
+   "level": 3,
+   "stem": "Bảng được tạo bởi đoạn mã HTML sau có bao nhiêu hàng và bao nhiêu cột?\n<table border=\"1\">\n  <tr><th colspan=\"3\">Lịch trực nhật</th></tr>\n  <tr><td>Thứ 2</td><td>Thứ 3</td><td>Thứ 4</td></tr>\n  <tr><td>An</td><td>Bình</td><td>Chi</td></tr>\n</table>",
+   "options": [
+    "2 hàng, 3 cột",
+    "3 hàng, 3 cột",
+    "3 hàng, 1 cột",
+    "4 hàng, 3 cột"
+   ],
+   "answer": 1,
+   "explanation": "Có 3 thẻ <tr> nên có 3 hàng; hàng 2 và 3 có 3 ô, hàng 1 có một ô gộp 3 cột (colspan=\"3\") nên bảng có 3 cột (đã kiểm bằng HTMLParser của Python)."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Tạo biểu mẫu",
+   "level": 2,
+   "stem": "Trong biểu mẫu HTML, để tạo ô nhập mật khẩu (kí tự gõ vào được che đi), ta dùng",
+   "options": [
+    "<input type=\"text\">",
+    "<input type=\"submit\">",
+    "<input type=\"checkbox\">",
+    "<input type=\"password\">"
+   ],
+   "answer": 3,
+   "explanation": "type=\"password\" che kí tự nhập; text là ô văn bản thường; submit là nút gửi; checkbox là ô đánh dấu."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Tạo biểu mẫu",
+   "level": 3,
+   "stem": "Trong biểu mẫu đăng kí, muốn người dùng chỉ được chọn MỘT trong hai phương án “Nam”, “Nữ”, cách tạo đúng là",
+   "options": [
+    "dùng hai thẻ <input type=\"checkbox\"> có cùng giá trị thuộc tính name",
+    "dùng hai thẻ <input type=\"radio\"> có giá trị thuộc tính name khác nhau",
+    "dùng hai thẻ <input type=\"radio\"> có cùng giá trị thuộc tính name",
+    "dùng hai thẻ <input type=\"text\">"
+   ],
+   "answer": 2,
+   "explanation": "Các nút radio cùng name tạo thành một nhóm, chỉ chọn được một; checkbox cho chọn nhiều; radio khác name thuộc các nhóm khác nhau nên chọn được cả hai."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Tạo liên kết",
+   "level": 2,
+   "stem": "Liên kết <a href=\"#lienhe\">Liên hệ</a> khi được nháy chuột sẽ",
+   "options": [
+    "chuyển tới phần tử có id=\"lienhe\" trong cùng trang web",
+    "mở tệp lienhe.html trong thư mục khác",
+    "gửi thư điện tử tới địa chỉ lienhe",
+    "tải xuống tệp có tên lienhe"
+   ],
+   "answer": 0,
+   "explanation": "Giá trị href bắt đầu bằng # là liên kết tới vị trí (phần tử có id tương ứng) trong cùng trang."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Trí tuệ nhân tạo",
+   "topic": "Ứng dụng của trí tuệ nhân tạo",
+   "level": 3,
+   "stem": "Một chuỗi siêu thị dùng hệ thống AI phân tích lịch sử mua hàng của khách để gợi ý sản phẩm và dự báo lượng hàng cần nhập cho từng cửa hàng.",
+   "statements": [
+    {
+     "t": "Hệ thống trên là một ứng dụng của học máy.",
+     "a": true
+    },
+    {
+     "t": "Dữ liệu huấn luyện càng đầy đủ, đa dạng và chính xác thì dự báo thường càng tốt.",
+     "a": true
+    },
+    {
+     "t": "Hệ thống có ý thức và cảm xúc như con người.",
+     "a": false
+    },
+    {
+     "t": "Siêu thị được tự do thu thập, chia sẻ dữ liệu khách hàng mà không cần quan tâm tới quyền riêng tư.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: hệ thống học từ dữ liệu mua hàng. b) Đúng: chất lượng mô hình phụ thuộc chất lượng dữ liệu. c) Sai: AI hiện nay là AI hẹp, không có ý thức, cảm xúc. d) Sai: dữ liệu cá nhân phải được thu thập, xử lí theo quy định pháp luật và có sự đồng ý."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Kết nối mạng",
+   "topic": "Kết nối thiết bị",
+   "level": 2,
+   "stem": "Lan muốn dùng máy in có Wi-Fi ở nhà để in từ laptop và điện thoại; đồng thời muốn trình chiếu bài thuyết trình từ laptop lên máy chiếu.",
+   "statements": [
+    {
+     "t": "Nếu máy in và laptop cùng kết nối Wi-Fi của một router thì laptop có thể in qua mạng.",
+     "a": true
+    },
+    {
+     "t": "Bluetooth phù hợp để kết nối điện thoại với máy in ở cách xa vài ki-lô-mét.",
+     "a": false
+    },
+    {
+     "t": "Lan có thể nối laptop với máy chiếu bằng cáp HDMI để trình chiếu.",
+     "a": true
+    },
+    {
+     "t": "Để in qua mạng LAN trong nhà, bắt buộc gia đình phải có kết nối Internet.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: hai thiết bị cùng mạng LAN. b) Sai: Bluetooth chỉ có tầm ngắn. c) Đúng: HDMI truyền hình ảnh, âm thanh tới máy chiếu. d) Sai: in qua LAN không cần Internet."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Giao tiếp trong không gian mạng",
+   "topic": "Ứng xử khi bị đe dọa trên mạng",
+   "level": 3,
+   "stem": "Minh nhận được tin nhắn từ một tài khoản lạ đe dọa sẽ phát tán ảnh riêng tư của Minh nếu Minh không chuyển tiền.",
+   "statements": [
+    {
+     "t": "Minh nên chuyển tiền ngay để giữ bí mật.",
+     "a": false
+    },
+    {
+     "t": "Minh nên lưu lại bằng chứng (chụp màn hình tin nhắn) và báo cha mẹ, thầy cô hoặc cơ quan công an.",
+     "a": true
+    },
+    {
+     "t": "Minh có thể chặn và báo cáo tài khoản đó với nền tảng mạng xã hội.",
+     "a": true
+    },
+    {
+     "t": "Hành vi của tài khoản lạ không vi phạm pháp luật vì chỉ diễn ra trên mạng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: chuyển tiền không đảm bảo kẻ xấu dừng lại, thường bị đòi tiếp. b) Đúng. c) Đúng. d) Sai: đe dọa, cưỡng đoạt tài sản trên mạng vẫn là hành vi vi phạm pháp luật."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Tạo trang web với HTML",
+   "topic": "Cấu trúc trang web HTML",
+   "level": 3,
+   "stem": "Cho tệp index.html có nội dung:\n<!DOCTYPE html>\n<html>\n<head>\n  <title>CLB Tin học</title>\n</head>\n<body>\n  <h1>Câu lạc bộ Tin học</h1>\n  <p>Đăng kí <b>tham gia</b> tại <a href=\"dangki.html\">đây</a>.</p>\n  <ul>\n    <li>Lập trình</li>\n    <li>Thiết kế web</li>\n  </ul>\n  <img src=\"anh/logo.png\" alt=\"Logo CLB\">\n</body>\n</html>",
+   "statements": [
+    {
+     "t": "Dòng chữ “CLB Tin học” hiển thị trên thanh tiêu đề (tab) của trình duyệt.",
+     "a": true
+    },
+    {
+     "t": "Hai mục “Lập trình”, “Thiết kế web” được đánh số thứ tự 1, 2.",
+     "a": false
+    },
+    {
+     "t": "Nháy chuột vào chữ “đây” sẽ mở trang dangki.html.",
+     "a": true
+    },
+    {
+     "t": "Tệp logo.png phải nằm cùng thư mục với tệp index.html thì ảnh mới hiển thị.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: nội dung thẻ <title> hiển thị trên tab. b) Sai: <ul> là danh sách không thứ tự, hiển thị dấu đầu dòng. c) Đúng: thẻ <a href=\"dangki.html\">. d) Sai: src=\"anh/logo.png\" nghĩa là tệp nằm trong thư mục con anh của thư mục chứa index.html."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; tính hợp lệ các địa chỉ IPv4 kiểm bằng thư viện ipaddress của Python, số hàng/cột của bảng HTML và đoạn mã trang web kiểm bằng html.parser của Python; thiết bị mạng, giao thức, thẻ HTML đối chiếu SGK Tin học 12 KNTT."
+}

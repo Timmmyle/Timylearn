@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "Tin học",
+ "exam": "gk2",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 2 – Tin học 10",
+ "scope": "Lập trình Python cơ bản: biến, kiểu dữ liệu, lệnh vào ra, phép toán, câu lệnh if, vòng lặp for với range(), vòng lặp while.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Lệnh vào ra đơn giản",
+   "level": 1,
+   "stem": "Trong Python, lệnh nào dùng để đưa dữ liệu ra màn hình?",
+   "options": [
+    "input()",
+    "int()",
+    "print()",
+    "type()"
+   ],
+   "answer": 2,
+   "explanation": "Lệnh print() in dữ liệu ra màn hình; input() dùng để nhập dữ liệu từ bàn phím, int() chuyển sang số nguyên, type() cho biết kiểu dữ liệu."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Biến và lệnh gán",
+   "level": 1,
+   "stem": "Tên biến nào sau đây hợp lệ trong Python?",
+   "options": [
+    "2so",
+    "so-hoc-sinh",
+    "so_hoc_sinh",
+    "for"
+   ],
+   "answer": 2,
+   "explanation": "Tên biến chỉ gồm chữ cái, chữ số, dấu gạch dưới, không bắt đầu bằng chữ số và không trùng từ khóa. \"2so\" bắt đầu bằng số, \"so-hoc-sinh\" chứa dấu \"-\", \"for\" là từ khóa."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Kiểu dữ liệu",
+   "level": 1,
+   "stem": "Giá trị 3.5 trong Python thuộc kiểu dữ liệu nào?",
+   "options": [
+    "float",
+    "int",
+    "str",
+    "bool"
+   ],
+   "answer": 0,
+   "explanation": "3.5 là số thực nên có kiểu float. Kiểu int là số nguyên, str là xâu kí tự, bool là kiểu logic."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Lệnh vào ra đơn giản",
+   "level": 1,
+   "stem": "Hàm input() trong Python luôn trả về dữ liệu thuộc kiểu nào?",
+   "options": [
+    "Số nguyên (int)",
+    "Số thực (float)",
+    "Kiểu logic (bool)",
+    "Xâu kí tự (str)"
+   ],
+   "answer": 3,
+   "explanation": "Dữ liệu nhập bằng input() luôn là xâu kí tự; muốn tính toán phải chuyển kiểu bằng int() hoặc float()."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Các phép toán số học",
+   "level": 1,
+   "stem": "Cho đoạn chương trình:\nprint(17 // 5, 17 % 5)\nKết quả in ra màn hình là",
+   "options": [
+    "3.4 2",
+    "3 2",
+    "3 3",
+    "2 3"
+   ],
+   "answer": 1,
+   "explanation": "Phép // lấy phần nguyên của phép chia: 17 // 5 = 3; phép % lấy phần dư: 17 % 5 = 2."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Các phép toán số học",
+   "level": 1,
+   "stem": "Trong Python, biểu thức 2 ** 3 có giá trị bằng bao nhiêu?",
+   "options": [
+    "6",
+    "8",
+    "5",
+    "9"
+   ],
+   "answer": 1,
+   "explanation": "Toán tử ** là phép lũy thừa: 2 ** 3 = 2 × 2 × 2 = 8."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Phép so sánh và biểu thức logic",
+   "level": 1,
+   "stem": "Phép so sánh \"khác\" (không bằng) trong Python được viết là",
+   "options": [
+    "!=",
+    "<>",
+    "=!",
+    "=="
+   ],
+   "answer": 0,
+   "explanation": "Trong Python, != nghĩa là khác; == là so sánh bằng; <> và =! không phải toán tử hợp lệ."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Lệnh range()",
+   "level": 1,
+   "stem": "Lệnh range(5) tạo ra dãy số nào?",
+   "options": [
+    "0, 1, 2, 3, 4",
+    "1, 2, 3, 4, 5",
+    "0, 1, 2, 3, 4, 5",
+    "1, 2, 3, 4"
+   ],
+   "answer": 0,
+   "explanation": "range(n) tạo dãy số nguyên từ 0 đến n − 1, nên range(5) gồm 0, 1, 2, 3, 4."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Câu lệnh rẽ nhánh if",
+   "level": 1,
+   "stem": "Câu lệnh nào sau đây viết đúng cú pháp trong Python?",
+   "options": [
+    "if x > 0:",
+    "if x > 0 then",
+    "if (x > 0)",
+    "if x > 0;"
+   ],
+   "answer": 0,
+   "explanation": "Câu lệnh if trong Python kết thúc bằng dấu hai chấm, khối lệnh bên trong được viết thụt lề."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp while",
+   "level": 1,
+   "stem": "Khi chưa biết trước số lần lặp, chỉ biết điều kiện để tiếp tục lặp, ta nên dùng câu lệnh nào?",
+   "options": [
+    "for … in range(…)",
+    "if … else",
+    "while",
+    "print"
+   ],
+   "answer": 2,
+   "explanation": "Lệnh while lặp khi điều kiện còn đúng, phù hợp với vòng lặp chưa biết trước số lần lặp; for với range() phù hợp khi biết trước số lần lặp."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Kiểu dữ liệu",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nx = \"5\"\ny = 2\nprint(x * y)\nKết quả in ra màn hình là",
+   "options": [
+    "10",
+    "55",
+    "7",
+    "Báo lỗi"
+   ],
+   "answer": 1,
+   "explanation": "x là xâu \"5\", nhân xâu với số nguyên 2 cho xâu lặp lại 2 lần: \"55\"."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Chuyển đổi kiểu dữ liệu",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nprint(int(\"7\") + 3)\nKết quả in ra màn hình là",
+   "options": [
+    "73",
+    "10",
+    "Báo lỗi",
+    "7 3"
+   ],
+   "answer": 1,
+   "explanation": "int(\"7\") chuyển xâu \"7\" thành số nguyên 7, cộng với 3 được 10."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Phép so sánh và biểu thức logic",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nx = 7\nprint(x > 5 and x % 2 == 0)\nKết quả in ra màn hình là",
+   "options": [
+    "True",
+    "7",
+    "Báo lỗi",
+    "False"
+   ],
+   "answer": 3,
+   "explanation": "x > 5 là True nhưng x % 2 == 0 là False (7 lẻ); True and False cho False."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Câu lệnh rẽ nhánh if",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\ndiem = 7.5\nif diem >= 8:\n    print(\"Gioi\")\nelif diem >= 6.5:\n    print(\"Kha\")\nelse:\n    print(\"Trung binh\")\nKết quả in ra màn hình là",
+   "options": [
+    "Gioi",
+    "Kha",
+    "Trung binh",
+    "Gioi\nKha"
+   ],
+   "answer": 1,
+   "explanation": "diem = 7.5 không thỏa diem >= 8 nhưng thỏa diem >= 6.5 nên in \"Kha\"; các nhánh còn lại bị bỏ qua."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Lệnh range()",
+   "level": 2,
+   "stem": "Lệnh list(range(2, 11, 3)) cho kết quả nào?",
+   "options": [
+    "[2, 5, 8, 11]",
+    "[3, 6, 9]",
+    "[2, 3, 4, 5, 6, 7, 8, 9, 10]",
+    "[2, 5, 8]"
+   ],
+   "answer": 3,
+   "explanation": "range(2, 11, 3) bắt đầu từ 2, bước nhảy 3, dừng trước 11: 2, 5, 8."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp for",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\ns = 0\nfor i in range(1, 5):\n    s = s + i\nprint(s)\nKết quả in ra màn hình là",
+   "options": [
+    "15",
+    "6",
+    "10",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Vòng lặp cộng các số i = 1, 2, 3, 4 (range(1, 5) không gồm 5): s = 1 + 2 + 3 + 4 = 10."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Câu lệnh rẽ nhánh if",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\na = int(input())\nif a > 0\n    print(\"So duong\")\nChương trình trên bị lỗi vì",
+   "options": [
+    "Thiếu dấu hai chấm (:) ở cuối dòng 2",
+    "Thiếu dấu ngoặc đơn bao điều kiện a > 0",
+    "Lệnh print phải viết hoa thành Print",
+    "Không được dùng phép so sánh > trong câu lệnh if"
+   ],
+   "answer": 0,
+   "explanation": "Cú pháp đúng là \"if a > 0:\"; thiếu dấu hai chấm gây lỗi cú pháp (SyntaxError). Điều kiện không bắt buộc đặt trong ngoặc."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp while",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\nn = 1\nwhile n < 50:\n    n = n * 3\nprint(n)\nKết quả in ra màn hình là",
+   "options": [
+    "27",
+    "50",
+    "243",
+    "81"
+   ],
+   "answer": 3,
+   "explanation": "n lần lượt nhận 1 → 3 → 9 → 27 → 81. Khi n = 81 thì điều kiện n < 50 sai, vòng lặp dừng và in 81."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp for",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\ndem = 0\nfor i in range(1, 21):\n    if i % 3 == 0 or i % 5 == 0:\n        dem = dem + 1\nprint(dem)\nKết quả in ra màn hình là",
+   "options": [
+    "10",
+    "8",
+    "9",
+    "11"
+   ],
+   "answer": 2,
+   "explanation": "Các số từ 1 đến 20 chia hết cho 3 hoặc 5: 3, 5, 6, 9, 10, 12, 15, 18, 20 – có 9 số."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Lệnh vào ra đơn giản",
+   "level": 3,
+   "stem": "Cho đoạn chương trình (người dùng nhập 3 rồi nhập 4):\na = input()\nb = input()\nprint(a + b)\nKết quả in ra màn hình là",
+   "options": [
+    "7",
+    "3 4",
+    "Báo lỗi",
+    "34"
+   ],
+   "answer": 3,
+   "explanation": "input() trả về xâu nên a = \"3\", b = \"4\"; phép + nối hai xâu được \"34\". Muốn tính tổng phải viết int(input())."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Lệnh range()",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\nfor i in range(10, 0, -2):\n    print(i, end=\" \")\nKết quả in ra màn hình là",
+   "options": [
+    "10 8 6 4 2 0",
+    "0 2 4 6 8 10",
+    "8 6 4 2 0",
+    "10 8 6 4 2"
+   ],
+   "answer": 3,
+   "explanation": "range(10, 0, -2) đếm lùi từ 10 với bước −2 và dừng trước 0: 10, 8, 6, 4, 2."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp while",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\nn = 2024\nt = 0\nwhile n > 0:\n    t = t + n % 10\n    n = n // 10\nprint(t)\nKết quả in ra màn hình là",
+   "options": [
+    "2024",
+    "8",
+    "4",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi vòng lặp cộng chữ số hàng đơn vị (n % 10) rồi bỏ chữ số đó (n // 10): 4 + 2 + 0 + 2 = 8. Chương trình tính tổng các chữ số của n."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Các phép toán số học",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nprint(type(10 / 2))\nKết quả in ra màn hình là",
+   "options": [
+    "<class 'float'>",
+    "<class 'int'>",
+    "<class 'str'>",
+    "<class 'bool'>"
+   ],
+   "answer": 0,
+   "explanation": "Phép chia / trong Python luôn cho kết quả số thực: 10 / 2 = 5.0 có kiểu float."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Phép so sánh và biểu thức logic",
+   "level": 3,
+   "stem": "Năm nhuận là năm chia hết cho 400, hoặc chia hết cho 4 nhưng không chia hết cho 100. Với biến nguyên y là năm, biểu thức nào kiểm tra đúng y là năm nhuận?",
+   "options": [
+    "y % 4 == 0 or y % 100 != 0",
+    "(y % 4 == 0 or y % 100 != 0) and y % 400 == 0",
+    "(y % 4 == 0 and y % 100 != 0) or y % 400 == 0",
+    "y % 4 == 0 and y % 100 != 0 and y % 400 == 0"
+   ],
+   "answer": 2,
+   "explanation": "Dịch đúng điều kiện: (chia hết cho 4 và không chia hết cho 100) hoặc chia hết cho 400. Ví dụ 2000 nhuận, 1900 không nhuận, 2024 nhuận – chỉ biểu thức này cho kết quả đúng với cả ba năm."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp for",
+   "level": 2,
+   "stem": "Cho chương trình Python tính một giá trị từ số nguyên dương n nhập từ bàn phím:\nn = int(input())\np = 1\nfor i in range(1, n + 1):\n    p = p * i\nprint(p)",
+   "statements": [
+    {
+     "t": "Chương trình tính tích 1 × 2 × … × n (n giai thừa).",
+     "a": true
+    },
+    {
+     "t": "Nếu nhập n = 5 thì chương trình in ra 120.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay range(1, n + 1) bằng range(1, n) thì với n = 5 chương trình vẫn in ra 120.",
+     "a": false
+    },
+    {
+     "t": "Nếu khởi tạo p = 0 thay cho p = 1 thì chương trình vẫn cho kết quả đúng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: p lần lượt nhân với 1, 2, …, n. b) Đúng: 1·2·3·4·5 = 120. c) Sai: range(1, 5) chỉ đến 4 nên in 24. d) Sai: p = 0 thì mọi tích đều bằng 0."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Kiểu dữ liệu và phép toán",
+   "level": 2,
+   "stem": "Xét các phát biểu về kiểu dữ liệu và phép toán trong Python.",
+   "statements": [
+    {
+     "t": "Biểu thức 7 / 2 cho kết quả 3.5.",
+     "a": true
+    },
+    {
+     "t": "Biểu thức 7 // 2 cho kết quả 3.5.",
+     "a": false
+    },
+    {
+     "t": "Lệnh print(int(3.9)) in ra 3.",
+     "a": true
+    },
+    {
+     "t": "Biểu thức \"3\" + 4 cho kết quả 7.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: phép / cho số thực. b) Sai: // lấy phần nguyên, được 3. c) Đúng: int() bỏ phần thập phân, không làm tròn. d) Sai: không cộng được xâu với số, chương trình báo lỗi TypeError."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp while",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\na = int(input())\nb = int(input())\nwhile a != b:\n    if a > b:\n        a = a - b\n    else:\n        b = b - a\nprint(a)",
+   "statements": [
+    {
+     "t": "Với a = 12, b = 18, chương trình in ra 6.",
+     "a": true
+    },
+    {
+     "t": "Chương trình tìm ước chung lớn nhất của hai số nguyên dương a và b.",
+     "a": true
+    },
+    {
+     "t": "Với a = 12, b = 18, thân vòng lặp while được thực hiện 3 lần.",
+     "a": false
+    },
+    {
+     "t": "Với a = 7, b = 7, thân vòng lặp không được thực hiện lần nào và chương trình in ra 7.",
+     "a": true
+    }
+   ],
+   "explanation": "Đây là thuật toán Euclid dùng phép trừ. a) Đúng. b) Đúng. c) Sai: lần 1: a < b nên b = 18 − 12 = 6; lần 2: a > b nên a = 12 − 6 = 6; lúc này a = b nên dừng – chỉ 2 lần. d) Đúng: điều kiện a != b sai ngay từ đầu."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Câu lệnh rẽ nhánh if",
+   "level": 3,
+   "stem": "Một hãng taxi tính cước: km đầu tiên giá 12000 đồng; từ km thứ 2 đến km thứ 10 giá 10000 đồng/km; từ km thứ 11 trở đi giá 8000 đồng/km. Chương trình sau tính tiền với số km nguyên s ≥ 1:\ns = int(input())\nif s == 1:\n    tien = 12000\nelif s <= 10:\n    tien = 12000 + (s - 1) * 10000\nelse:\n    tien = 102000 + (s - 10) * 8000\nprint(tien)",
+   "statements": [
+    {
+     "t": "Với s = 1, chương trình in ra 12000.",
+     "a": true
+    },
+    {
+     "t": "Với s = 10, chương trình in ra 100000.",
+     "a": false
+    },
+    {
+     "t": "Với s = 15, chương trình in ra 140000.",
+     "a": false
+    },
+    {
+     "t": "Nếu sửa dòng 4 thành elif s < 10: thì kết quả với s = 10 không thay đổi.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: chỉ có km đầu. b) Sai: 12000 + 9 × 10000 = 102000. c) Sai: 102000 + 5 × 8000 = 142000. d) Đúng: khi đó s = 10 rơi vào nhánh else, tiền = 102000 + 0 × 8000 = 102000, không đổi."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; toàn bộ đoạn code Python trong đề (kể cả các ý Đúng/Sai) được chạy bằng python3 qua script sinh đề, so khớp tự động đầu ra với đáp án; phân bố đáp án A/B/C/D đã cân đối."
+}

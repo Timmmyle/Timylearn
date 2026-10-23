@@ -1,0 +1,467 @@
+{
+ "grade": 10,
+ "subject": "Sinh học",
+ "exam": "gk1",
+ "duration_min": 50,
+ "title": "Đề ôn giữa học kì 1 – Sinh học 10 (đề số 1)",
+ "scope": "Chương 1 Thành phần hóa học của tế bào (nguyên tố hóa học, nước, carbohydrate, lipid, protein, nucleic acid); Chương 2 Cấu trúc tế bào (tế bào nhân sơ, tế bào nhân thực)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Các nguyên tố hóa học trong tế bào",
+   "level": 1,
+   "stem": "Bốn nguyên tố chiếm khoảng 96% khối lượng cơ thể sống là",
+   "options": [
+    "C, H, O, P",
+    "C, H, O, N",
+    "C, Na, Mg, N",
+    "Fe, Cu, Zn, Mn"
+   ],
+   "answer": 1,
+   "explanation": "C, H, O, N là các nguyên tố đa lượng chủ yếu, chiếm khoảng 96% khối lượng cơ thể sống."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Các nguyên tố hóa học trong tế bào",
+   "level": 1,
+   "stem": "Nhóm nào sau đây gồm toàn các nguyên tố vi lượng?",
+   "options": [
+    "Fe, Cu, Zn, Mo",
+    "C, H, Fe, Zn",
+    "Ca, Mg, Cu, Zn",
+    "N, P, K, S"
+   ],
+   "answer": 0,
+   "explanation": "Fe, Cu, Zn, Mo là nguyên tố vi lượng (chiếm < 0,01% khối lượng chất khô); C, H, N, P, K, S, Ca, Mg là nguyên tố đa lượng."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Các nguyên tố hóa học trong tế bào",
+   "level": 1,
+   "stem": "Carbon là nguyên tố tạo nên bộ khung của các phân tử hữu cơ trong tế bào vì nguyên tử carbon",
+   "options": [
+    "có khối lượng nguyên tử lớn nhất trong tế bào",
+    "chiếm tỉ lệ khối lượng lớn nhất trong tế bào",
+    "có thể tạo đồng thời 4 liên kết cộng hóa trị với các nguyên tử khác",
+    "dễ tạo liên kết ion với phân tử nước"
+   ],
+   "answer": 2,
+   "explanation": "Carbon có 4 electron lớp ngoài cùng nên tạo được 4 liên kết cộng hóa trị, hình thành mạch carbon thẳng, nhánh, vòng rất đa dạng."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nước và vai trò của nước",
+   "level": 2,
+   "stem": "Nước là dung môi hòa tan được nhiều chất trong tế bào chủ yếu nhờ",
+   "options": [
+    "phân tử nước có kích thước rất lớn",
+    "phân tử nước có tính phân cực",
+    "liên kết cộng hóa trị giữa O và H rất bền",
+    "nước có nhiệt dung riêng thấp"
+   ],
+   "answer": 1,
+   "explanation": "Phân tử nước phân cực (đầu O tích điện âm một phần, đầu H tích điện dương một phần) nên hút và hòa tan các chất phân cực, ion."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Protein",
+   "level": 1,
+   "stem": "Đơn phân cấu tạo nên phân tử protein là",
+   "options": [
+    "amino acid",
+    "nucleotide",
+    "glucose",
+    "acid béo"
+   ],
+   "answer": 0,
+   "explanation": "Protein là đại phân tử cấu tạo theo nguyên tắc đa phân, đơn phân là amino acid (khoảng 20 loại)."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Carbohydrate",
+   "level": 1,
+   "stem": "Loại polysaccharide dự trữ năng lượng chủ yếu ở thực vật là",
+   "options": [
+    "glycogen",
+    "cellulose",
+    "chitin",
+    "tinh bột"
+   ],
+   "answer": 3,
+   "explanation": "Tinh bột là chất dự trữ của thực vật; glycogen dự trữ ở động vật, nấm; cellulose và chitin có vai trò cấu trúc."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Lipid",
+   "level": 2,
+   "stem": "Phân tử phospholipid có đặc điểm nào sau đây?",
+   "options": [
+    "Có đầu ưa nước và hai đuôi kị nước",
+    "Gồm 1 glycerol liên kết với 3 acid béo",
+    "Là polymer của các phân tử glucose",
+    "Hoàn toàn kị nước, không có nhóm phân cực"
+   ],
+   "answer": 0,
+   "explanation": "Phospholipid gồm glycerol liên kết với 2 acid béo (đuôi kị nước) và một nhóm phosphate (đầu ưa nước), nhờ đó tạo lớp kép của màng."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 2,
+   "stem": "Liên kết hóa học nối các nucleotide kế tiếp nhau trên một mạch polynucleotide là",
+   "options": [
+    "liên kết peptide",
+    "liên kết hydrogen",
+    "liên kết phosphodiester",
+    "liên kết glycosidic"
+   ],
+   "answer": 2,
+   "explanation": "Nhóm phosphate của nucleotide này liên kết với đường của nucleotide kế tiếp bằng liên kết phosphodiester; liên kết hydrogen nối hai mạch."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 3,
+   "stem": "Hai đoạn DNA mạch kép có cùng số cặp nucleotide. Đoạn I có tỉ lệ $\\dfrac{A+T}{G+C} = 1{,}5$; đoạn II có tỉ lệ này bằng $0{,}5$. Nhận định nào sau đây đúng?",
+   "options": [
+    "Đoạn I có nhiều liên kết hydrogen hơn nên bền nhiệt hơn",
+    "Hai đoạn có số liên kết hydrogen bằng nhau vì cùng số cặp nucleotide",
+    "Đoạn I có nhiều nucleotide loại G hơn đoạn II",
+    "Đoạn II có nhiều liên kết hydrogen hơn nên khó tách mạch hơn khi đun nóng"
+   ],
+   "answer": 3,
+   "explanation": "Cặp G–C có 3 liên kết hydrogen, cặp A–T có 2. Đoạn II có tỉ lệ G–C cao hơn nên nhiều liên kết hydrogen hơn, bền nhiệt hơn."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Tế bào nhân sơ",
+   "level": 1,
+   "stem": "Đặc điểm nào sau đây có ở tế bào nhân sơ?",
+   "options": [
+    "Có hệ thống nội màng phát triển",
+    "Có ti thể và lục lạp",
+    "Kích thước thường từ 10 đến 100 µm",
+    "Chưa có màng nhân bao bọc vùng nhân"
+   ],
+   "answer": 3,
+   "explanation": "Tế bào nhân sơ kích thước nhỏ (khoảng 1–5 µm), chưa có màng nhân, không có hệ thống nội màng và bào quan có màng bao bọc."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Tế bào nhân sơ",
+   "level": 1,
+   "stem": "Thành tế bào của vi khuẩn được cấu tạo chủ yếu từ",
+   "options": [
+    "cellulose",
+    "chitin",
+    "peptidoglycan",
+    "phospholipid"
+   ],
+   "answer": 2,
+   "explanation": "Thành tế bào vi khuẩn cấu tạo từ peptidoglycan; thành tế bào thực vật từ cellulose, của nấm từ chitin."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Tế bào nhân thực – ribosome",
+   "level": 1,
+   "stem": "Bào quan làm nhiệm vụ tổng hợp protein trong tế bào là",
+   "options": [
+    "lysosome",
+    "không bào",
+    "trung thể",
+    "ribosome"
+   ],
+   "answer": 3,
+   "explanation": "Ribosome là nơi diễn ra dịch mã (tổng hợp chuỗi polypeptide), có ở cả tế bào nhân sơ và nhân thực."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Ti thể",
+   "level": 2,
+   "stem": "Loại tế bào nào sau đây ở người có nhiều ti thể nhất?",
+   "options": [
+    "Tế bào biểu bì da",
+    "Tế bào cơ tim",
+    "Tế bào hồng cầu trưởng thành",
+    "Tế bào mỡ"
+   ],
+   "answer": 1,
+   "explanation": "Ti thể tổng hợp ATP; tế bào cơ tim hoạt động liên tục, cần nhiều năng lượng nên có nhiều ti thể. Hồng cầu trưởng thành ở người không có ti thể."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Lưới nội chất",
+   "level": 2,
+   "stem": "Chức năng khử độc (thuốc, rượu, chất độc) của tế bào gan gắn liền chủ yếu với bào quan nào?",
+   "options": [
+    "Bộ máy Golgi",
+    "Lưới nội chất trơn",
+    "Ribosome tự do",
+    "Không bào"
+   ],
+   "answer": 1,
+   "explanation": "Lưới nội chất trơn chứa enzyme tổng hợp lipid, chuyển hóa đường và khử độc; tế bào gan có lưới nội chất trơn rất phát triển."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Hệ thống nội màng",
+   "level": 3,
+   "stem": "Tế bào tuyến tụy tổng hợp và tiết enzyme tiêu hóa ra ngoài. Con đường đi của enzyme từ nơi tổng hợp đến khi ra khỏi tế bào là",
+   "options": [
+    "lưới nội chất hạt → bộ máy Golgi → túi tiết → màng sinh chất",
+    "bộ máy Golgi → lưới nội chất hạt → túi tiết → màng sinh chất",
+    "lưới nội chất trơn → lysosome → màng sinh chất",
+    "ribosome tự do → ti thể → bộ máy Golgi → màng sinh chất"
+   ],
+   "answer": 0,
+   "explanation": "Protein tiết được tổng hợp ở ribosome trên lưới nội chất hạt, chuyển qua túi vận chuyển tới bộ máy Golgi để hoàn thiện, đóng gói vào túi tiết rồi xuất bào qua màng sinh chất."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Tế bào thực vật và tế bào động vật",
+   "level": 1,
+   "stem": "Bào quan nào sau đây có ở tế bào thực vật mà không có ở tế bào động vật?",
+   "options": [
+    "Ti thể",
+    "Ribosome",
+    "Bộ máy Golgi",
+    "Lục lạp"
+   ],
+   "answer": 3,
+   "explanation": "Lục lạp là bào quan quang hợp, chỉ có ở tế bào thực vật (và tảo); ti thể, ribosome, Golgi có ở cả hai loại tế bào."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Kích thước tế bào và tỉ lệ S/V",
+   "level": 3,
+   "stem": "Xét hai tế bào giả sử có dạng hình lập phương, cạnh lần lượt là 1 µm và 10 µm. Tỉ lệ diện tích bề mặt/thể tích (S/V) của tế bào cạnh 1 µm gấp bao nhiêu lần tế bào cạnh 10 µm?",
+   "options": [
+    "10 lần",
+    "100 lần",
+    "1000 lần",
+    "0,1 lần"
+   ],
+   "answer": 0,
+   "explanation": "Hình lập phương cạnh a có $S/V = \\dfrac{6a^2}{a^3} = \\dfrac{6}{a}$. Tỉ số: $\\dfrac{6/1}{6/10} = 10$. Tế bào nhỏ có S/V lớn nên trao đổi chất nhanh."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Màng sinh chất",
+   "level": 3,
+   "stem": "Người ta dung hợp tế bào người với tế bào chuột, protein màng của mỗi loại tế bào được đánh dấu bằng chất phát huỳnh quang màu khác nhau. Sau khoảng 40 phút, hai màu phân bố xen lẫn đều trên màng tế bào lai. Kết quả này chứng tỏ",
+   "options": [
+    "protein màng được tế bào lai tổng hợp mới hoàn toàn",
+    "màng sinh chất có cấu trúc cứng nhắc, cố định",
+    "các phân tử trong màng sinh chất có thể di chuyển, màng có tính động",
+    "protein màng chỉ phân bố ở mặt ngoài lớp phospholipid"
+   ],
+   "answer": 2,
+   "explanation": "Sự xen lẫn của protein màng người và chuột cho thấy các thành phần màng có thể dịch chuyển trong lớp kép phospholipid – bằng chứng cho mô hình khảm động."
+  },
+  {
+   "ord": 19,
+   "qtype": "tf",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 2,
+   "stem": "Một học sinh lập bảng so sánh cấu trúc của DNA và RNA.",
+   "statements": [
+    {
+     "t": "DNA được cấu tạo từ đường deoxyribose, RNA được cấu tạo từ đường ribose.",
+     "a": true
+    },
+    {
+     "t": "Base uracil (U) có trong DNA nhưng không có trong RNA.",
+     "a": false
+    },
+    {
+     "t": "Phân tử tRNA có các đoạn liên kết bổ sung với nhau, tạo cấu trúc gồm các thùy.",
+     "a": true
+    },
+    {
+     "t": "Phân tử mRNA có cấu trúc mạch kép, các nucleotide liên kết theo nguyên tắc bổ sung.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: U có trong RNA, T có trong DNA. c) Đúng: tRNA có các đoạn bắt cặp bổ sung tạo các thùy, một thùy mang bộ ba đối mã. d) Sai: mRNA là mạch đơn, thẳng."
+  },
+  {
+   "ord": 20,
+   "qtype": "tf",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Thực hành nhận biết các chất trong tế bào",
+   "level": 3,
+   "stem": "Một nhóm học sinh làm thí nghiệm nhận biết thành phần hóa học trong ba mẫu: dịch nghiền khoai lang, nước ép nho, dung dịch lòng trắng trứng.",
+   "statements": [
+    {
+     "t": "Nhỏ dung dịch iodine (Lugol) vào dịch nghiền khoai lang thấy xuất hiện màu xanh tím do mẫu có tinh bột.",
+     "a": true
+    },
+    {
+     "t": "Đun nóng nước ép nho với thuốc thử Benedict thấy xuất hiện kết tủa màu đỏ gạch do mẫu có đường khử như glucose.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch lòng trắng trứng phản ứng với thuốc thử biuret cho màu xanh tím giống phản ứng của tinh bột với iodine.",
+     "a": false
+    },
+    {
+     "t": "Đun sôi lòng trắng trứng làm đứt các liên kết peptide nên protein bị đông tụ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: đường khử khử Cu²⁺ thành Cu₂O đỏ gạch. c) Sai: protein với biuret cho màu tím (hồng tím). d) Sai: nhiệt độ cao phá vỡ các liên kết yếu duy trì cấu trúc không gian (biến tính), liên kết peptide không bị đứt."
+  },
+  {
+   "ord": 21,
+   "qtype": "tf",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Tế bào nhân sơ",
+   "level": 2,
+   "stem": "Khi quan sát và tìm hiểu cấu tạo vi khuẩn E. coli, một học sinh đưa ra các nhận định sau.",
+   "statements": [
+    {
+     "t": "Tế bào E. coli có ribosome nhưng không có bào quan có màng bao bọc.",
+     "a": true
+    },
+    {
+     "t": "Vật chất di truyền chính là phân tử DNA dạng vòng, nằm ở vùng nhân.",
+     "a": true
+    },
+    {
+     "t": "Plasmid là thành phần bắt buộc, nếu mất plasmid vi khuẩn sẽ chết.",
+     "a": false
+    },
+    {
+     "t": "Roi (tiên mao) là cấu trúc chủ yếu giúp vi khuẩn bám dính vào bề mặt tế bào vật chủ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: plasmid mang gene không thiết yếu (vd. kháng kháng sinh), thiếu plasmid vi khuẩn vẫn sống. d) Sai: roi giúp di chuyển; lông (nhung mao) giúp bám dính."
+  },
+  {
+   "ord": 22,
+   "qtype": "tf",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Lysosome",
+   "level": 3,
+   "stem": "Bạch cầu trung tính bắt giữ vi khuẩn xâm nhập bằng cách thực bào, tạo thành túi thực bào chứa vi khuẩn trong tế bào chất.",
+   "statements": [
+    {
+     "t": "Lysosome dung hợp với túi thực bào, các enzyme thủy phân phân giải vi khuẩn.",
+     "a": true
+    },
+    {
+     "t": "Enzyme trong lysosome hoạt động tốt nhất ở pH trung tính giống tế bào chất.",
+     "a": false
+    },
+    {
+     "t": "Tế bào bạch cầu có nhiều lysosome hơn tế bào cơ.",
+     "a": true
+    },
+    {
+     "t": "Các enzyme của lysosome được tổng hợp ở lưới nội chất trơn.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: enzyme lysosome hoạt động tốt ở pH acid (khoảng 5). c) Đúng: bạch cầu chuyên thực bào nên có nhiều lysosome. d) Sai: enzyme là protein, tổng hợp ở ribosome trên lưới nội chất hạt rồi được Golgi đóng gói."
+  },
+  {
+   "ord": 23,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 2,
+   "stem": "Một phân tử DNA mạch kép có số nucleotide loại A chiếm 20% tổng số nucleotide. Số nucleotide loại G chiếm bao nhiêu phần trăm?",
+   "answer_text": "30",
+   "explanation": "Theo nguyên tắc bổ sung A = T, G = C nên %A + %G = 50%. Vậy %G = 50% − 20% = 30%."
+  },
+  {
+   "ord": 24,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 3,
+   "stem": "Một đoạn DNA mạch kép dài 510 nm. Biết mỗi cặp nucleotide dài 0,34 nm. Đoạn DNA này có tổng số bao nhiêu nucleotide?",
+   "answer_text": "3000",
+   "explanation": "Số cặp nucleotide = 510 : 0,34 = 1500. Tổng số nucleotide = 2 × 1500 = 3000."
+  },
+  {
+   "ord": 25,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Nucleic acid",
+   "level": 3,
+   "stem": "Một đoạn DNA mạch kép có 3000 nucleotide, trong đó loại A chiếm 20%. Tính số liên kết hydrogen giữa hai mạch của đoạn DNA này.",
+   "answer_text": "3900",
+   "explanation": "A = T = 0,2 × 3000 = 600; G = C = 1500 − 600 = 900. Số liên kết hydrogen H = 2A + 3G = 1200 + 2700 = 3900."
+  },
+  {
+   "ord": 26,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Protein",
+   "level": 2,
+   "stem": "Một chuỗi polypeptide gồm 150 amino acid. Chuỗi này có bao nhiêu liên kết peptide?",
+   "answer_text": "149",
+   "explanation": "Chuỗi thẳng gồm n amino acid có n − 1 liên kết peptide: 150 − 1 = 149."
+  },
+  {
+   "ord": 27,
+   "qtype": "short",
+   "tk": "Sinh học|Thành phần hóa học của tế bào",
+   "topic": "Lipid",
+   "level": 1,
+   "stem": "Một phân tử triglyceride (mỡ, dầu) được tạo thành từ 1 phân tử glycerol liên kết với bao nhiêu phân tử acid béo?",
+   "answer_text": "3",
+   "explanation": "Triglyceride (chất béo trung tính) gồm 1 glycerol liên kết ester với 3 acid béo."
+  },
+  {
+   "ord": 28,
+   "qtype": "short",
+   "tk": "Sinh học|Cấu trúc tế bào",
+   "topic": "Kích thước tế bào và tỉ lệ S/V",
+   "level": 3,
+   "stem": "Một tế bào vi khuẩn giả sử có dạng hình cầu bán kính 2 µm. Tính tỉ lệ diện tích bề mặt/thể tích (S/V) của tế bào (đơn vị µm⁻¹, làm tròn đến hàng phần mười).",
+   "answer_text": "1,5",
+   "explanation": "Hình cầu: $S = 4\\pi r^2$, $V = \\dfrac{4}{3}\\pi r^3$ nên $S/V = \\dfrac{3}{r} = \\dfrac{3}{2} = 1{,}5$ µm⁻¹."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập toàn bộ 28 câu, đối chiếu kiến thức SGK Sinh học 10 KNTT chương 1–2; các câu tính toán (17, 23–28) được kiểm bằng Python trong script sinh đề."
+}

@@ -1,0 +1,503 @@
+{
+ "grade": 12,
+ "subject": "Công nghệ",
+ "exam": "gk1",
+ "duration_min": 45,
+ "title": "Đề ôn giữa học kì 1 – Công nghệ 12",
+ "scope": "Hệ thống điện quốc gia (cấu trúc, sản xuất – truyền tải – phân phối điện năng) và mạch điện xoay chiều ba pha (nối sao, nối tam giác, quan hệ điện áp dây – pha, dòng điện dây – pha)",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Cấu trúc hệ thống điện quốc gia",
+   "level": 1,
+   "stem": "Hệ thống điện quốc gia gồm",
+   "options": [
+    "nguồn điện, lưới điện và các tải tiêu thụ điện",
+    "trạm biến áp, công tơ điện và aptomat",
+    "nhà máy nhiệt điện, thủy điện và điện mặt trời",
+    "máy phát điện, động cơ điện và dây dẫn"
+   ],
+   "answer": 0,
+   "explanation": "Hệ thống điện quốc gia gồm nguồn điện (các nhà máy điện), lưới điện (truyền tải, phân phối) và tải tiêu thụ điện, được nối với nhau và vận hành thống nhất."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Cấu trúc hệ thống điện quốc gia",
+   "level": 1,
+   "stem": "Lưới điện trong hệ thống điện quốc gia có chức năng",
+   "options": [
+    "truyền tải và phân phối điện năng từ nguồn điện đến nơi tiêu thụ",
+    "đo điện năng tiêu thụ của khách hàng",
+    "biến đổi điện năng thành cơ năng",
+    "sản xuất ra điện năng"
+   ],
+   "answer": 0,
+   "explanation": "Lưới điện gồm đường dây và trạm biến áp, làm nhiệm vụ truyền tải, phân phối điện năng."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Lưới điện truyền tải và phân phối",
+   "level": 1,
+   "stem": "Đường dây có cấp điện áp 500 kV ở nước ta thuộc",
+   "options": [
+    "nguồn điện",
+    "lưới điện truyền tải",
+    "mạng điện trong nhà",
+    "lưới điện phân phối hạ áp"
+   ],
+   "answer": 1,
+   "explanation": "Đường dây 500 kV (và 220 kV) dùng để truyền tải điện năng đi xa, thuộc lưới truyền tải."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Truyền tải điện năng",
+   "level": 2,
+   "stem": "Điện năng được truyền tải đi xa bằng điện áp cao nhằm",
+   "options": [
+    "tăng tần số dòng điện",
+    "giảm điện trở của dây dẫn",
+    "tăng cường độ dòng điện trên đường dây",
+    "giảm tổn hao công suất trên đường dây"
+   ],
+   "answer": 3,
+   "explanation": "Với cùng công suất truyền, điện áp cao thì dòng điện nhỏ, tổn hao $\\Delta P = I^2R$ giảm."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Truyền tải điện năng",
+   "level": 3,
+   "stem": "Khi tăng điện áp truyền tải lên 2 lần, giữ nguyên công suất truyền đi, hệ số công suất và điện trở đường dây thì công suất hao phí trên đường dây",
+   "options": [
+    "giảm 2 lần",
+    "giảm 4 lần",
+    "tăng 2 lần",
+    "tăng 4 lần"
+   ],
+   "answer": 1,
+   "explanation": "$\\Delta P = \\dfrac{P^2R}{U^2\\cos^2\\varphi}$ tỉ lệ nghịch với $U^2$; U tăng 2 lần thì hao phí giảm $2^2 = 4$ lần."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Sản xuất điện năng",
+   "level": 1,
+   "stem": "Nhà máy điện hạt nhân sử dụng nguồn năng lượng từ",
+   "options": [
+    "quang năng của ánh sáng mặt trời",
+    "thế năng của dòng nước",
+    "phản ứng đốt cháy than đá",
+    "phản ứng phân hạch hạt nhân để đun nóng nước tạo hơi làm quay tua bin"
+   ],
+   "answer": 3,
+   "explanation": "Lò phản ứng hạt nhân tỏa nhiệt từ phân hạch (uranium), đun nước thành hơi quay tua bin – máy phát."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Sản xuất điện năng",
+   "level": 1,
+   "stem": "Tấm pin quang điện trong nhà máy điện mặt trời biến đổi",
+   "options": [
+    "quang năng trực tiếp thành điện năng",
+    "hóa năng thành nhiệt năng",
+    "cơ năng thành điện năng",
+    "nhiệt năng thành cơ năng"
+   ],
+   "answer": 0,
+   "explanation": "Pin quang điện biến đổi trực tiếp năng lượng ánh sáng thành điện năng một chiều."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Vai trò hệ thống điện quốc gia",
+   "level": 2,
+   "stem": "Các nhà máy điện được nối chung vào hệ thống điện quốc gia chủ yếu nhằm",
+   "options": [
+    "để không cần xây dựng trạm biến áp",
+    "để không cần lưới điện phân phối",
+    "huy động, điều phối các nguồn điện, đảm bảo cung cấp điện liên tục, tin cậy và kinh tế",
+    "để mỗi nhà máy phải phát công suất nhỏ hơn thiết kế"
+   ],
+   "answer": 2,
+   "explanation": "Liên kết thành hệ thống giúp các nguồn hỗ trợ nhau, điều phối công suất hợp lí, nâng cao độ tin cậy cung cấp điện."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Lưới điện truyền tải và phân phối",
+   "level": 1,
+   "stem": "Trạm biến áp tăng áp thường được đặt ở",
+   "options": [
+    "trong từng hộ gia đình",
+    "bên trong các thiết bị điện gia dụng",
+    "cuối đường dây, gần khu dân cư",
+    "đầu đường dây truyền tải, gần nhà máy điện"
+   ],
+   "answer": 3,
+   "explanation": "Điện áp máy phát được nâng lên ngay tại nhà máy điện trước khi truyền tải đi xa; gần nơi tiêu thụ đặt trạm hạ áp."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Lưới điện truyền tải và phân phối",
+   "level": 1,
+   "stem": "Lưới điện hạ áp cấp điện cho các hộ gia đình ở nước ta có điện áp",
+   "options": [
+    "110 kV",
+    "500 kV",
+    "22 kV",
+    "380/220 V"
+   ],
+   "answer": 3,
+   "explanation": "Lưới hạ áp ba pha bốn dây 380/220 V: điện áp dây 380 V, điện áp pha 220 V."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nguồn điện ba pha",
+   "level": 1,
+   "stem": "Nguồn điện xoay chiều ba pha gồm ba suất điện động",
+   "options": [
+    "cùng biên độ, cùng tần số, lệch pha nhau 120°",
+    "cùng biên độ, cùng tần số, lệch pha nhau 90°",
+    "cùng biên độ, cùng tần số, cùng pha",
+    "khác biên độ, khác tần số, lệch pha nhau 120°"
+   ],
+   "answer": 0,
+   "explanation": "Ba cuộn dây máy phát đặt lệch nhau 120° trong không gian nên ba suất điện động có cùng biên độ, tần số và lệch pha nhau 120° (2π/3)."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Mạch điện ba pha",
+   "level": 1,
+   "stem": "Mạch điện xoay chiều ba pha gồm",
+   "options": [
+    "ba nguồn điện một chiều mắc nối tiếp",
+    "một máy phát một pha và ba bóng đèn",
+    "nguồn điện ba pha, đường dây ba pha và tải ba pha",
+    "nguồn điện ba pha và một aptomat"
+   ],
+   "answer": 2,
+   "explanation": "Mạch ba pha gồm nguồn ba pha, đường dây truyền tải ba pha và tải ba pha."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối hình sao",
+   "level": 1,
+   "stem": "Khi nối hình sao, quan hệ giữa điện áp dây $U_d$ và điện áp pha $U_p$ là",
+   "options": [
+    "$U_d = 3U_p$",
+    "$U_d = \\sqrt{3}U_p$",
+    "$U_p = \\sqrt{3}U_d$",
+    "$U_d = U_p$"
+   ],
+   "answer": 1,
+   "explanation": "Nối hình sao: $U_d = \\sqrt{3}U_p$, $I_d = I_p$."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối tam giác",
+   "level": 1,
+   "stem": "Khi tải ba pha đối xứng nối tam giác, quan hệ giữa dòng điện dây $I_d$ và dòng điện pha $I_p$ là",
+   "options": [
+    "$I_d = 3I_p$",
+    "$I_d = \\sqrt{3}I_p$",
+    "$I_d = I_p$",
+    "$I_p = \\sqrt{3}I_d$"
+   ],
+   "answer": 1,
+   "explanation": "Nối tam giác đối xứng: $I_d = \\sqrt{3}I_p$, $U_d = U_p$."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Mạch ba pha bốn dây",
+   "level": 2,
+   "stem": "Dây trung tính có trong cách nối",
+   "options": [
+    "hình sao không có dây trung tính",
+    "hình tam giác",
+    "tam giác có dây trung tính",
+    "hình sao có dây trung tính (ba pha bốn dây)"
+   ],
+   "answer": 3,
+   "explanation": "Dây trung tính nối điểm trung tính của nguồn với điểm trung tính của tải trong cách nối sao bốn dây; nối tam giác không có điểm trung tính."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Điện áp dây, điện áp pha",
+   "level": 2,
+   "stem": "Điện áp dây trong mạch điện ba pha là",
+   "options": [
+    "điện áp giữa dây trung tính và đất",
+    "điện áp giữa hai dây pha",
+    "điện áp giữa hai đầu dây trung tính",
+    "điện áp giữa một dây pha và dây trung tính"
+   ],
+   "answer": 1,
+   "explanation": "Điện áp dây là điện áp giữa hai dây pha; điện áp giữa dây pha và dây trung tính là điện áp pha."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối hình sao",
+   "level": 3,
+   "stem": "Một máy phát điện ba pha nối hình sao có điện áp pha 220 V. Điện áp dây có giá trị xấp xỉ",
+   "options": [
+    "127 V",
+    "660 V",
+    "380 V",
+    "220 V"
+   ],
+   "answer": 2,
+   "explanation": "$U_d = \\sqrt{3}U_p = \\sqrt{3}\\cdot 220 \\approx 381$ V ≈ 380 V."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối tam giác",
+   "level": 3,
+   "stem": "Một tải ba pha đối xứng nối tam giác vào lưới có điện áp dây 380 V; mỗi pha là điện trở 38 Ω. Dòng điện pha $I_p$ và dòng điện dây $I_d$ là",
+   "options": [
+    "$I_p = 10$ A; $I_d = 10$ A",
+    "$I_p \\approx 17{,}3$ A; $I_d = 10$ A",
+    "$I_p \\approx 5{,}8$ A; $I_d = 10$ A",
+    "$I_p = 10$ A; $I_d \\approx 17{,}3$ A"
+   ],
+   "answer": 3,
+   "explanation": "Nối tam giác: $U_p = U_d = 380$ V; $I_p = \\dfrac{380}{38} = 10$ A; $I_d = \\sqrt{3}\\cdot 10 \\approx 17{,}3$ A."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối hình sao",
+   "level": 3,
+   "stem": "Một tải ba pha đối xứng nối hình sao vào lưới 380/220 V; mỗi pha là điện trở 22 Ω. Dòng điện dây là",
+   "options": [
+    "10 A",
+    "30 A",
+    "5,8 A",
+    "17,3 A"
+   ],
+   "answer": 0,
+   "explanation": "Nối sao: $U_p = 220$ V; $I_p = \\dfrac{220}{22} = 10$ A; $I_d = I_p = 10$ A."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Cách nối tải ba pha",
+   "level": 3,
+   "stem": "Một động cơ ba pha có điện áp định mức của mỗi cuộn dây là 220 V, được nối vào lưới 380/220 V. Ba cuộn dây của động cơ phải nối",
+   "options": [
+    "hình sao hay tam giác đều được",
+    "hình sao",
+    "hình tam giác",
+    "nối tiếp cả ba cuộn vào một dây pha"
+   ],
+   "answer": 1,
+   "explanation": "Nối sao thì mỗi cuộn chịu $U_p = \\dfrac{380}{\\sqrt{3}} \\approx 220$ V, đúng định mức; nối tam giác mỗi cuộn chịu 380 V, quá định mức."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Mạch ba pha bốn dây",
+   "level": 2,
+   "stem": "Ưu điểm của mạch điện ba pha bốn dây là",
+   "options": [
+    "cung cấp được hai cấp điện áp: điện áp dây và điện áp pha",
+    "không cần trạm biến áp",
+    "dòng điện trong dây trung tính luôn lớn nhất",
+    "chỉ cần một dây dẫn để truyền tải"
+   ],
+   "answer": 0,
+   "explanation": "Mạch sao bốn dây cho điện áp dây (380 V) cấp cho tải ba pha và điện áp pha (220 V) cấp cho tải một pha."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Mạch ba pha bốn dây",
+   "level": 2,
+   "stem": "Để bóng đèn 220 V sáng bình thường trên lưới 380/220 V, bóng đèn phải được mắc",
+   "options": [
+    "giữa ba dây pha",
+    "giữa dây trung tính và đất",
+    "giữa một dây pha và dây trung tính",
+    "giữa hai dây pha"
+   ],
+   "answer": 2,
+   "explanation": "Giữa dây pha và dây trung tính là điện áp pha 220 V; giữa hai dây pha là 380 V sẽ làm cháy đèn."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Sản xuất điện năng",
+   "level": 2,
+   "stem": "Nhà máy thủy điện thường được xây dựng ở nơi",
+   "options": [
+    "gần bờ biển có nhiều nắng",
+    "gần mỏ than lớn",
+    "có sông suối lớn, địa hình dốc, tạo được chênh lệch mực nước lớn",
+    "giữa trung tâm thành phố đông dân"
+   ],
+   "answer": 2,
+   "explanation": "Thủy điện cần lưu lượng nước và độ chênh cột nước lớn để có thế năng nước quay tua bin."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Mạch ba pha bốn dây",
+   "level": 3,
+   "stem": "Một tải ba pha đối xứng nối hình sao có dây trung tính, đo được dòng điện trong mỗi dây pha là 5 A. Dòng điện trong dây trung tính bằng",
+   "options": [
+    "15 A",
+    "5 A",
+    "0 A",
+    "8,7 A"
+   ],
+   "answer": 2,
+   "explanation": "Tải đối xứng: ba dòng điện pha có cùng độ lớn, lệch pha nhau 120° nên tổng (dòng trong dây trung tính) bằng 0."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Truyền tải và phân phối điện năng",
+   "level": 2,
+   "stem": "Điện năng từ một nhà máy thủy điện được đưa lên lưới 500 kV qua trạm tăng áp, truyền đi hàng trăm km, rồi qua các trạm hạ áp xuống 220 kV, 110 kV, 22 kV và cuối cùng xuống 0,4 kV để cấp cho các hộ gia đình.",
+   "statements": [
+    {
+     "t": "Trạm tăng áp được đặt gần nhà máy điện.",
+     "a": true
+    },
+    {
+     "t": "Đường dây 500 kV thuộc lưới điện truyền tải.",
+     "a": true
+    },
+    {
+     "t": "Điện áp truyền tải càng cao thì tổn hao trên đường dây càng lớn.",
+     "a": false
+    },
+    {
+     "t": "Các hộ gia đình là tải tiêu thụ của hệ thống điện.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: điện áp được nâng lên ngay sau máy phát. b) Đúng: đây là cấp điện áp truyền tải đi xa. c) Sai: điện áp càng cao thì dòng điện càng nhỏ nên tổn hao càng nhỏ. d) Đúng: tải là nơi tiêu thụ điện năng."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối hình sao",
+   "level": 2,
+   "stem": "Một máy phát điện ba pha có ba cuộn dây nối hình sao có dây trung tính, điện áp pha 220 V, cấp điện cho một tải ba pha đối xứng nối hình sao.",
+   "statements": [
+    {
+     "t": "Điện áp dây xấp xỉ 380 V.",
+     "a": true
+    },
+    {
+     "t": "Dòng điện dây bằng dòng điện pha.",
+     "a": true
+    },
+    {
+     "t": "Ba suất điện động của máy phát lệch pha nhau 90°.",
+     "a": false
+    },
+    {
+     "t": "Khi tải đối xứng, dòng điện trong dây trung tính bằng tổng độ lớn của ba dòng điện pha.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $U_d = \\sqrt{3}\\cdot 220 \\approx 381$ V. b) Đúng: nối sao: $I_d = I_p$. c) Sai: ba suất điện động lệch pha nhau 120°. d) Sai: tải đối xứng thì dòng điện trong dây trung tính bằng 0."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối tam giác",
+   "level": 3,
+   "stem": "Ba điện trở giống nhau, mỗi điện trở 76 Ω, được nối hình tam giác vào lưới điện ba pha có điện áp dây 380 V.",
+   "statements": [
+    {
+     "t": "Điện áp đặt lên mỗi điện trở là 380 V.",
+     "a": true
+    },
+    {
+     "t": "Dòng điện pha bằng 5 A.",
+     "a": true
+    },
+    {
+     "t": "Dòng điện dây xấp xỉ 8,7 A.",
+     "a": true
+    },
+    {
+     "t": "Nếu chuyển ba điện trở sang nối hình sao trên cùng lưới thì dòng điện qua mỗi điện trở vẫn là 5 A.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: nối tam giác: $U_p = U_d = 380$ V. b) Đúng: $I_p = \\dfrac{380}{76} = 5$ A. c) Đúng: $I_d = \\sqrt{3}\\cdot 5 \\approx 8{,}66$ A. d) Sai: nối sao: $U_p \\approx 220$ V, $I_p = \\dfrac{220}{76} \\approx 2{,}9$ A."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Công nghệ|Hệ thống điện quốc gia, mạch ba pha",
+   "topic": "Nối hình sao",
+   "level": 3,
+   "stem": "Ba bóng đèn giống nhau, mỗi bóng ghi 220 V – 100 W, được nối hình sao có dây trung tính vào lưới 380/220 V.",
+   "statements": [
+    {
+     "t": "Mỗi bóng đèn làm việc đúng điện áp định mức.",
+     "a": true
+    },
+    {
+     "t": "Dòng điện qua mỗi bóng xấp xỉ 0,45 A.",
+     "a": true
+    },
+    {
+     "t": "Tổng công suất tiêu thụ của ba bóng đèn là 100 W.",
+     "a": false
+    },
+    {
+     "t": "Nếu dây trung tính bị đứt trong khi ba đèn vẫn đối xứng thì cả ba đèn đều tắt.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: mỗi bóng chịu điện áp pha 220 V. b) Đúng: $I = \\dfrac{100}{220} \\approx 0{,}45$ A. c) Sai: tổng công suất là $3 \\cdot 100 = 300$ W. d) Sai: tải đối xứng thì điện áp trên mỗi đèn vẫn là 220 V nên các đèn vẫn sáng bình thường."
+  }
+ ],
+ "self_check": "Đã giải lại độc lập từng câu theo SGK Công nghệ KNTT; kiểm tra mỗi câu trắc nghiệm chỉ có một phương án đúng, phương án nhiễu không đúng một phần. Các câu tính toán đã kiểm bằng Python: $\\sqrt{3}\\cdot 220 \\approx 381$; 380/38 = 10, $10\\sqrt{3} \\approx 17{,}32$; 220/22 = 10; tăng U 2 lần → hao phí giảm 4 lần; 380/76 = 5, $5\\sqrt{3} \\approx 8{,}66$, 220/76 ≈ 2,89; 100/220 ≈ 0,45."
+}

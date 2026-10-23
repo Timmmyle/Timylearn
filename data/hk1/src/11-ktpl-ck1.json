@@ -1,0 +1,503 @@
+{
+ "grade": 11,
+ "subject": "GD Kinh tế và Pháp luật",
+ "exam": "ck1",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 1 – GD Kinh tế và Pháp luật 11",
+ "scope": "Bài 1–9: Cạnh tranh, cung – cầu; lạm phát, thất nghiệp; thị trường lao động và việc làm; ý tưởng, cơ hội kinh doanh và năng lực của người kinh doanh; đạo đức kinh doanh; văn hóa tiêu dùng",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Cạnh tranh, cung – cầu",
+   "topic": "Vai trò của cạnh tranh",
+   "level": 1,
+   "stem": "Đối với người tiêu dùng, cạnh tranh lành mạnh giữa các doanh nghiệp mang lại lợi ích nào sau đây?",
+   "options": [
+    "Phải mua hàng với giá ngày càng cao",
+    "Chỉ được mua sản phẩm của một doanh nghiệp",
+    "Có nhiều hàng hóa chất lượng tốt, giá cả hợp lí để lựa chọn",
+    "Không còn quyền lựa chọn hàng hóa"
+   ],
+   "answer": 2,
+   "explanation": "Cạnh tranh buộc doanh nghiệp nâng cao chất lượng, hạ giá thành, đa dạng sản phẩm."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Cạnh tranh, cung – cầu",
+   "topic": "Các nhân tố ảnh hưởng đến cung",
+   "level": 1,
+   "stem": "Nhân tố nào sau đây ảnh hưởng đến cung về hàng hóa?",
+   "options": [
+    "Trình độ công nghệ sản xuất",
+    "Thị hiếu của người tiêu dùng",
+    "Thu nhập của người tiêu dùng",
+    "Quy mô dân số"
+   ],
+   "answer": 0,
+   "explanation": "Cung chịu ảnh hưởng của giá cả, chi phí sản xuất, công nghệ, số lượng người bán, kì vọng, chính sách thuế…; các phương án còn lại ảnh hưởng đến cầu."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Cạnh tranh, cung – cầu",
+   "topic": "Các nhân tố ảnh hưởng đến cầu",
+   "level": 2,
+   "stem": "Giả sử thu nhập của dân cư thành phố X tăng lên, các yếu tố khác không đổi. Cầu về dịch vụ du lịch của người dân thành phố X có xu hướng",
+   "options": [
+    "giảm",
+    "không đổi",
+    "giảm về 0",
+    "tăng"
+   ],
+   "answer": 3,
+   "explanation": "Thu nhập tăng làm khả năng thanh toán tăng nên cầu về dịch vụ du lịch tăng."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Cạnh tranh, cung – cầu",
+   "topic": "Quan hệ cung – cầu",
+   "level": 3,
+   "stem": "Giả sử nhiều doanh nghiệp đồng loạt áp dụng công nghệ mới giúp giảm chi phí sản xuất điện thoại, nhu cầu của người tiêu dùng không đổi. Khi đó",
+   "options": [
+    "cung điện thoại giảm, giá có xu hướng tăng",
+    "cung điện thoại tăng, giá điện thoại có xu hướng giảm",
+    "cầu điện thoại giảm mạnh, giá tăng",
+    "cung và giá điện thoại đều không đổi"
+   ],
+   "answer": 1,
+   "explanation": "Công nghệ tiến bộ, chi phí giảm làm cung tăng; cầu không đổi nên giá có xu hướng giảm."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Lạm phát, thất nghiệp",
+   "topic": "Nguyên nhân lạm phát",
+   "level": 1,
+   "stem": "Lạm phát do chi phí đẩy xảy ra khi",
+   "options": [
+    "tổng cầu giảm mạnh",
+    "chi phí sản xuất (giá nguyên liệu, nhiên liệu, tiền công…) tăng đẩy mức giá chung lên",
+    "chi phí sản xuất giảm",
+    "năng suất lao động tăng nhanh"
+   ],
+   "answer": 1,
+   "explanation": "Chi phí đẩy: chi phí đầu vào tăng buộc người sản xuất tăng giá bán, kéo theo mức giá chung tăng."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Lạm phát, thất nghiệp",
+   "topic": "Các loại thất nghiệp",
+   "level": 1,
+   "stem": "Thất nghiệp phát sinh do người lao động dịch chuyển giữa các vùng, các công việc hoặc các giai đoạn khác nhau trong cuộc sống được gọi là",
+   "options": [
+    "thất nghiệp chu kì",
+    "thất nghiệp cơ cấu",
+    "thất nghiệp do suy thoái",
+    "thất nghiệp tạm thời"
+   ],
+   "answer": 3,
+   "explanation": "Thất nghiệp tạm thời (cọ xát) xảy ra trong thời gian người lao động tìm kiếm, chuyển đổi công việc."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Lạm phát, thất nghiệp",
+   "topic": "Khái niệm thất nghiệp",
+   "level": 2,
+   "stem": "Trường hợp nào sau đây là thất nghiệp?",
+   "options": [
+    "Anh K 30 tuổi, có sức khỏe, đang tích cực tìm việc nhưng chưa có việc làm",
+    "Bạn L là học sinh lớp 11 đang đi học",
+    "Ông N 80 tuổi đã nghỉ hưu",
+    "Chị P đang làm công nhân may"
+   ],
+   "answer": 0,
+   "explanation": "Thất nghiệp là người trong độ tuổi lao động, có khả năng và mong muốn làm việc nhưng chưa có việc làm."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Lạm phát, thất nghiệp",
+   "topic": "Nguyên nhân lạm phát",
+   "level": 2,
+   "stem": "Giả sử giá xăng dầu thế giới tăng mạnh làm chi phí vận tải, sản xuất trong nước tăng, giá nhiều mặt hàng tăng theo. Đây là biểu hiện của lạm phát do",
+   "options": [
+    "cầu kéo",
+    "năng suất lao động tăng",
+    "chi phí đẩy",
+    "giảm lượng tiền trong lưu thông"
+   ],
+   "answer": 2,
+   "explanation": "Chi phí đầu vào (xăng dầu) tăng đẩy giá các mặt hàng lên là lạm phát chi phí đẩy."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Lạm phát, thất nghiệp",
+   "topic": "Tỉ lệ lạm phát",
+   "level": 3,
+   "stem": "Giả sử chỉ số giá tiêu dùng (CPI) của quốc gia X năm thứ nhất là 120, năm thứ hai là 126 (cùng năm gốc). Tỉ lệ lạm phát năm thứ hai so với năm thứ nhất là",
+   "options": [
+    "6%",
+    "26%",
+    "5%",
+    "4,8%"
+   ],
+   "answer": 2,
+   "explanation": "Tỉ lệ lạm phát = (126 − 120) : 120 × 100% = 5%."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường lao động, việc làm",
+   "topic": "Thị trường lao động",
+   "level": 1,
+   "stem": "Nơi diễn ra các hoạt động thỏa thuận, thuê mướn sức lao động giữa người lao động và người sử dụng lao động về tiền lương, tiền công và các điều kiện làm việc được gọi là",
+   "options": [
+    "thị trường lao động",
+    "thị trường tài chính",
+    "thị trường hàng tiêu dùng",
+    "thị trường bất động sản"
+   ],
+   "answer": 0,
+   "explanation": "Đây là khái niệm thị trường lao động; hàng hóa giao dịch là sức lao động."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường lao động, việc làm",
+   "topic": "Khái niệm việc làm",
+   "level": 1,
+   "stem": "Theo Bộ luật Lao động năm 2019, việc làm là",
+   "options": [
+    "mọi hoạt động tạo ra thu nhập, kể cả hoạt động bị pháp luật cấm",
+    "hoạt động chỉ diễn ra trong cơ quan nhà nước",
+    "hoạt động lao động không cần tạo ra thu nhập",
+    "hoạt động lao động tạo ra thu nhập mà không bị pháp luật cấm"
+   ],
+   "answer": 3,
+   "explanation": "Khoản 1 Điều 9 Bộ luật Lao động năm 2019: việc làm là hoạt động lao động tạo ra thu nhập mà không bị pháp luật cấm."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường lao động, việc làm",
+   "topic": "Xu hướng tuyển dụng",
+   "level": 2,
+   "stem": "Xu hướng nào sau đây phù hợp với thị trường lao động trong bối cảnh chuyển đổi số?",
+   "options": [
+    "Lao động giản đơn ngày càng được ưa chuộng hơn lao động có tay nghề",
+    "Nhu cầu tuyển dụng lao động có kĩ năng số, chuyên môn cao ngày càng tăng",
+    "Nhà tuyển dụng không quan tâm đến kĩ năng của người lao động",
+    "Lao động không cần học tập, nâng cao trình độ"
+   ],
+   "answer": 1,
+   "explanation": "Chuyển đổi số, tự động hóa làm tăng cầu lao động có kĩ năng số, trình độ chuyên môn, giảm cầu lao động giản đơn."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường lao động, việc làm",
+   "topic": "Lựa chọn nghề nghiệp",
+   "level": 2,
+   "stem": "Bạn N có năng khiếu lập trình; tìm hiểu thấy nhu cầu tuyển dụng lập trình viên ở địa phương cao, N quyết định đăng kí học ngành công nghệ thông tin. N đã",
+   "options": [
+    "chọn nghề chỉ theo ý thích của bạn bè",
+    "kết hợp năng lực bản thân với nhu cầu của thị trường lao động để chọn nghề",
+    "chọn nghề không cần quan tâm năng lực bản thân",
+    "chọn nghề vì nghề đó không cần học tập"
+   ],
+   "answer": 1,
+   "explanation": "Lựa chọn nghề phù hợp cần dựa vào năng lực, sở thích bản thân và nhu cầu của thị trường lao động."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường lao động, việc làm",
+   "topic": "Khái niệm việc làm",
+   "level": 3,
+   "stem": "Hoạt động nào sau đây không được coi là việc làm theo quy định của pháp luật?",
+   "options": [
+    "Dạy kèm cho học sinh tiểu học vào buổi tối",
+    "Bán hàng trực tuyến các mặt hàng hợp pháp",
+    "Phục vụ tại quán ăn vào cuối tuần",
+    "Cho người khác thuê tài khoản ngân hàng của mình để hưởng tiền công"
+   ],
+   "answer": 3,
+   "explanation": "Thuê, cho thuê, mua, bán tài khoản thanh toán là hành vi bị pháp luật cấm nên dù có thu nhập cũng không phải việc làm."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Nguồn hình thành ý tưởng kinh doanh",
+   "level": 1,
+   "stem": "Ý tưởng kinh doanh có thể hình thành từ những nguồn nào?",
+   "options": [
+    "Lợi thế nội tại của chủ thể và cơ hội bên ngoài",
+    "Chỉ từ số vốn thật lớn",
+    "Chỉ từ việc sao chép sản phẩm của người khác",
+    "Chỉ từ sự may mắn"
+   ],
+   "answer": 0,
+   "explanation": "Lợi thế nội tại: đam mê, hiểu biết, kĩ năng, khả năng huy động nguồn lực; cơ hội bên ngoài: nhu cầu thị trường, chính sách, vị trí…"
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Khái niệm đạo đức kinh doanh",
+   "level": 1,
+   "stem": "Đạo đức kinh doanh là",
+   "options": [
+    "toàn bộ các quy định về thuế đối với doanh nghiệp",
+    "kế hoạch thu chi của doanh nghiệp",
+    "tập hợp các nguyên tắc, chuẩn mực có tác dụng điều chỉnh, đánh giá, hướng dẫn và kiểm soát hành vi của các chủ thể kinh doanh",
+    "các thủ thuật để thu lợi nhuận bằng mọi giá"
+   ],
+   "answer": 2,
+   "explanation": "Đây là khái niệm đạo đức kinh doanh theo SGK."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Biểu hiện của đạo đức kinh doanh",
+   "level": 1,
+   "stem": "Biểu hiện nào sau đây thể hiện đạo đức kinh doanh?",
+   "options": [
+    "Quảng cáo phóng đại công dụng sản phẩm",
+    "Bán hàng kém chất lượng nhưng ghi là hàng cao cấp",
+    "Cung cấp thông tin trung thực về sản phẩm, giữ chữ tín với khách hàng",
+    "Trốn tránh trách nhiệm bảo hành"
+   ],
+   "answer": 2,
+   "explanation": "Đạo đức kinh doanh biểu hiện ở tinh thần trách nhiệm, trung thực, nguyên tắc, tôn trọng con người, gắn lợi ích doanh nghiệp với lợi ích khách hàng và xã hội."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Năng lực cần thiết của người kinh doanh",
+   "level": 2,
+   "stem": "Chị L nhanh chóng nhận ra nhu cầu bữa trưa lành mạnh của nhân viên văn phòng gần nhà và kịp thời mở dịch vụ giao cơm. Chị L đã thể hiện năng lực",
+   "options": [
+    "nắm bắt cơ hội",
+    "thiết lập quan hệ",
+    "tổ chức, lãnh đạo",
+    "quản lí tài chính"
+   ],
+   "answer": 0,
+   "explanation": "Năng lực nắm bắt cơ hội là khả năng phát hiện nhu cầu thị trường và kịp thời đưa ra sản phẩm đáp ứng."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Tiêu chí đánh giá ý tưởng kinh doanh",
+   "level": 2,
+   "stem": "Một ý tưởng kinh doanh tốt cần đáp ứng tiêu chí nào sau đây?",
+   "options": [
+    "Chỉ cần có số vốn đầu tư thật lớn",
+    "Sao chép nguyên vẹn sản phẩm đang bán chạy",
+    "Không cần tìm hiểu nhu cầu thị trường",
+    "Có tính mới mẻ, khả thi, có lợi thế cạnh tranh và mang lại lợi nhuận"
+   ],
+   "answer": 3,
+   "explanation": "Ý tưởng tốt phải độc đáo, khả thi, phù hợp nhu cầu thị trường, có lợi thế cạnh tranh và đem lại lợi nhuận."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Vi phạm đạo đức kinh doanh",
+   "level": 3,
+   "stem": "Cơ sở bánh kẹo của ông D thay nguyên liệu bằng loại rẻ hơn, kém chất lượng nhưng vẫn giữ nguyên thông tin trên bao bì như trước. Nhận định nào sau đây đúng?",
+   "options": [
+    "Đây là cách tiết kiệm chi phí hợp lí",
+    "Ông D vi phạm đạo đức kinh doanh và xâm phạm quyền lợi của người tiêu dùng",
+    "Ông D chỉ vi phạm nội quy của cơ sở",
+    "Không có vi phạm nếu khách hàng chưa phát hiện"
+   ],
+   "answer": 1,
+   "explanation": "Ghi thông tin không đúng thực tế là thiếu trung thực, lừa dối khách hàng, vi phạm đạo đức kinh doanh và quy định bảo vệ quyền lợi người tiêu dùng."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Văn hóa tiêu dùng",
+   "topic": "Vai trò của tiêu dùng",
+   "level": 1,
+   "stem": "Tiêu dùng có vai trò nào sau đây đối với sản xuất?",
+   "options": [
+    "Không ảnh hưởng gì đến sản xuất",
+    "Là động lực, định hướng cho sản xuất phát triển",
+    "Làm cho sản xuất bị đình trệ",
+    "Thay thế hoàn toàn hoạt động sản xuất"
+   ],
+   "answer": 1,
+   "explanation": "Nhu cầu tiêu dùng tạo ra đơn đặt hàng, định hướng sản xuất cái gì, bao nhiêu."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Văn hóa tiêu dùng",
+   "topic": "Đặc điểm văn hóa tiêu dùng của người Việt Nam",
+   "level": 1,
+   "stem": "Xu hướng nào sau đây đang trở nên phổ biến trong văn hóa tiêu dùng của người Việt Nam hiện nay?",
+   "options": [
+    "Chỉ quan tâm đến giá rẻ, bỏ qua chất lượng",
+    "Không sử dụng các hình thức mua sắm trực tuyến",
+    "Ưa chuộng hàng không rõ nguồn gốc",
+    "Ưu tiên sản phẩm an toàn, thân thiện môi trường và hàng Việt có chất lượng"
+   ],
+   "answer": 3,
+   "explanation": "Người tiêu dùng Việt Nam ngày càng quan tâm chất lượng, an toàn, tiêu dùng xanh, hàng Việt và mua sắm trực tuyến."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Văn hóa tiêu dùng",
+   "topic": "Trách nhiệm của người tiêu dùng",
+   "level": 2,
+   "stem": "Phát hiện một cửa hàng bày bán thực phẩm đã hết hạn sử dụng, chị K thông báo cho cơ quan chức năng. Việc làm của chị K thể hiện",
+   "options": [
+    "trách nhiệm của người tiêu dùng trong việc bảo vệ quyền lợi người tiêu dùng",
+    "hành vi cạnh tranh không lành mạnh",
+    "trách nhiệm của chủ thể sản xuất",
+    "việc làm không cần thiết vì không liên quan đến chị K"
+   ],
+   "answer": 0,
+   "explanation": "Người tiêu dùng có trách nhiệm thông tin cho cơ quan có thẩm quyền khi phát hiện hàng hóa không bảo đảm an toàn."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "GD Kinh tế và Pháp luật|Văn hóa tiêu dùng",
+   "topic": "Văn hóa tiêu dùng",
+   "level": 3,
+   "stem": "Bạn H đòi bố mẹ mua điện thoại mới dù máy cũ vẫn dùng tốt; bạn K tìm hiểu nguồn gốc, đánh giá sản phẩm trước khi mua hàng trực tuyến; bạn P mua hàng giả vì giá rẻ; bạn M ưu tiên đồ dùng có thể tái chế. Những bạn nào có hành vi tiêu dùng văn hóa, có trách nhiệm?",
+   "options": [
+    "Bạn H và bạn P",
+    "Bạn H và bạn K",
+    "Bạn K và bạn M",
+    "Bạn P và bạn M"
+   ],
+   "answer": 2,
+   "explanation": "Tiêu dùng thông minh, bền vững, không tiếp tay cho hàng giả là biểu hiện của văn hóa tiêu dùng tích cực; chạy theo trào lưu, mua hàng giả là tiêu cực."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Thị trường lao động, việc làm",
+   "topic": "Thị trường lao động",
+   "level": 2,
+   "stem": "Giả sử các doanh nghiệp điện tử ở tỉnh X cần tuyển 5 000 kĩ thuật viên có tay nghề nhưng chỉ tuyển được 2 000 người; trong khi đó, nhiều lao động phổ thông chưa qua đào tạo ở địa phương vẫn chưa tìm được việc làm. Trung tâm dịch vụ việc làm của tỉnh mở các lớp đào tạo nghề ngắn hạn.",
+   "statements": [
+    {
+     "t": "Thị trường kĩ thuật viên điện tử ở tỉnh X đang thiếu hụt lao động.",
+     "a": true
+    },
+    {
+     "t": "Lao động phổ thông chưa có việc làm cho thấy sự chưa phù hợp giữa trình độ người lao động và yêu cầu tuyển dụng.",
+     "a": true
+    },
+    {
+     "t": "Đào tạo nghề không có tác động đến cung lao động trên thị trường.",
+     "a": false
+    },
+    {
+     "t": "Người lao động chỉ cần có sức khỏe, không cần nâng cao kĩ năng nghề.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: cầu 5 000 lớn hơn cung 2 000. b) Đúng: cung – cầu lao động mất cân đối về trình độ. c) Sai: đào tạo nghề làm tăng cung lao động có kĩ năng. d) Sai: thị trường lao động ngày càng đòi hỏi kĩ năng, chuyên môn."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Ý tưởng kinh doanh",
+   "level": 2,
+   "stem": "Chị Y sống ở vùng trồng sen, có kiến thức về chế biến thực phẩm. Chị nhận thấy khách du lịch ngày càng có nhu cầu mua trà sen đóng gói đẹp làm quà; chính quyền địa phương cũng có chính sách hỗ trợ phát triển sản phẩm đặc trưng của vùng. Chị dự định sản xuất trà sen đóng gói.",
+   "statements": [
+    {
+     "t": "Kiến thức về chế biến thực phẩm của chị Y là lợi thế nội tại.",
+     "a": true
+    },
+    {
+     "t": "Chính sách hỗ trợ của địa phương là cơ hội bên ngoài.",
+     "a": true
+    },
+    {
+     "t": "Ý tưởng kinh doanh chỉ cần độc đáo, không cần xem xét tính khả thi.",
+     "a": false
+    },
+    {
+     "t": "Nhu cầu ngày càng tăng của khách du lịch là lợi thế nội tại của chị Y.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: hiểu biết, kĩ năng của bản thân là lợi thế nội tại. b) Đúng: chính sách là yếu tố bên ngoài tạo cơ hội. c) Sai: ý tưởng tốt phải khả thi. d) Sai: nhu cầu thị trường là cơ hội bên ngoài."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Ý tưởng kinh doanh, đạo đức kinh doanh",
+   "topic": "Đạo đức kinh doanh",
+   "level": 3,
+   "stem": "Công ty X sản xuất mĩ phẩm. Khi phát hiện một lô sản phẩm bị lỗi, công ty chủ động thông báo, thu hồi và hoàn tiền cho khách hàng. Trong khi đó, công ty Y quảng cáo kem dưỡng da của mình 'trị dứt điểm mụn sau 3 ngày' dù chưa có bất kì kiểm chứng nào.",
+   "statements": [
+    {
+     "t": "Việc công ty X chủ động thu hồi sản phẩm lỗi thể hiện tinh thần trách nhiệm và trung thực trong kinh doanh.",
+     "a": true
+    },
+    {
+     "t": "Quảng cáo của công ty Y vi phạm đạo đức kinh doanh và có thể vi phạm pháp luật về quảng cáo.",
+     "a": true
+    },
+    {
+     "t": "Thực hiện đạo đức kinh doanh làm giảm uy tín và lợi nhuận lâu dài của doanh nghiệp.",
+     "a": false
+    },
+    {
+     "t": "Doanh nghiệp chỉ cần tuân thủ pháp luật, không cần quan tâm đến đạo đức kinh doanh.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: trách nhiệm, trung thực với khách hàng. b) Đúng: quảng cáo sai sự thật, chưa kiểm chứng là lừa dối khách hàng; pháp luật cấm quảng cáo gian dối. c) Sai: đạo đức kinh doanh giúp xây dựng uy tín, lợi nhuận bền vững. d) Sai: đạo đức kinh doanh là yếu tố quan trọng bên cạnh pháp luật."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "GD Kinh tế và Pháp luật|Văn hóa tiêu dùng",
+   "topic": "Văn hóa tiêu dùng",
+   "level": 3,
+   "stem": "Bà N có thói quen mua thực phẩm ở chợ truyền thống và ưu tiên hàng Việt. Con gái bà là chị M thường mua sắm trực tuyến nhưng luôn xem kĩ đánh giá, nguồn gốc sản phẩm; chị mang bình nước cá nhân, hạn chế dùng túi ni lông. Em trai chị M chạy theo trào lưu, mua nhiều quần áo nhưng chỉ mặc một vài lần.",
+   "statements": [
+    {
+     "t": "Ưu tiên dùng hàng Việt là một nét tích cực trong văn hóa tiêu dùng.",
+     "a": true
+    },
+    {
+     "t": "Việc chị M hạn chế dùng túi ni lông phù hợp với xu hướng tiêu dùng xanh.",
+     "a": true
+    },
+    {
+     "t": "Hành vi của em trai chị M thể hiện tiêu dùng có trách nhiệm, bền vững.",
+     "a": false
+    },
+    {
+     "t": "Mua sắm trực tuyến là hành vi thiếu văn hóa nên cần loại bỏ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: góp phần phát triển sản xuất trong nước. b) Đúng: bảo vệ môi trường. c) Sai: chạy theo trào lưu, lãng phí là tiêu dùng thiếu bền vững. d) Sai: mua sắm trực tuyến là xu hướng phổ biến; điều quan trọng là mua sắm thông minh, có trách nhiệm."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu theo SGK GD Kinh tế và Pháp luật 11 (Kết nối tri thức); các phép tính (tỉ lệ thất nghiệp, tỉ lệ lạm phát từ CPI, thiếu hụt cung – cầu) đã kiểm bằng Python; mọi số liệu là giả định; khái niệm việc làm theo Bộ luật Lao động 2019, cạnh tranh không lành mạnh theo Luật Cạnh tranh 2018."
+}

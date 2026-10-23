@@ -1,0 +1,503 @@
+{
+ "grade": 10,
+ "subject": "Tin học",
+ "exam": "ck2",
+ "duration_min": 45,
+ "title": "Đề ôn cuối học kì 2 – Tin học 10",
+ "scope": "Lập trình Python cơ bản (biến, kiểu dữ liệu, if, for, while); hàm có sẵn và hàm tự định nghĩa, tham số, phạm vi biến; danh sách; xâu kí tự và các phương thức; kiểm thử và gỡ lỗi chương trình.",
+ "questions": [
+  {
+   "ord": 1,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Biến và lệnh gán",
+   "level": 1,
+   "stem": "Ý nghĩa của lệnh gán x = x + 1 trong Python là",
+   "options": [
+    "so sánh x với x + 1",
+    "tăng giá trị của biến x thêm 1",
+    "khai báo phương trình x = x + 1",
+    "gán cho x giá trị 1"
+   ],
+   "answer": 1,
+   "explanation": "Lệnh gán tính biểu thức bên phải (x + 1) rồi gán kết quả cho biến bên trái, tức tăng x thêm 1."
+  },
+  {
+   "ord": 2,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Kiểu dữ liệu",
+   "level": 1,
+   "stem": "Biểu thức 5 > 3 trong Python có kiểu dữ liệu nào?",
+   "options": [
+    "int",
+    "bool",
+    "str",
+    "float"
+   ],
+   "answer": 1,
+   "explanation": "Biểu thức so sánh cho giá trị True hoặc False, thuộc kiểu logic bool."
+  },
+  {
+   "ord": 3,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Câu lệnh rẽ nhánh if",
+   "level": 1,
+   "stem": "Trong Python, các lệnh thuộc cùng một khối lệnh (ví dụ thân của if, for) được xác định bằng",
+   "options": [
+    "cặp dấu ngoặc nhọn { }",
+    "cặp từ khóa begin … end",
+    "cùng một mức thụt lề",
+    "dấu chấm phẩy ở cuối mỗi lệnh"
+   ],
+   "answer": 2,
+   "explanation": "Python dùng thụt lề để xác định khối lệnh; các lệnh cùng khối phải thụt lề như nhau."
+  },
+  {
+   "ord": 4,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Các phép toán số học",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nprint(10 % 3 ** 2)\nKết quả in ra màn hình là",
+   "options": [
+    "10",
+    "0",
+    "1",
+    "9"
+   ],
+   "answer": 2,
+   "explanation": "Phép ** ưu tiên hơn %: 3 ** 2 = 9, sau đó 10 % 9 = 1."
+  },
+  {
+   "ord": 5,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Lệnh vào ra đơn giản",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nprint(\"Lop\", 10, \"A1\", sep=\"-\")\nKết quả in ra màn hình là",
+   "options": [
+    "Lop 10 A1",
+    "Lop10A1",
+    "Lop-10-A1-",
+    "Lop-10-A1"
+   ],
+   "answer": 3,
+   "explanation": "Tham số sep=\"-\" thay khoảng cách mặc định giữa các giá trị bằng dấu \"-\"."
+  },
+  {
+   "ord": 6,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp for",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\nfor i in range(3):\n    print(\"*\", end=\"\")\nKết quả in ra màn hình là",
+   "options": [
+    "*\n*\n*",
+    "****",
+    "* * *",
+    "***"
+   ],
+   "answer": 3,
+   "explanation": "Vòng lặp chạy 3 lần; end=\"\" làm các dấu * in liền nhau trên một dòng."
+  },
+  {
+   "ord": 7,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp while",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\nx = 10\nwhile x > 0:\n    x = x - 3\nprint(x)\nKết quả in ra màn hình là",
+   "options": [
+    "1",
+    "0",
+    "-2",
+    "-3"
+   ],
+   "answer": 2,
+   "explanation": "x lần lượt: 10 → 7 → 4 → 1 → −2. Khi x = −2 điều kiện x > 0 sai nên dừng."
+  },
+  {
+   "ord": 8,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Câu lệnh rẽ nhánh if",
+   "level": 3,
+   "stem": "Cho đoạn chương trình (a, b, c là ba số nguyên):\na, b, c = 5, 8, 3\nm = a\nif b > m:\n    m = b\nif c > m:\n    m = c\nprint(m)\nBiến m in ra là",
+   "options": [
+    "Giá trị lớn nhất trong ba số a, b, c",
+    "Giá trị nhỏ nhất trong ba số a, b, c",
+    "Tổng ba số a, b, c",
+    "Giá trị của c"
+   ],
+   "answer": 0,
+   "explanation": "Ban đầu m = a; nếu b lớn hơn m thì m = b; nếu c lớn hơn m thì m = c. Cuối cùng m là số lớn nhất. Với dữ liệu 5, 8, 3 chương trình in 8."
+  },
+  {
+   "ord": 9,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Vòng lặp for",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\ns = 0\nfor i in range(1, 10, 2):\n    s = s + i\nprint(s)\nKết quả in ra màn hình là",
+   "options": [
+    "45",
+    "20",
+    "16",
+    "25"
+   ],
+   "answer": 3,
+   "explanation": "range(1, 10, 2) gồm các số lẻ 1, 3, 5, 7, 9; tổng là 25."
+  },
+  {
+   "ord": 10,
+   "qtype": "mcq",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Chuyển đổi kiểu dữ liệu",
+   "level": 1,
+   "stem": "Để nhập một số thực từ bàn phím và lưu vào biến x, ta viết",
+   "options": [
+    "x = input(float)",
+    "x = int(input())",
+    "x = float(input())",
+    "x = float(print())"
+   ],
+   "answer": 2,
+   "explanation": "input() trả về xâu, cần dùng float() để chuyển sang số thực."
+  },
+  {
+   "ord": 11,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Xâu kí tự",
+   "level": 1,
+   "stem": "Hàm len(\"Python\") trả về giá trị nào?",
+   "options": [
+    "5",
+    "7",
+    "6",
+    "\"Python\""
+   ],
+   "answer": 2,
+   "explanation": "len() trả về độ dài (số kí tự) của xâu; \"Python\" có 6 kí tự."
+  },
+  {
+   "ord": 12,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Hàm tự định nghĩa",
+   "level": 1,
+   "stem": "Từ khóa dùng để định nghĩa một hàm mới trong Python là",
+   "options": [
+    "def",
+    "function",
+    "return",
+    "func"
+   ],
+   "answer": 0,
+   "explanation": "Hàm được khai báo bằng cú pháp def tên_hàm(tham_số): rồi viết thân hàm thụt lề."
+  },
+  {
+   "ord": 13,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Danh sách (list)",
+   "level": 1,
+   "stem": "Cho danh sách a = [3, 5, 7, 9]. Phần tử a[0] có giá trị là",
+   "options": [
+    "5",
+    "9",
+    "0",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "Chỉ số của danh sách bắt đầu từ 0, nên a[0] là phần tử đầu tiên, bằng 3."
+  },
+  {
+   "ord": 14,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Danh sách (list)",
+   "level": 1,
+   "stem": "Phương thức nào thêm một phần tử vào cuối danh sách?",
+   "options": [
+    "insert()",
+    "append()",
+    "remove()",
+    "clear()"
+   ],
+   "answer": 1,
+   "explanation": "append(x) thêm x vào cuối danh sách; insert(k, x) chèn vào vị trí k; remove() xóa phần tử; clear() xóa toàn bộ."
+  },
+  {
+   "ord": 15,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Kiểm thử và gỡ lỗi",
+   "level": 1,
+   "stem": "Chương trình chạy không báo lỗi nhưng cho kết quả sai so với yêu cầu. Đó là loại lỗi nào?",
+   "options": [
+    "Lỗi logic (lỗi ngữ nghĩa)",
+    "Lỗi cú pháp",
+    "Lỗi kiểu dữ liệu khi chạy",
+    "Lỗi chia cho 0"
+   ],
+   "answer": 0,
+   "explanation": "Lỗi logic không làm chương trình dừng nhưng thuật toán/ cách viết sai nên kết quả không đúng; phải phát hiện bằng kiểm thử."
+  },
+  {
+   "ord": 16,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Xâu kí tự",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\ns = \"Tin hoc 10\"\nprint(s[4:7])\nKết quả in ra màn hình là",
+   "options": [
+    "hoc 1",
+    "hoc",
+    "hoc 10",
+    "n ho"
+   ],
+   "answer": 1,
+   "explanation": "s[4:7] lấy các kí tự có chỉ số 4, 5, 6 (không gồm 7): \"h\", \"o\", \"c\"."
+  },
+  {
+   "ord": 17,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Danh sách (list)",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\na = [1, 2, 3]\na.append(4)\na.insert(0, 9)\nprint(a)\nKết quả in ra màn hình là",
+   "options": [
+    "[9, 1, 2, 3, 4]",
+    "[1, 2, 3, 4, 9]",
+    "[9, 1, 2, 3]",
+    "[1, 9, 2, 3, 4]"
+   ],
+   "answer": 0,
+   "explanation": "append(4) thêm 4 vào cuối được [1, 2, 3, 4]; insert(0, 9) chèn 9 vào vị trí đầu tiên."
+  },
+  {
+   "ord": 18,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Tham số của hàm",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\ndef f(x, y=2):\n    return x * y\nprint(f(3), f(3, 4))\nKết quả in ra màn hình là",
+   "options": [
+    "6 6",
+    "5 12",
+    "Báo lỗi",
+    "6 12"
+   ],
+   "answer": 3,
+   "explanation": "y có giá trị mặc định 2: f(3) = 3 × 2 = 6; f(3, 4) truyền y = 4 nên được 12."
+  },
+  {
+   "ord": 19,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Xâu kí tự",
+   "level": 2,
+   "stem": "Lệnh \"Ha Noi,Hue,Da Nang\".split(\",\") cho kết quả là\nprint(\"Ha Noi,Hue,Da Nang\".split(\",\"))",
+   "options": [
+    "['Ha', 'Noi', 'Hue', 'Da', 'Nang']",
+    "'Ha Noi Hue Da Nang'",
+    "['Ha Noi,Hue,Da Nang']",
+    "['Ha Noi', 'Hue', 'Da Nang']"
+   ],
+   "answer": 3,
+   "explanation": "split(\",\") tách xâu tại mỗi dấu phẩy và trả về danh sách các xâu con; khoảng trắng bên trong không bị tách."
+  },
+  {
+   "ord": 20,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Danh sách (list)",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\na = [4, 7, 1, 8, 5]\ndem = 0\nfor x in a:\n    if x % 2 == 0:\n        dem += 1\nprint(dem)\nKết quả in ra màn hình là",
+   "options": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Duyệt từng phần tử, đếm phần tử chẵn: 4 và 8 – có 2 phần tử."
+  },
+  {
+   "ord": 21,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Xâu kí tự",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\ns = \"hello world\"\nprint(s.upper().count(\"O\"))\nKết quả in ra màn hình là",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 2,
+   "explanation": "s.upper() cho \"HELLO WORLD\", trong đó chữ \"O\" xuất hiện 2 lần."
+  },
+  {
+   "ord": 22,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Kiểm thử và gỡ lỗi",
+   "level": 2,
+   "stem": "Cho đoạn chương trình:\ns = \"hoa\"\ns[0] = \"H\"\nprint(s)\nKhi chạy, chương trình sẽ",
+   "options": [
+    "Báo lỗi vì xâu kí tự không thể thay đổi từng kí tự",
+    "In ra Hoa",
+    "In ra hoa",
+    "In ra Ha"
+   ],
+   "answer": 0,
+   "explanation": "Xâu trong Python là kiểu bất biến; lệnh s[0] = \"H\" gây lỗi TypeError. Muốn đổi phải tạo xâu mới, ví dụ s = \"H\" + s[1:]."
+  },
+  {
+   "ord": 23,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Phạm vi của biến",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\nx = 5\ndef f():\n    x = 10\nf()\nprint(x)\nKết quả in ra màn hình là",
+   "options": [
+    "10",
+    "5",
+    "15",
+    "Báo lỗi"
+   ],
+   "answer": 1,
+   "explanation": "Biến x trong hàm f là biến cục bộ, gán x = 10 không ảnh hưởng đến biến x bên ngoài, nên vẫn in 5."
+  },
+  {
+   "ord": 24,
+   "qtype": "mcq",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Hàm có sẵn",
+   "level": 3,
+   "stem": "Cho đoạn chương trình:\na = [3, 8, 2, 4]\nprint(max(a), min(a), round(sum(a) / len(a)))\nKết quả in ra màn hình là",
+   "options": [
+    "8 2 4.25",
+    "8 2 4",
+    "2 8 4",
+    "8 2 17"
+   ],
+   "answer": 1,
+   "explanation": "max(a) = 8, min(a) = 2; sum(a) = 17, len(a) = 4, round(17 / 4) = round(4.25) = 4."
+  },
+  {
+   "ord": 25,
+   "qtype": "tf",
+   "tk": "Tin học|Lập trình Python cơ bản",
+   "topic": "Chuyển đổi kiểu dữ liệu",
+   "level": 2,
+   "stem": "Cho đoạn chương trình (người dùng nhập 7 rồi nhập 2):\na = float(input())\nb = int(input())\nprint(a / b)",
+   "statements": [
+    {
+     "t": "Biến a có kiểu float.",
+     "a": true
+    },
+    {
+     "t": "Chương trình in ra 3.5.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay float bằng int ở dòng 1 và nhập 7, giá trị in ra không đổi.",
+     "a": true
+    },
+    {
+     "t": "Nếu người dùng nhập 2.5 cho b và dòng 2 là b = int(input()) thì chương trình vẫn chạy bình thường.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: float(input()) cho số thực 7.0. b) Đúng: 7.0 / 2 = 3.5. c) Đúng: 7 / 2 vẫn bằng 3.5 vì phép / luôn cho số thực. d) Sai: int(\"2.5\") báo lỗi ValueError."
+  },
+  {
+   "ord": 26,
+   "qtype": "tf",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Hàm tự định nghĩa",
+   "level": 2,
+   "stem": "Cho chương trình:\ndef tb(ds):\n    return round(sum(ds) / len(ds), 1)\n\ndiem = [6, 8, 9, 7]\nprint(tb(diem))",
+   "statements": [
+    {
+     "t": "Hàm tb có một tham số là danh sách ds.",
+     "a": true
+    },
+    {
+     "t": "Chương trình in ra 7.",
+     "a": false
+    },
+    {
+     "t": "Lệnh return trả kết quả tính được về nơi gọi hàm.",
+     "a": true
+    },
+    {
+     "t": "Gọi tb([]) (danh sách rỗng) sẽ gây lỗi chia cho 0.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: hàm tb có một tham số ds. b) Sai: tổng 30, 30 / 4 = 7.5, round(7.5, 1) = 7.5 nên in 7.5. c) Đúng. d) Đúng: len([]) = 0 nên phép chia gây lỗi ZeroDivisionError."
+  },
+  {
+   "ord": 27,
+   "qtype": "tf",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Xâu kí tự",
+   "level": 3,
+   "stem": "Cho chương trình xử lí xâu họ tên:\ns = \"nguyen van an\"\nds = s.split()\nkq = \"\"\nfor w in ds:\n    kq = kq + w[0].upper()\nprint(kq)",
+   "statements": [
+    {
+     "t": "Sau dòng 2, ds là danh sách gồm 3 phần tử.",
+     "a": true
+    },
+    {
+     "t": "Chương trình in ra Nguyen Van An.",
+     "a": false
+    },
+    {
+     "t": "Chương trình in ra NVA.",
+     "a": true
+    },
+    {
+     "t": "Nếu xâu ban đầu có hai dấu cách liền nhau giữa các từ thì kết quả vẫn đúng.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: split() tách theo khoảng trắng được ['nguyen', 'van', 'an']. b) Sai. c) Đúng: lấy chữ cái đầu mỗi từ, viết hoa: NVA. d) Đúng: split() không đối số bỏ qua mọi khoảng trắng thừa."
+  },
+  {
+   "ord": 28,
+   "qtype": "tf",
+   "tk": "Tin học|Hàm, danh sách và xâu trong Python",
+   "topic": "Kiểm thử và gỡ lỗi",
+   "level": 3,
+   "stem": "Bạn Minh viết hàm kiểm tra số nguyên tố như sau:\ndef nguyen_to(n):\n    for i in range(2, n):\n        if n % i == 0:\n            return False\n    return True",
+   "statements": [
+    {
+     "t": "Hàm trả về True với n = 7.",
+     "a": true
+    },
+    {
+     "t": "Hàm trả về True với n = 1, nên hàm bị lỗi logic.",
+     "a": true
+    },
+    {
+     "t": "Hàm trả về False với n = 9.",
+     "a": true
+    },
+    {
+     "t": "Để sửa lỗi, chỉ cần đổi range(2, n) thành range(1, n).",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 7 không chia hết cho 2…6. b) Đúng: range(2, 1) rỗng nên hàm trả về True, nhưng 1 không phải số nguyên tố – lỗi logic (cần thêm if n < 2: return False). c) Đúng: 9 chia hết cho 3. d) Sai: mọi n đều chia hết cho 1, hàm sẽ luôn trả về False với n ≥ 2."
+  }
+ ],
+ "self_check": "Đã giải lại từng câu; toàn bộ đoạn code Python trong đề (kể cả các ý Đúng/Sai) được chạy bằng python3 qua script sinh đề, so khớp tự động đầu ra với đáp án; phân bố đáp án A/B/C/D đã cân đối."
+}
