@@ -1,0 +1,274 @@
+{
+ "exam": "hsa",
+ "part": "kh",
+ "set": "luyen",
+ "passages": {
+  "p1": "Ngày 8/8/1967, tại Băng Cốc (Thái Lan), ngoại trưởng năm nước In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Xin-ga-po và Thái Lan kí Tuyên bố Băng Cốc, thành lập Hiệp hội các quốc gia Đông Nam Á (ASEAN). Tháng 2/1976, tại Hội nghị cấp cao lần thứ nhất ở Ba-li (In-đô-nê-xi-a), các nước thành viên kí Hiệp ước Thân thiện và Hợp tác ở Đông Nam Á (Hiệp ước Ba-li), xác định các nguyên tắc cơ bản trong quan hệ giữa các nước. Sau đó, ASEAN dần mở rộng: Bru-nây gia nhập năm 1984, Việt Nam năm 1995, Lào và Mi-an-ma năm 1997, Cam-pu-chia năm 1999.",
+  "p2": "Một học sinh đặt một bình khí kín (thể tích không đổi) chứa khí lí tưởng vào bể nước được đun nóng dần, dùng áp kế và nhiệt kế ghi lại số liệu:\n| Nhiệt độ (°C) | 27 | 77 | 127 | 177 |\n| Áp suất (atm) | 3,00 | 3,50 | 4,00 | 4,50 |"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Vật lí – Khí lí tưởng",
+   "level": 3,
+   "stem": "Từ bảng số liệu, nhận định nào đúng?",
+   "options": [
+    "Áp suất tỉ lệ thuận với nhiệt độ theo thang Celsius",
+    "Áp suất tỉ lệ nghịch với nhiệt độ tuyệt đối",
+    "Áp suất tỉ lệ thuận với nhiệt độ tuyệt đối của khí",
+    "Áp suất không phụ thuộc nhiệt độ"
+   ],
+   "answer": 2,
+   "explanation": "Đổi sang kelvin: 300, 350, 400, 450 K; tỉ số $p/T = 0{,}01$ atm/K không đổi ⇒ $p \\sim T$ (định luật Charles). Tỉ số $p/t$ theo °C không phải hằng số (3/27 ≠ 3,5/77)."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Vật lí – Khí lí tưởng",
+   "level": 3,
+   "stem": "Theo quy luật rút ra từ bảng, khi nhiệt độ của khí là 327 °C thì áp suất của khí là bao nhiêu atm?",
+   "answer_text": "6",
+   "explanation": "$T = 327 + 273 = 600$ K; $p = 0{,}01\\cdot 600 = 6$ atm (hoặc $p = 3\\cdot 600/300$)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Vật lí – Khí lí tưởng",
+   "level": 2,
+   "stem": "Nguyên nhân áp suất khí tăng khi nhiệt độ tăng (thể tích không đổi) là",
+   "options": [
+    "các phân tử khí chuyển động nhanh hơn, va chạm vào thành bình mạnh và nhiều hơn",
+    "số phân tử khí trong bình tăng lên",
+    "các phân tử khí nở to ra",
+    "lực hút giữa các phân tử khí tăng"
+   ],
+   "answer": 0,
+   "explanation": "Theo thuyết động học phân tử, nhiệt độ tăng thì động năng trung bình của phân tử tăng, va chạm lên thành bình mạnh và thường xuyên hơn, áp suất tăng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Lực",
+   "level": 1,
+   "stem": "Một lò xo có độ cứng 100 N/m bị kéo giãn 5 cm. Độ lớn lực đàn hồi của lò xo là",
+   "options": [
+    "500 N",
+    "20 N",
+    "0,05 N",
+    "5 N"
+   ],
+   "answer": 3,
+   "explanation": "$F = k|\\Delta l| = 100\\cdot 0{,}05 = 5$ N."
+  },
+  {
+   "qtype": "short",
+   "topic": "Vật lí – Công suất",
+   "level": 2,
+   "stem": "Một cần cẩu nâng đều vật 50 kg lên cao 10 m trong 20 s, lấy $g = 10\\ \\mathrm{m/s^2}$. Công suất của cần cẩu là bao nhiêu oát?",
+   "answer_text": "250",
+   "explanation": "$A = mgh = 50\\cdot 10\\cdot 10 = 5000$ J; $P = A/t = 5000/20 = 250$ W."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Hạt nhân",
+   "level": 1,
+   "stem": "Tia phóng xạ $\\alpha$ là dòng các",
+   "options": [
+    "electron",
+    "hạt nhân $^4_2\\mathrm{He}$",
+    "photon năng lượng cao",
+    "neutron"
+   ],
+   "answer": 1,
+   "explanation": "Tia $\\alpha$ là dòng hạt nhân helium $^4_2\\mathrm{He}$, mang điện dương. Tia $\\beta^-$ là electron, tia $\\gamma$ là photon."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Lipid",
+   "level": 1,
+   "stem": "Thủy phân chất béo trong dung dịch $\\mathrm{NaOH}$ đun nóng (phản ứng xà phòng hóa) thu được",
+   "options": [
+    "ethanol và acid béo",
+    "glycerol và muối sodium của acid béo",
+    "glycerol và acid béo",
+    "glucose và muối sodium"
+   ],
+   "answer": 1,
+   "explanation": "Chất béo là triester của glycerol và acid béo; xà phòng hóa tạo glycerol và muối của acid béo (thành phần chính của xà phòng)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Điện phân",
+   "level": 2,
+   "stem": "Điện phân dung dịch $\\mathrm{CuSO_4}$ với điện cực trơ, ở cathode thu được",
+   "options": [
+    "khí oxygen",
+    "khí hydrogen",
+    "khí sulfur dioxide",
+    "kim loại đồng"
+   ],
+   "answer": 3,
+   "explanation": "Tại cathode, ion $\\mathrm{Cu^{2+}}$ dễ bị khử hơn nước: $\\mathrm{Cu^{2+} + 2e \\rightarrow Cu}$. Khí $\\mathrm{O_2}$ thoát ra ở anode."
+  },
+  {
+   "qtype": "short",
+   "topic": "Hóa học – Tính theo PTHH",
+   "level": 3,
+   "stem": "Hòa tan hoàn toàn 5,6 g $\\mathrm{Fe}$ trong dung dịch $\\mathrm{HCl}$ dư. Khối lượng muối thu được là bao nhiêu gam? (Cho Fe = 56, Cl = 35,5)",
+   "answer_text": "12,7",
+   "explanation": "$\\mathrm{Fe + 2HCl \\rightarrow FeCl_2 + H_2}$. $n_{\\mathrm{FeCl_2}} = n_{\\mathrm{Fe}} = 0{,}1$ mol; $m = 0{,}1\\cdot 127 = 12{,}7$ g."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Nhận biết",
+   "level": 2,
+   "stem": "Thuốc thử dùng để nhận biết ion $\\mathrm{Cl^-}$ trong dung dịch (tạo kết tủa trắng) là",
+   "options": [
+    "dung dịch $\\mathrm{AgNO_3}$",
+    "dung dịch $\\mathrm{BaCl_2}$",
+    "quỳ tím",
+    "dung dịch $\\mathrm{NaOH}$"
+   ],
+   "answer": 0,
+   "explanation": "$\\mathrm{Ag^+ + Cl^- \\rightarrow AgCl\\downarrow}$ (trắng)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Quang hợp",
+   "level": 2,
+   "stem": "Pha sáng của quá trình quang hợp ở thực vật diễn ra tại",
+   "options": [
+    "chất nền (stroma) của lục lạp",
+    "chất nền của ti thể",
+    "màng thylakoid của lục lạp",
+    "tế bào chất"
+   ],
+   "answer": 2,
+   "explanation": "Pha sáng (hấp thụ ánh sáng, quang phân li nước, tạo ATP và NADPH) diễn ra trên màng thylakoid; pha tối (chu trình Calvin) diễn ra ở stroma."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Đột biến",
+   "level": 3,
+   "stem": "Một đột biến điểm thay thế một cặp nucleotide trong vùng mã hóa của gene nhưng chuỗi polypeptide do gene tổng hợp không thay đổi. Giải thích hợp lí nhất là",
+   "options": [
+    "đột biến thay thế không bao giờ ảnh hưởng đến protein",
+    "ribosome tự sửa sai khi dịch mã",
+    "mã di truyền có tính phổ biến",
+    "mã di truyền có tính thoái hóa, bộ ba mới vẫn mã hóa cùng một amino acid"
+   ],
+   "answer": 3,
+   "explanation": "Nhiều bộ ba cùng mã hóa một amino acid (tính thoái hóa), nên thay thế nucleotide (thường ở vị trí thứ ba) có thể tạo bộ ba đồng nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Di truyền",
+   "level": 1,
+   "stem": "Phép lai $Aa \\times aa$ cho đời con có tỉ lệ kiểu gene $aa$ là",
+   "options": [
+    "25%",
+    "75%",
+    "50%",
+    "100%"
+   ],
+   "answer": 2,
+   "explanation": "$Aa \\times aa \\rightarrow 1Aa : 1aa$ ⇒ $aa = 50\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Lịch sử – ASEAN",
+   "level": 1,
+   "stem": "Theo tư liệu, quốc gia nào sau đây không thuộc năm nước sáng lập ASEAN?",
+   "options": [
+    "Thái Lan",
+    "Bru-nây",
+    "Phi-líp-pin",
+    "Xin-ga-po"
+   ],
+   "answer": 1,
+   "explanation": "Năm nước sáng lập: In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Xin-ga-po, Thái Lan; Bru-nây gia nhập năm 1984."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Lịch sử – ASEAN",
+   "level": 3,
+   "stem": "Hiệp ước Ba-li (1976) xác định nguyên tắc nào sau đây trong quan hệ giữa các nước ASEAN?",
+   "options": [
+    "Không can thiệp vào công việc nội bộ của nhau; giải quyết tranh chấp bằng biện pháp hòa bình",
+    "Thành lập liên minh quân sự chung chống các nước ngoài khu vực",
+    "Sử dụng chung một đồng tiền trong toàn khối",
+    "Xóa bỏ biên giới quốc gia giữa các nước thành viên"
+   ],
+   "answer": 0,
+   "explanation": "Hiệp ước Ba-li nêu các nguyên tắc: tôn trọng độc lập, chủ quyền, toàn vẹn lãnh thổ; không can thiệp nội bộ; giải quyết tranh chấp bằng hòa bình; hợp tác hiệu quả."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Lịch sử – ASEAN",
+   "level": 3,
+   "stem": "Theo tư liệu, ASEAN trở thành tổ chức bao gồm cả 10 quốc gia Đông Nam Á lúc bấy giờ vào năm nào, khi quốc gia nào gia nhập?",
+   "options": [
+    "1999, Cam-pu-chia",
+    "1995, Việt Nam",
+    "1997, Lào và Mi-an-ma",
+    "1984, Bru-nây"
+   ],
+   "answer": 0,
+   "explanation": "Thứ tự: 5 nước sáng lập (1967) → Bru-nây (1984) → Việt Nam (1995) → Lào, Mi-an-ma (1997) → Cam-pu-chia (1999), đủ 10 nước."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Cách mạng tháng Tám",
+   "level": 2,
+   "stem": "Trong Tổng khởi nghĩa tháng Tám năm 1945, thứ tự giành chính quyền ở ba thành phố Hà Nội, Huế, Sài Gòn là",
+   "options": [
+    "Huế → Hà Nội → Sài Gòn",
+    "Hà Nội (19/8) → Huế (23/8) → Sài Gòn (25/8)",
+    "Sài Gòn → Huế → Hà Nội",
+    "Hà Nội → Sài Gòn → Huế"
+   ],
+   "answer": 1,
+   "explanation": "Khởi nghĩa thắng lợi ở Hà Nội ngày 19/8, Huế ngày 23/8 và Sài Gòn ngày 25/8/1945."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Khí hậu",
+   "level": 2,
+   "stem": "Hiện tượng thời tiết khô nóng vào đầu mùa hạ ở vùng đồng bằng ven biển Bắc Trung Bộ chủ yếu do",
+   "options": [
+    "gió mùa Đông Bắc",
+    "bão từ Biển Đông",
+    "gió phơn Tây Nam (gió Lào) sau khi vượt dãy Trường Sơn",
+    "gió Tín phong bán cầu Bắc"
+   ],
+   "answer": 2,
+   "explanation": "Gió tây nam từ vịnh Ben-gan vượt dãy Trường Sơn, bị biến tính trở nên khô nóng (hiệu ứng phơn) khi xuống sườn đông."
+  },
+  {
+   "qtype": "short",
+   "topic": "Địa lí – Dân cư",
+   "level": 2,
+   "stem": "Một quốc gia có tỉ suất sinh thô 15‰ và tỉ suất tử thô 6‰ (số liệu giả định). Tỉ lệ gia tăng dân số tự nhiên là bao nhiêu phần trăm?",
+   "answer_text": "0,9",
+   "explanation": "Tỉ lệ gia tăng tự nhiên $= 15‰ - 6‰ = 9‰ = 0{,}9\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Biển đảo",
+   "level": 1,
+   "stem": "Các mỏ dầu khí đang khai thác có trữ lượng lớn ở nước ta tập trung chủ yếu tại",
+   "options": [
+    "vùng biển vịnh Bắc Bộ gần Hải Phòng",
+    "ven biển Bắc Trung Bộ",
+    "quần đảo Hoàng Sa",
+    "thềm lục địa phía Nam (các bể Cửu Long, Nam Côn Sơn)"
+   ],
+   "answer": 3,
+   "explanation": "Phần lớn sản lượng dầu khí khai thác của nước ta đến từ các bể trầm tích Cửu Long và Nam Côn Sơn ở thềm lục địa phía Nam."
+  }
+ ],
+ "self_check": "Tính toán (định luật Charles, lực đàn hồi, công suất, khối lượng muối, gia tăng tự nhiên) đã kiểm bằng Python; mốc lịch sử ASEAN và Cách mạng tháng Tám đối chiếu SGK; số liệu giả định ghi rõ; chạy dgnl-check ✓."
+}

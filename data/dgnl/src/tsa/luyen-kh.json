@@ -1,0 +1,286 @@
+{
+ "exam": "tsa",
+ "part": "kh",
+ "set": "luyen",
+ "passages": {
+  "p1": "Một học sinh chiếu một tia sáng hẹp từ không khí vào mặt phẳng của một khối thủy tinh bán trụ, tia sáng luôn đi tới tâm của mặt phẳng. Dùng thước đo góc, học sinh ghi góc tới $i$ và góc khúc xạ $r$ (đo so với pháp tuyến):\n$i$ (độ) | 20 | 30 | 40 | 50 | 60\n$r$ (độ) | 13,2 | 19,5 | 25,4 | 30,7 | 35,3\nBiết chiết suất của không khí xấp xỉ bằng 1 và tốc độ ánh sáng trong chân không $c = 3 \\cdot 10^8$ m/s.",
+  "p2": "Độ tan (số gam chất tan tối đa trong 100 g nước) của KNO₃ và NaCl ở một số nhiệt độ:\nNhiệt độ (°C) | 20 | 40 | 60 | 80\nKNO₃ (g/100 g nước) | 31,6 | 63,9 | 110 | 169\nNaCl (g/100 g nước) | 36,0 | 36,6 | 37,3 | 38,4\nCoi độ tan của mỗi chất không bị ảnh hưởng bởi sự có mặt của chất kia; bỏ qua sự bay hơi của nước.",
+  "p3": "Trong một hệ sinh thái đồng cỏ (số liệu giả định), người ta xác định năng lượng tích lũy trong sinh khối của các bậc dinh dưỡng của chuỗi thức ăn: cỏ → châu chấu → ếch → rắn.\nCỏ (sinh vật sản xuất): 2 500 000 kcal/m²/năm\nChâu chấu: 200 000 kcal/m²/năm\nẾch: 18 000 kcal/m²/năm\nRắn: 1 260 kcal/m²/năm\nHiệu suất sinh thái giữa hai bậc dinh dưỡng liền kề bằng tỉ số giữa năng lượng tích lũy ở bậc trên và ở bậc dưới (tính theo %).",
+  "p4": "Pin Li-ion của một điện thoại có thông số: dung lượng 4000 mAh, điện áp danh định 3,85 V. Năng lượng của pin khi đầy (Wh) bằng dung lượng (Ah) nhân với điện áp danh định (V).\nMột học sinh dùng ổ cắm đo điện năng để theo dõi quá trình sạc: từ 20% đến 80% dung lượng, bộ sạc lấy từ lưới điện công suất trung bình 18 W trong 36 phút. Từ 80% đến 100%, điện thoại tự giảm công suất sạc để bảo vệ pin. Hiệu suất sạc là tỉ số giữa năng lượng pin tích thêm được và điện năng lấy từ lưới điện."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – khúc xạ ánh sáng",
+   "level": 1,
+   "stem": "Nhận xét nào sau đây đúng với kết quả thí nghiệm?",
+   "options": [
+    "Góc khúc xạ luôn lớn hơn góc tới: tia khúc xạ lệch xa pháp tuyến.",
+    "Góc khúc xạ bằng góc tới.",
+    "Góc khúc xạ luôn nhỏ hơn góc tới: tia khúc xạ lệch lại gần pháp tuyến.",
+    "Góc khúc xạ không thay đổi khi góc tới thay đổi."
+   ],
+   "answer": 2,
+   "explanation": "Ở mọi lần đo $r < i$, do ánh sáng đi từ môi trường chiết quang kém (không khí) sang môi trường chiết quang hơn (thủy tinh)."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – khúc xạ ánh sáng",
+   "level": 2,
+   "stem": "Từ cặp số liệu $i = 30^\\circ$, tính chiết suất của thủy tinh. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "1,50",
+   "explanation": "$n = \\dfrac{\\sin i}{\\sin r} = \\dfrac{\\sin 30^\\circ}{\\sin 19{,}5^\\circ} \\approx 1{,}50$."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p1",
+   "topic": "Vật lí – khúc xạ ánh sáng",
+   "level": 2,
+   "stem": "Xét các nhận định sau.",
+   "statements": [
+    {
+     "t": "Tỉ số $i/r$ không đổi ở mọi lần đo.",
+     "a": false
+    },
+    {
+     "t": "Tỉ số $\\sin i / \\sin r$ gần như không đổi ở mọi lần đo.",
+     "a": true
+    },
+    {
+     "t": "Tốc độ ánh sáng trong khối thủy tinh xấp xỉ $2 \\cdot 10^8$ m/s.",
+     "a": true
+    },
+    {
+     "t": "Tia sáng đi từ thủy tinh ra không khí với góc tới $45^\\circ$ sẽ bị phản xạ toàn phần.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Sai: $20/13{,}2 \\approx 1{,}52$ còn $60/35{,}3 \\approx 1{,}70$. b) Đúng: luôn ≈ 1,50. c) Đúng: $v = c/n = 2 \\cdot 10^8$ m/s. d) Đúng: góc giới hạn $\\approx 41,8^\\circ < 45^\\circ$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – phản xạ toàn phần",
+   "level": 3,
+   "stem": "Tính góc giới hạn phản xạ toàn phần (độ) khi ánh sáng đi từ khối thủy tinh này ra không khí. (Lấy $n = 1{,}5$, làm tròn đến hàng phần mười.)",
+   "answer_text": "41,8",
+   "explanation": "$\\sin i_{gh} = \\dfrac{1}{n} = \\dfrac{1}{1{,}5}$ ⇒ $i_{gh} \\approx 41{,}8^\\circ$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – độ tan",
+   "level": 1,
+   "stem": "Nhận xét nào sau đây đúng?",
+   "options": [
+    "Độ tan của KNO₃ tăng mạnh theo nhiệt độ, còn độ tan của NaCl thay đổi rất ít.",
+    "Độ tan của cả hai chất đều giảm khi nhiệt độ tăng.",
+    "Ở mọi nhiệt độ trong bảng, NaCl tan nhiều hơn KNO₃.",
+    "Độ tan của NaCl tăng mạnh hơn độ tan của KNO₃ khi nhiệt độ tăng."
+   ],
+   "answer": 0,
+   "explanation": "Từ 20 °C đến 80 °C, độ tan KNO₃ tăng từ 31,6 lên 169 g; NaCl chỉ tăng từ 36,0 lên 38,4 g. Từ 40 °C trở lên KNO₃ tan nhiều hơn NaCl."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – nồng độ dung dịch",
+   "level": 2,
+   "stem": "Tính nồng độ phần trăm (%) của dung dịch KNO₃ bão hòa ở 40 °C. (Làm tròn đến hàng đơn vị.)",
+   "answer_text": "39",
+   "explanation": "$C\\% = \\dfrac{63{,}9}{100 + 63{,}9} \\cdot 100\\% \\approx 38,99\\% \\approx 39\\%$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – kết tinh",
+   "level": 3,
+   "stem": "Làm lạnh 210 g dung dịch KNO₃ bão hòa từ 60 °C xuống 20 °C. Tính khối lượng KNO₃ kết tinh tách ra (g).",
+   "answer_text": "78,4",
+   "explanation": "210 g dung dịch bão hòa ở 60 °C gồm 100 g nước và 110 g KNO₃. Ở 20 °C, 100 g nước chỉ hòa tan 31,6 g ⇒ tách ra $110 - 31{,}6 = 78{,}4$ g."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p2",
+   "topic": "Hóa học – độ tan",
+   "level": 2,
+   "stem": "Xét các nhận định sau.",
+   "statements": [
+    {
+     "t": "Hòa tan 40 g KNO₃ vào 100 g nước ở 20 °C thu được dung dịch chưa bão hòa.",
+     "a": false
+    },
+    {
+     "t": "Ở 80 °C, 50 g nước hòa tan được tối đa 84,5 g KNO₃.",
+     "a": true
+    },
+    {
+     "t": "Có thể tách KNO₃ khỏi hỗn hợp với một lượng nhỏ NaCl bằng cách hòa tan trong nước nóng rồi làm lạnh để KNO₃ kết tinh.",
+     "a": true
+    },
+    {
+     "t": "Độ tan của KNO₃ tăng đều (tuyến tính) theo nhiệt độ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: 40 g > 31,6 g nên dung dịch bão hòa và còn chất rắn không tan. b) Đúng: $169/2 = 84{,}5$ g. c) Đúng: độ tan NaCl gần như không đổi nên NaCl vẫn ở trong dung dịch. d) Sai: mức tăng mỗi 20 °C là 32,3; 46,1; 59 g – ngày càng lớn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – kết tinh",
+   "level": 3,
+   "stem": "Một dung dịch ở 80 °C chứa 100 g nước, 60 g KNO₃ và 20 g NaCl. Làm lạnh dung dịch xuống 20 °C. Kết quả nào sau đây đúng?",
+   "options": [
+    "Có khoảng 28,4 g KNO₃ và 16 g NaCl kết tinh.",
+    "Có khoảng 28,4 g KNO₃ kết tinh, NaCl không kết tinh.",
+    "Không có chất nào kết tinh.",
+    "Có khoảng 60 g KNO₃ kết tinh, NaCl không kết tinh."
+   ],
+   "answer": 1,
+   "explanation": "Ở 20 °C, 100 g nước hòa tan tối đa 31,6 g KNO₃ ⇒ kết tinh $60 - 31{,}6 = 28{,}4$ g; NaCl: 20 g < 36,0 g nên vẫn tan hết."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – hệ sinh thái",
+   "level": 1,
+   "stem": "Trong chuỗi thức ăn trên, ếch thuộc",
+   "options": [
+    "bậc dinh dưỡng cấp 2 (sinh vật tiêu thụ bậc 1).",
+    "bậc dinh dưỡng cấp 4 (sinh vật tiêu thụ bậc 3).",
+    "bậc dinh dưỡng cấp 1 (sinh vật sản xuất).",
+    "bậc dinh dưỡng cấp 3 (sinh vật tiêu thụ bậc 2)."
+   ],
+   "answer": 3,
+   "explanation": "Cỏ: bậc 1; châu chấu: bậc 2 (tiêu thụ bậc 1); ếch: bậc 3 (tiêu thụ bậc 2); rắn: bậc 4."
+  },
+  {
+   "qtype": "short",
+   "passage": "p3",
+   "topic": "Sinh học – hiệu suất sinh thái",
+   "level": 2,
+   "stem": "Tính hiệu suất sinh thái (%) giữa châu chấu và ếch.",
+   "answer_text": "9",
+   "explanation": "$\\dfrac{18\\,000}{200\\,000} \\cdot 100\\% = 9\\%$."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p3",
+   "topic": "Sinh học – dòng năng lượng",
+   "level": 2,
+   "stem": "Xét các nhận định sau.",
+   "statements": [
+    {
+     "t": "Hiệu suất sinh thái giữa cỏ và châu chấu là 8%.",
+     "a": true
+    },
+    {
+     "t": "Phần lớn năng lượng bị mất qua mỗi bậc dinh dưỡng chủ yếu do hô hấp, tỏa nhiệt và chất thải.",
+     "a": true
+    },
+    {
+     "t": "Trong chuỗi này, hiệu suất sinh thái giữa ếch và rắn là cao nhất.",
+     "a": false
+    },
+    {
+     "t": "Nếu loại bỏ hoàn toàn rắn khỏi hệ sinh thái, số lượng châu chấu chắc chắn giảm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 200 000/2 500 000 = 8%. b) Đúng. c) Sai: 1 260/18 000 = 7%, thấp nhất (8%, 9%, 7%). d) Sai: mất rắn, ếch có thể tăng làm châu chấu giảm, nhưng còn phụ thuộc nhiều yếu tố (dịch bệnh, cạnh tranh, nguồn thức ăn…) nên không \"chắc chắn\"."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – vận dụng",
+   "level": 3,
+   "stem": "Dựa vào dòng năng lượng, giải thích nào sau đây hợp lí nhất cho việc nuôi trồng các loài ở bậc dinh dưỡng thấp (ví dụ cá ăn thực vật) thường cho năng suất sinh khối cao hơn nuôi các loài ăn thịt trên cùng diện tích?",
+   "options": [
+    "Chuỗi thức ăn ngắn hơn nên năng lượng thất thoát qua các bậc ít hơn.",
+    "Loài ăn thực vật có hiệu suất sinh thái luôn đạt 100%.",
+    "Loài ăn thịt không hấp thụ được năng lượng từ thức ăn.",
+    "Năng lượng tăng dần khi đi lên các bậc dinh dưỡng cao hơn."
+   ],
+   "answer": 0,
+   "explanation": "Qua mỗi bậc chỉ khoảng 10% năng lượng được tích lũy; khai thác ở bậc thấp giảm số bậc trung gian nên thu được nhiều năng lượng (sinh khối) hơn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Công nghệ – pin và năng lượng",
+   "level": 1,
+   "stem": "Năng lượng của pin điện thoại khi được sạc đầy là",
+   "options": [
+    "1,54 Wh",
+    "4,0 Wh",
+    "15,4 Wh",
+    "154 Wh"
+   ],
+   "answer": 2,
+   "explanation": "$W = 4{,}0\\ \\text{Ah} \\cdot 3{,}85\\ \\text{V} = 15{,}4$ Wh."
+  },
+  {
+   "qtype": "short",
+   "passage": "p4",
+   "topic": "Công nghệ – hiệu suất",
+   "level": 2,
+   "stem": "Tính hiệu suất sạc (%) trong giai đoạn từ 20% đến 80%. (Làm tròn đến hàng phần mười.)",
+   "answer_text": "85,6",
+   "explanation": "Pin tích thêm $0{,}6 \\cdot 15{,}4 = 9{,}24$ Wh; điện năng lấy từ lưới $18 \\cdot 0{,}6 = 10{,}8$ Wh; $H = 9{,}24/10{,}8 \\approx 85,6\\%$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p4",
+   "topic": "Công nghệ – pin và năng lượng",
+   "level": 2,
+   "stem": "Khi dùng nhẹ, điện thoại tiêu thụ công suất trung bình 0,77 W. Tính thời gian sử dụng (giờ) từ lúc pin đầy (100%) đến khi pin còn 20%.",
+   "answer_text": "16",
+   "explanation": "$t = \\dfrac{0{,}8 \\cdot 15{,}4}{0{,}77} = 16$ giờ."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p4",
+   "topic": "Vật lí – điện tích và năng lượng",
+   "level": 3,
+   "stem": "Xét các nhận định sau.",
+   "statements": [
+    {
+     "t": "mAh là đơn vị đo điện tích.",
+     "a": true
+    },
+    {
+     "t": "Dung lượng 4000 mAh tương ứng với điện tích 14 400 C.",
+     "a": true
+    },
+    {
+     "t": "Bộ sạc và điện thoại nóng lên khi sạc là biểu hiện của một phần điện năng bị chuyển hóa thành nhiệt (hao phí).",
+     "a": true
+    },
+    {
+     "t": "Sạc với công suất càng lớn thì hiệu suất sạc luôn càng cao.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $1$ mAh $= 10^{-3}$ A · 3600 s = 3,6 C. b) Đúng: $4{,}0 \\cdot 3600 = 14\\,400$ C. c) Đúng. d) Sai: công suất lớn thường làm dòng lớn, tỏa nhiệt nhiều hơn, hiệu suất không nhất thiết tăng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Công nghệ – hiệu suất",
+   "level": 3,
+   "stem": "Giả sử giai đoạn từ 80% đến 100%, bộ sạc lấy từ lưới công suất trung bình 6 W với hiệu suất sạc 80%. Thời gian cần cho giai đoạn này xấp xỉ",
+   "options": [
+    "24,6 phút",
+    "30,8 phút",
+    "38,5 phút",
+    "48,1 phút"
+   ],
+   "answer": 2,
+   "explanation": "Pin cần tích thêm $0{,}2 \\cdot 15{,}4 = 3{,}08$ Wh ⇒ điện năng từ lưới $3{,}08/0{,}8 = 3{,}85$ Wh; $t = 3{,}85/6 \\approx 0{,}642$ h $\\approx 38{,}5$ phút."
+  }
+ ],
+ "self_check": "Tính toán (góc khúc xạ sinh từ n = 1,5, chiết suất, góc giới hạn, nồng độ bão hòa, khối lượng kết tinh, hiệu suất sinh thái, năng lượng/hiệu suất/thời gian sạc pin) kiểm bằng Python có assert; số liệu độ tan KNO₃/NaCl là giá trị tra cứu phổ biến; mỗi tf có cả Đúng và Sai."
+}

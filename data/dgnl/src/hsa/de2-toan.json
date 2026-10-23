@@ -1,0 +1,632 @@
+{
+ "exam": "hsa",
+ "part": "toan",
+ "set": "de2",
+ "passages": {
+  "p1": "Bảng sau cho biết diện tích gieo trồng và sản lượng lúa của tỉnh X trong giai đoạn 2019 – 2023 (số liệu giả định).\n| Năm | Diện tích (nghìn ha) | Sản lượng (nghìn tấn) |\n| 2019 | 50 | 290,0 |\n| 2020 | 48 | 283,2 |\n| 2021 | 49 | 294,0 |\n| 2022 | 47 | 291,4 |\n| 2023 | 46 | 289,8 |\nNăng suất lúa (tấn/ha) = Sản lượng : Diện tích.",
+  "p2": "Biểu đồ tròn mô tả cơ cấu chi tiêu trong một tháng của gia đình anh Nam (số liệu giả định), tổng chi tiêu tháng là 20 triệu đồng:\nĂn uống: 35%; Nhà ở: 20%; Giáo dục: 15%; Đi lại: 10%; Tiết kiệm: 12%; Khác: 8%."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tính đơn điệu",
+   "level": 1,
+   "stem": "Hàm số $y = \\dfrac{x+1}{x-2}$",
+   "options": [
+    "đồng biến trên mỗi khoảng $(-\\infty;\\,2)$ và $(2;\\,+\\infty)$",
+    "nghịch biến trên $\\mathbb{R}$",
+    "đồng biến trên $\\mathbb{R}\\setminus\\{2\\}$",
+    "nghịch biến trên mỗi khoảng $(-\\infty;\\,2)$ và $(2;\\,+\\infty)$"
+   ],
+   "answer": 3,
+   "explanation": "$y' = \\dfrac{-3}{(x-2)^2} < 0$ với mọi $x \\ne 2$ nên hàm số nghịch biến trên từng khoảng xác định."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – cực trị",
+   "level": 1,
+   "stem": "Hàm số $y = -x^4 + 2x^2 + 1$ có bao nhiêu điểm cực trị?",
+   "options": [
+    "$2$",
+    "$3$",
+    "$0$",
+    "$1$"
+   ],
+   "answer": 1,
+   "explanation": "$y' = -4x^3 + 4x = -4x(x^2 - 1)$ có 3 nghiệm phân biệt $x = 0;\\,\\pm1$ và đổi dấu qua mỗi nghiệm, nên hàm số có $3$ điểm cực trị."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – GTLN, GTNN",
+   "level": 1,
+   "stem": "Giá trị nhỏ nhất của hàm số $y = x + \\dfrac{4}{x}$ trên khoảng $(0;\\,+\\infty)$ bằng",
+   "options": [
+    "$0$",
+    "$5$",
+    "$4$",
+    "$2$"
+   ],
+   "answer": 2,
+   "explanation": "$y' = 1 - \\dfrac{4}{x^2} = 0 \\Leftrightarrow x = 2$ (vì $x > 0$); $y'$ đổi dấu từ âm sang dương tại $x = 2$ nên $\\min y = y(2) = 4$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tiệm cận",
+   "level": 2,
+   "stem": "Tiệm cận xiên của đồ thị hàm số $y = \\dfrac{x^2 + x + 1}{x - 1}$ là đường thẳng",
+   "options": [
+    "$y = x + 2$",
+    "$y = 2x + 1$",
+    "$y = x + 1$",
+    "$y = x - 2$"
+   ],
+   "answer": 0,
+   "explanation": "$y = x + 2 + \\dfrac{3}{x - 1}$, mà $\\dfrac{3}{x-1} \\to 0$ khi $x \\to \\pm\\infty$ nên tiệm cận xiên là $y = x + 2$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Hàm số – tham số",
+   "level": 3,
+   "stem": "Có bao nhiêu giá trị nguyên của tham số $m$ thuộc đoạn $[-10;\\,10]$ để hàm số $y = x^3 - 3x^2 + mx + 1$ đồng biến trên $\\mathbb{R}$?",
+   "answer_text": "8",
+   "explanation": "$y' = 3x^2 - 6x + m \\ge 0\\ \\forall x \\Leftrightarrow \\Delta' = 9 - 3m \\le 0 \\Leftrightarrow m \\ge 3$. Các giá trị nguyên $m \\in \\{3;\\,4;\\dots;\\,10\\}$: có $8$ giá trị."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tương giao",
+   "level": 2,
+   "stem": "Số giao điểm của đồ thị hàm số $y = x^3 - 3x + 1$ với đường thẳng $y = 1$ là",
+   "options": [
+    "$2$",
+    "$0$",
+    "$3$",
+    "$1$"
+   ],
+   "answer": 2,
+   "explanation": "$x^3 - 3x + 1 = 1 \\Leftrightarrow x(x^2 - 3) = 0 \\Leftrightarrow x = 0;\\ x = \\pm\\sqrt3$. Có $3$ giao điểm."
+  },
+  {
+   "qtype": "short",
+   "topic": "Hàm số – bài toán tối ưu",
+   "level": 3,
+   "stem": "Một người dùng $100$ m lưới để rào một mảnh vườn hình chữ nhật, một cạnh tựa vào bức tường có sẵn (cạnh này không cần rào). Diện tích lớn nhất của mảnh vườn là bao nhiêu m²?",
+   "answer_text": "1250",
+   "explanation": "Gọi $x$ (m) là cạnh vuông góc với tường, cạnh song song tường dài $100 - 2x$. $S(x) = x(100 - 2x)$, $S'(x) = 100 - 4x = 0 \\Leftrightarrow x = 25$. $S_{\\max} = 25\\cdot50 = 1250$ (m²)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ và lôgarit – phương trình",
+   "level": 2,
+   "stem": "Tổng các nghiệm của phương trình $4^x - 3\\cdot 2^x + 2 = 0$ bằng",
+   "options": [
+    "$2$",
+    "$1$",
+    "$3$",
+    "$\\log_2 3$"
+   ],
+   "answer": 1,
+   "explanation": "Đặt $u = 2^x > 0$: $u^2 - 3u + 2 = 0 \\Leftrightarrow u = 1$ hoặc $u = 2$, tức $x = 0$ hoặc $x = 1$. Tổng $= 1$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Mũ và lôgarit – phương trình",
+   "level": 3,
+   "stem": "Tính tích các nghiệm của phương trình $\\log_3(x^2 - 2x) = 1$.",
+   "answer_text": "-3",
+   "explanation": "$x^2 - 2x = 3 \\Leftrightarrow x = 3$ hoặc $x = -1$; cả hai đều thỏa điều kiện $x^2 - 2x > 0$. Tích bằng $-3$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đạo hàm",
+   "level": 1,
+   "stem": "Đạo hàm của hàm số $y = \\ln(x^2 + 1)$ là",
+   "options": [
+    "$y' = \\dfrac{1}{x^2 + 1}$",
+    "$y' = \\dfrac{x}{x^2 + 1}$",
+    "$y' = \\dfrac{2x}{(x^2 + 1)\\ln 10}$",
+    "$y' = \\dfrac{2x}{x^2 + 1}$"
+   ],
+   "answer": 3,
+   "explanation": "$\\left(\\ln u\\right)' = \\dfrac{u'}{u}$ với $u = x^2 + 1$, $u' = 2x$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ và lôgarit – bất phương trình",
+   "level": 2,
+   "stem": "Tập nghiệm của bất phương trình $\\log_2(x + 1) < \\log_2(5 - x)$ là",
+   "options": [
+    "$(-1;\\,2)$",
+    "$(-\\infty;\\,2)$",
+    "$(-1;\\,5)$",
+    "$(2;\\,5)$"
+   ],
+   "answer": 0,
+   "explanation": "Điều kiện $-1 < x < 5$. Cơ số $2 > 1$ nên $x + 1 < 5 - x \\Leftrightarrow x < 2$. Kết hợp điều kiện: $-1 < x < 2$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Mũ và lôgarit – mô hình tăng trưởng",
+   "level": 3,
+   "stem": "Dân số của một thành phố được ước tính theo công thức $N(t) = N_0\\,e^{0{,}012t}$, trong đó $N_0$ là dân số năm gốc và $t$ là số năm tính từ năm gốc. Sau ít nhất bao nhiêu năm (số nguyên) thì dân số thành phố đạt ít nhất gấp đôi dân số năm gốc?",
+   "answer_text": "58",
+   "explanation": "$e^{0{,}012t} \\ge 2 \\Leftrightarrow t \\ge \\dfrac{\\ln 2}{0{,}012} \\approx 57{,}8$. Vậy ít nhất $58$ năm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "Họ nguyên hàm của hàm số $f(x) = \\sin x + 2x$ là",
+   "options": [
+    "$-\\cos x + x^2 + C$",
+    "$-\\cos x + 2x^2 + C$",
+    "$\\cos x + x^2 + C$",
+    "$\\cos x + 2 + C$"
+   ],
+   "answer": 0,
+   "explanation": "$\\displaystyle\\int(\\sin x + 2x)\\,dx = -\\cos x + x^2 + C$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Tích phân $\\displaystyle\\int_0^2 |x - 1|\\,dx$ bằng",
+   "options": [
+    "$0$",
+    "$\\dfrac12$",
+    "$1$",
+    "$2$"
+   ],
+   "answer": 2,
+   "explanation": "$\\displaystyle\\int_0^1 (1 - x)\\,dx + \\int_1^2 (x - 1)\\,dx = \\dfrac12 + \\dfrac12 = 1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – từng phần",
+   "level": 2,
+   "stem": "Tích phân $\\displaystyle\\int_0^1 x e^x\\,dx$ bằng",
+   "options": [
+    "$2e - 1$",
+    "$e$",
+    "$e - 1$",
+    "$1$"
+   ],
+   "answer": 3,
+   "explanation": "$\\displaystyle\\int_0^1 x e^x dx = x e^x\\Big|_0^1 - \\int_0^1 e^x dx = e - (e - 1) = 1$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tích phân – tính chất",
+   "level": 2,
+   "stem": "Cho $\\displaystyle\\int_0^2 f(x)\\,dx = 3$ và $\\displaystyle\\int_0^2 g(x)\\,dx = -1$. Tính $\\displaystyle\\int_0^2 \\left[2f(x) - 3g(x) + x\\right]dx$.",
+   "answer_text": "11",
+   "explanation": "$= 2\\cdot3 - 3\\cdot(-1) + \\dfrac{x^2}{2}\\Big|_0^2 = 6 + 3 + 2 = 11$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – diện tích",
+   "level": 3,
+   "stem": "Diện tích hình phẳng giới hạn bởi đồ thị hai hàm số $y = x^3$ và $y = x$ bằng",
+   "options": [
+    "$0$",
+    "$\\dfrac12$",
+    "$\\dfrac14$",
+    "$1$"
+   ],
+   "answer": 1,
+   "explanation": "Giao điểm $x = -1;\\,0;\\,1$. $S = \\displaystyle\\int_{-1}^1 |x^3 - x|\\,dx = 2\\int_0^1 (x - x^3)\\,dx = 2\\cdot\\dfrac14 = \\dfrac12$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – thể tích",
+   "level": 2,
+   "stem": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi $y = x^2$, $y = 0$, $x = 0$, $x = 1$ quanh trục $Ox$ bằng",
+   "options": [
+    "$\\dfrac{\\pi}{5}$",
+    "$\\dfrac{\\pi}{3}$",
+    "$\\dfrac{\\pi}{4}$",
+    "$\\dfrac15$"
+   ],
+   "answer": 0,
+   "explanation": "$V = \\pi\\displaystyle\\int_0^1 x^4\\,dx = \\dfrac{\\pi}{5}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – thể tích",
+   "level": 2,
+   "stem": "Thể tích khối tứ diện đều cạnh $a$ bằng",
+   "options": [
+    "$\\dfrac{a^3\\sqrt2}{4}$",
+    "$\\dfrac{a^3\\sqrt2}{12}$",
+    "$\\dfrac{a^3\\sqrt3}{4}$",
+    "$\\dfrac{a^3\\sqrt3}{12}$"
+   ],
+   "answer": 1,
+   "explanation": "Chiều cao $h = \\sqrt{a^2 - \\left(\\dfrac{a\\sqrt3}{3}\\right)^2} = \\dfrac{a\\sqrt6}{3}$; $V = \\dfrac13\\cdot\\dfrac{a^2\\sqrt3}{4}\\cdot\\dfrac{a\\sqrt6}{3} = \\dfrac{a^3\\sqrt2}{12}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – thể tích",
+   "level": 3,
+   "stem": "Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $2a$, góc giữa mặt bên và mặt đáy bằng $60^\\circ$. Thể tích khối chóp bằng",
+   "options": [
+    "$\\dfrac{4a^3}{3}$",
+    "$\\dfrac{2a^3\\sqrt3}{3}$",
+    "$\\dfrac{4a^3\\sqrt3}{3}$",
+    "$4a^3\\sqrt3$"
+   ],
+   "answer": 2,
+   "explanation": "Gọi $O$ là tâm đáy, $M$ trung điểm $CD$: $OM = a$, góc giữa mặt bên và đáy là $\\widehat{SMO} = 60^\\circ$ nên $SO = a\\tan60^\\circ = a\\sqrt3$. $V = \\dfrac13\\cdot 4a^2\\cdot a\\sqrt3 = \\dfrac{4a^3\\sqrt3}{3}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – khoảng cách",
+   "level": 3,
+   "stem": "Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Khoảng cách giữa hai đường thẳng $AC'$ và $BD$ bằng",
+   "options": [
+    "$\\dfrac{a\\sqrt3}{3}$",
+    "$\\dfrac{a\\sqrt6}{3}$",
+    "$\\dfrac{a\\sqrt2}{2}$",
+    "$\\dfrac{a\\sqrt6}{6}$"
+   ],
+   "answer": 3,
+   "explanation": "Chọn hệ trục $A(0;0;0)$, $B(a;0;0)$, $D(0;a;0)$, $C'(a;a;a)$. $\\left[\\overrightarrow{AC'},\\overrightarrow{BD}\\right] = a^2(-1;-1;2)$, $d = \\dfrac{\\left|\\left[\\overrightarrow{AC'},\\overrightarrow{BD}\\right]\\cdot\\overrightarrow{AB}\\right|}{\\left|\\left[\\overrightarrow{AC'},\\overrightarrow{BD}\\right]\\right|} = \\dfrac{a^3}{a^2\\sqrt6} = \\dfrac{a\\sqrt6}{6}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – khối tròn xoay",
+   "level": 1,
+   "stem": "Một hình trụ có thiết diện qua trục là hình vuông cạnh $4$ cm. Thể tích khối trụ đó bằng",
+   "options": [
+    "$8\\pi$ cm³",
+    "$32\\pi$ cm³",
+    "$64\\pi$ cm³",
+    "$16\\pi$ cm³"
+   ],
+   "answer": 3,
+   "explanation": "Bán kính đáy $r = 2$, chiều cao $h = 4$. $V = \\pi r^2 h = 16\\pi$ (cm³)."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tọa độ Oxyz",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, cho $A(1;\\,0;\\,2)$ và $B(3;\\,-1;\\,4)$. Tính độ dài đoạn thẳng $AB$.",
+   "answer_text": "3",
+   "explanation": "$\\overrightarrow{AB} = (2;\\,-1;\\,2)$, $AB = \\sqrt{4 + 1 + 4} = 3$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – mặt phẳng",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt phẳng đi qua ba điểm $A(1;\\,0;\\,0)$, $B(0;\\,2;\\,0)$, $C(0;\\,0;\\,3)$ có phương trình là",
+   "options": [
+    "$3x + 2y + 6z - 6 = 0$",
+    "$x + 2y + 3z - 1 = 0$",
+    "$6x + 3y + 2z - 6 = 0$",
+    "$6x + 3y + 2z + 6 = 0$"
+   ],
+   "answer": 2,
+   "explanation": "Phương trình đoạn chắn: $\\dfrac{x}{1} + \\dfrac{y}{2} + \\dfrac{z}{3} = 1 \\Leftrightarrow 6x + 3y + 2z - 6 = 0$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – đường thẳng",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, đường thẳng đi qua $A(1;\\,2;\\,-1)$ và vuông góc với mặt phẳng $(P): 2x - y + z - 3 = 0$ có phương trình là",
+   "options": [
+    "$\\dfrac{x + 1}{2} = \\dfrac{y + 2}{-1} = \\dfrac{z - 1}{1}$",
+    "$\\dfrac{x - 1}{2} = \\dfrac{y - 2}{-1} = \\dfrac{z + 1}{1}$",
+    "$\\dfrac{x - 1}{2} = \\dfrac{y - 2}{1} = \\dfrac{z + 1}{1}$",
+    "$\\dfrac{x - 2}{1} = \\dfrac{y + 1}{2} = \\dfrac{z - 1}{-1}$"
+   ],
+   "answer": 1,
+   "explanation": "Vectơ chỉ phương của đường thẳng là vectơ pháp tuyến của $(P)$: $\\vec u = (2;\\,-1;\\,1)$, đi qua $A(1;\\,2;\\,-1)$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – hình chiếu",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $M(3;\\,1;\\,-2)$ lên mặt phẳng $(P): x + y + z - 5 = 0$ là điểm",
+   "options": [
+    "$H(4;\\,2;\\,-1)$",
+    "$H(5;\\,3;\\,-3)$",
+    "$H(3;\\,1;\\,1)$",
+    "$H(2;\\,0;\\,-3)$"
+   ],
+   "answer": 0,
+   "explanation": "Đường thẳng qua $M$ vuông góc $(P)$: $(3 + t;\\,1 + t;\\,-2 + t)$. Thay vào $(P)$: $3t - 3 = 0 \\Rightarrow t = 1$, $H(4;\\,2;\\,-1)$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – mặt cầu",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt cầu $(S): x^2 + y^2 + z^2 - 2x + 4y - 6z - 2 = 0$ có tâm $I$ và bán kính $R$ là",
+   "options": [
+    "$I(1;\\,-2;\\,3)$, $R = 4$",
+    "$I(1;\\,-2;\\,3)$, $R = 16$",
+    "$I(-1;\\,2;\\,-3)$, $R = 4$",
+    "$I(1;\\,-2;\\,3)$, $R = \\sqrt{14}$"
+   ],
+   "answer": 0,
+   "explanation": "$(x - 1)^2 + (y + 2)^2 + (z - 3)^2 = 1 + 4 + 9 + 2 = 16$. Tâm $I(1;\\,-2;\\,3)$, $R = 4$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – góc",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, góc giữa hai mặt phẳng $(P): x + y - 1 = 0$ và $(Q): y + z + 2 = 0$ bằng",
+   "options": [
+    "$30^\\circ$",
+    "$90^\\circ$",
+    "$60^\\circ$",
+    "$45^\\circ$"
+   ],
+   "answer": 2,
+   "explanation": "$\\cos\\varphi = \\dfrac{|1\\cdot0 + 1\\cdot1 + 0\\cdot1|}{\\sqrt2\\cdot\\sqrt2} = \\dfrac12 \\Rightarrow \\varphi = 60^\\circ$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tổ hợp",
+   "level": 1,
+   "stem": "Lớp 12B có $30$ học sinh. Số cách chọn ra một lớp trưởng, một lớp phó và một bí thư (không kiêm nhiệm) là",
+   "options": [
+    "$90$",
+    "$4060$",
+    "$27000$",
+    "$24360$"
+   ],
+   "answer": 3,
+   "explanation": "Số cách chọn là $A_{30}^3 = 30\\cdot29\\cdot28 = 24360$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Quy tắc đếm",
+   "level": 2,
+   "stem": "Có bao nhiêu cách xếp $5$ bạn An, Bình, Chi, Dũng, Em thành một hàng ngang sao cho An và Bình đứng cạnh nhau?",
+   "answer_text": "48",
+   "explanation": "Coi An – Bình là một khối: xếp $4$ phần tử có $4! = 24$ cách, trong khối đổi chỗ $2$ cách. Tổng $48$ cách."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất",
+   "level": 1,
+   "stem": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Xác suất để tổng số chấm xuất hiện bằng $7$ là",
+   "options": [
+    "$\\dfrac{7}{36}$",
+    "$\\dfrac16$",
+    "$\\dfrac{5}{36}$",
+    "$\\dfrac1{12}$"
+   ],
+   "answer": 1,
+   "explanation": "Các kết quả thuận lợi: $(1;6),(2;5),(3;4),(4;3),(5;2),(6;1)$ — có $6$ trên $36$ kết quả. $P = \\dfrac16$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Xác suất – công thức Bayes",
+   "level": 3,
+   "stem": "Một nhà máy có hai dây chuyền: dây chuyền I làm ra $60\\%$ sản phẩm với tỉ lệ lỗi $2\\%$; dây chuyền II làm ra $40\\%$ sản phẩm với tỉ lệ lỗi $4\\%$. Chọn ngẫu nhiên một sản phẩm thì thấy bị lỗi. Xác suất sản phẩm đó do dây chuyền I làm ra là bao nhiêu? (Điền số, làm tròn đến hàng phần trăm)",
+   "answer_text": "0,43",
+   "explanation": "$P(L) = 0{,}6\\cdot0{,}02 + 0{,}4\\cdot0{,}04 = 0{,}028$. $P(I\\,|\\,L) = \\dfrac{0{,}012}{0{,}028} = \\dfrac37 \\approx 0{,}43$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất",
+   "level": 3,
+   "stem": "Một nhóm có $6$ nam và $4$ nữ. Chọn ngẫu nhiên $4$ người. Xác suất để trong $4$ người được chọn có đúng $2$ nữ là",
+   "options": [
+    "$\\dfrac{1}{7}$",
+    "$\\dfrac{4}{7}$",
+    "$\\dfrac37$",
+    "$\\dfrac27$"
+   ],
+   "answer": 2,
+   "explanation": "$P = \\dfrac{C_6^2\\cdot C_4^2}{C_{10}^4} = \\dfrac{15\\cdot6}{210} = \\dfrac37$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Cấp số nhân",
+   "level": 3,
+   "stem": "Cho cấp số nhân $(u_n)$ có $u_2 = 6$ và $u_5 = 162$. Tính tổng $5$ số hạng đầu tiên của cấp số nhân đó.",
+   "answer_text": "242",
+   "explanation": "$q^3 = \\dfrac{u_5}{u_2} = 27 \\Rightarrow q = 3$, $u_1 = 2$. $S_5 = 2\\cdot\\dfrac{3^5 - 1}{3 - 1} = 242$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Cấp số cộng – ứng dụng",
+   "level": 2,
+   "stem": "Một khán phòng có $20$ hàng ghế. Hàng thứ nhất có $15$ ghế, mỗi hàng sau nhiều hơn hàng liền trước $2$ ghế. Khán phòng có tất cả bao nhiêu ghế?",
+   "answer_text": "680",
+   "explanation": "Số ghế các hàng lập thành cấp số cộng $u_1 = 15$, $d = 2$. $S_{20} = \\dfrac{20(2\\cdot15 + 19\\cdot2)}{2} = 680$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lượng giác – phương trình",
+   "level": 1,
+   "stem": "Nghiệm của phương trình $2\\cos x - 1 = 0$ là",
+   "options": [
+    "$x = \\pm\\dfrac{2\\pi}{3} + k2\\pi,\\ k \\in \\mathbb{Z}$",
+    "$x = \\pm\\dfrac{\\pi}{6} + k2\\pi,\\ k \\in \\mathbb{Z}$",
+    "$x = \\dfrac{\\pi}{3} + k\\pi,\\ k \\in \\mathbb{Z}$",
+    "$x = \\pm\\dfrac{\\pi}{3} + k2\\pi,\\ k \\in \\mathbb{Z}$"
+   ],
+   "answer": 3,
+   "explanation": "$\\cos x = \\dfrac12 = \\cos\\dfrac{\\pi}{3} \\Leftrightarrow x = \\pm\\dfrac{\\pi}{3} + k2\\pi$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lượng giác – giá trị biểu thức",
+   "level": 2,
+   "stem": "Cho $\\tan\\alpha = 2$. Giá trị của biểu thức $P = \\dfrac{\\sin\\alpha + \\cos\\alpha}{\\sin\\alpha - \\cos\\alpha}$ là",
+   "options": [
+    "$3$",
+    "$-3$",
+    "$\\dfrac13$",
+    "$1$"
+   ],
+   "answer": 0,
+   "explanation": "Chia tử và mẫu cho $\\cos\\alpha \\ne 0$: $P = \\dfrac{\\tan\\alpha + 1}{\\tan\\alpha - 1} = \\dfrac{3}{1} = 3$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Lượng giác – ứng dụng",
+   "level": 3,
+   "stem": "Độ sâu mực nước tại một cảng biển (tính bằng mét) sau $t$ giờ kể từ $0$ giờ được mô hình hóa bởi $h(t) = 12 + 3\\cos\\left(\\dfrac{\\pi t}{6}\\right)$. Sau $0$ giờ, thời điểm sớm nhất (tính bằng giờ) mực nước sâu $10{,}5$ m là bao nhiêu?",
+   "answer_text": "4",
+   "explanation": "$12 + 3\\cos\\dfrac{\\pi t}{6} = 10{,}5 \\Leftrightarrow \\cos\\dfrac{\\pi t}{6} = -\\dfrac12$. Giá trị dương nhỏ nhất: $\\dfrac{\\pi t}{6} = \\dfrac{2\\pi}{3} \\Rightarrow t = 4$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Giới hạn hàm số",
+   "level": 1,
+   "stem": "Giá trị của $\\lim\\limits_{x \\to 2}\\dfrac{x^2 - 4}{x - 2}$ bằng",
+   "options": [
+    "$+\\infty$",
+    "$4$",
+    "$2$",
+    "$0$"
+   ],
+   "answer": 1,
+   "explanation": "$\\dfrac{x^2 - 4}{x - 2} = x + 2 \\to 4$ khi $x \\to 2$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Bất phương trình bậc hai",
+   "level": 2,
+   "stem": "Bất phương trình $2x^2 - 9x + 4 < 0$ có bao nhiêu nghiệm nguyên?",
+   "answer_text": "3",
+   "explanation": "$2x^2 - 9x + 4 < 0 \\Leftrightarrow \\dfrac12 < x < 4$. Nghiệm nguyên: $1;\\,2;\\,3$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Xử lý số liệu – tính toán",
+   "level": 1,
+   "stem": "Năng suất lúa của tỉnh X năm 2023 là bao nhiêu tấn/ha?",
+   "answer_text": "6,3",
+   "explanation": "$\\dfrac{289{,}8}{46} = 6{,}3$ (tấn/ha)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Xử lý số liệu – tỉ lệ giảm",
+   "level": 1,
+   "stem": "So với năm 2019, diện tích gieo trồng lúa năm 2023 của tỉnh X giảm",
+   "options": [
+    "$4\\%$",
+    "$8\\%$",
+    "$9{,}2\\%$",
+    "$8{,}7\\%$"
+   ],
+   "answer": 1,
+   "explanation": "$\\dfrac{50 - 46}{50}\\cdot100\\% = 8\\%$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Xử lý số liệu – trung bình",
+   "level": 2,
+   "stem": "Sản lượng lúa trung bình mỗi năm của tỉnh X trong giai đoạn 2019 – 2023 là bao nhiêu nghìn tấn?",
+   "answer_text": "289,68",
+   "explanation": "$\\dfrac{290 + 283{,}2 + 294 + 291{,}4 + 289{,}8}{5} = \\dfrac{1448{,}4}{5} = 289{,}68$ (nghìn tấn)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Xử lý số liệu – tốc độ tăng",
+   "level": 2,
+   "stem": "Năng suất lúa năm 2023 của tỉnh X tăng khoảng bao nhiêu phần trăm so với năm 2019?",
+   "options": [
+    "$0{,}5\\%$",
+    "$5{,}0\\%$",
+    "$7{,}9\\%$",
+    "$8{,}6\\%$"
+   ],
+   "answer": 3,
+   "explanation": "Năng suất 2019: $\\dfrac{290}{50} = 5{,}8$; năm 2023: $6{,}3$ (tấn/ha). Mức tăng $\\dfrac{6{,}3 - 5{,}8}{5{,}8}\\cdot100\\% \\approx 8{,}6\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Xử lý số liệu – nhận xét",
+   "level": 3,
+   "stem": "Nhận xét nào sau đây đúng về tình hình sản xuất lúa của tỉnh X giai đoạn 2019 – 2023?",
+   "options": [
+    "Năng suất lúa tăng liên tục qua các năm.",
+    "Sản lượng lúa tăng liên tục qua các năm.",
+    "Diện tích gieo trồng giảm liên tục qua các năm.",
+    "Sản lượng lúa năm 2023 cao nhất giai đoạn."
+   ],
+   "answer": 0,
+   "explanation": "Năng suất các năm lần lượt $5{,}8;\\ 5{,}9;\\ 6{,}0;\\ 6{,}2;\\ 6{,}3$ (tấn/ha): tăng liên tục. Sản lượng giảm năm 2020, 2022, 2023; diện tích tăng năm 2021; sản lượng cao nhất là năm 2021."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Xử lý số liệu – biểu đồ tròn",
+   "level": 1,
+   "stem": "Số tiền gia đình anh Nam dành cho Giáo dục trong tháng đó là",
+   "options": [
+    "$2$ triệu đồng",
+    "$1{,}5$ triệu đồng",
+    "$3$ triệu đồng",
+    "$15$ triệu đồng"
+   ],
+   "answer": 2,
+   "explanation": "$20\\cdot15\\% = 3$ (triệu đồng)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Xử lý số liệu – biểu đồ tròn",
+   "level": 2,
+   "stem": "Số tiền chi cho Ăn uống nhiều hơn số tiền chi cho Đi lại bao nhiêu?",
+   "options": [
+    "$5$ triệu đồng",
+    "$25$ triệu đồng",
+    "$7$ triệu đồng",
+    "$2{,}5$ triệu đồng"
+   ],
+   "answer": 0,
+   "explanation": "$20\\cdot(35\\% - 10\\%) = 5$ (triệu đồng)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Xử lý số liệu – biểu đồ tròn",
+   "level": 2,
+   "stem": "Trên biểu đồ tròn, hình quạt biểu diễn khoản Nhà ở có góc ở tâm bằng",
+   "options": [
+    "$20^\\circ$",
+    "$36^\\circ$",
+    "$60^\\circ$",
+    "$72^\\circ$"
+   ],
+   "answer": 3,
+   "explanation": "$360^\\circ\\cdot20\\% = 72^\\circ$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Xử lý số liệu – tính toán",
+   "level": 1,
+   "stem": "Nếu mỗi tháng gia đình anh Nam đều tiết kiệm đúng số tiền như tháng trên thì sau $12$ tháng tiết kiệm được bao nhiêu triệu đồng?",
+   "answer_text": "28,8",
+   "explanation": "Mỗi tháng tiết kiệm $20\\cdot12\\% = 2{,}4$ triệu đồng; sau 12 tháng: $2{,}4\\cdot12 = 28{,}8$ (triệu đồng)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Xử lý số liệu – tỉ trọng",
+   "level": 3,
+   "stem": "Tháng tiếp theo, tổng chi tiêu của gia đình tăng $10\\%$ nhưng số tiền chi cho Ăn uống không đổi. Tỉ trọng chi cho Ăn uống trong tháng tiếp theo xấp xỉ",
+   "options": [
+    "$35{,}0\\%$",
+    "$25{,}0\\%$",
+    "$31{,}8\\%$",
+    "$38{,}5\\%$"
+   ],
+   "answer": 2,
+   "explanation": "Tiền ăn uống $7$ triệu, tổng chi mới $22$ triệu. Tỉ trọng $\\dfrac{7}{22}\\approx 31{,}8\\%$."
+  }
+ ],
+ "self_check": "Mọi đáp án được tính lại bằng Python/sympy (đạo hàm, tích phân, giải pt/bpt, liệt kê hoán vị/xúc xắc, thể tích và khoảng cách bằng tọa độ, số liệu bảng và biểu đồ tròn); kiểm định dạng bằng dgnl-check.mjs."
+}

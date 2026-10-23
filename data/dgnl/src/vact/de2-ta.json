@@ -1,0 +1,441 @@
+{
+ "exam": "vact",
+ "part": "ta",
+ "set": "de2",
+ "passages": {
+  "p1": "In the past, scientific research was carried out almost entirely by professionals working in universities and laboratories. Today, however, ordinary people are increasingly taking part in real scientific projects. This movement is known as citizen science.\nCitizen science projects take many forms. Volunteers may count birds in their gardens, photograph insects, measure rainfall, or report the date on which certain flowers first bloom each spring. Others take part from home, using their computers to classify images of distant galaxies or to identify animals caught on hidden cameras. The tasks are usually simple, but when thousands of people contribute, they can produce huge amounts of data that a small research team could never collect on its own.\nThis information has proved valuable in many fields. Records kept by volunteers over many years, for example, can help scientists understand how the areas where plants and animals live are shifting as the climate changes. In astronomy, members of the public have spotted unusual objects that computer programs had missed.\nOf course, there are concerns. Some researchers worry that data gathered by non-experts may contain mistakes. To deal with this problem, projects often provide training, ask several volunteers to check the same item, or compare their results with measurements made by professionals. When these steps are taken, the quality of citizen science data is often surprisingly high.\nThe benefits are not only scientific. People who take part frequently report that they have learnt a great deal and that they now pay more attention to the natural world around them. In this way, citizen science does more than produce data: it helps to build a society that understands and values science.",
+  "p2": "On a hot summer afternoon, the centre of a large city can feel noticeably warmer than the surrounding countryside. This effect is known as the urban heat island, and it is becoming an important concern as cities continue to grow.\nSeveral factors cause it. Materials such as concrete, asphalt and brick absorb heat from the sun during the day and release it slowly at night, so city streets often stay warm long after sunset. Tall buildings can block the wind, which would otherwise carry heat away. In addition, cars, factories and air-conditioners all produce heat of their own. Meanwhile, cities usually have far fewer trees and green spaces than rural areas. Plants cool the air by providing shade and by releasing water vapour through their leaves, so when they are removed, an important natural cooling system disappears.\nThe consequences can be serious. Higher temperatures increase the demand for air-conditioning, which raises energy consumption and, in turn, can add to air pollution. During heatwaves, older people and those with health problems are especially at risk, and warm nights make it harder for everyone to sleep well.\nFortunately, city planners have a number of tools to reduce the problem. Planting trees along streets and creating parks are among the most effective. Some cities encourage \"green roofs\", which are covered with plants, while others paint roofs and pavements in light colours that reflect sunlight instead of absorbing it. Although none of these measures can remove the heat island completely, together they can make cities more comfortable and healthier places to live."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Thì động từ",
+   "level": 1,
+   "stem": "My brother ______ in Ha Noi since he graduated from university.",
+   "options": [
+    "lives",
+    "has lived",
+    "lived",
+    "is living"
+   ],
+   "answer": 1,
+   "explanation": "Có \"since + mốc thời gian\" → hành động bắt đầu trong quá khứ và kéo dài đến hiện tại → hiện tại hoàn thành: has lived."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mệnh đề quan hệ",
+   "level": 1,
+   "stem": "This is the village ______ my grandparents grew up.",
+   "options": [
+    "which",
+    "that",
+    "where",
+    "whose"
+   ],
+   "answer": 2,
+   "explanation": "Thay cho trạng ngữ nơi chốn (grew up in the village) → where (= in which). Dùng which/that thì phải có giới từ \"in\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu bị động",
+   "level": 2,
+   "stem": "All mobile phones must ______ off before the exam begins.",
+   "options": [
+    "switch",
+    "be switching",
+    "have switched",
+    "be switched"
+   ],
+   "answer": 3,
+   "explanation": "Điện thoại \"bị tắt\" → bị động với động từ khuyết thiếu: must + be + V3 → must be switched off."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu điều kiện",
+   "level": 2,
+   "stem": "If I ______ you, I would apologise to her immediately.",
+   "options": [
+    "were",
+    "am",
+    "had been",
+    "would be"
+   ],
+   "answer": 0,
+   "explanation": "Lời khuyên với câu điều kiện loại 2 (giả định trái hiện tại): If I were you, I would …"
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Liên từ – câu điều kiện",
+   "level": 3,
+   "stem": "You won't be allowed to enter the exam room ______ you show your student card.",
+   "options": [
+    "if",
+    "unless",
+    "provided that",
+    "as long as"
+   ],
+   "answer": 1,
+   "explanation": "Nghĩa: sẽ không được vào trừ khi xuất trình thẻ → unless (= if … not). Dùng if/provided that/as long as thì câu thành \"sẽ không được vào nếu xuất trình thẻ\" – vô lí."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Collocation",
+   "level": 2,
+   "stem": "Our school has ______ great progress in reducing plastic waste this year.",
+   "options": [
+    "done",
+    "taken",
+    "made",
+    "got"
+   ],
+   "answer": 2,
+   "explanation": "Cụm cố định: make progress = tiến bộ, đạt tiến triển."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Cụm động từ",
+   "level": 2,
+   "stem": "It took Minh nearly two weeks to ______ the flu and return to school.",
+   "options": [
+    "get across",
+    "take after",
+    "give up",
+    "get over"
+   ],
+   "answer": 3,
+   "explanation": "get over = khỏi (bệnh), vượt qua. get across: truyền đạt; take after: giống (người thân); give up: từ bỏ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ loại",
+   "level": 1,
+   "stem": "She spoke so ______ about the project that everyone in the room was moved.",
+   "options": [
+    "passionately",
+    "passion",
+    "passionate",
+    "passionless"
+   ],
+   "answer": 0,
+   "explanation": "Bổ nghĩa cho động từ \"spoke\" cần trạng từ → passionately (một cách say mê)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ loại",
+   "level": 2,
+   "stem": "The ______ of the new metro line has greatly reduced traffic jams in the city centre.",
+   "options": [
+    "complete",
+    "completion",
+    "completely",
+    "completed"
+   ],
+   "answer": 1,
+   "explanation": "Sau \"the\" và trước \"of\" cần danh từ làm chủ ngữ → completion (sự hoàn thành)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng",
+   "level": 2,
+   "stem": "His explanation was so ______ that nobody could understand what he really meant.",
+   "options": [
+    "vivid",
+    "precise",
+    "vague",
+    "concise"
+   ],
+   "answer": 2,
+   "explanation": "Không ai hiểu → lời giải thích mơ hồ: vague. vivid: sinh động; precise: chính xác; concise: ngắn gọn – đều không dẫn tới \"không ai hiểu\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đảo ngữ",
+   "level": 3,
+   "stem": "Not until she read her father's letter ______ how much he had sacrificed for the family.",
+   "options": [
+    "she realised",
+    "she did realise",
+    "she had realised",
+    "did she realise"
+   ],
+   "answer": 3,
+   "explanation": "Cấu trúc Not until + mệnh đề/thời gian + trợ động từ + S + V (đảo ngữ ở mệnh đề chính): did she realise."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu ước",
+   "level": 3,
+   "stem": "I wish I ______ more attention in class last week; now I can't do the homework.",
+   "options": [
+    "had paid",
+    "paid",
+    "would pay",
+    "have paid"
+   ],
+   "answer": 0,
+   "explanation": "Ước điều trái với quá khứ (last week) → wish + S + had + V3: had paid."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 1,
+   "stem": "Choose the underlined part that needs correction: My sister (A) is interested (B) in (C) learn foreign languages (D) such as Korean and Japanese.",
+   "options": [
+    "A. is interested",
+    "B. in",
+    "C. learn foreign languages",
+    "D. such as"
+   ],
+   "answer": 2,
+   "explanation": "Sau giới từ \"in\" động từ phải ở dạng V-ing → learn → learning."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction: Each of the participants (A) were given a certificate (B) at the end of (C) the two-day (D) workshop.",
+   "options": [
+    "A. were given a certificate",
+    "B. at the end of",
+    "C. the two-day",
+    "D. workshop"
+   ],
+   "answer": 0,
+   "explanation": "\"Each of + N số nhiều\" là chủ ngữ số ít → were given → was given."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction: Although it rained heavily, the outdoor concert (A) was still (B) attended (C) by (D) a large numbers of fans.",
+   "options": [
+    "A. was still",
+    "B. attended",
+    "C. by",
+    "D. a large numbers of"
+   ],
+   "answer": 3,
+   "explanation": "Cụm đúng: a large number of + N số nhiều → a large numbers of → a large number of."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction: The new law (A) is intended to reduce (B) the amount of cars (C) entering (D) the city centre every day.",
+   "options": [
+    "A. is intended to reduce",
+    "B. the amount of cars",
+    "C. entering",
+    "D. the city centre"
+   ],
+   "answer": 1,
+   "explanation": "\"cars\" là danh từ đếm được số nhiều → dùng \"the number of\", không dùng \"the amount of\" (dành cho danh từ không đếm được)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 1,
+   "stem": "Choose the sentence that is closest in meaning to: \"This is the most interesting book I have ever read.\"",
+   "options": [
+    "I have ever read a more interesting book than this.",
+    "I have never read a more interesting book than this.",
+    "This book is not as interesting as the books I have read.",
+    "This is the first interesting book I have read."
+   ],
+   "answer": 1,
+   "explanation": "So sánh nhất + have ever + V3 = S + have never + V3 + a more … + than this (chưa từng đọc cuốn nào hay hơn)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to: \"People believe that the ancient temple was built in the 11th century.\"",
+   "options": [
+    "The ancient temple is believed to be built in the 11th century.",
+    "The ancient temple was believed to have built in the 11th century.",
+    "The ancient temple is believed to have been built in the 11th century.",
+    "The ancient temple is believed to build in the 11th century."
+   ],
+   "answer": 2,
+   "explanation": "Bị động khách quan: People believe (hiện tại) that S + was V3 (quá khứ, bị động) → S + is believed + to have been + V3."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to: \"He didn't study hard, so he failed the exam.\"",
+   "options": [
+    "If he studied hard, he wouldn't fail the exam.",
+    "Had he not studied hard, he would have failed the exam.",
+    "Unless he had studied hard, he wouldn't have failed the exam.",
+    "Had he studied hard, he wouldn't have failed the exam."
+   ],
+   "answer": 3,
+   "explanation": "Sự việc trái quá khứ → điều kiện loại 3, đảo ngữ: Had + S + V3, S + wouldn't have + V3. Phương án dùng \"Had he not …\" và \"Unless …\" làm sai nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hội thoại",
+   "level": 1,
+   "stem": "Tom: \"Can I borrow your dictionary for a moment?\" – Lan: \"______\"",
+   "options": [
+    "Sure, here you are.",
+    "Yes, you're welcome.",
+    "No, thanks.",
+    "I'm afraid I can."
+   ],
+   "answer": 0,
+   "explanation": "Đồng ý cho mượn và đưa đồ vật: \"Sure, here you are.\""
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hội thoại",
+   "level": 2,
+   "stem": "Hoa: \"I think students should wear uniforms at school.\" – Khang: \"______ They help everyone feel equal.\"",
+   "options": [
+    "I don't think so.",
+    "I couldn't agree more.",
+    "That's not true at all.",
+    "I'm not sure about that."
+   ],
+   "answer": 1,
+   "explanation": "Câu sau của Khang ủng hộ đồng phục → Khang hoàn toàn đồng ý: \"I couldn't agree more.\""
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "What is the main topic of the passage?",
+   "options": [
+    "The training programmes offered by universities",
+    "The difficulties of studying distant galaxies",
+    "The involvement of ordinary people in scientific research",
+    "The effect of climate change on birds"
+   ],
+   "answer": 2,
+   "explanation": "Cả bài nói về citizen science – người dân bình thường tham gia vào nghiên cứu khoa học: hình thức, giá trị, lo ngại và lợi ích."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Which of the following is mentioned as a citizen science activity?",
+   "options": [
+    "Designing hidden cameras for researchers",
+    "Writing articles for science journals",
+    "Teaching astronomy at universities",
+    "Classifying images of galaxies on a computer"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 2: \"using their computers to classify images of distant galaxies\"."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 1,
+   "stem": "The word \"they\" in paragraph 2 refers to",
+   "options": [
+    "thousands of people",
+    "distant galaxies",
+    "hidden cameras",
+    "a small research team"
+   ],
+   "answer": 0,
+   "explanation": "\"when thousands of people contribute, they can produce huge amounts of data\" → they = thousands of people."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 2,
+   "stem": "The word \"spotted\" in paragraph 3 is closest in meaning to",
+   "options": [
+    "marked",
+    "noticed",
+    "cleaned",
+    "created"
+   ],
+   "answer": 1,
+   "explanation": "spot = phát hiện, nhận ra ≈ notice. Ngữ cảnh: công chúng phát hiện những thiên thể lạ mà chương trình máy tính bỏ sót."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "It can be inferred from paragraph 4 that",
+   "options": [
+    "data from volunteers is always less reliable than professional data",
+    "professional scientists no longer need to check any measurements",
+    "the accuracy of volunteer data depends partly on how projects are organised",
+    "volunteers are not allowed to check each other's work"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 4: khi dự án có đào tạo, cho nhiều người cùng kiểm tra, đối chiếu với số liệu chuyên gia thì chất lượng dữ liệu thường cao → độ chính xác phụ thuộc cách tổ chức dự án."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to paragraph 2, why do city streets often stay warm after sunset?",
+   "options": [
+    "The wind brings warm air from the countryside.",
+    "Trees release heat at night.",
+    "Light-coloured roofs absorb sunlight.",
+    "Building materials release the heat they absorbed during the day."
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 2: bê tông, nhựa đường, gạch hấp thụ nhiệt ban ngày và \"release it slowly at night\"."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 2,
+   "stem": "The word \"consumption\" in paragraph 3 is closest in meaning to",
+   "options": [
+    "use",
+    "production",
+    "saving",
+    "price"
+   ],
+   "answer": 0,
+   "explanation": "energy consumption = mức tiêu thụ năng lượng → consumption ≈ use (sự sử dụng)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 2,
+   "stem": "Which of the following is NOT mentioned as a way to reduce the urban heat island effect?",
+   "options": [
+    "Planting trees along streets",
+    "Building more air-conditioned shopping centres",
+    "Covering roofs with plants",
+    "Painting roofs in light colours"
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 4 nêu: trồng cây, làm công viên, mái nhà xanh, sơn màu sáng. Điều hòa không khí được nhắc ở đoạn 3 như một nguyên nhân làm tăng tiêu thụ năng lượng, không phải giải pháp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "What can be inferred about the author's view of the measures mentioned in the last paragraph?",
+   "options": [
+    "They are too expensive to be worth trying.",
+    "They will make the urban heat island disappear.",
+    "They can reduce the problem but cannot remove it completely.",
+    "Only green roofs are truly effective."
+   ],
+   "answer": 2,
+   "explanation": "Đoạn cuối: \"none of these measures can remove the heat island completely, together they can make cities more comfortable\" → giảm được nhưng không loại bỏ hoàn toàn."
+  }
+ ],
+ "self_check": "Kiểm tra từng câu: một đáp án đúng duy nhất theo ngữ pháp chuẩn; câu tìm lỗi sai chỉ có một phần sai; câu đọc hiểu đối chiếu đúng đoạn; đếm số từ đoạn văn (250–350); chạy dgnl-check."
+}

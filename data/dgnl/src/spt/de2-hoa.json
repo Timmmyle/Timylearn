@@ -1,0 +1,408 @@
+{
+ "exam": "spt",
+ "part": "hoa",
+ "set": "de2",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Ester",
+   "level": 1,
+   "stem": "Công thức cấu tạo của ethyl acetate là",
+   "options": [
+    "HCOOC₂H₅",
+    "C₂H₅COOCH₃",
+    "CH₃COOC₂H₅",
+    "CH₃COOCH₃"
+   ],
+   "answer": 2,
+   "explanation": "Ethyl acetate tạo bởi acetic acid CH₃COOH và ethanol C₂H₅OH: CH₃COOC₂H₅."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lipid",
+   "level": 1,
+   "stem": "Chất béo là triester của glycerol với",
+   "options": [
+    "các amino acid",
+    "các acid béo",
+    "các alcohol đơn chức",
+    "các acid vô cơ"
+   ],
+   "answer": 1,
+   "explanation": "Theo định nghĩa, chất béo (triglyceride) là triester của glycerol với acid béo (acid monocarboxylic mạch dài, không phân nhánh, số C chẵn)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Carbohydrate",
+   "level": 1,
+   "stem": "Tinh bột thuộc loại carbohydrate nào sau đây?",
+   "options": [
+    "Monosaccharide",
+    "Disaccharide",
+    "Oligopeptide",
+    "Polysaccharide"
+   ],
+   "answer": 3,
+   "explanation": "Tinh bột gồm nhiều gốc α-glucose liên kết với nhau → polysaccharide."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Carbohydrate – saccharose",
+   "level": 2,
+   "stem": "Phát biểu nào sau đây về saccharose là đúng?",
+   "options": [
+    "Thủy phân trong môi trường acid thu được glucose và fructose.",
+    "Có phản ứng tráng bạc.",
+    "Có công thức phân tử C₆H₁₂O₆.",
+    "Rất ít tan trong nước."
+   ],
+   "answer": 0,
+   "explanation": "Saccharose C₁₂H₂₂O₁₁ là disaccharide tạo từ một gốc α-glucose và một gốc β-fructose, không có nhóm –CHO tự do nên không tráng bạc, tan tốt trong nước; thủy phân cho glucose và fructose."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Amine – tính base",
+   "level": 2,
+   "stem": "Dãy nào sau đây được sắp xếp theo chiều lực base tăng dần?",
+   "options": [
+    "Aniline, ammonia, methylamine",
+    "Methylamine, ammonia, aniline",
+    "Ammonia, aniline, methylamine",
+    "Aniline, methylamine, ammonia"
+   ],
+   "answer": 0,
+   "explanation": "Gốc phenyl hút electron làm giảm mật độ electron trên N (aniline yếu nhất); gốc methyl đẩy electron làm tăng tính base (methylamine mạnh hơn ammonia)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Protein",
+   "level": 1,
+   "stem": "Cho dung dịch lòng trắng trứng vào ống nghiệm chứa Cu(OH)₂ trong môi trường kiềm, xuất hiện màu",
+   "options": [
+    "vàng",
+    "xanh lam",
+    "tím",
+    "đỏ gạch"
+   ],
+   "answer": 2,
+   "explanation": "Phản ứng màu biuret: peptide (từ 2 liên kết peptide trở lên) và protein tạo phức màu tím với Cu(OH)₂ trong môi trường kiềm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Amino acid",
+   "level": 2,
+   "stem": "Dung dịch amino acid nào sau đây làm quỳ tím chuyển sang màu đỏ?",
+   "options": [
+    "Glycine",
+    "Alanine",
+    "Lysine",
+    "Glutamic acid"
+   ],
+   "answer": 3,
+   "explanation": "Glutamic acid có 2 nhóm –COOH và 1 nhóm –NH₂ nên dung dịch có môi trường acid. Glycine, alanine gần trung tính; lysine (2 nhóm –NH₂) làm quỳ hóa xanh."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tơ",
+   "level": 2,
+   "stem": "Tơ nào sau đây thuộc loại tơ bán tổng hợp (tơ nhân tạo)?",
+   "options": [
+    "Tơ nylon-6,6",
+    "Tơ visco",
+    "Tơ tằm",
+    "Tơ nitron"
+   ],
+   "answer": 1,
+   "explanation": "Tơ visco được chế biến từ polymer thiên nhiên (cellulose) bằng phương pháp hóa học → bán tổng hợp. Nylon-6,6 và nitron là tơ tổng hợp; tơ tằm là tơ thiên nhiên."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Dãy điện hóa",
+   "level": 2,
+   "stem": "Cho thế điện cực chuẩn (V): Zn²⁺/Zn: −0,763; Fe²⁺/Fe: −0,440; Cu²⁺/Cu: +0,340; Ag⁺/Ag: +0,799. Trong các ion Zn²⁺, Fe²⁺, Cu²⁺, Ag⁺, ion có tính oxi hóa mạnh nhất ở điều kiện chuẩn là",
+   "options": [
+    "Zn²⁺",
+    "Fe²⁺",
+    "Cu²⁺",
+    "Ag⁺"
+   ],
+   "answer": 3,
+   "explanation": "Thế điện cực chuẩn càng lớn thì dạng oxi hóa có tính oxi hóa càng mạnh → Ag⁺ (+0,799 V)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Điện phân",
+   "level": 3,
+   "stem": "Điện phân dung dịch NaCl bão hòa với điện cực trơ, có màng ngăn xốp. Các sản phẩm chính thu được là",
+   "options": [
+    "Na và Cl₂",
+    "NaClO và H₂",
+    "NaOH, H₂ và Cl₂",
+    "HCl, O₂ và Na"
+   ],
+   "answer": 2,
+   "explanation": "Cathode: 2H₂O + 2e → H₂ + 2OH⁻; anode: 2Cl⁻ → Cl₂ + 2e. Màng ngăn ngăn Cl₂ tiếp xúc với NaOH nên thu được NaOH, H₂, Cl₂ (không tạo nước Javel)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại – tính chất vật lí",
+   "level": 1,
+   "stem": "Kim loại nào sau đây dẫn điện tốt nhất?",
+   "options": [
+    "Ag",
+    "Cu",
+    "Au",
+    "Al"
+   ],
+   "answer": 0,
+   "explanation": "Thứ tự độ dẫn điện giảm dần: Ag > Cu > Au > Al > Fe."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Điều chế kim loại",
+   "level": 2,
+   "stem": "Kim loại nào sau đây thường được điều chế bằng phương pháp nhiệt luyện (dùng CO khử oxide ở nhiệt độ cao)?",
+   "options": [
+    "Na",
+    "Fe",
+    "Al",
+    "Mg"
+   ],
+   "answer": 1,
+   "explanation": "Nhiệt luyện dùng cho kim loại có tính khử trung bình và yếu như Fe, Zn, Cu…; Na, Mg, Al được điều chế bằng điện phân nóng chảy."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại nhóm IIA",
+   "level": 1,
+   "stem": "Thạch cao sống có công thức là",
+   "options": [
+    "CaSO₄",
+    "CaSO₄·0,5H₂O",
+    "CaCO₃",
+    "CaSO₄·2H₂O"
+   ],
+   "answer": 3,
+   "explanation": "Thạch cao sống CaSO₄·2H₂O; thạch cao nung CaSO₄·0,5H₂O (hoặc CaSO₄·H₂O); thạch cao khan CaSO₄."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ăn mòn điện hóa",
+   "level": 2,
+   "stem": "Khi để một vật bằng gang (hợp kim Fe–C) trong không khí ẩm, vật bị ăn mòn điện hóa. Quá trình xảy ra ở cực âm (anode) là",
+   "options": [
+    "Fe → Fe²⁺ + 2e",
+    "O₂ + 2H₂O + 4e → 4OH⁻",
+    "2H⁺ + 2e → H₂",
+    "C + O₂ → CO₂"
+   ],
+   "answer": 0,
+   "explanation": "Trong pin Fe–C, Fe (tính khử mạnh hơn) là anode và bị oxi hóa: Fe → Fe²⁺ + 2e; ở cathode (C) xảy ra sự khử O₂ hòa tan."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Phức chất",
+   "level": 2,
+   "stem": "Trong phức chất [Ag(NH₃)₂]⁺, phối tử và số phối trí của nguyên tử trung tâm lần lượt là",
+   "options": [
+    "Ag⁺ và 2",
+    "NH₃ và 2",
+    "NH₃ và 1",
+    "NH₃ và 3"
+   ],
+   "answer": 1,
+   "explanation": "Nguyên tử trung tâm là Ag⁺, liên kết với 2 phối tử NH₃ → số phối trí 2."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hợp chất hữu cơ – nhận biết",
+   "level": 3,
+   "stem": "Chất X có công thức phân tử C₂H₄O₂. X tác dụng được với dung dịch NaOH khi đun nóng và có phản ứng tráng bạc. Công thức cấu tạo của X là",
+   "options": [
+    "CH₃COOH",
+    "HOCH₂CHO",
+    "HCOOCH₃",
+    "HCOOH"
+   ],
+   "answer": 2,
+   "explanation": "X tráng bạc nên có nhóm –CHO hoặc là ester của formic acid; X phản ứng với NaOH → X là methyl formate HCOOCH₃. CH₃COOH không tráng bạc; HOCH₂CHO không phản ứng với NaOH; HCOOH không có công thức C₂H₄O₂."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ester – tính toán",
+   "level": 3,
+   "stem": "Xà phòng hóa hoàn toàn 8,8 gam ethyl acetate bằng 150 mL dung dịch NaOH 1 M. Cô cạn dung dịch sau phản ứng, thu được $m$ gam chất rắn khan. Giá trị của $m$ là",
+   "options": [
+    "8,2",
+    "9,6",
+    "10,2",
+    "12,3"
+   ],
+   "answer": 2,
+   "explanation": "$n_{\\text{ester}} = 0{,}1$ mol; $n_{\\mathrm{NaOH}} = 0{,}15$ mol → chất rắn gồm 0,1 mol CH₃COONa (8,2 g) và 0,05 mol NaOH dư (2 g) → $m = 10{,}2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại – tăng giảm khối lượng",
+   "level": 3,
+   "stem": "Cho $m$ gam bột Zn vào dung dịch CuSO₄ dư. Sau khi phản ứng xảy ra hoàn toàn, khối lượng chất rắn giảm 0,1 gam so với ban đầu. Giá trị của $m$ là",
+   "options": [
+    "0,65",
+    "3,25",
+    "6,50",
+    "13,00"
+   ],
+   "answer": 2,
+   "explanation": "Zn + Cu²⁺ → Zn²⁺ + Cu: 1 mol Zn phản ứng làm khối lượng rắn giảm 65 − 64 = 1 g → $n_{\\mathrm{Zn}} = 0{,}1$ mol → $m = 6{,}5$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Carbohydrate – tráng bạc",
+   "level": 2,
+   "stem": "Tiến hành thí nghiệm: Cho 1 mL dung dịch AgNO₃ 1% vào ống nghiệm sạch, nhỏ từ từ dung dịch NH₃ 5% đến khi kết tủa vừa tan hết. Thêm tiếp 1 mL dung dịch glucose 1%, lắc nhẹ rồi ngâm ống nghiệm trong cốc nước nóng khoảng 60–70 °C trong vài phút.",
+   "statements": [
+    {
+     "t": "Sau thí nghiệm, thành ống nghiệm xuất hiện lớp bạc sáng như gương.",
+     "a": true
+    },
+    {
+     "t": "Trong phản ứng, glucose đóng vai trò chất oxi hóa.",
+     "a": false
+    },
+    {
+     "t": "Nếu thay glucose bằng fructose thì hiện tượng quan sát được tương tự.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay glucose bằng saccharose thì cũng thu được lớp bạc tương tự.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: glucose bị oxi hóa (nhóm –CHO → –COO⁻), là chất khử. c) Đúng: trong môi trường kiềm (dung dịch NH₃) fructose chuyển hóa thành glucose nên cũng tráng bạc. d) Sai: saccharose không có nhóm –CHO tự do."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Điện phân",
+   "level": 3,
+   "stem": "Điện phân dung dịch CuSO₄ (dư) bằng điện cực trơ với dòng điện không đổi. Biết hằng số Faraday $F = 96\\,485$ C/mol, hiệu suất 100%.",
+   "statements": [
+    {
+     "t": "Ở cathode xảy ra quá trình: Cu²⁺ + 2e → Cu.",
+     "a": true
+    },
+    {
+     "t": "pH của dung dịch tăng dần trong quá trình điện phân.",
+     "a": false
+    },
+    {
+     "t": "Với cường độ dòng điện 5 A, sau 1 930 giây khối lượng Cu bám vào cathode xấp xỉ 3,2 gam.",
+     "a": true
+    },
+    {
+     "t": "Khí thoát ra ở anode là H₂.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: anode 2H₂O → O₂ + 4H⁺ + 4e nên dung dịch có H₂SO₄ sinh ra, pH giảm. c) Đúng: $n_e = 5 \\cdot 1930 : 96\\,485 \\approx 0{,}1$ mol → $n_{\\mathrm{Cu}} \\approx 0{,}05$ mol → $m \\approx 3{,}2$ g. d) Sai: khí ở anode là O₂."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Nước cứng",
+   "level": 3,
+   "stem": "Một mẫu nước giếng chứa các ion: Ca²⁺, Mg²⁺, HCO₃⁻, Cl⁻ và SO₄²⁻.",
+   "statements": [
+    {
+     "t": "Mẫu nước trên là nước cứng toàn phần (có cả tính cứng tạm thời và vĩnh cửu).",
+     "a": true
+    },
+    {
+     "t": "Đun sôi mẫu nước một thời gian thì loại bỏ được hoàn toàn tính cứng của mẫu nước.",
+     "a": false
+    },
+    {
+     "t": "Dùng dung dịch Na₃PO₄ có thể làm mềm mẫu nước trên.",
+     "a": true
+    },
+    {
+     "t": "Cho dung dịch HCl vào mẫu nước có thể làm mềm nước vì HCl phản ứng với HCO₃⁻.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: có HCO₃⁻ (cứng tạm thời) và Cl⁻, SO₄²⁻ (cứng vĩnh cửu). b) Sai: đun sôi chỉ loại phần Ca²⁺, Mg²⁺ đi kèm HCO₃⁻. c) Đúng: PO₄³⁻ kết tủa Ca²⁺, Mg²⁺. d) Sai: HCl không loại bỏ Ca²⁺, Mg²⁺ khỏi nước."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Tốc độ phản ứng",
+   "level": 3,
+   "stem": "Cho viên kẽm (Zn) vào dung dịch HCl, phản ứng: Zn + 2HCl → ZnCl₂ + H₂. Biết hệ số nhiệt độ Van't Hoff của phản ứng là $\\gamma = 2$.",
+   "statements": [
+    {
+     "t": "Thay viên kẽm bằng bột kẽm có cùng khối lượng thì tốc độ phản ứng tăng.",
+     "a": true
+    },
+    {
+     "t": "Dùng dung dịch HCl có nồng độ lớn hơn thì tốc độ phản ứng giảm.",
+     "a": false
+    },
+    {
+     "t": "Khi tăng nhiệt độ từ 25 °C lên 45 °C, tốc độ phản ứng tăng 4 lần.",
+     "a": true
+    },
+    {
+     "t": "Khi thu được 0,2479 L khí H₂ (đkc) thì khối lượng Zn đã phản ứng là 0,65 gam.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: tăng diện tích bề mặt tiếp xúc. b) Sai: tăng nồng độ làm tăng tốc độ. c) Đúng: $v_2/v_1 = 2^{(45-25)/10} = 4$. d) Đúng: $n_{\\mathrm{H_2}} = 0{,}01$ mol = $n_{\\mathrm{Zn}}$ → $m = 0{,}65$ g."
+  },
+  {
+   "qtype": "short",
+   "topic": "Phản ứng thủy phân",
+   "level": 2,
+   "stem": "Cho các chất: methyl acetate, tristearin, glucose, saccharose, Gly-Ala, cellulose. Có bao nhiêu chất bị thủy phân trong môi trường acid khi đun nóng?",
+   "answer_text": "5",
+   "explanation": "Bị thủy phân: methyl acetate, tristearin (ester), saccharose, cellulose (carbohydrate), Gly-Ala (peptide) → 5. Glucose là monosaccharide, không bị thủy phân."
+  },
+  {
+   "qtype": "short",
+   "topic": "Carbohydrate – tính toán",
+   "level": 2,
+   "stem": "Đun nóng dung dịch chứa 27 gam glucose với lượng dư dung dịch AgNO₃ trong NH₃. Biết phản ứng xảy ra hoàn toàn. Khối lượng Ag tối đa thu được là bao nhiêu gam?",
+   "answer_text": "32,4",
+   "explanation": "$n_{\\text{glucose}} = 27 : 180 = 0{,}15$ mol → $n_{\\mathrm{Ag}} = 0{,}3$ mol → $m = 32{,}4$ gam."
+  },
+  {
+   "qtype": "short",
+   "topic": "Peptide – tính toán",
+   "level": 3,
+   "stem": "Thủy phân hoàn toàn 0,1 mol tripeptide Gly-Ala-Gly trong dung dịch NaOH dư, đun nóng. Tổng khối lượng muối của amino acid thu được là bao nhiêu gam? (Glycine: M = 75; alanine: M = 89.)",
+   "answer_text": "30,5",
+   "explanation": "Thu được 0,2 mol H₂NCH₂COONa (M = 97) và 0,1 mol H₂NCH(CH₃)COONa (M = 111) → $m = 19{,}4 + 11{,}1 = 30{,}5$ gam."
+  },
+  {
+   "qtype": "short",
+   "topic": "Pin điện hóa",
+   "level": 2,
+   "stem": "Cho $E^\\circ_{\\mathrm{Al^{3+}/Al}} = -1{,}676$ V và $E^\\circ_{\\mathrm{Ag^{+}/Ag}} = +0{,}799$ V. Sức điện động chuẩn của pin điện hóa Al–Ag là bao nhiêu vôn?",
+   "answer_text": "2,475",
+   "explanation": "$E^\\circ_{\\text{pin}} = 0{,}799 - (-1{,}676) = 2{,}475$ V."
+  },
+  {
+   "qtype": "short",
+   "topic": "Enthalpy phản ứng",
+   "level": 3,
+   "stem": "Cho enthalpy tạo thành chuẩn (kJ/mol): CH₄(g): −74,9; CO₂(g): −393,5; H₂O(l): −285,8. Phản ứng đốt cháy: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). Đốt cháy hoàn toàn 2,479 L khí methane (đkc) thì lượng nhiệt tỏa ra là bao nhiêu kJ? (Làm tròn đến hàng đơn vị.)",
+   "answer_text": "89",
+   "explanation": "$\\Delta_r H^\\circ_{298} = -393{,}5 + 2(-285{,}8) - (-74{,}9) = -890{,}2$ kJ. $n_{\\mathrm{CH_4}} = 0{,}1$ mol → nhiệt tỏa ra $= 89{,}02 \\approx 89$ kJ."
+  },
+  {
+   "qtype": "short",
+   "topic": "Điều chế kim loại – nhiệt luyện",
+   "level": 3,
+   "stem": "Khử hoàn toàn 16 gam Fe₂O₃ bằng khí CO dư ở nhiệt độ cao. Dẫn toàn bộ khí sinh ra vào dung dịch Ca(OH)₂ dư, thu được $m$ gam kết tủa. Giá trị của $m$ là bao nhiêu?",
+   "answer_text": "30",
+   "explanation": "Fe₂O₃ + 3CO → 2Fe + 3CO₂. $n_{\\mathrm{Fe_2O_3}} = 0{,}1$ mol → $n_{\\mathrm{CO_2}} = 0{,}3$ mol → $n_{\\mathrm{CaCO_3}} = 0{,}3$ mol → $m = 30$."
+  }
+ ],
+ "self_check": "Kiểm bằng Python: khối lượng chất rắn sau xà phòng hóa ethyl acetate; tăng giảm khối lượng Zn–Cu; Cu điện phân (F = 96485); hệ số Van't Hoff; khối lượng Zn; Ag tráng bạc; muối từ Gly-Ala-Gly; E°pin Al–Ag; enthalpy đốt CH4; CaCO3 từ khử Fe2O3. Nguyên tử khối SGK, đkc 24,79 L/mol; soát chuỗi ký tự cấm."
+}

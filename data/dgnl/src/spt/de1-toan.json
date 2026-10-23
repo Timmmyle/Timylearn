@@ -1,0 +1,324 @@
+{
+ "exam": "spt",
+ "part": "toan",
+ "set": "de1",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – đơn điệu",
+   "level": 1,
+   "stem": "Hàm số $y=x^3-3x^2-9x+2$ nghịch biến trên khoảng nào dưới đây?",
+   "options": [
+    "$(-\\infty;-1)$",
+    "$(-1;3)$",
+    "$(3;+\\infty)$",
+    "$(-3;1)$"
+   ],
+   "answer": 1,
+   "explanation": "$y'=3x^2-6x-9=3(x+1)(x-3)<0\\Leftrightarrow -1<x<3$. Vậy hàm số nghịch biến trên $(-1;3)$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tiệm cận",
+   "level": 1,
+   "stem": "Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y=\\dfrac{2x^2-3x+1}{x^2-1}$ là",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "$y=\\dfrac{(2x-1)(x-1)}{(x-1)(x+1)}=\\dfrac{2x-1}{x+1}$ với $x\\ne 1$. Tại $x=1$ giới hạn hữu hạn ($\\tfrac12$) nên không có tiệm cận đứng $x=1$; chỉ có tiệm cận đứng $x=-1$ và tiệm cận ngang $y=2$. Tổng: 2."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – lôgarit",
+   "level": 1,
+   "stem": "Tập nghiệm của bất phương trình $\\log_2(x-1)+\\log_2(x+1)\\le 3$ là",
+   "options": [
+    "$(1;3]$",
+    "$[-3;3]$",
+    "$(-\\infty;3]$",
+    "$(1;3)$"
+   ],
+   "answer": 0,
+   "explanation": "Điều kiện $x>1$. Bất phương trình $\\Leftrightarrow \\log_2(x^2-1)\\le 3\\Leftrightarrow x^2-1\\le 8\\Leftrightarrow -3\\le x\\le 3$. Kết hợp điều kiện: $1<x\\le 3$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Tích phân $I=\\displaystyle\\int_0^{\\frac{\\pi}{2}} x\\cos x\\,dx$ bằng",
+   "options": [
+    "$\\dfrac{\\pi}{2}+1$",
+    "$1-\\dfrac{\\pi}{2}$",
+    "$\\dfrac{\\pi}{2}-1$",
+    "$\\dfrac{\\pi}{2}$"
+   ],
+   "answer": 2,
+   "explanation": "Từng phần: $u=x$, $dv=\\cos x\\,dx$ ⇒ $I=\\big[x\\sin x\\big]_0^{\\frac{\\pi}{2}}-\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\sin x\\,dx=\\dfrac{\\pi}{2}-1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ứng dụng tích phân – diện tích",
+   "level": 2,
+   "stem": "Diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x+3$ bằng",
+   "options": [
+    "$\\dfrac{32}{3}$",
+    "$\\dfrac{16}{3}$",
+    "$9$",
+    "$\\dfrac{34}{3}$"
+   ],
+   "answer": 0,
+   "explanation": "Hoành độ giao điểm: $x^2-2x-3=0\\Leftrightarrow x=-1$ hoặc $x=3$. $S=\\displaystyle\\int_{-1}^{3}(2x+3-x^2)\\,dx=\\dfrac{32}{3}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – mặt phẳng",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt phẳng đi qua $A(1;2;-1)$ và vuông góc với đường thẳng $d:\\dfrac{x-1}{2}=\\dfrac{y+1}{-1}=\\dfrac{z}{3}$ có phương trình là",
+   "options": [
+    "$2x-y+3z-3=0$",
+    "$x+2y-z-6=0$",
+    "$2x-y+3z+3=0$",
+    "$2x-y+3z+1=0$"
+   ],
+   "answer": 2,
+   "explanation": "Mặt phẳng nhận $\\vec u_d=(2;-1;3)$ làm vectơ pháp tuyến: $2(x-1)-(y-2)+3(z+1)=0\\Leftrightarrow 2x-y+3z+3=0$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – mặt cầu",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt cầu tâm $I(1;-2;3)$ tiếp xúc với mặt phẳng $(P):2x-y+2z+1=0$ có phương trình là",
+   "options": [
+    "$(x+1)^2+(y-2)^2+(z+3)^2=\\dfrac{121}{9}$",
+    "$(x-1)^2+(y+2)^2+(z-3)^2=\\dfrac{121}{9}$",
+    "$(x-1)^2+(y+2)^2+(z-3)^2=\\dfrac{11}{3}$",
+    "$(x-1)^2+(y+2)^2+(z-3)^2=\\dfrac{49}{9}$"
+   ],
+   "answer": 1,
+   "explanation": "$R=d(I,(P))=\\dfrac{|2+2+6+1|}{\\sqrt{4+1+4}}=\\dfrac{11}{3}$ nên $R^2=\\dfrac{121}{9}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – mẫu ghép nhóm",
+   "level": 2,
+   "stem": "Thời gian tự học mỗi ngày (phút) của 40 học sinh được ghi lại: $[0;10)$: 5 em; $[10;20)$: 12 em; $[20;30)$: 15 em; $[30;40)$: 8 em. Số trung bình của mẫu số liệu ghép nhóm này là",
+   "options": [
+    "$20$ phút",
+    "$22{,}5$ phút",
+    "$25$ phút",
+    "$21{,}5$ phút"
+   ],
+   "answer": 3,
+   "explanation": "Giá trị đại diện các nhóm: 5; 15; 25; 35. $\\bar x=\\dfrac{5\\cdot5+12\\cdot15+15\\cdot25+8\\cdot35}{40}=\\dfrac{860}{40}=21{,}5$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất có điều kiện",
+   "level": 2,
+   "stem": "Một hộp có 6 viên bi đỏ và 4 viên bi xanh. Lấy ngẫu nhiên lần lượt 2 viên bi, không hoàn lại. Biết viên bi lấy lần thứ hai màu đỏ, xác suất để viên bi lấy lần thứ nhất cũng màu đỏ là",
+   "options": [
+    "$\\dfrac{3}{5}$",
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{5}{9}$",
+    "$\\dfrac{2}{3}$"
+   ],
+   "answer": 2,
+   "explanation": "Gọi $A$: lần 1 đỏ, $B$: lần 2 đỏ. $P(AB)=\\dfrac{6}{10}\\cdot\\dfrac{5}{9}=\\dfrac13$; $P(B)=\\dfrac{6}{10}$ (do tính đối xứng). $P(A|B)=\\dfrac{1/3}{3/5}=\\dfrac59$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tham số",
+   "level": 3,
+   "stem": "Có bao nhiêu giá trị nguyên của tham số $m$ để hàm số $y=\\dfrac{mx+4}{x+m}$ nghịch biến trên khoảng $(-\\infty;1)$?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "answer": 0,
+   "explanation": "$y'=\\dfrac{m^2-4}{(x+m)^2}$. Cần $m^2-4<0\\Leftrightarrow -2<m<2$ và $-m\\notin(-\\infty;1)\\Leftrightarrow -m\\ge 1\\Leftrightarrow m\\le -1$. Vậy $-2<m\\le -1$, chỉ có $m=-1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – khoảng cách",
+   "level": 3,
+   "stem": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA$ vuông góc với đáy và $SA=a\\sqrt2$. Khoảng cách từ $A$ đến mặt phẳng $(SBD)$ bằng",
+   "options": [
+    "$\\dfrac{a\\sqrt{6}}{3}$",
+    "$\\dfrac{a\\sqrt{2}}{2}$",
+    "$\\dfrac{a\\sqrt{5}}{5}$",
+    "$\\dfrac{a\\sqrt{10}}{5}$"
+   ],
+   "answer": 3,
+   "explanation": "Gọi $O=AC\\cap BD$, $AO=\\dfrac{a\\sqrt2}{2}$, $BD\\perp(SAO)$. Kẻ $AH\\perp SO$ thì $AH=d(A,(SBD))$: $\\dfrac1{AH^2}=\\dfrac1{SA^2}+\\dfrac1{AO^2}=\\dfrac1{2a^2}+\\dfrac2{a^2}=\\dfrac5{2a^2}$ ⇒ $AH=\\dfrac{a\\sqrt{10}}5$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – bài toán thực tế",
+   "level": 3,
+   "stem": "Từ một tấm tôn hình vuông cạnh 60 cm, người ta cắt bỏ ở bốn góc bốn hình vuông bằng nhau cạnh $x$ (cm) rồi gập lại thành một cái hộp không nắp hình hộp chữ nhật. Thể tích lớn nhất của hộp là",
+   "options": [
+    "$18\\,000\\ \\text{cm}^3$",
+    "$16\\,000\\ \\text{cm}^3$",
+    "$16\\,200\\ \\text{cm}^3$",
+    "$13\\,500\\ \\text{cm}^3$"
+   ],
+   "answer": 1,
+   "explanation": "$V(x)=x(60-2x)^2$, $0<x<30$. $V'(x)=(60-2x)(60-6x)=0\\Rightarrow x=10$. $V_{\\max}=V(10)=10\\cdot 40^2=16\\,000\\ \\text{cm}^3$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số – khảo sát",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=x^3-3x+1$.",
+   "statements": [
+    {
+     "t": "$f'(x)=3x^2-3$.",
+     "a": true
+    },
+    {
+     "t": "Hàm số đạt cực đại tại $x=1$.",
+     "a": false
+    },
+    {
+     "t": "Giá trị lớn nhất của $f(x)$ trên đoạn $[0;2]$ bằng 3.",
+     "a": true
+    },
+    {
+     "t": "Có đúng 4 giá trị nguyên của $m$ để phương trình $f(x)=m$ có ba nghiệm thực phân biệt.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $f'$ đổi dấu từ âm sang dương tại $x=1$ nên $x=1$ là điểm cực tiểu ($f_{CT}=-1$), cực đại tại $x=-1$ ($f_{CĐ}=3$). c) Đúng: $f(0)=1$, $f(1)=-1$, $f(2)=3$. d) Sai: cần $-1<m<3$, có 3 giá trị nguyên $0;1;2$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Oxyz – tọa độ, mặt phẳng",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, cho ba điểm $A(1;0;2)$, $B(3;2;0)$, $C(0;1;1)$.",
+   "statements": [
+    {
+     "t": "$\\overrightarrow{AB}=(2;2;-2)$.",
+     "a": true
+    },
+    {
+     "t": "Tam giác $ABC$ vuông tại $A$.",
+     "a": false
+    },
+    {
+     "t": "Mặt phẳng $(ABC)$ có phương trình $y+z-2=0$.",
+     "a": true
+    },
+    {
+     "t": "Diện tích tam giác $ABC$ bằng $\\sqrt6$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $\\overrightarrow{AC}=(-1;1;-1)$, $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-2+2+2=2\\ne0$. c) Đúng: $[\\overrightarrow{AB},\\overrightarrow{AC}]=(0;4;4)$, mặt phẳng $4(y-0)+4(z-2)=0\\Leftrightarrow y+z-2=0$. d) Sai: $S=\\dfrac12\\sqrt{0+16+16}=2\\sqrt2$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Xác suất toàn phần – Bayes",
+   "level": 3,
+   "stem": "Ở một vùng, tỉ lệ người mắc bệnh $X$ là 2%. Một xét nghiệm cho kết quả dương tính với 95% người mắc bệnh và cho kết quả dương tính (nhầm) với 10% người không mắc bệnh. Chọn ngẫu nhiên một người ở vùng đó để xét nghiệm.",
+   "statements": [
+    {
+     "t": "Xác suất người đó có kết quả dương tính, biết người đó mắc bệnh, bằng $0{,}95$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất người đó có kết quả dương tính bằng $0{,}117$.",
+     "a": true
+    },
+    {
+     "t": "Nếu kết quả dương tính thì xác suất người đó thực sự mắc bệnh lớn hơn $0{,}5$.",
+     "a": false
+    },
+    {
+     "t": "Nếu kết quả âm tính thì xác suất người đó không mắc bệnh lớn hơn $0{,}99$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng (giả thiết). b) Đúng: $P(D)=0{,}02\\cdot0{,}95+0{,}98\\cdot0{,}1=0{,}117$. c) Sai: $P(B|D)=\\dfrac{0{,}019}{0{,}117}\\approx0{,}162$. d) Đúng: $P(\\bar B|\\bar D)=\\dfrac{0{,}98\\cdot0{,}9}{1-0{,}117}=\\dfrac{0{,}882}{0{,}883}\\approx0{,}9989$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Ứng dụng tích phân – chuyển động",
+   "level": 2,
+   "stem": "Một ô tô đang chạy với vận tốc 20 m/s thì người lái đạp phanh. Từ thời điểm đó, ô tô chuyển động chậm dần đều với vận tốc $v(t)=20-4t$ (m/s), trong đó $t$ (giây) là thời gian tính từ lúc đạp phanh.",
+   "statements": [
+    {
+     "t": "Ô tô dừng hẳn sau 5 giây kể từ lúc đạp phanh.",
+     "a": true
+    },
+    {
+     "t": "Từ lúc đạp phanh đến khi dừng hẳn, ô tô đi được 50 m.",
+     "a": true
+    },
+    {
+     "t": "Trong giây cuối cùng trước khi dừng, ô tô đi được 4 m.",
+     "a": false
+    },
+    {
+     "t": "Tốc độ trung bình của ô tô từ lúc đạp phanh đến khi dừng là 12 m/s.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $v=0\\Leftrightarrow t=5$. b) Đúng: $\\displaystyle\\int_0^5(20-4t)\\,dt=50$. c) Sai: $\\displaystyle\\int_4^5(20-4t)\\,dt=2$ m. d) Sai: $\\dfrac{50}{5}=10$ m/s."
+  },
+  {
+   "qtype": "short",
+   "topic": "Cấp số nhân",
+   "level": 1,
+   "stem": "Cho cấp số nhân $(u_n)$ có $u_1=3$ và công bội $q=2$. Tính tổng 8 số hạng đầu tiên của cấp số nhân đó.",
+   "answer_text": "765",
+   "explanation": "$S_8=u_1\\dfrac{q^8-1}{q-1}=3\\cdot(256-1)=765$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tổ hợp – đếm",
+   "level": 2,
+   "stem": "Từ các chữ số $0,1,2,3,4,5,6$ có thể lập được bao nhiêu số tự nhiên có bốn chữ số đôi một khác nhau và chia hết cho 5?",
+   "answer_text": "220",
+   "explanation": "Tận cùng 0: $6\\cdot5\\cdot4=120$ số. Tận cùng 5: chữ số đầu có 5 cách (khác 0 và 5), hai chữ số giữa $5\\cdot4$ ⇒ $100$ số. Tổng $220$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Oxyz – khoảng cách",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, cho hai đường thẳng $d_1:\\begin{cases}x=1+t\\\\y=2-t\\\\z=t\\end{cases}$ và $d_2:\\begin{cases}x=2s\\\\y=1+s\\\\z=3-s\\end{cases}$. Tính khoảng cách giữa $d_1$ và $d_2$ (làm tròn đến hàng phần trăm).",
+   "answer_text": "1,41",
+   "explanation": "$\\vec u_1=(1;-1;1)$, $\\vec u_2=(2;1;-1)$, $[\\vec u_1,\\vec u_2]=(0;3;3)$; $M_1(1;2;0)$, $M_2(0;1;3)$, $\\overrightarrow{M_1M_2}=(-1;-1;3)$. $d=\\dfrac{|0-3+9|}{\\sqrt{18}}=\\sqrt2\\approx1{,}41$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Đạo hàm – tối ưu thực tế",
+   "level": 3,
+   "stem": "Một cửa hàng nhập một loại sản phẩm với giá 30 nghìn đồng/sản phẩm. Nếu bán với giá 50 nghìn đồng/sản phẩm thì mỗi tháng bán được 400 sản phẩm; cứ tăng giá bán thêm 1 nghìn đồng thì mỗi tháng bán ít đi 5 sản phẩm. Để lợi nhuận mỗi tháng lớn nhất, cửa hàng nên bán với giá bao nhiêu nghìn đồng một sản phẩm?",
+   "answer_text": "80",
+   "explanation": "Tăng giá $x$ nghìn đồng: lợi nhuận $L(x)=(20+x)(400-5x)$. $L'(x)=300-10x=0\\Rightarrow x=30$ (cực đại). Giá bán $50+30=80$ nghìn đồng."
+  },
+  {
+   "qtype": "short",
+   "topic": "Xác suất cổ điển",
+   "level": 3,
+   "stem": "Chọn ngẫu nhiên 3 đỉnh trong 12 đỉnh của một đa giác đều 12 cạnh. Tính xác suất để 3 đỉnh được chọn tạo thành một tam giác vuông (làm tròn đến hàng phần trăm).",
+   "answer_text": "0,27",
+   "explanation": "$n(\\Omega)=C_{12}^3=220$. Tam giác nội tiếp vuông khi và chỉ khi có một cạnh là đường kính: có 6 đường kính, mỗi đường kính ghép với 10 đỉnh còn lại ⇒ 60 tam giác. $P=\\dfrac{60}{220}=\\dfrac{3}{11}\\approx0{,}27$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Ứng dụng tích phân – thể tích",
+   "level": 3,
+   "stem": "Tính thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x$ quanh trục $Ox$ (làm tròn đến hàng phần trăm).",
+   "answer_text": "13,40",
+   "explanation": "Giao điểm $x=0$, $x=2$; trên $[0;2]$ có $2x\\ge x^2\\ge0$. $V=\\pi\\displaystyle\\int_0^2\\big(4x^2-x^4\\big)dx=\\pi\\Big(\\dfrac{32}{3}-\\dfrac{32}{5}\\Big)=\\dfrac{64\\pi}{15}\\approx13{,}40$."
+  }
+ ],
+ "self_check": "Mọi đáp án tính toán được kiểm bằng Python/SymPy (đạo hàm, tích phân, giải PT/BPT, tọa độ Oxyz, liệt kê hoán vị cho câu đếm và xác suất có điều kiện, liệt kê tam giác vuông trong đa giác 12 đỉnh); đã chạy dgnl-check."
+}

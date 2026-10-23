@@ -1,4 +1,5 @@
 "use client";
+import Ctx from "./Ctx";
 import { MathText } from "@/components/MathText";
 import { QImage } from "@/components/QImage";
 import { useState } from "react";
@@ -36,6 +37,7 @@ export default function QuizView() {
         {q.ai && <span className="tag tag-ai">Câu hỏi AI</span>}
         {s.kind === "review" && <span className="tag tag-l3">Ôn lỗi sai</span>}
       </div>
+      <Ctx key={q.id} text={q.ctx} />
       <div className="qtext"><MathText text={q.q} /></div>
       <QImage src={q.img} alt="Hình minh họa đề bài" />
 

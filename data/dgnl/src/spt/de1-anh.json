@@ -1,0 +1,605 @@
+{
+ "exam": "spt",
+ "part": "anh",
+ "set": "de1",
+ "passages": {
+  "p1": "Read the following advertisement and choose the option that best fits each numbered blank.\n\nGREENFIELD SCIENCE WEEK\nHave you ever wondered what it would be like to (1) ______ a real laboratory experiment? This October, the Greenfield Science Centre is opening its doors to curious minds of all ages.\n• Hands-on workshops (2) ______ by university researchers\n• A robotics challenge for teams of three to five students\n• Evening talks on climate, space and artificial intelligence\nEntry is free, but places in the workshops are limited, so early registration is (3) ______. Visitors who register online before 15 October will also receive a guidebook (4) ______ detailed maps of every exhibition zone.\nDon't let this opportunity (5) ______ you by. Sign up today and let your curiosity take the lead!",
+  "p2": "Read the following leaflet and choose the option that best fits each numbered blank.\n\nSMART HABITS FOR LESS FOOD WASTE\nEvery year, a (1) ______ amount of edible food ends up in household bins. Small changes in the way we shop and cook can make a real difference.\n• Plan before you shop: Check what is already in your fridge and write a list. This simple step prevents you from buying things on (2) ______ that you will never use.\n• Store food wisely: Keep fruit and vegetables in the right place (3) ______ they stay fresh longer.\n• Love your leftovers: Instead of throwing away last night's dinner, turn it into a new meal. (4) ______ a little creativity, yesterday's rice can become today's fried rice.\n• Understand date labels: 'Best before' refers to quality, not safety, so food is often still fine to eat after this date. (5) ______, 'use by' dates should always be followed strictly.",
+  "p3": "Read the following passage and choose the option that best fits each numbered blank.\n\nThe idea of a four-day working week, once dismissed as unrealistic, has gained considerable attention in recent years. Supporters argue that (1) ______. In several trial programmes, companies reported that employees completed the same amount of work in fewer hours, largely because meetings became shorter and distractions were reduced.\nHowever, the model is not without its critics. Some managers worry that customers (2) ______, especially in industries that depend on constant availability. Others point out that compressing the same workload into four days can lead to longer and more exhausting shifts, (3) ______.\nMuch depends on how the change is introduced. Organisations (4) ______ tend to see the greatest benefits, whereas those that simply cut a day without rethinking their processes often struggle. Ultimately, the four-day week may work best not as a universal rule but as one option among many, (5) ______.",
+  "p4": "[I] Walk through almost any park or university campus and you are likely to notice narrow strips of bare earth cutting across the grass. [II] These informal trails, known as desire paths, are created not by planners but by the repeated footsteps of people taking the route they actually prefer. [III] Very often, that route is simply the shortest distance between two points, even if it means ignoring a carefully designed pavement. [IV]\nFor many years, the typical response of landscape managers was to fight these paths. Fences were put up, signs asked visitors to keep off the grass, and bare patches were reseeded. Such measures, however, rarely succeeded for long. As soon as the barriers were removed or ignored, walkers returned to their preferred line, and the path reappeared.\nSome designers have since come to see desire paths in a more positive light. Rather than treating them as acts of vandalism, they read them as honest feedback about how a space is really used. A few campuses have even delayed laying permanent walkways until the first months after opening, waiting to see where the grass wears thin before paving those routes.\nThe idea has spread beyond parks. In digital design, the term is sometimes used for the shortcuts users invent when software does not work the way they expect – for instance, emailing files to themselves because a sharing function is too complicated. Here, too, the lesson is the same: when people repeatedly go around a system, the problem may lie with the system rather than with the people.\nOf course, not every desire path should be paved. Some cross fragile habitats or create safety risks. But noticing them is a useful reminder that good design begins with observing behaviour, not merely with predicting it.",
+  "p5": "In many classrooms, the pen is steadily giving way to the keyboard. Students take notes on laptops, submit essays online and may go days without writing more than a signature by hand. To some, this shift is simply progress: typing is faster, easier to edit and produces text that anyone can read. Yet a number of researchers and teachers have begun to ask whether something valuable is being lost along the way.\nOne argument concerns note-taking. Because most people can type far more quickly than they can write, laptop users are able to record lectures almost word for word. This might seem like an advantage, but some studies suggest that it can encourage a kind of mechanical transcription in which information passes from ear to screen without being properly processed. Students writing by hand, unable to keep up with the speaker, are forced to select, summarise and rephrase – activities that may help them understand and remember the material.\nA second argument focuses on early learning. Forming letters by hand requires children to coordinate fine movements and to pay close attention to shape, and some researchers believe this process helps young learners recognise letters more readily when reading. Pressing a key, by contrast, produces a perfect letter with a single, identical movement, regardless of which letter is chosen.\nNone of this means that schools should abandon technology. Typing is an indispensable skill, and digital tools offer benefits that paper cannot match, from instant access to information to support for students with certain disabilities. The evidence on handwriting is also still developing, and not every study has reached the same conclusions. What the debate does suggest is that the choice between pen and keyboard is not merely a matter of convenience. Different tools may encourage different ways of thinking, and educators would be wise to consider which kind of thinking a particular task demands."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (1).",
+   "options": [
+    "take over",
+    "carry out",
+    "carry on",
+    "make up"
+   ],
+   "answer": 1,
+   "explanation": "Cụm cố định 'carry out an experiment' = tiến hành thí nghiệm. 'carry on' = tiếp tục, 'take over' = tiếp quản, 'make up' = bịa ra/ tạo thành – không hợp nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (2).",
+   "options": [
+    "led",
+    "leading",
+    "which led",
+    "to lead"
+   ],
+   "answer": 0,
+   "explanation": "Mệnh đề quan hệ rút gọn bị động: workshops (which are) led by university researchers – các buổi hội thảo do nhà nghiên cứu dẫn dắt (có 'by' chỉ tác nhân). 'leading' mang nghĩa chủ động, 'which led' sai thì và nghĩa, 'to lead' không hợp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (3).",
+   "options": [
+    "advisably",
+    "adviser",
+    "advisable",
+    "advisory"
+   ],
+   "answer": 2,
+   "explanation": "Sau 'is' cần tính từ làm vị ngữ: 'early registration is advisable' = nên đăng ký sớm. 'adviser' là danh từ chỉ người; 'advisory' (tư vấn) chỉ đứng trước danh từ (advisory board); 'advisably' là trạng từ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (4).",
+   "options": [
+    "contained",
+    "containing",
+    "contains",
+    "to contain"
+   ],
+   "answer": 1,
+   "explanation": "Rút gọn mệnh đề quan hệ chủ động: a guidebook (which contains) → containing detailed maps. 'contains' thiếu đại từ quan hệ; 'contained' mang nghĩa bị động; 'to contain' không dùng để rút gọn ở đây."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (5).",
+   "options": [
+    "to pass",
+    "passed",
+    "pass",
+    "passing"
+   ],
+   "answer": 2,
+   "explanation": "Cấu trúc let + O + V nguyên mẫu không 'to'; cụm 'let sth pass you by' = bỏ lỡ điều gì."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (1).",
+   "options": [
+    "plenty",
+    "numerous",
+    "considerable",
+    "several"
+   ],
+   "answer": 2,
+   "explanation": "'amount' đi với danh từ không đếm được, cần tính từ chỉ mức độ: 'a considerable amount' = một lượng đáng kể. 'numerous/ several' dùng cho danh từ đếm được số nhiều; 'plenty' không đứng sau 'a' trước danh từ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (2).",
+   "options": [
+    "impulse",
+    "purpose",
+    "average",
+    "demand"
+   ],
+   "answer": 0,
+   "explanation": "'buy on impulse' = mua theo cảm hứng nhất thời, đúng ý 'mua những thứ sẽ không dùng'. 'on purpose' (cố ý), 'on average' (trung bình), 'on demand' (theo yêu cầu) không hợp ngữ cảnh."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (3).",
+   "options": [
+    "in case",
+    "so that",
+    "in order to",
+    "so as to"
+   ],
+   "answer": 1,
+   "explanation": "Phía sau là mệnh đề (they stay fresh longer) chỉ mục đích → 'so that'. 'in order to/ so as to' + V nguyên mẫu; 'in case' = phòng khi, sai nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (4).",
+   "options": [
+    "Without",
+    "Despite",
+    "With",
+    "Unless"
+   ],
+   "answer": 2,
+   "explanation": "'With a little creativity' = chỉ cần một chút sáng tạo thì cơm hôm qua thành cơm rang. 'Without' ngược nghĩa; 'Despite' chỉ nhượng bộ; 'Unless' phải đi với mệnh đề."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (5).",
+   "options": [
+    "Moreover",
+    "For instance",
+    "By contrast",
+    "As a result"
+   ],
+   "answer": 2,
+   "explanation": "Câu trước: 'best before' chỉ chất lượng, quá hạn vẫn ăn được; câu sau: 'use by' phải tuân thủ nghiêm → quan hệ tương phản → 'By contrast'."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 1,
+   "stem": "Choose the correct arrangement of the following exchanges to make a meaningful conversation.\na. Hoa: Oh, I'm sorry to hear that. Have you tried contacting the shop?\nb. Nam: I ordered a pair of headphones online last week, but they arrived broken.\nc. Nam: Yes, but they insist that the damage happened after delivery.\nd. Hoa: In that case, you should check whether the courier took photos when dropping off the parcel.\ne. Nam: Good idea. If they did, I'll have proof that it was already damaged.",
+   "options": [
+    "a-b-c-e-d",
+    "b-c-a-d-e",
+    "b-a-d-c-e",
+    "b-a-c-d-e"
+   ],
+   "answer": 3,
+   "explanation": "Nam kể sự việc (b) → Hoa an ủi, hỏi đã liên hệ cửa hàng chưa (a) → Nam trả lời 'Yes, but…' (c) → Hoa gợi ý 'In that case…' (d) → Nam đồng ý (e)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful letter.\na. I am writing to apply for the volunteer coordinator position advertised on your website.\nb. In addition, my experience as head of the school's environment club has taught me how to motivate others.\nc. Over the past two years, I have organised several community clean-up campaigns involving more than a hundred participants.\nd. I would welcome the opportunity to discuss my application with you in person.\ne. I believe this combination of practical and leadership experience has prepared me well for the role.\nDear Ms Taylor,",
+   "options": [
+    "c-a-b-d-e",
+    "a-c-b-e-d",
+    "a-b-c-e-d",
+    "a-c-e-b-d"
+   ],
+   "answer": 1,
+   "explanation": "Mở thư nêu mục đích (a) → kinh nghiệm thứ nhất (c) → 'In addition' thêm kinh nghiệm lãnh đạo (b) → 'this combination of practical and leadership experience' tổng hợp cả c và b (e) → câu kết mong được phỏng vấn (d)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. In noisy urban areas, however, low-pitched songs are easily drowned out by the hum of traffic.\nb. Birds rely on song to attract mates and defend their territory.\nc. To be heard, some city birds appear to have adjusted by singing at a higher pitch or at quieter times of day.\nd. Whether such changes come at a cost to the birds remains an open question.\ne. In quiet forests, these songs can carry over long distances.",
+   "options": [
+    "b-a-e-c-d",
+    "b-e-c-a-d",
+    "e-b-a-c-d",
+    "b-e-a-c-d"
+   ],
+   "answer": 3,
+   "explanation": "Câu chủ đề (b) → 'these songs' trong rừng yên tĩnh (e) → 'however' tương phản: ở đô thị ồn ào (a) → chim thích nghi 'To be heard' (c) → 'such changes' – câu kết mở (d)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. Researchers argue that the key lies not in motivation but in the design of one's environment.\nb. Many people start the new year with ambitious plans to exercise more or read every day.\nc. For example, someone who places a book on their pillow each morning is far more likely to read before sleeping.\nd. Yet within a few weeks, most of these resolutions have quietly been abandoned.\ne. In other words, making a desired behaviour easy and visible matters more than sheer willpower.",
+   "options": [
+    "b-d-a-c-e",
+    "d-b-a-c-e",
+    "b-d-c-a-e",
+    "b-a-d-c-e"
+   ],
+   "answer": 0,
+   "explanation": "Kế hoạch đầu năm (b) → 'Yet… these resolutions' bị bỏ dở (d) → giải pháp: thiết kế môi trường (a) → ví dụ minh họa cho a (c) → 'In other words' tổng kết (e)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 1,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful email.\na. Thanks so much for your email and the photos from your trip to Da Lat – they look amazing!\nb. Anyway, I'd love to hear more about it when we meet up next weekend.\nc. I can't believe you managed to climb Langbiang in such terrible weather.\nd. I tried that hike myself last year, but I gave up halfway because of the rain.\ne. So you can imagine how impressed I am!\nHi Tom,",
+   "options": [
+    "a-c-e-d-b",
+    "a-c-d-e-b",
+    "a-d-c-e-b",
+    "c-a-d-e-b"
+   ],
+   "answer": 1,
+   "explanation": "Cảm ơn thư (a) → ngạc nhiên vì Tom leo Langbiang (c) → 'that hike' – bản thân từng bỏ cuộc (d) → 'So…' hệ quả: rất nể phục (e) → 'Anyway' chuyển sang kết thư (b)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (1).",
+   "options": [
+    "working fewer days can actually improve productivity and well-being",
+    "it is productivity that working fewer days can hardly affect",
+    "which working fewer days improves productivity and well-being",
+    "having worked fewer days, productivity being improved by employees"
+   ],
+   "answer": 0,
+   "explanation": "Sau 'argue that' cần một mệnh đề hoàn chỉnh, ý ủng hộ (supporters) và khớp câu sau (làm ít giờ vẫn đủ việc). Phương án 'having worked…' không có động từ chính; 'which…' sai cấu trúc; 'can hardly affect' trái ý người ủng hộ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (2).",
+   "options": [
+    "may leave the support on the fifth day",
+    "who may be left without support on the fifth day",
+    "may be left without support on the fifth day",
+    "leaving without support on the fifth day"
+   ],
+   "answer": 2,
+   "explanation": "'customers' là chủ ngữ của mệnh đề sau 'worry that', cần động từ chính: 'may be left without support' (bị bỏ lại không được hỗ trợ). 'leaving…' thiếu động từ chính; 'who…' biến thành mệnh đề quan hệ, câu thiếu vị ngữ; 'may leave the support' sai nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (3).",
+   "options": [
+    "that could cancel out the very benefits the policy was meant to bring",
+    "which the very benefits could cancel out the policy",
+    "could cancel out the very benefits the policy was meant to bring",
+    "which could cancel out the very benefits the policy was meant to bring"
+   ],
+   "answer": 3,
+   "explanation": "Sau dấu phẩy, mệnh đề quan hệ không xác định thay cho cả ý trước dùng 'which' (không dùng 'that'). Thiếu đại từ quan hệ → lỗi nối câu; phương án cuối sai trật tự, vô nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (4).",
+   "options": [
+    "whose workflows redesigning before reducing hours",
+    "redesigned their workflows before reducing hours",
+    "which they redesign their workflows before reducing hours",
+    "that redesign their workflows before reducing hours"
+   ],
+   "answer": 3,
+   "explanation": "Cần mệnh đề quan hệ bổ nghĩa 'Organisations' (động từ chính là 'tend'): 'that redesign their workflows…'; đối lập với 'those that simply cut a day'. 'redesigned…' (rút gọn bị động) sai nghĩa; 'which they…' thừa 'they'; 'whose workflows redesigning' thiếu động từ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (5).",
+   "options": [
+    "tailored to the needs of each sector and workforce",
+    "which tailored to the needs of each sector and workforce",
+    "tailoring the needs of each sector and workforce",
+    "is tailored to the needs of each sector and workforce"
+   ],
+   "answer": 0,
+   "explanation": "Cụm phân từ bị động bổ nghĩa 'one option': (which is) tailored to the needs… = được điều chỉnh cho phù hợp với nhu cầu. 'tailoring' mang nghĩa chủ động sai; 'which tailored' thiếu 'is'; 'is tailored' tạo động từ thứ hai không có liên từ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – đảo ngữ",
+   "level": 2,
+   "stem": "Hardly ______ the stage when the audience burst into applause.",
+   "options": [
+    "the singer had stepped onto",
+    "did the singer step onto",
+    "the singer stepped onto",
+    "had the singer stepped onto"
+   ],
+   "answer": 3,
+   "explanation": "Cấu trúc đảo ngữ: Hardly + had + S + V3 … when + S + V2 (vừa mới … thì …). Phải đảo trợ động từ 'had' lên trước chủ ngữ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng – collocation",
+   "level": 3,
+   "stem": "The new scholarship scheme was introduced to ______ the gap between rural and urban students.",
+   "options": [
+    "connect",
+    "bridge",
+    "link",
+    "join"
+   ],
+   "answer": 1,
+   "explanation": "Collocation 'bridge the gap (between A and B)' = thu hẹp khoảng cách. 'link/ join/ connect' không kết hợp với 'the gap' theo nghĩa này."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – câu điều kiện",
+   "level": 3,
+   "stem": "______ the heavy traffic, we would have arrived well before the ceremony started.",
+   "options": [
+    "But for",
+    "Because of",
+    "Unless",
+    "In spite of"
+   ],
+   "answer": 0,
+   "explanation": "'But for + N' = nếu không có (= If it hadn't been for), dùng với điều kiện loại 3 'would have arrived'. 'Because of' làm câu vô lý (vì kẹt xe mà đến sớm); 'In spite of' không đi với mệnh đề kết quả giả định; 'Unless' phải đi với mệnh đề."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng – thành ngữ",
+   "level": 3,
+   "stem": "Don't keep worrying about the mistakes in yesterday's test – it's no use crying over ______ milk.",
+   "options": [
+    "spilt",
+    "spilling",
+    "sour",
+    "spoiled"
+   ],
+   "answer": 0,
+   "explanation": "Thành ngữ 'It's no use crying over spilt milk' = chuyện đã rồi, tiếc nuối cũng vô ích."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – giả định",
+   "level": 2,
+   "stem": "It is essential that every participant ______ the safety instructions carefully before the climb.",
+   "options": [
+    "read",
+    "will read",
+    "has read",
+    "reads"
+   ],
+   "answer": 0,
+   "explanation": "Sau 'It is essential that…' dùng thể giả định: S + V nguyên mẫu (không chia theo ngôi) → 'read'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – vị trí câu",
+   "level": 2,
+   "stem": "Where in paragraph 1 does the following sentence best fit?\n'This preference for efficiency over appearance explains why so many desire paths form at corners.'",
+   "options": [
+    "[I]",
+    "[II]",
+    "[III]",
+    "[IV]"
+   ],
+   "answer": 3,
+   "explanation": "'This preference for efficiency' phải đứng sau câu nói lối tắt thường là đường ngắn nhất, kể cả bỏ qua vỉa hè (câu cuối đoạn 1) → vị trí [IV]. Ở [I], [II], [III] chưa có ý nào về 'efficiency' (đi đường ngắn nhất) để 'This preference' quy chiếu."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 1,
+   "stem": "The word 'fragile' in paragraph 5 is closest in meaning to ______.",
+   "options": [
+    "well protected",
+    "easily damaged",
+    "highly valuable",
+    "rarely visited"
+   ],
+   "answer": 1,
+   "explanation": "'fragile habitats' = môi trường sống mong manh, dễ bị tổn hại → 'easily damaged'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 1,
+   "stem": "The word 'they' in paragraph 3 ('they read them as honest feedback') refers to ______.",
+   "options": [
+    "some designers",
+    "acts of vandalism",
+    "landscape managers",
+    "desire paths"
+   ],
+   "answer": 0,
+   "explanation": "Câu trước: 'Some designers have since come to see desire paths…' → 'they' (người 'đọc' lối mòn như phản hồi) là các nhà thiết kế; 'them' mới là desire paths."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to paragraph 2, why did attempts to stop desire paths rarely succeed?",
+   "options": [
+    "Walkers went back to their preferred route once the barriers were removed or ignored.",
+    "Landscape managers could not afford to put up enough fences.",
+    "Visitors were not allowed to read the signs on the grass.",
+    "The grass that was reseeded never managed to grow back."
+   ],
+   "answer": 0,
+   "explanation": "Đoạn 2: 'As soon as the barriers were removed or ignored, walkers returned to their preferred line, and the path reappeared.'"
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Which of the following is given as an example of a 'desire path' in digital design?",
+   "options": [
+    "Paving walkways after watching where the grass wears thin",
+    "Asking users to read signs before using a program",
+    "Emailing files to oneself because the sharing function is too complicated",
+    "Designing software that predicts where users will click"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 4: 'for instance, emailing files to themselves because a sharing function is too complicated'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – diễn đạt lại",
+   "level": 3,
+   "stem": "Which of the following best paraphrases the sentence 'when people repeatedly go around a system, the problem may lie with the system rather than with the people' in paragraph 4?",
+   "options": [
+    "When a system has problems, people usually stop using it altogether.",
+    "If users keep avoiding the intended way of doing something, the design itself may be at fault.",
+    "People who refuse to follow a system should be taught to use it properly.",
+    "Systems are rarely to blame when people fail to use them correctly."
+   ],
+   "answer": 1,
+   "explanation": "Câu gốc: khi người dùng liên tục 'đi vòng' qua hệ thống thì lỗi có thể nằm ở hệ thống chứ không ở con người → phương án nói thiết kế có thể có lỗi. Các phương án khác đổ lỗi cho người dùng hoặc nói sai ý."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "Which of the following could be the best title for the passage?",
+   "options": [
+    "The History of University Campuses",
+    "How to Stop People Walking on the Grass",
+    "Desire Paths: What Shortcuts Reveal About Design",
+    "Why Digital Software Is Too Complicated"
+   ],
+   "answer": 2,
+   "explanation": "Bài nói về lối mòn tự phát, cách nhìn mới coi đó là phản hồi về thiết kế và mở rộng sang thiết kế số → 'What Shortcuts Reveal About Design'. Các phương án khác chỉ là chi tiết hoặc trái quan điểm."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 3,
+   "stem": "Which of the following could be the best title for the passage?",
+   "options": [
+    "Why Schools Should Ban Laptops in Classrooms",
+    "How to Type Faster and Take Better Notes",
+    "The Rise and Fall of the Typewriter",
+    "Pen or Keyboard? Rethinking How We Write to Learn"
+   ],
+   "answer": 3,
+   "explanation": "Bài cân nhắc giá trị của viết tay so với đánh máy trong học tập, kết luận không bỏ công nghệ mà cần chọn công cụ phù hợp → 'Pen or Keyboard? Rethinking How We Write to Learn'. 'Ban laptops' trái với đoạn cuối ('None of this means that schools should abandon technology')."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 2,
+   "stem": "According to paragraph 2, why might typing notes be less effective than writing them by hand?",
+   "options": [
+    "Students who type cannot keep up with the speaker.",
+    "Typists may record information word for word without really processing it.",
+    "Typed notes are harder for other students to read.",
+    "Laptops often break down during lectures."
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 2: gõ nhanh nên chép gần nguyên văn, 'information passes from ear to screen without being properly processed'. Người viết tay mới là người 'unable to keep up with the speaker'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 2,
+   "stem": "The word 'transcription' in paragraph 2 is closest in meaning to ______.",
+   "options": [
+    "explaining ideas to others",
+    "copying down exactly what is heard",
+    "translating into another language",
+    "summarising the main points"
+   ],
+   "answer": 1,
+   "explanation": "'mechanical transcription' = ghi chép máy móc, chép lại nguyên văn những gì nghe được; trái với việc 'select, summarise and rephrase' của người viết tay."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 1,
+   "stem": "The phrase 'this process' in paragraph 3 refers to ______.",
+   "options": [
+    "choosing a letter on the keyboard",
+    "reading a text aloud",
+    "pressing a key",
+    "forming letters by hand"
+   ],
+   "answer": 3,
+   "explanation": "'Forming letters by hand requires children to coordinate fine movements… and some researchers believe this process helps…' → 'this process' = việc viết chữ bằng tay."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – từ trái nghĩa",
+   "level": 2,
+   "stem": "The word 'indispensable' in paragraph 4 is OPPOSITE in meaning to ______.",
+   "options": [
+    "essential",
+    "reliable",
+    "demanding",
+    "unnecessary"
+   ],
+   "answer": 3,
+   "explanation": "'indispensable' = không thể thiếu; trái nghĩa là 'unnecessary' (không cần thiết). 'essential' đồng nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – NOT TRUE",
+   "level": 3,
+   "stem": "Which of the following is NOT mentioned in the passage as an advantage of typing or digital tools?",
+   "options": [
+    "It can support students with certain disabilities.",
+    "It produces text that is easy to edit and read.",
+    "It helps young children recognise letters more readily.",
+    "It gives instant access to information."
+   ],
+   "answer": 2,
+   "explanation": "Khả năng giúp trẻ nhận diện chữ cái được nói là lợi ích của VIẾT TAY (đoạn 3), không phải của bàn phím. Ba ý còn lại có ở đoạn 1 và đoạn 4."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "It can be inferred from paragraph 4 that the author regards the research on handwriting as ______.",
+   "options": [
+    "proof that typing harms learning",
+    "irrelevant to modern education",
+    "complete and beyond dispute",
+    "promising but not yet conclusive"
+   ],
+   "answer": 3,
+   "explanation": "Tác giả viết 'The evidence on handwriting is also still developing, and not every study has reached the same conclusions' nhưng vẫn coi tranh luận là có ý nghĩa → đáng chú ý nhưng chưa kết luận chắc chắn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – diễn đạt lại",
+   "level": 3,
+   "stem": "Which of the following best paraphrases the last sentence of the passage?",
+   "options": [
+    "The way students think has no connection with the tools they use.",
+    "Teachers should make students use the same tool for every task.",
+    "Teachers should choose between pen and keyboard according to the kind of thinking each task requires.",
+    "Educators already know which tool is best for every kind of task."
+   ],
+   "answer": 2,
+   "explanation": "Câu cuối: công cụ khác nhau có thể khơi gợi cách tư duy khác nhau, nhà giáo dục nên cân nhắc nhiệm vụ cần kiểu tư duy nào → chọn công cụ theo yêu cầu tư duy của từng nhiệm vụ."
+  }
+ ],
+ "self_check": "Kiểm tra từng câu: một đáp án đúng duy nhất về ngữ pháp/ collocation; các câu sắp xếp đã thử các thứ tự trong phương án; câu hỏi đọc hiểu đối chiếu nguyên văn bài; đáp án rải đều; bài đọc tự viết, không dùng số liệu thật."
+}

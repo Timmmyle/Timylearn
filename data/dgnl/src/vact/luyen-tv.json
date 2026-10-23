@@ -1,0 +1,272 @@
+{
+ "exam": "vact",
+ "part": "tv",
+ "set": "luyen",
+ "passages": {
+  "p1": "Đọc bài thơ sau:\n\nMột mai, một cuốc, một cần câu,\nThơ thẩn dầu ai vui thú nào.\nTa dại, ta tìm nơi vắng vẻ,\nNgười khôn, người đến chốn lao xao.\nThu ăn măng trúc, đông ăn giá,\nXuân tắm hồ sen, hạ tắm ao.\nRượu, đến cội cây, ta sẽ uống,\nNhìn xem phú quý tựa chiêm bao.\n\n(Nguyễn Bỉnh Khiêm, Nhàn)",
+  "p2": "Có người bảo, trong thời đại mà chỉ cần một cú chạm là có thể tra cứu mọi thông tin, việc đọc sách đã trở nên lỗi thời. Nhưng thông tin và tri thức không phải là một. Thông tin có thể đến với ta trong vài giây; còn tri thức đòi hỏi thời gian để suy ngẫm, đối chiếu và chắt lọc.\nĐọc một cuốn sách hay là cuộc trò chuyện chậm rãi với người viết. Ta theo dõi mạch lập luận, dừng lại ở một câu văn, gật gù hay phản bác, rồi tự rút ra điều của riêng mình. Những mẩu tin ngắn trôi qua màn hình hiếm khi cho ta cơ hội như thế. Chúng giống như những bữa ăn vội: no bụng nhất thời nhưng chẳng mấy dinh dưỡng.\nTất nhiên, không phải cứ đọc nhiều là tốt. Đọc mà không nghĩ thì sách cũng chỉ là chữ. Điều quan trọng là chọn sách có giá trị và đọc với tinh thần chủ động, để mỗi trang sách thực sự trở thành một bậc thang nâng ta lên.\n\n(Đoạn văn do người soạn đề viết)"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Chính tả",
+   "level": 1,
+   "stem": "Từ nào sau đây KHÔNG mắc lỗi chính tả?",
+   "options": [
+    "lảng phí",
+    "lãng phí",
+    "lãn phí",
+    "lạng phí"
+   ],
+   "answer": 1,
+   "explanation": "\"Lãng phí\" (dùng hoang phí, không hợp lí) viết với dấu ngã và vần \"ang\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Chính tả",
+   "level": 2,
+   "stem": "Câu nào sau đây mắc lỗi chính tả?",
+   "options": [
+    "Cậu bé chăm chú nhìn những chiếc lá vàng chao nghiên trong gió.",
+    "Mẹ tần tảo sớm hôm để lo cho các con ăn học.",
+    "Anh ấy luôn trăn trở về những việc chưa làm được.",
+    "Buổi chiều, sương giăng mờ trên những triền đồi."
+   ],
+   "answer": 0,
+   "explanation": "\"Chao nghiên\" phải viết là \"chao nghiêng\" (sai âm cuối n/ng). Các câu còn lại đúng: \"tần tảo\", \"giăng\", \"trăn trở\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ Hán Việt",
+   "level": 1,
+   "stem": "Yếu tố \"khán\" trong từ \"khán giả\" có nghĩa là gì?",
+   "options": [
+    "ngồi",
+    "xem",
+    "đọc",
+    "nghe"
+   ],
+   "answer": 1,
+   "explanation": "\"Khán\" nghĩa là xem (khán đài, khán phòng); \"khán giả\" là người xem. Người nghe là \"thính giả\", người đọc là \"độc giả\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ Hán Việt",
+   "level": 2,
+   "stem": "Yếu tố \"đồng\" trong từ nào sau đây có nghĩa là \"cùng\"?",
+   "options": [
+    "nhi đồng",
+    "đồng thau",
+    "đồng chí",
+    "đồng ruộng"
+   ],
+   "answer": 2,
+   "explanation": "\"Đồng chí\": người cùng chí hướng (đồng = cùng). \"Nhi đồng\": đồng = trẻ con; \"đồng ruộng\": đồng là từ thuần Việt chỉ khoảng đất trồng trọt; \"đồng thau\": đồng là kim loại."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thành ngữ – tục ngữ",
+   "level": 1,
+   "stem": "Thành ngữ nào sau đây chỉ tình thế vô cùng nguy cấp?",
+   "options": [
+    "Đẽo cày giữa đường",
+    "Ếch ngồi đáy giếng",
+    "Mò kim đáy bể",
+    "Ngàn cân treo sợi tóc"
+   ],
+   "answer": 3,
+   "explanation": "\"Ngàn cân treo sợi tóc\": vật rất nặng treo trên sợi tóc mảnh, có thể rơi bất cứ lúc nào – tình thế cực kì nguy hiểm. Các thành ngữ khác chỉ sự hiểu biết hạn hẹp, thiếu chính kiến và việc rất khó tìm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lỗi dùng từ",
+   "level": 2,
+   "stem": "Câu nào sau đây mắc lỗi thừa từ (lặp nghĩa)?",
+   "options": [
+    "Ông tôi đã qua đời cách đây hai năm trước.",
+    "Ông tôi đã qua đời hai năm trước.",
+    "Hai năm trước, ông tôi đã qua đời.",
+    "Ông tôi đã qua đời cách đây hai năm."
+   ],
+   "answer": 0,
+   "explanation": "\"Cách đây\" và \"trước\" cùng chỉ thời điểm trong quá khứ tính từ hiện tại; dùng cả hai là thừa. Chỉ giữ một trong hai."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lỗi quan hệ từ",
+   "level": 3,
+   "stem": "Câu \"Nhờ chủ quan nên đội bóng đã để thua ngay trên sân nhà.\" mắc lỗi gì?",
+   "options": [
+    "Thiếu chủ ngữ vì cụm \"nhờ chủ quan\" là trạng ngữ",
+    "Sai logic vì đội bóng không thể thua trên sân nhà",
+    "Dùng sai quan hệ từ: \"nhờ\" chỉ nguyên nhân dẫn tới kết quả tốt, cần thay bằng \"vì\" hoặc \"do\"",
+    "Thiếu vị ngữ nên câu chưa trọn vẹn ý nghĩa"
+   ],
+   "answer": 2,
+   "explanation": "Câu có đủ chủ ngữ (\"đội bóng\") và vị ngữ; lỗi nằm ở quan hệ từ: \"nhờ\" đi với kết quả tích cực, còn \"thua\" là kết quả tiêu cực nên phải dùng \"vì/ do\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Biện pháp tu từ",
+   "level": 2,
+   "stem": "Trong bài ca dao \"Muối ba năm muối đang còn mặn / Gừng chín tháng gừng hãy còn cay / Đôi ta nghĩa nặng tình dày / Có xa nhau đi nữa cũng ba vạn sáu ngàn ngày mới xa\", câu cuối sử dụng biện pháp tu từ nào?",
+   "options": [
+    "Chơi chữ",
+    "Nói quá",
+    "Hoán dụ",
+    "Nói giảm, nói tránh"
+   ],
+   "answer": 1,
+   "explanation": "\"Ba vạn sáu ngàn ngày\" (khoảng một trăm năm, tức cả một đời người) là cách phóng đại để khẳng định tình nghĩa vợ chồng gắn bó suốt đời: nói quá."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thể loại văn học",
+   "level": 1,
+   "stem": "Văn bản do nhà vua ban xuống để công bố một chủ trương, mệnh lệnh, như \"Chiếu dời đô\" của Lý Công Uẩn hay \"Chiếu cầu hiền\" của Ngô Thì Nhậm, thuộc thể loại nào?",
+   "options": [
+    "Hịch",
+    "Cáo",
+    "Phú",
+    "Chiếu"
+   ],
+   "answer": 3,
+   "explanation": "\"Chiếu\" là thể văn nghị luận trung đại do vua ban ra để công bố chủ trương, mệnh lệnh. Hịch dùng để kêu gọi, cổ vũ chiến đấu; cáo dùng trình bày chủ trương hoặc công bố kết quả sự nghiệp; phú dùng để tả cảnh, nói chí."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kiến thức văn học",
+   "level": 3,
+   "stem": "Nhân vật Huấn Cao trong truyện ngắn \"Chữ người tử tù\" của Nguyễn Tuân được xây dựng với vẻ đẹp nào?",
+   "options": [
+    "Vẻ đẹp của nhà nho ẩn dật, xa lánh hoàn toàn chuyện đời",
+    "Sự hội tụ của tài hoa, khí phách hiên ngang và thiên lương trong sáng",
+    "Vẻ đẹp của viên quan thanh liêm, mẫu mực trong chốn quan trường",
+    "Vẻ đẹp của người nông dân hiền lành bị xã hội đẩy vào con đường tha hóa"
+   ],
+   "answer": 1,
+   "explanation": "Huấn Cao là người viết chữ đẹp (tài hoa), dám chống lại triều đình, coi thường cái chết (khí phách), chỉ cho chữ người biết quý cái đẹp và khuyên quản ngục giữ thiên lương (thiên lương trong sáng)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – tác giả, tác phẩm",
+   "level": 3,
+   "stem": "Bài thơ \"Nhàn\" được viết bằng loại chữ nào và in trong tập thơ nào?",
+   "options": [
+    "Chữ Hán, in trong \"Ức Trai thi tập\"",
+    "Chữ Nôm, in trong \"Quốc âm thi tập\"",
+    "Chữ Nôm, in trong \"Bạch Vân quốc ngữ thi tập\"",
+    "Chữ Hán, in trong \"Bạch Vân am thi tập\""
+   ],
+   "answer": 2,
+   "explanation": "\"Nhàn\" là bài thơ Nôm của Nguyễn Bỉnh Khiêm, in trong \"Bạch Vân quốc ngữ thi tập\". \"Bạch Vân am thi tập\" là tập thơ chữ Hán của ông; \"Quốc âm thi tập\" và \"Ức Trai thi tập\" là của Nguyễn Trãi."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – nghệ thuật",
+   "level": 2,
+   "stem": "Câu thơ \"Một mai, một cuốc, một cần câu\" với cách điệp số từ \"một\" và liệt kê các vật dụng gợi lên điều gì?",
+   "options": [
+    "Cuộc sống thuần hậu, đạm bạc, tự cung tự cấp nơi thôn dã",
+    "Công việc nặng nhọc khiến nhà thơ mệt mỏi",
+    "Cuộc sống nghèo khổ, bế tắc khiến nhà thơ chán nản",
+    "Sự giàu có về của cải vật chất của người ở ẩn"
+   ],
+   "answer": 0,
+   "explanation": "Các nông cụ \"mai, cuốc, cần câu\" được liệt kê với nhịp thơ 2/2/3 và số từ \"một\" lặp lại, gợi cuộc sống lao động giản dị, tự túc, sẵn sàng và thong thả, không phải sự bế tắc."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – nghệ thuật",
+   "level": 3,
+   "stem": "Hai câu \"Ta dại, ta tìm nơi vắng vẻ, / Người khôn, người đến chốn lao xao.\" thể hiện điều gì?",
+   "options": [
+    "Tác giả tự nhận mình kém cỏi, không đủ năng lực để tranh đua với đời",
+    "Tác giả bày tỏ sự ghen tị với những người được sống ở chốn lao xao",
+    "Tác giả khuyên mọi người nên tìm đến chốn đông vui, náo nhiệt",
+    "Bằng phép đối và cách nói ngược, tác giả khẳng định lối sống xa lánh vòng danh lợi mới thực sự là khôn"
+   ],
+   "answer": 3,
+   "explanation": "\"Ta dại – người khôn\", \"nơi vắng vẻ – chốn lao xao\" đối nhau; \"dại\" thực chất là khôn (tránh chốn quan trường bon chen), \"khôn\" thực chất là dại. Đây là cách nói ngược mang ý vị triết lí, hóm hỉnh."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – ý nghĩa",
+   "level": 2,
+   "stem": "Câu thơ cuối \"Nhìn xem phú quý tựa chiêm bao\" thể hiện quan niệm gì của tác giả?",
+   "options": [
+    "Phú quý là mục tiêu cao nhất mà con người cần đạt tới",
+    "Phải nằm mơ mới có được phú quý",
+    "Phú quý chỉ như giấc mộng hư ảo, không đáng để theo đuổi",
+    "Phú quý chỉ đến với người biết uống rượu dưới gốc cây"
+   ],
+   "answer": 2,
+   "explanation": "\"Chiêm bao\" là giấc mơ; so sánh phú quý với chiêm bao cho thấy tác giả coi danh lợi là phù du, hư ảo, từ đó khẳng định lối sống \"nhàn\" thanh cao."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Theo đoạn trích, thông tin và tri thức khác nhau ở điểm nào?",
+   "options": [
+    "Thông tin có thể đến rất nhanh, còn tri thức đòi hỏi thời gian suy ngẫm, đối chiếu và chắt lọc",
+    "Thông tin và tri thức hoàn toàn giống nhau",
+    "Thông tin chỉ có trong sách, còn tri thức chỉ có trên mạng",
+    "Thông tin luôn đúng, còn tri thức có thể sai"
+   ],
+   "answer": 0,
+   "explanation": "Đoạn trích viết: \"Thông tin có thể đến với ta trong vài giây; còn tri thức đòi hỏi thời gian để suy ngẫm, đối chiếu và chắt lọc\"."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – tu từ",
+   "level": 2,
+   "stem": "Việc so sánh những mẩu tin ngắn với \"những bữa ăn vội\" nhằm mục đích gì?",
+   "options": [
+    "Chỉ ra rằng đọc tin ngắn chỉ thỏa mãn nhất thời, ít có giá trị bồi đắp lâu dài",
+    "Khẳng định tin ngắn cung cấp đầy đủ kiến thức cần thiết",
+    "Khuyên người đọc không nên vừa ăn vừa đọc tin",
+    "Phê phán thói quen ăn uống thiếu khoa học của giới trẻ"
+   ],
+   "answer": 0,
+   "explanation": "Vế giải thích \"no bụng nhất thời nhưng chẳng mấy dinh dưỡng\" cho thấy tin ngắn chỉ đáp ứng nhu cầu tức thời mà không nuôi dưỡng trí tuệ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – nghĩa từ",
+   "level": 2,
+   "stem": "Từ \"chắt lọc\" trong đoạn trích có nghĩa là gì?",
+   "options": [
+    "Ghi chép lại đầy đủ mọi thông tin",
+    "Bỏ đi toàn bộ những gì đã đọc",
+    "Lọc nước cho thật trong",
+    "Chọn lấy những gì tinh túy, có giá trị nhất"
+   ],
+   "answer": 3,
+   "explanation": "\"Chắt lọc\" (nghĩa chuyển) là chọn ra phần tinh túy, giá trị từ nhiều nguồn; trong ngữ cảnh nói về quá trình hình thành tri thức."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Nhận định nào sau đây phù hợp nhất với quan điểm của tác giả?",
+   "options": [
+    "Tác giả kêu gọi từ bỏ hoàn toàn các thiết bị điện tử.",
+    "Tác giả không phủ nhận việc tra cứu thông tin nhanh, nhưng đề cao việc đọc sách có chọn lọc và có suy ngẫm.",
+    "Tác giả cho rằng càng đọc nhiều sách thì càng giỏi, bất kể đọc như thế nào.",
+    "Tác giả đồng ý rằng việc đọc sách đã trở nên lỗi thời."
+   ],
+   "answer": 1,
+   "explanation": "Tác giả bác bỏ ý \"đọc sách đã lỗi thời\", nhưng cũng nói \"không phải cứ đọc nhiều là tốt\" và nhấn mạnh \"chọn sách có giá trị và đọc với tinh thần chủ động\"; không có ý kêu gọi từ bỏ thiết bị điện tử."
+  }
+ ],
+ "self_check": "Soạn mới toàn bộ; đoạn văn xuôi do người soạn tự viết, thơ trích nguyên văn tác giả đã mất trước 1976 (Nguyễn Khuyến, Tú Xương, Nguyễn Bỉnh Khiêm), ca dao dân gian. Đã rà từng câu: một đáp án đúng duy nhất, phương án nhiễu sai rõ ràng, chính tả – kiến thức văn học (tác giả, thể loại, xuất xứ) đối chiếu lại; lời giải không nhắc chữ cái phương án vì đáp án được xáo trộn; chạy dgnl-check.mjs ✓."
+}

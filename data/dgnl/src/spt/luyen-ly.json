@@ -1,0 +1,280 @@
+{
+ "exam": "spt",
+ "part": "ly",
+ "set": "luyen",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Dao động điều hòa",
+   "level": 1,
+   "stem": "Một vật dao động điều hòa với phương trình $x=5\\cos\\left(4\\pi t+\\dfrac{\\pi}{3}\\right)$ (cm). Chu kì dao động của vật là",
+   "options": [
+    "2 s",
+    "$0{,}5$ s",
+    "$4\\pi$ s",
+    "$0{,}25$ s"
+   ],
+   "answer": 1,
+   "explanation": "$T=\\dfrac{2\\pi}{\\omega}=\\dfrac{2\\pi}{4\\pi}=0{,}5$ s."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sóng cơ",
+   "level": 1,
+   "stem": "Một sóng cơ có tần số 20 Hz truyền trên dây với tốc độ 2 m/s. Bước sóng của sóng này là",
+   "options": [
+    "10 cm",
+    "40 cm",
+    "1 cm",
+    "20 cm"
+   ],
+   "answer": 0,
+   "explanation": "$\\lambda=\\dfrac vf=\\dfrac{2}{20}=0{,}1$ m $=10$ cm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Điện trường – định luật Coulomb",
+   "level": 2,
+   "stem": "Hai điện tích điểm $q_1=2\\cdot10^{-6}$ C và $q_2=3\\cdot10^{-6}$ C đặt cách nhau 30 cm trong chân không. Lấy $k=9\\cdot10^9\\ \\text{N·m}^2/\\text{C}^2$. Độ lớn lực tương tác giữa chúng là",
+   "options": [
+    "$0{,}18$ N",
+    "6 N",
+    "$1{,}8$ N",
+    "$0{,}6$ N"
+   ],
+   "answer": 3,
+   "explanation": "$F=k\\dfrac{|q_1q_2|}{r^2}=9\\cdot10^9\\cdot\\dfrac{6\\cdot10^{-12}}{0{,}09}=0{,}6$ N."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tụ điện",
+   "level": 2,
+   "stem": "Một tụ điện có điện dung $10\\ \\mu\\text{F}$ được nối vào hiệu điện thế 12 V. Năng lượng điện trường dự trữ trong tụ là",
+   "options": [
+    "$1{,}2\\cdot10^{-4}$ J",
+    "$1{,}44\\cdot10^{-3}$ J",
+    "$7{,}2\\cdot10^{-4}$ J",
+    "$6\\cdot10^{-5}$ J"
+   ],
+   "answer": 2,
+   "explanation": "$W=\\dfrac12CU^2=\\dfrac12\\cdot10^{-5}\\cdot144=7{,}2\\cdot10^{-4}$ J."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Động lực học",
+   "level": 2,
+   "stem": "Một vật khối lượng 2 kg được kéo trên mặt sàn nằm ngang bằng lực 10 N có phương nằm ngang. Hệ số ma sát trượt giữa vật và sàn là $0{,}2$; lấy $g=10\\ \\text{m/s}^2$. Gia tốc của vật là",
+   "options": [
+    "$5\\ \\text{m/s}^2$",
+    "$4\\ \\text{m/s}^2$",
+    "$3\\ \\text{m/s}^2$",
+    "$2\\ \\text{m/s}^2$"
+   ],
+   "answer": 2,
+   "explanation": "$a=\\dfrac{F-\\mu mg}{m}=\\dfrac{10-0{,}2\\cdot2\\cdot10}{2}=3\\ \\text{m/s}^2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí nhiệt – sự bay hơi",
+   "level": 1,
+   "stem": "Phát biểu nào sau đây về sự bay hơi của chất lỏng là đúng?",
+   "options": [
+    "Sự bay hơi chỉ xảy ra khi chất lỏng đạt nhiệt độ sôi.",
+    "Sự bay hơi xảy ra đồng thời ở mặt thoáng và trong lòng chất lỏng.",
+    "Tốc độ bay hơi không phụ thuộc diện tích mặt thoáng.",
+    "Sự bay hơi xảy ra ở mặt thoáng chất lỏng ở mọi nhiệt độ."
+   ],
+   "answer": 3,
+   "explanation": "Bay hơi diễn ra ở mặt thoáng, ở mọi nhiệt độ; tốc độ bay hơi phụ thuộc nhiệt độ, diện tích mặt thoáng, gió. Sự sôi mới xảy ra cả trong lòng chất lỏng ở nhiệt độ sôi."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Khí lí tưởng – đồ thị",
+   "level": 2,
+   "stem": "Đối với một lượng khí lí tưởng xác định, trong hệ tọa độ thể tích $V$ (trục tung) – nhiệt độ tuyệt đối $T$ (trục hoành), đường đẳng áp là",
+   "options": [
+    "một đoạn thẳng có đường kéo dài đi qua gốc tọa độ",
+    "một đường hypebol",
+    "một đường thẳng song song với trục $OT$",
+    "một đường thẳng song song với trục $OV$"
+   ],
+   "answer": 0,
+   "explanation": "Đẳng áp: $V=\\dfrac{nR}{p}T$, tức $V$ tỉ lệ thuận với $T$ ⇒ đường thẳng qua gốc $O$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Dòng điện xoay chiều",
+   "level": 1,
+   "stem": "Trên một bóng đèn có ghi 220 V – 100 W, dùng ở mạng điện xoay chiều. Giá trị cực đại của điện áp đặt vào đèn khi đèn sáng bình thường xấp xỉ bằng",
+   "options": [
+    "220 V",
+    "311 V",
+    "156 V",
+    "440 V"
+   ],
+   "answer": 1,
+   "explanation": "220 V là giá trị hiệu dụng; $U_0=U\\sqrt2=220\\sqrt2\\approx311$ V."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Khí lí tưởng – đẳng nhiệt",
+   "level": 3,
+   "stem": "Một săm xe có thể tích 2 lít (coi không đổi) chứa không khí ở áp suất 1 atm. Dùng bơm, mỗi lần bơm đưa được $125\\ \\text{cm}^3$ không khí ở áp suất 1 atm vào săm. Coi nhiệt độ không đổi. Số lần bơm để áp suất trong săm đạt 3 atm là",
+   "options": [
+    "48",
+    "16",
+    "24",
+    "32"
+   ],
+   "answer": 3,
+   "explanation": "Đẳng nhiệt cho toàn bộ lượng khí: $1\\cdot(2+n\\cdot0{,}125)=3\\cdot2\\Rightarrow n=32$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hạt nhân – định luật phóng xạ",
+   "level": 3,
+   "stem": "Hai chất phóng xạ A và B có chu kì bán rã lần lượt 2 giờ và 4 giờ; ban đầu số hạt nhân của chúng bằng nhau. Sau 8 giờ, tỉ số giữa số hạt nhân A và số hạt nhân B còn lại là",
+   "options": [
+    "$\\dfrac12$",
+    "$\\dfrac14$",
+    "4",
+    "$\\dfrac1{16}$"
+   ],
+   "answer": 1,
+   "explanation": "$\\dfrac{N_A}{N_B}=\\dfrac{2^{-8/2}}{2^{-8/4}}=\\dfrac{2^{-4}}{2^{-2}}=\\dfrac14$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Dao động – con lắc lò xo",
+   "level": 2,
+   "stem": "Một con lắc lò xo nằm ngang gồm lò xo độ cứng 100 N/m và vật nhỏ khối lượng 250 g, dao động điều hòa với biên độ 4 cm. Bỏ qua ma sát.",
+   "statements": [
+    {
+     "t": "Tần số góc của dao động là 20 rad/s.",
+     "a": true
+    },
+    {
+     "t": "Tốc độ cực đại của vật là 80 cm/s.",
+     "a": true
+    },
+    {
+     "t": "Cơ năng của con lắc là $0{,}08$ J.",
+     "a": true
+    },
+    {
+     "t": "Khi vật ở li độ 2 cm thì động năng bằng thế năng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $\\omega=\\sqrt{\\dfrac km}=\\sqrt{\\dfrac{100}{0{,}25}}=20$ rad/s. b) Đúng: $v_{\\max}=\\omega A=80$ cm/s. c) Đúng: $W=\\dfrac12kA^2=0{,}08$ J. d) Sai: $W_t=\\dfrac12k\\cdot0{,}02^2=0{,}02$ J, $W_đ=0{,}06$ J $=3W_t$; động năng bằng thế năng khi $|x|=\\dfrac{A}{\\sqrt2}\\approx2{,}83$ cm."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Động học phân tử chất khí",
+   "level": 2,
+   "stem": "Xét các khối khí lí tưởng helium ($M=4$ g/mol) và oxygen ($M=32$ g/mol).",
+   "statements": [
+    {
+     "t": "Áp suất chất khí lên thành bình là do các phân tử khí va chạm với thành bình.",
+     "a": true
+    },
+    {
+     "t": "Nếu nhiệt độ tuyệt đối của khối khí tăng 4 lần thì tốc độ căn quân phương của phân tử khí tăng 4 lần.",
+     "a": false
+    },
+    {
+     "t": "Ở cùng nhiệt độ, động năng tịnh tiến trung bình của phân tử helium bằng của phân tử oxygen.",
+     "a": true
+    },
+    {
+     "t": "Ở cùng nhiệt độ, tốc độ căn quân phương của phân tử helium nhỏ hơn của phân tử oxygen.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $v_{\\text{rms}}=\\sqrt{\\dfrac{3RT}{M}}\\sim\\sqrt T$, tăng 2 lần. c) Đúng: $\\overline{E}_đ=\\dfrac32kT$ chỉ phụ thuộc $T$. d) Sai: $\\dfrac{v_{He}}{v_{O_2}}=\\sqrt{\\dfrac{32}{4}}=2\\sqrt2>1$, helium nhanh hơn."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Dòng điện – định luật Ohm toàn mạch",
+   "level": 1,
+   "stem": "Một nguồn điện có suất điện động 12 V, điện trở trong $1\\ \\Omega$ được nối với điện trở ngoài $R=5\\ \\Omega$ thành mạch kín.",
+   "statements": [
+    {
+     "t": "Cường độ dòng điện trong mạch là 2 A.",
+     "a": true
+    },
+    {
+     "t": "Hiệu điện thế giữa hai đầu điện trở $R$ là 10 V.",
+     "a": true
+    },
+    {
+     "t": "Công suất của nguồn điện là 24 W.",
+     "a": true
+    },
+    {
+     "t": "Hiệu suất của nguồn điện là 90%.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $I=\\dfrac{E}{R+r}=2$ A. b) Đúng: $U=IR=10$ V. c) Đúng: $P=EI=24$ W. d) Sai: $H=\\dfrac{U}{E}=\\dfrac{10}{12}\\approx83{,}3\\%$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hạt nhân – phóng xạ alpha",
+   "level": 2,
+   "stem": "Pôlôni $^{210}_{84}\\text{Po}$ là chất phóng xạ $\\alpha$ với chu kì bán rã 138 ngày, hạt nhân con là chì (Pb).",
+   "statements": [
+    {
+     "t": "Hạt nhân con là $^{206}_{82}\\text{Pb}$.",
+     "a": true
+    },
+    {
+     "t": "Hạt nhân $^{210}_{84}\\text{Po}$ có 84 nơtron.",
+     "a": false
+    },
+    {
+     "t": "Sau 276 ngày, 75% số hạt nhân pôlôni ban đầu đã bị phân rã.",
+     "a": true
+    },
+    {
+     "t": "Khi bay qua khoảng giữa hai bản tụ điện tích điện, tia $\\alpha$ bị lệch về phía bản dương.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: số khối giảm 4, số prôtôn giảm 2. b) Sai: số nơtron $210-84=126$. c) Đúng: 276 ngày = 2 chu kì, còn 25%. d) Sai: hạt $\\alpha$ mang điện dương nên lệch về phía bản âm."
+  },
+  {
+   "qtype": "short",
+   "topic": "Giao thoa ánh sáng",
+   "level": 1,
+   "stem": "Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là 1 mm, khoảng cách từ hai khe đến màn là 2 m, ánh sáng đơn sắc có bước sóng $0{,}6\\ \\mu\\text{m}$. Tính khoảng vân theo mm.",
+   "answer_text": "1,2",
+   "explanation": "$i=\\dfrac{\\lambda D}{a}=\\dfrac{0{,}6\\cdot10^{-6}\\cdot2}{10^{-3}}=1{,}2\\cdot10^{-3}$ m $=1{,}2$ mm."
+  },
+  {
+   "qtype": "short",
+   "topic": "Cân bằng nhiệt",
+   "level": 2,
+   "stem": "Trộn 2 kg nước ở $80^\\circ\\text{C}$ với 3 kg nước ở $20^\\circ\\text{C}$. Bỏ qua trao đổi nhiệt với môi trường và bình. Tính nhiệt độ của hỗn hợp khi cân bằng (theo °C).",
+   "answer_text": "44",
+   "explanation": "$2c(80-t)=3c(t-20)\\Rightarrow t=\\dfrac{160+60}{5}=44^\\circ\\text{C}$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Cảm ứng điện từ – máy phát",
+   "level": 3,
+   "stem": "Một khung dây gồm 500 vòng, diện tích mỗi vòng $40\\ \\text{cm}^2$, quay đều với tốc độ 3000 vòng/phút quanh trục nằm trong mặt phẳng khung, vuông góc với từ trường đều $B=0{,}25$ T. Tính suất điện động hiệu dụng của khung (theo V, làm tròn đến hàng đơn vị).",
+   "answer_text": "111",
+   "explanation": "$\\omega=2\\pi\\cdot50=100\\pi$ rad/s; $E_0=NBS\\omega=500\\cdot0{,}25\\cdot4\\cdot10^{-3}\\cdot100\\pi\\approx157{,}1$ V; $E=\\dfrac{E_0}{\\sqrt2}\\approx111$ V."
+  },
+  {
+   "qtype": "short",
+   "topic": "Khí lí tưởng – đẳng nhiệt",
+   "level": 3,
+   "stem": "Một ống thủy tinh tiết diện đều, một đầu kín, đặt thẳng đứng miệng ở trên. Trong ống có cột không khí dài 20 cm được ngăn với bên ngoài bởi cột thủy ngân dài 10 cm. Áp suất khí quyển 76 cmHg. Lật ngược ống cho miệng ở dưới (thủy ngân không chảy ra), nhiệt độ không đổi. Tính chiều dài cột không khí lúc này (theo cm, làm tròn đến hàng phần mười).",
+   "answer_text": "26,1",
+   "explanation": "Miệng trên: $p_1=76+10=86$ cmHg; miệng dưới: $p_2=76-10=66$ cmHg. $p_1l_1=p_2l_2\\Rightarrow l_2=\\dfrac{86\\cdot20}{66}\\approx26{,}1$ cm."
+  }
+ ],
+ "self_check": "Bộ luyện 18 câu (10 mcq, 4 tf, 4 short) gồm cả lớp 10–11 (dao động, sóng, điện, động lực học, giao thoa) và lớp 12; mọi phép tính kiểm bằng Python; không trùng hai đề; đã chạy dgnl-check."
+}

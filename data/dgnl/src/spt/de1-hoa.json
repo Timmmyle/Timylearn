@@ -1,0 +1,408 @@
+{
+ "exam": "spt",
+ "part": "hoa",
+ "set": "de1",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Ester – danh pháp",
+   "level": 1,
+   "stem": "Ester có công thức HCOOCH₃ có tên gọi là",
+   "options": [
+    "methyl formate",
+    "ethyl formate",
+    "methyl acetate",
+    "ethyl acetate"
+   ],
+   "answer": 0,
+   "explanation": "HCOOCH₃ tạo bởi formic acid (gốc formate HCOO–) và methanol (gốc methyl –CH₃) → methyl formate."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lipid – xà phòng hóa",
+   "level": 1,
+   "stem": "Xà phòng hóa hoàn toàn tristearin bằng dung dịch NaOH, thu được glycerol và",
+   "options": [
+    "C₁₇H₃₃COONa",
+    "C₁₅H₃₁COONa",
+    "C₁₇H₃₅COONa",
+    "C₁₇H₃₅COOH"
+   ],
+   "answer": 2,
+   "explanation": "Tristearin là (C₁₇H₃₅COO)₃C₃H₅; xà phòng hóa: (C₁₇H₃₅COO)₃C₃H₅ + 3NaOH → 3C₁₇H₃₅COONa + C₃H₅(OH)₃."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Carbohydrate",
+   "level": 1,
+   "stem": "Chất nào sau đây thuộc loại disaccharide?",
+   "options": [
+    "Glucose",
+    "Saccharose",
+    "Fructose",
+    "Cellulose"
+   ],
+   "answer": 1,
+   "explanation": "Glucose, fructose là monosaccharide; cellulose là polysaccharide; saccharose (sucrose) là disaccharide."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Carbohydrate – tính chất",
+   "level": 2,
+   "stem": "Phát biểu nào sau đây đúng với cả glucose và fructose?",
+   "options": [
+    "Làm mất màu nước bromine.",
+    "Bị thủy phân trong môi trường acid.",
+    "Thuộc loại polysaccharide.",
+    "Hòa tan Cu(OH)₂ trong môi trường kiềm ở nhiệt độ thường tạo dung dịch màu xanh lam."
+   ],
+   "answer": 3,
+   "explanation": "Cả hai đều có nhiều nhóm –OH kề nhau nên hòa tan Cu(OH)₂ tạo phức xanh lam. Chỉ glucose (có nhóm –CHO) làm mất màu nước bromine; monosaccharide không bị thủy phân."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Amine",
+   "level": 1,
+   "stem": "Dung dịch chất nào sau đây làm quỳ tím chuyển sang màu xanh?",
+   "options": [
+    "Methylamine",
+    "Aniline",
+    "Glycine",
+    "Acetic acid"
+   ],
+   "answer": 0,
+   "explanation": "Methylamine CH₃NH₂ có tính base mạnh hơn ammonia nên làm quỳ tím hóa xanh; aniline có tính base rất yếu, không đổi màu quỳ; glycine gần như trung tính; acetic acid làm quỳ hóa đỏ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Amino acid – đồng phân",
+   "level": 2,
+   "stem": "Số amino acid là đồng phân cấu tạo có cùng công thức phân tử C₃H₇O₂N là",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Gồm H₂N–CH(CH₃)–COOH (alanine) và H₂N–CH₂–CH₂–COOH (3-aminopropanoic acid) → 2 đồng phân."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Peptide",
+   "level": 1,
+   "stem": "Số liên kết peptide có trong phân tử tetrapeptide Gly-Ala-Val-Gly là",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Peptide có $n$ gốc α-amino acid thì có $n-1$ liên kết peptide → 4 − 1 = 3."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Polymer",
+   "level": 2,
+   "stem": "Polymer nào sau đây được điều chế bằng phản ứng trùng ngưng?",
+   "options": [
+    "Polyethylene",
+    "Poly(vinyl chloride)",
+    "Polystyrene",
+    "Poly(hexamethylene adipamide) (nylon-6,6)"
+   ],
+   "answer": 3,
+   "explanation": "Nylon-6,6 được tạo từ hexamethylenediamine và adipic acid, giải phóng H₂O → trùng ngưng. Ba polymer còn lại tạo bằng trùng hợp."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Pin điện hóa",
+   "level": 2,
+   "stem": "Cho thế điện cực chuẩn: $E^\\circ_{\\mathrm{Mg^{2+}/Mg}} = -2{,}356$ V; $E^\\circ_{\\mathrm{Ag^{+}/Ag}} = +0{,}799$ V. Sức điện động chuẩn của pin điện hóa Mg–Ag là",
+   "options": [
+    "1,557 V",
+    "2,356 V",
+    "3,155 V",
+    "3,954 V"
+   ],
+   "answer": 2,
+   "explanation": "$E^\\circ_{\\text{pin}} = E^\\circ_{(+)} - E^\\circ_{(-)} = 0{,}799 - (-2{,}356) = 3{,}155$ V."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Dãy điện hóa",
+   "level": 2,
+   "stem": "Cho thế điện cực chuẩn (V): Mg²⁺/Mg: −2,356; Fe²⁺/Fe: −0,440; Cu²⁺/Cu: +0,340; Ag⁺/Ag: +0,799. Phản ứng nào sau đây KHÔNG xảy ra ở điều kiện chuẩn?",
+   "options": [
+    "Fe + CuSO₄",
+    "Cu + FeSO₄",
+    "Cu + AgNO₃",
+    "Mg + FeSO₄"
+   ],
+   "answer": 1,
+   "explanation": "Kim loại khử được ion của cặp có thế điện cực chuẩn lớn hơn. $E^\\circ_{\\mathrm{Fe^{2+}/Fe}} < E^\\circ_{\\mathrm{Cu^{2+}/Cu}}$ nên Cu không khử được Fe²⁺."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại – tính chất vật lí",
+   "level": 1,
+   "stem": "Kim loại nào sau đây có nhiệt độ nóng chảy thấp nhất?",
+   "options": [
+    "W",
+    "Fe",
+    "Cu",
+    "Hg"
+   ],
+   "answer": 3,
+   "explanation": "Thủy ngân là kim loại ở thể lỏng ở nhiệt độ thường (nóng chảy ở −39 °C); W có nhiệt độ nóng chảy cao nhất."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ăn mòn kim loại",
+   "level": 2,
+   "stem": "Để bảo vệ vỏ tàu biển bằng thép theo phương pháp điện hóa, người ta gắn lên vỏ tàu (phần chìm trong nước biển) những khối kim loại nào sau đây?",
+   "options": [
+    "Zn",
+    "Cu",
+    "Pb",
+    "Sn"
+   ],
+   "answer": 0,
+   "explanation": "Zn có tính khử mạnh hơn Fe nên đóng vai trò anode hi sinh, bị ăn mòn thay cho vỏ thép. Cu, Pb, Sn có tính khử yếu hơn Fe sẽ làm thép bị ăn mòn nhanh hơn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Điện phân",
+   "level": 2,
+   "stem": "Khi điện phân dung dịch CuSO₄ với điện cực trơ, quá trình xảy ra ở anode là",
+   "options": [
+    "sự oxi hóa nước tạo khí O₂",
+    "sự khử ion Cu²⁺ tạo Cu",
+    "sự oxi hóa ion SO₄²⁻ tạo SO₂",
+    "sự khử nước tạo khí H₂"
+   ],
+   "answer": 0,
+   "explanation": "Anode xảy ra sự oxi hóa; ion SO₄²⁻ không bị oxi hóa nên nước bị oxi hóa: 2H₂O → O₂ + 4H⁺ + 4e."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại nhóm IA",
+   "level": 1,
+   "stem": "Kim loại kiềm được điều chế trong công nghiệp bằng phương pháp",
+   "options": [
+    "nhiệt luyện bằng CO",
+    "thủy luyện bằng kim loại mạnh hơn",
+    "điện phân nóng chảy muối halide",
+    "điện phân dung dịch muối chloride"
+   ],
+   "answer": 2,
+   "explanation": "Ion kim loại kiềm có tính oxi hóa rất yếu, chỉ bị khử bằng dòng điện ở trạng thái nóng chảy, ví dụ: 2NaCl → 2Na + Cl₂ (điện phân nóng chảy)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nước cứng",
+   "level": 2,
+   "stem": "Chất nào sau đây có thể làm mềm được cả nước cứng tạm thời và nước cứng vĩnh cửu?",
+   "options": [
+    "HCl",
+    "NaCl",
+    "Ca(OH)₂",
+    "Na₂CO₃"
+   ],
+   "answer": 3,
+   "explanation": "CO₃²⁻ kết tủa cả Ca²⁺ và Mg²⁺ bất kể anion đi kèm. Ca(OH)₂ (lượng vừa đủ) chỉ làm mềm được nước cứng tạm thời."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại chuyển tiếp",
+   "level": 2,
+   "stem": "Cấu hình electron của ion Fe³⁺ (Z = 26) là",
+   "options": [
+    "$[\\mathrm{Ar}]3d^3 4s^2$",
+    "$[\\mathrm{Ar}]3d^5$",
+    "$[\\mathrm{Ar}]3d^6$",
+    "$[\\mathrm{Ar}]3d^4 4s^1$"
+   ],
+   "answer": 1,
+   "explanation": "Fe: $[\\mathrm{Ar}]3d^6 4s^2$. Khi tạo ion, electron lớp 4s bị tách trước rồi đến 3d: Fe³⁺ là $[\\mathrm{Ar}]3d^5$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lipid – tính toán",
+   "level": 3,
+   "stem": "Xà phòng hóa hoàn toàn 8,9 gam tristearin bằng dung dịch NaOH vừa đủ. Khối lượng muối sodium stearate thu được là",
+   "options": [
+    "3,06 gam",
+    "8,90 gam",
+    "9,12 gam",
+    "9,18 gam"
+   ],
+   "answer": 3,
+   "explanation": "$n_{\\text{tristearin}} = 8{,}9 : 890 = 0{,}01$ mol → $n_{\\mathrm{C_{17}H_{35}COONa}} = 0{,}03$ mol → $m = 0{,}03 \\cdot 306 = 9{,}18$ gam."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại – tính toán",
+   "level": 3,
+   "stem": "Cho 12 gam hỗn hợp Fe và Cu vào dung dịch HCl dư, sau phản ứng thu được 2,479 L khí H₂ (đkc). Phần trăm khối lượng Cu trong hỗn hợp là",
+   "options": [
+    "46,67%",
+    "53,33%",
+    "40,00%",
+    "60,00%"
+   ],
+   "answer": 1,
+   "explanation": "Chỉ Fe phản ứng: $n_{\\mathrm{Fe}} = n_{\\mathrm{H_2}} = 2{,}479 : 24{,}79 = 0{,}1$ mol → $m_{\\mathrm{Fe}} = 5{,}6$ g → $\\%m_{\\mathrm{Cu}} = \\dfrac{12 - 5{,}6}{12} \\cdot 100\\% \\approx 53{,}33\\%$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Lipid – thí nghiệm xà phòng hóa",
+   "level": 2,
+   "stem": "Tiến hành thí nghiệm: Cho vào bát sứ khoảng 2 mL dầu dừa và 4 mL dung dịch NaOH 40%. Đun sôi nhẹ hỗn hợp, liên tục khuấy bằng đũa thủy tinh và thỉnh thoảng thêm vài giọt nước cất. Sau khoảng 10 phút, rót thêm 4–5 mL dung dịch NaCl bão hòa nóng, khuấy nhẹ rồi để nguội.",
+   "statements": [
+    {
+     "t": "Sau khi để nguội, có lớp chất rắn màu trắng nổi lên trên, đó là muối sodium của các acid béo.",
+     "a": true
+    },
+    {
+     "t": "Mục đích thêm dung dịch NaCl bão hòa là làm tăng tốc độ phản ứng xà phòng hóa.",
+     "a": false
+    },
+    {
+     "t": "Việc thêm nước cất trong khi đun nhằm giữ cho thể tích hỗn hợp gần như không đổi, tránh hỗn hợp bị cạn.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay dầu dừa bằng dầu nhớt bôi trơn động cơ (thành phần chính là hydrocarbon) thì hiện tượng thu được vẫn tương tự.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: xà phòng nhẹ, ít tan trong dung dịch muối nên nổi lên. b) Sai: NaCl làm giảm độ tan của xà phòng để tách xà phòng ra (sự muối kết), không làm tăng tốc độ phản ứng. c) Đúng. d) Sai: hydrocarbon không có nhóm ester nên không bị xà phòng hóa."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Pin điện hóa",
+   "level": 3,
+   "stem": "Một pin điện hóa được ghép từ điện cực Zn nhúng trong dung dịch ZnSO₄ 1 M và điện cực Cu nhúng trong dung dịch CuSO₄ 1 M, hai dung dịch nối với nhau bằng cầu muối. Cho $E^\\circ_{\\mathrm{Zn^{2+}/Zn}} = -0{,}763$ V; $E^\\circ_{\\mathrm{Cu^{2+}/Cu}} = +0{,}340$ V; $E^\\circ_{\\mathrm{Ag^{+}/Ag}} = +0{,}799$ V.",
+   "statements": [
+    {
+     "t": "Điện cực Zn là anode, tại đó xảy ra quá trình oxi hóa Zn.",
+     "a": true
+    },
+    {
+     "t": "Ở mạch ngoài, electron di chuyển từ điện cực Cu sang điện cực Zn.",
+     "a": false
+    },
+    {
+     "t": "Trong quá trình pin hoạt động, khối lượng điện cực Cu tăng dần.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay cặp Cu²⁺/Cu bằng cặp Ag⁺/Ag thì sức điện động chuẩn của pin giảm.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: Zn có thế điện cực nhỏ hơn → cực âm (anode): Zn → Zn²⁺ + 2e. b) Sai: electron đi từ Zn sang Cu. c) Đúng: Cu²⁺ + 2e → Cu bám vào cathode. d) Sai: $E^\\circ_{\\text{pin}}$(Zn–Ag) = 0,799 + 0,763 = 1,562 V > 1,103 V của pin Zn–Cu."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Kim loại chuyển tiếp – sắt",
+   "level": 3,
+   "stem": "Xét các phát biểu sau về sắt và hợp chất của sắt.",
+   "statements": [
+    {
+     "t": "Fe tác dụng với dung dịch HCl loãng tạo muối FeCl₃ và khí H₂.",
+     "a": false
+    },
+    {
+     "t": "Dung dịch FeSO₄ làm mất màu tím của dung dịch KMnO₄ trong môi trường H₂SO₄ loãng.",
+     "a": true
+    },
+    {
+     "t": "Cho bột Cu vào dung dịch FeCl₃ dư, Cu tan và dung dịch thu được chứa FeCl₂, CuCl₂ và FeCl₃.",
+     "a": true
+    },
+    {
+     "t": "Fe(OH)₃ là kết tủa màu trắng xanh.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: Fe + 2HCl → FeCl₂ + H₂. b) Đúng: Fe²⁺ bị MnO₄⁻ oxi hóa thành Fe³⁺. c) Đúng: Cu + 2FeCl₃ → CuCl₂ + 2FeCl₂, FeCl₃ còn dư. d) Sai: Fe(OH)₃ màu nâu đỏ; Fe(OH)₂ mới có màu trắng xanh."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Cân bằng hóa học",
+   "level": 3,
+   "stem": "Trong công nghiệp, ammonia được tổng hợp theo phản ứng: N₂(g) + 3H₂(g) ⇌ 2NH₃(g)   $\\Delta_r H^\\circ_{298} = -92$ kJ. Phản ứng thực hiện ở khoảng 450 °C, 200 bar, xúc tác Fe.",
+   "statements": [
+    {
+     "t": "Tăng áp suất chung của hệ, cân bằng chuyển dịch theo chiều thuận.",
+     "a": true
+    },
+    {
+     "t": "Tăng nhiệt độ làm tăng hiệu suất tạo NH₃ ở trạng thái cân bằng.",
+     "a": false
+    },
+    {
+     "t": "Chất xúc tác Fe làm cân bằng chuyển dịch theo chiều thuận.",
+     "a": false
+    },
+    {
+     "t": "Khi tạo thành 1,7 gam NH₃ theo phản ứng trên, lượng nhiệt tỏa ra là 4,6 kJ.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: chiều thuận giảm số mol khí (4 → 2). b) Sai: phản ứng tỏa nhiệt, tăng nhiệt độ cân bằng chuyển dịch theo chiều nghịch. c) Sai: xúc tác chỉ làm hệ nhanh đạt cân bằng. d) Đúng: $n_{\\mathrm{NH_3}} = 0{,}1$ mol → nhiệt tỏa ra $= 92 \\cdot 0{,}1 : 2 = 4{,}6$ kJ."
+  },
+  {
+   "qtype": "short",
+   "topic": "Polymer – phân loại",
+   "level": 1,
+   "stem": "Cho các polymer: polyethylene, poly(vinyl chloride), nylon-6,6, cellulose, tinh bột, poly(methyl methacrylate). Có bao nhiêu polymer tổng hợp?",
+   "answer_text": "4",
+   "explanation": "Polymer tổng hợp: polyethylene, poly(vinyl chloride), nylon-6,6, poly(methyl methacrylate) → 4. Cellulose và tinh bột là polymer thiên nhiên."
+  },
+  {
+   "qtype": "short",
+   "topic": "Carbohydrate – lên men",
+   "level": 3,
+   "stem": "Lên men 45 kg glucose với hiệu suất 80%, toàn bộ ethanol tạo thành được pha thành rượu 46°. Biết khối lượng riêng của ethanol nguyên chất là 0,8 g/mL. Thể tích rượu 46° thu được là bao nhiêu lít?",
+   "answer_text": "50",
+   "explanation": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. $n_{\\text{glucose}} = 250$ mol → $n_{\\text{ethanol}} = 2 \\cdot 250 \\cdot 0{,}8 = 400$ mol → $m = 18\\,400$ g → $V_{\\text{ethanol}} = 23$ L → $V_{\\text{rượu}} = 23 : 0{,}46 = 50$ L."
+  },
+  {
+   "qtype": "short",
+   "topic": "Điện phân – định lượng",
+   "level": 3,
+   "stem": "Điện phân dung dịch CuSO₄ (dư) với điện cực trơ, cường độ dòng điện không đổi 5 A trong 3 860 giây. Biết hiệu suất điện phân 100%, hằng số Faraday $F = 96\\,485$ C/mol. Khối lượng Cu bám vào cathode là bao nhiêu gam? (Làm tròn đến hàng phần mười.)",
+   "answer_text": "6,4",
+   "explanation": "$n_e = \\dfrac{It}{F} = \\dfrac{5 \\cdot 3860}{96\\,485} \\approx 0{,}2$ mol → $n_{\\mathrm{Cu}} \\approx 0{,}1$ mol → $m \\approx 6{,}4$ gam."
+  },
+  {
+   "qtype": "short",
+   "topic": "Amino acid – tính lưỡng tính",
+   "level": 3,
+   "stem": "Cho 0,1 mol glycine tác dụng với 150 mL dung dịch HCl 1 M, thu được dung dịch X. Cho X tác dụng vừa đủ với $V$ mL dung dịch NaOH 1 M. Giá trị của $V$ là bao nhiêu?",
+   "answer_text": "250",
+   "explanation": "NaOH phản ứng với nhóm –COOH của glycine và với toàn bộ HCl: $n_{\\mathrm{NaOH}} = 0{,}1 + 0{,}15 = 0{,}25$ mol → $V = 250$ mL."
+  },
+  {
+   "qtype": "short",
+   "topic": "Cấu tạo nguyên tử",
+   "level": 2,
+   "stem": "Nguyên tử X có tổng số hạt proton, neutron và electron là 40, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 12. Số khối của X là bao nhiêu?",
+   "answer_text": "27",
+   "explanation": "$2p + n = 40$; $2p - n = 12$ → $p = 13$, $n = 14$ → $A = 27$ (X là Al)."
+  },
+  {
+   "qtype": "short",
+   "topic": "Kim loại – tính toán hỗn hợp",
+   "level": 3,
+   "stem": "Hòa tan hoàn toàn 7,8 gam hỗn hợp Mg và Al bằng dung dịch HCl dư, thu được 9,916 L khí H₂ (đkc). Phần trăm khối lượng của Al trong hỗn hợp là bao nhiêu? (Làm tròn đến hàng phần mười.)",
+   "answer_text": "69,2",
+   "explanation": "$n_{\\mathrm{H_2}} = 9{,}916 : 24{,}79 = 0{,}4$ mol. Gọi $x, y$ là số mol Mg, Al: $24x + 27y = 7{,}8$; $x + 1{,}5y = 0{,}4$ → $x = 0{,}1$; $y = 0{,}2$ → $\\%m_{\\mathrm{Al}} = 5{,}4 : 7{,}8 \\approx 69{,}2\\%$."
+  }
+ ],
+ "self_check": "Kiểm bằng Python: sức điện động pin Mg–Ag, Zn–Cu, Zn–Ag; khối lượng xà phòng; %Cu; nhiệt tỏa ra khi tạo NH3; thể tích rượu 46°; khối lượng Cu điện phân (F = 96485); V NaOH; số khối; %Al. Nguyên tử khối theo SGK, thể tích khí đkc 24,79 L/mol; đã soát chuỗi ký tự cấm (N-a-N)."
+}

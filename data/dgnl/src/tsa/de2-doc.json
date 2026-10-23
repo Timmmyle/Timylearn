@@ -1,0 +1,334 @@
+{
+ "exam": "tsa",
+ "part": "doc",
+ "set": "de2",
+ "passages": {
+  "p1": "KHI THÀNH PHỐ TRỞ THÀNH “HÒN ĐẢO NÓNG”\n[1] Vào một buổi tối mùa hè, nếu đi xe máy từ ngoại thành vào trung tâm một thành phố lớn, nhiều người có thể cảm nhận rõ không khí mỗi lúc một oi bức hơn. Đó không đơn thuần là cảm giác chủ quan. Các phép đo ở nhiều đô thị trên thế giới cho thấy khu vực trung tâm thường nóng hơn vùng nông thôn lân cận vài độ C, và sự chênh lệch ấy thường rõ rệt nhất vào ban đêm. Hiện tượng này được gọi là “đảo nhiệt đô thị”, bởi trên bản đồ nhiệt độ, thành phố hiện lên như một hòn đảo ấm giữa vùng xung quanh mát hơn.\n[2] Nguyên nhân đầu tiên nằm ở vật liệu. Bê tông, nhựa đường và gạch có khả năng hấp thụ và tích trữ nhiệt lớn. Mặt đường nhựa sẫm màu có độ phản xạ thấp – còn gọi là albedo thấp – nghĩa là phần lớn ánh sáng mặt trời chiếu tới bị hấp thụ thay vì bị phản xạ trở lại. Ban ngày, các bề mặt này nóng lên; ban đêm, chúng từ từ tỏa nhiệt vào không khí, khiến nhiệt độ thành phố giảm chậm hơn nhiều so với đồng ruộng.\n[3] Nguyên nhân thứ hai là sự thiếu vắng cây xanh và mặt nước. Ở nông thôn, một phần đáng kể năng lượng mặt trời được dùng để làm bốc hơi nước từ đất, ao hồ và qua lá cây. Phần năng lượng dùng cho việc chuyển nước từ thể lỏng sang thể hơi không làm tăng nhiệt độ không khí, nên cây cối và mặt nước hoạt động như những chiếc “máy điều hòa tự nhiên”. Khi mặt đất bị phủ kín bởi bê tông và nước mưa nhanh chóng chảy xuống cống, cơ chế làm mát này gần như biến mất.\n[4] Hình thái đô thị cũng góp phần đáng kể. Những dãy nhà cao tầng san sát tạo thành các “hẻm phố” sâu, nơi bức xạ nhiệt phát ra từ mặt đường và tường nhà bị các bề mặt đối diện hấp thụ lại thay vì thoát lên bầu trời. Các tòa nhà còn cản gió, làm giảm khả năng mang nhiệt đi nơi khác. Cuối cùng, chính hoạt động của con người – xe cộ, nhà máy và đặc biệt là máy điều hòa không khí – trực tiếp thải một lượng nhiệt đáng kể ra môi trường.\n[5] Ở đây xuất hiện một vòng luẩn quẩn. Trời càng nóng, người dân càng dùng nhiều máy điều hòa; máy điều hòa làm mát trong nhà nhưng đẩy nhiệt ra đường phố, đồng thời tiêu thụ điện năng mà ở nhiều nơi vẫn được sản xuất chủ yếu từ nhiên liệu hóa thạch. Thành phố vì thế càng nóng hơn, và nhu cầu làm mát lại càng tăng. Hệ quả không chỉ là hóa đơn tiền điện: những đợt nắng nóng kéo dài ở đô thị làm tăng nguy cơ say nắng và các bệnh tim mạch, hô hấp, đặc biệt với người cao tuổi, trẻ nhỏ và người lao động ngoài trời. Khi nhiệt độ ban đêm duy trì ở mức cao, cơ thể không có được khoảng thời gian hồi phục cần thiết sau một ngày oi bức.\n[6] Các giải pháp giảm đảo nhiệt đô thị không đòi hỏi công nghệ phức tạp, nhưng đòi hỏi tầm nhìn quy hoạch. Trồng cây đường phố và mở rộng công viên giúp tạo bóng mát và tăng lượng hơi nước bốc lên. “Mái nhà mát” – lớp sơn phủ màu sáng có độ phản xạ cao – có thể làm giảm đáng kể nhiệt độ bề mặt mái. Mái nhà xanh, mặt đường thấm nước và việc bảo tồn ao hồ mang lại hiệu quả kép: vừa làm mát, vừa giảm ngập úng. Tuy vậy, không có giải pháp nào phù hợp cho mọi nơi; chẳng hạn, ở vùng khí hậu khô hạn, việc tưới cho thảm cây xanh cần được cân nhắc với nguồn nước hạn chế. Điều quan trọng là coi nhiệt độ như một tiêu chí của quy hoạch, ngang hàng với giao thông hay nhà ở, thay vì chỉ ứng phó khi nắng nóng đã ập đến.",
+  "p2": "KHI CỖ MÁY “NÓI CHẮC NHƯ ĐINH ĐÓNG CỘT”\n[1] Chỉ trong vài năm, các chatbot dựa trên mô hình ngôn ngữ lớn đã trở thành công cụ quen thuộc với rất nhiều người. Chúng viết thư, tóm tắt tài liệu, giải thích bài tập và trả lời câu hỏi với văn phong trôi chảy đến mức dễ khiến người dùng tin tưởng. Thế nhưng, đôi khi những câu trả lời tự tin ấy lại chứa thông tin sai: một trích dẫn không hề tồn tại, một sự kiện lịch sử bị đặt nhầm năm, hay một bài báo khoa học được “bịa” ra với đầy đủ tên tác giả và tên tạp chí. Giới nghiên cứu gọi hiện tượng này là “ảo giác” (hallucination) của trí tuệ nhân tạo.\n[2] Để hiểu vì sao ảo giác xảy ra, cần biết mô hình ngôn ngữ được tạo ra như thế nào. Trong giai đoạn huấn luyện chính, mô hình được cho “đọc” một khối lượng văn bản khổng lồ và tập dự đoán từ tiếp theo trong câu – chính xác hơn là đơn vị văn bản gọi là token. Qua vô số lần điều chỉnh, nó học được các quy luật thống kê của ngôn ngữ: từ nào thường đi với từ nào, một bài luận thường được tổ chức ra sao, một câu trả lời “nghe có vẻ đúng” trông như thế nào. Kết quả là một hệ thống tạo văn bản cực kỳ thành thạo, nhưng mục tiêu cốt lõi của giai đoạn này là tạo ra văn bản hợp lý về mặt ngôn ngữ, chứ không phải kiểm chứng sự thật.\n[3] Khi gặp câu hỏi về một chủ đề phổ biến, thông tin đúng thường xuất hiện lặp đi lặp lại trong dữ liệu huấn luyện, nên mô hình có xu hướng trả lời chính xác. Nhưng với những chi tiết hiếm gặp – ngày sinh của một nhân vật ít tên tuổi, số liệu trong một báo cáo chuyên ngành – mô hình có thể không có đủ “dấu vết” đáng tin cậy. Thay vì thừa nhận không biết, nó vẫn tạo ra một chuỗi từ có hình thức giống hệt câu trả lời đúng. Một số nghiên cứu còn chỉ ra rằng cách đánh giá mô hình phổ biến hiện nay, vốn chủ yếu chấm điểm theo tỉ lệ trả lời đúng, vô tình khuyến khích mô hình “đoán” thay vì nói “tôi không chắc” – giống như một học sinh làm bài trắc nghiệm không bị trừ điểm khi chọn bừa.\n[4] Các nhà phát triển đang thử nghiệm nhiều cách giảm ảo giác. Một hướng phổ biến là “tạo sinh tăng cường truy xuất” (RAG): trước khi trả lời, hệ thống tìm kiếm tài liệu liên quan từ một nguồn đáng tin cậy rồi dựa vào đó để soạn câu trả lời, kèm theo trích dẫn để người dùng kiểm tra. Một hướng khác là huấn luyện mô hình biết bày tỏ mức độ không chắc chắn và từ chối trả lời khi thiếu thông tin. Các biện pháp này đã giúp giảm đáng kể tần suất ảo giác nhưng chưa loại bỏ được hoàn toàn: nguồn được truy xuất có thể sai hoặc lỗi thời, và mô hình vẫn có thể diễn giải sai một tài liệu đúng.\n[5] Vì vậy, trách nhiệm cuối cùng vẫn thuộc về người dùng. Điều này không có nghĩa là nên quay lưng với công nghệ, mà là sử dụng nó đúng cách. Chatbot hữu ích nhất khi được dùng để gợi ý ý tưởng, giải thích khái niệm hay soạn bản nháp – những việc mà người dùng có thể tự đánh giá chất lượng. Ngược lại, với các thông tin cụ thể có hệ quả quan trọng như liều lượng thuốc, điều khoản pháp luật hay số liệu đưa vào bài nghiên cứu, mọi câu trả lời cần được đối chiếu với nguồn gốc. Một nguyên tắc đơn giản: độ trôi chảy của câu chữ không phải là bằng chứng cho độ chính xác của nội dung.\n[6] Xét ở góc độ rộng hơn, hiện tượng ảo giác nhắc lại một bài học cũ trong thời đại mới. Trước đây, người đọc phải học cách phân biệt sách vở đáng tin cậy với lời đồn đại; ngày nay, họ cần thêm kỹ năng nhận biết khi nào một cỗ máy đang “nói chắc như đinh đóng cột” về điều nó không thực sự biết. Năng lực đọc hiểu phản biện, vì thế, không hề lỗi thời trước trí tuệ nhân tạo mà càng trở nên thiết yếu."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "Nội dung chính của bài “Khi thành phố trở thành ‘hòn đảo nóng’” là gì?",
+   "options": [
+    "Kêu gọi người dân hạn chế sử dụng máy điều hòa không khí trong mùa hè.",
+    "So sánh khí hậu của các thành phố lớn trên thế giới.",
+    "Giải thích các nguyên nhân, hệ quả của hiện tượng đảo nhiệt đô thị và khẳng định cần đưa yếu tố nhiệt độ vào quy hoạch.",
+    "Chứng minh rằng trồng cây là giải pháp duy nhất cho nắng nóng đô thị."
+   ],
+   "answer": 2,
+   "explanation": "Chọn C. Đoạn [1] định nghĩa hiện tượng; [2]–[4] nêu nguyên nhân; [5] nêu hệ quả; [6] đề xuất giải pháp và nhấn mạnh tầm nhìn quy hoạch. Các phương án khác chỉ là chi tiết hoặc trái với bài (đoạn [6] nói 'không có giải pháp nào phù hợp cho mọi nơi')."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Theo đoạn [1], hiện tượng được gọi là “đảo nhiệt đô thị” vì",
+   "options": [
+    "các thành phố lớn thường được xây dựng trên đảo hoặc ven biển.",
+    "trên bản đồ nhiệt độ, thành phố hiện lên như một hòn đảo ấm giữa vùng xung quanh mát hơn.",
+    "nhiệt độ ở trung tâm thành phố cao hơn vùng nông thôn vài chục độ C.",
+    "người dân đô thị bị cô lập như sống trên một hòn đảo khi trời nắng nóng."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Câu cuối đoạn [1] giải thích tên gọi. Bài nói chênh lệch 'vài độ C', không phải vài chục độ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – từ ngữ trong ngữ cảnh",
+   "level": 1,
+   "stem": "Cụm từ “albedo thấp” trong đoạn [2] được hiểu là",
+   "options": [
+    "bề mặt phản xạ phần lớn ánh sáng mặt trời chiếu tới.",
+    "bề mặt phản xạ ít và hấp thụ phần lớn ánh sáng mặt trời chiếu tới.",
+    "bề mặt có khả năng thấm nước kém.",
+    "bề mặt có nhiệt độ thấp hơn không khí xung quanh."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Bài giải thích ngay: độ phản xạ thấp, 'phần lớn ánh sáng mặt trời chiếu tới bị hấp thụ thay vì bị phản xạ trở lại'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 2,
+   "stem": "Theo đoạn [3], vì sao cây cối và mặt nước được ví như “máy điều hòa tự nhiên”?",
+   "options": [
+    "Vì một phần năng lượng mặt trời được dùng để làm bốc hơi nước, phần năng lượng này không làm tăng nhiệt độ không khí.",
+    "Vì cây xanh hấp thụ khí CO₂ nên làm giảm hiệu ứng nhà kính trong thành phố.",
+    "Vì cây cối và ao hồ tỏa nhiệt vào không khí chậm hơn bê tông vào ban đêm.",
+    "Vì lá cây phản xạ toàn bộ ánh sáng mặt trời chiếu tới."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Đoạn [3]: 'Phần năng lượng dùng cho việc chuyển nước từ thể lỏng sang thể hơi không làm tăng nhiệt độ không khí'. Các lý do khác không được nêu trong đoạn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – mục đích đoạn",
+   "level": 1,
+   "stem": "Đoạn [4] có vai trò gì trong lập luận của bài?",
+   "options": [
+    "Bác bỏ các nguyên nhân về vật liệu đã nêu ở đoạn [2].",
+    "Trình bày hệ quả của đảo nhiệt đối với sức khỏe.",
+    "Bổ sung thêm các nguyên nhân liên quan đến hình thái đô thị và hoạt động của con người.",
+    "Đề xuất giải pháp thay đổi cách xây dựng nhà cao tầng."
+   ],
+   "answer": 2,
+   "explanation": "Chọn C. Đoạn [4] mở đầu 'Hình thái đô thị cũng góp phần đáng kể' và kết thúc bằng nhiệt thải từ hoạt động con người – tiếp nối chuỗi nguyên nhân ở [2], [3]."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – từ ngữ trong ngữ cảnh",
+   "level": 2,
+   "stem": "“Vòng luẩn quẩn” được nhắc tới ở đoạn [5] là chuỗi nào sau đây?",
+   "options": [
+    "Trời nóng → người dân ra ngoài nhiều hơn → giao thông tăng → nhiều khí thải hơn → trời mát hơn.",
+    "Trời nóng → trồng thêm cây xanh → tăng bốc hơi nước → mưa nhiều → ngập úng.",
+    "Trời nóng → bệnh tim mạch tăng → chi phí y tế tăng → giảm đầu tư cho cây xanh.",
+    "Trời nóng → dùng nhiều điều hòa → thải nhiệt ra phố và tăng tiêu thụ điện → thành phố nóng hơn → nhu cầu làm mát tăng."
+   ],
+   "answer": 3,
+   "explanation": "Chọn D. Đoạn [5] mô tả chính chuỗi: dùng điều hòa đẩy nhiệt ra đường và tiêu thụ điện, 'thành phố vì thế càng nóng hơn, và nhu cầu làm mát lại càng tăng'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Dựa vào bài, có thể giải thích hợp lý nhất vì sao chênh lệch nhiệt độ giữa thành phố và nông thôn thường rõ nhất vào ban đêm là",
+   "options": [
+    "bê tông, nhựa đường tích nhiệt suốt ban ngày rồi tỏa ra từ từ, trong khi hẻm phố giữ lại bức xạ nhiệt khiến thành phố nguội chậm hơn đồng ruộng.",
+    "ban đêm nông thôn không có ánh sáng mặt trời còn thành phố vẫn được chiếu sáng bằng đèn điện.",
+    "ban đêm cây xanh ở nông thôn ngừng thoát hơi nước nên nông thôn nóng lên.",
+    "ban đêm người dân thành phố tắt hết máy điều hòa nên nhiệt độ tăng vọt."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Kết hợp đoạn [2] (vật liệu tỏa nhiệt từ từ vào ban đêm, 'nhiệt độ thành phố giảm chậm hơn nhiều so với đồng ruộng') và đoạn [4] (hẻm phố hấp thụ lại bức xạ thay vì để thoát lên trời). Các phương án khác không có cơ sở trong bài."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p1",
+   "topic": "Đọc hiểu – đúng/sai",
+   "level": 2,
+   "stem": "Dựa vào bài đọc về đảo nhiệt đô thị, xác định mỗi nhận định sau là Đúng hay Sai.",
+   "statements": [
+    {
+     "t": "Mặt đường nhựa sẫm màu phản xạ phần lớn ánh sáng mặt trời chiếu tới.",
+     "a": false
+    },
+    {
+     "t": "Các tòa nhà cao tầng làm giảm gió, góp phần giữ nhiệt lại trong thành phố.",
+     "a": true
+    },
+    {
+     "t": "Theo bài, mái nhà xanh và mặt đường thấm nước vừa giúp làm mát vừa giúp giảm ngập úng.",
+     "a": true
+    },
+    {
+     "t": "Tác giả cho rằng trồng và tưới cây xanh là giải pháp phù hợp ở mọi vùng khí hậu mà không cần cân nhắc.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Sai: mặt đường sẫm màu có albedo thấp, hấp thụ phần lớn ánh sáng (đoạn [2]). b) Đúng: 'Các tòa nhà còn cản gió' (đoạn [4]). c) Đúng: 'hiệu quả kép' (đoạn [6]). d) Sai: ở vùng khô hạn việc tưới cây 'cần được cân nhắc' (đoạn [6])."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – quan điểm tác giả",
+   "level": 2,
+   "stem": "Câu nào thể hiện rõ nhất quan điểm của tác giả về cách tiếp cận vấn đề đảo nhiệt đô thị?",
+   "options": [
+    "Cần đầu tư vào các công nghệ làm mát hiện đại, phức tạp thì mới giải quyết được vấn đề.",
+    "Đảo nhiệt đô thị là hệ quả tất yếu của đô thị hóa nên con người chỉ có thể thích nghi.",
+    "Mỗi hộ gia đình tự lắp điều hòa là cách hiệu quả nhất để bảo vệ sức khỏe khi nắng nóng.",
+    "Cần chủ động coi nhiệt độ là một tiêu chí quy hoạch ngang hàng với giao thông, nhà ở thay vì chỉ ứng phó khi nắng nóng xảy ra."
+   ],
+   "answer": 3,
+   "explanation": "Chọn D. Đoạn [6]: giải pháp 'không đòi hỏi công nghệ phức tạp, nhưng đòi hỏi tầm nhìn quy hoạch' và câu kết về coi nhiệt độ là tiêu chí quy hoạch. Điều hòa lại là một mắt xích của vòng luẩn quẩn (đoạn [5])."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Một khu đô thị dự định san lấp một hồ nước để làm bãi đỗ xe trải nhựa đường. Theo lập luận của bài, hệ quả nào có khả năng xảy ra nhất?",
+   "options": [
+    "Nhiệt độ khu vực giảm vì nhựa đường phản xạ ánh sáng tốt hơn mặt nước.",
+    "Nhiệt độ không đổi vì hồ nước không ảnh hưởng tới vi khí hậu.",
+    "Nhiệt độ khu vực có xu hướng tăng và nguy cơ ngập úng khi mưa lớn có thể tăng lên.",
+    "Nguy cơ ngập úng giảm vì nước mưa chảy nhanh hơn trên nhựa đường."
+   ],
+   "answer": 2,
+   "explanation": "Chọn C. Mất mặt nước → mất cơ chế làm mát do bốc hơi (đoạn [3]); nhựa đường sẫm màu albedo thấp, tích nhiệt (đoạn [2]); đoạn [6] cho biết bảo tồn ao hồ, mặt thấm nước giúp giảm ngập, nên lấp hồ, trải nhựa làm tăng nguy cơ ngập."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 3,
+   "stem": "Ý nào sau đây khái quát đúng nhất nội dung bài “Khi cỗ máy ‘nói chắc như đinh đóng cột’”?",
+   "options": [
+    "Chatbot thường xuyên đưa thông tin sai nên người dùng không nên sử dụng chúng.",
+    "Ảo giác bắt nguồn từ cách mô hình ngôn ngữ được huấn luyện và đánh giá; các biện pháp kỹ thuật chỉ giảm được phần nào, nên người dùng cần đọc hiểu phản biện và kiểm chứng thông tin.",
+    "Kỹ thuật RAG đã giải quyết triệt để hiện tượng ảo giác của trí tuệ nhân tạo.",
+    "Mô hình ngôn ngữ được huấn luyện để kiểm chứng sự thật nhưng đôi khi bị lỗi kỹ thuật."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Bài đi từ hiện tượng ([1]) → nguyên nhân ([2]–[3]) → biện pháp và giới hạn ([4]) → trách nhiệm, kỹ năng của người dùng ([5]–[6]). Tác giả không khuyên quay lưng với công nghệ; RAG chưa loại bỏ được hoàn toàn ảo giác; mục tiêu huấn luyện chính không phải kiểm chứng sự thật."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Theo bài, “ảo giác” của trí tuệ nhân tạo là hiện tượng",
+   "options": [
+    "mô hình từ chối trả lời những câu hỏi khó.",
+    "mô hình đưa ra thông tin sai nhưng được trình bày trôi chảy, tự tin như thông tin đúng.",
+    "người dùng tưởng tượng rằng chatbot có ý thức như con người.",
+    "mô hình trả lời chậm do phải tìm kiếm tài liệu."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Đoạn [1]: 'những câu trả lời tự tin ấy lại chứa thông tin sai… Giới nghiên cứu gọi hiện tượng này là ảo giác'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Theo đoạn [2], trong giai đoạn huấn luyện chính, mô hình ngôn ngữ chủ yếu học cách",
+   "options": [
+    "tra cứu và kiểm chứng từng thông tin trong cơ sở dữ liệu.",
+    "ghi nhớ nguyên văn toàn bộ văn bản đã đọc.",
+    "phân loại thông tin thành đúng và sai.",
+    "dự đoán token tiếp theo dựa trên các quy luật thống kê của ngôn ngữ."
+   ],
+   "answer": 3,
+   "explanation": "Chọn D. Đoạn [2]: mô hình 'tập dự đoán từ tiếp theo… token', học 'các quy luật thống kê của ngôn ngữ'; mục tiêu cốt lõi 'không phải kiểm chứng sự thật'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – mục đích đoạn",
+   "level": 2,
+   "stem": "Tác giả so sánh với “một học sinh làm bài trắc nghiệm không bị trừ điểm khi chọn bừa” nhằm",
+   "options": [
+    "phê phán cách tổ chức thi trắc nghiệm hiện nay ở trường học.",
+    "cho thấy mô hình ngôn ngữ học tập giống hệt học sinh.",
+    "minh họa việc chấm điểm chủ yếu theo tỉ lệ trả lời đúng có thể khuyến khích mô hình đoán thay vì thừa nhận không chắc chắn.",
+    "khẳng định mô hình luôn trả lời sai các câu hỏi trắc nghiệm."
+   ],
+   "answer": 2,
+   "explanation": "Chọn C. Khi đoán không bị phạt, đoán luôn có lợi hơn bỏ trống; tương tự, cách đánh giá theo tỉ lệ đúng 'vô tình khuyến khích mô hình đoán' (đoạn [3])."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – từ ngữ trong ngữ cảnh",
+   "level": 3,
+   "stem": "Từ “dấu vết” trong đoạn [3] (“mô hình có thể không có đủ ‘dấu vết’ đáng tin cậy”) được dùng để chỉ",
+   "options": [
+    "những thông tin xuất hiện đủ nhiều trong dữ liệu huấn luyện để mô hình có thể dựa vào khi trả lời.",
+    "những lỗi chính tả còn sót lại trong câu trả lời của mô hình.",
+    "lịch sử trò chuyện giữa người dùng và chatbot.",
+    "các đường dẫn tới nguồn tài liệu mà mô hình trích dẫn."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Câu trước đó đối lập: chủ đề phổ biến thì thông tin đúng 'xuất hiện lặp đi lặp lại trong dữ liệu huấn luyện'; chi tiết hiếm gặp thì thiếu 'dấu vết' – tức thiếu thông tin được học đủ nhiều."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p2",
+   "topic": "Đọc hiểu – đúng/sai",
+   "level": 1,
+   "stem": "Dựa vào bài đọc về ảo giác của trí tuệ nhân tạo, xác định mỗi nhận định sau là Đúng hay Sai.",
+   "statements": [
+    {
+     "t": "Với kỹ thuật RAG, hệ thống tìm tài liệu liên quan trước khi soạn câu trả lời.",
+     "a": true
+    },
+    {
+     "t": "Theo bài, các biện pháp như RAG đã loại bỏ hoàn toàn hiện tượng ảo giác.",
+     "a": false
+    },
+    {
+     "t": "Mô hình dễ trả lời sai về các chi tiết hiếm gặp hơn so với các chủ đề phổ biến.",
+     "a": true
+    },
+    {
+     "t": "Tác giả khuyên người dùng nên ngừng sử dụng chatbot cho đến khi hết hiện tượng ảo giác.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đoạn [4]. b) Sai: 'chưa loại bỏ được hoàn toàn' (đoạn [4]). c) Đúng: đoạn [3]. d) Sai: 'không có nghĩa là nên quay lưng với công nghệ, mà là sử dụng nó đúng cách' (đoạn [5])."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Theo tinh thần của đoạn [5], trường hợp nào sau đây ĐẶC BIỆT cần đối chiếu câu trả lời của chatbot với nguồn gốc đáng tin cậy?",
+   "options": [
+    "Nhờ chatbot gợi ý vài ý tưởng mở đầu cho bài thuyết trình.",
+    "Hỏi chatbot về liều lượng thuốc hạ sốt cho trẻ nhỏ.",
+    "Nhờ chatbot soạn bản nháp thư mời họp lớp.",
+    "Nhờ chatbot gợi ý tên cho câu lạc bộ đọc sách."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Đoạn [5] tách hai nhóm: việc người dùng tự đánh giá được (gợi ý ý tưởng, soạn nháp) và thông tin cụ thể có hệ quả quan trọng như 'liều lượng thuốc' – nhóm sau bắt buộc đối chiếu nguồn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – quan điểm tác giả",
+   "level": 2,
+   "stem": "Theo tác giả, sự phát triển của trí tuệ nhân tạo đặt năng lực đọc hiểu phản biện vào vị trí như thế nào?",
+   "options": [
+    "Càng trở nên thiết yếu hơn.",
+    "Dần trở nên lỗi thời.",
+    "Có thể được máy móc thay thế hoàn toàn.",
+    "Chỉ cần thiết với các nhà nghiên cứu."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Câu kết đoạn [6]: 'Năng lực đọc hiểu phản biện… không hề lỗi thời trước trí tuệ nhân tạo mà càng trở nên thiết yếu'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – hoàn thành tóm tắt",
+   "level": 2,
+   "stem": "Chọn phương án điền đúng vào các chỗ trống trong câu tóm tắt: “Ảo giác xuất hiện vì mô hình được huấn luyện để tạo văn bản (1) ___ hơn là (2) ___; các biện pháp như RAG giúp (3) ___ hiện tượng này nhưng chưa loại trừ được hoàn toàn.”",
+   "options": [
+    "(1) kiểm chứng sự thật; (2) hợp lý về ngôn ngữ; (3) giảm tần suất",
+    "(1) hợp lý về ngôn ngữ; (2) kiểm chứng sự thật; (3) loại bỏ triệt để",
+    "(1) ngắn gọn; (2) dài dòng; (3) giảm tần suất",
+    "(1) hợp lý về ngôn ngữ; (2) kiểm chứng sự thật; (3) giảm tần suất"
+   ],
+   "answer": 3,
+   "explanation": "Chọn D. Đoạn [2]: mục tiêu là văn bản 'hợp lý về mặt ngôn ngữ, chứ không phải kiểm chứng sự thật'; đoạn [4]: các biện pháp 'giúp giảm đáng kể tần suất ảo giác nhưng chưa loại bỏ được hoàn toàn'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Lời cảnh báo “độ trôi chảy của câu chữ không phải là bằng chứng cho độ chính xác của nội dung” dựa trên tiền đề ngầm nào?",
+   "options": [
+    "Người đọc thường có xu hướng tin vào những văn bản được viết trôi chảy, tự tin.",
+    "Văn bản trôi chảy thường chứa nhiều lỗi hơn văn bản vụng về.",
+    "Mọi văn bản do máy tạo ra đều sai.",
+    "Người dùng không đủ khả năng tự đánh giá bất kỳ văn bản nào."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Lời cảnh báo chỉ cần thiết nếu người đọc dễ lấy độ trôi chảy làm thước đo độ tin cậy – điều đoạn [1] đã nêu ('văn phong trôi chảy đến mức dễ khiến người dùng tin tưởng'). Các phương án khác là khái quát quá mức, trái với bài."
+  }
+ ],
+ "self_check": "Hai bài đọc tự viết (đảo nhiệt đô thị; ảo giác của mô hình ngôn ngữ lớn), nội dung đối chiếu kiến thức phổ thông/ tài liệu công khai, không dùng số liệu thống kê cụ thể; rà từng câu với đoạn văn để chỉ một đáp án đúng; tf có cả Đúng/Sai; đáp án rải đều; chạy dgnl-check ✓."
+}

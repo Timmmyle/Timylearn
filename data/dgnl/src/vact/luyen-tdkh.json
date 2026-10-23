@@ -1,0 +1,267 @@
+{
+ "exam": "vact",
+ "part": "tdkh",
+ "set": "luyen",
+ "passages": {
+  "r1": "Năm vận động viên Bảo, Cúc, Đạt, Em, Phúc tham gia một cuộc thi chạy; không có hai người nào về đích cùng lúc. Biết rằng:\n1. Cúc về đích trước Đạt.\n2. Bảo không về nhất và cũng không về cuối cùng.\n3. Em về đích ngay sau Bảo.\n4. Phúc về đích trước Bảo.",
+  "d1": "Lượng điện tiêu thụ của một hộ gia đình (số liệu giả định) trong 6 tháng đầu năm như sau (đơn vị: kWh):\nTháng 1: 180; Tháng 2: 160; Tháng 3: 200; Tháng 4: 240; Tháng 5: 290; Tháng 6: 320.",
+  "s1": "Một nhóm học sinh dùng ống cộng hưởng để đo tốc độ truyền âm trong không khí ở các nhiệt độ khác nhau, thu được:\n| Nhiệt độ (°C) | 0 | 10 | 20 | 30 |\n| Tốc độ âm (m/s) | 331,4 | 337,4 | 343,4 | 349,4 |",
+  "s2": "Cấy một lượng nhỏ vi khuẩn E. coli vào bình môi trường dinh dưỡng lỏng, nuôi cấy ở 37 °C, không bổ sung thêm chất dinh dưỡng và không lấy bớt sản phẩm. Mật độ tế bào sống (đơn vị: $10^6$ tế bào/mL) được xác định theo thời gian:\n| Thời gian (giờ) | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n| Mật độ | 1,0 | 1,1 | 4,4 | 17,6 | 70,4 | 95 | 96 | 96 |",
+  "s3": "Một học sinh dùng máy đo pH để đo pH của một số dung dịch ở 25 °C:\nNước chanh: 2,4; Giấm ăn: 2,9; Nước cất: 7,0; Nước xà phòng: 9,8; Nước vôi trong: 12,4.\nSau đó, học sinh chuẩn độ 10,00 mL dung dịch NaOH chưa biết nồng độ bằng dung dịch HCl 0,100 M, dùng chỉ thị phenolphthalein. Trung bình 3 lần chuẩn độ, thể tích HCl đã dùng là 12,50 mL."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "r1",
+   "topic": "Suy luận logic – thứ tự",
+   "level": 1,
+   "stem": "Nếu Đạt về thứ hai thì ai về nhất?",
+   "options": [
+    "Phúc",
+    "Cúc",
+    "Bảo",
+    "Em"
+   ],
+   "answer": 1,
+   "explanation": "Cúc về trước Đạt, Đạt thứ hai nên Cúc về nhất."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "r1",
+   "topic": "Suy luận logic – thứ tự",
+   "level": 2,
+   "stem": "Nếu Phúc về thứ ba thì điều nào sau đây chắc chắn đúng?",
+   "options": [
+    "Bảo về thứ hai",
+    "Em về thứ tư",
+    "Cúc về thứ hai",
+    "Đạt về thứ hai"
+   ],
+   "answer": 3,
+   "explanation": "Phúc thứ ba, Bảo về sau Phúc và không về cuối nên Bảo thứ tư, Em thứ năm. Cúc và Đạt chiếm vị trí 1, 2 với Cúc trước Đạt: Cúc thứ nhất, Đạt thứ hai."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "r1",
+   "topic": "Suy luận logic – thứ tự",
+   "level": 3,
+   "stem": "Vận động viên nào KHÔNG thể về đích ở vị trí thứ ba?",
+   "options": [
+    "Cúc",
+    "Bảo",
+    "Đạt",
+    "Em"
+   ],
+   "answer": 0,
+   "explanation": "Bảo ở vị trí 2, 3 hoặc 4. Nếu Bảo thứ 2 thì Phúc 1, Em 3, Cúc 4, Đạt 5. Nếu Bảo thứ 3 thì Em 4, Phúc và Cúc ở 1, 2, Đạt 5. Nếu Bảo thứ 4 thì Em 5, vị trí 1 – 3 cho Cúc, Đạt, Phúc với Cúc trước Đạt nên Cúc không thể thứ 3. Vậy Cúc không bao giờ về thứ ba (Em, Bảo, Đạt đều có thể)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Suy luận logic – nói thật, nói dối",
+   "level": 2,
+   "stem": "Có ba chiếc hộp, đúng một hộp chứa phần thưởng. Trên mỗi hộp có một dòng chữ:\n- Hộp 1: \"Phần thưởng ở trong hộp này.\"\n- Hộp 2: \"Phần thưởng không ở trong hộp này.\"\n- Hộp 3: \"Phần thưởng không ở trong hộp 1.\"\nBiết rằng chỉ có đúng một dòng chữ đúng. Phần thưởng ở đâu?",
+   "options": [
+    "Hộp 1",
+    "Hộp 3",
+    "Hộp 2",
+    "Không xác định được"
+   ],
+   "answer": 2,
+   "explanation": "Dòng chữ trên hộp 1 và hộp 3 mâu thuẫn nhau nên đúng một trong hai dòng đó đúng; vậy dòng trên hộp 2 sai, tức phần thưởng ở hộp 2. Kiểm tra: hộp 1 sai, hộp 3 đúng – đúng một dòng đúng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Suy luận logic – mệnh đề",
+   "level": 2,
+   "stem": "Cho hai khẳng định đúng: \"Tất cả học sinh lớp 12A đều tham gia câu lạc bộ Khoa học\" và \"Một số thành viên câu lạc bộ Khoa học là học sinh giỏi Hóa\". Khẳng định nào sau đây chắc chắn đúng?",
+   "options": [
+    "Một số học sinh lớp 12A là học sinh giỏi Hóa",
+    "Mọi thành viên câu lạc bộ Khoa học đều là học sinh lớp 12A",
+    "Mọi học sinh giỏi Hóa đều là thành viên câu lạc bộ Khoa học",
+    "Có thể không có học sinh lớp 12A nào là học sinh giỏi Hóa"
+   ],
+   "answer": 3,
+   "explanation": "Lớp 12A là một phần của câu lạc bộ; nhóm học sinh giỏi Hóa chỉ cần giao với câu lạc bộ ở phần ngoài lớp 12A. Vì vậy không suy ra được 12A có học sinh giỏi Hóa, và hoàn toàn có thể không có ai. Hai phương án còn lại đảo ngược quan hệ bao hàm, không suy ra được."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "d1",
+   "topic": "Phân tích số liệu – tăng trưởng",
+   "level": 2,
+   "stem": "So với tháng liền trước, tháng nào có tỉ lệ tăng lượng điện tiêu thụ lớn nhất?",
+   "options": [
+    "Tháng 4",
+    "Tháng 3",
+    "Tháng 5",
+    "Tháng 6"
+   ],
+   "answer": 1,
+   "explanation": "Tháng 3: $\\dfrac{40}{160} = 25\\%$; tháng 4: $\\dfrac{40}{200} = 20\\%$; tháng 5: $\\dfrac{50}{240} \\approx 20{,}8\\%$; tháng 6: $\\dfrac{30}{290} \\approx 10{,}3\\%$. Lớn nhất là tháng 3."
+  },
+  {
+   "qtype": "short",
+   "passage": "d1",
+   "topic": "Phân tích số liệu – tăng trưởng",
+   "level": 2,
+   "stem": "Lượng điện tiêu thụ tháng 6 tăng bao nhiêu phần trăm so với tháng 1? (Điền số, làm tròn đến hàng phần mười)",
+   "answer_text": "77,8",
+   "explanation": "$\\dfrac{320-180}{180}\\cdot 100\\% \\approx 77{,}8\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – sóng âm",
+   "level": 1,
+   "stem": "Theo bảng số liệu, mỗi khi nhiệt độ không khí tăng thêm 10 °C thì tốc độ âm",
+   "options": [
+    "tăng thêm 6,0 m/s",
+    "tăng thêm 0,6 m/s",
+    "giảm đi 6,0 m/s",
+    "tăng gấp đôi"
+   ],
+   "answer": 0,
+   "explanation": "337,4 − 331,4 = 343,4 − 337,4 = 349,4 − 343,4 = 6,0 m/s cho mỗi 10 °C."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – sóng âm",
+   "level": 2,
+   "stem": "Nếu quy luật trong bảng vẫn đúng, tốc độ âm trong không khí ở 35 °C là",
+   "options": [
+    "350,0 m/s",
+    "352,4 m/s",
+    "355,4 m/s",
+    "361,4 m/s"
+   ],
+   "answer": 1,
+   "explanation": "Tốc độ tăng 0,6 m/s mỗi °C: $v = 331{,}4 + 0{,}6 \\cdot 35 = 352{,}4$ m/s."
+  },
+  {
+   "qtype": "short",
+   "passage": "s1",
+   "topic": "Vật lí – sóng âm",
+   "level": 3,
+   "stem": "Ở 20 °C, một bạn đứng trước một vách đá và vỗ tay, sau 0,60 s thì nghe được tiếng vọng. Khoảng cách từ bạn đó đến vách đá là bao nhiêu mét? (làm tròn đến hàng đơn vị)",
+   "answer_text": "103",
+   "explanation": "Âm đi đến vách và quay lại: $2d = v t$, $d = \\dfrac{343{,}4 \\cdot 0{,}60}{2} = 103{,}02 \\approx 103$ m."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Sinh học – vi sinh vật",
+   "level": 1,
+   "stem": "Trong khoảng thời gian nào quần thể vi khuẩn ở pha cân bằng?",
+   "options": [
+    "Từ 0 giờ đến 1 giờ",
+    "Từ 1 giờ đến 4 giờ",
+    "Từ 5 giờ đến 7 giờ",
+    "Từ 2 giờ đến 3 giờ"
+   ],
+   "answer": 2,
+   "explanation": "Pha cân bằng: số tế bào gần như không đổi (95 – 96 – 96). 0 – 1 giờ là pha tiềm phát, 1 – 4 giờ là pha lũy thừa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Sinh học – vi sinh vật",
+   "level": 2,
+   "stem": "Thời gian thế hệ của vi khuẩn trong pha lũy thừa là",
+   "options": [
+    "15 phút",
+    "20 phút",
+    "30 phút",
+    "60 phút"
+   ],
+   "answer": 2,
+   "explanation": "Trong pha lũy thừa, mật độ tăng 4 lần mỗi giờ ($4 = 2^2$), tức 2 thế hệ/giờ, nên thời gian thế hệ $g = \\dfrac{60}{2} = 30$ phút."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Sinh học – vi sinh vật",
+   "level": 2,
+   "stem": "Nguyên nhân chính dẫn đến pha cân bằng trong bình nuôi cấy là",
+   "options": [
+    "chất dinh dưỡng cạn dần, chất thải độc tích lũy nên số tế bào sinh ra xấp xỉ số tế bào chết",
+    "vi khuẩn đang tổng hợp enzyme để thích nghi với môi trường mới",
+    "nhiệt độ của bình nuôi cấy giảm dần theo thời gian",
+    "vi khuẩn ngừng hoàn toàn mọi hoạt động trao đổi chất"
+   ],
+   "answer": 0,
+   "explanation": "Trong nuôi cấy không liên tục, dinh dưỡng không được bổ sung, sản phẩm chuyển hóa tích lũy, nên tốc độ phân chia giảm đến khi cân bằng với tốc độ chết. Tổng hợp enzyme thích nghi là đặc điểm của pha tiềm phát."
+  },
+  {
+   "qtype": "tf",
+   "passage": "s2",
+   "topic": "Sinh học – vi sinh vật",
+   "level": 3,
+   "stem": "Dựa vào kết quả thí nghiệm, xét tính đúng/sai của các nhận định sau.",
+   "statements": [
+    {
+     "t": "Từ thời điểm 1 giờ đến 4 giờ, mật độ tế bào tăng 64 lần.",
+     "a": true
+    },
+    {
+     "t": "Trong pha lũy thừa, mỗi giờ quần thể trải qua 2 thế hệ.",
+     "a": true
+    },
+    {
+     "t": "Trong giờ đầu tiên, phần lớn tế bào vi khuẩn bị chết do chưa thích nghi với môi trường.",
+     "a": false
+    },
+    {
+     "t": "Tốc độ tăng mật độ (tính theo số lần) trong khoảng 4 – 5 giờ lớn hơn trong khoảng 2 – 3 giờ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 70,4 : 1,1 = 64. b) Đúng: mật độ tăng 4 lần/giờ = 2 lần nhân đôi. c) Sai: ở pha tiềm phát, vi khuẩn thích nghi, tổng hợp enzyme, số lượng gần như không đổi chứ không phải chết hàng loạt (mật độ vẫn tăng nhẹ 1,0 → 1,1). d) Sai: 4 – 5 giờ chỉ tăng $95 : 70{,}4 \\approx 1{,}35$ lần, còn 2 – 3 giờ tăng 4 lần."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Hóa học – pH",
+   "level": 1,
+   "stem": "Trong các dung dịch được đo, dung dịch nào có tính base mạnh nhất?",
+   "options": [
+    "Nước xà phòng",
+    "Nước cất",
+    "Nước chanh",
+    "Nước vôi trong"
+   ],
+   "answer": 3,
+   "explanation": "pH càng lớn (trên 7) thì tính base càng mạnh; nước vôi trong có pH lớn nhất (12,4)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Hóa học – pH",
+   "level": 3,
+   "stem": "Nồng độ ion $\\mathrm{H^+}$ trong nước chanh gấp khoảng bao nhiêu lần trong giấm ăn?",
+   "options": [
+    "0,5 lần",
+    "1,2 lần",
+    "3,2 lần",
+    "5,0 lần"
+   ],
+   "answer": 2,
+   "explanation": "$[\\mathrm{H^+}] = 10^{-\\mathrm{pH}}$ nên tỉ số là $\\dfrac{10^{-2{,}4}}{10^{-2{,}9}} = 10^{0{,}5} \\approx 3{,}2$ lần."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Hóa học – chuẩn độ",
+   "level": 2,
+   "stem": "Nồng độ dung dịch NaOH đã chuẩn độ là",
+   "options": [
+    "0,0125 M",
+    "0,080 M",
+    "0,100 M",
+    "0,125 M"
+   ],
+   "answer": 3,
+   "explanation": "$\\mathrm{NaOH + HCl \\rightarrow NaCl + H_2O}$: $n_{\\mathrm{NaOH}} = n_{\\mathrm{HCl}} = 0{,}100 \\cdot 0{,}01250 = 1{,}25\\cdot 10^{-3}$ mol; $C = \\dfrac{1{,}25\\cdot 10^{-3}}{0{,}01000} = 0{,}125$ M."
+  }
+ ],
+ "self_check": "Liệt kê hoán vị bài thứ tự về đích (6 nghiệm), duyệt 3 vị trí phần thưởng, kiểm tam đoạn luận bằng mô hình tập hợp trên vũ trụ 3 phần tử (Python); kiểm bằng Python các phép tính tăng trưởng, tốc độ âm, thời gian thế hệ, tỉ số [H+], nồng độ chuẩn độ."
+}

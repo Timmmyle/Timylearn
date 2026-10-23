@@ -1,0 +1,616 @@
+{
+ "exam": "tsa",
+ "part": "kh",
+ "set": "de1",
+ "passages": {
+  "p1": "Một nhóm học sinh khảo sát chu kì dao động của con lắc đơn. Quả nặng nhỏ khối lượng 50 g được treo vào sợi dây nhẹ, không dãn; kéo lệch dây khỏi phương thẳng đứng một góc nhỏ (khoảng $5^\\circ$) rồi thả nhẹ. Với mỗi chiều dài dây $L$, nhóm dùng đồng hồ bấm giây đo thời gian $t$ của 10 dao động toàn phần. Kết quả:\nL (m) | 0,40 | 0,60 | 0,80 | 1,00 | 1,20\nt (s) | 12,7 | 15,5 | 18,0 | 20,1 | 22,0\nSau đó nhóm lặp lại phép đo với $L = 0{,}80$ m nhưng thay quả nặng 50 g bằng quả nặng 100 g cùng kích thước và thu được $t = 18{,}0$ s.\nBiết chu kì dao động nhỏ của con lắc đơn là $T = 2\\pi\\sqrt{\\dfrac{L}{g}}$, với $g$ là gia tốc trọng trường.",
+  "p2": "Để khảo sát các yếu tố ảnh hưởng đến tốc độ phản ứng $\\text{Mg} + 2\\text{HCl} \\rightarrow \\text{MgCl}_2 + \\text{H}_2$, một nhóm học sinh cho 0,12 g magnesium dạng dải vào 50 mL dung dịch HCl trong bình kín nối với xilanh đo khí. Thể tích khí H₂ (quy về điều kiện chuẩn 25 °C, 1 bar; 1 mol khí chiếm 24,79 L) được ghi theo thời gian:\nThời gian (s) | 0 | 30 | 60 | 90 | 120 | 150\nTN1 (HCl 1,0 M; 25 °C) | 0 | 38 | 68 | 92 | 110 | 121\nTN2 (HCl 2,0 M; 25 °C) | 0 | 70 | 108 | 122 | 124 | 124\nTN3 (HCl 1,0 M; 35 °C) | 0 | 62 | 100 | 119 | 124 | 124\nCho Mg = 24. Thể tích đo bằng mL.",
+  "p3": "Để nghiên cứu các nhân tố ảnh hưởng đến quang hợp, một học sinh đặt các cành rong đuôi chó giống nhau (cùng chiều dài, cùng số lá) vào các ống nghiệm chứa nước ở 25 °C, chiếu sáng bằng đèn LED công suất nhỏ (ít tỏa nhiệt) đặt cách ống nghiệm một khoảng $d$. Sau 5 phút ổn định, học sinh đếm số bọt khí thoát ra từ vết cắt của cành rong trong 1 phút.\nDãy A: nước máy. Dãy B: nước máy có hòa tan thêm 0,5% NaHCO₃.\nd (cm) | 10 | 20 | 30 | 40 | 50\nDãy A (bọt/phút) | 40 | 26 | 15 | 9 | 6\nDãy B (bọt/phút) | 58 | 37 | 21 | 12 | 7\nCoi cường độ ánh sáng tới ống nghiệm tỉ lệ nghịch với bình phương khoảng cách từ đèn.",
+  "p4": "Điện trở nhiệt NTC là linh kiện có điện trở thay đổi theo nhiệt độ, thường dùng làm cảm biến. Một nhóm học sinh đo điện trở $R_T$ của một NTC ở các nhiệt độ khác nhau:\nNhiệt độ (°C) | 20 | 30 | 40 | 50 | 60\n$R_T$ (kΩ) | 12,5 | 8,0 | 5,3 | 3,6 | 2,5\nSau đó nhóm lắp mạch điều khiển quạt: nguồn điện một chiều $U_0 = 5{,}0$ V (điện trở trong không đáng kể) mắc nối tiếp với điện trở cố định $R_0 = 10$ kΩ và NTC. Một vôn kế lí tưởng đo hiệu điện thế $U$ giữa hai đầu $R_0$; bộ điều khiển bật quạt khi $U \\ge 3{,}0$ V.",
+  "p5": "Để xác định hàm lượng acetic acid (CH₃COOH, M = 60) trong một loại giấm ăn, một nhóm học sinh tiến hành:\nBước 1: Dùng pipet lấy 10,00 mL giấm cho vào bình định mức, thêm nước cất đến vạch 100,0 mL, lắc đều được dung dịch X.\nBước 2: Lấy 10,00 mL dung dịch X cho vào bình tam giác, thêm 2 giọt phenolphthalein.\nBước 3: Nhỏ từ từ dung dịch NaOH 0,100 M từ burette vào bình tam giác, lắc đều, đến khi dung dịch chuyển sang màu hồng nhạt bền trong 30 giây thì dừng.\nLặp lại bước 2 và 3 thêm hai lần. Thể tích NaOH đã dùng ở ba lần: 8,30 mL; 8,20 mL; 8,25 mL.\nPhản ứng: CH₃COOH + NaOH → CH₃COONa + H₂O.",
+  "p6": "Amylase trong nước bọt xúc tác thủy phân tinh bột. Một nhóm học sinh trộn 2 mL dung dịch tinh bột 1% với 1 mL dịch amylase (nước bọt pha loãng), pH 7; hai dung dịch đã được ủ riêng đến đúng nhiệt độ thí nghiệm trước khi trộn. Cứ 15 giây, nhóm lấy 1 giọt hỗn hợp nhỏ vào ô sứ chứa dung dịch iodine và ghi thời gian $t$ đến khi iodine không còn chuyển màu xanh tím.\nNhiệt độ (°C) | 20 | 30 | 37 | 45 | 60\n$t$ (s) | 300 | 150 | 90 | 120 | > 900 (vẫn xanh tím)\nỐng đối chứng: dịch amylase đã đun sôi 5 phút rồi làm nguội, tiến hành ở 37 °C: sau 900 s vẫn xanh tím.\nTốc độ phản ứng được coi là tỉ lệ nghịch với $t$.",
+  "p7": "Một gia đình so sánh hai cách đun nước.\nCách 1: Ấm siêu tốc ghi 220 V – 1800 W, đun 1,5 L nước từ 25 °C đến khi sôi (100 °C) ở điện áp 220 V, hết 5 phút 0 giây.\nCách 2: Bếp từ hoạt động ở công suất 2000 W, đun cùng lượng nước như trên trong nồi inox từ 25 °C đến khi sôi, hết 4 phút 40 giây.\nCho nhiệt dung riêng của nước $c = 4200$ J/(kg·K), khối lượng riêng của nước 1 kg/L; coi công suất các thiết bị không đổi trong suốt quá trình đun. Giá điện giả định là 3 000 đồng/kWh.",
+  "p8": "Để ước tính số lượng cá chép trưởng thành trong một hồ tự nhiên có diện tích mặt nước 2,0 ha, nhóm nghiên cứu dùng phương pháp đánh bắt – thả lại:\nLần 1: dùng lưới bắt ngẫu nhiên 120 con cá chép, gắn thẻ nhỏ ở vây lưng rồi thả lại hồ.\nLần 2 (sau 2 tuần): bắt ngẫu nhiên 150 con cá chép, trong đó có 18 con mang thẻ.\nKích thước quần thể được ước tính theo công thức $N = \\dfrac{M \\cdot C}{R}$, trong đó $M$ là số cá được đánh dấu ở lần 1, $C$ là tổng số cá bắt được ở lần 2, $R$ là số cá có dấu ở lần 2."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – biến thí nghiệm",
+   "level": 1,
+   "stem": "Trong thí nghiệm được ghi ở bảng, biến độc lập và biến phụ thuộc lần lượt là",
+   "options": [
+    "khối lượng quả nặng và chu kì dao động.",
+    "thời gian $t$ của 10 dao động và chiều dài dây $L$.",
+    "góc lệch ban đầu và khối lượng quả nặng.",
+    "chiều dài dây $L$ và thời gian $t$ của 10 dao động."
+   ],
+   "answer": 3,
+   "explanation": "Nhóm chủ động thay đổi $L$ (biến độc lập) và đo $t$ (biến phụ thuộc); khối lượng, góc lệch được giữ không đổi (biến kiểm soát)."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p1",
+   "topic": "Vật lí – dao động",
+   "level": 2,
+   "stem": "Xét các nhận định sau về thí nghiệm con lắc đơn.",
+   "statements": [
+    {
+     "t": "Khi chiều dài dây tăng thì chu kì dao động tăng.",
+     "a": true
+    },
+    {
+     "t": "Khi chiều dài dây tăng gấp 3 lần (từ 0,40 m lên 1,20 m) thì chu kì dao động cũng tăng gấp 3 lần.",
+     "a": false
+    },
+    {
+     "t": "Phép đo với quả nặng 100 g cho thấy chu kì con lắc đơn không phụ thuộc vào khối lượng quả nặng.",
+     "a": true
+    },
+    {
+     "t": "Nếu kéo lệch dây một góc $45^\\circ$ rồi thả thì công thức $T = 2\\pi\\sqrt{L/g}$ vẫn cho kết quả chính xác như khi lệch $5^\\circ$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $t$ tăng từ 12,7 s đến 22,0 s. b) Sai: $T$ chỉ tăng $22{,}0/12{,}7 \\approx 1,73$ lần $\\approx\\sqrt{3}$. c) Đúng: cùng $L=0{,}80$ m, đổi khối lượng vẫn được 18,0 s. d) Sai: công thức chỉ đúng với dao động nhỏ."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – xử lí số liệu",
+   "level": 2,
+   "stem": "Từ số liệu ứng với $L = 1{,}00$ m, hãy tính gia tốc trọng trường $g$ (m/s²) mà nhóm đo được. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "9,77",
+   "explanation": "$T = 20{,}1/10 = 2{,}01$ s; $g = \\dfrac{4\\pi^2 L}{T^2} = \\dfrac{4\\pi^2\\cdot 1{,}00}{2{,}01^2} \\approx 9,77$ m/s²."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – đồ thị",
+   "level": 2,
+   "stem": "Để kiểm tra công thức chu kì bằng đồ thị, nhóm nên biểu diễn đại lượng nào theo đại lượng nào để thu được một đường thẳng đi qua gốc tọa độ?",
+   "options": [
+    "$T$ theo $L$.",
+    "$T$ theo $L^2$.",
+    "$T^2$ theo $L$.",
+    "$T$ theo $\\dfrac{1}{L}$."
+   ],
+   "answer": 2,
+   "explanation": "$T^2 = \\dfrac{4\\pi^2}{g}L$ nên $T^2$ tỉ lệ thuận với $L$: đồ thị $T^2$ theo $L$ là đường thẳng qua gốc, hệ số góc $4\\pi^2/g$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – dự đoán",
+   "level": 3,
+   "stem": "Chỉ dựa vào số liệu trong bảng (không cần tính $g$), hãy dự đoán thời gian của 10 dao động (s) khi dây dài $L = 1{,}60$ m. (Làm tròn đến hàng phần mười.)",
+   "answer_text": "25,4",
+   "explanation": "$T \\sim \\sqrt{L}$; $1{,}60 = 4 \\times 0{,}40$ nên $t$ gấp $\\sqrt{4} = 2$ lần: $2 \\times 12{,}7 = 25{,}4$ s."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – biến thí nghiệm",
+   "level": 1,
+   "stem": "So sánh kết quả TN1 và TN2 cho phép rút ra kết luận về ảnh hưởng của yếu tố nào đến tốc độ phản ứng?",
+   "options": [
+    "Nhiệt độ.",
+    "Nồng độ dung dịch HCl.",
+    "Diện tích bề mặt của magnesium.",
+    "Khối lượng magnesium."
+   ],
+   "answer": 1,
+   "explanation": "TN1 và TN2 chỉ khác nhau ở nồng độ HCl (1,0 M và 2,0 M), các yếu tố khác giữ nguyên."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – tính theo phương trình",
+   "level": 2,
+   "stem": "Tính thể tích khí H₂ tối đa (mL, ở điều kiện chuẩn) có thể thu được trong mỗi thí nghiệm. (Làm tròn đến hàng đơn vị.)",
+   "answer_text": "124",
+   "explanation": "$n_{\\text{Mg}} = 0{,}12/24 = 0{,}005$ mol; $n_{\\text{HCl}} = 0{,}05$ mol (dư, chỉ cần 0,01 mol). $V = 0{,}005 \\times 24{,}79 \\times 1000 \\approx 123,95 \\approx 124$ mL."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – tốc độ phản ứng",
+   "level": 1,
+   "stem": "Tính tốc độ trung bình tạo khí H₂ (mL/s) trong 60 giây đầu của TN1. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "1,13",
+   "explanation": "$\\bar v = \\dfrac{68 - 0}{60} \\approx 1{,}13$ mL/s."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p2",
+   "topic": "Hóa học – tốc độ phản ứng",
+   "level": 2,
+   "stem": "Xét các nhận định sau dựa trên bảng số liệu.",
+   "statements": [
+    {
+     "t": "Trong TN2, phản ứng đã kết thúc trước thời điểm 150 s.",
+     "a": true
+    },
+    {
+     "t": "Tốc độ phản ứng trong 30 s đầu của TN3 nhỏ hơn của TN1.",
+     "a": false
+    },
+    {
+     "t": "Nếu để đủ lâu, cả ba thí nghiệm đều thu được cùng một thể tích khí H₂.",
+     "a": true
+    },
+    {
+     "t": "Ở TN1, tốc độ tạo khí giảm dần theo thời gian chủ yếu vì HCl gần như đã bị dùng hết.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: từ 120 s thể tích không đổi (124 mL = giá trị tối đa). b) Sai: 62 mL > 38 mL. c) Đúng: Mg là chất hết, lượng Mg như nhau nên $V_{\\max} \\approx 124$ mL. d) Sai: chỉ 0,01/0,05 = 20% lượng HCl phản ứng; tốc độ giảm chủ yếu do Mg tan dần, diện tích tiếp xúc giảm (và nồng độ HCl giảm một phần)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – dự đoán",
+   "level": 3,
+   "stem": "Lặp lại TN1 nhưng thay 0,12 g magnesium dạng dải bằng 0,12 g magnesium dạng bột. Dự đoán nào sau đây hợp lí nhất?",
+   "options": [
+    "Khí thoát ra nhanh hơn ở giai đoạn đầu, thể tích khí cuối cùng vẫn khoảng 124 mL.",
+    "Khí thoát ra nhanh hơn và thể tích khí cuối cùng lớn hơn 124 mL.",
+    "Tốc độ thoát khí và thể tích khí cuối cùng đều không thay đổi.",
+    "Khí thoát ra chậm hơn vì bột magnesium dễ bị vón cục, thể tích khí cuối cùng nhỏ hơn."
+   ],
+   "answer": 0,
+   "explanation": "Dạng bột có diện tích bề mặt lớn hơn nên tốc độ phản ứng lớn hơn; lượng Mg không đổi (HCl dư) nên thể tích H₂ cuối cùng vẫn ≈ 124 mL."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – quang hợp",
+   "level": 1,
+   "stem": "Khí trong các bọt khí thoát ra từ cành rong chủ yếu là",
+   "options": [
+    "CO₂ sinh ra từ hô hấp tế bào.",
+    "N₂ hòa tan trong nước máy.",
+    "CO₂ giải phóng từ NaHCO₃.",
+    "O₂ sinh ra từ quá trình quang phân li nước."
+   ],
+   "answer": 3,
+   "explanation": "Trong pha sáng, nước bị quang phân li giải phóng O₂; khi quang hợp mạnh, O₂ thoát ra thành bọt khí."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p3",
+   "topic": "Sinh học – nhân tố giới hạn",
+   "level": 3,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Ở dãy A, số bọt khí giảm khi khoảng cách từ đèn đến ống nghiệm tăng.",
+     "a": true
+    },
+    {
+     "t": "NaHCO₃ được thêm vào để cung cấp thêm CO₂ cho quang hợp.",
+     "a": true
+    },
+    {
+     "t": "Ở $d = 50$ cm, nhân tố giới hạn chủ yếu của quang hợp là nồng độ CO₂.",
+     "a": false
+    },
+    {
+     "t": "Dùng đèn LED ít tỏa nhiệt nhằm hạn chế sự thay đổi nhiệt độ – một biến cần kiểm soát.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: 40 → 6 bọt/phút. b) Đúng: HCO₃⁻ là nguồn CO₂ cho cây thủy sinh. c) Sai: ở 50 cm, thêm CO₂ hầu như không làm tăng tốc độ (6 → 7), nên ánh sáng mới là nhân tố giới hạn. d) Đúng."
+  },
+  {
+   "qtype": "short",
+   "passage": "p3",
+   "topic": "Vật lí – cường độ sáng",
+   "level": 1,
+   "stem": "Cường độ ánh sáng tới ống nghiệm khi đèn đặt cách 10 cm gấp bao nhiêu lần khi đèn đặt cách 30 cm?",
+   "answer_text": "9",
+   "explanation": "$I \\sim \\dfrac{1}{d^2}$ nên $\\dfrac{I_{10}}{I_{30}} = \\left(\\dfrac{30}{10}\\right)^2 = 9$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p3",
+   "topic": "Sinh học – xử lí số liệu",
+   "level": 2,
+   "stem": "Ở khoảng cách $d = 10$ cm, việc thêm NaHCO₃ làm số bọt khí mỗi phút tăng bao nhiêu phần trăm so với dãy A?",
+   "answer_text": "45",
+   "explanation": "$\\dfrac{58 - 40}{40} \\times 100\\% = 45\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – đánh giá kết luận",
+   "level": 3,
+   "stem": "Một bạn kết luận: \"Tốc độ quang hợp tỉ lệ thuận với cường độ ánh sáng\". Nhận xét nào sau đây đúng nhất?",
+   "options": [
+    "Kết luận đúng vì số bọt khí luôn tăng khi đèn lại gần.",
+    "Kết luận đúng với dãy A nhưng sai với dãy B vì dãy B có thêm CO₂.",
+    "Kết luận chưa đúng: khi cường độ ánh sáng tăng 9 lần (đèn từ 30 cm lại 10 cm), số bọt khí ở dãy A chỉ tăng khoảng 2,7 lần.",
+    "Kết luận chưa đúng vì số bọt khí giảm khi cường độ ánh sáng tăng."
+   ],
+   "answer": 2,
+   "explanation": "Tăng cùng chiều nhưng không tỉ lệ thuận: $I$ tăng 9 lần còn số bọt khí tăng $40/15 \\approx 2,7$ lần; ở cường độ sáng cao, CO₂ trở thành nhân tố giới hạn (dãy B cho thấy thêm CO₂ thì tốc độ còn tăng)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Vật lí – mạch điện",
+   "level": 1,
+   "stem": "Khi nhiệt độ môi trường tăng thì",
+   "options": [
+    "điện trở NTC giảm, số chỉ vôn kế tăng.",
+    "điện trở NTC tăng, số chỉ vôn kế giảm.",
+    "điện trở NTC giảm, số chỉ vôn kế giảm.",
+    "điện trở NTC tăng, số chỉ vôn kế tăng."
+   ],
+   "answer": 0,
+   "explanation": "Theo bảng, $R_T$ giảm khi nhiệt độ tăng. $U = U_0\\dfrac{R_0}{R_0 + R_T}$ tăng khi $R_T$ giảm."
+  },
+  {
+   "qtype": "short",
+   "passage": "p4",
+   "topic": "Vật lí – mạch điện",
+   "level": 2,
+   "stem": "Tính số chỉ của vôn kế (V) khi nhiệt độ là 40 °C. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "3,27",
+   "explanation": "$U = 5{,}0 \\cdot \\dfrac{10}{10 + 5{,}3} \\approx 3,27$ V."
+  },
+  {
+   "qtype": "short",
+   "passage": "p4",
+   "topic": "Vật lí – mạch điện",
+   "level": 2,
+   "stem": "Tính cường độ dòng điện trong mạch (mA) khi nhiệt độ là 20 °C. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "0,22",
+   "explanation": "$I = \\dfrac{U_0}{R_0 + R_T} = \\dfrac{5{,}0}{22{,}5\\ \\text{kΩ}} \\approx 0,22$ mA."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Công nghệ – cảm biến",
+   "level": 3,
+   "stem": "Dựa vào bảng số liệu, quạt bắt đầu được bật khi nhiệt độ nằm trong khoảng nào?",
+   "options": [
+    "Dưới 20 °C.",
+    "Từ 20 °C đến 30 °C.",
+    "Từ 30 °C đến 40 °C.",
+    "Từ 40 °C đến 50 °C."
+   ],
+   "answer": 2,
+   "explanation": "$U \\ge 3$ V $\\Leftrightarrow R_T \\le R_0\\left(\\dfrac{U_0}{3} - 1\\right) \\approx 6,67$ kΩ, nằm giữa 8,0 kΩ (30 °C) và 5,3 kΩ (40 °C)."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p4",
+   "topic": "Công nghệ – thiết kế mạch",
+   "level": 3,
+   "stem": "Xét các nhận định sau về mạch điều khiển quạt.",
+   "statements": [
+    {
+     "t": "Muốn quạt bật ở nhiệt độ thấp hơn, có thể thay $R_0$ bằng điện trở có giá trị lớn hơn.",
+     "a": true
+    },
+    {
+     "t": "Ở 60 °C, công suất tiêu thụ trên NTC bằng 0,4 mW.",
+     "a": true
+    },
+    {
+     "t": "Từ 20 °C đến 60 °C, điện trở NTC giảm đều 2,5 kΩ sau mỗi 10 °C.",
+     "a": false
+    },
+    {
+     "t": "Nếu đổi vôn kế sang đo hiệu điện thế giữa hai đầu NTC (giữ nguyên ngưỡng 3,0 V) thì quạt vẫn bật khi trời nóng.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: ngưỡng $R_T \\le \\tfrac{2}{3}R_0$; $R_0$ lớn hơn thì ngưỡng $R_T$ lớn hơn, ứng với nhiệt độ thấp hơn. b) Đúng: $I = 5/12{,}5 = 0{,}4$ mA, $P = I^2R_T = 0{,}4^2 \\cdot 2{,}5 = 0{,}4$ mW. c) Sai: độ giảm lần lượt 4,5; 2,7; 1,7; 1,1 kΩ. d) Sai: điện áp trên NTC giảm khi nóng, nên quạt sẽ bật khi trời lạnh."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Hóa học – chuẩn độ",
+   "level": 2,
+   "stem": "Phenolphthalein (khoảng đổi màu pH ≈ 8,2–10) phù hợp cho phép chuẩn độ này vì",
+   "options": [
+    "tại điểm tương đương, dung dịch có pH đúng bằng 7.",
+    "tại điểm tương đương, dung dịch CH₃COONa có môi trường base yếu.",
+    "phenolphthalein phản ứng trực tiếp với CH₃COOH tạo màu hồng.",
+    "phenolphthalein làm tăng tốc độ phản ứng trung hòa."
+   ],
+   "answer": 1,
+   "explanation": "CH₃COO⁻ là base yếu nên tại điểm tương đương pH > 7 (khoảng 8–9), nằm trong khoảng đổi màu của phenolphthalein."
+  },
+  {
+   "qtype": "short",
+   "passage": "p5",
+   "topic": "Hóa học – chuẩn độ",
+   "level": 2,
+   "stem": "Tính nồng độ mol của CH₃COOH trong dung dịch X (M). (Làm tròn đến 4 chữ số thập phân.)",
+   "answer_text": "0,0825",
+   "explanation": "$\\bar V = (8{,}30 + 8{,}20 + 8{,}25)/3 = 8{,}25$ mL. $C_X = \\dfrac{0{,}100 \\times 8{,}25}{10{,}00} = 0{,}0825$ M."
+  },
+  {
+   "qtype": "short",
+   "passage": "p5",
+   "topic": "Hóa học – chuẩn độ",
+   "level": 3,
+   "stem": "Tính hàm lượng acetic acid trong giấm ăn ban đầu (gam/lít). (Làm tròn đến hàng phần mười.)",
+   "answer_text": "49,5",
+   "explanation": "Giấm pha loãng 10 lần nên $C_0 = 0{,}825$ M; hàm lượng $= 0{,}825 \\times 60 = 49{,}5$ g/L."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p5",
+   "topic": "Hóa học – sai số thí nghiệm",
+   "level": 2,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Việc pha loãng ở bước 1 làm thay đổi số mol acetic acid có trong 10,00 mL giấm ban đầu.",
+     "a": false
+    },
+    {
+     "t": "Nếu burette còn đọng nước cất mà không tráng bằng dung dịch NaOH trước khi dùng, kết quả hàm lượng acid tính được sẽ cao hơn thực tế.",
+     "a": true
+    },
+    {
+     "t": "Nếu dừng chuẩn độ ngay khi màu hồng vừa xuất hiện rồi biến mất, kết quả tính được sẽ thấp hơn thực tế.",
+     "a": true
+    },
+    {
+     "t": "Lặp lại chuẩn độ ba lần và lấy giá trị trung bình giúp giảm sai số ngẫu nhiên.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Sai: pha loãng chỉ thêm nước, số mol acid không đổi. b) Đúng: NaOH bị pha loãng nên cần thể tích lớn hơn ⇒ kết quả cao. c) Đúng: chưa tới điểm tương đương, thể tích NaOH nhỏ hơn ⇒ kết quả thấp. d) Đúng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Hóa học – tính theo phương trình",
+   "level": 3,
+   "stem": "Nếu thay dung dịch NaOH 0,100 M bằng dung dịch Ba(OH)₂ 0,100 M thì thể tích trung bình cần dùng cho 10,00 mL dung dịch X xấp xỉ bằng",
+   "options": [
+    "2,06 mL",
+    "4,13 mL",
+    "8,25 mL",
+    "16,50 mL"
+   ],
+   "answer": 1,
+   "explanation": "2CH₃COOH + Ba(OH)₂ → (CH₃COO)₂Ba + 2H₂O. $n_{\\text{OH}^-}$ cần không đổi, mỗi mol Ba(OH)₂ cho 2 mol OH⁻ ⇒ $V = 8{,}25/2 \\approx 4{,}13$ mL."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p6",
+   "topic": "Sinh học – enzyme",
+   "level": 1,
+   "stem": "Trong các nhiệt độ đã khảo sát, amylase hoạt động mạnh nhất ở",
+   "options": [
+    "20 °C.",
+    "37 °C.",
+    "45 °C.",
+    "60 °C."
+   ],
+   "answer": 1,
+   "explanation": "Thời gian mất màu iodine ngắn nhất (90 s) ở 37 °C, tức tốc độ phản ứng lớn nhất."
+  },
+  {
+   "qtype": "short",
+   "passage": "p6",
+   "topic": "Sinh học – xử lí số liệu",
+   "level": 2,
+   "stem": "Tốc độ phản ứng ở 37 °C gấp bao nhiêu lần tốc độ phản ứng ở 20 °C? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "3,33",
+   "explanation": "Tốc độ tỉ lệ nghịch với $t$: $\\dfrac{300}{90} \\approx 3{,}33$ lần."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p6",
+   "topic": "Sinh học – enzyme",
+   "level": 2,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Iodine không còn chuyển màu xanh tím chứng tỏ tinh bột trong mẫu đã bị thủy phân gần hết.",
+     "a": true
+    },
+    {
+     "t": "Ống đối chứng cho thấy tinh bột không tự thủy phân đáng kể khi không có enzyme hoạt động.",
+     "a": true
+    },
+    {
+     "t": "Nếu làm lạnh hỗn hợp ở 60 °C về 37 °C, amylase sẽ phục hồi hoàn toàn hoạt tính và tinh bột bị thủy phân trong khoảng 90 s.",
+     "a": false
+    },
+    {
+     "t": "Ở 20 °C phản ứng chậm vì amylase đã bị biến tính.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: iodine tạo màu xanh tím với tinh bột. b) Đúng. c) Sai: ở 60 °C enzyme bị biến tính, phần lớn không phục hồi. d) Sai: ở nhiệt độ thấp, phân tử chuyển động chậm, va chạm enzyme – cơ chất ít; enzyme không bị biến tính."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p6",
+   "topic": "Sinh học – thiết kế thí nghiệm",
+   "level": 3,
+   "stem": "Để xác định nhiệt độ tối ưu của amylase chính xác hơn, cải tiến nào sau đây hợp lí nhất?",
+   "options": [
+    "Làm thêm các mức nhiệt độ 0 °C, 70 °C và 80 °C.",
+    "Làm thêm các mức nhiệt độ cách nhau 2 °C trong khoảng 31 °C – 43 °C và lấy mẫu thử iodine dày hơn (ví dụ 5 giây một lần).",
+    "Tăng nồng độ tinh bột lên 5% ở mọi ống nghiệm.",
+    "Bỏ ống đối chứng để rút ngắn thời gian thí nghiệm."
+   ],
+   "answer": 1,
+   "explanation": "Tối ưu nằm giữa 30 °C và 45 °C; khảo sát dày hơn trong khoảng này và tăng tần suất lấy mẫu giúp giảm sai số đo $t$ (hiện chỉ chính xác đến 15 s)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p6",
+   "topic": "Sinh học – biến kiểm soát",
+   "level": 1,
+   "stem": "Nhóm yếu tố nào sau đây cần giữ không đổi giữa các ống nghiệm để kết luận về ảnh hưởng của nhiệt độ là đáng tin cậy?",
+   "options": [
+    "Nhiệt độ, pH và thời gian mất màu iodine.",
+    "Thời gian mất màu iodine và nồng độ iodine.",
+    "pH, nồng độ và thể tích dung dịch tinh bột, thể tích dịch enzyme.",
+    "Nhiệt độ và thể tích dịch enzyme."
+   ],
+   "answer": 2,
+   "explanation": "Nhiệt độ là biến độc lập, thời gian mất màu là biến phụ thuộc; mọi yếu tố khác ảnh hưởng tốc độ enzyme (pH, lượng cơ chất, lượng enzyme) phải giữ không đổi."
+  },
+  {
+   "qtype": "short",
+   "passage": "p7",
+   "topic": "Vật lí – nhiệt lượng",
+   "level": 1,
+   "stem": "Tính nhiệt lượng (kJ) mà 1,5 L nước thu vào để tăng từ 25 °C đến 100 °C.",
+   "answer_text": "472,5",
+   "explanation": "$Q = mc\\Delta t = 1{,}5 \\cdot 4200 \\cdot 75 = 472\\,500$ J $= 472{,}5$ kJ."
+  },
+  {
+   "qtype": "short",
+   "passage": "p7",
+   "topic": "Vật lí – hiệu suất",
+   "level": 2,
+   "stem": "Tính hiệu suất (%) của ấm siêu tốc trong cách 1. (Làm tròn đến hàng phần mười.)",
+   "answer_text": "87,5",
+   "explanation": "$A = Pt = 1800 \\cdot 300 = 540\\,000$ J; $H = \\dfrac{472\\,500}{540\\,000} = 87{,}5\\%$."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p7",
+   "topic": "Vật lí – năng lượng",
+   "level": 3,
+   "stem": "Xét các nhận định sau khi so sánh hai cách đun.",
+   "statements": [
+    {
+     "t": "Bếp từ tiêu thụ nhiều điện năng hơn ấm siêu tốc khi đun cùng lượng nước.",
+     "a": true
+    },
+    {
+     "t": "Bếp từ đun sôi nước nhanh hơn nên có hiệu suất cao hơn ấm siêu tốc.",
+     "a": false
+    },
+    {
+     "t": "Năng lượng hao phí của ấm siêu tốc trong một lần đun là 67,5 kJ.",
+     "a": true
+    },
+    {
+     "t": "Tiền điện cho một lần đun bằng ấm siêu tốc là 450 đồng.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: bếp từ $2000 \\cdot 280 = 560\\,000$ J > 540 000 J. b) Sai: $H_2 = 472\\,500/560\\,000 \\approx 84,4\\% < 87{,}5\\%$. c) Đúng: $540 - 472{,}5 = 67{,}5$ kJ. d) Đúng: 540 000 J = 0,15 kWh → 0,15 · 3000 = 450 đồng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p7",
+   "topic": "Vật lí – điện",
+   "level": 1,
+   "stem": "Cường độ dòng điện chạy qua ấm siêu tốc khi hoạt động bình thường xấp xỉ bằng",
+   "options": [
+    "0,12 A",
+    "4,09 A",
+    "8,18 A",
+    "16,36 A"
+   ],
+   "answer": 2,
+   "explanation": "$I = P/U = 1800/220 \\approx 8{,}18$ A."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p7",
+   "topic": "Công nghệ – tiết kiệm năng lượng",
+   "level": 2,
+   "stem": "Biện pháp nào sau đây giúp tăng hiệu suất đun nước của ấm siêu tốc?",
+   "options": [
+    "Dùng ổ cắm có điện áp cao hơn 220 V để ấm có công suất lớn hơn.",
+    "Đun lượng nước rất ít (dưới mức tối thiểu) để nước nhanh sôi hơn.",
+    "Để ấm ở nơi thoáng gió cho thân ấm luôn mát.",
+    "Đậy kín nắp và dùng ấm có vỏ hai lớp cách nhiệt."
+   ],
+   "answer": 3,
+   "explanation": "Hao phí chủ yếu là nhiệt truyền ra môi trường; đậy kín nắp và cách nhiệt làm giảm phần này. Tăng điện áp gây nguy hiểm; để ở nơi gió làm mất nhiệt nhiều hơn."
+  },
+  {
+   "qtype": "short",
+   "passage": "p8",
+   "topic": "Sinh học – quần thể",
+   "level": 1,
+   "stem": "Ước tính số lượng cá chép trưởng thành trong hồ (con).",
+   "answer_text": "1000",
+   "explanation": "$N = \\dfrac{120 \\cdot 150}{18} = 1000$ con."
+  },
+  {
+   "qtype": "short",
+   "passage": "p8",
+   "topic": "Sinh học – mật độ quần thể",
+   "level": 1,
+   "stem": "Tính mật độ cá chép trưởng thành trong hồ (con/ha).",
+   "answer_text": "500",
+   "explanation": "Mật độ $= 1000 / 2{,}0 = 500$ con/ha."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p8",
+   "topic": "Sinh học – đánh giá phương pháp",
+   "level": 3,
+   "stem": "Xét các nhận định sau về phương pháp đánh bắt – thả lại.",
+   "statements": [
+    {
+     "t": "Phương pháp giả định rằng cá được đánh dấu đã hòa trộn ngẫu nhiên vào quần thể trước lần bắt thứ hai.",
+     "a": true
+    },
+    {
+     "t": "Nếu một số thẻ bị bong ra trước lần bắt thứ hai thì kích thước quần thể ước tính được sẽ thấp hơn thực tế.",
+     "a": false
+    },
+    {
+     "t": "Nếu cá đã bị bắt một lần trở nên dễ bị bắt lại hơn thì kích thước quần thể sẽ bị ước tính thấp hơn thực tế.",
+     "a": true
+    },
+    {
+     "t": "Nếu trong 2 tuần có nhiều cá non lớn lên đạt kích thước bị lưới bắt, tỉ lệ cá mang thẻ trong lần bắt thứ hai có xu hướng giảm.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: bong thẻ làm $R$ nhỏ đi nên $N = MC/R$ lớn hơn thực tế. c) Đúng: $R$ bị lớn lên nên $N$ nhỏ đi. d) Đúng: số cá không dấu tăng nên tỉ lệ có dấu giảm."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p8",
+   "topic": "Sinh học – xử lí số liệu",
+   "level": 3,
+   "stem": "Một tuần sau lần 2, nhóm bắt thêm lần 3 được 200 con cá chép, trong đó 25 con mang thẻ từ lần 1 (coi 120 con mang thẻ vẫn còn sống trong hồ, không đánh dấu thêm). Ước tính mới về số cá chép trưởng thành là",
+   "options": [
+    "800 con",
+    "960 con",
+    "1000 con",
+    "1250 con"
+   ],
+   "answer": 1,
+   "explanation": "$N = \\dfrac{120 \\cdot 200}{25} = 960$ con – khá gần ước tính 1000 con, cho thấy kết quả tương đối ổn định."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p8",
+   "topic": "Sinh học – thiết kế thí nghiệm",
+   "level": 2,
+   "stem": "Khoảng thời gian 2 tuần giữa hai lần bắt được chọn nhằm",
+   "options": [
+    "đủ dài để cá mang thẻ phân tán đều trong hồ, nhưng đủ ngắn để sinh, tử, xuất cư, nhập cư không làm quần thể thay đổi đáng kể.",
+    "đủ dài để toàn bộ cá mang thẻ chết đi, tránh bắt trùng.",
+    "để cá mang thẻ kịp sinh sản, làm tăng số cá có dấu.",
+    "để mực nước hồ thay đổi, giúp bắt cá dễ hơn."
+   ],
+   "answer": 0,
+   "explanation": "Phương pháp cần cá đánh dấu hòa trộn ngẫu nhiên và quần thể gần như \"đóng\" giữa hai lần bắt."
+  }
+ ],
+ "self_check": "Mọi phép tính (chu kì, g, thể tích H₂, tốc độ, mạch chia áp, ngưỡng NTC, nồng độ chuẩn độ, hiệu suất, tiền điện, Lincoln–Petersen) kiểm bằng Python có assert; kiểm tra tính nhất quán của bảng số liệu với mô hình (t10 sinh từ g = 9,80; Vmax = 124 mL); mỗi tf có cả Đúng và Sai; đáp án mcq rải đều."
+}

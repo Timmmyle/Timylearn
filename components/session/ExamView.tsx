@@ -1,4 +1,5 @@
 "use client";
+import Ctx from "./Ctx";
 import { ask } from "@/lib/confirm";
 import { MathText } from "@/components/MathText";
 import { QImage } from "@/components/QImage";
@@ -26,10 +27,14 @@ export default function ExamView() {
   const go = (i: number) => { if (i >= 0 && i < n) act((_S, ses) => { (ses as QuizSession).i = i; }); window.scrollTo(0, 0); };
   const setV = (v: Pick) => act((_S, ses) => { const x = ses as QuizSession; x.picks[x.i] = v; });
   const answered = s.items.filter((qq, i) => isAnswered(qq, s.picks[i])).length;
-  const multiPart = s.items.some((x) => qtype(x) !== "mcq");
-  // Số thứ tự câu trong từng phần (Phần I câu 1…, Phần II câu 1…)
-  const numInPart = (i: number) => s.items.slice(0, i + 1).filter((x) => qtype(x) === qtype(s.items[i])).length;
-  const groups = multiPart ? (["mcq", "tf", "short"] as const).filter((k) => s.items.some((x) => qtype(x) === k)) : null;
+  // Đề ĐGNL chia theo phần thi (sec); đề THPT/kiểm tra chia theo dạng câu (Phần I/II/III)
+  const bySec = s.items.some((x) => x.sec);
+  const keyOf = (x: (typeof s.items)[number]) => (bySec ? x.sec || "" : qtype(x));
+  const multiPart = bySec || s.items.some((x) => qtype(x) !== "mcq");
+  const numInPart = (i: number) => s.items.slice(0, i + 1).filter((x) => keyOf(x) === keyOf(s.items[i])).length;
+  const groups: string[] | null = multiPart ? [...new Set(s.items.map(keyOf))] : null;
+  const label = (k: string) => (bySec ? k : PART[k as "mcq"]);
+  const TYPE_NOTE: Record<string, string> = { tf: "Đúng/Sai: chọn Đúng hoặc Sai cho từng ý", short: "Điền đáp án là số" };
 
   const cell = (i: number) => {
     const v = s.picks[i], full = isAnswered(s.items[i], v), part = !full && touched(v);
@@ -47,11 +52,12 @@ export default function ExamView() {
       </SesTop>
       {groups ? groups.map((k) => (
         <div key={k}>
-          <p className="small muted !mb-0 mt-2 font-semibold">{PART[k]}</p>
-          <div className="navgrid !mt-1" aria-label={PART[k]}>{s.items.map((x, i) => (qtype(x) === k ? cell(i) : null))}</div>
+          <p className="small muted !mb-0 mt-2 font-semibold">{label(k)}</p>
+          <div className="navgrid !mt-1" aria-label={label(k)}>{s.items.map((x, i) => (keyOf(x) === k ? cell(i) : null))}</div>
         </div>
       )) : <div className="navgrid" aria-label="Danh sách câu">{s.items.map((_, i) => cell(i))}</div>}
-      <p className="small muted !mb-0 mt-2.5">{multiPart ? `${PART[t]} – câu ${numInPart(s.i)}` : `Câu ${s.i + 1}/${n}`}</p>
+      <p className="small muted !mb-0 mt-2.5">{multiPart ? `${label(keyOf(q))} – câu ${numInPart(s.i)}` : `Câu ${s.i + 1}/${n}`}{bySec && t !== "mcq" ? ` · ${TYPE_NOTE[t]}` : ""}</p>
+      <Ctx key={q.id} text={q.ctx} />
       <div className="qtext"><MathText text={q.q} /></div>
       <QImage src={q.img} alt="Hình minh họa đề bài" />
       {t === "mcq" && q.opts.map((o, i) => (

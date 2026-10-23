@@ -1,0 +1,270 @@
+{
+ "exam": "vact",
+ "part": "toan",
+ "set": "luyen",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – đơn điệu",
+   "level": 1,
+   "stem": "Hàm số $y=-x^3+3x^2+1$ đồng biến trên khoảng nào dưới đây?",
+   "options": [
+    "$(-\\infty;0)$",
+    "$(2;+\\infty)$",
+    "$(-2;0)$",
+    "$(0;2)$"
+   ],
+   "answer": 3,
+   "explanation": "$y'=-3x^2+6x=-3x(x-2)>0\\Leftrightarrow0<x<2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tham số",
+   "level": 2,
+   "stem": "Tìm tất cả giá trị của tham số $m$ để hàm số $y=\\dfrac{x+m}{x+1}$ đồng biến trên từng khoảng xác định.",
+   "options": [
+    "$m<1$",
+    "$m\\le1$",
+    "$m>1$",
+    "$m\\ge1$"
+   ],
+   "answer": 0,
+   "explanation": "$y'=\\dfrac{1-m}{(x+1)^2}>0\\Leftrightarrow m<1$ (khi $m=1$ hàm số là hằng số $y=1$ với $x\\ne-1$)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – GTLN, GTNN",
+   "level": 3,
+   "stem": "Giá trị lớn nhất của hàm số $f(x)=2\\sin x+\\cos2x$ trên $\\mathbb{R}$ là",
+   "options": [
+    "$3$",
+    "$2$",
+    "$\\dfrac32$",
+    "$1$"
+   ],
+   "answer": 2,
+   "explanation": "Đặt $s=\\sin x\\in[-1;1]$: $f=-2s^2+2s+1$, đạt lớn nhất tại $s=\\dfrac12$: $f=-\\dfrac12+1+1=\\dfrac32$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tiệm cận",
+   "level": 2,
+   "stem": "Tiệm cận xiên của đồ thị hàm số $y=\\dfrac{x^2+x+1}{x-1}$ là đường thẳng",
+   "options": [
+    "$y=x+1$",
+    "$y=x+2$",
+    "$y=x-2$",
+    "$y=2x+1$"
+   ],
+   "answer": 1,
+   "explanation": "$y=x+2+\\dfrac{3}{x-1}$; $\\lim\\limits_{x\\to\\pm\\infty}\\left[y-(x+2)\\right]=0$ nên tiệm cận xiên là $y=x+2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – logarit",
+   "level": 1,
+   "stem": "Với $a>0$, biểu thức $a^{\\frac13}\\cdot\\sqrt{a}$ bằng",
+   "options": [
+    "$a^{\\frac16}$",
+    "$a^{\\frac23}$",
+    "$a^{\\frac{1}{6}}\\sqrt a$",
+    "$a^{\\frac56}$"
+   ],
+   "answer": 3,
+   "explanation": "$a^{\\frac13}\\cdot a^{\\frac12}=a^{\\frac13+\\frac12}=a^{\\frac56}$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Bài toán thực tế – logarit",
+   "level": 2,
+   "stem": "Độ lớn của một trận động đất theo thang Richter được tính bởi $M=\\log\\dfrac{A}{A_0}$, trong đó $A$ là biên độ rung chấn tối đa, $A_0$ là biên độ chuẩn. Biên độ rung chấn tối đa của trận động đất $7$ độ Richter gấp bao nhiêu lần biên độ của trận động đất $5$ độ Richter?",
+   "answer_text": "100",
+   "explanation": "$\\log\\dfrac{A_1}{A_0}-\\log\\dfrac{A_2}{A_0}=\\log\\dfrac{A_1}{A_2}=7-5=2\\Rightarrow\\dfrac{A_1}{A_2}=10^2=100$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – logarit",
+   "level": 2,
+   "stem": "Tích các nghiệm của phương trình $\\log_2^2x-3\\log_2x+2=0$ bằng",
+   "options": [
+    "$8$",
+    "$6$",
+    "$3$",
+    "$2$"
+   ],
+   "answer": 0,
+   "explanation": "Đặt $t=\\log_2x$: $t^2-3t+2=0\\Leftrightarrow t=1;\\ t=2\\Rightarrow x=2;\\ x=4$. Tích bằng $8$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Giá trị của $\\displaystyle\\int_0^3|x-1|\\,dx$ bằng",
+   "options": [
+    "$\\dfrac32$",
+    "$\\dfrac52$",
+    "$2$",
+    "$\\dfrac92$"
+   ],
+   "answer": 1,
+   "explanation": "$\\displaystyle\\int_0^1(1-x)dx+\\int_1^3(x-1)dx=\\dfrac12+2=\\dfrac52$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – từng phần",
+   "level": 3,
+   "stem": "Giá trị của $\\displaystyle\\int_1^e x\\ln x\\,dx$ bằng",
+   "options": [
+    "$\\dfrac{e^2-1}{4}$",
+    "$\\dfrac{e^2+1}{2}$",
+    "$\\dfrac{e^2+1}{4}$",
+    "$\\dfrac{e^2}{4}$"
+   ],
+   "answer": 2,
+   "explanation": "$u=\\ln x,\\ dv=x\\,dx$: $\\left[\\dfrac{x^2}2\\ln x\\right]_1^e-\\displaystyle\\int_1^e\\dfrac x2dx=\\dfrac{e^2}2-\\dfrac{e^2-1}4=\\dfrac{e^2+1}4$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – diện tích",
+   "level": 2,
+   "stem": "Diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=x+2$ bằng",
+   "options": [
+    "$\\dfrac92$",
+    "$\\dfrac{9}{4}$",
+    "$\\dfrac{7}{2}$",
+    "$\\dfrac{11}{2}$"
+   ],
+   "answer": 0,
+   "explanation": "$x^2=x+2\\Leftrightarrow x=-1;\\ x=2$. $S=\\displaystyle\\int_{-1}^2(x+2-x^2)dx=\\dfrac92$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – thể tích",
+   "level": 1,
+   "stem": "Thể tích của khối tứ diện đều cạnh $a$ bằng",
+   "options": [
+    "$\\dfrac{a^3\\sqrt3}{12}$",
+    "$\\dfrac{a^3\\sqrt2}{12}$",
+    "$\\dfrac{a^3\\sqrt2}{4}$",
+    "$\\dfrac{a^3\\sqrt3}{4}$"
+   ],
+   "answer": 1,
+   "explanation": "Chiều cao $h=\\dfrac{a\\sqrt6}3$, diện tích đáy $\\dfrac{a^2\\sqrt3}4$. $V=\\dfrac13\\cdot\\dfrac{a^2\\sqrt3}4\\cdot\\dfrac{a\\sqrt6}3=\\dfrac{a^3\\sqrt2}{12}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – góc",
+   "level": 2,
+   "stem": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AC$ và $A'D$ bằng",
+   "options": [
+    "$45^\\circ$",
+    "$90^\\circ$",
+    "$30^\\circ$",
+    "$60^\\circ$"
+   ],
+   "answer": 3,
+   "explanation": "$A'D\\parallel B'C$ nên góc cần tìm là góc giữa $AC$ và $B'C$. Tam giác $AB'C$ đều (các cạnh là đường chéo mặt) nên góc bằng $60^\\circ$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tọa độ Oxyz – mặt cầu",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt cầu $(S):\\ x^2+y^2+z^2-2x+4y-6z-2=0$ có tâm $I$ và bán kính $R$ là",
+   "options": [
+    "$I(-1;2;-3),\\ R=4$",
+    "$I(1;-2;3),\\ R=16$",
+    "$I(1;-2;3),\\ R=4$",
+    "$I(1;-2;3),\\ R=2\\sqrt3$"
+   ],
+   "answer": 2,
+   "explanation": "$(x-1)^2+(y+2)^2+(z-3)^2=16$. Tâm $I(1;-2;3)$, $R=4$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tọa độ Oxyz – khoảng cách",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, tính khoảng cách giữa hai mặt phẳng song song $(P):\\ x+2y-2z+1=0$ và $(Q):\\ x+2y-2z-8=0$.",
+   "answer_text": "3",
+   "explanation": "$d=\\dfrac{|1-(-8)|}{\\sqrt{1+4+4}}=\\dfrac93=3$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tổ hợp",
+   "level": 2,
+   "stem": "Một nhóm có $10$ người. Có bao nhiêu cách chọn ra một ban đại diện gồm $1$ trưởng ban, $1$ phó ban và $2$ ủy viên (các vai trò ủy viên như nhau)?",
+   "answer_text": "2520",
+   "explanation": "Chọn trưởng, phó: $A_{10}^2=90$; chọn $2$ ủy viên từ $8$ người còn lại: $C_8^2=28$. Tổng $90\\cdot28=2520$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất có điều kiện",
+   "level": 3,
+   "stem": "Một bệnh có tỉ lệ mắc trong cộng đồng là $1\\%$. Một xét nghiệm cho kết quả dương tính với $95\\%$ người mắc bệnh và cũng cho kết quả dương tính (nhầm) với $5\\%$ người không mắc bệnh. Một người được xét nghiệm có kết quả dương tính. Xác suất người đó thực sự mắc bệnh xấp xỉ",
+   "options": [
+    "$95\\%$",
+    "$9{,}5\\%$",
+    "$16{,}1\\%$",
+    "$50\\%$"
+   ],
+   "answer": 2,
+   "explanation": "$P(+)=0{,}01\\cdot0{,}95+0{,}99\\cdot0{,}05=0{,}059$. $P(B\\mid+)=\\dfrac{0{,}0095}{0{,}059}\\approx0{,}161=16{,}1\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất",
+   "level": 2,
+   "stem": "Chọn ngẫu nhiên hai số khác nhau từ $20$ số nguyên dương đầu tiên. Xác suất để tích hai số được chọn là số chẵn bằng",
+   "options": [
+    "$\\dfrac{29}{38}$",
+    "$\\dfrac{9}{38}$",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{10}{19}$"
+   ],
+   "answer": 0,
+   "explanation": "Tích lẻ khi cả hai số lẻ: $C_{10}^2=45$ cách. $P=1-\\dfrac{45}{C_{20}^2}=1-\\dfrac{45}{190}=\\dfrac{29}{38}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Bài toán thực tế – lãi suất",
+   "level": 3,
+   "stem": "Đầu mỗi tháng, một người gửi vào ngân hàng $5$ triệu đồng với lãi suất $0{,}5\\%$/tháng theo hình thức lãi kép. Số tiền (cả gốc lẫn lãi) người đó có ngay sau khi kết thúc tháng thứ $12$ xấp xỉ là (giả sử lãi suất không đổi và không rút tiền)",
+   "options": [
+    "$61{,}68$ triệu đồng",
+    "$61{,}99$ triệu đồng",
+    "$60{,}30$ triệu đồng",
+    "$62{,}30$ triệu đồng"
+   ],
+   "answer": 1,
+   "explanation": "Khoản gửi đầu tháng thứ $i$ được hưởng lãi $13-i$ tháng. Tổng $T=5\\left(1{,}005+1{,}005^2+\\dots+1{,}005^{12}\\right)=5\\cdot1{,}005\\cdot\\dfrac{1{,}005^{12}-1}{0{,}005}\\approx61{,}99$ (triệu đồng)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lượng giác",
+   "level": 3,
+   "stem": "Tổng các nghiệm của phương trình $\\cos2x+3\\sin x-2=0$ trên đoạn $[0;2\\pi]$ bằng",
+   "options": [
+    "$\\pi$",
+    "$\\dfrac{5\\pi}{2}$",
+    "$2\\pi$",
+    "$\\dfrac{3\\pi}{2}$"
+   ],
+   "answer": 3,
+   "explanation": "$1-2\\sin^2x+3\\sin x-2=0\\Leftrightarrow2\\sin^2x-3\\sin x+1=0\\Leftrightarrow\\sin x=1$ hoặc $\\sin x=\\dfrac12$. Trên $[0;2\\pi]$: $x=\\dfrac\\pi2,\\ \\dfrac\\pi6,\\ \\dfrac{5\\pi}6$. Tổng $\\dfrac{3\\pi}2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – mẫu số liệu ghép nhóm",
+   "level": 3,
+   "stem": "Thời gian sử dụng mạng xã hội mỗi ngày (giờ) của $40$ học sinh: $[0;2)$: $8$; $[2;4)$: $12$; $[4;6)$: $10$; $[6;8)$: $6$; $[8;10)$: $4$. Khoảng tứ phân vị của mẫu số liệu ghép nhóm này xấp xỉ bằng",
+   "options": [
+    "$3{,}67$ giờ",
+    "$4{,}00$ giờ",
+    "$3{,}33$ giờ",
+    "$4{,}33$ giờ"
+   ],
+   "answer": 0,
+   "explanation": "$Q_1$ thuộc nhóm $[2;4)$: $Q_1=2+\\dfrac{10-8}{12}\\cdot2=\\dfrac73$. $Q_3$ thuộc nhóm $[4;6)$: $Q_3=4+\\dfrac{30-20}{10}\\cdot2=6$. $\\Delta_Q=6-\\dfrac73=\\dfrac{11}3\\approx3{,}67$."
+  }
+ ],
+ "self_check": "Mọi đáp án được tính lại bằng Python/sympy (đạo hàm, giới hạn, solve/solveset, tích phân, tọa độ hóa hình không gian, liệt kê itertools, Bayes bằng phân số, lãi kép tính số); không trùng câu với de1/de2; đã chạy dgnl-check."
+}

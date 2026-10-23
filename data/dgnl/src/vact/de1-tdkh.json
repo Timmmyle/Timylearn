@@ -1,0 +1,466 @@
+{
+ "exam": "vact",
+ "part": "tdkh",
+ "set": "de1",
+ "passages": {
+  "l1": "Sáu bạn An, Bình, Chi, Dương, Giang, Hùng sống ở sáu tầng khác nhau của một tòa nhà 6 tầng (tầng 1 thấp nhất, tầng 6 cao nhất), mỗi tầng đúng một bạn. Biết rằng:\n1. Bình ở tầng cao hơn An.\n2. Chi ở tầng 3 hoặc tầng 5.\n3. Dương và Giang ở hai tầng liền nhau.\n4. Hùng không ở tầng 1 và cũng không ở tầng 6.\n5. An và Chi không ở hai tầng liền nhau.",
+  "l2": "Trong giờ ra chơi, bình hoa trên bàn giáo viên bị vỡ. Biết rằng có đúng một trong bốn bạn Khoa, Lâm, Minh, Nam làm vỡ bình hoa. Khi được hỏi, các bạn trả lời:\n- Khoa: \"Lâm làm vỡ.\"\n- Lâm: \"Nam làm vỡ.\"\n- Minh: \"Em không làm vỡ.\"\n- Nam: \"Lâm nói sai.\"",
+  "d1": "Bảng dưới đây cho biết diện tích gieo trồng và sản lượng lúa của Hợp tác xã Thành Công (số liệu giả định) trong giai đoạn 2020 – 2024.\n| Năm | Diện tích (ha) | Sản lượng (tấn) |\n| 2020 | 120 | 690 |\n| 2021 | 125 | 750 |\n| 2022 | 130 | 754 |\n| 2023 | 128 | 768 |\n| 2024 | 135 | 837 |\nNăng suất = Sản lượng : Diện tích (tấn/ha).",
+  "s1": "Để tìm hiểu chu kì dao động của con lắc đơn phụ thuộc vào những yếu tố nào, một nhóm học sinh treo quả nặng vào một sợi dây mảnh, không dãn, kéo lệch dây khỏi phương thẳng đứng một góc nhỏ (khoảng 5°) rồi thả nhẹ. Dùng đồng hồ bấm giây đo thời gian $t$ của 10 dao động toàn phần, từ đó tính chu kì $T = \\dfrac{t}{10}$. Thí nghiệm làm tại nơi có $g \\approx 9{,}87$ m/s².\nThí nghiệm 1 (quả nặng 50 g, thay đổi chiều dài dây $\\ell$):\n| $\\ell$ (m) | 0,25 | 0,49 | 0,64 | 1,00 |\n| $t$ (s) | 10,0 | 14,0 | 16,0 | 20,0 |\nThí nghiệm 2 (chiều dài dây 1,00 m, thay đổi khối lượng quả nặng $m$):\n| $m$ (g) | 50 | 100 | 200 |\n| $t$ (s) | 20,0 | 20,0 | 20,1 |",
+  "s2": "Một học sinh khảo sát các yếu tố ảnh hưởng đến tốc độ phản ứng giữa đá vôi và dung dịch hydrochloric acid:\n$\\mathrm{CaCO_3 + 2HCl \\rightarrow CaCl_2 + CO_2 + H_2O}$\nỞ mỗi thí nghiệm, cho 1,00 g $\\mathrm{CaCO_3}$ vào 50 mL dung dịch HCl (HCl luôn dư) và đo thời gian từ lúc bắt đầu đến khi ngừng thoát khí.\n| Thí nghiệm | Dạng $\\mathrm{CaCO_3}$ | Nồng độ HCl | Nhiệt độ | Thời gian (s) |\n| TN1 | viên | 1 M | 25 °C | 240 |\n| TN2 | bột | 1 M | 25 °C | 60 |\n| TN3 | viên | 2 M | 25 °C | 130 |\n| TN4 | viên | 1 M | 45 °C | 70 |",
+  "s3": "Enzyme catalase có trong tế bào khoai tây xúc tác phản ứng phân giải hydrogen peroxide: $\\mathrm{2H_2O_2 \\rightarrow 2H_2O + O_2}$.\nMột nhóm học sinh cho 2 g khoai tây nghiền vào mỗi ống nghiệm chứa 5 mL dung dịch $\\mathrm{H_2O_2}$ 3% đã được chỉnh về các pH khác nhau bằng dung dịch đệm, giữ ở 30 °C. Sau 2 phút, đo chiều cao cột bọt khí trong ống.\n| pH | 3 | 5 | 7 | 9 | 11 |\n| Chiều cao cột bọt (cm) | 0,4 | 2,1 | 4,5 | 3,0 | 0,6 |\nỐng đối chứng: 2 g khoai tây nghiền đã đun sôi 10 phút rồi để nguội, cho vào dung dịch $\\mathrm{H_2O_2}$ ở pH 7, 30 °C. Sau 2 phút, cột bọt cao 0,1 cm.",
+  "s4": "Một học sinh đặt các hiệu điện thế $U$ khác nhau vào hai linh kiện: X là một điện trở, Y là một bóng đèn sợi đốt, và đo cường độ dòng điện $I$ qua mỗi linh kiện.\n| $U$ (V) | 1,0 | 2,0 | 4,0 | 6,0 |\n| $I_X$ (A) | 0,05 | 0,10 | 0,20 | 0,30 |\n| $I_Y$ (A) | 0,10 | 0,16 | 0,25 | 0,30 |",
+  "s5": "Một nhà nghiên cứu lai hai dòng đậu Hà Lan thuần chủng: cây hoa tím × cây hoa trắng, thu được F1 gồm toàn cây hoa tím. Cho các cây F1 tự thụ phấn, F2 thu được 612 cây hoa tím và 198 cây hoa trắng. Biết tính trạng màu hoa do một gene có hai allele quy định."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "l1",
+   "topic": "Suy luận logic – xếp chỗ",
+   "level": 1,
+   "stem": "Hùng có thể ở những tầng nào?",
+   "options": [
+    "Chỉ tầng 2",
+    "Tầng 3 hoặc tầng 4",
+    "Tầng 2, tầng 4 hoặc tầng 5",
+    "Tầng 2 hoặc tầng 4"
+   ],
+   "answer": 3,
+   "explanation": "Hùng không ở tầng 1, 6. Nếu Hùng ở tầng 5 thì Chi ở tầng 3, An ở tầng 1 (không liền Chi), còn các tầng 2, 4, 6 cho Bình, Dương, Giang – không có hai tầng liền nhau cho Dương, Giang. Nếu Hùng ở tầng 3 thì Chi ở tầng 5, An ở tầng 1, lại còn tầng 2, 4, 6 – mâu thuẫn tương tự. Còn tầng 2, 4 đều có cách xếp, ví dụ An 1, Hùng 2, Chi 3, Bình 4, Dương 5, Giang 6 và An 1, Bình 2, Chi 3, Hùng 4, Dương 5, Giang 6. Vậy Hùng ở tầng 2 hoặc 4."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "l1",
+   "topic": "Suy luận logic – xếp chỗ",
+   "level": 1,
+   "stem": "Nếu Chi ở tầng 5 thì Bình ở tầng nào?",
+   "options": [
+    "Tầng 4",
+    "Tầng 2",
+    "Tầng 6",
+    "Tầng 3"
+   ],
+   "answer": 2,
+   "explanation": "Chi ở tầng 5 thì An không ở tầng 4, 6 (liền Chi) và không ở tầng 5, nên An ở tầng 1, 2 hoặc 3. Tầng 6 không thể là Hùng; nếu tầng 6 là Dương hoặc Giang thì người còn lại phải ở tầng 5 (đã có Chi) – vô lí; An không ở 6. Vậy tầng 6 là Bình."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "l1",
+   "topic": "Suy luận logic – xếp chỗ",
+   "level": 2,
+   "stem": "Bạn nào KHÔNG thể ở tầng 4?",
+   "options": [
+    "Bình",
+    "An",
+    "Dương",
+    "Hùng"
+   ],
+   "answer": 1,
+   "explanation": "Chi ở tầng 3 hoặc 5, cả hai đều liền với tầng 4, mà An không được ở tầng liền với Chi nên An không thể ở tầng 4. Các bạn còn lại đều có cách xếp ở tầng 4 (vd: An 1, Hùng 2, Chi 3, Bình 4, Dương 5, Giang 6 hoặc An 1, Hùng 2, Chi 3, Dương 4, Giang 5, Bình 6; An 1, Bình 2, Chi 3, Hùng 4, Dương 5, Giang 6)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "l1",
+   "topic": "Suy luận logic – xếp chỗ",
+   "level": 3,
+   "stem": "Nếu An ở tầng 5 thì điều nào sau đây chắc chắn đúng?",
+   "options": [
+    "Hùng ở tầng 4",
+    "Dương ở tầng 1",
+    "Giang ở tầng 2",
+    "Chi ở tầng 5"
+   ],
+   "answer": 0,
+   "explanation": "An ở tầng 5 thì Chi ở tầng 3, Bình ở tầng 6. Còn tầng 1, 2, 4 cho Dương, Giang, Hùng; Dương – Giang liền nhau nên phải ở tầng 1, 2, do đó Hùng ở tầng 4. Thứ tự Dương, Giang ở tầng 1, 2 có thể đổi chỗ."
+  },
+  {
+   "qtype": "short",
+   "passage": "l1",
+   "topic": "Suy luận logic – xếp chỗ",
+   "level": 3,
+   "stem": "Có tất cả bao nhiêu cách xếp sáu bạn vào sáu tầng thỏa mãn đồng thời năm điều kiện trên?",
+   "answer_text": "14",
+   "explanation": "Chi ở tầng 3: An ở tầng 1 hoặc 5. An 5 → Bình 6, Hùng 4, Dương – Giang ở 1, 2: 2 cách. An 1 → Bình, Hùng, Dương, Giang xếp vào tầng 2, 4, 5, 6 với Hùng ở 2 hoặc 4 và Dương – Giang liền nhau (cặp 4–5 hoặc 5–6): Hùng 2 có 4 cách, Hùng 4 có 2 cách → 6 cách. Cộng 8 cách. Chi ở tầng 5: Bình 6, An ở 1 hoặc 3, Hùng ở 2 hoặc 4, Dương – Giang liền nhau: 6 cách. Tổng 8 + 6 = 14."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "l2",
+   "topic": "Suy luận logic – nói thật, nói dối",
+   "level": 2,
+   "stem": "Nếu trong bốn bạn chỉ có đúng một bạn nói thật thì ai làm vỡ bình hoa?",
+   "options": [
+    "Khoa",
+    "Lâm",
+    "Nam",
+    "Minh"
+   ],
+   "answer": 3,
+   "explanation": "Lời Lâm và lời Nam mâu thuẫn nhau (Nam nói Lâm sai) nên đúng một trong hai người nói thật. Vậy Khoa và Minh đều nói sai. Minh nói sai → Minh làm vỡ. Kiểm tra: Lâm nói sai, Nam nói thật – chỉ một người nói thật, thỏa mãn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "l2",
+   "topic": "Suy luận logic – nói thật, nói dối",
+   "level": 2,
+   "stem": "Nếu trong bốn bạn chỉ có đúng một bạn nói dối thì ai làm vỡ bình hoa?",
+   "options": [
+    "Khoa",
+    "Minh",
+    "Lâm",
+    "Nam"
+   ],
+   "answer": 2,
+   "explanation": "Lâm và Nam có đúng một người nói dối, nên Khoa và Minh nói thật. Khoa nói thật → Lâm làm vỡ. Kiểm tra: Lâm nói sai, Minh, Nam nói thật, thỏa mãn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "l2",
+   "topic": "Suy luận logic – nói thật, nói dối",
+   "level": 3,
+   "stem": "Nếu trong bốn bạn có đúng hai bạn nói thật thì khẳng định nào sau đây chắc chắn đúng?",
+   "options": [
+    "Minh nói thật",
+    "Khoa làm vỡ bình hoa",
+    "Nam nói thật",
+    "Lâm nói thật"
+   ],
+   "answer": 0,
+   "explanation": "Xét từng người làm vỡ: Khoa → đúng: Minh, Nam (2 người); Lâm → 3 người; Minh → 1 người; Nam → đúng: Lâm, Minh (2 người). Vậy người làm vỡ là Khoa hoặc Nam; trong cả hai trường hợp Minh đều nói thật, còn Nam, Lâm, việc Khoa làm vỡ chưa chắc chắn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Suy luận logic – mệnh đề",
+   "level": 2,
+   "stem": "Ban giám đốc một nhà máy khẳng định: \"Nếu nhà máy tăng ca thì sản lượng tăng. Nếu sản lượng tăng thì nhà máy phải thuê thêm kho.\" Biết hai khẳng định trên đúng và tháng này nhà máy không thuê thêm kho. Kết luận nào sau đây chắc chắn đúng?",
+   "options": [
+    "Tháng này nhà máy có tăng ca nhưng sản lượng không tăng",
+    "Tháng này nhà máy không tăng ca",
+    "Tháng này sản lượng tăng nhưng nhà máy không tăng ca",
+    "Tháng này nhà máy tăng ca và sản lượng tăng"
+   ],
+   "answer": 1,
+   "explanation": "Không thuê kho → sản lượng không tăng (phản đảo của mệnh đề 2) → nhà máy không tăng ca (phản đảo của mệnh đề 1)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "d1",
+   "topic": "Phân tích số liệu – tăng trưởng",
+   "level": 1,
+   "stem": "So với năm 2020, sản lượng lúa năm 2024 của hợp tác xã tăng khoảng",
+   "options": [
+    "17,6%",
+    "21,3%",
+    "12,5%",
+    "147%"
+   ],
+   "answer": 1,
+   "explanation": "$\\dfrac{837-690}{690}\\cdot 100\\% \\approx 21{,}3\\%$."
+  },
+  {
+   "qtype": "tf",
+   "passage": "d1",
+   "topic": "Phân tích số liệu – so sánh",
+   "level": 2,
+   "stem": "Dựa vào bảng số liệu, xét tính đúng/sai của các nhận định sau.",
+   "statements": [
+    {
+     "t": "Sản lượng lúa tăng liên tục qua các năm từ 2020 đến 2024.",
+     "a": true
+    },
+    {
+     "t": "Năng suất lúa năm 2022 thấp hơn năm 2021.",
+     "a": true
+    },
+    {
+     "t": "Diện tích gieo trồng tăng liên tục qua các năm từ 2020 đến 2024.",
+     "a": false
+    },
+    {
+     "t": "Năng suất lúa năm 2024 tăng hơn 8% so với năm 2020.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 690 < 750 < 754 < 768 < 837. b) Đúng: năng suất 2021 là 6,0 tấn/ha, năm 2022 là 754 : 130 = 5,8 tấn/ha. c) Sai: năm 2023 diện tích giảm từ 130 xuống 128 ha. d) Sai: năng suất 2020 là 5,75, năm 2024 là 6,2 tấn/ha, tăng $\\dfrac{6{,}2}{5{,}75}-1\\approx 7{,}8\\%$."
+  },
+  {
+   "qtype": "short",
+   "passage": "d1",
+   "topic": "Phân tích số liệu – dự báo",
+   "level": 3,
+   "stem": "Năm 2025, hợp tác xã giữ nguyên diện tích như năm 2024 và năng suất tăng 5% so với năm 2024. Sản lượng lúa năm 2025 là bao nhiêu tấn? (làm tròn đến hàng đơn vị)",
+   "answer_text": "879",
+   "explanation": "Năng suất 2024: 837 : 135 = 6,2 tấn/ha; năm 2025: 6,2 · 1,05 = 6,51 tấn/ha. Sản lượng: 135 · 6,51 = 878,85 ≈ 879 tấn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – con lắc đơn",
+   "level": 1,
+   "stem": "Trong thí nghiệm 1, biến độc lập và biến phụ thuộc lần lượt là",
+   "options": [
+    "chu kì dao động và chiều dài dây",
+    "khối lượng quả nặng và chu kì dao động",
+    "chiều dài dây và chu kì dao động",
+    "góc lệch ban đầu và chiều dài dây"
+   ],
+   "answer": 2,
+   "explanation": "Thí nghiệm 1 chủ động thay đổi chiều dài dây (biến độc lập) và đo chu kì (biến phụ thuộc); khối lượng và góc lệch được giữ không đổi."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – con lắc đơn",
+   "level": 2,
+   "stem": "Kết luận nào sau đây phù hợp với kết quả của cả hai thí nghiệm?",
+   "options": [
+    "Chu kì tỉ lệ thuận với chiều dài dây",
+    "Chu kì tăng khi khối lượng quả nặng tăng",
+    "Chu kì không phụ thuộc chiều dài dây mà chỉ phụ thuộc khối lượng",
+    "Chu kì tăng khi chiều dài dây tăng và hầu như không phụ thuộc khối lượng quả nặng"
+   ],
+   "answer": 3,
+   "explanation": "Thí nghiệm 1: $\\ell$ tăng 4 lần (0,25 → 1,00 m) thì $T$ chỉ tăng 2 lần (1,0 → 2,0 s), nên $T$ không tỉ lệ thuận với $\\ell$ mà $T^2$ tỉ lệ với $\\ell$. Thí nghiệm 2: khối lượng tăng 4 lần, $t$ gần như không đổi (sai lệch 0,1 s do sai số đo)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – con lắc đơn",
+   "level": 3,
+   "stem": "Dựa vào quy luật rút ra từ thí nghiệm 1, để con lắc có chu kì 1,8 s thì chiều dài dây cần dùng gần nhất với giá trị nào?",
+   "options": [
+    "0,72 m",
+    "0,81 m",
+    "0,90 m",
+    "1,62 m"
+   ],
+   "answer": 1,
+   "explanation": "Từ bảng: $\\dfrac{T^2}{\\ell} = \\dfrac{1{,}0^2}{0{,}25} = \\dfrac{2{,}0^2}{1{,}00} = 4$ (s²/m). Với $T = 1{,}8$ s: $\\ell = \\dfrac{1{,}8^2}{4} = 0{,}81$ m."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – con lắc đơn",
+   "level": 3,
+   "stem": "Nếu đem con lắc dài 1,00 m lên Mặt Trăng, nơi gia tốc trọng trường chỉ bằng khoảng $\\dfrac{1}{6}$ trên Trái Đất, thì thời gian của 10 dao động toàn phần gần nhất với",
+   "options": [
+    "3,3 s",
+    "8,2 s",
+    "49 s",
+    "120 s"
+   ],
+   "answer": 2,
+   "explanation": "$T = 2\\pi\\sqrt{\\dfrac{\\ell}{g}}$ nên $g$ giảm 6 lần thì $T$ tăng $\\sqrt{6} \\approx 2{,}45$ lần: $t \\approx 20 \\cdot 2{,}45 \\approx 49$ s."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Hóa học – tốc độ phản ứng",
+   "level": 1,
+   "stem": "Để rút ra kết luận về ảnh hưởng của diện tích bề mặt tiếp xúc đến tốc độ phản ứng, cần so sánh kết quả của hai thí nghiệm nào?",
+   "options": [
+    "TN1 và TN2",
+    "TN1 và TN3",
+    "TN2 và TN3",
+    "TN2 và TN4"
+   ],
+   "answer": 0,
+   "explanation": "TN1 và TN2 chỉ khác nhau ở dạng đá vôi (viên/bột), các yếu tố khác (nồng độ, nhiệt độ) giữ nguyên."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Hóa học – tính theo phương trình",
+   "level": 2,
+   "stem": "Thể tích khí $\\mathrm{CO_2}$ (ở điều kiện chuẩn 25 °C, 1 bar; thể tích mol khí 24,79 L/mol) thu được khi kết thúc TN3 là",
+   "options": [
+    "123,9 mL",
+    "224,0 mL",
+    "247,9 mL",
+    "495,8 mL"
+   ],
+   "answer": 2,
+   "explanation": "$n_{\\mathrm{CaCO_3}} = \\dfrac{1{,}00}{100} = 0{,}01$ mol, HCl dư nên $n_{\\mathrm{CO_2}} = 0{,}01$ mol, $V = 0{,}01 \\cdot 24{,}79 = 0{,}2479$ L = 247,9 mL. Nồng độ HCl lớn hơn chỉ làm phản ứng nhanh hơn, không làm tăng lượng khí."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Hóa học – tốc độ phản ứng",
+   "level": 2,
+   "stem": "Nhận định nào sau đây đúng với kết quả thí nghiệm?",
+   "options": [
+    "Tăng gấp đôi nồng độ HCl làm thời gian phản ứng giảm đúng một nửa",
+    "Nghiền nhỏ đá vôi làm tốc độ phản ứng trung bình tăng khoảng 4 lần",
+    "Tăng nhiệt độ làm giảm lượng khí $\\mathrm{CO_2}$ thu được",
+    "Nồng độ HCl không ảnh hưởng đến tốc độ phản ứng"
+   ],
+   "answer": 1,
+   "explanation": "TN1 → TN2: thời gian giảm từ 240 s xuống 60 s, lượng chất phản ứng như nhau nên tốc độ trung bình tăng $240 : 60 = 4$ lần. TN3 cho 130 s, không phải 120 s; nhiệt độ không ảnh hưởng lượng khí; nồng độ có ảnh hưởng (240 → 130 s)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Hóa học – tốc độ phản ứng",
+   "level": 3,
+   "stem": "Nếu tiến hành thêm TN5 với đá vôi dạng bột, HCl 2 M, ở 45 °C (các điều kiện khác như trên) thì thời gian phản ứng nhiều khả năng",
+   "options": [
+    "ngắn hơn 60 s",
+    "xấp xỉ 240 s",
+    "dài hơn 130 s",
+    "bằng 70 s"
+   ],
+   "answer": 0,
+   "explanation": "TN5 kết hợp cả ba yếu tố làm tăng tốc độ (bề mặt lớn, nồng độ cao, nhiệt độ cao) so với TN1, mỗi yếu tố riêng lẻ đã cho thời gian 60 s, 130 s, 70 s, nên thời gian TN5 phải ngắn hơn 60 s."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – enzyme",
+   "level": 1,
+   "stem": "Trong thí nghiệm này, biến phụ thuộc là",
+   "options": [
+    "pH của dung dịch",
+    "nhiệt độ của ống nghiệm",
+    "khối lượng khoai tây nghiền",
+    "chiều cao cột bọt khí sau 2 phút"
+   ],
+   "answer": 3,
+   "explanation": "Biến phụ thuộc là đại lượng được đo để đánh giá hoạt tính enzyme: chiều cao cột bọt (lượng $\\mathrm{O_2}$ sinh ra). pH là biến độc lập; nhiệt độ, khối lượng khoai tây là biến được kiểm soát."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – enzyme",
+   "level": 1,
+   "stem": "Kết luận nào sau đây phù hợp nhất với số liệu thu được?",
+   "options": [
+    "Hoạt tính catalase tăng dần khi pH tăng từ 3 đến 11",
+    "Catalase hoạt động mạnh nhất trong môi trường acid",
+    "Catalase khoai tây hoạt động mạnh nhất ở khoảng pH trung tính, hoạt tính giảm mạnh trong môi trường quá acid hoặc quá kiềm",
+    "pH không ảnh hưởng đáng kể đến hoạt tính catalase"
+   ],
+   "answer": 2,
+   "explanation": "Cột bọt tăng từ pH 3 đến cực đại ở pH 7 (4,5 cm) rồi giảm ở pH 9, 11; ở pH 3 và 11 chỉ còn 0,4 – 0,6 cm."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – enzyme",
+   "level": 2,
+   "stem": "Mục đích chính của ống đối chứng dùng khoai tây đã đun sôi là",
+   "options": [
+    "chứng tỏ nhiệt độ cao làm $\\mathrm{H_2O_2}$ phân hủy nhanh hơn",
+    "xác định pH tối ưu của catalase",
+    "chứng tỏ bọt khí sinh ra chủ yếu do enzyme có hoạt tính trong khoai tây xúc tác",
+    "đảm bảo lượng $\\mathrm{H_2O_2}$ ở các ống bằng nhau"
+   ],
+   "answer": 2,
+   "explanation": "Đun sôi làm enzyme (protein) bị biến tính. Ống này gần như không tạo bọt (0,1 cm) trong khi ống pH 7 có enzyme hoạt động tạo 4,5 cm, chứng tỏ bọt khí do catalase xúc tác, không phải do $\\mathrm{H_2O_2}$ tự phân hủy hay chất khác trong khoai tây."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – enzyme",
+   "level": 3,
+   "stem": "Nếu lặp lại thí nghiệm ở pH 7 nhưng giữ ống nghiệm ở 80 °C trong suốt 2 phút, chiều cao cột bọt nhiều khả năng",
+   "options": [
+    "rất thấp, gần với ống đối chứng",
+    "lớn hơn 4,5 cm vì nhiệt độ càng cao phản ứng càng nhanh",
+    "khoảng 4,5 cm vì pH vẫn là pH tối ưu",
+    "khoảng 9,0 cm vì nhiệt độ tăng gần gấp ba"
+   ],
+   "answer": 0,
+   "explanation": "Ở 80 °C, catalase (protein) bị biến tính nhanh, mất hoạt tính xúc tác, nên lượng $\\mathrm{O_2}$ tạo ra rất ít, tương tự ống khoai tây đã đun sôi."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s4",
+   "topic": "Vật lí – dòng điện",
+   "level": 1,
+   "stem": "Điện trở của linh kiện X là",
+   "options": [
+    "0,05 Ω",
+    "5 Ω",
+    "20 Ω",
+    "200 Ω"
+   ],
+   "answer": 2,
+   "explanation": "$R_X = \\dfrac{U}{I} = \\dfrac{2{,}0}{0{,}10} = 20$ Ω, không đổi với mọi cặp số liệu."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s4",
+   "topic": "Vật lí – dòng điện",
+   "level": 2,
+   "stem": "Nhận xét nào sau đây đúng về linh kiện Y?",
+   "options": [
+    "Điện trở của Y không đổi và bằng 10 Ω",
+    "Điện trở của Y giảm khi hiệu điện thế tăng",
+    "Cường độ dòng điện qua Y tỉ lệ thuận với hiệu điện thế",
+    "Điện trở của Y tăng khi hiệu điện thế tăng, phù hợp với việc sợi đốt nóng lên"
+   ],
+   "answer": 3,
+   "explanation": "$R_Y$ lần lượt bằng 10; 12,5; 16; 20 Ω, tăng dần. Khi $U$ tăng, dây tóc nóng hơn, điện trở kim loại tăng theo nhiệt độ nên đồ thị $I$ – $U$ của Y không phải đường thẳng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s4",
+   "topic": "Vật lí – dòng điện",
+   "level": 3,
+   "stem": "Mắc X và Y song song rồi nối vào nguồn có hiệu điện thế không đổi 4,0 V. Tổng công suất tiêu thụ của hai linh kiện là",
+   "options": [
+    "0,8 W",
+    "1,0 W",
+    "1,8 W",
+    "3,6 W"
+   ],
+   "answer": 2,
+   "explanation": "Mắc song song nên mỗi linh kiện chịu 4,0 V; theo bảng $I_X = 0{,}20$ A, $I_Y = 0{,}25$ A. $P = U(I_X + I_Y) = 4{,}0 \\cdot 0{,}45 = 1{,}8$ W."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s5",
+   "topic": "Sinh học – di truyền",
+   "level": 1,
+   "stem": "Tỉ lệ kiểu hình ở F2 gần nhất với tỉ lệ nào sau đây?",
+   "options": [
+    "1 tím : 1 trắng",
+    "3 tím : 1 trắng",
+    "9 tím : 7 trắng",
+    "1 tím : 2 trắng"
+   ],
+   "answer": 1,
+   "explanation": "$612 : 198 \\approx 3{,}09 : 1$, xấp xỉ 3 : 1 – đúng tỉ lệ phân li của phép lai một cặp tính trạng khi F1 dị hợp, tím trội hoàn toàn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s5",
+   "topic": "Sinh học – di truyền",
+   "level": 2,
+   "stem": "Theo lí thuyết, trong số các cây hoa tím ở F2, cây thuần chủng chiếm tỉ lệ",
+   "options": [
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{2}{3}$",
+    "$\\dfrac{3}{4}$"
+   ],
+   "answer": 0,
+   "explanation": "F1: Aa × Aa → F2: 1 AA : 2 Aa : 1 aa. Trong số cây hoa tím (AA + Aa), cây AA chiếm $\\dfrac{1}{1+2} = \\dfrac{1}{3}$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s5",
+   "topic": "Sinh học – di truyền",
+   "level": 3,
+   "stem": "Cho tất cả các cây hoa tím F2 lai với cây hoa trắng. Theo lí thuyết, tỉ lệ cây hoa trắng ở đời con là",
+   "options": [
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{1}{6}$"
+   ],
+   "answer": 2,
+   "explanation": "Cây tím F2: $\\dfrac{1}{3}$AA, $\\dfrac{2}{3}$Aa → giao tử a chiếm $\\dfrac{2}{3}\\cdot\\dfrac{1}{2} = \\dfrac{1}{3}$. Cây trắng (aa) chỉ cho giao tử a, nên tỉ lệ aa ở đời con là $\\dfrac{1}{3}$."
+  }
+ ],
+ "self_check": "Liệt kê hoán vị (Python) cho bài xếp tầng (14 nghiệm), xét 4 trường hợp người làm vỡ cho bài nói thật/nói dối, bảng chân trị cho câu mệnh đề; mọi phép tính số liệu, con lắc ($T=2\\pi\\sqrt{\\ell/g}$ khớp bảng), thể tích $\\mathrm{CO_2}$, công suất, tỉ lệ di truyền (Fraction) đều kiểm bằng Python."
+}

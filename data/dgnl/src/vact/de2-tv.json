@@ -1,0 +1,445 @@
+{
+ "exam": "vact",
+ "part": "tv",
+ "set": "de2",
+ "passages": {
+  "p1": "Rừng ngập mặn thường phát triển ở vùng cửa sông, ven biển nhiệt đới, nơi đất bùn ngập nước lợ theo con nước thủy triều. Để tồn tại trong môi trường khắc nghiệt ấy, nhiều loài cây như đước, mắm, bần đã hình thành những đặc điểm thích nghi riêng. Cây đước có hệ rễ chống hình vòng cung đâm xuống bùn, giúp thân đứng vững trước sóng gió; cây mắm, cây bần lại có rễ thở nhô lên khỏi mặt bùn để lấy không khí.\nKhông chỉ là nơi cư trú của nhiều loài tôm, cua, cá và chim, rừng ngập mặn còn được ví như \"bức tường xanh\" che chắn cho vùng ven biển. Hệ rễ chằng chịt làm giảm sức mạnh của sóng, giữ lại phù sa, hạn chế xói lở bờ biển. Ở nhiều nơi, chính dải rừng này đã góp phần bảo vệ làng mạc, đồng ruộng phía sau trước những cơn bão lớn.\nTuy vậy, rừng ngập mặn đang chịu sức ép lớn do bị chặt phá để lấy gỗ, lấy đất nuôi trồng thủy sản. Khi rừng mất đi, bờ biển dễ bị sạt lở, nước mặn lấn sâu vào nội đồng, sinh kế của người dân cũng vì thế mà bấp bênh. Bảo vệ rừng ngập mặn, suy cho cùng, cũng là bảo vệ cuộc sống của chính con người.\n\n(Đoạn văn do người soạn đề viết)",
+  "p2": "Đọc bài thơ sau:\n\nQuanh năm buôn bán ở mom sông,\nNuôi đủ năm con với một chồng.\nLặn lội thân cò khi quãng vắng,\nEo sèo mặt nước buổi đò đông.\nMột duyên hai nợ âu đành phận,\nNăm nắng mười mưa dám quản công.\nCha mẹ thói đời ăn ở bạc:\nCó chồng hờ hững cũng như không!\n\n(Trần Tế Xương, Thương vợ)",
+  "p3": "Chúng ta dành nhiều năm để học nói, học viết, nhưng hiếm khi được dạy cách lắng nghe. Nghe vốn là phản xạ tự nhiên; lắng nghe lại là một kĩ năng, thậm chí là một thái độ sống. Người chỉ nghe thường chờ đến lượt mình để nói, còn người biết lắng nghe thì đặt mình vào vị trí của người đối diện để hiểu điều họ thực sự muốn bày tỏ.\nTrong một cuộc trò chuyện, không ít người vừa nghe vừa lướt điện thoại, hoặc vội vàng ngắt lời để đưa ra lời khuyên. Họ tưởng mình đang giúp đỡ, nhưng người kia lại cảm thấy bị xem nhẹ. Đôi khi, điều một người cần không phải là lời khuyên, mà chỉ là một ai đó chịu im lặng ở bên và nghe họ nói hết.\nLắng nghe không làm ta yếu thế. Ngược lại, nó giúp ta hiểu người, hiểu việc, từ đó nói ít mà trúng, ứng xử khéo mà chân thành. Một xã hội biết lắng nghe sẽ bớt đi những hiểu lầm và va chạm không đáng có.\n\n(Đoạn văn do người soạn đề viết)"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Chính tả",
+   "level": 1,
+   "stem": "Từ nào sau đây viết SAI chính tả?",
+   "options": [
+    "sẵn sàng",
+    "sản xuất",
+    "xao xuyến",
+    "sơ xài"
+   ],
+   "answer": 3,
+   "explanation": "Viết đúng là \"sơ sài\" (đơn giản, qua loa). Các từ còn lại đều đúng chính tả."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Chính tả",
+   "level": 1,
+   "stem": "Chọn cặp từ thích hợp điền vào chỗ trống: \"Cả đội đã (1) ... được chức vô địch; số tiền thưởng ấy, các em quyết định (2) ... để ủng hộ quỹ khuyến học.\"",
+   "options": [
+    "(1) dành – (2) giành",
+    "(1) giành – (2) dành",
+    "(1) giành – (2) giành",
+    "(1) dành – (2) dành"
+   ],
+   "answer": 1,
+   "explanation": "\"Giành\": tranh lấy, đoạt được (giành chức vô địch). \"Dành\": để riêng ra cho một mục đích (dành tiền ủng hộ)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ Hán Việt",
+   "level": 3,
+   "stem": "Yếu tố \"gia\" trong từ nào sau đây KHÁC nghĩa với các từ còn lại?",
+   "options": [
+    "gia đình",
+    "gia tăng",
+    "gia tộc",
+    "gia chủ"
+   ],
+   "answer": 1,
+   "explanation": "Trong \"gia đình\", \"gia tộc\", \"gia chủ\", \"gia\" nghĩa là nhà; trong \"gia tăng\", \"gia\" nghĩa là thêm vào."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nghĩa của từ",
+   "level": 2,
+   "stem": "Từ \"bàng quan\" có nghĩa là gì?",
+   "options": [
+    "Viên quan đứng hầu bên cạnh vua",
+    "Đứng ngoài cuộc, thờ ơ, coi như việc không liên quan đến mình",
+    "Quan sát kĩ lưỡng sự việc từ nhiều phía",
+    "Lo lắng, bồn chồn không yên"
+   ],
+   "answer": 1,
+   "explanation": "\"Bàng quan\" (bàng: bên cạnh; quan: xem) là đứng bên cạnh mà xem, tức thái độ thờ ơ, không quan tâm. Lưu ý: không viết \"bàng quang\" (bộ phận cơ thể)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thành ngữ – tục ngữ",
+   "level": 1,
+   "stem": "Thành ngữ \"nước đổ đầu vịt\" dùng để chỉ điều gì?",
+   "options": [
+    "Nói, dạy mãi mà người nghe vẫn không tiếp thu được gì",
+    "Sự may mắn đến một cách bất ngờ",
+    "Sự đoàn kết, gắn bó chặt chẽ",
+    "Làm việc gì cũng nhanh chóng, gọn gàng"
+   ],
+   "answer": 0,
+   "explanation": "Lông vịt không thấm nước nên nước đổ lên đầu vịt trôi tuột đi; thành ngữ ví việc khuyên bảo, dạy dỗ mà người nghe không tiếp thu."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Cấu tạo từ",
+   "level": 2,
+   "stem": "Trong các từ sau, từ nào là từ ghép?",
+   "options": [
+    "tươi tốt",
+    "long lanh",
+    "lấp lánh",
+    "mải miết"
+   ],
+   "answer": 0,
+   "explanation": "\"Tươi tốt\" gồm hai tiếng đều có nghĩa, quan hệ đẳng lập: từ ghép. \"Lấp lánh\", \"long lanh\", \"mải miết\" là từ láy (láy âm đầu hoặc láy vần)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lỗi ngữ pháp",
+   "level": 2,
+   "stem": "Câu nào sau đây thiếu vị ngữ?",
+   "options": [
+    "Những bài thơ mà chúng em được học trong học kì này.",
+    "Những bài thơ chúng em được học trong học kì này đều rất hay.",
+    "Trong học kì này, chúng em được học những bài thơ rất hay.",
+    "Chúng em được học nhiều bài thơ hay trong học kì này."
+   ],
+   "answer": 0,
+   "explanation": "\"Những bài thơ mà chúng em được học trong học kì này\" chỉ là một cụm danh từ (có định ngữ là cụm chủ – vị), chưa có vị ngữ nói về \"những bài thơ\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lỗi dùng từ",
+   "level": 2,
+   "stem": "Câu nào sau đây dùng từ SAI nghĩa?",
+   "options": [
+    "Nhiều địa phương đã vận động người dân xóa bỏ hủ tục lạc hậu.",
+    "Thế hệ trẻ cần phát huy những hủ tục tốt đẹp của dân tộc.",
+    "Thế hệ trẻ cần phát huy những truyền thống tốt đẹp của dân tộc.",
+    "Những phong tục tốt đẹp của quê hương cần được gìn giữ."
+   ],
+   "answer": 1,
+   "explanation": "\"Hủ tục\" là phong tục cũ, lạc hậu, có hại; không thể kết hợp với \"tốt đẹp\" và \"phát huy\". Phải dùng \"truyền thống\" hoặc \"phong tục\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lỗi quan hệ từ",
+   "level": 2,
+   "stem": "Câu nào sau đây mắc lỗi dùng cặp quan hệ từ?",
+   "options": [
+    "Nếu trời tạnh mưa thì trận đấu sẽ bắt đầu lúc 16 giờ.",
+    "Vì trời mưa rất to nên trận đấu phải tạm hoãn.",
+    "Tuy trời mưa rất to nên trận đấu vẫn diễn ra đúng giờ.",
+    "Tuy trời mưa rất to nhưng trận đấu vẫn diễn ra đúng giờ."
+   ],
+   "answer": 2,
+   "explanation": "\"Tuy ... nên\" là cặp quan hệ từ không tương hợp: \"tuy\" biểu thị nhượng bộ (đi với \"nhưng\"), \"nên\" biểu thị kết quả (đi với \"vì/ do\")."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lỗi logic",
+   "level": 3,
+   "stem": "Câu nào sau đây mắc lỗi logic do xếp ngang hàng các khái niệm không cùng loại?",
+   "options": [
+    "\"Hai đứa trẻ\" là truyện ngắn đặc sắc của Thạch Lam.",
+    "\"Lão Hạc\", \"Chí Phèo\" và \"Đời thừa\" là những truyện ngắn tiêu biểu của Nam Cao.",
+    "\"Lão Hạc\", \"Vợ nhặt\" và Nam Cao là những tên tuổi tiêu biểu của văn học hiện thực.",
+    "\"Vợ nhặt\" của Kim Lân viết về nạn đói năm Ất Dậu 1945."
+   ],
+   "answer": 2,
+   "explanation": "\"Lão Hạc\", \"Vợ nhặt\" là tác phẩm, còn Nam Cao là tác giả; liệt kê chúng ngang hàng là sai logic. Các câu còn lại đúng cả về logic lẫn kiến thức."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thành phần câu",
+   "level": 1,
+   "stem": "Trong câu \"Lan – cô bạn thân nhất của tôi – vừa đạt giải Nhất cuộc thi viết.\", phần \"cô bạn thân nhất của tôi\" là thành phần gì?",
+   "options": [
+    "Thành phần tình thái",
+    "Trạng ngữ",
+    "Thành phần phụ chú",
+    "Thành phần cảm thán"
+   ],
+   "answer": 2,
+   "explanation": "Phần đặt giữa hai dấu gạch ngang, bổ sung thông tin cho \"Lan\", là thành phần biệt lập phụ chú."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Biện pháp tu từ",
+   "level": 2,
+   "stem": "Bài ca dao \"Bà già đi chợ Cầu Đông / Bói xem một quẻ lấy chồng lợi chăng / Thầy bói xem quẻ nói rằng / Lợi thì có lợi nhưng răng không còn\" sử dụng biện pháp tu từ chủ yếu nào?",
+   "options": [
+    "Chơi chữ",
+    "Hoán dụ",
+    "Nói giảm, nói tránh",
+    "Liệt kê"
+   ],
+   "answer": 0,
+   "explanation": "Từ \"lợi\" được dùng đồng âm, nhiều nghĩa: bà già hỏi \"lợi\" (lợi ích), thầy bói đáp \"lợi\" (phần thịt chân răng) – phép chơi chữ tạo tiếng cười hóm hỉnh."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Biện pháp tu từ",
+   "level": 3,
+   "stem": "Phép so sánh trong câu ca dao \"Thân em như tấm lụa đào / Phất phơ giữa chợ biết vào tay ai\" nhằm diễn tả điều gì?",
+   "options": [
+    "Sự giàu có, sung túc của người phụ nữ xưa",
+    "Thói buôn bán gian dối ở chợ quê",
+    "Vẻ đẹp đồng thời thân phận bấp bênh, không tự quyết định được của người phụ nữ",
+    "Nghề dệt lụa truyền thống của làng quê Việt"
+   ],
+   "answer": 2,
+   "explanation": "\"Tấm lụa đào\" gợi vẻ đẹp, sự quý giá; \"phất phơ giữa chợ biết vào tay ai\" gợi số phận trôi nổi, phụ thuộc của người phụ nữ trong xã hội cũ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Biện pháp tu từ",
+   "level": 3,
+   "stem": "Trong câu ca dao \"Mồ hôi mà đổ xuống đồng / Lúa mọc trùng trùng sáng cả đồi nương\", từ \"mồ hôi\" được dùng theo phép hoán dụ để chỉ điều gì?",
+   "options": [
+    "Nỗi buồn của người nông dân khi mất mùa",
+    "Sức lao động vất vả của người nông dân",
+    "Thời tiết nắng nóng trên cánh đồng",
+    "Nguồn nước tưới cho ruộng lúa"
+   ],
+   "answer": 1,
+   "explanation": "\"Mồ hôi\" (dấu hiệu, kết quả) dùng để chỉ sức lao động (sự việc) – quan hệ gần gũi giữa dấu hiệu và sự vật: hoán dụ. Câu ca dao khẳng định lao động vất vả sẽ mang lại mùa màng tươi tốt."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thể loại văn học",
+   "level": 3,
+   "stem": "Tác phẩm nào sau đây thuộc thể loại truyện truyền kì?",
+   "options": [
+    "\"Vào phủ chúa Trịnh\" (Lê Hữu Trác)",
+    "\"Hoàng Lê nhất thống chí\" (Ngô gia văn phái)",
+    "\"Tấm Cám\" (truyện dân gian)",
+    "\"Chuyện chức phán sự đền Tản Viên\" (Nguyễn Dữ)"
+   ],
+   "answer": 3,
+   "explanation": "Truyện trong \"Truyền kì mạn lục\" của Nguyễn Dữ là truyện truyền kì (kết hợp yếu tố thực và kì ảo, viết bằng chữ Hán). \"Vào phủ chúa Trịnh\" là kí; \"Tấm Cám\" là truyện cổ tích; \"Hoàng Lê nhất thống chí\" là tiểu thuyết chương hồi."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tác giả – tác phẩm",
+   "level": 1,
+   "stem": "Truyện ngắn \"Hai đứa trẻ\" là sáng tác của nhà văn nào?",
+   "options": [
+    "Nguyễn Tuân",
+    "Thạch Lam",
+    "Nam Cao",
+    "Kim Lân"
+   ],
+   "answer": 1,
+   "explanation": "\"Hai đứa trẻ\" (in trong tập \"Nắng trong vườn\") là truyện ngắn tiêu biểu của Thạch Lam, nhà văn thuộc nhóm Tự lực văn đoàn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tác giả – tác phẩm",
+   "level": 2,
+   "stem": "Truyện ngắn \"Vợ nhặt\" của Kim Lân lấy bối cảnh là sự kiện lịch sử nào?",
+   "options": [
+    "Nạn đói năm Ất Dậu (1945)",
+    "Chiến dịch Điện Biên Phủ (1954)",
+    "Phong trào Xô viết Nghệ Tĩnh (1930 – 1931)",
+    "Phong trào Đồng khởi (1960)"
+   ],
+   "answer": 0,
+   "explanation": "\"Vợ nhặt\" viết về nạn đói khủng khiếp năm 1945, qua câu chuyện anh cu Tràng \"nhặt\" được vợ giữa những ngày đói."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kiến thức văn học",
+   "level": 3,
+   "stem": "Nhận định nào sau đây ĐÚNG về \"Bình Ngô đại cáo\"?",
+   "options": [
+    "Viết bằng chữ Nôm theo thể hịch; do Trần Quốc Tuấn soạn trước cuộc kháng chiến chống quân Nguyên.",
+    "Là bài thơ thất ngôn tứ tuyệt chữ Hán, được coi là bản tuyên ngôn độc lập đầu tiên của nước ta.",
+    "Viết bằng chữ quốc ngữ, công bố sau thắng lợi của khởi nghĩa Tây Sơn.",
+    "Viết bằng chữ Hán theo thể cáo, lối văn biền ngẫu; Nguyễn Trãi thay lời Lê Lợi soạn năm 1428."
+   ],
+   "answer": 3,
+   "explanation": "\"Bình Ngô đại cáo\" do Nguyễn Trãi thay Lê Lợi viết đầu năm 1428 sau khi đánh thắng giặc Minh; thể cáo, chữ Hán, văn biền ngẫu. (Bài thơ \"Nam quốc sơn hà\" mới là thất ngôn tứ tuyệt.)"
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Theo đoạn trích, đặc điểm nào giúp cây đước đứng vững trước sóng gió?",
+   "options": [
+    "Lá dày, tích trữ nhiều nước",
+    "Thân cao, vỏ cứng",
+    "Hệ rễ chống hình vòng cung đâm xuống bùn",
+    "Rễ thở nhô lên khỏi mặt bùn"
+   ],
+   "answer": 2,
+   "explanation": "Đoạn trích viết: \"Cây đước có hệ rễ chống hình vòng cung đâm xuống bùn, giúp thân đứng vững trước sóng gió\". Rễ thở là đặc điểm của cây mắm, cây bần."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – tu từ",
+   "level": 2,
+   "stem": "Cách gọi rừng ngập mặn là \"bức tường xanh\" nhằm nhấn mạnh điều gì?",
+   "options": [
+    "Màu xanh của lá đước quanh năm",
+    "Rừng ngập mặn được trồng thẳng hàng như bức tường",
+    "Rừng ngập mặn ngăn cản việc đi lại của người dân",
+    "Vai trò che chắn, bảo vệ vùng ven biển của rừng ngập mặn"
+   ],
+   "answer": 3,
+   "explanation": "Phép ẩn dụ \"bức tường xanh\" dựa trên nét tương đồng về chức năng che chắn; các câu sau giải thích: rễ giảm sức sóng, chống xói lở, bảo vệ làng mạc trước bão."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – nghĩa từ",
+   "level": 2,
+   "stem": "Từ \"bấp bênh\" trong câu \"sinh kế của người dân cũng vì thế mà bấp bênh\" có nghĩa là:",
+   "options": [
+    "không ổn định, dễ bị đe dọa",
+    "phụ thuộc vào con nước thủy triều",
+    "phát triển nhanh và mạnh",
+    "lắc lư, nghiêng ngả, không vững chân"
+   ],
+   "answer": 0,
+   "explanation": "Trong ngữ cảnh, \"bấp bênh\" được dùng theo nghĩa chuyển: (cuộc sống, sinh kế) không ổn định, không chắc chắn. Nghĩa \"lắc lư, không vững\" là nghĩa gốc, không phù hợp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Từ đoạn trích, có thể rút ra nhận định nào sau đây?",
+   "options": [
+    "Rừng ngập mặn có thể phát triển ở mọi vùng đất nội đồng.",
+    "Rừng ngập mặn chỉ có giá trị cung cấp gỗ cho con người.",
+    "Nuôi trồng thủy sản là nguyên nhân duy nhất làm mất rừng ngập mặn.",
+    "Lợi ích trước mắt từ việc phá rừng có thể gây thiệt hại lâu dài cho chính người dân ven biển."
+   ],
+   "answer": 3,
+   "explanation": "Rừng bị chặt để lấy gỗ, lấy đất nuôi trồng thủy sản (lợi ích trước mắt), dẫn đến sạt lở, xâm nhập mặn, sinh kế bấp bênh (thiệt hại lâu dài). Các phương án khác mâu thuẫn với đoạn trích (rừng có nhiều giá trị; có hai nguyên nhân; rừng mọc ở cửa sông, ven biển)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – hình ảnh",
+   "level": 1,
+   "stem": "Hình ảnh \"thân cò\" trong câu \"Lặn lội thân cò khi quãng vắng\" gợi điều gì về bà Tú?",
+   "options": [
+    "Cuộc sống nhàn nhã, thong thả nơi đồng quê",
+    "Sự giàu có nhờ buôn bán ven sông",
+    "Thân phận vất vả, lam lũ, đơn chiếc của người phụ nữ mưu sinh",
+    "Vẻ đẹp thanh tao, duyên dáng của người phụ nữ"
+   ],
+   "answer": 2,
+   "explanation": "Hình ảnh con cò vốn quen thuộc trong ca dao, tượng trưng cho người phụ nữ lam lũ, vất vả. Tú Xương dùng \"thân cò\" (thay vì \"con cò\") càng nhấn mạnh thân phận nhỏ bé, cực nhọc của bà Tú."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chất liệu dân gian",
+   "level": 2,
+   "stem": "Trong hai câu \"Một duyên hai nợ âu đành phận, / Năm nắng mười mưa dám quản công.\", nhà thơ đã vận dụng sáng tạo chất liệu dân gian nào?",
+   "options": [
+    "Sử thi",
+    "Thành ngữ",
+    "Truyện cổ tích",
+    "Câu đố"
+   ],
+   "answer": 1,
+   "explanation": "\"Một duyên hai nợ\", \"năm nắng mười mưa\" là những thành ngữ dùng số từ tăng tiến, nhấn mạnh sự vất vả, gian truân mà bà Tú cam chịu."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – giọng điệu",
+   "level": 3,
+   "stem": "Câu thơ \"Nuôi đủ năm con với một chồng\" thể hiện điều gì?",
+   "options": [
+    "Sự thờ ơ của ông Tú trước khó khăn của gia đình",
+    "Lời than phiền của bà Tú về gánh nặng gia đình",
+    "Giọng tự trào: ông Tú tự coi mình như một \"đứa con\" đặc biệt mà vợ phải nuôi, qua đó ghi nhận công lao của bà Tú",
+    "Niềm tự hào của ông Tú về khả năng làm kinh tế của bản thân"
+   ],
+   "answer": 2,
+   "explanation": "Đặt \"một chồng\" ngang hàng với \"năm con\" trong vị trí người được nuôi là cách tự giễu mình của Tú Xương, ẩn chứa sự biết ơn và thương vợ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – thái độ tác giả",
+   "level": 3,
+   "stem": "Hai câu kết \"Cha mẹ thói đời ăn ở bạc: / Có chồng hờ hững cũng như không!\" thể hiện điều gì?",
+   "options": [
+    "Lời ca ngợi cuộc sống sung túc của gia đình nhà thơ",
+    "Lời than thở về cha mẹ ruột của nhà thơ",
+    "Lời trách móc bà Tú không chăm lo cho gia đình",
+    "Lời tự trách mình và phê phán thói đời bạc bẽo, qua đó càng tôn vinh người vợ"
+   ],
+   "answer": 3,
+   "explanation": "\"Cha mẹ thói đời\" là tiếng chửi đổng mang tính phê phán xã hội; \"có chồng hờ hững cũng như không\" là lời tự nhận lỗi của ông Tú – vô tích sự, không giúp được vợ – gián tiếp ca ngợi đức hi sinh của bà Tú."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 1,
+   "stem": "Vấn đề chính được bàn luận trong đoạn trích là gì?",
+   "options": [
+    "Vai trò và ý nghĩa của sự lắng nghe trong giao tiếp",
+    "Kĩ năng nói và viết trong nhà trường",
+    "Cách đưa ra lời khuyên hiệu quả cho người khác",
+    "Tác hại của việc sử dụng điện thoại di động"
+   ],
+   "answer": 0,
+   "explanation": "Toàn bộ đoạn trích xoay quanh \"lắng nghe\": phân biệt nghe và lắng nghe, chỉ ra thói quen nghe chưa đúng và khẳng định ý nghĩa của lắng nghe."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Theo tác giả, \"nghe\" và \"lắng nghe\" khác nhau ở điểm nào?",
+   "options": [
+    "Hai từ hoàn toàn đồng nghĩa, có thể thay thế cho nhau",
+    "\"Nghe\" cần học, còn \"lắng nghe\" là bản năng sẵn có",
+    "\"Nghe\" dùng trong gia đình, còn \"lắng nghe\" dùng ở nơi làm việc",
+    "\"Nghe\" là phản xạ tự nhiên, còn \"lắng nghe\" là kĩ năng, thái độ chủ động thấu hiểu người khác"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn trích viết: \"Nghe vốn là phản xạ tự nhiên; lắng nghe lại là một kĩ năng, thậm chí là một thái độ sống\" và người lắng nghe \"đặt mình vào vị trí của người đối diện\"."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Đọc hiểu – nghĩa từ",
+   "level": 2,
+   "stem": "Cụm từ \"bị xem nhẹ\" trong đoạn trích có nghĩa là:",
+   "options": [
+    "không được coi trọng",
+    "được người khác thông cảm",
+    "bị người khác nhìn thấy",
+    "được đối xử nhẹ nhàng, tế nhị"
+   ],
+   "answer": 0,
+   "explanation": "\"Xem nhẹ\" là coi thường, không coi trọng; người nói cảm thấy mình không được tôn trọng khi người nghe lướt điện thoại hay ngắt lời."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Đọc hiểu – thái độ tác giả",
+   "level": 3,
+   "stem": "Thái độ của tác giả thể hiện trong đoạn trích là gì?",
+   "options": [
+    "Bi quan, cho rằng con người không thể học được cách lắng nghe",
+    "Đề cao sự lắng nghe, đồng thời nhắc nhở nhẹ nhàng những thói quen giao tiếp thiếu tôn trọng",
+    "Gay gắt lên án những người hay đưa ra lời khuyên",
+    "Khách quan tuyệt đối, chỉ thuật lại sự việc mà không bày tỏ quan điểm"
+   ],
+   "answer": 1,
+   "explanation": "Tác giả khẳng định \"Lắng nghe không làm ta yếu thế\", nêu lợi ích của lắng nghe; với thói quen xấu (lướt điện thoại, ngắt lời), tác giả chỉ ra bằng giọng điềm đạm (\"Họ tưởng mình đang giúp đỡ...\") chứ không gay gắt."
+  }
+ ],
+ "self_check": "Soạn mới toàn bộ; đoạn văn xuôi do người soạn tự viết, thơ trích nguyên văn tác giả đã mất trước 1976 (Nguyễn Khuyến, Tú Xương, Nguyễn Bỉnh Khiêm), ca dao dân gian. Đã rà từng câu: một đáp án đúng duy nhất, phương án nhiễu sai rõ ràng, chính tả – kiến thức văn học (tác giả, thể loại, xuất xứ) đối chiếu lại; lời giải không nhắc chữ cái phương án vì đáp án được xáo trộn; chạy dgnl-check.mjs ✓."
+}

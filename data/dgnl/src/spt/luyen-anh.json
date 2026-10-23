@@ -1,0 +1,288 @@
+{
+ "exam": "spt",
+ "part": "anh",
+ "set": "luyen",
+ "passages": {
+  "p1": "Read the following advertisement and choose the option that best fits each numbered blank.\n\nSUMMER INTERNSHIP PROGRAMME – GREENLEAF MEDIA\nAre you a creative student (1) ______ in journalism or digital content? GreenLeaf Media is looking for interns to join our team for eight weeks this summer.\nWhat we offer:\n• Practical training from experienced editors\n• A modest allowance to (2) ______ travel and meal costs\n• A certificate of completion and a reference letter for outstanding interns\nApplicants should be at least 17 years old and able to work both independently and (3) ______ part of a team. To apply, send your CV and a short portfolio to our recruitment team no (4) ______ than 30 May.",
+  "p2": "Honeybees face a remarkable communication challenge. When a forager discovers a rich patch of flowers, she must somehow inform her sisters back at the hive where to find it, often in complete darkness. Her solution is a behaviour known as the waggle dance.\nOn the vertical surface of the honeycomb, the returning bee runs in a straight line while vibrating her body from side to side, then loops back to repeat the movement. The angle of this straight run relative to vertical indicates the direction of the food source relative to the sun. If the bee waggles straight upwards, for example, the flowers lie in the same direction as the sun; a run angled to the right signals that the food lies to the right of the sun by the same angle.\nDistance is conveyed too. The longer the waggle portion of the dance lasts, the farther away the food is. Other bees follow the dancer closely, picking up both the movements and the scent of the flowers clinging to her body.\nThe dance was decoded in the mid-twentieth century by the Austrian scientist Karl von Frisch, whose work earned him a share of a Nobel Prize. His findings were initially met with scepticism, since few people believed that insects could communicate abstract information such as direction and distance. Later experiments, however, confirmed that bees really do use the information in the dance to locate food."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (1).",
+   "options": [
+    "interesting",
+    "interestingly",
+    "interested",
+    "interest"
+   ],
+   "answer": 2,
+   "explanation": "Rút gọn mệnh đề quan hệ: a student (who is) interested in… = quan tâm đến. 'interesting' = thú vị (tính chất của sự vật)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (2).",
+   "options": [
+    "cover",
+    "earn",
+    "charge",
+    "spend"
+   ],
+   "answer": 0,
+   "explanation": "'cover costs' = chi trả, bù đắp chi phí. 'earn' = kiếm được, 'spend' = tiêu, 'charge' = tính phí – không hợp với khoản trợ cấp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (3).",
+   "options": [
+    "as",
+    "with",
+    "for",
+    "like"
+   ],
+   "answer": 0,
+   "explanation": "Cụm 'work as part of a team' = làm việc với tư cách thành viên của nhóm."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – quảng cáo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (4).",
+   "options": [
+    "late",
+    "later",
+    "lately",
+    "latest"
+   ],
+   "answer": 1,
+   "explanation": "Cụm 'no later than + thời điểm' = không muộn hơn, chậm nhất là."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful letter.\na. I am writing to thank you for the careers talk you gave at our school last Friday.\nb. In particular, your advice on choosing a university major came at exactly the right time for me.\nc. Until then, I had been torn between studying economics and environmental engineering.\nd. After the talk, however, I researched the programmes you mentioned and have now decided on the latter.\ne. Thank you once again, and I hope to update you on my progress next year.\nDear Mr Hung,",
+   "options": [
+    "a-b-c-d-e",
+    "a-b-d-c-e",
+    "a-c-b-d-e",
+    "b-a-c-d-e"
+   ],
+   "answer": 0,
+   "explanation": "Mở thư cảm ơn (a) → 'In particular' lời khuyên chọn ngành (b) → 'Until then' trước đó còn phân vân giữa hai ngành (c) → 'After the talk, however… the latter' đã quyết định (d) → lời cảm ơn kết thư (e)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. Unlike most trees, which take decades to mature, it can be harvested within a few years.\nb. Bamboo is attracting growing interest as a building material.\nc. These two qualities explain why some architects see it as a renewable alternative to steel and concrete.\nd. It is also remarkably strong for its weight, making it suitable for scaffolding and frames.\ne. However, untreated bamboo is vulnerable to insects and moisture, which limits its lifespan.",
+   "options": [
+    "b-a-d-c-e",
+    "b-a-c-d-e",
+    "a-b-d-c-e",
+    "b-d-a-c-e"
+   ],
+   "answer": 0,
+   "explanation": "Câu chủ đề (b) → ưu điểm 1: lớn nhanh (a) → 'also' ưu điểm 2: bền chắc (d) → 'These two qualities' tổng hợp a và d (c) → 'However' nhược điểm (e)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 1,
+   "stem": "Choose the correct arrangement of the following exchanges to make a meaningful conversation.\na. Customer: I bought this jacket last week, but it's too small. Can I get a refund?\nb. Assistant: I'm afraid we don't give refunds on sale items, but you can exchange it.\nc. Customer: Great, then I'll swap it for a larger size.",
+   "options": [
+    "b-a-c",
+    "c-a-b",
+    "a-b-c",
+    "a-c-b"
+   ],
+   "answer": 2,
+   "explanation": "Khách nêu vấn đề, xin hoàn tiền (a) → nhân viên từ chối hoàn tiền nhưng cho đổi (b) → khách đồng ý đổi cỡ lớn hơn (c)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – đảo ngữ",
+   "level": 2,
+   "stem": "No sooner ______ home than it started to pour with rain.",
+   "options": [
+    "did we get",
+    "we got",
+    "we had got",
+    "had we got"
+   ],
+   "answer": 3,
+   "explanation": "Cấu trúc: No sooner + had + S + V3 + than + S + V2 (vừa mới … thì …)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng – collocation",
+   "level": 1,
+   "stem": "The government has ______ a nationwide campaign to raise awareness of mental health.",
+   "options": [
+    "thrown",
+    "fired",
+    "launched",
+    "opened"
+   ],
+   "answer": 2,
+   "explanation": "Collocation 'launch a campaign' = phát động chiến dịch."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – danh động từ",
+   "level": 1,
+   "stem": "She is used to ______ long hours, so the demanding new job doesn't worry her.",
+   "options": [
+    "have worked",
+    "working",
+    "worked",
+    "work"
+   ],
+   "answer": 1,
+   "explanation": "'be used to + V-ing' = quen với việc gì."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – tân ngữ + tính từ",
+   "level": 3,
+   "stem": "The film was so dull that I could hardly keep my eyes ______.",
+   "options": [
+    "open",
+    "to open",
+    "opening",
+    "opened"
+   ],
+   "answer": 0,
+   "explanation": "Cấu trúc keep + O + adj: 'keep my eyes open' = giữ cho mắt mở. 'open' ở đây là tính từ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – mệnh đề quan hệ",
+   "level": 3,
+   "stem": "The proposal was rejected by the board, ______ came as a surprise to nobody.",
+   "options": [
+    "it",
+    "that",
+    "which",
+    "what"
+   ],
+   "answer": 2,
+   "explanation": "Mệnh đề quan hệ không xác định thay cho cả mệnh đề trước dùng 'which' sau dấu phẩy. 'that' không đứng sau dấu phẩy; 'what' không có tiền ngữ; 'it' gây lỗi nối câu."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng – collocation",
+   "level": 3,
+   "stem": "The scientist's new findings ______ doubt on a theory that had been accepted for decades.",
+   "options": [
+    "made",
+    "gave",
+    "put",
+    "cast"
+   ],
+   "answer": 3,
+   "explanation": "Collocation 'cast doubt on sth' = gây nghi ngờ về điều gì."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "What is the passage mainly about?",
+   "options": [
+    "Why honeybees prefer to search for food in darkness",
+    "The life and career of Karl von Frisch",
+    "How honeybees use a dance to tell other bees where food is",
+    "How the sun affects the growth of flowers"
+   ],
+   "answer": 2,
+   "explanation": "Cả bài mô tả điệu nhảy lắc (waggle dance): báo hướng, khoảng cách và việc giải mã nó → bài nói về cách ong dùng điệu nhảy để chỉ chỗ thức ăn. Von Frisch chỉ là chi tiết ở đoạn cuối."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to paragraph 2, the angle of the straight run shows ______.",
+   "options": [
+    "the type of flowers found",
+    "the distance to the food source",
+    "the amount of food available",
+    "the direction of the food relative to the sun"
+   ],
+   "answer": 3,
+   "explanation": "'The angle of this straight run relative to vertical indicates the direction of the food source relative to the sun.' Khoảng cách được báo bằng độ dài phần lắc (đoạn 3)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "If a bee performs a dance with a much longer waggle run than another bee, it most likely means that ______.",
+   "options": [
+    "it has found more flowers",
+    "its food source is farther away",
+    "its food source is closer to the sun",
+    "it is more tired than the other bee"
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 3: 'The longer the waggle portion of the dance lasts, the farther away the food is.'"
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 2,
+   "stem": "The word 'her' in paragraph 3 ('clinging to her body') refers to ______.",
+   "options": [
+    "the scientist",
+    "the dancer",
+    "the hive",
+    "the food"
+   ],
+   "answer": 1,
+   "explanation": "'Other bees follow the dancer closely, picking up… the scent of the flowers clinging to her body' → 'her' = con ong đang nhảy."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 2,
+   "stem": "The word 'scepticism' in paragraph 4 is closest in meaning to ______.",
+   "options": [
+    "approval",
+    "doubt",
+    "excitement",
+    "confusion"
+   ],
+   "answer": 1,
+   "explanation": "'scepticism' = sự hoài nghi; câu sau giải thích: ít ai tin côn trùng có thể truyền thông tin trừu tượng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Based on the passage, a bee that waggles straight downwards is most likely signalling that the food lies ______.",
+   "options": [
+    "directly below the hive",
+    "very close to the hive",
+    "in the same direction as the sun",
+    "in the opposite direction from the sun"
+   ],
+   "answer": 3,
+   "explanation": "Góc của đường chạy so với phương thẳng đứng = góc của nguồn thức ăn so với Mặt Trời. Chạy thẳng lên = cùng hướng Mặt Trời; chạy thẳng xuống lệch 180° → thức ăn ở hướng ngược Mặt Trời."
+  }
+ ],
+ "self_check": "Kiểm tra từng câu: một đáp án đúng duy nhất; câu sắp xếp đã thử các thứ tự trong phương án; câu đọc hiểu đối chiếu nguyên văn; kiến thức về điệu nhảy của ong (von Frisch, Nobel 1973 chia sẻ) là thông tin khoa học phổ biến; không trùng nội dung với de1, de2."
+}

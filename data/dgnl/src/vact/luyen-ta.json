@@ -1,0 +1,267 @@
+{
+ "exam": "vact",
+ "part": "ta",
+ "set": "luyen",
+ "passages": {
+  "p1": "Along many tropical coastlines, including parts of Viet Nam, grow unusual forests whose trees stand with their roots in salt water. These are mangrove forests, and although they were once regarded as useless swamps, scientists now recognise them as some of the most valuable ecosystems on Earth.\nOne of their most important functions is protecting the coast. The thick, tangled roots of mangrove trees slow down waves and hold the soil in place, reducing erosion. During storms, a wide belt of mangroves can weaken the force of the water before it reaches the villages and farmland behind it. For coastal communities, this natural barrier can be cheaper and longer-lasting than a concrete sea wall.\nMangroves are also nurseries for marine life. Young fish, crabs and shrimps shelter among the roots, where they find food and are hidden from larger predators. Many of these animals later move out to the open sea, so the health of mangrove forests directly affects the catch of local fishermen.\nIn addition, mangroves play a role in fighting climate change. They store large amounts of carbon, not only in their trunks and leaves but especially in the muddy soil beneath them. When the forests are cut down, much of this carbon can be released into the atmosphere.\nDespite these benefits, large areas of mangroves have been cleared over the past decades to make way for shrimp farms, tourism and coastal development. In response, many countries have launched programmes to protect the remaining forests and to replant damaged areas. Such efforts take time, but they show a growing understanding that mangroves are worth far more standing than cut down."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Thì động từ",
+   "level": 1,
+   "stem": "While I ______ dinner last night, the phone suddenly rang.",
+   "options": [
+    "cooked",
+    "am cooking",
+    "was cooking",
+    "had cooked"
+   ],
+   "answer": 2,
+   "explanation": "Hành động đang diễn ra (While …) thì hành động khác xen vào (rang) trong quá khứ → quá khứ tiếp diễn: was cooking."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mệnh đề quan hệ rút gọn",
+   "level": 2,
+   "stem": "The students ______ in the science competition will each receive a certificate.",
+   "options": [
+    "took part",
+    "are taking part",
+    "taken part",
+    "taking part"
+   ],
+   "answer": 3,
+   "explanation": "Rút gọn mệnh đề quan hệ chủ động (who take part) → V-ing: taking part. Câu đã có động từ chính \"will receive\" nên không dùng took/are taking."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu bị động",
+   "level": 2,
+   "stem": "The results of the survey ______ next week.",
+   "options": [
+    "will be announced",
+    "will announce",
+    "are announcing",
+    "have announced"
+   ],
+   "answer": 0,
+   "explanation": "Kết quả \"được công bố\" → bị động; \"next week\" → tương lai: will be announced."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu điều kiện",
+   "level": 3,
+   "stem": "______ your help, I wouldn't have finished the project on time.",
+   "options": [
+    "Unless",
+    "But for",
+    "If not",
+    "Without of"
+   ],
+   "answer": 1,
+   "explanation": "But for + N = If it hadn't been for + N (nếu không có…). Unless/If cần mệnh đề; \"without of\" sai."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Collocation",
+   "level": 2,
+   "stem": "You should ______ an effort to arrive on time for the job interview.",
+   "options": [
+    "do",
+    "take",
+    "make",
+    "give"
+   ],
+   "answer": 2,
+   "explanation": "Cụm cố định: make an effort = cố gắng, nỗ lực."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Cụm động từ",
+   "level": 2,
+   "stem": "Please ______ the application form carefully and return it to the reception desk.",
+   "options": [
+    "put up",
+    "take in",
+    "hand out",
+    "fill in"
+   ],
+   "answer": 3,
+   "explanation": "fill in a form = điền vào mẫu đơn. put up: dựng/treo; take in: tiếp thu/lừa; hand out: phát."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ loại",
+   "level": 1,
+   "stem": "Thanks to modern technology, it is now ______ to talk to friends on the other side of the world at almost no cost.",
+   "options": [
+    "possible",
+    "possibility",
+    "possibly",
+    "impossibility"
+   ],
+   "answer": 0,
+   "explanation": "Cấu trúc It is + adj + to V → cần tính từ: possible."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng",
+   "level": 3,
+   "stem": "The twin sisters look so ______ that even their teachers often confuse them.",
+   "options": [
+    "like",
+    "alike",
+    "same",
+    "likely"
+   ],
+   "answer": 1,
+   "explanation": "look alike = trông giống nhau (alike đứng sau động từ, không cần tân ngữ). \"like\" cần tân ngữ; \"same\" phải là \"the same\"; likely = có khả năng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 1,
+   "stem": "Choose the underlined part that needs correction: Mr Long (A) has worked (B) as a teacher (C) since twenty years (D) and still loves his job.",
+   "options": [
+    "A. has worked",
+    "B. as a teacher",
+    "C. since twenty years",
+    "D. and still loves"
+   ],
+   "answer": 2,
+   "explanation": "Với khoảng thời gian (twenty years) dùng \"for\", không dùng \"since\" → for twenty years."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction: (A) It was (B) such a difficult question (C) that nobody (D) were able to answer it.",
+   "options": [
+    "A. It was",
+    "B. such a difficult question",
+    "C. that nobody",
+    "D. were able to answer"
+   ],
+   "answer": 3,
+   "explanation": "\"nobody\" là đại từ số ít → were able → was able."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction: The manager (A) asked me (B) where did I put (C) the files (D) that she needed.",
+   "options": [
+    "A. asked me",
+    "B. where did I put",
+    "C. the files",
+    "D. that she needed"
+   ],
+   "answer": 1,
+   "explanation": "Câu hỏi gián tiếp không đảo trợ động từ và lùi thì: where did I put → where I had put."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 2,
+   "stem": "Choose the sentence that is closest in meaning to: \"Although it was raining heavily, they continued playing football.\"",
+   "options": [
+    "Because of the heavy rain, they continued playing football.",
+    "Despite it was raining heavily, they continued playing football.",
+    "Despite the heavy rain, they continued playing football.",
+    "In spite the heavy rain, they continued playing football."
+   ],
+   "answer": 2,
+   "explanation": "Although + mệnh đề = Despite/In spite of + cụm danh từ. \"Despite it was…\" sai cấu trúc; \"In spite\" thiếu \"of\"; \"Because of\" sai nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to: \"It isn't necessary for you to bring your laptop tomorrow.\"",
+   "options": [
+    "You mustn't bring your laptop tomorrow.",
+    "You should bring your laptop tomorrow.",
+    "You can't bring your laptop tomorrow.",
+    "You don't have to bring your laptop tomorrow."
+   ],
+   "answer": 3,
+   "explanation": "not necessary = không cần thiết → don't have to. mustn't/can't = cấm, không được phép (khác nghĩa)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hội thoại",
+   "level": 1,
+   "stem": "Waiter: \"Are you ready to order?\" – Customer: \"______\"",
+   "options": [
+    "Yes, I'll have the chicken salad, please.",
+    "Not at all, thank you.",
+    "Yes, here's your bill.",
+    "I'd love to, but I can't."
+   ],
+   "answer": 0,
+   "explanation": "Trả lời câu hỏi gọi món của phục vụ: \"Yes, I'll have …, please.\""
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "Which of the following best states the main idea of the passage?",
+   "options": [
+    "Mangrove forests are useless swamps that should be cleared.",
+    "Mangrove forests provide many important benefits and deserve protection.",
+    "Shrimp farming is the main cause of climate change.",
+    "Concrete sea walls are better than natural barriers."
+   ],
+   "answer": 1,
+   "explanation": "Bài lần lượt nêu các lợi ích của rừng ngập mặn (bảo vệ bờ biển, nơi ươm sinh vật biển, lưu trữ carbon) và các nỗ lực bảo vệ, trồng lại."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to paragraph 2, how do mangroves protect the coast?",
+   "options": [
+    "They provide wood to build sea walls.",
+    "They raise the level of the land.",
+    "Their roots slow down waves and hold the soil in place.",
+    "They prevent storms from forming."
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 2: \"The thick, tangled roots of mangrove trees slow down waves and hold the soil in place\"."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 2,
+   "stem": "The word \"they\" in paragraph 3 refers to",
+   "options": [
+    "the roots",
+    "larger predators",
+    "local fishermen",
+    "young fish, crabs and shrimps"
+   ],
+   "answer": 3,
+   "explanation": "\"Young fish, crabs and shrimps shelter among the roots, where they find food and are hidden from larger predators\" → they = các loài cá, cua, tôm non."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "The phrase \"worth far more standing than cut down\" in the last paragraph suggests that",
+   "options": [
+    "keeping mangroves alive brings greater value than clearing them",
+    "mangroves are valuable mainly for their wood",
+    "replanting mangroves is a waste of time",
+    "mangroves should be cleared for shrimp farms"
+   ],
+   "answer": 0,
+   "explanation": "standing = còn đứng (còn sống), cut down = bị chặt → giữ rừng ngập mặn mang lại giá trị lớn hơn nhiều so với chặt phá."
+  }
+ ],
+ "self_check": "Kiểm tra từng câu: một đáp án đúng duy nhất theo ngữ pháp chuẩn; câu tìm lỗi sai chỉ có một phần sai; câu đọc hiểu đối chiếu đúng đoạn; không trùng câu với de1/de2; chạy dgnl-check."
+}

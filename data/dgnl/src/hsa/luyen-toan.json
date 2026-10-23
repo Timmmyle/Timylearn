@@ -1,0 +1,231 @@
+{
+ "exam": "hsa",
+ "part": "toan",
+ "set": "luyen",
+ "passages": {
+  "p1": "Kết quả khảo sát mức lương tháng (đơn vị: triệu đồng) của 50 nhân viên một công ty được cho trong bảng tần số ghép nhóm sau (số liệu giả định):\n| Mức lương | [5; 10) | [10; 15) | [15; 20) | [20; 25) | [25; 30) |\n| Số nhân viên | 8 | 20 | 12 | 7 | 3 |"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – cực trị",
+   "level": 1,
+   "stem": "Giá trị cực tiểu của hàm số $y = x^3 - 6x^2 + 9x - 1$ là",
+   "options": [
+    "$-1$",
+    "$1$",
+    "$-5$",
+    "$3$"
+   ],
+   "answer": 0,
+   "explanation": "$y' = 3x^2 - 12x + 9 = 3(x - 1)(x - 3)$. $y'$ đổi dấu từ âm sang dương tại $x = 3$ nên $y_{CT} = y(3) = 27 - 54 + 27 - 1 = -1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – GTLN, GTNN",
+   "level": 3,
+   "stem": "Giá trị lớn nhất của hàm số $y = x e^{-x}$ trên đoạn $[0;\\,2]$ bằng",
+   "options": [
+    "$\\dfrac{2}{e^2}$",
+    "$\\dfrac1e$",
+    "$0$",
+    "$e$"
+   ],
+   "answer": 1,
+   "explanation": "$y' = (1 - x)e^{-x} = 0 \\Leftrightarrow x = 1$. $y(0) = 0$, $y(1) = \\dfrac1e$, $y(2) = \\dfrac{2}{e^2} < \\dfrac1e$. GTLN là $\\dfrac1e$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Mũ và lôgarit – phương trình",
+   "level": 2,
+   "stem": "Giải phương trình $\\log_2 x + \\log_4 x = 6$. Nghiệm của phương trình là $x$ bằng bao nhiêu?",
+   "answer_text": "16",
+   "explanation": "$\\log_4 x = \\dfrac12\\log_2 x$ nên $\\dfrac32\\log_2 x = 6 \\Leftrightarrow \\log_2 x = 4 \\Leftrightarrow x = 16$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ và lôgarit – bất phương trình",
+   "level": 3,
+   "stem": "Tập nghiệm của bất phương trình $9^x - 4\\cdot3^x + 3 \\le 0$ là",
+   "options": [
+    "$(0;\\,1)$",
+    "$(-\\infty;\\,0]\\cup[1;\\,+\\infty)$",
+    "$[1;\\,3]$",
+    "$[0;\\,1]$"
+   ],
+   "answer": 3,
+   "explanation": "Đặt $u = 3^x > 0$: $u^2 - 4u + 3 \\le 0 \\Leftrightarrow 1 \\le u \\le 3 \\Leftrightarrow 0 \\le x \\le 1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân",
+   "level": 1,
+   "stem": "Tích phân $\\displaystyle\\int_1^2 \\dfrac{1}{x}\\,dx$ bằng",
+   "options": [
+    "$-\\dfrac12$",
+    "$\\dfrac12$",
+    "$\\ln 2$",
+    "$\\ln 3$"
+   ],
+   "answer": 2,
+   "explanation": "$\\displaystyle\\int_1^2 \\dfrac{dx}{x} = \\ln|x|\\Big|_1^2 = \\ln 2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – diện tích",
+   "level": 2,
+   "stem": "Diện tích hình phẳng giới hạn bởi parabol $y = x^2 - 4$ và trục hoành bằng",
+   "options": [
+    "$\\dfrac{16}{3}$",
+    "$-\\dfrac{32}{3}$",
+    "$\\dfrac{32}{3}$",
+    "$16$"
+   ],
+   "answer": 2,
+   "explanation": "Giao với $Ox$: $x = \\pm2$. $S = \\displaystyle\\int_{-2}^2 |x^2 - 4|\\,dx = \\int_{-2}^2 (4 - x^2)\\,dx = 16 - \\dfrac{16}{3} = \\dfrac{32}{3}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – thể tích",
+   "level": 1,
+   "stem": "Cho hình chóp $S.ABC$ có đáy là tam giác đều cạnh $a$, $SA \\perp (ABC)$ và $SA = a$. Thể tích khối chóp $S.ABC$ bằng",
+   "options": [
+    "$\\dfrac{a^3}{3}$",
+    "$\\dfrac{a^3\\sqrt3}{6}$",
+    "$\\dfrac{a^3\\sqrt3}{4}$",
+    "$\\dfrac{a^3\\sqrt3}{12}$"
+   ],
+   "answer": 3,
+   "explanation": "$V = \\dfrac13\\cdot\\dfrac{a^2\\sqrt3}{4}\\cdot a = \\dfrac{a^3\\sqrt3}{12}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – mặt phẳng",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, các mặt phẳng song song với $(P): x - 2y + 2z + 1 = 0$ và cách $(P)$ một khoảng bằng $2$ là",
+   "options": [
+    "$x - 2y + 2z + 7 = 0$ và $x - 2y + 2z - 5 = 0$",
+    "$x - 2y + 2z + 3 = 0$ và $x - 2y + 2z - 1 = 0$",
+    "$x - 2y + 2z + 7 = 0$ và $x - 2y + 2z + 5 = 0$",
+    "$x - 2y + 2z + 5 = 0$ và $x - 2y + 2z - 7 = 0$"
+   ],
+   "answer": 0,
+   "explanation": "Mặt phẳng cần tìm có dạng $x - 2y + 2z + D = 0$ ($D \\ne 1$). Khoảng cách $\\dfrac{|D - 1|}{3} = 2 \\Leftrightarrow D = 7$ hoặc $D = -5$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – góc",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, góc giữa đường thẳng $d: \\begin{cases} x = 1 + t \\\\ y = 3 \\\\ z = -2 + t \\end{cases}$ và mặt phẳng $(Oxy)$ bằng",
+   "options": [
+    "$30^\\circ$",
+    "$45^\\circ$",
+    "$60^\\circ$",
+    "$90^\\circ$"
+   ],
+   "answer": 1,
+   "explanation": "$\\vec u = (1;\\,0;\\,1)$, $(Oxy)$ có $\\vec n = (0;\\,0;\\,1)$. $\\sin\\varphi = \\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u|\\,|\\vec n|} = \\dfrac{1}{\\sqrt2} \\Rightarrow \\varphi = 45^\\circ$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tổ hợp",
+   "level": 2,
+   "stem": "Có bao nhiêu cách chia $6$ quyển sách khác nhau cho hai bạn Minh và Lan sao cho mỗi bạn nhận đúng $3$ quyển?",
+   "answer_text": "20",
+   "explanation": "Chọn $3$ quyển cho Minh: $C_6^3 = 20$ cách; $3$ quyển còn lại cho Lan. Có $20$ cách."
+  },
+  {
+   "qtype": "short",
+   "topic": "Xác suất – biến cố độc lập",
+   "level": 2,
+   "stem": "Ba xạ thủ bắn độc lập vào một bia, xác suất bắn trúng của từng người lần lượt là $0{,}6$; $0{,}7$; $0{,}8$. Tính xác suất để bia bị trúng ít nhất một viên. (Điền số dạng thập phân)",
+   "answer_text": "0,976",
+   "explanation": "$P = 1 - 0{,}4\\cdot0{,}3\\cdot0{,}2 = 1 - 0{,}024 = 0{,}976$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Cấp số nhân",
+   "level": 1,
+   "stem": "Tổng của cấp số nhân lùi vô hạn $4 + 2 + 1 + \\dfrac12 + \\dots$ bằng",
+   "options": [
+    "$\\dfrac{15}{2}$",
+    "$6$",
+    "$8$",
+    "$16$"
+   ],
+   "answer": 2,
+   "explanation": "$u_1 = 4$, $q = \\dfrac12$: $S = \\dfrac{4}{1 - \\frac12} = 8$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Lượng giác – phương trình",
+   "level": 3,
+   "stem": "Phương trình $\\cos 2x + 3\\cos x + 2 = 0$ có bao nhiêu nghiệm thuộc đoạn $[0;\\,2\\pi]$?",
+   "answer_text": "3",
+   "explanation": "$2\\cos^2 x + 3\\cos x + 1 = 0 \\Leftrightarrow \\cos x = -1$ hoặc $\\cos x = -\\dfrac12$. Trên $[0;\\,2\\pi]$: $x = \\pi$; $x = \\dfrac{2\\pi}{3}$; $x = \\dfrac{4\\pi}{3}$. Có $3$ nghiệm."
+  },
+  {
+   "qtype": "short",
+   "topic": "Hàm số – bài toán tối ưu",
+   "level": 2,
+   "stem": "Lợi nhuận (triệu đồng) khi một xưởng sản xuất $x$ trăm sản phẩm được cho bởi $P(x) = -2x^2 + 120x - 1000$ với $0 \\le x \\le 50$. Lợi nhuận lớn nhất của xưởng là bao nhiêu triệu đồng?",
+   "answer_text": "800",
+   "explanation": "$P'(x) = -4x + 120 = 0 \\Leftrightarrow x = 30 \\in [0;\\,50]$. $P(30) = -1800 + 3600 - 1000 = 800$; $P(0) = -1000$, $P(50) = 0$. Lợi nhuận lớn nhất $800$ triệu đồng."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Thống kê – số trung bình ghép nhóm",
+   "level": 1,
+   "stem": "Mức lương trung bình của 50 nhân viên trên là bao nhiêu triệu đồng?",
+   "answer_text": "15,2",
+   "explanation": "Giá trị đại diện: $7{,}5;\\,12{,}5;\\,17{,}5;\\,22{,}5;\\,27{,}5$. $\\bar x = \\dfrac{8\\cdot7{,}5 + 20\\cdot12{,}5 + 12\\cdot17{,}5 + 7\\cdot22{,}5 + 3\\cdot27{,}5}{50} = \\dfrac{760}{50} = 15{,}2$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Thống kê – trung vị ghép nhóm",
+   "level": 2,
+   "stem": "Trung vị của mẫu số liệu ghép nhóm trên xấp xỉ bằng",
+   "options": [
+    "$14{,}25$ triệu đồng",
+    "$13{,}75$ triệu đồng",
+    "$15{,}2$ triệu đồng",
+    "$12{,}5$ triệu đồng"
+   ],
+   "answer": 0,
+   "explanation": "$\\dfrac n2 = 25$; tần số tích lũy trước nhóm $[10;\\,15)$ là $8$. $M_e = 10 + \\dfrac{25 - 8}{20}\\cdot5 = 14{,}25$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Xử lý số liệu – tỉ lệ",
+   "level": 1,
+   "stem": "Tỉ lệ nhân viên có mức lương từ $20$ triệu đồng trở lên là",
+   "options": [
+    "$10\\%$",
+    "$20\\%$",
+    "$6\\%$",
+    "$14\\%$"
+   ],
+   "answer": 1,
+   "explanation": "$\\dfrac{7 + 3}{50} = 20\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Thống kê – độ lệch chuẩn",
+   "level": 3,
+   "stem": "Độ lệch chuẩn của mẫu số liệu ghép nhóm trên xấp xỉ bằng",
+   "options": [
+    "$3{,}6$ triệu đồng",
+    "$7{,}2$ triệu đồng",
+    "$30{,}2$ triệu đồng",
+    "$5{,}5$ triệu đồng"
+   ],
+   "answer": 3,
+   "explanation": "$\\overline{x^2} = \\dfrac{\\sum n_i c_i^2}{50} = \\dfrac{13062{,}5}{50} = 261{,}25$; $s^2 = 261{,}25 - 15{,}2^2 = 30{,}21$; $s = \\sqrt{30{,}21} \\approx 5{,}5$ (triệu đồng)."
+  }
+ ],
+ "self_check": "Mọi đáp án được tính lại bằng Python/sympy (đạo hàm, tích phân, giải pt/bpt, solveset lượng giác, số trung bình/trung vị/phương sai ghép nhóm); kiểm định dạng bằng dgnl-check.mjs."
+}

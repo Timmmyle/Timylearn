@@ -1,0 +1,605 @@
+{
+ "exam": "spt",
+ "part": "anh",
+ "set": "de2",
+ "passages": {
+  "p1": "Read the following notice and choose the option that best fits each numbered blank.\n\nNOTICE: RIVERSIDE CITY LIBRARY REOPENING\nAfter eight months of renovation, Riverside City Library will reopen to the public on Monday, 2 November. The building has been (1) ______ modernised, with a new study hall, a recording studio and a children's reading corner.\nMembers whose cards (2) ______ during the closure can renew them free of charge at the front desk. Please bring a valid ID card (3) ______ your identity.\nDue to the high number of visitors expected in the first week, we kindly ask you to (4) ______ from bringing food or drinks into the reading rooms.\nFor further information, please (5) ______ hesitate to contact our staff or visit our website.",
+  "p2": "Read the following leaflet and choose the option that best fits each numbered blank.\n\nPROTECT YOURSELF ONLINE\nScammers are becoming increasingly sophisticated, and anyone can (1) ______ victim to their tricks. Follow these simple guidelines to keep your personal information safe.\n• Think before you click: Never open links from senders you do not recognise, (2) ______ urgent the message may seem.\n• Strengthen your passwords: Use a different password for each account and (3) ______ them regularly.\n• Verify requests: If someone claiming to be from your bank asks for your details, hang up and call the bank directly (4) ______ the number on its official website.\n• Report suspicious activity: The sooner a scam is reported, the (5) ______ chance there is of preventing others from being harmed.",
+  "p3": "Read the following passage and choose the option that best fits each numbered blank.\n\nSlow travel is a way of exploring the world that values depth over speed. Rather than rushing to see as many famous sights as possible, slow travellers choose to stay longer in fewer places, (1) ______.\nThe movement grew partly out of frustration with the pressures of modern tourism. Many visitors return home from packed itineraries feeling more exhausted than refreshed, (2) ______. Slow travel offers an alternative: travelling by train or bus instead of by plane, cooking with local ingredients, and spending time in neighbourhoods (3) ______.\nSupporters also point to its environmental advantages. (4) ______, slow travellers typically produce fewer carbon emissions than those who hop between destinations by air.\nOf course, slow travel is not an option for everyone. It requires time, (5) ______, and many workers simply cannot take several weeks off. Still, even within a short holiday, the principle of doing less but experiencing more can be applied.",
+  "p4": "Almost everyone has, at some point, postponed an important task in favour of something more pleasant. [I] Procrastination is commonly regarded as a problem of poor time management, but psychologists increasingly see it in a different light. [II] In their view, people put off tasks not because they cannot plan their time, but because the tasks themselves trigger unpleasant feelings such as boredom, anxiety or self-doubt. [III] Unfortunately, this relief is short-lived, and the task usually becomes even more stressful as the deadline approaches. [IV]\nThis emotional explanation helps to account for a puzzling feature of procrastination: it is often most severe among people who care deeply about the outcome. A student who fears that an essay will not be good enough may find it easier to avoid starting altogether than to confront the possibility of failure. In this sense, procrastination can act as a kind of shield, protecting a person's self-image in the short term while damaging their performance in the long term.\nIf procrastination is rooted in emotion, then strategies that focus only on schedules and to-do lists are unlikely to be enough. Experts instead recommend approaches that make the first step less threatening. Breaking a large project into small, concrete actions, for example, reduces the sense of being overwhelmed. Some people also find it helpful to commit to working on a task for just five minutes; once they have started, continuing is often far easier than they expected.\nPerhaps most importantly, researchers suggest treating oneself with understanding rather than harsh criticism after a lapse. Self-blame may seem like a way to stay motivated, but it tends to intensify the negative feelings that caused the delay in the first place.",
+  "p5": "Of the thousands of languages spoken in the world today, a large proportion are used by only a small number of people, and many linguists fear that a significant share of them could fall silent by the end of this century. Unlike the extinction of a plant or animal species, the death of a language rarely makes headlines. Yet when the last fluent speaker of a language passes away, a unique way of understanding the world may disappear with them.\nLanguages seldom vanish because their speakers are forbidden to use them, although this has happened. More often, the process is gradual and almost invisible. Parents who believe that a dominant national or global language will offer their children better opportunities may stop speaking their mother tongue at home. Within a generation or two, the heritage language becomes something that grandparents use among themselves, and eventually not at all.\nThe loss matters for reasons that go beyond sentiment. Many endangered languages encode detailed knowledge about local plants, animals and landscapes, accumulated over centuries and often never written down. Some languages also organise ideas in ways that challenge assumptions linguists once held about how human language must work. Each language that disappears therefore narrows the evidence available for understanding the human mind.\nEncouragingly, the decline is not always irreversible. Communities around the world have launched revitalisation programmes, ranging from immersion pre-schools to dictionaries compiled with the help of elderly speakers. Digital technology has added new tools: recordings, mobile apps and social media allow scattered speakers to hear and use their language daily. Revival is demanding, however. It depends less on outside experts than on whether younger members of the community come to see the language as a living part of their identity rather than a relic of the past."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – thông báo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (1).",
+   "options": [
+    "thoroughness",
+    "thorough",
+    "thoroughly",
+    "more thorough"
+   ],
+   "answer": 2,
+   "explanation": "Bổ nghĩa cho động từ 'modernised' cần trạng từ: 'has been thoroughly modernised' = được hiện đại hóa toàn diện."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – thông báo",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (2).",
+   "options": [
+    "expired",
+    "were expired",
+    "to expire",
+    "expiring"
+   ],
+   "answer": 0,
+   "explanation": "Mệnh đề quan hệ 'whose cards ___' cần động từ chia thì: 'expired' (quá khứ đơn, hết hạn trong thời gian đóng cửa). 'expire' là nội động từ nên không dùng bị động 'were expired'; 'expiring/ to expire' không phải động từ chia."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – thông báo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (3).",
+   "options": [
+    "verified",
+    "to verify",
+    "verify",
+    "so verify"
+   ],
+   "answer": 1,
+   "explanation": "Động từ nguyên mẫu có 'to' chỉ mục đích: mang thẻ căn cước để xác minh danh tính."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – thông báo",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (4).",
+   "options": [
+    "stop",
+    "refrain",
+    "avoid",
+    "prevent"
+   ],
+   "answer": 1,
+   "explanation": "'refrain from + V-ing' = kiềm chế, không làm gì (lối nói trang trọng trong thông báo). 'avoid + V-ing' không có 'from'; 'prevent/ stop sb from' cần tân ngữ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Điền từ – thông báo",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (5).",
+   "options": [
+    "no",
+    "not",
+    "not to",
+    "do not"
+   ],
+   "answer": 3,
+   "explanation": "Câu mệnh lệnh phủ định: (please) do not + V: 'please do not hesitate to contact…' = xin đừng ngần ngại liên hệ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (1).",
+   "options": [
+    "become",
+    "go",
+    "drop",
+    "fall"
+   ],
+   "answer": 3,
+   "explanation": "Cụm cố định 'fall victim to sth' = trở thành nạn nhân của. 'become a victim of' mới dùng với 'become' và cần mạo từ + 'of'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (2).",
+   "options": [
+    "however",
+    "whatever",
+    "no matter",
+    "although"
+   ],
+   "answer": 0,
+   "explanation": "'however + adj + S + may seem' = dù có … đến đâu. 'whatever' đi với danh từ; 'no matter' phải kèm 'how' (no matter how urgent); 'although' không đứng trước tính từ theo cấu trúc này."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (3).",
+   "options": [
+    "restore",
+    "repair",
+    "update",
+    "recover"
+   ],
+   "answer": 2,
+   "explanation": "'update your passwords regularly' = cập nhật (thay) mật khẩu thường xuyên. 'restore/ recover' = khôi phục, 'repair' = sửa chữa – không hợp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 1,
+   "stem": "Choose the option that best fits blank (4).",
+   "options": [
+    "to using",
+    "use",
+    "using",
+    "used"
+   ],
+   "answer": 2,
+   "explanation": "Cụm V-ing chỉ cách thức, cùng chủ ngữ với 'call': gọi trực tiếp cho ngân hàng bằng số trên trang web chính thức → 'using the number'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Điền từ – tờ rơi",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (5).",
+   "options": [
+    "great",
+    "more great",
+    "greatest",
+    "greater"
+   ],
+   "answer": 3,
+   "explanation": "So sánh kép: The + so sánh hơn …, the + so sánh hơn …: 'The sooner…, the greater chance…'."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 1,
+   "stem": "Choose the correct arrangement of the following exchanges to make a meaningful conversation.\na. Linh: Not really. I was hoping you could give me a hand with the slides.\nb. Khoa: Have you finished preparing for tomorrow's presentation?\nc. Khoa: Sure, I'm free after lunch. Let's meet in the library.",
+   "options": [
+    "c-a-b",
+    "a-b-c",
+    "b-a-c",
+    "b-c-a"
+   ],
+   "answer": 2,
+   "explanation": "Khoa hỏi (b) → Linh trả lời 'Not really' và nhờ giúp (a) → Khoa đồng ý, hẹn gặp (c)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the following exchanges to make a meaningful conversation.\na. Mai: That sounds ideal. Is there an entrance fee?\nb. Tuan: There's a new art exhibition at the museum this weekend. Would you like to go?\nc. Tuan: No, it's free for students, but we need to book a time slot online.\nd. Mai: I'd love to! What kind of art is it?\ne. Tuan: Mostly contemporary paintings by young Vietnamese artists.",
+   "options": [
+    "b-a-c-d-e",
+    "b-d-e-a-c",
+    "d-b-e-a-c",
+    "b-d-c-a-e"
+   ],
+   "answer": 1,
+   "explanation": "Lời mời (b) → nhận lời, hỏi loại tranh (d) → trả lời (e) → 'That sounds ideal', hỏi phí vào cửa (a) → 'No, it's free…' (c)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 2,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful letter.\na. Unfortunately, when the package arrived, two of the four items were missing.\nb. I am writing to express my dissatisfaction with an order I placed on your website on 3 March.\nc. I would therefore be grateful if you could send the missing items or issue a full refund within fourteen days.\nd. When I contacted your customer service team, I was told that the problem would be resolved within 48 hours, but I have heard nothing since.\ne. I have attached a copy of my receipt for your reference.\nDear Sir or Madam,",
+   "options": [
+    "b-d-a-c-e",
+    "b-a-c-d-e",
+    "b-a-d-c-e",
+    "a-b-d-c-e"
+   ],
+   "answer": 2,
+   "explanation": "Nêu mục đích thư (b) → sự cố thiếu hàng (a) → đã liên hệ nhưng không được giải quyết (d) → 'therefore' đề nghị gửi hàng/ hoàn tiền (c) → đính kèm hóa đơn (e)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. This is because switching between languages requires the brain to constantly select one system while suppressing the other.\nb. Speaking two languages is often seen mainly as a practical skill for travel or work.\nc. Over time, this mental exercise may strengthen abilities such as attention control and multitasking.\nd. However, a growing body of research suggests that bilingualism may also shape the way the brain functions.\ne. Even so, scientists continue to debate how large and long-lasting these advantages really are.",
+   "options": [
+    "b-d-a-c-e",
+    "d-b-a-c-e",
+    "b-d-c-a-e",
+    "b-a-d-c-e"
+   ],
+   "answer": 0,
+   "explanation": "Quan niệm phổ biến (b) → 'However' quan điểm mới (d) → 'This is because' giải thích (a) → 'this mental exercise' (= việc chuyển đổi ngôn ngữ ở a) (c) → 'Even so… these advantages' (e)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sắp xếp câu",
+   "level": 3,
+   "stem": "Choose the correct arrangement of the sentences to make a meaningful paragraph.\na. What mattered instead was a shared sense among members that they could speak up without fear of embarrassment.\nb. When analysing the data, the researchers expected the best-performing groups to be those with the most talented individuals.\nc. A team of organisational psychologists once set out to discover what makes some work groups more effective than others.\nd. To their surprise, however, the level of individual talent made little difference.\ne. This finding has since encouraged many managers to focus less on hiring stars and more on building trust.",
+   "options": [
+    "c-b-d-a-e",
+    "c-d-b-a-e",
+    "c-b-a-d-e",
+    "b-c-d-a-e"
+   ],
+   "answer": 0,
+   "explanation": "Giới thiệu nghiên cứu (c) → giả thuyết ban đầu (b) → 'To their surprise, however' tài năng cá nhân không quan trọng (d) → 'What mattered instead' – yếu tố thực sự quan trọng (a) → ứng dụng 'This finding' (e). 'instead' ở a cần câu phủ định d đứng trước."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (1).",
+   "options": [
+    "to whom local people and customs are known along the way",
+    "which getting to know local people and customs along the way",
+    "got to know local people and customs along the way",
+    "getting to know local people and customs along the way"
+   ],
+   "answer": 3,
+   "explanation": "Cụm V-ing chỉ hành động đi kèm, cùng chủ ngữ 'slow travellers': ở lâu hơn, qua đó làm quen người dân và phong tục. 'got' sai thì và thiếu liên từ; 'which getting' sai cấu trúc; 'to whom… are known' sai nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (2).",
+   "options": [
+    "as if they needed another holiday to recover from the first",
+    "which they needed another holiday to recover from the first",
+    "as though needed another holiday to recover from the first",
+    "so needing another holiday to recover from the first"
+   ],
+   "answer": 0,
+   "explanation": "'as if + S + V (quá khứ)' = như thể họ cần thêm một kỳ nghỉ để hồi phục sau kỳ nghỉ đầu – hợp ý 'mệt hơn là khỏe'. 'as though needed' thiếu chủ ngữ; 'so needing' sai cấu trúc; 'which they needed… from the first' thừa tân ngữ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (3).",
+   "options": [
+    "which most tourists never think of visiting them",
+    "most tourists never thinking to visit",
+    "where most tourists never think of visiting them",
+    "that most tourists never think of visiting"
+   ],
+   "answer": 3,
+   "explanation": "Mệnh đề quan hệ bổ nghĩa 'neighbourhoods', 'that' làm tân ngữ của 'visiting' nên không lặp 'them'. 'where' không làm tân ngữ; 'most tourists never thinking…' không có động từ chia."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 2,
+   "stem": "Choose the option that best fits blank (4).",
+   "options": [
+    "Although they rely more heavily on flights",
+    "Covered shorter distances and relied less on flights",
+    "Because they cover shorter distances and rely less on flights",
+    "Despite covering shorter distances and relying less on flights"
+   ],
+   "answer": 2,
+   "explanation": "Câu nói lợi ích môi trường: phát thải ít hơn VÌ đi quãng ngắn và ít bay → 'Because…'. 'Despite/ Although' tạo quan hệ nhượng bộ vô lý; 'Covered…' là phân từ bị động sai nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Điền câu vào đoạn văn",
+   "level": 3,
+   "stem": "Choose the option that best fits blank (5).",
+   "options": [
+    "which is a luxury that not every traveller can afford",
+    "being afforded a luxury by every traveller",
+    "a luxury that every traveller can easily afford",
+    "that is a luxury not every traveller can afford"
+   ],
+   "answer": 0,
+   "explanation": "Mệnh đề quan hệ không xác định sau dấu phẩy dùng 'which' (không dùng 'that'): thời gian là thứ xa xỉ không phải ai cũng có – khớp ý 'not an option for everyone'. Phương án 'every traveller can easily afford' trái nghĩa."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – đảo ngữ",
+   "level": 2,
+   "stem": "Not until she read the letter a second time ______ how serious the situation was.",
+   "options": [
+    "she did realise",
+    "did she realise",
+    "had realised she",
+    "she realised"
+   ],
+   "answer": 1,
+   "explanation": "Đảo ngữ với 'Not until + mốc/ mệnh đề': đảo ở mệnh đề chính → 'did she realise'."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng – cụm động từ",
+   "level": 1,
+   "stem": "The committee has decided to ______ the final decision until more evidence is available.",
+   "options": [
+    "put down",
+    "put out",
+    "put up",
+    "put off"
+   ],
+   "answer": 3,
+   "explanation": "'put off' = trì hoãn, hợp với 'until more evidence is available'. 'put up' = dựng/ cho ở nhờ, 'put out' = dập tắt, 'put down' = đặt xuống/ ghi lại."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – câu điều kiện",
+   "level": 2,
+   "stem": "Had the warning been taken seriously, the damage ______.",
+   "options": [
+    "had been avoided",
+    "could have been avoided",
+    "could be avoided",
+    "would avoid"
+   ],
+   "answer": 1,
+   "explanation": "Đảo ngữ điều kiện loại 3 (Had + S + V3) → mệnh đề chính 'could/ would have + V3'; 'damage' chịu tác động nên dùng bị động 'could have been avoided'."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng – collocation",
+   "level": 3,
+   "stem": "Her latest novel has received ______ reviews from critics across the country.",
+   "options": [
+    "burning",
+    "bright",
+    "glowing",
+    "shining"
+   ],
+   "answer": 2,
+   "explanation": "Collocation 'glowing reviews' = những lời nhận xét hết sức khen ngợi. Các tính từ còn lại không kết hợp với 'reviews'."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Ngữ pháp – mệnh đề quan hệ",
+   "level": 3,
+   "stem": "The manager, ______ advice the whole team had always relied, announced her retirement yesterday.",
+   "options": [
+    "on whom",
+    "on whose",
+    "whose on",
+    "of which"
+   ],
+   "answer": 1,
+   "explanation": "'rely on sb's advice' → giới từ 'on' đưa lên trước đại từ quan hệ sở hữu: 'on whose advice the team had relied'. 'on whom' không đi kèm danh từ 'advice'; 'of which' dùng cho vật."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – vị trí câu",
+   "level": 2,
+   "stem": "Where in paragraph 1 does the following sentence best fit?\n'Delaying the task brings immediate, if temporary, relief from these emotions.'",
+   "options": [
+    "[I]",
+    "[II]",
+    "[III]",
+    "[IV]"
+   ],
+   "answer": 2,
+   "explanation": "Câu chèn có 'these emotions' → phải đứng sau câu liệt kê cảm xúc (boredom, anxiety, self-doubt); câu ngay sau nó 'Unfortunately, this relief is short-lived' cần 'relief' ở câu trước → vị trí [III]."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 1,
+   "stem": "The word 'short-lived' in paragraph 1 is closest in meaning to ______.",
+   "options": [
+    "frequent",
+    "intense",
+    "delayed",
+    "brief"
+   ],
+   "answer": 3,
+   "explanation": "'short-lived' = tồn tại trong thời gian ngắn → 'brief'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 1,
+   "stem": "The word 'it' in paragraph 2 ('it is often most severe…') refers to ______.",
+   "options": [
+    "this emotional explanation",
+    "procrastination",
+    "a puzzling feature",
+    "the outcome"
+   ],
+   "answer": 1,
+   "explanation": "'a puzzling feature of procrastination: it is often most severe among people who care deeply…' → thứ 'nghiêm trọng nhất' là sự trì hoãn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to paragraph 2, why might a student avoid starting an essay?",
+   "options": [
+    "Because the deadline is still far away",
+    "To avoid facing the possibility that the essay will not be good enough",
+    "Because he or she does not care about the result",
+    "To have more time for planning a better schedule"
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 2: học sinh sợ bài luận không đủ tốt nên né việc bắt đầu thay vì 'confront the possibility of failure'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 2,
+   "stem": "By describing procrastination as 'a kind of shield', the author suggests that it ______.",
+   "options": [
+    "allows people to defend their time from other tasks",
+    "helps people produce better work in the long term",
+    "is a deliberate strategy used by successful students",
+    "protects people's self-image for a while but harms their results later"
+   ],
+   "answer": 3,
+   "explanation": "Ngay sau đó tác giả giải thích: 'protecting a person's self-image in the short term while damaging their performance in the long term'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – NOT TRUE",
+   "level": 2,
+   "stem": "Which of the following is NOT recommended in the passage as a way to deal with procrastination?",
+   "options": [
+    "Committing to work on a task for just five minutes",
+    "Responding to one's own lapses with understanding",
+    "Dividing a large project into small, concrete steps",
+    "Relying mainly on detailed schedules and to-do lists"
+   ],
+   "answer": 3,
+   "explanation": "Đoạn 3 nói chiến lược chỉ dựa vào lịch biểu và danh sách việc 'are unlikely to be enough'. Ba cách còn lại được khuyến nghị ở đoạn 3 và 4."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "It can be inferred from the last paragraph that harsh self-criticism after procrastinating ______.",
+   "options": [
+    "has no effect on future behaviour",
+    "is the most effective form of motivation",
+    "helps to reduce anxiety about deadlines",
+    "is likely to make the problem worse"
+   ],
+   "answer": 3,
+   "explanation": "Tự trách 'tends to intensify the negative feelings that caused the delay' – mà cảm xúc tiêu cực là nguyên nhân trì hoãn → tự trách khiến tình trạng tệ hơn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "Which of the following could be the best title for the passage?",
+   "options": [
+    "Silent Losses: Why Languages Die and How They Can Be Saved",
+    "Why Linguists Have Stopped Studying Small Languages",
+    "The Extinction of Plant and Animal Species",
+    "How Global Languages Improve Children's Opportunities"
+   ],
+   "answer": 0,
+   "explanation": "Bài nêu hiện trạng ngôn ngữ biến mất, nguyên nhân (đoạn 2), tầm quan trọng (đoạn 3) và nỗ lực phục hồi (đoạn 4) → 'Silent Losses: Why Languages Die and How They Can Be Saved' bao quát nhất."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to paragraph 2, languages most often disappear because ______.",
+   "options": [
+    "their speakers move to other countries",
+    "linguists fail to record them in time",
+    "parents gradually stop passing them on to their children",
+    "governments forbid people to speak them"
+   ],
+   "answer": 2,
+   "explanation": "'Languages seldom vanish because their speakers are forbidden…' – 'More often', cha mẹ ngừng nói tiếng mẹ đẻ ở nhà vì nghĩ ngôn ngữ chiếm ưu thế mang lại cơ hội tốt hơn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 2,
+   "stem": "The word 'dominant' in paragraph 2 is closest in meaning to ______.",
+   "options": [
+    "prevailing",
+    "hostile",
+    "ancient",
+    "minor"
+   ],
+   "answer": 0,
+   "explanation": "'a dominant national or global language' = ngôn ngữ chiếm ưu thế, phổ biến → 'prevailing'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 1,
+   "stem": "The word 'them' in paragraph 1 ('may disappear with them') refers to ______.",
+   "options": [
+    "plants and animals",
+    "the last fluent speaker",
+    "headlines",
+    "linguists"
+   ],
+   "answer": 1,
+   "explanation": "'when the last fluent speaker of a language passes away, a unique way of understanding the world may disappear with them' – 'them' (dùng như 'he or she') chỉ người nói thạo cuối cùng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – từ trái nghĩa",
+   "level": 3,
+   "stem": "The word 'irreversible' in paragraph 4 is OPPOSITE in meaning to ______.",
+   "options": [
+    "permanent",
+    "unavoidable",
+    "correctable",
+    "incurable"
+   ],
+   "answer": 2,
+   "explanation": "'irreversible' = không thể đảo ngược; trái nghĩa là 'correctable' (có thể khắc phục). 'permanent, incurable' gần nghĩa; 'unavoidable' = không tránh được."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – NOT TRUE",
+   "level": 3,
+   "stem": "Which of the following is NOT true according to the passage?",
+   "options": [
+    "Most endangered languages have extensive written records of local knowledge.",
+    "Elderly speakers have helped to compile dictionaries in revival programmes.",
+    "Language death usually attracts less media attention than species extinction.",
+    "Some languages have challenged linguists' assumptions about human language."
+   ],
+   "answer": 0,
+   "explanation": "Đoạn 3: tri thức địa phương trong các ngôn ngữ này 'often never written down' → câu 'Most endangered languages have extensive written records…' sai. Các ý còn lại khớp đoạn 1, 3, 4."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – diễn đạt lại",
+   "level": 3,
+   "stem": "Which of the following best paraphrases the last sentence of the passage?",
+   "options": [
+    "Outside experts are the main reason why some languages have been successfully revived.",
+    "The attitude of young community members matters more to revival than the help of outside specialists.",
+    "Young people should study their heritage language as a relic of the past.",
+    "Revival programmes succeed only when experts and young people avoid working together."
+   ],
+   "answer": 1,
+   "explanation": "'depends less on outside experts than on whether younger members… see the language as a living part of their identity' → thái độ của người trẻ quan trọng hơn sự giúp đỡ của chuyên gia bên ngoài."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Đọc hiểu – thái độ tác giả",
+   "level": 2,
+   "stem": "The author's attitude towards the future of endangered languages can best be described as ______.",
+   "options": [
+    "cautiously hopeful",
+    "overly confident",
+    "largely indifferent",
+    "completely pessimistic"
+   ],
+   "answer": 0,
+   "explanation": "Tác giả lo ngại (đoạn 1–3) nhưng thấy tín hiệu tích cực ('Encouragingly, the decline is not always irreversible'), đồng thời lưu ý 'Revival is demanding' → hy vọng thận trọng."
+  }
+ ],
+ "self_check": "Kiểm tra từng câu: một đáp án đúng duy nhất về ngữ pháp/ collocation; các câu sắp xếp đã thử các thứ tự trong phương án; câu hỏi đọc hiểu đối chiếu nguyên văn bài; đáp án rải đều; bài đọc tự viết, không dùng số liệu thật."
+}

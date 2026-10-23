@@ -1,0 +1,10 @@
+{
+  "vact": { "name": "V-ACT (ĐHQG TP.HCM)", "minutes": 150, "scale": 1200,
+    "parts": [ {"id":"tv","name":"Tiếng Việt","n":30}, {"id":"ta","name":"Tiếng Anh","n":30}, {"id":"toan","name":"Toán học","n":30}, {"id":"tdkh","name":"Tư duy khoa học","n":30} ] },
+  "hsa": { "name": "HSA (ĐHQG Hà Nội)", "minutes": 195, "scale": 150,
+    "parts": [ {"id":"toan","name":"Toán học và xử lý số liệu","n":50,"minutes":75}, {"id":"van","name":"Văn học – Ngôn ngữ","n":50,"minutes":60}, {"id":"kh","name":"Khoa học","n":50,"minutes":60} ] },
+  "tsa": { "name": "TSA (ĐH Bách khoa Hà Nội)", "minutes": 150, "scale": 100,
+    "parts": [ {"id":"toan","name":"Tư duy Toán học","n":40,"minutes":60}, {"id":"doc","name":"Tư duy Đọc hiểu","n":20,"minutes":30}, {"id":"kh","name":"Tư duy Khoa học","n":40,"minutes":60} ] },
+  "spt": { "name": "SPT (ĐHSP Hà Nội)", "perSubject": true,
+    "parts": [ {"id":"toan","name":"Toán","n":22,"minutes":90,"mix":[12,4,6]}, {"id":"ly","name":"Vật lí","n":28,"minutes":50,"mix":[18,4,6]}, {"id":"hoa","name":"Hóa học","n":28,"minutes":50,"mix":[18,4,6]}, {"id":"sinh","name":"Sinh học","n":28,"minutes":50,"mix":[18,4,6]}, {"id":"anh","name":"Tiếng Anh","n":40,"minutes":60,"mix":[40,0,0]} ] }
+}

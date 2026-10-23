@@ -1,0 +1,408 @@
+{
+ "exam": "spt",
+ "part": "sinh",
+ "set": "de2",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Tái bản DNA",
+   "level": 1,
+   "stem": "Trong quá trình tái bản DNA, enzyme trực tiếp gắn các nucleotide tự do để kéo dài mạch mới là",
+   "options": [
+    "RNA polymerase",
+    "DNA polymerase",
+    "ligase",
+    "enzyme cắt giới hạn (restriction enzyme)"
+   ],
+   "answer": 1,
+   "explanation": "DNA polymerase gắn nucleotide vào đầu 3'-OH của mạch đang tổng hợp theo nguyên tắc bổ sung; ligase nối các đoạn Okazaki."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Dịch mã",
+   "level": 1,
+   "stem": "Bộ ba trên tRNA khớp bổ sung với codon trên mRNA trong quá trình dịch mã được gọi là",
+   "options": [
+    "codon",
+    "triplet mã gốc",
+    "anticodon",
+    "codon kết thúc"
+   ],
+   "answer": 2,
+   "explanation": "Mỗi tRNA mang một anticodon khớp bổ sung, ngược chiều với codon tương ứng trên mRNA."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Phiên mã",
+   "level": 2,
+   "stem": "Ở sinh vật nhân thực, sau phiên mã, phân tử mRNA sơ khai được hoàn thiện thông qua quá trình",
+   "options": [
+    "cắt bỏ các đoạn intron và nối các đoạn exon",
+    "cắt bỏ các đoạn exon và nối các đoạn intron",
+    "nhân đôi rồi cắt thành hai mạch",
+    "gắn thêm các amino acid vào đầu 5'"
+   ],
+   "answer": 0,
+   "explanation": "Gene phân mảnh của sinh vật nhân thực có intron xen kẽ exon; mRNA sơ khai được cắt intron, nối exon (cùng gắn mũ 5' và đuôi poly-A) tạo mRNA trưởng thành."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đột biến gene",
+   "level": 2,
+   "stem": "Dạng đột biến điểm nào sau đây xảy ra ở đoạn giữa vùng mã hóa thường gây hậu quả nghiêm trọng nhất cho chuỗi polypeptide?",
+   "options": [
+    "Thay thế một cặp A–T bằng cặp T–A ở vị trí thứ ba của codon",
+    "Thay thế một cặp nucleotide làm codon này thành codon khác cùng mã hóa một amino acid",
+    "Thay thế một cặp G–C bằng cặp A–T không làm xuất hiện codon kết thúc",
+    "Mất một cặp nucleotide"
+   ],
+   "answer": 3,
+   "explanation": "Mất một cặp nucleotide làm dịch khung đọc từ vị trí đột biến, thay đổi hàng loạt amino acid phía sau; các đột biến thay thế thường chỉ ảnh hưởng tối đa một amino acid."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đột biến số lượng NST",
+   "level": 1,
+   "stem": "Thể đột biến nào sau đây là thể đa bội lẻ?",
+   "options": [
+    "$3n$",
+    "$4n$",
+    "$2n+1$",
+    "$2n-1$"
+   ],
+   "answer": 0,
+   "explanation": "Đa bội lẻ có bộ NST là bội số lẻ của n (3n, 5n…); 4n là đa bội chẵn; 2n ± 1 là lệch bội."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đột biến số lượng NST",
+   "level": 2,
+   "stem": "Cơ chế chủ yếu phát sinh thể lệch bội (dị bội) là",
+   "options": [
+    "tất cả các cặp nhiễm sắc thể không phân li trong giảm phân",
+    "một đoạn nhiễm sắc thể bị đứt và quay ngược 180°",
+    "trao đổi chéo không cân giữa hai chromatid",
+    "một hoặc vài cặp nhiễm sắc thể không phân li trong phân bào"
+   ],
+   "answer": 3,
+   "explanation": "Một hoặc vài cặp NST không phân li tạo giao tử thừa/thiếu NST → thể lệch bội. Tất cả các cặp không phân li → đa bội."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Phương pháp lai",
+   "level": 2,
+   "stem": "Phép lai phân tích là phép lai giữa",
+   "options": [
+    "hai cơ thể đều mang tính trạng trội",
+    "hai cơ thể thuần chủng khác nhau một cặp tính trạng",
+    "cơ thể mang tính trạng trội cần xác định kiểu gene với cơ thể mang tính trạng lặn",
+    "cơ thể dị hợp với cơ thể đồng hợp trội"
+   ],
+   "answer": 2,
+   "explanation": "Lai phân tích: lai cá thể trội chưa biết kiểu gene với cá thể đồng hợp lặn; đời con đồng tính → đồng hợp trội, phân tính → dị hợp."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tương tác gene",
+   "level": 3,
+   "stem": "Ở một loài thực vật, lai hai dòng hoa trắng thuần chủng khác nhau, F₁ thu được toàn hoa đỏ. Cho F₁ tự thụ phấn, F₂ có tỉ lệ 9 cây hoa đỏ : 7 cây hoa trắng. Tính trạng màu hoa di truyền theo quy luật",
+   "options": [
+    "tương tác bổ sung",
+    "tương tác cộng gộp",
+    "phân li của Mendel (một gene trội hoàn toàn)",
+    "liên kết gene hoàn toàn"
+   ],
+   "answer": 0,
+   "explanation": "F₂ có 16 tổ hợp → F₁ dị hợp 2 cặp (AaBb). A-B- (9/16) cho hoa đỏ; A-bb, aaB-, aabb (7/16) cho hoa trắng → hai gene không allele tương tác bổ sung."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hoán vị gene",
+   "level": 3,
+   "stem": "Lai phân tích cơ thể có kiểu gene $\\dfrac{AB}{ab}$, đời con thu được 4 loại kiểu hình với tỉ lệ 40% : 40% : 10% : 10%. Tần số hoán vị gene là",
+   "options": [
+    "10%",
+    "20%",
+    "40%",
+    "80%"
+   ],
+   "answer": 1,
+   "explanation": "Hai lớp kiểu hình chiếm tỉ lệ nhỏ (10% + 10%) sinh ra từ giao tử hoán vị → $f = 20\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Di truyền ngoài nhân",
+   "level": 2,
+   "stem": "Gene nằm trong ti thể của tế bào động vật di truyền theo đặc điểm nào sau đây?",
+   "options": [
+    "Di truyền thẳng từ bố cho con trai",
+    "Di truyền theo dòng mẹ",
+    "Phân li theo tỉ lệ 3 : 1",
+    "Chỉ biểu hiện ở giới đực"
+   ],
+   "answer": 1,
+   "explanation": "Hợp tử nhận tế bào chất (và ti thể) chủ yếu từ tế bào trứng → gene ngoài nhân di truyền theo dòng mẹ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Di truyền quần thể",
+   "level": 3,
+   "stem": "Một quần thể ngẫu phối đang ở trạng thái cân bằng di truyền có 16% cá thể mang kiểu hình lặn (aa). Trong số các cá thể mang kiểu hình trội, cá thể có kiểu gene dị hợp chiếm tỉ lệ",
+   "options": [
+    "$\\dfrac{3}{7}$",
+    "$\\dfrac{12}{25}$",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{4}{7}$"
+   ],
+   "answer": 3,
+   "explanation": "$q^2 = 0{,}16$ → $q = 0{,}4$; $p = 0{,}6$. Aa $= 2pq = 0{,}48$; kiểu hình trội $= 0{,}84$ → tỉ lệ $= \\dfrac{0{,}48}{0{,}84} = \\dfrac{4}{7}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nhân tố tiến hóa",
+   "level": 1,
+   "stem": "Nguồn nguyên liệu sơ cấp của quá trình tiến hóa là",
+   "options": [
+    "biến dị tổ hợp",
+    "thường biến",
+    "đột biến",
+    "di nhập gene"
+   ],
+   "answer": 2,
+   "explanation": "Đột biến (chủ yếu đột biến gene) tạo allele mới → nguyên liệu sơ cấp; biến dị tổ hợp là nguyên liệu thứ cấp."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nhân tố tiến hóa",
+   "level": 2,
+   "stem": "Phiêu bạt di truyền (các yếu tố ngẫu nhiên) làm thay đổi tần số allele mạnh nhất ở quần thể",
+   "options": [
+    "có kích thước nhỏ",
+    "có kích thước rất lớn",
+    "giao phối ngẫu nhiên và cân bằng di truyền",
+    "có nhiều allele đột biến trội"
+   ],
+   "answer": 0,
+   "explanation": "Ở quần thể nhỏ, sự sống sót hay sinh sản ngẫu nhiên của một số cá thể có thể làm thay đổi đột ngột tần số allele, thậm chí loại bỏ hoàn toàn một allele."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình thành loài",
+   "level": 2,
+   "stem": "Hình thành loài mới bằng con đường lai xa kết hợp đa bội hóa diễn ra phổ biến ở",
+   "options": [
+    "động vật có vú",
+    "chim",
+    "vi khuẩn",
+    "thực vật"
+   ],
+   "answer": 3,
+   "explanation": "Ở thực vật, con lai xa bất thụ có thể được đa bội hóa thành thể song nhị bội hữu thụ; ở động vật cơ chế này hiếm do cơ chế xác định giới tính và tập tính phức tạp."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Môi trường và nhân tố sinh thái",
+   "level": 1,
+   "stem": "Khoảng giá trị xác định của một nhân tố sinh thái mà trong khoảng đó sinh vật có thể tồn tại và phát triển ổn định theo thời gian được gọi là",
+   "options": [
+    "giới hạn sinh thái",
+    "ổ sinh thái",
+    "khoảng thuận lợi tuyệt đối",
+    "nơi ở"
+   ],
+   "answer": 0,
+   "explanation": "Đây là định nghĩa giới hạn sinh thái (từ điểm gây chết dưới đến điểm gây chết trên)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Diễn thế sinh thái",
+   "level": 2,
+   "stem": "Diễn thế nguyên sinh là diễn thế",
+   "options": [
+    "khởi đầu từ một quần xã đã bị suy thoái",
+    "khởi đầu từ môi trường chưa có sinh vật",
+    "diễn ra sau khi rừng bị chặt phá",
+    "luôn dẫn đến một quần xã suy thoái"
+   ],
+   "answer": 1,
+   "explanation": "Diễn thế nguyên sinh bắt đầu từ môi trường trống trơn (ví dụ đảo núi lửa mới hình thành); diễn thế thứ sinh bắt đầu từ môi trường đã có quần xã bị hủy hoại."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lưới thức ăn",
+   "level": 3,
+   "stem": "Một lưới thức ăn gồm các mối quan hệ dinh dưỡng: cỏ là thức ăn của thỏ và châu chấu; châu chấu là thức ăn của ếch và chim sâu; ếch là thức ăn của rắn; thỏ là thức ăn của rắn và cáo; chim sâu là thức ăn của rắn và đại bàng; rắn và cáo là thức ăn của đại bàng. Số chuỗi thức ăn (bắt đầu từ cỏ, kết thúc ở đại bàng) có trong lưới thức ăn này là",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 2,
+   "explanation": "Liệt kê: cỏ → thỏ → rắn → đại bàng; cỏ → thỏ → cáo → đại bàng; cỏ → châu chấu → ếch → rắn → đại bàng; cỏ → châu chấu → chim sâu → rắn → đại bàng; cỏ → châu chấu → chim sâu → đại bàng → 5 chuỗi."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tuần hoàn (lớp 11)",
+   "level": 2,
+   "stem": "Ở người, đường đi của máu trong vòng tuần hoàn nhỏ (vòng tuần hoàn phổi) là",
+   "options": [
+    "tâm thất trái → động mạch phổi → mao mạch phổi → tĩnh mạch phổi → tâm nhĩ phải",
+    "tâm thất phải → tĩnh mạch phổi → mao mạch phổi → động mạch phổi → tâm nhĩ trái",
+    "tâm thất phải → động mạch phổi → mao mạch phổi → tĩnh mạch phổi → tâm nhĩ trái",
+    "tâm nhĩ phải → động mạch phổi → mao mạch phổi → tĩnh mạch phổi → tâm thất trái"
+   ],
+   "answer": 2,
+   "explanation": "Máu nghèo O₂ từ tâm thất phải theo động mạch phổi lên phổi trao đổi khí, máu giàu O₂ theo tĩnh mạch phổi về tâm nhĩ trái."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Điều hòa biểu hiện gene – operon lac",
+   "level": 3,
+   "stem": "Ở vi khuẩn E. coli, operon lac gồm vùng khởi động (P), vùng vận hành (O) và các gene cấu trúc Z, Y, A; gene điều hòa lacI nằm trước operon, mã hóa protein ức chế. Xét một số chủng vi khuẩn sau: chủng 1 bình thường; chủng 2 bị mất vùng O; chủng 3 có đột biến ở gene lacI làm protein ức chế không liên kết được với allolactose nhưng vẫn liên kết được với vùng O.",
+   "statements": [
+    {
+     "t": "Ở chủng 1, khi môi trường có lactose, các gene Z, Y, A được phiên mã.",
+     "a": true
+    },
+    {
+     "t": "Ở chủng 2, các gene Z, Y, A được phiên mã cả khi môi trường không có lactose.",
+     "a": true
+    },
+    {
+     "t": "Ở chủng 3, các gene Z, Y, A không được phiên mã kể cả khi môi trường có lactose.",
+     "a": true
+    },
+    {
+     "t": "Gene điều hòa lacI là một thành phần cấu trúc của operon lac.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: allolactose gắn protein ức chế làm nó rời O. b) Đúng: không có O, protein ức chế không gắn được → phiên mã liên tục. c) Đúng: protein ức chế luôn gắn O. d) Sai: gene điều hòa nằm ngoài operon (operon gồm P, O và các gene cấu trúc)."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Liên kết và hoán vị gene",
+   "level": 3,
+   "stem": "Ở một loài thực vật, allele A quy định thân cao trội hoàn toàn so với a quy định thân thấp; allele B quy định hoa đỏ trội hoàn toàn so với b quy định hoa trắng. Cho cây P thân cao, hoa đỏ dị hợp hai cặp gene tự thụ phấn, F₁ thu được 4 loại kiểu hình, trong đó cây thân thấp, hoa trắng chiếm 16%. Biết không xảy ra đột biến, quá trình phát sinh giao tử đực và cái diễn ra như nhau.",
+   "statements": [
+    {
+     "t": "Hai cặp gene quy định hai tính trạng nằm trên cùng một cặp nhiễm sắc thể.",
+     "a": true
+    },
+    {
+     "t": "Kiểu gene của cây P là $\\dfrac{AB}{ab}$.",
+     "a": true
+    },
+    {
+     "t": "Tần số hoán vị gene là 40%.",
+     "a": false
+    },
+    {
+     "t": "Ở F₁, cây thân cao, hoa đỏ chiếm 66%.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: nếu phân li độc lập thì aabb = 6,25% ≠ 16%. b) Đúng: aabb = 0,16 → giao tử ab = 0,4 > 0,25 là giao tử liên kết → P $\\dfrac{AB}{ab}$. c) Sai: $f = 2 \\cdot (0{,}5 - 0{,}4) = 20\\%$. d) Đúng: A-B- $= 0{,}5 + 0{,}16 = 0{,}66$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Quần xã – ổ sinh thái",
+   "level": 2,
+   "stem": "Hai loài chim chích cùng sống trên một loại cây và cùng ăn sâu bọ. Quan sát cho thấy loài thứ nhất chủ yếu kiếm ăn ở tầng tán cao, loài thứ hai chủ yếu kiếm ăn ở các cành thấp gần gốc.",
+   "statements": [
+    {
+     "t": "Sự phân chia nơi kiếm ăn giúp hai loài giảm mức độ cạnh tranh với nhau.",
+     "a": true
+    },
+    {
+     "t": "Hai loài có ổ sinh thái về dinh dưỡng trùng nhau một phần.",
+     "a": true
+    },
+    {
+     "t": "Hai loài có ổ sinh thái trùng nhau hoàn toàn vẫn luôn cùng tồn tại bền vững trong một môi trường có nguồn sống hạn chế.",
+     "a": false
+    },
+    {
+     "t": "Quan hệ giữa hai loài chim trên là quan hệ hỗ trợ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: phân li ổ sinh thái làm giảm cạnh tranh. b) Đúng: cùng ăn sâu bọ nhưng khác tầng kiếm ăn. c) Sai: theo nguyên lí loại trừ cạnh tranh, một loài sẽ bị loại hoặc phải chuyển ổ. d) Sai: là quan hệ cạnh tranh (đối kháng)."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Trao đổi nước ở thực vật (lớp 11)",
+   "level": 3,
+   "stem": "Thí nghiệm: Dùng hai miếng giấy tẩm cobalt chloride đã sấy khô (màu xanh), đặt đối xứng ở mặt trên và mặt dưới của một lá cây hai lá mầm còn trên cây, dùng lam kính kẹp chặt. Sau 15 phút, miếng giấy ở mặt dưới lá chuyển sang màu hồng nhiều hơn và nhanh hơn miếng giấy ở mặt trên.",
+   "statements": [
+    {
+     "t": "Giấy cobalt chloride chuyển từ màu xanh sang màu hồng khi hút hơi nước.",
+     "a": true
+    },
+    {
+     "t": "Kết quả cho thấy mặt dưới lá thoát hơi nước mạnh hơn, do mặt dưới có nhiều khí khổng hơn.",
+     "a": true
+    },
+    {
+     "t": "Ở lá trưởng thành, nước thoát ra chủ yếu qua lớp cutin trên bề mặt lá.",
+     "a": false
+    },
+    {
+     "t": "Thoát hơi nước tạo lực kéo ở đầu trên, là động lực chủ yếu của dòng mạch gỗ.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: ở lá trưởng thành, con đường qua khí khổng là chủ yếu, lớp cutin dày nên thoát nước qua cutin rất ít. d) Đúng."
+  },
+  {
+   "qtype": "short",
+   "topic": "Gene – cấu trúc",
+   "level": 1,
+   "stem": "Một gene có chiều dài 5 100 Å. Tổng số nucleotide của gene là bao nhiêu?",
+   "answer_text": "3000",
+   "explanation": "Mỗi cặp nucleotide dài 3,4 Å → số cặp = 5100 : 3,4 = 1500 → $N = 3000$ nucleotide."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tái bản DNA",
+   "level": 2,
+   "stem": "Một phân tử DNA tái bản liên tiếp 5 lần trong môi trường chỉ chứa các nucleotide tự do. Số phân tử DNA con được cấu tạo hoàn toàn từ nucleotide mới của môi trường là bao nhiêu?",
+   "answer_text": "30",
+   "explanation": "Tạo $2^5 = 32$ DNA con; theo nguyên tắc bán bảo toàn, 2 DNA còn giữ một mạch của DNA ban đầu → $32 - 2 = 30$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Di truyền nhóm máu",
+   "level": 3,
+   "stem": "Ở người, nhóm máu do gene có 3 allele $I^A$, $I^B$, $I^O$ quy định ($I^A$, $I^B$ đồng trội, trội hoàn toàn so với $I^O$). Bố có kiểu gene $I^AI^O$, mẹ có kiểu gene $I^BI^O$. Xác suất cặp vợ chồng này sinh một đứa con là con trai có nhóm máu AB là bao nhiêu? (Viết dạng số thập phân.)",
+   "answer_text": "0,125",
+   "explanation": "$I^AI^O \\times I^BI^O$ → con có nhóm máu AB với xác suất $\\dfrac{1}{4}$; xác suất con trai $\\dfrac{1}{2}$ → $\\dfrac{1}{8} = 0{,}125$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Di truyền quần thể – đa allele",
+   "level": 3,
+   "stem": "Một quần thể người đang ở trạng thái cân bằng di truyền về hệ nhóm máu ABO, tần số các allele: $I^A = 0{,}3$; $I^B = 0{,}1$; $I^O = 0{,}6$. Tỉ lệ người có nhóm máu A trong quần thể là bao nhiêu? (Viết dạng số thập phân.)",
+   "answer_text": "0,45",
+   "explanation": "Nhóm máu A gồm $I^AI^A$ và $I^AI^O$: $0{,}3^2 + 2 \\cdot 0{,}3 \\cdot 0{,}6 = 0{,}09 + 0{,}36 = 0{,}45$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Nhiễm sắc thể",
+   "level": 1,
+   "stem": "Ruồi giấm có bộ nhiễm sắc thể $2n = 8$. Theo lí thuyết, số nhóm gene liên kết của ruồi giấm là bao nhiêu? (Coi nhiễm sắc thể X và Y là một nhóm.)",
+   "answer_text": "4",
+   "explanation": "Số nhóm gene liên kết bằng số NST trong bộ đơn bội: $n = 4$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Quần thể – ước lượng kích thước",
+   "level": 3,
+   "stem": "Để ước lượng kích thước quần thể cá trong một hồ, người ta bắt 60 con, đánh dấu rồi thả lại. Sau một thời gian, bắt ngẫu nhiên 80 con thì thấy có 15 con được đánh dấu. Giả sử không có sinh, tử, xuất cư, nhập cư và dấu không bị mất. Kích thước quần thể ước tính là bao nhiêu con?",
+   "answer_text": "320",
+   "explanation": "Theo phương pháp bắt – thả – bắt lại: $N = \\dfrac{60 \\cdot 80}{15} = 320$ con."
+  }
+ ],
+ "self_check": "Kiểm bằng Python (phân số chính xác): F₂ 9:7 (liệt kê 16 tổ hợp), tần số hoán vị, 4/7 dị hợp trong kiểu hình trội, đếm chuỗi thức ăn bằng duyệt đồ thị, F₁ của AB/ab tự thụ f = 20% (16% aabb, 66% A-B-), số nucleotide, DNA con mới hoàn toàn, xác suất con trai AB, tần số nhóm máu A, bắt – thả – bắt lại."
+}

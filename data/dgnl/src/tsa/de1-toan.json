@@ -1,0 +1,572 @@
+{
+ "exam": "tsa",
+ "part": "toan",
+ "set": "de1",
+ "passages": {
+  "p2": "Một mô hình kim tự tháp bằng kính có dạng hình chóp tứ giác đều $S.ABCD$, đáy là hình vuông $ABCD$ cạnh $6$ m, các cạnh bên $SA=SB=SC=SD=5$ m. Gọi $O$ là tâm của đáy và $M$ là trung điểm của $CD$.",
+  "p1": "Thời gian (phút) tự học buổi tối của $40$ học sinh một lớp được ghi lại trong bảng sau (số liệu giả định):\n| Thời gian (phút) | $[0;10)$ | $[10;20)$ | $[20;30)$ | $[30;40)$ | $[40;50)$ |\n| Số học sinh | $5$ | $12$ | $15$ | $6$ | $2$ |"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tính đơn điệu",
+   "level": 1,
+   "stem": "Hàm số $y=x^3-3x^2-9x+5$ nghịch biến trên khoảng nào dưới đây?",
+   "options": [
+    "$(-1;3)$",
+    "$(-\\infty;-1)$",
+    "$(3;+\\infty)$",
+    "$(-3;1)$"
+   ],
+   "answer": 0,
+   "explanation": "$y'=3x^2-6x-9=3(x+1)(x-3)<0 \\Leftrightarrow -1<x<3$. Hàm số nghịch biến trên $(-1;3)$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tiệm cận",
+   "level": 1,
+   "stem": "Đồ thị hàm số $y=\\dfrac{2x+1}{x-1}$ có tiệm cận đứng và tiệm cận ngang cắt nhau tại điểm nào?",
+   "options": [
+    "$I(2;1)$",
+    "$I(1;2)$",
+    "$I(-1;2)$",
+    "$I(1;-2)$"
+   ],
+   "answer": 1,
+   "explanation": "Tiệm cận đứng $x=1$ (mẫu bằng 0, tử khác 0), tiệm cận ngang $y=\\dfrac{2}{1}=2$. Giao điểm $I(1;2)$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tối ưu thực tế",
+   "level": 2,
+   "stem": "Từ một tấm bìa hình vuông cạnh $60$ cm, người ta cắt bỏ ở bốn góc bốn hình vuông bằng nhau cạnh $x$ cm rồi gập lại thành một chiếc hộp không nắp. Thể tích lớn nhất của chiếc hộp bằng bao nhiêu decimét khối?",
+   "answer_text": "16",
+   "explanation": "$V(x)=x(60-2x)^2$ với $0<x<30$. $V'(x)=(60-2x)(60-6x)=0\\Rightarrow x=10$. $V_{\\max}=V(10)=10\\cdot 40^2=16000$ cm$^3=16$ dm$^3$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số – khảo sát",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)=x^3-3x+1$.",
+   "statements": [
+    {
+     "t": "Phương trình $f'(x)=0$ có hai nghiệm phân biệt.",
+     "a": true
+    },
+    {
+     "t": "Giá trị lớn nhất của $f(x)$ trên đoạn $[0;2]$ bằng $3$.",
+     "a": true
+    },
+    {
+     "t": "Phương trình $f(x)=0$ có đúng hai nghiệm thực.",
+     "a": false
+    },
+    {
+     "t": "Đồ thị hàm số nhận điểm $I(0;1)$ làm tâm đối xứng.",
+     "a": true
+    }
+   ],
+   "explanation": "a) $f'(x)=3x^2-3=0\\Leftrightarrow x=\\pm1$: Đúng. b) $f(0)=1$, $f(1)=-1$, $f(2)=3$ nên max bằng $3$: Đúng. c) $f(-2)=-1<0$, $f(-1)=3>0$, $f(1)=-1<0$, $f(2)=3>0$ nên có $3$ nghiệm: Sai. d) $f(-x)+f(x)=2$ nên đồ thị đối xứng qua $I(0;1)$ (cũng là điểm uốn): Đúng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – tham số",
+   "level": 3,
+   "stem": "Có bao nhiêu giá trị nguyên của tham số $m\\in[-10;10]$ để hàm số $y=x^3-3x^2+mx+1$ đồng biến trên $\\mathbb{R}$?",
+   "options": [
+    "$7$",
+    "$9$",
+    "$10$",
+    "$8$"
+   ],
+   "answer": 3,
+   "explanation": "$y'=3x^2-6x+m\\ge 0\\ \\forall x\\Leftrightarrow \\Delta'=9-3m\\le 0\\Leftrightarrow m\\ge 3$. Các giá trị nguyên $m=3,4,\\dots,10$: có $8$ giá trị."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tối ưu thực tế",
+   "level": 3,
+   "stem": "Một cửa hàng nhập áo với giá $80$ nghìn đồng/chiếc. Nếu bán giá $120$ nghìn đồng/chiếc thì mỗi tháng bán được $200$ chiếc; cứ giảm (hoặc tăng) giá bán $5$ nghìn đồng thì số áo bán được tăng (hoặc giảm) $20$ chiếc. Để lợi nhuận mỗi tháng lớn nhất, cửa hàng nên bán với giá bao nhiêu?",
+   "options": [
+    "$110$ nghìn đồng",
+    "$120$ nghìn đồng",
+    "$125$ nghìn đồng",
+    "$130$ nghìn đồng"
+   ],
+   "answer": 2,
+   "explanation": "Giá bán $p$ (nghìn đồng) thì số áo bán là $200+4(120-p)=680-4p$. Lợi nhuận $L(p)=(p-80)(680-4p)$, $L'(p)=1000-8p=0\\Rightarrow p=125$. Lưu ý: giảm giá không có lợi, phải tăng giá lên $125$ nghìn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – logarit thực tế",
+   "level": 2,
+   "stem": "Một người gửi $100$ triệu đồng vào ngân hàng với lãi suất $6\\%$/năm, lãi nhập gốc hằng năm. Sau ít nhất bao nhiêu năm người đó có số tiền (cả gốc và lãi) vượt quá $150$ triệu đồng? (Giả sử lãi suất không đổi và không rút tiền.)",
+   "options": [
+    "$6$ năm",
+    "$7$ năm",
+    "$8$ năm",
+    "$9$ năm"
+   ],
+   "answer": 1,
+   "explanation": "$100\\cdot 1{,}06^n>150\\Leftrightarrow n>\\log_{1{,}06}1{,}5\\approx 6{,}96$. Vậy ít nhất $7$ năm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Phương trình mũ",
+   "level": 1,
+   "stem": "Tổng các nghiệm của phương trình $4^x-6\\cdot 2^x+8=0$ bằng",
+   "options": [
+    "$6$",
+    "$3$",
+    "$8$",
+    "$2$"
+   ],
+   "answer": 1,
+   "explanation": "Đặt $u=2^x>0$: $u^2-6u+8=0\\Rightarrow u=2$ hoặc $u=4\\Rightarrow x=1$ hoặc $x=2$. Tổng $=3$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Bất phương trình logarit",
+   "level": 2,
+   "stem": "Bất phương trình $\\log_2(x-1)+\\log_2(x+1)\\le 3$ có bao nhiêu nghiệm nguyên?",
+   "options": [
+    "$3$",
+    "$4$",
+    "$5$",
+    "$2$"
+   ],
+   "answer": 3,
+   "explanation": "Điều kiện $x>1$. Bất phương trình $\\Leftrightarrow x^2-1\\le 8\\Leftrightarrow -3\\le x\\le 3$. Kết hợp: $1<x\\le 3$, nghiệm nguyên $x=2;3$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Logarit – ứng dụng",
+   "level": 2,
+   "stem": "Độ pH của một dung dịch được tính bởi $\\mathrm{pH}=-\\log[\\mathrm{H^+}]$, trong đó $[\\mathrm{H^+}]$ là nồng độ ion hiđro (mol/L).",
+   "statements": [
+    {
+     "t": "Dung dịch có $[\\mathrm{H^+}]=10^{-3}$ mol/L thì có $\\mathrm{pH}=3$.",
+     "a": true
+    },
+    {
+     "t": "Khi pH giảm $1$ đơn vị thì nồng độ $[\\mathrm{H^+}]$ tăng gấp $10$ lần.",
+     "a": true
+    },
+    {
+     "t": "Pha loãng $100$ lần một dung dịch axit mạnh có $\\mathrm{pH}=2$ (coi $[\\mathrm{H^+}]$ giảm đúng $100$ lần) thì thu được dung dịch có $\\mathrm{pH}=3$.",
+     "a": false
+    },
+    {
+     "t": "Dung dịch có $[\\mathrm{H^+}]=2\\cdot 10^{-5}$ mol/L thì có pH xấp xỉ $5{,}3$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) $-\\log 10^{-3}=3$: Đúng. b) $\\mathrm{pH}-1=-\\log(10[\\mathrm{H^+}])$: Đúng. c) $[\\mathrm{H^+}]$ từ $10^{-2}$ thành $10^{-4}$ nên $\\mathrm{pH}=4$: Sai. d) $-\\log(2\\cdot10^{-5})=5-\\log 2\\approx 4{,}7$: Sai."
+  },
+  {
+   "qtype": "short",
+   "topic": "Mũ – tăng trưởng",
+   "level": 2,
+   "stem": "Số lượng vi khuẩn trong một môi trường nuôi cấy tuân theo quy luật $N(t)=N_0e^{kt}$ ($t$ tính bằng giờ). Sau $2$ giờ có $500$ con, sau $5$ giờ có $4000$ con. Sau bao nhiêu giờ (kể từ thời điểm ban đầu) số vi khuẩn đạt $64000$ con?",
+   "answer_text": "9",
+   "explanation": "$\\dfrac{N(5)}{N(2)}=e^{3k}=8\\Rightarrow e^k=2$, $N_0=\\dfrac{500}{4}=125$. $125\\cdot 2^t=64000\\Rightarrow 2^t=512\\Rightarrow t=9$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "Biết $F(x)$ là một nguyên hàm của $f(x)=3x^2-2x$ và $F(1)=2$. Giá trị $F(2)$ bằng",
+   "options": [
+    "$4$",
+    "$8$",
+    "$6$",
+    "$10$"
+   ],
+   "answer": 2,
+   "explanation": "$F(x)=x^3-x^2+C$, $F(1)=C=2$. $F(2)=8-4+2=6$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tích phân – chuyển động",
+   "level": 1,
+   "stem": "Một vật chuyển động với vận tốc $v(t)=3t^2+2t$ (m/s), $t$ tính bằng giây. Quãng đường vật đi được trong $3$ giây đầu tiên là bao nhiêu mét?",
+   "answer_text": "36",
+   "explanation": "$s=\\displaystyle\\int_0^3(3t^2+2t)\\,dt=\\left(t^3+t^2\\right)\\Big|_0^3=27+9=36$ (m)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Giá trị của $\\displaystyle\\int_0^3\\left|x^2-1\\right|dx$ bằng",
+   "options": [
+    "$\\dfrac{22}{3}$",
+    "$6$",
+    "$\\dfrac{20}{3}$",
+    "$\\dfrac{8}{3}$"
+   ],
+   "answer": 0,
+   "explanation": "$\\displaystyle\\int_0^1(1-x^2)dx+\\int_1^3(x^2-1)dx=\\dfrac{2}{3}+\\dfrac{20}{3}=\\dfrac{22}{3}$. (Bỏ dấu giá trị tuyệt đối sai sẽ ra $6$.)"
+  },
+  {
+   "qtype": "tf",
+   "topic": "Ứng dụng tích phân",
+   "level": 3,
+   "stem": "Gọi $(H)$ là hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x+3$.",
+   "statements": [
+    {
+     "t": "Parabol và đường thẳng cắt nhau tại hai điểm có hoành độ $-1$ và $3$.",
+     "a": true
+    },
+    {
+     "t": "Diện tích của $(H)$ bằng $\\dfrac{32}{3}$.",
+     "a": true
+    },
+    {
+     "t": "Khối tròn xoay tạo thành khi quay $(H)$ quanh trục $Ox$ có thể tích bằng $\\dfrac{32\\pi}{3}$.",
+     "a": false
+    },
+    {
+     "t": "Đường thẳng $x=1$ chia $(H)$ thành hai phần có diện tích bằng nhau.",
+     "a": true
+    }
+   ],
+   "explanation": "a) $x^2=2x+3\\Leftrightarrow x=-1;\\ x=3$: Đúng. b) $S=\\displaystyle\\int_{-1}^3(2x+3-x^2)dx=\\dfrac{32}{3}$: Đúng. c) $V=\\pi\\displaystyle\\int_{-1}^3\\left[(2x+3)^2-x^4\\right]dx=\\dfrac{1088\\pi}{15}$ (trên $[-1;3]$ có $2x+3\\ge x^2\\ge 0$): Sai. d) $\\displaystyle\\int_{-1}^1(2x+3-x^2)dx=\\dfrac{16}{3}=\\dfrac{S}{2}$: Đúng."
+  },
+  {
+   "qtype": "short",
+   "topic": "Ứng dụng tích phân",
+   "level": 3,
+   "stem": "Một cổng có dạng parabol, chân cổng rộng $8$ m, đỉnh cổng cao $6$ m so với mặt đất. Người ta làm một cánh cửa hình chữ nhật cao $4$ m, đặt trên mặt đất, chính giữa cổng, hai đỉnh phía trên nằm trên parabol. Phần còn lại của mặt cổng được trang trí. Diện tích phần trang trí bằng bao nhiêu mét vuông? (Làm tròn đến hàng phần mười.)",
+   "answer_text": "13,5",
+   "explanation": "Chọn hệ trục: $y=6-\\dfrac{3}{8}x^2$, $x\\in[-4;4]$. Diện tích cổng $\\displaystyle\\int_{-4}^4\\left(6-\\dfrac38x^2\\right)dx=32$. Với $y=4$: $x^2=\\dfrac{16}{3}$, $x=\\pm\\dfrac{4}{\\sqrt3}$, cửa rộng $\\dfrac{8}{\\sqrt3}$, diện tích $\\dfrac{32}{\\sqrt3}\\approx 18{,}48$. Phần trang trí $\\approx 32-18{,}48\\approx 13{,}5$ m$^2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thể tích khối đa diện",
+   "level": 1,
+   "stem": "Thể tích khối lăng trụ đứng có đáy là tam giác đều cạnh $2$ và chiều cao $3$ bằng",
+   "options": [
+    "$\\sqrt3$",
+    "$6\\sqrt3$",
+    "$3\\sqrt3$",
+    "$\\dfrac{3\\sqrt3}{2}$"
+   ],
+   "answer": 2,
+   "explanation": "$S_{đáy}=\\dfrac{2^2\\sqrt3}{4}=\\sqrt3$, $V=\\sqrt3\\cdot 3=3\\sqrt3$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình chóp – thể tích",
+   "level": 2,
+   "stem": "Thể tích của khối chóp $S.ABCD$ bằng",
+   "options": [
+    "$12\\sqrt7$ m$^3$",
+    "$36\\sqrt7$ m$^3$",
+    "$4\\sqrt7$ m$^3$",
+    "$12\\sqrt{3}$ m$^3$"
+   ],
+   "answer": 0,
+   "explanation": "$OA=\\dfrac{6\\sqrt2}{2}=3\\sqrt2$, $SO=\\sqrt{25-18}=\\sqrt7$. $V=\\dfrac13\\cdot 36\\cdot\\sqrt7=12\\sqrt7$ m$^3$.",
+   "passage": "p2"
+  },
+  {
+   "qtype": "short",
+   "topic": "Hình chóp – góc",
+   "level": 3,
+   "stem": "Góc giữa mặt bên $(SCD)$ và mặt đáy $(ABCD)$ bằng bao nhiêu độ? (Làm tròn đến hàng đơn vị.)",
+   "answer_text": "41",
+   "explanation": "$OM\\perp CD$, $SM\\perp CD$ nên góc cần tìm là $\\widehat{SMO}$. $\\tan\\widehat{SMO}=\\dfrac{SO}{OM}=\\dfrac{\\sqrt7}{3}\\Rightarrow\\widehat{SMO}\\approx 41{,}4^\\circ\\approx 41^\\circ$.",
+   "passage": "p2"
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình chóp – diện tích",
+   "level": 2,
+   "stem": "Cần bao nhiêu mét vuông kính để làm bốn mặt bên của mô hình (bỏ qua hao hụt)?",
+   "options": [
+    "$60$ m$^2$",
+    "$24$ m$^2$",
+    "$12\\sqrt{7}$ m$^2$",
+    "$48$ m$^2$"
+   ],
+   "answer": 3,
+   "explanation": "Trung đoạn $SM=\\sqrt{SC^2-MC^2}=\\sqrt{25-9}=4$. Diện tích mỗi mặt bên $\\dfrac12\\cdot6\\cdot4=12$, bốn mặt: $48$ m$^2$.",
+   "passage": "p2"
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hình học không gian",
+   "level": 3,
+   "stem": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $2$.",
+   "statements": [
+    {
+     "t": "Độ dài đường chéo $AC'$ bằng $2\\sqrt3$.",
+     "a": true
+    },
+    {
+     "t": "Góc giữa đường thẳng $AC'$ và mặt phẳng $(ABCD)$ bằng $45^\\circ$.",
+     "a": false
+    },
+    {
+     "t": "Khoảng cách từ $A$ đến mặt phẳng $(A'BD)$ bằng $\\dfrac{2}{\\sqrt3}$.",
+     "a": true
+    },
+    {
+     "t": "Thể tích khối tứ diện $A'BDC'$ bằng $\\dfrac83$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) $AC'=2\\sqrt3$: Đúng. b) $\\tan\\widehat{(AC',(ABCD))}=\\dfrac{CC'}{AC}=\\dfrac{2}{2\\sqrt2}=\\dfrac{1}{\\sqrt2}$, góc $\\approx35{,}3^\\circ$: Sai. c) Tứ diện $A.A'BD$ vuông tại $A$: $\\dfrac1{d^2}=\\dfrac14+\\dfrac14+\\dfrac14\\Rightarrow d=\\dfrac{2}{\\sqrt3}$: Đúng. d) $V=8-4\\cdot\\dfrac{8}{6}=\\dfrac83$ (bỏ bốn tứ diện góc): Đúng."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tối ưu thực tế",
+   "level": 3,
+   "stem": "Một hãng sản xuất lon nước hình trụ có nắp, thể tích $1$ lít ($1000$ cm$^3$). Để tốn ít vật liệu nhất (diện tích toàn phần nhỏ nhất), bán kính đáy của lon phải bằng bao nhiêu centimét? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "5,42",
+   "explanation": "$h=\\dfrac{1000}{\\pi r^2}$, $S=2\\pi r^2+\\dfrac{2000}{r}$. $S'=4\\pi r-\\dfrac{2000}{r^2}=0\\Rightarrow r=\\sqrt[3]{\\dfrac{500}{\\pi}}\\approx 5{,}42$ cm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – khoảng cách",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, khoảng cách từ điểm $M(1;-2;3)$ đến mặt phẳng $(P):2x-y+2z+1=0$ bằng",
+   "options": [
+    "$\\dfrac{11}{9}$",
+    "$3$",
+    "$\\dfrac{7}{3}$",
+    "$\\dfrac{11}{3}$"
+   ],
+   "answer": 3,
+   "explanation": "$d=\\dfrac{|2+2+6+1|}{\\sqrt{4+1+4}}=\\dfrac{11}{3}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – mặt cầu",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, mặt cầu tâm $I(1;-2;3)$ và tiếp xúc với mặt phẳng $(P):2x-y+2z-4=0$ có phương trình là",
+   "options": [
+    "$(x-1)^2+(y+2)^2+(z-3)^2=4$",
+    "$(x+1)^2+(y-2)^2+(z+3)^2=4$",
+    "$(x-1)^2+(y+2)^2+(z-3)^2=2$",
+    "$(x-1)^2+(y+2)^2+(z-3)^2=16$"
+   ],
+   "answer": 0,
+   "explanation": "$R=d(I,(P))=\\dfrac{|2+2+6-4|}{3}=2$. Phương trình $(x-1)^2+(y+2)^2+(z-3)^2=4$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – hình chiếu",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, cho điểm $A(1;0;2)$ và mặt phẳng $(P):x-2y+2z-1=0$. Hình chiếu vuông góc của $A$ lên $(P)$ là điểm",
+   "options": [
+    "$H\\left(\\dfrac{13}9;-\\dfrac89;\\dfrac{26}9\\right)$",
+    "$H\\left(\\dfrac59;\\dfrac89;\\dfrac{10}9\\right)$",
+    "$H\\left(\\dfrac59;-\\dfrac89;\\dfrac{10}9\\right)$",
+    "$H\\left(1;1;1\\right)$"
+   ],
+   "answer": 1,
+   "explanation": "Đường thẳng qua $A$ vuông góc $(P)$: $(1+t;-2t;2+2t)$. Thay vào $(P)$: $1+t+4t+4+4t-1=0\\Rightarrow t=-\\dfrac49$. $H\\left(\\dfrac59;\\dfrac89;\\dfrac{10}9\\right)$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Oxyz – ứng dụng",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$ (đơn vị trên mỗi trục là mét), một thiết bị bay không người lái xuất phát từ điểm $A(2;1;5)$ và bay thẳng đều; sau $t$ giây nó ở vị trí $M(2+t;\\,1+2t;\\,5+2t)$.",
+   "statements": [
+    {
+     "t": "Sau $3$ giây, thiết bị ở điểm $(5;7;11)$.",
+     "a": true
+    },
+    {
+     "t": "Tốc độ bay của thiết bị là $3$ m/s.",
+     "a": true
+    },
+    {
+     "t": "Thiết bị đạt độ cao $z=20$ m sau đúng $8$ giây.",
+     "a": false
+    },
+    {
+     "t": "Trong quá trình bay ($t\\ge0$), khoảng cách từ thiết bị đến gốc tọa độ $O$ luôn tăng.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Thay $t=3$: Đúng. b) Vectơ vận tốc $(1;2;2)$ có độ dài $3$: Đúng. c) $5+2t=20\\Rightarrow t=7{,}5$ s: Sai. d) $OM^2=9t^2+28t+30$ đồng biến với $t\\ge0$: Đúng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Cấp số cộng",
+   "level": 1,
+   "stem": "Một khán phòng có $30$ hàng ghế, hàng đầu tiên có $20$ ghế, mỗi hàng sau nhiều hơn hàng liền trước $2$ ghế. Khán phòng có tất cả bao nhiêu ghế?",
+   "options": [
+    "$1410$",
+    "$1470$",
+    "$1500$",
+    "$1530$"
+   ],
+   "answer": 1,
+   "explanation": "Số ghế các hàng lập cấp số cộng $u_1=20$, $d=2$. $S_{30}=\\dfrac{30(2\\cdot20+29\\cdot2)}{2}=1470$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Cấp số nhân – thực tế",
+   "level": 2,
+   "stem": "Một quả bóng được thả rơi từ độ cao $10$ m xuống mặt đất. Mỗi lần chạm đất, bóng nảy lên theo phương thẳng đứng với độ cao bằng $\\dfrac34$ độ cao lần rơi ngay trước đó.",
+   "statements": [
+    {
+     "t": "Độ cao các lần nảy lên của bóng lập thành một cấp số nhân có công bội $\\dfrac34$.",
+     "a": true
+    },
+    {
+     "t": "Sau lần chạm đất thứ hai, bóng nảy lên độ cao $5{,}625$ m.",
+     "a": true
+    },
+    {
+     "t": "Sau lần chạm đất thứ năm, bóng nảy lên độ cao nhỏ hơn $2$ m.",
+     "a": false
+    },
+    {
+     "t": "Tổng quãng đường bóng di chuyển (kể từ lúc thả đến khi dừng hẳn) là $80$ m.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) $10\\cdot\\left(\\dfrac34\\right)^2=5{,}625$: Đúng. c) $10\\cdot\\left(\\dfrac34\\right)^5\\approx2{,}37>2$: Sai. d) Tổng các lần nảy lên: $\\dfrac{7{,}5}{1-\\frac34}=30$; quãng đường $=10+2\\cdot30=70$ m: Sai."
+  },
+  {
+   "qtype": "short",
+   "topic": "Dãy số – trả góp",
+   "level": 3,
+   "stem": "Anh Nam vay ngân hàng $200$ triệu đồng với lãi suất $1\\%$/tháng tính trên dư nợ. Sau đúng một tháng kể từ ngày vay, anh bắt đầu trả nợ, mỗi tháng trả cùng một số tiền $a$ triệu đồng, và trả hết nợ sau đúng $24$ tháng. Tìm $a$. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "9,41",
+   "explanation": "Dư nợ sau $24$ tháng: $200\\cdot1{,}01^{24}-a\\cdot\\dfrac{1{,}01^{24}-1}{0{,}01}=0\\Rightarrow a=\\dfrac{200\\cdot0{,}01\\cdot1{,}01^{24}}{1{,}01^{24}-1}\\approx9{,}41$ (triệu đồng)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tổ hợp – đếm",
+   "level": 2,
+   "stem": "Từ các chữ số $0,1,2,3,4,5$ lập được bao nhiêu số tự nhiên chẵn có $4$ chữ số đôi một khác nhau?",
+   "options": [
+    "$180$",
+    "$156$",
+    "$120$",
+    "$300$"
+   ],
+   "answer": 1,
+   "explanation": "Tận cùng $0$: $5\\cdot4\\cdot3=60$ số. Tận cùng $2$ hoặc $4$: $2\\cdot(4\\cdot4\\cdot3)=96$ số. Tổng $156$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tổ hợp",
+   "level": 1,
+   "stem": "Lớp 12A có $10$ học sinh nam và $8$ học sinh nữ. Có bao nhiêu cách chọn $3$ học sinh vào đội tình nguyện sao cho có ít nhất một học sinh nữ?",
+   "answer_text": "696",
+   "explanation": "Số cách chọn bất kì $C_{18}^3=816$, chọn toàn nam $C_{10}^3=120$. Đáp số $816-120=696$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Nhị thức Newton",
+   "level": 1,
+   "stem": "Tìm hệ số của $x^4$ trong khai triển $(2x-1)^6$.",
+   "answer_text": "240",
+   "explanation": "Số hạng chứa $x^4$: $C_6^4(2x)^4(-1)^2=15\\cdot16x^4=240x^4$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tổ hợp – đếm",
+   "level": 3,
+   "stem": "Có bao nhiêu cách chia $10$ chiếc bánh giống hệt nhau cho $3$ bạn An, Bình, Chi sao cho mỗi bạn nhận được ít nhất $2$ chiếc bánh?",
+   "answer_text": "15",
+   "explanation": "Phát trước mỗi bạn $2$ chiếc, còn $4$ chiếc chia tùy ý cho $3$ bạn: $a+b+c=4$ ($a,b,c\\ge0$) có $C_6^2=15$ nghiệm. Vậy có $15$ cách."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất",
+   "level": 2,
+   "stem": "Một hộp có $5$ viên bi đỏ và $4$ viên bi xanh. Lấy ngẫu nhiên đồng thời $3$ viên bi. Xác suất để $3$ viên bi lấy ra có đủ hai màu bằng",
+   "options": [
+    "$\\dfrac16$",
+    "$\\dfrac{5}{14}$",
+    "$\\dfrac{10}{21}$",
+    "$\\dfrac56$"
+   ],
+   "answer": 3,
+   "explanation": "$P=1-\\dfrac{C_5^3+C_4^3}{C_9^3}=1-\\dfrac{14}{84}=\\dfrac56$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất – biến cố độc lập",
+   "level": 1,
+   "stem": "Hai xạ thủ độc lập cùng bắn mỗi người một phát vào bia, xác suất bắn trúng lần lượt là $0{,}8$ và $0{,}7$. Xác suất để có đúng một người bắn trúng là",
+   "options": [
+    "$0{,}56$",
+    "$0{,}94$",
+    "$0{,}38$",
+    "$0{,}44$"
+   ],
+   "answer": 2,
+   "explanation": "$P=0{,}8\\cdot0{,}3+0{,}2\\cdot0{,}7=0{,}24+0{,}14=0{,}38$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất",
+   "level": 3,
+   "stem": "Xếp ngẫu nhiên $3$ bạn nam và $3$ bạn nữ ngồi vào $6$ ghế kê thành một hàng ngang. Xác suất để nam và nữ ngồi xen kẽ nhau là",
+   "options": [
+    "$\\dfrac{1}{10}$",
+    "$\\dfrac{1}{20}$",
+    "$\\dfrac{1}{5}$",
+    "$\\dfrac{1}{36}$"
+   ],
+   "answer": 0,
+   "explanation": "$n(\\Omega)=6!=720$. Xếp xen kẽ: chọn nam đứng đầu hoặc nữ đứng đầu ($2$ cách), xếp nam $3!$, xếp nữ $3!$: $2\\cdot6\\cdot6=72$. $P=\\dfrac{72}{720}=\\dfrac1{10}$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Xác suất có điều kiện – Bayes",
+   "level": 3,
+   "stem": "Một bệnh có tỉ lệ mắc trong cộng đồng là $2\\%$. Một xét nghiệm cho kết quả dương tính với $95\\%$ người mắc bệnh và cho kết quả dương tính (nhầm) với $10\\%$ người không mắc bệnh. Một người làm xét nghiệm và nhận kết quả dương tính. Xác suất người đó thực sự mắc bệnh là bao nhiêu? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "0,16",
+   "explanation": "Theo công thức Bayes: $P=\\dfrac{0{,}02\\cdot0{,}95}{0{,}02\\cdot0{,}95+0{,}98\\cdot0{,}1}=\\dfrac{0{,}019}{0{,}117}\\approx0{,}16$. Dù xét nghiệm khá tốt, xác suất chỉ khoảng $16\\%$ vì bệnh hiếm."
+  },
+  {
+   "qtype": "short",
+   "topic": "Thống kê – mẫu ghép nhóm",
+   "level": 1,
+   "stem": "Số trung bình của mẫu số liệu ghép nhóm trên bằng bao nhiêu phút?",
+   "answer_text": "22",
+   "explanation": "$\\bar x=\\dfrac{5\\cdot5+12\\cdot15+15\\cdot25+6\\cdot35+2\\cdot45}{40}=\\dfrac{880}{40}=22$.",
+   "passage": "p1"
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – tứ phân vị",
+   "level": 3,
+   "stem": "Tứ phân vị thứ nhất $Q_1$ của mẫu số liệu ghép nhóm trên xấp xỉ bằng",
+   "options": [
+    "$12{,}50$",
+    "$15{,}00$",
+    "$14{,}17$",
+    "$16{,}67$"
+   ],
+   "answer": 2,
+   "explanation": "$\\dfrac{n}{4}=10$, nhóm chứa $Q_1$ là $[10;20)$. $Q_1=10+\\dfrac{10-5}{12}\\cdot10\\approx14{,}17$.",
+   "passage": "p1"
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – mốt",
+   "level": 2,
+   "stem": "Mốt của mẫu số liệu ghép nhóm trên bằng",
+   "options": [
+    "$25$",
+    "$15$",
+    "$22{,}5$",
+    "$23{,}75$"
+   ],
+   "answer": 2,
+   "explanation": "Nhóm $[20;30)$ có tần số lớn nhất. $M_o=20+\\dfrac{15-12}{(15-12)+(15-6)}\\cdot10=22{,}5$.",
+   "passage": "p1"
+  }
+ ],
+ "self_check": "Mọi đáp án (đơn điệu, cực trị, tiệm cận, tối ưu, nghiệm mũ – log, tích phân, diện tích/ thể tích, Oxyz, đếm – xác suất bằng liệt kê itertools, Bayes, thống kê ghép nhóm, trả góp) được tính lại bằng Python/sympy với assert; các ý Đúng/Sai được kiểm từng ý; phương án nhiễu đã kiểm khác đáp án."
+}

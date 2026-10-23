@@ -1,0 +1,280 @@
+{
+ "exam": "spt",
+ "part": "toan",
+ "set": "luyen",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Cấp số cộng",
+   "level": 1,
+   "stem": "Cho cấp số cộng $(u_n)$ có $u_1=2$ và $u_5=14$. Số hạng $u_{10}$ bằng",
+   "options": [
+    "29",
+    "32",
+    "26",
+    "30"
+   ],
+   "answer": 0,
+   "explanation": "$u_5=u_1+4d\\Rightarrow d=3$. $u_{10}=u_1+9d=2+27=29$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Giới hạn dãy số",
+   "level": 2,
+   "stem": "Giới hạn $\\lim\\left(\\sqrt{n^2+3n}-n\\right)$ bằng",
+   "options": [
+    "0",
+    "$+\\infty$",
+    "$\\dfrac32$",
+    "3"
+   ],
+   "answer": 2,
+   "explanation": "$\\sqrt{n^2+3n}-n=\\dfrac{3n}{\\sqrt{n^2+3n}+n}=\\dfrac{3}{\\sqrt{1+\\frac3n}+1}\\to\\dfrac32$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đạo hàm",
+   "level": 1,
+   "stem": "Đạo hàm của hàm số $y=\\ln(x^2+1)$ là",
+   "options": [
+    "$y'=\\dfrac{1}{x^2+1}$",
+    "$y'=\\dfrac{2x}{x^2+1}$",
+    "$y'=\\dfrac{x}{x^2+1}$",
+    "$y'=\\dfrac{2x}{(x^2+1)\\ln 10}$"
+   ],
+   "answer": 1,
+   "explanation": "$(\\ln u)'=\\dfrac{u'}{u}$ với $u=x^2+1$, $u'=2x$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đường conic",
+   "level": 1,
+   "stem": "Trong mặt phẳng $Oxy$, elip $(E):\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$ có tiêu cự bằng",
+   "options": [
+    "4",
+    "10",
+    "16",
+    "8"
+   ],
+   "answer": 3,
+   "explanation": "$a^2=25$, $b^2=9$ ⇒ $c=\\sqrt{a^2-b^2}=4$. Tiêu cự $2c=8$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – đổi biến",
+   "level": 2,
+   "stem": "Tích phân $\\displaystyle\\int_0^1 xe^{x^2}dx$ bằng",
+   "options": [
+    "$e-1$",
+    "$\\dfrac{e}{2}$",
+    "$\\dfrac{e+1}{2}$",
+    "$\\dfrac{e-1}{2}$"
+   ],
+   "answer": 3,
+   "explanation": "Đặt $u=x^2$, $du=2x\\,dx$: $I=\\dfrac12\\displaystyle\\int_0^1e^udu=\\dfrac{e-1}2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – góc giữa hai mặt phẳng",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, góc giữa hai mặt phẳng $(P):x-z=0$ và $(Q):y-z=0$ bằng",
+   "options": [
+    "$30^\\circ$",
+    "$60^\\circ$",
+    "$45^\\circ$",
+    "$90^\\circ$"
+   ],
+   "answer": 1,
+   "explanation": "$\\cos\\varphi=\\dfrac{|\\vec n_P\\cdot\\vec n_Q|}{|\\vec n_P||\\vec n_Q|}=\\dfrac{|0+0+1|}{\\sqrt2\\cdot\\sqrt2}=\\dfrac12$ ⇒ $\\varphi=60^\\circ$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – độ lệch chuẩn",
+   "level": 2,
+   "stem": "Thời gian (giờ) sử dụng điện thoại trong một ngày của 10 học sinh được ghép nhóm: $[0;2)$: 3 em; $[2;4)$: 5 em; $[4;6)$: 2 em. Độ lệch chuẩn của mẫu số liệu ghép nhóm này là",
+   "options": [
+    "$1{,}4$",
+    "$1{,}96$",
+    "$2{,}8$",
+    "$1{,}2$"
+   ],
+   "answer": 0,
+   "explanation": "Giá trị đại diện 1; 3; 5. $\\bar x=\\dfrac{3+15+10}{10}=2{,}8$. $s^2=\\dfrac{3\\cdot1+5\\cdot9+2\\cdot25}{10}-2{,}8^2=9{,}8-7{,}84=1{,}96$ ⇒ $s=1{,}4$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – thể tích",
+   "level": 2,
+   "stem": "Thể tích khối chóp tứ giác đều có cạnh đáy bằng $a$ và cạnh bên bằng $a\\sqrt2$ là",
+   "options": [
+    "$\\dfrac{a^3\\sqrt6}{2}$",
+    "$\\dfrac{a^3\\sqrt2}{6}$",
+    "$\\dfrac{a^3\\sqrt6}{6}$",
+    "$\\dfrac{a^3\\sqrt3}{3}$"
+   ],
+   "answer": 2,
+   "explanation": "Nửa đường chéo đáy $\\dfrac{a\\sqrt2}2$; chiều cao $h=\\sqrt{2a^2-\\dfrac{a^2}2}=\\dfrac{a\\sqrt6}2$. $V=\\dfrac13a^2\\cdot\\dfrac{a\\sqrt6}2=\\dfrac{a^3\\sqrt6}6$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – tham số",
+   "level": 3,
+   "stem": "Có bao nhiêu giá trị nguyên của tham số $m$ để phương trình $9^x-2\\cdot3^{x+1}+m=0$ có hai nghiệm thực phân biệt?",
+   "options": [
+    "9",
+    "8",
+    "7",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "Đặt $u=3^x>0$: $u^2-6u+m=0$ cần hai nghiệm dương phân biệt ⇔ $\\Delta'=9-m>0$, $S=6>0$, $P=m>0$ ⇔ $0<m<9$. Có 8 giá trị nguyên."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đạo hàm – tiếp tuyến",
+   "level": 2,
+   "stem": "Cho hàm số $y=x^3-3x^2+2$ có đồ thị $(C)$. Số tiếp tuyến của $(C)$ song song với đường thẳng $y=9x+1$ là",
+   "options": [
+    "1",
+    "3",
+    "0",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "$y'=3x^2-6x=9\\Leftrightarrow x=-1$ hoặc $x=3$. Hai tiếp tuyến $y=9x+7$ và $y=9x-25$ đều khác $y=9x+1$, nên có 2 tiếp tuyến."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số – bậc bốn",
+   "level": 1,
+   "stem": "Cho hàm số $f(x)=x^4-2x^2-3$.",
+   "statements": [
+    {
+     "t": "Hàm số có ba điểm cực trị.",
+     "a": true
+    },
+    {
+     "t": "Giá trị cực tiểu của hàm số bằng $-3$.",
+     "a": false
+    },
+    {
+     "t": "Đồ thị hàm số nhận trục $Oy$ làm trục đối xứng.",
+     "a": true
+    },
+    {
+     "t": "Phương trình $f(x)=m$ có bốn nghiệm thực phân biệt khi và chỉ khi $-4\\le m\\le -3$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $f'(x)=4x(x^2-1)$ đổi dấu tại $x=0;\\pm1$. b) Sai: $f_{CT}=f(\\pm1)=-4$; $-3$ là giá trị cực đại. c) Đúng: hàm chẵn. d) Sai: cần $-4<m<-3$ (tại $m=-4$ có 2 nghiệm, $m=-3$ có 3 nghiệm)."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Oxyz – đường thẳng và mặt phẳng",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, cho đường thẳng $d:\\begin{cases}x=1+t\\\\y=2-t\\\\z=2t\\end{cases}$ và mặt phẳng $(P):x+y+z-6=0$.",
+   "statements": [
+    {
+     "t": "Đường thẳng $d$ đi qua điểm $M(1;2;0)$.",
+     "a": true
+    },
+    {
+     "t": "Một vectơ chỉ phương của $d$ là $\\vec u=(1;-1;2)$.",
+     "a": true
+    },
+    {
+     "t": "Đường thẳng $d$ song song với mặt phẳng $(P)$.",
+     "a": false
+    },
+    {
+     "t": "Gọi $\\alpha$ là góc giữa $d$ và $(P)$, khi đó $\\sin\\alpha=\\dfrac{\\sqrt2}{3}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng ($t=0$). b) Đúng. c) Sai: $\\vec u\\cdot\\vec n=1-1+2=2\\ne0$ nên $d$ cắt $(P)$ (tại $t=\\tfrac32$, điểm $(\\tfrac52;\\tfrac12;3)$). d) Đúng: $\\sin\\alpha=\\dfrac{|2|}{\\sqrt6\\cdot\\sqrt3}=\\dfrac{2}{3\\sqrt2}=\\dfrac{\\sqrt2}3$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Xác suất – biến cố độc lập",
+   "level": 2,
+   "stem": "Một xạ thủ bắn 3 viên đạn vào bia một cách độc lập, xác suất trúng bia của mỗi viên là $0{,}8$.",
+   "statements": [
+    {
+     "t": "Xác suất cả ba viên đều trúng bia là $0{,}512$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất không viên nào trúng bia là $0{,}08$.",
+     "a": false
+    },
+    {
+     "t": "Xác suất có đúng hai viên trúng bia là $0{,}128$.",
+     "a": false
+    },
+    {
+     "t": "Xác suất có ít nhất hai viên trúng bia là $0{,}896$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: $0{,}8^3=0{,}512$. b) Sai: $0{,}2^3=0{,}008$. c) Sai: $C_3^2\\cdot0{,}8^2\\cdot0{,}2=0{,}384$. d) Đúng: $0{,}384+0{,}512=0{,}896$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số mũ – mô hình tăng trưởng",
+   "level": 3,
+   "stem": "Số lượng vi khuẩn trong một môi trường nuôi cấy sau $t$ giờ được mô hình hóa bởi $N(t)=500\\,e^{0{,}2t}$ (con), $t\\ge0$.",
+   "statements": [
+    {
+     "t": "Ban đầu có 500 con vi khuẩn.",
+     "a": true
+    },
+    {
+     "t": "Sau 10 giờ, số vi khuẩn vượt quá 4000 con.",
+     "a": false
+    },
+    {
+     "t": "Thời gian để số vi khuẩn tăng gấp đôi là khoảng 5 giờ.",
+     "a": false
+    },
+    {
+     "t": "Tại thời điểm $t=0$, tốc độ tăng của số vi khuẩn là 100 con/giờ.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $N(10)=500e^2\\approx3694$. c) Sai: $e^{0{,}2t}=2\\Leftrightarrow t=5\\ln2\\approx3{,}47$ giờ. d) Đúng: $N'(t)=100e^{0{,}2t}$, $N'(0)=100$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Nhị thức Newton",
+   "level": 1,
+   "stem": "Tìm hệ số của $x^4$ trong khai triển $(2x-1)^6$.",
+   "answer_text": "240",
+   "explanation": "Số hạng chứa $x^4$: $C_6^4(2x)^4(-1)^2=15\\cdot16x^4=240x^4$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Hình học không gian – khoảng cách",
+   "level": 2,
+   "stem": "Cho tứ diện $SABC$ có $SA,SB,SC$ đôi một vuông góc, $SA=1$, $SB=2$, $SC=3$. Tính khoảng cách từ $S$ đến mặt phẳng $(ABC)$ (làm tròn đến hàng phần trăm).",
+   "answer_text": "0,86",
+   "explanation": "$\\dfrac1{d^2}=\\dfrac1{SA^2}+\\dfrac1{SB^2}+\\dfrac1{SC^2}=1+\\dfrac14+\\dfrac19=\\dfrac{49}{36}$ ⇒ $d=\\dfrac67\\approx0{,}86$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Đạo hàm – chuyển động",
+   "level": 3,
+   "stem": "Một chất điểm chuyển động thẳng có phương trình $s(t)=t^3-6t^2+9t+1$ ($s$ tính bằng mét, $t$ tính bằng giây). Tính tổng quãng đường chất điểm đi được trong 4 giây đầu tiên (đơn vị: mét).",
+   "answer_text": "12",
+   "explanation": "$v=3t^2-12t+9=3(t-1)(t-3)$ đổi dấu tại $t=1$, $t=3$. $s(0)=1$, $s(1)=5$, $s(3)=1$, $s(4)=5$. Quãng đường $=4+4+4=12$ m."
+  },
+  {
+   "qtype": "short",
+   "topic": "Xác suất cổ điển",
+   "level": 3,
+   "stem": "Chia ngẫu nhiên 6 bạn, trong đó có An và Bình, thành hai nhóm, mỗi nhóm 3 bạn. Tính xác suất để An và Bình ở cùng một nhóm.",
+   "answer_text": "0,4",
+   "explanation": "Số cách chia: $\\dfrac{C_6^3}{2}=10$. An và Bình cùng nhóm: chọn thêm 1 bạn trong 4 bạn còn lại ⇒ 4 cách. $P=\\dfrac4{10}=0{,}4$."
+  }
+ ],
+ "self_check": "Bộ luyện 18 câu (10 mcq, 4 tf, 4 short), không trùng hai đề; mọi đáp án kiểm bằng Python/SymPy/NumPy (giới hạn, đạo hàm, tích phân, độ lệch chuẩn ghép nhóm, thể tích, đếm nghiệm thực phân biệt bằng real_roots, xác suất nhị thức, liệt kê cách chia nhóm); đã chạy dgnl-check."
+}

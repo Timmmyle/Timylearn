@@ -1,0 +1,294 @@
+{
+ "exam": "spt",
+ "part": "hoa",
+ "set": "luyen",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Ester – ứng dụng",
+   "level": 1,
+   "stem": "Isoamyl acetate là ester được dùng làm hương liệu thực phẩm, có mùi đặc trưng của",
+   "options": [
+    "hoa nhài",
+    "chuối chín",
+    "táo",
+    "dứa"
+   ],
+   "answer": 1,
+   "explanation": "Isoamyl acetate CH₃COOCH₂CH₂CH(CH₃)₂ có mùi chuối chín; benzyl acetate có mùi hoa nhài; ethyl butyrate có mùi dứa."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xà phòng và chất giặt rửa",
+   "level": 2,
+   "stem": "Ưu điểm của chất giặt rửa tổng hợp (như sodium dodecylbenzenesulfonate) so với xà phòng là",
+   "options": [
+    "vẫn giặt rửa tốt trong nước cứng",
+    "được sản xuất từ chất béo",
+    "dễ bị vi sinh vật phân hủy hơn",
+    "không tan trong nước"
+   ],
+   "answer": 0,
+   "explanation": "Muối calcium, magnesium của acid béo kết tủa trong nước cứng làm xà phòng mất tác dụng; muối của alkylbenzenesulfonic acid tan được nên chất giặt rửa tổng hợp vẫn dùng được trong nước cứng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Carbohydrate – phân biệt",
+   "level": 2,
+   "stem": "Thuốc thử dùng để phân biệt dung dịch glucose và dung dịch fructose là",
+   "options": [
+    "Cu(OH)₂ trong môi trường kiềm",
+    "dung dịch AgNO₃ trong NH₃",
+    "quỳ tím",
+    "nước bromine"
+   ],
+   "answer": 3,
+   "explanation": "Glucose có nhóm –CHO làm mất màu nước bromine, fructose thì không. Hai chất đều phản ứng với Cu(OH)₂ và đều tráng bạc (trong môi trường kiềm); cả hai không đổi màu quỳ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Amine – aniline",
+   "level": 2,
+   "stem": "Nhỏ nước bromine vào dung dịch aniline, hiện tượng quan sát được là",
+   "options": [
+    "xuất hiện kết tủa vàng",
+    "dung dịch chuyển sang màu tím",
+    "xuất hiện kết tủa trắng",
+    "có khí không màu thoát ra"
+   ],
+   "answer": 2,
+   "explanation": "Aniline phản ứng thế với bromine ở vị trí 2, 4, 6 tạo 2,4,6-tribromoaniline kết tủa trắng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Polymer",
+   "level": 1,
+   "stem": "Poly(vinyl chloride) (PVC) được điều chế bằng phản ứng trùng hợp monomer nào sau đây?",
+   "options": [
+    "CH₂=CH₂",
+    "CH₂=CH–CH₃",
+    "CH₂=CHCl",
+    "CH₂=CH–C₆H₅"
+   ],
+   "answer": 2,
+   "explanation": "$n$CH₂=CHCl → (–CH₂–CHCl–)n (PVC)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hợp kim",
+   "level": 2,
+   "stem": "Duralumin là hợp kim nhẹ, bền, được dùng trong công nghiệp hàng không. Thành phần chính của duralumin là",
+   "options": [
+    "Al",
+    "Fe",
+    "Cu",
+    "Zn"
+   ],
+   "answer": 0,
+   "explanation": "Duralumin là hợp kim của nhôm (khoảng 95% Al) với Cu, Mg, Mn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Dãy điện hóa – kim loại dư",
+   "level": 3,
+   "stem": "Cho bột Fe dư vào dung dịch AgNO₃. Sau khi phản ứng xảy ra hoàn toàn, dung dịch thu được chứa chất tan là",
+   "options": [
+    "Fe(NO₃)₂",
+    "Fe(NO₃)₃",
+    "Fe(NO₃)₂ và AgNO₃",
+    "Fe(NO₃)₃ và AgNO₃"
+   ],
+   "answer": 0,
+   "explanation": "Fe + 2Ag⁺ → Fe²⁺ + 2Ag. Nếu có Fe³⁺ sinh ra (từ Fe²⁺ + Ag⁺) thì Fe dư sẽ khử về Fe²⁺: Fe + 2Fe³⁺ → 3Fe²⁺. Vậy dung dịch chỉ chứa Fe(NO₃)₂."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kim loại nhóm IA",
+   "level": 1,
+   "stem": "Kim loại nào sau đây tác dụng mạnh với nước ở nhiệt độ thường?",
+   "options": [
+    "Fe",
+    "Cu",
+    "Ag",
+    "K"
+   ],
+   "answer": 3,
+   "explanation": "Kim loại kiềm như K phản ứng mạnh với nước: 2K + 2H₂O → 2KOH + H₂."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hợp chất nhóm IA – tính toán",
+   "level": 3,
+   "stem": "Hấp thụ hoàn toàn 0,15 mol CO₂ vào dung dịch chứa 0,2 mol NaOH. Dung dịch thu được chứa các muối",
+   "options": [
+    "0,1 mol Na₂CO₃ và 0,05 mol NaHCO₃",
+    "0,05 mol Na₂CO₃ và 0,1 mol NaHCO₃",
+    "0,15 mol Na₂CO₃",
+    "0,15 mol NaHCO₃"
+   ],
+   "answer": 1,
+   "explanation": "Tỉ lệ $n_{\\mathrm{OH^-}} : n_{\\mathrm{CO_2}} = 1{,}33$ nằm giữa 1 và 2 → tạo hai muối. Bảo toàn C: $a + b = 0{,}15$; bảo toàn Na: $2a + b = 0{,}2$ → $a = 0{,}05$ (Na₂CO₃), $b = 0{,}1$ (NaHCO₃)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hợp chất hữu cơ – nhiệt độ sôi",
+   "level": 2,
+   "stem": "Chất nào sau đây có nhiệt độ sôi cao nhất?",
+   "options": [
+    "C₂H₅OH",
+    "CH₃COOH",
+    "CH₃CHO",
+    "C₂H₆"
+   ],
+   "answer": 1,
+   "explanation": "Acetic acid tạo liên kết hydrogen liên phân tử bền hơn alcohol (có thể tạo dimer), nên có nhiệt độ sôi cao nhất (118 °C)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Bảng tuần hoàn",
+   "level": 2,
+   "stem": "Nguyên tử X có cấu hình electron lớp ngoài cùng là $3s^2 3p^4$. Vị trí của X trong bảng tuần hoàn là",
+   "options": [
+    "chu kì 3, nhóm IVA",
+    "chu kì 4, nhóm VIA",
+    "chu kì 3, nhóm IVB",
+    "chu kì 3, nhóm VIA"
+   ],
+   "answer": 3,
+   "explanation": "Có 3 lớp electron → chu kì 3; 6 electron lớp ngoài cùng thuộc phân lớp s, p → nhóm VIA (X là S)."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Kim loại chuyển tiếp – đồng",
+   "level": 2,
+   "stem": "Xét các phát biểu sau về đồng (Cu, Z = 29) và hợp chất của đồng.",
+   "statements": [
+    {
+     "t": "Cấu hình electron của nguyên tử Cu là $[\\mathrm{Ar}]3d^{10}4s^1$.",
+     "a": true
+    },
+    {
+     "t": "Cu tan trong dung dịch HCl loãng, giải phóng khí H₂.",
+     "a": false
+    },
+    {
+     "t": "Nhỏ từ từ đến dư dung dịch NH₃ vào dung dịch CuSO₄, ban đầu có kết tủa xanh, sau đó kết tủa tan tạo dung dịch màu xanh lam thẫm.",
+     "a": true
+    },
+    {
+     "t": "Trong các hợp chất, đồng chỉ có số oxi hóa +2.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng (cấu hình bán bão hòa/bão hòa bền). b) Sai: $E^\\circ_{\\mathrm{Cu^{2+}/Cu}} > 0$, Cu không khử được H⁺. c) Đúng: tạo Cu(OH)₂ rồi tan tạo phức [Cu(NH₃)₄]²⁺. d) Sai: đồng còn có số oxi hóa +1 (ví dụ Cu₂O)."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Protein",
+   "level": 2,
+   "stem": "Xét các phát biểu sau về peptide và protein.",
+   "statements": [
+    {
+     "t": "Thủy phân hoàn toàn protein đơn giản thu được các α-amino acid.",
+     "a": true
+    },
+    {
+     "t": "Đun nóng dung dịch lòng trắng trứng, protein bị đông tụ.",
+     "a": true
+    },
+    {
+     "t": "Liên kết peptide là liên kết –CO–NH– giữa hai đơn vị β-amino acid.",
+     "a": false
+    },
+    {
+     "t": "Mọi protein đều tan tốt trong nước tạo dung dịch keo.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: nhiệt làm biến tính, đông tụ protein. c) Sai: liên kết peptide hình thành giữa hai đơn vị α-amino acid. d) Sai: protein dạng sợi (keratin, collagen…) không tan trong nước."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Sản xuất gang",
+   "level": 3,
+   "stem": "Trong lò cao, quặng hematite (chứa Fe₂O₃), than cốc và đá vôi được nạp từ trên xuống; không khí nóng được thổi từ dưới lên.",
+   "statements": [
+    {
+     "t": "Than cốc vừa cung cấp nhiệt, vừa tạo ra chất khử CO.",
+     "a": true
+    },
+    {
+     "t": "Đá vôi bị nhiệt phân tạo CaO, CaO kết hợp với SiO₂ tạo xỉ CaSiO₃.",
+     "a": true
+    },
+    {
+     "t": "Gang là hợp kim của sắt với carbon, trong đó carbon chiếm từ 2% đến 5% về khối lượng.",
+     "a": true
+    },
+    {
+     "t": "Trong lò cao, Fe₂O₃ bị oxi hóa thành Fe.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: C + O₂ → CO₂; CO₂ + C → 2CO. b) Đúng. c) Đúng theo SGK. d) Sai: Fe₂O₃ bị khử (số oxi hóa Fe giảm từ +3 về 0)."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Cân bằng trong dung dịch",
+   "level": 3,
+   "stem": "Cho các dung dịch có cùng nồng độ 0,01 M ở 25 °C: HCl, NaOH, CH₃COOH, NH₄Cl.",
+   "statements": [
+    {
+     "t": "Dung dịch HCl 0,01 M có pH = 2.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch CH₃COOH 0,01 M có pH = 2.",
+     "a": false
+    },
+    {
+     "t": "Dung dịch NaOH 0,01 M có pH = 12.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch NH₄Cl có pH > 7.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $[\\mathrm{H^+}] = 10^{-2}$. b) Sai: acetic acid là acid yếu, phân li một phần nên pH > 2. c) Đúng: $[\\mathrm{OH^-}] = 10^{-2}$ → pOH = 2 → pH = 12. d) Sai: NH₄⁺ là acid Brønsted nên dung dịch có pH < 7."
+  },
+  {
+   "qtype": "short",
+   "topic": "Ester – đồng phân",
+   "level": 2,
+   "stem": "Có bao nhiêu ester là đồng phân cấu tạo có cùng công thức phân tử C₄H₈O₂?",
+   "answer_text": "4",
+   "explanation": "HCOOCH₂CH₂CH₃, HCOOCH(CH₃)₂, CH₃COOC₂H₅, C₂H₅COOCH₃ → 4 ester."
+  },
+  {
+   "qtype": "short",
+   "topic": "Amine – tính toán",
+   "level": 3,
+   "stem": "Cho 9,3 gam aniline tác dụng với lượng dư nước bromine. Biết phản ứng xảy ra hoàn toàn, Br = 80. Khối lượng kết tủa thu được là bao nhiêu gam?",
+   "answer_text": "33",
+   "explanation": "$n_{\\text{aniline}} = 9{,}3 : 93 = 0{,}1$ mol → 0,1 mol C₆H₂Br₃NH₂ (M = 330) → $m = 33$ gam."
+  },
+  {
+   "qtype": "short",
+   "topic": "pH",
+   "level": 1,
+   "stem": "Ở 25 °C, dung dịch NaOH 0,001 M có pH bằng bao nhiêu?",
+   "answer_text": "11",
+   "explanation": "$[\\mathrm{OH^-}] = 10^{-3}$ M → pOH = 3 → pH = 14 − 3 = 11."
+  },
+  {
+   "qtype": "short",
+   "topic": "Điện phân – thời gian",
+   "level": 3,
+   "stem": "Điện phân dung dịch AgNO₃ (dư) với điện cực trơ, cường độ dòng điện 2 A. Biết $F = 96\\,485$ C/mol, hiệu suất 100%. Để thu được 10,8 gam Ag ở cathode thì cần thời gian điện phân là bao nhiêu giây? (Làm tròn đến hàng đơn vị.)",
+   "answer_text": "4824",
+   "explanation": "$n_{\\mathrm{Ag}} = 0{,}1$ mol = $n_e$ → $t = \\dfrac{n_e F}{I} = \\dfrac{0{,}1 \\cdot 96\\,485}{2} = 4824{,}25 \\approx 4824$ s."
+  }
+ ],
+ "self_check": "Kiểm bằng Python: muối khi hấp thụ CO2 vào NaOH; M của 2,4,6-tribromoaniline và khối lượng kết tủa; pH NaOH 0,001 M; thời gian điện phân AgNO3. Liệt kê đủ 4 ester C4H8O2. Không trùng câu với de1, de2."
+}

@@ -3,6 +3,7 @@ export type Question = {
   id: string; s: string; t: string; l: number; q: string; o: string[]; a: number; e: string; ai?: boolean;
   /** ảnh đề bài / ảnh lời giải (đường dẫn trong bucket question-images) */ img?: string; imgA?: string;
   /** câu lấy từ kho đề Supabase */ remote?: boolean; setId?: string;
+  /** phần thi (đề ĐGNL) */ sec?: string; /** đoạn văn / dữ kiện chung đặt trên câu hỏi */ ctx?: string;
   /** câu tự sinh từ dạng bài có tham số (id g:dạng:seed) */ gen?: boolean;
   /** khóa chủ đề Vượt Ải "Môn|Chủ đề" (đề ôn soạn sẵn) */ tk?: string;
   /** dạng câu (mặc định mcq): tf = Đúng/Sai 4 ý, short = trả lời ngắn */ qt?: QType;
@@ -58,6 +59,7 @@ export type QuizSession = {
   botLv?: number; me?: number; bot?: number; botPlan?: { ok: boolean; t: number }[];
   botRes?: { ok: boolean; t: number }[]; myRes?: { ok: boolean; pts: number }[]; reveal?: boolean; qStart?: number;
   delta?: number; res?: number; durationMin?: number; keepOrder?: boolean;
+  /** đề ĐGNL: thang điểm quy đổi (1200, 150, 100) */ scale?: number;
 };
 export type WriteSession = {
   kind: "write"; p: WritePassage; qi: number; answer: string; busy: boolean; err?: string; recorded?: boolean;

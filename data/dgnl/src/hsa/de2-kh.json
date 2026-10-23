@@ -1,0 +1,697 @@
+{
+ "exam": "hsa",
+ "part": "kh",
+ "set": "de2",
+ "passages": {
+  "p1": "Để xác định suất điện động $E$ và điện trở trong $r$ của một nguồn điện, học sinh mắc nguồn với một biến trở, một ampe kế và một vôn kế (vôn kế đo hiệu điện thế giữa hai cực của nguồn). Thay đổi giá trị biến trở, các em thu được (bỏ qua sai số dụng cụ):\n| $I$ (A) | 0,2 | 0,4 | 0,6 | 0,8 |\n| $U$ (V) | 2,8 | 2,6 | 2,4 | 2,2 |\nBiết hiệu điện thế giữa hai cực của nguồn là $U = E - Ir$.",
+  "p2": "Để khảo sát các yếu tố ảnh hưởng đến tốc độ phản ứng giữa đá vôi ($\\mathrm{CaCO_3}$) và dung dịch $\\mathrm{HCl}$, học sinh tiến hành 4 thí nghiệm với cùng khối lượng đá vôi và cùng thể tích dung dịch acid, đo thời gian thu được 50 mL khí $\\mathrm{CO_2}$ (số liệu giả định):\n| Thí nghiệm | Dạng đá vôi | Nồng độ HCl | Nhiệt độ | Thời gian (s) |\n| TN1 | viên | 1 M | 25 °C | 120 |\n| TN2 | bột | 1 M | 25 °C | 40 |\n| TN3 | viên | 2 M | 25 °C | 70 |\n| TN4 | viên | 1 M | 45 °C | 60 |",
+  "p3": "Một nhà khoa học lai cây đậu hoa đỏ thuần chủng với cây đậu hoa trắng thuần chủng, thu được F1 toàn cây hoa đỏ. Cho F1 tự thụ phấn, ở F2 thu được 705 cây hoa đỏ và 224 cây hoa trắng. Biết tính trạng màu hoa do một gene có hai allele quy định.",
+  "p4": "Đầu năm 1954, thực hiện kế hoạch Nava, thực dân Pháp (với sự giúp sức của Mĩ) xây dựng Điện Biên Phủ thành tập đoàn cứ điểm mạnh nhất Đông Dương, gồm 49 cứ điểm, chia thành ba phân khu: Bắc, Trung tâm và Nam, với khoảng 16 200 quân. Chiến dịch Điện Biên Phủ của quân đội ta diễn ra qua ba đợt tiến công:\n– Đợt 1 (từ ngày 13 đến 17/3/1954): tiêu diệt cụm cứ điểm Him Lam và toàn bộ phân khu Bắc.\n– Đợt 2 (từ ngày 30/3 đến 26/4/1954): tiến công các cứ điểm phía đông phân khu Trung tâm, trong đó có đồi A1, siết chặt vòng vây.\n– Đợt 3 (từ ngày 1 đến 7/5/1954): tổng công kích; chiều 7/5/1954, tướng Đờ Cát-xtơ-ri cùng toàn bộ Bộ chỉ huy tập đoàn cứ điểm bị bắt sống.",
+  "p5": "Cho bảng số liệu nhiệt độ trung bình tháng (°C) của hai địa điểm A và B ở nước ta (số liệu giả định, làm tròn):\n| Tháng | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |\n| A | 16,5 | 17,2 | 19,9 | 23,6 | 27,2 | 28,8 | 29,0 | 28,6 | 27,4 | 24,9 | 21,6 | 18,2 |\n| B | 26,0 | 26,8 | 28,0 | 29,0 | 28,2 | 27,4 | 27,0 | 27,0 | 26,8 | 26,6 | 26,4 | 25,8 |\nLượng mưa trung bình tháng (mm) của địa điểm A lần lượt từ tháng 1 đến tháng 12: 19; 26; 44; 90; 188; 240; 288; 318; 265; 130; 43; 23."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – Dòng điện",
+   "level": 1,
+   "stem": "Từ bảng số liệu, khi cường độ dòng điện qua nguồn tăng thì hiệu điện thế giữa hai cực của nguồn",
+   "options": [
+    "tăng theo hàm bậc nhất của $I$",
+    "giảm theo hàm bậc nhất của $I$",
+    "không đổi",
+    "giảm tỉ lệ nghịch với $I$"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi khi $I$ tăng 0,2 A thì $U$ giảm đều 0,2 V: $U$ là hàm bậc nhất nghịch biến của $I$, đúng với $U = E - Ir$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – Dòng điện",
+   "level": 3,
+   "stem": "Suất điện động $E$ của nguồn bằng bao nhiêu vôn?",
+   "answer_text": "3",
+   "explanation": "Từ $U = E - Ir$: hai cặp số $(0{,}2;\\ 2{,}8)$ và $(0{,}8;\\ 2{,}2)$ cho $r = \\dfrac{2{,}8-2{,}2}{0{,}8-0{,}2} = 1\\ \\Omega$, $E = 2{,}8 + 0{,}2\\cdot 1 = 3$ V."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – Dòng điện",
+   "level": 2,
+   "stem": "Điện trở trong $r$ của nguồn là",
+   "options": [
+    "$0{,}5\\ \\Omega$",
+    "$2\\ \\Omega$",
+    "$14\\ \\Omega$",
+    "$1\\ \\Omega$"
+   ],
+   "answer": 3,
+   "explanation": "$r = -\\dfrac{\\Delta U}{\\Delta I} = \\dfrac{0{,}2}{0{,}2} = 1\\ \\Omega$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – Dòng điện",
+   "level": 3,
+   "stem": "Nếu nối tắt hai cực của nguồn bằng một dây dẫn có điện trở không đáng kể thì cường độ dòng điện qua nguồn là",
+   "options": [
+    "3 A",
+    "1 A",
+    "1,5 A",
+    "vô cùng lớn"
+   ],
+   "answer": 0,
+   "explanation": "Đoản mạch: $I = E/r = 3/1 = 3$ A (điện trở trong giới hạn dòng điện)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Động học",
+   "level": 1,
+   "stem": "Thả rơi tự do một vật từ độ cao 20 m so với mặt đất, lấy $g = 10\\ \\mathrm{m/s^2}$. Thời gian vật rơi đến đất là",
+   "options": [
+    "4 s",
+    "1 s",
+    "2 s",
+    "$\\sqrt{2}$ s"
+   ],
+   "answer": 2,
+   "explanation": "$h = \\dfrac{1}{2}gt^2 \\Rightarrow t = \\sqrt{2h/g} = \\sqrt{4} = 2$ s."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Năng lượng",
+   "level": 1,
+   "stem": "Một ô tô khối lượng 1 000 kg chuyển động với tốc độ 20 m/s. Động năng của ô tô là",
+   "options": [
+    "20 kJ",
+    "400 kJ",
+    "10 kJ",
+    "200 kJ"
+   ],
+   "answer": 3,
+   "explanation": "$W_đ = \\dfrac{1}{2}mv^2 = \\dfrac{1}{2}\\cdot 1000\\cdot 20^2 = 200\\,000$ J $= 200$ kJ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Dao động",
+   "level": 2,
+   "stem": "Một vật dao động điều hòa với phương trình $x = 5\\cos(4\\pi t)$ (cm; s). Tốc độ cực đại của vật là",
+   "options": [
+    "$5\\pi$ cm/s",
+    "$4\\pi$ cm/s",
+    "$20\\pi$ cm/s",
+    "$10\\pi$ cm/s"
+   ],
+   "answer": 2,
+   "explanation": "$v_{max} = \\omega A = 4\\pi\\cdot 5 = 20\\pi$ cm/s."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Nhiệt học",
+   "level": 2,
+   "stem": "Nhiệt lượng cần cung cấp để làm nóng chảy hoàn toàn 0,5 kg nước đá ở $0^\\circ\\mathrm{C}$ là bao nhiêu? Biết nhiệt nóng chảy riêng của nước đá là $3{,}34\\cdot 10^5$ J/kg.",
+   "options": [
+    "$6{,}68\\cdot 10^5$ J",
+    "$1{,}67\\cdot 10^5$ J",
+    "$3{,}34\\cdot 10^5$ J",
+    "$1{,}67\\cdot 10^4$ J"
+   ],
+   "answer": 1,
+   "explanation": "$Q = \\lambda m = 3{,}34\\cdot 10^5\\cdot 0{,}5 = 1{,}67\\cdot 10^5$ J."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Sóng điện từ",
+   "level": 2,
+   "stem": "Một đài phát thanh FM phát sóng điện từ có tần số 100 MHz. Lấy tốc độ ánh sáng trong không khí $c = 3\\cdot 10^8$ m/s. Bước sóng của sóng này là",
+   "options": [
+    "3 m",
+    "0,3 m",
+    "30 m",
+    "300 m"
+   ],
+   "answer": 0,
+   "explanation": "$\\lambda = c/f = 3\\cdot 10^8/10^8 = 3$ m."
+  },
+  {
+   "qtype": "short",
+   "topic": "Vật lí – Cảm ứng điện từ",
+   "level": 3,
+   "stem": "Từ thông qua một khung dây giảm đều từ 0,05 Wb về 0 trong thời gian 0,02 s. Độ lớn suất điện động cảm ứng xuất hiện trong khung là bao nhiêu vôn?",
+   "answer_text": "2,5",
+   "explanation": "$|e| = \\left|\\dfrac{\\Delta\\Phi}{\\Delta t}\\right| = \\dfrac{0{,}05}{0{,}02} = 2{,}5$ V."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – Tốc độ phản ứng",
+   "level": 1,
+   "stem": "So sánh TN1 và TN2 cho phép rút ra kết luận về ảnh hưởng của yếu tố nào đến tốc độ phản ứng?",
+   "options": [
+    "Diện tích bề mặt tiếp xúc",
+    "Nồng độ",
+    "Nhiệt độ",
+    "Chất xúc tác"
+   ],
+   "answer": 0,
+   "explanation": "TN1 và TN2 chỉ khác nhau ở dạng đá vôi (viên/bột), tức là diện tích bề mặt tiếp xúc."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – Tốc độ phản ứng",
+   "level": 3,
+   "stem": "Kết luận nào sau đây phù hợp với số liệu thí nghiệm?",
+   "options": [
+    "Tăng nhiệt độ làm phản ứng chậm đi",
+    "Tăng nồng độ, nhiệt độ hoặc diện tích tiếp xúc đều làm phản ứng xảy ra nhanh hơn",
+    "Nồng độ acid không ảnh hưởng đến tốc độ phản ứng",
+    "Đá vôi dạng viên phản ứng nhanh hơn dạng bột"
+   ],
+   "answer": 1,
+   "explanation": "So với TN1 (120 s), các thí nghiệm dùng bột (40 s), acid 2 M (70 s), 45 °C (60 s) đều cần ít thời gian hơn ⇒ tốc độ lớn hơn."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – Tính theo PTHH",
+   "level": 2,
+   "stem": "Cho 5 g $\\mathrm{CaCO_3}$ tác dụng hết với dung dịch $\\mathrm{HCl}$ dư. Khối lượng khí $\\mathrm{CO_2}$ sinh ra là bao nhiêu gam? (Cho Ca = 40, C = 12, O = 16)",
+   "answer_text": "2,2",
+   "explanation": "$\\mathrm{CaCO_3 + 2HCl \\rightarrow CaCl_2 + CO_2 + H_2O}$. $n_{\\mathrm{CO_2}} = n_{\\mathrm{CaCO_3}} = 5/100 = 0{,}05$ mol; $m = 0{,}05\\cdot 44 = 2{,}2$ g."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – Tốc độ phản ứng",
+   "level": 3,
+   "stem": "Phương trình ion thu gọn của phản ứng trong các thí nghiệm là",
+   "options": [
+    "$\\mathrm{CO_3^{2-} + 2H^+ \\rightarrow CO_2 + H_2O}$",
+    "$\\mathrm{Ca^{2+} + 2Cl^- \\rightarrow CaCl_2}$",
+    "$\\mathrm{CaCO_3 + 2H^+ \\rightarrow Ca^{2+} + CO_2 + H_2O}$",
+    "$\\mathrm{CaCO_3 \\rightarrow CaO + CO_2}$"
+   ],
+   "answer": 2,
+   "explanation": "$\\mathrm{CaCO_3}$ là chất rắn không tan nên giữ nguyên dạng phân tử; $\\mathrm{HCl}$ phân li hoàn toàn, ion $\\mathrm{Cl^-}$ không tham gia phản ứng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Cấu tạo nguyên tử",
+   "level": 1,
+   "stem": "Nguyên tử sodium ($Z = 11$) có cấu hình electron $1s^2 2s^2 2p^6 3s^1$. Vị trí của sodium trong bảng tuần hoàn là",
+   "options": [
+    "chu kì 1, nhóm IIIA",
+    "chu kì 3, nhóm IIIA",
+    "chu kì 4, nhóm IA",
+    "chu kì 3, nhóm IA"
+   ],
+   "answer": 3,
+   "explanation": "Có 3 lớp electron ⇒ chu kì 3; 1 electron lớp ngoài cùng, nguyên tố s ⇒ nhóm IA."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Liên kết",
+   "level": 1,
+   "stem": "Liên kết trong phân tử (tinh thể) $\\mathrm{NaCl}$ là",
+   "options": [
+    "liên kết cộng hóa trị không cực",
+    "liên kết cộng hóa trị phân cực",
+    "liên kết ion",
+    "liên kết kim loại"
+   ],
+   "answer": 2,
+   "explanation": "$\\mathrm{Na}$ (kim loại điển hình) nhường electron cho $\\mathrm{Cl}$ (phi kim điển hình) tạo ion $\\mathrm{Na^+}$ và $\\mathrm{Cl^-}$ hút nhau bằng lực tĩnh điện."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Ăn mòn kim loại",
+   "level": 2,
+   "stem": "Để bảo vệ vỏ tàu biển bằng thép, người ta gắn các khối kẽm vào phần vỏ tàu ngâm trong nước biển. Phát biểu nào sau đây đúng?",
+   "options": [
+    "Kẽm có tính khử mạnh hơn sắt nên bị ăn mòn thay cho sắt",
+    "Kẽm có tính khử yếu hơn sắt nên được bảo vệ",
+    "Kẽm tạo lớp sơn phủ cách li thép với nước biển",
+    "Sắt đóng vai trò anode và bị ăn mòn chậm lại"
+   ],
+   "answer": 0,
+   "explanation": "Zn – Fe trong nước biển tạo pin điện hóa; Zn hoạt động mạnh hơn làm anode, bị oxi hóa (ăn mòn) thay cho Fe (phương pháp điện hóa)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Carbohydrate",
+   "level": 1,
+   "stem": "Nhỏ dung dịch iodine vào mặt cắt củ khoai lang thấy xuất hiện màu xanh tím. Chất trong củ khoai đã phản ứng với iodine là",
+   "options": [
+    "cellulose",
+    "glucose",
+    "saccharose",
+    "tinh bột"
+   ],
+   "answer": 3,
+   "explanation": "Tinh bột (amylose) tạo hợp chất màu xanh tím với iodine – đây là phản ứng nhận biết tinh bột."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Amine",
+   "level": 2,
+   "stem": "Dung dịch chất nào sau đây làm quỳ tím chuyển sang màu xanh?",
+   "options": [
+    "Aniline",
+    "Methylamine",
+    "Glycine",
+    "Acetic acid"
+   ],
+   "answer": 1,
+   "explanation": "Methylamine có tính base mạnh hơn ammonia, làm quỳ tím hóa xanh. Aniline có tính base rất yếu, không đổi màu quỳ; glycine gần trung tính; acetic acid làm quỳ hóa đỏ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Dung dịch",
+   "level": 2,
+   "stem": "Hòa tan 4 g $\\mathrm{NaOH}$ vào nước được 500 mL dung dịch. Nồng độ mol của dung dịch là (Cho Na = 23, O = 16, H = 1)",
+   "options": [
+    "0,1 M",
+    "0,2 M",
+    "0,8 M",
+    "2 M"
+   ],
+   "answer": 1,
+   "explanation": "$n = 4/40 = 0{,}1$ mol; $C_M = 0{,}1/0{,}5 = 0{,}2$ M."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Di truyền Mendel",
+   "level": 1,
+   "stem": "Tính trạng trội trong phép lai trên là",
+   "options": [
+    "hoa trắng",
+    "hoa hồng",
+    "không xác định được",
+    "hoa đỏ"
+   ],
+   "answer": 3,
+   "explanation": "P thuần chủng tương phản, F1 đồng loạt biểu hiện hoa đỏ ⇒ hoa đỏ là trội."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Di truyền Mendel",
+   "level": 2,
+   "stem": "Tỉ lệ kiểu hình ở F2 xấp xỉ",
+   "options": [
+    "3 hoa đỏ : 1 hoa trắng",
+    "1 hoa đỏ : 1 hoa trắng",
+    "9 hoa đỏ : 7 hoa trắng",
+    "1 hoa đỏ : 2 hoa hồng : 1 hoa trắng"
+   ],
+   "answer": 0,
+   "explanation": "$705 : 224 \\approx 3{,}15 : 1 \\approx 3 : 1$, đúng với F1 dị hợp $Aa$ tự thụ phấn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Di truyền Mendel",
+   "level": 3,
+   "stem": "Trong số các cây hoa đỏ ở F2, tỉ lệ cây thuần chủng (theo lí thuyết) là",
+   "options": [
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{2}{3}$",
+    "$\\dfrac{1}{3}$",
+    "$\\dfrac{3}{4}$"
+   ],
+   "answer": 2,
+   "explanation": "F2: $1AA : 2Aa : 1aa$. Trong các cây hoa đỏ ($AA + Aa$), cây thuần chủng $AA$ chiếm $1/3$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Di truyền Mendel",
+   "level": 2,
+   "stem": "Nếu lai phân tích cây F1 thì đời con có tỉ lệ kiểu hình là",
+   "options": [
+    "3 hoa đỏ : 1 hoa trắng",
+    "100% hoa đỏ",
+    "100% hoa trắng",
+    "1 hoa đỏ : 1 hoa trắng"
+   ],
+   "answer": 3,
+   "explanation": "Lai phân tích: $Aa \\times aa \\rightarrow 1Aa : 1aa$ ⇒ 1 đỏ : 1 trắng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Tế bào",
+   "level": 1,
+   "stem": "Bào quan thực hiện chức năng hô hấp tế bào, tạo phần lớn ATP cho tế bào nhân thực là",
+   "options": [
+    "lục lạp",
+    "ribosome",
+    "ti thể",
+    "bộ máy Golgi"
+   ],
+   "answer": 2,
+   "explanation": "Ti thể là nơi diễn ra chu trình Krebs và chuỗi truyền electron, tạo phần lớn ATP."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Phân bào",
+   "level": 1,
+   "stem": "Từ một tế bào ban đầu, sau 3 lần nguyên phân liên tiếp sẽ tạo ra bao nhiêu tế bào con?",
+   "options": [
+    "6",
+    "8",
+    "3",
+    "16"
+   ],
+   "answer": 1,
+   "explanation": "Mỗi lần nguyên phân số tế bào tăng gấp đôi: $2^3 = 8$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Enzyme",
+   "level": 3,
+   "stem": "Khi tăng nhiệt độ vượt quá nhiệt độ tối ưu của một enzyme, hoạt tính của enzyme thường giảm nhanh vì",
+   "options": [
+    "cấu trúc không gian của enzyme bị biến đổi (biến tính)",
+    "cơ chất bị phân hủy hết",
+    "enzyme được tổng hợp nhiều hơn",
+    "tốc độ chuyển động của phân tử giảm"
+   ],
+   "answer": 0,
+   "explanation": "Enzyme có bản chất protein; nhiệt độ quá cao phá vỡ các liên kết yếu, làm biến đổi trung tâm hoạt động nên enzyme mất hoạt tính."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Miễn dịch",
+   "level": 2,
+   "stem": "Tiêm vaccine giúp cơ thể phòng bệnh chủ yếu vì",
+   "options": [
+    "kích thích cơ thể tạo miễn dịch đặc hiệu (kháng thể, tế bào nhớ) chống mầm bệnh",
+    "vaccine trực tiếp tiêu diệt mầm bệnh trong máu",
+    "vaccine chứa kháng sinh diệt vi khuẩn",
+    "vaccine làm tăng số lượng hồng cầu"
+   ],
+   "answer": 0,
+   "explanation": "Vaccine chứa kháng nguyên đã làm yếu/bất hoạt; cơ thể đáp ứng tạo kháng thể và tế bào nhớ, khi gặp mầm bệnh thật sẽ đáp ứng nhanh và mạnh."
+  },
+  {
+   "qtype": "short",
+   "topic": "Sinh học – Di truyền quần thể",
+   "level": 3,
+   "stem": "Một quần thể thực vật đang ở trạng thái cân bằng di truyền, có 16% số cây mang kiểu gene $aa$. Tần số kiểu gene $Aa$ của quần thể là bao nhiêu? (Viết dưới dạng số thập phân.)",
+   "answer_text": "0,48",
+   "explanation": "$q^2 = 0{,}16 \\Rightarrow q = 0{,}4$, $p = 0{,}6$; tần số $Aa = 2pq = 2\\cdot 0{,}6\\cdot 0{,}4 = 0{,}48$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Sinh thái",
+   "level": 1,
+   "stem": "Trong chuỗi thức ăn: Cỏ → Châu chấu → Ếch → Rắn, sinh vật tiêu thụ bậc 2 là",
+   "options": [
+    "châu chấu",
+    "ếch",
+    "rắn",
+    "cỏ"
+   ],
+   "answer": 1,
+   "explanation": "Cỏ là sinh vật sản xuất, châu chấu là tiêu thụ bậc 1, ếch là tiêu thụ bậc 2, rắn là tiêu thụ bậc 3."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Lịch sử – Kháng chiến chống Pháp",
+   "level": 1,
+   "stem": "Theo tư liệu, chiến dịch Điện Biên Phủ diễn ra trong khoảng bao nhiêu ngày đêm?",
+   "options": [
+    "45 ngày đêm",
+    "30 ngày đêm",
+    "56 ngày đêm",
+    "60 ngày đêm"
+   ],
+   "answer": 2,
+   "explanation": "Từ 13/3 đến 7/5/1954: 19 ngày (tháng 3) + 30 ngày (tháng 4) + 7 ngày (tháng 5) = 56 ngày đêm."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Lịch sử – Kháng chiến chống Pháp",
+   "level": 3,
+   "stem": "Việc tiêu diệt Him Lam và phân khu Bắc trong đợt 1 có ý nghĩa quân sự nào?",
+   "options": [
+    "Buộc Pháp đầu hàng ngay toàn bộ tập đoàn cứ điểm",
+    "Tiêu diệt toàn bộ phân khu Nam",
+    "Kết thúc cuộc kháng chiến chống Pháp",
+    "Mở toang cánh cửa phía bắc, tạo điều kiện bao vây, tiến công phân khu Trung tâm"
+   ],
+   "answer": 3,
+   "explanation": "Him Lam và phân khu Bắc là “cửa ngõ” phía bắc; khi bị tiêu diệt, quân ta có điều kiện tiến sát, bao vây phân khu Trung tâm ở các đợt sau."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Kháng chiến chống Pháp",
+   "level": 2,
+   "stem": "Tập đoàn cứ điểm Điện Biên Phủ là khâu trung tâm của kế hoạch quân sự nào của Pháp?",
+   "options": [
+    "Kế hoạch Rơve",
+    "Kế hoạch Đờ Lát đơ Tátxinhi",
+    "Kế hoạch Nava",
+    "Kế hoạch Xtalây – Taylo"
+   ],
+   "answer": 2,
+   "explanation": "Như tư liệu nêu, Pháp xây dựng Điện Biên Phủ khi thực hiện kế hoạch Nava (1953–1954); Rơve (1949) và Đờ Lát đơ Tátxinhi (1950) là các kế hoạch trước đó; Xtalây – Taylo là kế hoạch của Mĩ ở miền Nam."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Kháng chiến chống Pháp",
+   "level": 3,
+   "stem": "Theo Hiệp định Giơnevơ (21/7/1954) – được kí kết sau thắng lợi Điện Biên Phủ – giới tuyến quân sự tạm thời ở Việt Nam là",
+   "options": [
+    "vĩ tuyến 17 (dọc sông Bến Hải)",
+    "vĩ tuyến 16",
+    "vĩ tuyến 38",
+    "sông Gianh (Quảng Bình)"
+   ],
+   "answer": 0,
+   "explanation": "Hiệp định Giơnevơ lấy vĩ tuyến 17 (sông Bến Hải – Quảng Trị) làm giới tuyến quân sự tạm thời, sẽ tổng tuyển cử thống nhất đất nước vào tháng 7/1956."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Kháng chiến chống Mĩ",
+   "level": 2,
+   "stem": "Phong trào “Đồng khởi” (1959–1960) ở miền Nam nổ ra tiêu biểu nhất ở tỉnh nào?",
+   "options": [
+    "Quảng Ngãi",
+    "Tây Ninh",
+    "Cà Mau",
+    "Bến Tre"
+   ],
+   "answer": 3,
+   "explanation": "Đồng khởi bùng nổ mạnh mẽ nhất ở Bến Tre, mở đầu từ huyện Mỏ Cày (17/1/1960), sau đó lan rộng khắp Nam Bộ và Tây Nguyên, Trung Trung Bộ."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Thế giới sau 1945",
+   "level": 1,
+   "stem": "Hội nghị Ianta (tháng 2/1945) có sự tham gia của nguyên thủ ba cường quốc nào?",
+   "options": [
+    "Liên Xô, Mĩ, Pháp",
+    "Liên Xô, Mĩ, Anh",
+    "Mĩ, Anh, Pháp",
+    "Liên Xô, Anh, Trung Quốc"
+   ],
+   "answer": 1,
+   "explanation": "Hội nghị Ianta gồm Xtalin (Liên Xô), Rudơven (Mĩ), Sớcsin (Anh); những quyết định của hội nghị hình thành khuôn khổ trật tự hai cực Ianta."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Thế giới sau 1945",
+   "level": 1,
+   "stem": "Liên bang Cộng hòa xã hội chủ nghĩa Xô viết (Liên Xô) tan rã vào năm",
+   "options": [
+    "1989",
+    "1991",
+    "1985",
+    "1995"
+   ],
+   "answer": 1,
+   "explanation": "Cuối tháng 12/1991, Liên Xô chính thức tan rã, chấm dứt trật tự hai cực Ianta."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Hội nhập",
+   "level": 2,
+   "stem": "Việt Nam chính thức trở thành thành viên thứ 150 của Tổ chức Thương mại thế giới (WTO) vào năm",
+   "options": [
+    "1995",
+    "2000",
+    "2015",
+    "2007"
+   ],
+   "answer": 3,
+   "explanation": "Ngày 11/1/2007, Việt Nam chính thức trở thành thành viên thứ 150 của WTO."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Hồ Chí Minh",
+   "level": 2,
+   "stem": "Sự kiện nào đánh dấu Nguyễn Ái Quốc tìm thấy con đường cứu nước đúng đắn cho dân tộc Việt Nam?",
+   "options": [
+    "Đọc Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin (7/1920)",
+    "Gửi Bản yêu sách của nhân dân An Nam tới Hội nghị Vécxai (6/1919)",
+    "Ra đi tìm đường cứu nước từ bến cảng Nhà Rồng (6/1911)",
+    "Chủ trì Hội nghị thành lập Đảng Cộng sản Việt Nam (2/1930)"
+   ],
+   "answer": 0,
+   "explanation": "Tháng 7/1920, đọc Luận cương của Lênin, Nguyễn Ái Quốc khẳng định con đường giải phóng dân tộc theo khuynh hướng vô sản."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Kháng chiến chống Mĩ",
+   "level": 3,
+   "stem": "Điều khoản nào của Hiệp định Pari (27/1/1973) tạo thời cơ thuận lợi nhất để nhân dân Việt Nam tiến tới giải phóng hoàn toàn miền Nam?",
+   "options": [
+    "Hai miền Nam – Bắc tổ chức tổng tuyển cử ngay",
+    "Các bên ngừng bắn trên toàn Đông Dương vĩnh viễn",
+    "Mĩ rút hết quân viễn chinh và quân đồng minh khỏi miền Nam",
+    "Pháp cam kết công nhận độc lập của Việt Nam"
+   ],
+   "answer": 2,
+   "explanation": "Hiệp định Pari buộc Mĩ rút hết quân (hoàn tất ngày 29/3/1973), làm so sánh lực lượng ở miền Nam thay đổi có lợi cho cách mạng, tạo thời cơ cho cuộc Tổng tiến công và nổi dậy mùa Xuân 1975."
+  },
+  {
+   "qtype": "short",
+   "passage": "p5",
+   "topic": "Địa lí – Khí hậu",
+   "level": 2,
+   "stem": "Biên độ nhiệt độ năm của địa điểm A là bao nhiêu °C?",
+   "answer_text": "12,5",
+   "explanation": "Biên độ nhiệt năm = nhiệt độ tháng cao nhất − tháng thấp nhất $= 29{,}0 - 16{,}5 = 12{,}5$ °C."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Địa lí – Khí hậu",
+   "level": 2,
+   "stem": "Nhận xét nào sau đây đúng khi so sánh chế độ nhiệt của A và B?",
+   "options": [
+    "B có biên độ nhiệt năm lớn hơn A",
+    "Cả hai địa điểm đều có tháng nóng nhất là tháng 7",
+    "Nhiệt độ tháng 1 của A cao hơn của B",
+    "A có mùa đông lạnh (nhiệt độ tháng 1 dưới 18 °C), B nóng quanh năm với biên độ nhiệt nhỏ"
+   ],
+   "answer": 3,
+   "explanation": "A có tháng 1 chỉ 16,5 °C (mùa đông lạnh), biên độ 12,5 °C; B mọi tháng trên 25 °C, biên độ $29{,}0 - 25{,}8 = 3{,}2$ °C. Tháng nóng nhất của B là tháng 4."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Địa lí – Khí hậu",
+   "level": 3,
+   "stem": "Nguyên nhân chủ yếu làm biên độ nhiệt độ năm của A lớn hơn nhiều so với B là",
+   "options": [
+    "A nằm gần biển hơn B",
+    "A có lượng mưa lớn hơn B",
+    "A ở vĩ độ cao hơn và chịu tác động mạnh của gió mùa Đông Bắc",
+    "A nằm ở độ cao lớn hơn B"
+   ],
+   "answer": 2,
+   "explanation": "Càng lên phía bắc, chênh lệch góc nhập xạ giữa các mùa càng lớn; thêm vào đó gió mùa Đông Bắc làm nhiệt độ mùa đông ở miền Bắc hạ thấp, nên biên độ nhiệt năm lớn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Địa lí – Khí hậu",
+   "level": 2,
+   "stem": "Tổng lượng mưa trung bình năm của địa điểm A và tháng có mưa nhiều nhất lần lượt là",
+   "options": [
+    "1 674 mm; tháng 7",
+    "1 674 mm; tháng 8",
+    "1 429 mm; tháng 8",
+    "1 764 mm; tháng 9"
+   ],
+   "answer": 1,
+   "explanation": "Cộng 12 tháng: $19+26+44+90+188+240+288+318+265+130+43+23 = 1674$ mm; tháng 8 mưa nhiều nhất (318 mm)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Tự nhiên Việt Nam",
+   "level": 3,
+   "stem": "Biển Đông có ảnh hưởng nào sau đây đến khí hậu nước ta?",
+   "options": [
+    "Tăng độ ẩm, làm giảm tính khắc nghiệt của thời tiết mùa đông và dịu bớt nóng mùa hạ",
+    "Làm khí hậu nước ta khô hạn, mang tính lục địa",
+    "Gây ra gió phơn khô nóng ở Bắc Trung Bộ",
+    "Làm tăng biên độ nhiệt độ năm trên cả nước"
+   ],
+   "answer": 0,
+   "explanation": "Biển Đông cung cấp lượng ẩm lớn, điều hòa nhiệt độ, làm khí hậu mang tính hải dương, điều hòa hơn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Nông nghiệp",
+   "level": 1,
+   "stem": "Cây công nghiệp lâu năm có diện tích lớn nhất ở vùng Tây Nguyên là",
+   "options": [
+    "cà phê",
+    "chè",
+    "cao su",
+    "điều"
+   ],
+   "answer": 0,
+   "explanation": "Đất badan màu mỡ và khí hậu cận xích đạo có mùa khô thuận lợi cho cà phê; Tây Nguyên là vùng trồng cà phê lớn nhất cả nước."
+  },
+  {
+   "qtype": "short",
+   "topic": "Địa lí – Kĩ năng",
+   "level": 3,
+   "stem": "Giá trị xuất khẩu của một quốc gia năm 2018 là 240 tỉ USD, năm 2023 là 355 tỉ USD (số liệu giả định). Giá trị xuất khẩu năm 2023 tăng bao nhiêu phần trăm so với năm 2018? (Làm tròn đến hàng phần mười.)",
+   "answer_text": "47,9",
+   "explanation": "$\\dfrac{355 - 240}{240}\\cdot 100\\% \\approx 47{,}9\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Địa hình",
+   "level": 2,
+   "stem": "Đặc điểm nổi bật của địa hình vùng núi Đông Bắc là",
+   "options": [
+    "có địa hình cao nhất nước ta với đỉnh Phanxipăng",
+    "gồm các dãy núi hình cánh cung, đồi núi thấp chiếm phần lớn diện tích",
+    "gồm các cao nguyên badan xếp tầng",
+    "các dãy núi chạy theo hướng tây bắc – đông nam, cao và đồ sộ"
+   ],
+   "answer": 1,
+   "explanation": "Đông Bắc có bốn cánh cung lớn (Sông Gâm, Ngân Sơn, Bắc Sơn, Đông Triều) chụm đầu ở Tam Đảo, chủ yếu là đồi núi thấp. Đỉnh Phanxipăng và hướng tây bắc – đông nam thuộc vùng Tây Bắc."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Địa hình",
+   "level": 3,
+   "stem": "Ở Đồng bằng sông Hồng, phần đất trong đê không được bồi đắp phù sa hằng năm chủ yếu vì",
+   "options": [
+    "lượng phù sa của sông Hồng rất nhỏ",
+    "địa hình đồng bằng cao hơn mực nước sông quanh năm",
+    "hệ thống đê ven sông ngăn lũ, nước sông không tràn vào đồng ruộng",
+    "sông Hồng có lưu lượng nước ổn định, không có lũ"
+   ],
+   "answer": 2,
+   "explanation": "Hệ thống đê dài ngăn lũ khiến phù sa không vào được vùng trong đê; chỉ vùng ngoài đê được bồi đắp hằng năm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Dân cư",
+   "level": 1,
+   "stem": "Đô thị hóa ở nước ta có tác động tích cực nào sau đây đến phát triển kinh tế – xã hội?",
+   "options": [
+    "Làm tăng ô nhiễm môi trường đô thị",
+    "Gây ùn tắc giao thông ở các thành phố lớn",
+    "Làm giảm quy mô thị trường tiêu thụ",
+    "Thúc đẩy chuyển dịch cơ cấu kinh tế, tạo nhiều việc làm"
+   ],
+   "answer": 3,
+   "explanation": "Đô thị là nơi tập trung công nghiệp, dịch vụ, thu hút đầu tư, tạo việc làm, thúc đẩy chuyển dịch cơ cấu kinh tế; các ý còn lại là tác động tiêu cực hoặc sai."
+  }
+ ],
+ "self_check": "Tính toán (E, r của nguồn, rơi tự do, động năng, vmax, nhiệt nóng chảy, bước sóng, suất điện động cảm ứng, khối lượng CO2, nồng độ mol, Hardy–Weinberg, tỉ lệ Mendel, số ngày chiến dịch, biên độ nhiệt, tổng mưa, tốc độ tăng) đã kiểm bằng Python; các mốc lịch sử đối chiếu SGK; số liệu bảng giả định ghi rõ; chạy dgnl-check ✓."
+}

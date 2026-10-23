@@ -1,0 +1,604 @@
+{
+ "exam": "tsa",
+ "part": "kh",
+ "set": "de2",
+ "passages": {
+  "p1": "Một xe lăn nhỏ được thả không vận tốc ban đầu từ đầu trên của một máng nghiêng thẳng dài 2,0 m, góc nghiêng $\\alpha$ với $\\sin\\alpha = 0{,}10$. Các cổng quang điện đặt dọc máng nối với đồng hồ đo thời gian đo được thời gian $t$ để xe đi được quãng đường $s$ tính từ vị trí thả:\ns (m) | 0,10 | 0,40 | 0,90 | 1,60\nt (s) | 0,50 | 1,00 | 1,50 | 2,00\nLấy $g = 9{,}8$ m/s². Coi lực cản tác dụng lên xe (nếu có) không đổi trong suốt quá trình chuyển động.",
+  "p2": "Một nhóm học sinh lắp các pin điện hóa, mỗi pin gồm hai điện cực kim loại nhúng trong dung dịch muối nitrate 1 M của chính kim loại đó, hai dung dịch nối với nhau bằng cầu muối KNO₃, ở 25 °C. Sức điện động của mỗi pin được đo bằng vôn kế có điện trở rất lớn:\nPin | Zn–Cu | Fe–Cu | Zn–Fe | Cu–Ag | Mg–Zn\nSức điện động (V) | 1,10 | 0,78 | 0,32 | 0,46 | 1,61\nTrong mỗi pin ở bảng, kim loại viết trước là cực âm (anode), kim loại viết sau là cực dương (cathode). Sức điện động chuẩn của pin bằng hiệu thế điện cực chuẩn của cathode và anode.",
+  "p3": "Một học sinh cắt các thỏi khoai tây có cùng kích thước từ một củ, thấm khô bề mặt rồi cân (khối lượng $m_1$). Mỗi thỏi được ngâm trong 50 mL dung dịch sucrose có nồng độ khác nhau trong 2 giờ ở 25 °C, sau đó lấy ra, thấm khô bề mặt và cân lại (khối lượng $m_2$).\nNồng độ sucrose (M) | 0,0 | 0,2 | 0,4 | 0,6 | 0,8\n$m_1$ (g) | 5,00 | 5,10 | 4,95 | 5,05 | 5,00\n$m_2$ (g) | 5,95 | 5,45 | 4,88 | 4,45 | 4,05\nPhần trăm thay đổi khối lượng được tính bằng $\\dfrac{m_2 - m_1}{m_1} \\cdot 100\\%$.",
+  "p4": "Một lượng khí xác định được nhốt trong xilanh kín có pit-tông, xilanh nối với cảm biến áp suất. Học sinh đẩy pit-tông thật chậm và ghi áp suất $p$ ứng với mỗi thể tích $V$; nhiệt độ khí luôn bằng nhiệt độ phòng 27 °C.\nV (mL) | 20 | 25 | 30 | 40 | 50\np (kPa) | 150 | 120 | 100 | 75 | 60\nCho hằng số khí $R = 8{,}31$ J/(mol·K); $T(\\text{K}) = t(^\\circ\\text{C}) + 273$.",
+  "p5": "Để đo nhiệt hòa tan của một số muối và base, học sinh dùng cốc xốp có nắp đựng 50,0 g nước cất ở 25,0 °C. Cho nhanh chất rắn vào, đậy nắp, khuấy đều và theo dõi nhiệt kế.\nTN1: hòa tan 2,00 g NaOH, nhiệt độ cao nhất đạt 35,0 °C.\nTN2: hòa tan 4,00 g NH₄NO₃, nhiệt độ thấp nhất đạt 18,8 °C.\nBỏ qua nhiệt dung của cốc và nhiệt kế; coi dung dịch có nhiệt dung riêng 4,18 J/(g·K) và khối lượng bằng khối lượng nước. Biến thiên enthalpy hòa tan $\\Delta H = -\\dfrac{Q_{\\text{dd}}}{n}$, với $Q_{\\text{dd}} = mc\\Delta t$ là nhiệt lượng dung dịch thu vào ($\\Delta t$ = nhiệt độ cuối − nhiệt độ đầu). Cho H = 1; N = 14; O = 16; Na = 23.",
+  "p6": "Một nhà nghiên cứu lai hai dòng đậu Hà Lan thuần chủng: hạt vàng, vỏ trơn × hạt xanh, vỏ nhăn. Toàn bộ cây F1 cho hạt vàng, trơn. Cho F1 tự thụ phấn, thu được 556 hạt F2:\nVàng, trơn: 315 | Vàng, nhăn: 101 | Xanh, trơn: 108 | Xanh, nhăn: 32\nKí hiệu: gene A quy định hạt vàng, a – hạt xanh; gene B quy định vỏ trơn, b – vỏ nhăn.",
+  "p7": "Một tấm pin mặt trời có diện tích 1,6 m². Ở điều kiện chuẩn (cường độ bức xạ 1000 W/m², nhiệt độ tấm pin 25 °C), công suất điện cực đại của tấm pin là 320 W. Theo nhà sản xuất:\n– Công suất tỉ lệ thuận với cường độ bức xạ chiếu tới tấm pin.\n– Khi nhiệt độ tấm pin cao hơn 25 °C, cứ mỗi 1 °C tăng thêm thì công suất giảm 0,40% so với công suất ở 25 °C (cùng cường độ bức xạ).\nMột hộ gia đình lắp 10 tấm pin như trên. Giả định trung bình mỗi ngày tương đương 4 giờ nắng ở điều kiện chuẩn; giá điện giả định 2 500 đồng/kWh.",
+  "p8": "Một nhóm học sinh dùng hô hấp kế đơn giản: mỗi ống nghiệm kín nối với một ống mao dẫn nằm ngang có giọt nước màu. Trong mỗi ống có một gói nhỏ chứa KOH rắn (hấp thụ hết CO₂) và 20 g hạt đậu xanh đặt trên lưới.\nỐng A: hạt đang nảy mầm. Ống B: hạt nảy mầm đã luộc chín rồi để nguội (cùng khối lượng).\nHai ống được đặt trong bể ổn nhiệt. Sau 20 phút, độ dịch chuyển của giọt nước màu về phía ống nghiệm được quy ra thể tích khí (mL):\nNhiệt độ (°C) | 15 | 25 | 35\nỐng A (mL) | 0,24 | 0,50 | 0,95\nỐng B (mL) | 0,00 | 0,01 | 0,00"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – chuyển động",
+   "level": 1,
+   "stem": "Dựa vào bảng số liệu, chuyển động của xe trên máng là",
+   "options": [
+    "chuyển động thẳng đều.",
+    "chuyển động thẳng chậm dần đều.",
+    "chuyển động thẳng nhanh dần đều.",
+    "chuyển động nhanh dần với gia tốc tăng dần."
+   ],
+   "answer": 2,
+   "explanation": "Khi $t$ tăng 2, 3, 4 lần thì $s$ tăng 4, 9, 16 lần: $s \\sim t^2$, đặc trưng của chuyển động nhanh dần đều từ nghỉ."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – xử lí số liệu",
+   "level": 1,
+   "stem": "Tính gia tốc của xe (m/s²).",
+   "answer_text": "0,8",
+   "explanation": "$s = \\tfrac12 a t^2 \\Rightarrow a = \\dfrac{2s}{t^2} = \\dfrac{2 \\cdot 1{,}60}{2{,}00^2} = 0{,}8$ m/s² (các cặp số liệu khác cho cùng kết quả)."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – chuyển động",
+   "level": 2,
+   "stem": "Tính tốc độ của xe (m/s) khi vừa đi được 1,60 m.",
+   "answer_text": "1,6",
+   "explanation": "$v = at = 0{,}8 \\cdot 2{,}00 = 1{,}6$ m/s."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p1",
+   "topic": "Vật lí – động lực học",
+   "level": 3,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Đồ thị biểu diễn $s$ theo $t^2$ là một đoạn thẳng đi qua gốc tọa độ.",
+     "a": true
+    },
+    {
+     "t": "Nếu không có ma sát, gia tốc của xe là 0,98 m/s²; vậy trong thí nghiệm có lực cản tác dụng lên xe.",
+     "a": true
+    },
+    {
+     "t": "Thời gian xe đi hết máng dài 2,0 m xấp xỉ 2,24 s.",
+     "a": true
+    },
+    {
+     "t": "Nếu đặt thêm vật nặng lên xe làm khối lượng tăng gấp đôi (hệ số ma sát không đổi) thì gia tốc của xe giảm một nửa.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $s = \\tfrac{a}{2}t^2$. b) Đúng: $g\\sin\\alpha = 0{,}98 > 0{,}8$. c) Đúng: $t = \\sqrt{2 \\cdot 2{,}0/0{,}8} \\approx 2,24$ s. d) Sai: $a = g(\\sin\\alpha - \\mu\\cos\\alpha)$ không phụ thuộc khối lượng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – động lực học",
+   "level": 3,
+   "stem": "Coi lực cản chỉ là lực ma sát trượt. Hệ số ma sát giữa xe và máng xấp xỉ bằng",
+   "options": [
+    "0,008",
+    "0,018",
+    "0,082",
+    "0,18"
+   ],
+   "answer": 1,
+   "explanation": "$a = g(\\sin\\alpha - \\mu\\cos\\alpha)$, $\\cos\\alpha = \\sqrt{1 - 0{,}01} \\approx 0{,}995$ ⇒ $\\mu = \\dfrac{0{,}98 - 0{,}8}{9{,}8 \\cdot 0{,}995} \\approx 0,018$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – dãy điện hóa",
+   "level": 1,
+   "stem": "Dựa vào kết quả thí nghiệm, thứ tự tính khử giảm dần của các kim loại là",
+   "options": [
+    "Mg > Zn > Fe > Cu > Ag.",
+    "Ag > Cu > Fe > Zn > Mg.",
+    "Mg > Fe > Zn > Cu > Ag.",
+    "Zn > Mg > Fe > Ag > Cu."
+   ],
+   "answer": 0,
+   "explanation": "Kim loại làm anode có tính khử mạnh hơn: Zn > Cu, Fe > Cu, Zn > Fe, Cu > Ag, Mg > Zn ⇒ Mg > Zn > Fe > Cu > Ag."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – pin điện hóa",
+   "level": 2,
+   "stem": "Dự đoán sức điện động (V) của pin Fe–Ag lắp theo cách tương tự.",
+   "answer_text": "1,24",
+   "explanation": "$E_{\\text{Fe–Ag}} = E_{\\text{Fe–Cu}} + E_{\\text{Cu–Ag}} = 0{,}78 + 0{,}46 = 1{,}24$ V."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – thế điện cực",
+   "level": 2,
+   "stem": "Biết thế điện cực chuẩn của cặp Cu²⁺/Cu là +0,34 V. Tính thế điện cực chuẩn (V) của cặp Zn²⁺/Zn.",
+   "answer_text": "-0,76",
+   "explanation": "$E_{\\text{pin}} = E_{\\text{Cu}} - E_{\\text{Zn}} \\Rightarrow E_{\\text{Zn}} = 0{,}34 - 1{,}10 = -0{,}76$ V."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p2",
+   "topic": "Hóa học – pin điện hóa",
+   "level": 2,
+   "stem": "Xét pin Zn–Cu và các pin trong thí nghiệm.",
+   "statements": [
+    {
+     "t": "Trong pin Zn–Cu, electron di chuyển từ điện cực Zn sang điện cực Cu qua dây dẫn ngoài.",
+     "a": true
+    },
+    {
+     "t": "Khi pin Zn–Cu hoạt động, khối lượng điện cực Cu giảm dần.",
+     "a": false
+    },
+    {
+     "t": "Nếu tháo bỏ cầu muối, mạch bị hở và pin không còn phát điện.",
+     "a": true
+    },
+    {
+     "t": "Trong các pin có thể lắp từ hai trong năm kim loại trên theo cách tương tự, pin Mg–Ag có sức điện động lớn nhất.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: Zn là anode bị oxi hóa. b) Sai: tại cathode Cu²⁺ + 2e → Cu bám vào, khối lượng tăng. c) Đúng: cầu muối khép kín mạch và trung hòa điện tích. d) Đúng: Mg khử mạnh nhất, Ag yếu nhất; $E = 0{,}80 - (-2{,}37) = 3,17$ V."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – ăn mòn kim loại",
+   "level": 3,
+   "stem": "Để bảo vệ vỏ tàu bằng thép (thành phần chính là Fe) khỏi bị ăn mòn trong nước biển bằng phương pháp điện hóa, người ta gắn lên vỏ tàu các khối kim loại nào sau đây?",
+   "options": [
+    "Cu",
+    "Ag",
+    "Hợp kim Cu–Ag",
+    "Zn"
+   ],
+   "answer": 3,
+   "explanation": "Zn có tính khử mạnh hơn Fe nên đóng vai trò anode hi sinh, bị ăn mòn thay cho Fe. Cu, Ag khử yếu hơn Fe sẽ làm Fe bị ăn mòn nhanh hơn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – thiết kế thí nghiệm",
+   "level": 1,
+   "stem": "Học sinh so sánh phần trăm thay đổi khối lượng thay vì so sánh trực tiếp $m_2 - m_1$ vì",
+   "options": [
+    "phần trăm luôn là số dương nên dễ so sánh.",
+    "khối lượng ban đầu của các thỏi khoai tây không hoàn toàn bằng nhau.",
+    "cân điện tử chỉ hiển thị được phần trăm.",
+    "nồng độ dung dịch được tính theo phần trăm."
+   ],
+   "answer": 1,
+   "explanation": "$m_1$ khác nhau (4,95–5,10 g); phần trăm thay đổi chuẩn hóa theo khối lượng ban đầu nên so sánh được giữa các mẫu."
+  },
+  {
+   "qtype": "short",
+   "passage": "p3",
+   "topic": "Sinh học – xử lí số liệu",
+   "level": 2,
+   "stem": "Tính phần trăm thay đổi khối lượng của thỏi khoai tây ngâm trong dung dịch sucrose 0,6 M. (Làm tròn đến hàng phần mười.)",
+   "answer_text": "-11,9",
+   "explanation": "$\\dfrac{4{,}45 - 5{,}05}{5{,}05} \\cdot 100\\% \\approx -11{,}9\\%$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p3",
+   "topic": "Sinh học – nội suy",
+   "level": 3,
+   "stem": "Giả sử phần trăm thay đổi khối lượng biến đổi tuyến tính theo nồng độ trong khoảng 0,2 M – 0,4 M. Ước tính nồng độ sucrose (M) đẳng trương với dịch tế bào khoai tây. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "0,37",
+   "explanation": "Ở 0,2 M: $6,86\\%$; ở 0,4 M: $-1,41\\%$. Điểm 0%: $0{,}2 + 0{,}2 \\cdot \\dfrac{6,86}{6,86 + 1,41} \\approx 0,37$ M."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p3",
+   "topic": "Sinh học – thẩm thấu",
+   "level": 2,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Thỏi khoai tây ngâm trong nước cất (0,0 M) hút nước do thẩm thấu nên khối lượng tăng.",
+     "a": true
+    },
+    {
+     "t": "Dung dịch sucrose 0,8 M là dung dịch nhược trương so với dịch tế bào khoai tây.",
+     "a": false
+    },
+    {
+     "t": "Thấm khô bề mặt trước khi cân giúp hạn chế sai số do nước bám bên ngoài thỏi khoai.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay sucrose 0,4 M bằng NaCl 0,4 M thì thỏi khoai tây sẽ mất ít nước hơn.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: +19%. b) Sai: tế bào mất nước (−19%) nên dung dịch ưu trương. c) Đúng. d) Sai: NaCl phân li thành 2 ion, áp suất thẩm thấu lớn hơn sucrose cùng nồng độ mol nên thỏi khoai mất nhiều nước hơn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – dự đoán",
+   "level": 3,
+   "stem": "Nếu dùng các thỏi khoai tây đã luộc chín và lặp lại thí nghiệm, kết quả nào sau đây có khả năng xảy ra nhất?",
+   "options": [
+    "Kết quả giống hệt thỏi khoai sống vì thành phần hóa học của khoai không đổi.",
+    "Mọi thỏi đều tăng khối lượng mạnh hơn vì tế bào chết hút nước tích cực.",
+    "Khối lượng thay đổi không còn theo quy luật thẩm thấu như trên vì màng tế bào đã mất tính thấm chọn lọc.",
+    "Nồng độ đẳng trương giảm xuống đúng một nửa."
+   ],
+   "answer": 2,
+   "explanation": "Thẩm thấu cần màng bán thấm; nhiệt độ cao làm hỏng màng sinh chất, sucrose và nước đi qua tự do nên không còn hiện tượng co/trương nguyên sinh như tế bào sống."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Vật lí – chất khí",
+   "level": 1,
+   "stem": "Mối quan hệ giữa áp suất và thể tích của lượng khí trong thí nghiệm là",
+   "options": [
+    "áp suất tỉ lệ thuận với thể tích.",
+    "áp suất tỉ lệ nghịch với thể tích.",
+    "áp suất giảm đều 30 kPa khi thể tích tăng 5 mL.",
+    "áp suất không phụ thuộc vào thể tích."
+   ],
+   "answer": 1,
+   "explanation": "Tích $pV = 3000$ kPa·mL ở mọi lần đo ⇒ $p \\sim 1/V$ (định luật Boyle)."
+  },
+  {
+   "qtype": "short",
+   "passage": "p4",
+   "topic": "Vật lí – chất khí",
+   "level": 1,
+   "stem": "Dự đoán áp suất của khí (kPa) khi kéo pit-tông chậm đến thể tích 60 mL.",
+   "answer_text": "50",
+   "explanation": "$p = 3000/60 = 50$ kPa."
+  },
+  {
+   "qtype": "short",
+   "passage": "p4",
+   "topic": "Vật lí – chất khí",
+   "level": 3,
+   "stem": "Giữ pit-tông cố định ở thể tích 30 mL rồi đun nóng khí từ 27 °C lên 87 °C. Tính áp suất khí lúc này (kPa).",
+   "answer_text": "120",
+   "explanation": "Đẳng tích: $\\dfrac{p_2}{p_1} = \\dfrac{T_2}{T_1} = \\dfrac{360}{300}$ ⇒ $p_2 = 100 \\cdot 1{,}2 = 120$ kPa."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p4",
+   "topic": "Vật lí – chất khí",
+   "level": 2,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Tích $pV$ của khí trong các lần đo đều bằng 3000 kPa·mL.",
+     "a": true
+    },
+    {
+     "t": "Nếu đẩy pit-tông rất nhanh, khí nóng lên nên áp suất đo được ngay lúc đó lớn hơn giá trị dự đoán theo định luật Boyle.",
+     "a": true
+    },
+    {
+     "t": "Đồ thị biểu diễn $p$ theo $V$ là một đường thẳng đi qua gốc tọa độ.",
+     "a": false
+    },
+    {
+     "t": "Nếu xilanh bị rò khí trong khi nén thì tích $pV$ đo được tăng dần.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: nén nhanh gần đoạn nhiệt, nhiệt độ tăng ⇒ $p$ lớn hơn. c) Sai: đồ thị $p$ theo $V$ là đường hypebol; đồ thị $p$ theo $1/V$ mới là đường thẳng qua gốc. d) Sai: số mol giảm nên $pV = nRT$ giảm dần."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Vật lí – chất khí",
+   "level": 2,
+   "stem": "Số mol khí trong xilanh xấp xỉ bằng",
+   "options": [
+    "$1{,}2 \\cdot 10^{-6}$ mol",
+    "$1{,}2 \\cdot 10^{-3}$ mol",
+    "$1{,}2 \\cdot 10^{-2}$ mol",
+    "$1{,}2$ mol"
+   ],
+   "answer": 1,
+   "explanation": "$n = \\dfrac{pV}{RT} = \\dfrac{100 \\cdot 10^3 \\cdot 30 \\cdot 10^{-6}}{8{,}31 \\cdot 300} \\approx 1{,}2 \\cdot 10^{-3}$ mol."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Hóa học – năng lượng",
+   "level": 1,
+   "stem": "Kết luận nào sau đây đúng?",
+   "options": [
+    "Hòa tan NaOH là quá trình thu nhiệt, hòa tan NH₄NO₃ là quá trình tỏa nhiệt.",
+    "Cả hai quá trình hòa tan đều tỏa nhiệt.",
+    "Cả hai quá trình hòa tan đều thu nhiệt.",
+    "Hòa tan NaOH là quá trình tỏa nhiệt, hòa tan NH₄NO₃ là quá trình thu nhiệt."
+   ],
+   "answer": 3,
+   "explanation": "TN1 nhiệt độ tăng (tỏa nhiệt, $\\Delta H < 0$); TN2 nhiệt độ giảm (thu nhiệt, $\\Delta H > 0$)."
+  },
+  {
+   "qtype": "short",
+   "passage": "p5",
+   "topic": "Hóa học – enthalpy",
+   "level": 2,
+   "stem": "Tính biến thiên enthalpy hòa tan của NaOH (kJ/mol). (Làm tròn đến hàng phần mười.)",
+   "answer_text": "-41,8",
+   "explanation": "$Q = 50{,}0 \\cdot 4{,}18 \\cdot 10{,}0 = 2090$ J; $n = 2{,}00/40 = 0{,}05$ mol; $\\Delta H = -2{,}090/0{,}05 = -41{,}8$ kJ/mol."
+  },
+  {
+   "qtype": "short",
+   "passage": "p5",
+   "topic": "Hóa học – enthalpy",
+   "level": 3,
+   "stem": "Tính biến thiên enthalpy hòa tan của NH₄NO₃ (kJ/mol). (Làm tròn đến hàng phần mười.)",
+   "answer_text": "25,9",
+   "explanation": "$Q_{\\text{dd}} = 50{,}0 \\cdot 4{,}18 \\cdot (18{,}8 - 25{,}0) = -1295{,}8$ J; $n = 4{,}00/80 = 0{,}05$ mol; $\\Delta H = 1{,}2958/0{,}05 \\approx 25,9$ kJ/mol."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p5",
+   "topic": "Hóa học – sai số thí nghiệm",
+   "level": 2,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Dùng cốc xốp có nắp nhằm hạn chế trao đổi nhiệt giữa dung dịch và môi trường.",
+     "a": true
+    },
+    {
+     "t": "Do một phần nhiệt bị thất thoát ra ngoài, độ lớn $|\\Delta H|$ hòa tan NaOH tính được thường nhỏ hơn giá trị thực.",
+     "a": true
+    },
+    {
+     "t": "Nếu hòa tan 4,00 g NaOH vào 50,0 g nước ở 25,0 °C thì nhiệt độ cao nhất chỉ khoảng 35 °C.",
+     "a": false
+    },
+    {
+     "t": "NH₄NO₃ có thể dùng làm túi chườm lạnh tức thời.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: nhiệt đo được nhỏ hơn nhiệt thực tỏa ra. c) Sai: lượng chất gấp đôi, cùng 50 g nước ⇒ $\\Delta t \\approx 20$ °C, nhiệt độ ≈ 45 °C. d) Đúng: hòa tan thu nhiệt làm lạnh."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Hóa học – dự đoán",
+   "level": 3,
+   "stem": "Dùng kết quả TN1, nếu hòa tan 1,00 g NaOH vào 100 g nước thì nhiệt độ dung dịch tăng khoảng",
+   "options": [
+    "2,5 °C",
+    "5,0 °C",
+    "10 °C",
+    "20 °C"
+   ],
+   "answer": 0,
+   "explanation": "$n = 0{,}025$ mol ⇒ $Q = 0{,}025 \\cdot 41\\,800 = 1045$ J; $\\Delta t = \\dfrac{1045}{100 \\cdot 4{,}18} = 2{,}5$ °C."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p6",
+   "topic": "Sinh học – di truyền",
+   "level": 1,
+   "stem": "Tính trạng trội trong phép lai trên là",
+   "options": [
+    "hạt vàng và vỏ trơn.",
+    "hạt xanh và vỏ nhăn.",
+    "hạt vàng và vỏ nhăn.",
+    "hạt xanh và vỏ trơn."
+   ],
+   "answer": 0,
+   "explanation": "F1 đồng loạt vàng, trơn khi lai hai dòng thuần chủng tương phản ⇒ vàng, trơn là trội."
+  },
+  {
+   "qtype": "short",
+   "passage": "p6",
+   "topic": "Sinh học – xử lí số liệu",
+   "level": 1,
+   "stem": "Tính tỉ số giữa số hạt vàng và số hạt xanh ở F2. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "2,97",
+   "explanation": "Vàng: 315 + 101 = 416; xanh: 108 + 32 = 140; $416/140 \\approx 2{,}97 \\approx 3$."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p6",
+   "topic": "Sinh học – quy luật phân li độc lập",
+   "level": 2,
+   "stem": "Xét các nhận định sau.",
+   "statements": [
+    {
+     "t": "Kết quả F2 xấp xỉ tỉ lệ 9 : 3 : 3 : 1, phù hợp với hai cặp gene phân li độc lập.",
+     "a": true
+    },
+    {
+     "t": "Kiểu gene của F1 là AaBb.",
+     "a": true
+    },
+    {
+     "t": "Theo lí thuyết, trong số hạt vàng, trơn ở F2, hạt có kiểu gene thuần chủng chiếm tỉ lệ 1/16.",
+     "a": false
+    },
+    {
+     "t": "Lai phân tích cây F1 sẽ thu được 4 loại kiểu hình với tỉ lệ 1 : 1 : 1 : 1.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: 315 : 101 : 108 : 32 ≈ 9 : 3 : 3 : 1. b) Đúng. c) Sai: AABB chiếm 1/16 tổng số nhưng chiếm 1/9 số hạt vàng, trơn. d) Đúng: AaBb × aabb → 1 : 1 : 1 : 1."
+  },
+  {
+   "qtype": "short",
+   "passage": "p6",
+   "topic": "Sinh học – xác suất di truyền",
+   "level": 2,
+   "stem": "Theo lí thuyết, trong 556 hạt F2, số hạt xanh, nhăn mong đợi là bao nhiêu?",
+   "answer_text": "34,75",
+   "explanation": "Tỉ lệ aabb = 1/16 ⇒ $556/16 = 34{,}75$ (thực tế quan sát 32 hạt)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p6",
+   "topic": "Sinh học – xác suất di truyền",
+   "level": 3,
+   "stem": "Gieo ngẫu nhiên một hạt vàng, nhăn ở F2 thành cây rồi cho tự thụ phấn. Theo lí thuyết, xác suất để một hạt bất kì do cây này tạo ra có kiểu hình xanh, nhăn là",
+   "options": [
+    "$\\dfrac{1}{9}$",
+    "$\\dfrac{1}{6}$",
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{1}{3}$"
+   ],
+   "answer": 1,
+   "explanation": "Vàng, nhăn ở F2: $\\tfrac13$AAbb, $\\tfrac23$Aabb. Chỉ Aabb tự thụ cho aabb với xác suất $\\tfrac14$ ⇒ $\\tfrac23 \\cdot \\tfrac14 = \\tfrac16$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p7",
+   "topic": "Công nghệ – năng lượng tái tạo",
+   "level": 1,
+   "stem": "Tính hiệu suất chuyển đổi năng lượng (%) của tấm pin ở điều kiện chuẩn.",
+   "answer_text": "20",
+   "explanation": "$H = \\dfrac{320}{1000 \\cdot 1{,}6} = 0{,}20 = 20\\%$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p7",
+   "topic": "Công nghệ – năng lượng tái tạo",
+   "level": 2,
+   "stem": "Tính công suất (W) của một tấm pin khi cường độ bức xạ 1000 W/m² và nhiệt độ tấm pin 45 °C. (Làm tròn đến hàng phần mười.)",
+   "answer_text": "294,4",
+   "explanation": "Tăng 20 °C ⇒ giảm $20 \\cdot 0{,}40\\% = 8\\%$: $P = 320 \\cdot 0{,}92 = 294{,}4$ W."
+  },
+  {
+   "qtype": "short",
+   "passage": "p7",
+   "topic": "Công nghệ – năng lượng tái tạo",
+   "level": 1,
+   "stem": "Tính điện năng (kWh) mà 10 tấm pin tạo ra trong một ngày theo giả định trên.",
+   "answer_text": "12,8",
+   "explanation": "$A = 10 \\cdot 0{,}32\\ \\text{kW} \\cdot 4\\ \\text{h} = 12{,}8$ kWh."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p7",
+   "topic": "Công nghệ – năng lượng tái tạo",
+   "level": 3,
+   "stem": "Xét các nhận định sau về một tấm pin.",
+   "statements": [
+    {
+     "t": "Ở cường độ bức xạ 600 W/m² và nhiệt độ tấm pin 25 °C, công suất của tấm pin là 192 W.",
+     "a": true
+    },
+    {
+     "t": "Tấm pin càng nóng thì công suất điện càng lớn.",
+     "a": false
+    },
+    {
+     "t": "Lắp tấm pin cách mặt mái một khoảng để không khí lưu thông phía sau giúp tăng sản lượng điện.",
+     "a": true
+    },
+    {
+     "t": "Ở cường độ bức xạ 800 W/m² và nhiệt độ tấm pin 55 °C, công suất của tấm pin là 256 W.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $320 \\cdot 0{,}6 = 192$ W. b) Sai: hệ số nhiệt âm. c) Đúng: tản nhiệt làm tấm pin mát hơn. d) Sai: $320 \\cdot 0{,}8 \\cdot (1 - 30 \\cdot 0{,}004) = 225,3$ W (256 W là khi bỏ qua ảnh hưởng nhiệt độ)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p7",
+   "topic": "Công nghệ – kinh tế năng lượng",
+   "level": 2,
+   "stem": "Theo giả định trên, số tiền điện hộ gia đình tiết kiệm được trong 30 ngày nhờ hệ thống 10 tấm pin là",
+   "options": [
+    "96 000 đồng",
+    "320 000 đồng",
+    "960 000 đồng",
+    "3 200 000 đồng"
+   ],
+   "answer": 2,
+   "explanation": "$12{,}8 \\cdot 30 = 384$ kWh; $384 \\cdot 2500 = 960\\,000$ đồng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p8",
+   "topic": "Sinh học – hô hấp",
+   "level": 1,
+   "stem": "Độ dịch chuyển của giọt nước màu ở ống A phản ánh trực tiếp",
+   "options": [
+    "thể tích O₂ mà hạt đã hấp thụ.",
+    "thể tích CO₂ mà hạt đã thải ra.",
+    "lượng nước hạt hút vào.",
+    "tổng thể tích O₂ và CO₂ hạt trao đổi."
+   ],
+   "answer": 0,
+   "explanation": "CO₂ thải ra bị KOH hấp thụ, nên thể tích khí trong ống giảm đúng bằng lượng O₂ hạt tiêu thụ, kéo giọt màu về phía ống."
+  },
+  {
+   "qtype": "short",
+   "passage": "p8",
+   "topic": "Sinh học – xử lí số liệu",
+   "level": 2,
+   "stem": "Tính tốc độ hấp thụ O₂ của hạt nảy mầm ở 25 °C, theo đơn vị mL trên 1 g hạt trong 1 giờ.",
+   "answer_text": "0,075",
+   "explanation": "$\\dfrac{0{,}50\\ \\text{mL}}{20\\ \\text{g} \\cdot \\tfrac{20}{60}\\ \\text{h}} = 0{,}075$ mL/(g·h)."
+  },
+  {
+   "qtype": "short",
+   "passage": "p8",
+   "topic": "Sinh học – hệ số nhiệt",
+   "level": 3,
+   "stem": "Hệ số $Q_{10}$ là tỉ số giữa tốc độ hô hấp ở nhiệt độ $t + 10$ °C và ở nhiệt độ $t$. Tính $Q_{10}$ của hạt nảy mầm trong khoảng 25 °C – 35 °C. (Làm tròn đến hàng phần mười.)",
+   "answer_text": "1,9",
+   "explanation": "$Q_{10} = 0{,}95/0{,}50 = 1{,}9$."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p8",
+   "topic": "Sinh học – hô hấp",
+   "level": 2,
+   "stem": "Xét các nhận định sau về thí nghiệm.",
+   "statements": [
+    {
+     "t": "Ống B là ống đối chứng, giúp loại trừ ảnh hưởng của dao động nhiệt độ và áp suất không khí đến số đo.",
+     "a": true
+    },
+    {
+     "t": "Nếu bỏ gói KOH ở ống A và hạt chỉ hô hấp glucose (thể tích CO₂ thải ra bằng thể tích O₂ hấp thụ) thì giọt màu gần như không dịch chuyển.",
+     "a": true
+    },
+    {
+     "t": "Khi nhiệt độ tăng từ 15 °C lên 35 °C, tốc độ hô hấp của hạt nảy mầm tăng khoảng 2 lần.",
+     "a": false
+    },
+    {
+     "t": "Hạt luộc chín hầu như không hô hấp vì enzyme hô hấp đã bị biến tính.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: lượng khí giảm (O₂) bằng lượng khí tăng (CO₂). c) Sai: $0{,}95/0{,}24 \\approx 4$ lần. d) Đúng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p8",
+   "topic": "Sinh học – dự đoán",
+   "level": 3,
+   "stem": "Thay hạt đậu xanh bằng hạt hướng dương nảy mầm (chủ yếu hô hấp lipid, thể tích CO₂ thải ra ≈ 0,7 thể tích O₂ hấp thụ) và bỏ gói KOH. Dự đoán nào đúng?",
+   "options": [
+    "Giọt màu không dịch chuyển vì CO₂ và O₂ cân bằng.",
+    "Giọt màu dịch chuyển ra xa ống nghiệm vì CO₂ thải ra nhiều hơn O₂ hấp thụ.",
+    "Giọt màu dịch chuyển về phía ống nghiệm nhiều hơn khi có KOH.",
+    "Giọt màu vẫn dịch chuyển về phía ống nghiệm, nhưng ít hơn khi có KOH."
+   ],
+   "answer": 3,
+   "explanation": "Không có KOH, thể tích khí giảm $= V_{O_2} - V_{CO_2} \\approx 0{,}3V_{O_2} > 0$: giọt màu vẫn đi vào phía ống nhưng chỉ ≈ 30% so với khi có KOH."
+  }
+ ],
+ "self_check": "Mọi phép tính (gia tốc, ma sát, sức điện động, phần trăm khối lượng, nội suy đẳng trương, Boyle/Charles, số mol, enthalpy hòa tan, tỉ lệ và xác suất Mendel bằng liệt kê kiểu gene, công suất pin mặt trời, Q10) kiểm bằng Python có assert; bảng số liệu được sinh/kiểm từ mô hình; mỗi tf có cả Đúng và Sai; đáp án mcq rải đều."
+}

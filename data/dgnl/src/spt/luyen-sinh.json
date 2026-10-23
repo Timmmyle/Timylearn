@@ -1,0 +1,280 @@
+{
+ "exam": "spt",
+ "part": "sinh",
+ "set": "luyen",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Mã di truyền",
+   "level": 1,
+   "stem": "Mã di truyền có tính thoái hóa, nghĩa là",
+   "options": [
+    "một codon mã hóa cho nhiều loại amino acid",
+    "tất cả các loài đều dùng chung một bộ mã",
+    "nhiều codon khác nhau cùng mã hóa cho một loại amino acid",
+    "mã được đọc liên tục theo từng bộ ba, không gối lên nhau"
+   ],
+   "answer": 2,
+   "explanation": "Thoái hóa: nhiều codon cùng xác định một amino acid (trừ AUG, UGG). Các phương án còn lại lần lượt sai, nói về tính phổ biến và tính liên tục."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Dịch mã",
+   "level": 2,
+   "stem": "Trong quá trình dịch mã, liên kết peptide được hình thành giữa",
+   "options": [
+    "nhóm carboxyl của amino acid này với nhóm amino của amino acid kế tiếp",
+    "hai nucleotide kế tiếp trên mRNA",
+    "anticodon của tRNA với codon của mRNA",
+    "hai tiểu phần của ribosome"
+   ],
+   "answer": 0,
+   "explanation": "Ribosome xúc tác hình thành liên kết peptide –CO–NH– giữa các amino acid; liên kết giữa codon và anticodon là liên kết hydrogen."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Di truyền người",
+   "level": 1,
+   "stem": "Người mắc hội chứng Down có bộ nhiễm sắc thể",
+   "options": [
+    "có 3 nhiễm sắc thể giới tính XXX",
+    "chỉ có một nhiễm sắc thể giới tính X",
+    "bị mất đoạn nhiễm sắc thể số 5",
+    "có 3 nhiễm sắc thể số 21"
+   ],
+   "answer": 3,
+   "explanation": "Down: thể ba nhiễm sắc thể 21 (2n + 1 = 47). XXX là hội chứng 3X; XO là Turner; mất đoạn NST số 5 gây hội chứng tiếng mèo kêu."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đột biến cấu trúc NST",
+   "level": 2,
+   "stem": "Ở đại mạch, dạng đột biến cấu trúc nhiễm sắc thể nào đã được ứng dụng làm tăng hoạt tính của enzyme amylase, có ý nghĩa trong công nghiệp sản xuất bia?",
+   "options": [
+    "Lặp đoạn",
+    "Mất đoạn",
+    "Đảo đoạn",
+    "Chuyển đoạn"
+   ],
+   "answer": 0,
+   "explanation": "Lặp đoạn làm tăng số bản sao gene amylase → tăng hoạt tính enzyme."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Di truyền liên kết giới tính",
+   "level": 3,
+   "stem": "Ở ruồi giấm, allele A quy định mắt đỏ trội hoàn toàn so với a quy định mắt trắng, gene nằm trên vùng không tương đồng của nhiễm sắc thể X. Phép lai P: $X^AX^a \\times X^aY$. Theo lí thuyết, ở F₁, ruồi cái mắt trắng chiếm tỉ lệ bao nhiêu trong tổng số ruồi thu được?",
+   "options": [
+    "$\\dfrac{1}{8}$",
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{3}{4}$"
+   ],
+   "answer": 1,
+   "explanation": "F₁: $\\dfrac{1}{4}X^AX^a : \\dfrac{1}{4}X^aX^a : \\dfrac{1}{4}X^AY : \\dfrac{1}{4}X^aY$ → cái mắt trắng $X^aX^a$ chiếm $\\dfrac{1}{4}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Học thuyết tiến hóa",
+   "level": 2,
+   "stem": "Theo Darwin, đối tượng tác động trực tiếp của chọn lọc tự nhiên là",
+   "options": [
+    "quần thể",
+    "loài",
+    "gene",
+    "cá thể"
+   ],
+   "answer": 3,
+   "explanation": "Darwin cho rằng chọn lọc tự nhiên tác động lên các cá thể, giữ lại cá thể có biến dị có lợi. Thuyết tiến hóa hiện đại xem quần thể là đơn vị tiến hóa."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thuyết tiến hóa hiện đại",
+   "level": 1,
+   "stem": "Theo thuyết tiến hóa hiện đại, đơn vị tiến hóa cơ sở là",
+   "options": [
+    "cá thể",
+    "quần thể",
+    "loài",
+    "quần xã"
+   ],
+   "answer": 1,
+   "explanation": "Quần thể là đơn vị tồn tại, sinh sản của loài, có vốn gene riêng và có thể biến đổi qua các thế hệ → đơn vị tiến hóa cơ sở."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nguyên phân (lớp 10)",
+   "level": 3,
+   "stem": "Ở người ($2n = 46$), một tế bào đang ở kì sau của nguyên phân có",
+   "options": [
+    "46 nhiễm sắc thể kép",
+    "92 nhiễm sắc thể kép",
+    "92 nhiễm sắc thể đơn",
+    "46 nhiễm sắc thể đơn"
+   ],
+   "answer": 2,
+   "explanation": "Kì sau nguyên phân: mỗi NST kép tách thành 2 NST đơn đi về hai cực, tế bào chưa phân chia → 4n = 92 NST đơn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Chu trình sinh địa hóa",
+   "level": 2,
+   "stem": "Trong chu trình nitrogen, vi khuẩn phản nitrate hóa (khử nitrate) có vai trò",
+   "options": [
+    "chuyển NO₃⁻ thành N₂ trả lại khí quyển",
+    "chuyển N₂ thành NH₄⁺",
+    "chuyển NH₄⁺ thành NO₃⁻",
+    "phân giải protein thành NH₄⁺"
+   ],
+   "answer": 0,
+   "explanation": "Phản nitrate hóa khử NO₃⁻ thành N₂, làm mất nitrogen của đất; cố định nitrogen chuyển N₂ thành NH₄⁺; nitrate hóa chuyển NH₄⁺ thành NO₃⁻."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tháp sinh thái",
+   "level": 3,
+   "stem": "Tháp sinh khối có dạng đáy hẹp, đỉnh rộng (tháp ngược) thường gặp ở hệ sinh thái nào sau đây?",
+   "options": [
+    "Hệ sinh thái rừng mưa nhiệt đới",
+    "Hệ sinh thái đồng cỏ",
+    "Hệ sinh thái rừng lá kim",
+    "Hệ sinh thái dưới nước có sinh vật sản xuất là tảo đơn bào, thực vật phù du"
+   ],
+   "answer": 3,
+   "explanation": "Thực vật phù du có sinh khối tại một thời điểm nhỏ nhưng sinh sản rất nhanh, nên sinh khối của động vật phù du ăn chúng có thể lớn hơn → tháp sinh khối ngược. Tháp năng lượng luôn có dạng chuẩn."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Gene và dịch mã",
+   "level": 2,
+   "stem": "Một đoạn mạch mã gốc của gene có trình tự: 3'TAC – GGA – CTT – ATT5'.",
+   "statements": [
+    {
+     "t": "Đoạn mRNA được phiên mã từ đoạn mạch này có trình tự 5'AUG – CCU – GAA – UAA3'.",
+     "a": true
+    },
+    {
+     "t": "Đoạn mRNA này chứa codon mở đầu và codon kết thúc.",
+     "a": true
+    },
+    {
+     "t": "Chuỗi polypeptide được dịch mã từ đoạn mRNA trên gồm 4 amino acid.",
+     "a": false
+    },
+    {
+     "t": "mRNA được tổng hợp theo chiều 3' → 5'.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: bổ sung, ngược chiều (A–U, T–A, G–C, C–G). b) Đúng: AUG mở đầu, UAA kết thúc. c) Sai: UAA không mã hóa amino acid → 3 amino acid (Met – Pro – Glu). d) Sai: mRNA được tổng hợp theo chiều 5' → 3'."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Đột biến số lượng NST",
+   "level": 3,
+   "stem": "Một loài thực vật lưỡng bội có bộ nhiễm sắc thể $2n = 14$. Xét các thể đột biến: thể một, thể ba, thể tam bội và thể tứ bội của loài này.",
+   "statements": [
+    {
+     "t": "Tế bào sinh dưỡng của thể một có 13 nhiễm sắc thể.",
+     "a": true
+    },
+    {
+     "t": "Tế bào sinh dưỡng của thể tam bội có 21 nhiễm sắc thể.",
+     "a": true
+    },
+    {
+     "t": "Thể tứ bội thường có khả năng sinh sản hữu tính kém hơn thể tam bội.",
+     "a": false
+    },
+    {
+     "t": "Có tối đa 14 dạng thể ba khác nhau về nhiễm sắc thể thừa.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 2n − 1 = 13. b) Đúng: 3n = 21. c) Sai: thể tam bội (đa bội lẻ) thường bất thụ do giảm phân rối loạn; thể tứ bội có thể sinh sản hữu tính. d) Sai: thể ba có thể xảy ra ở mỗi cặp trong n = 7 cặp → 7 dạng."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hệ sinh thái",
+   "level": 2,
+   "stem": "So sánh hệ sinh thái nhân tạo (ví dụ: đồng ruộng trồng lúa) với hệ sinh thái tự nhiên (ví dụ: rừng tự nhiên).",
+   "statements": [
+    {
+     "t": "Hệ sinh thái nhân tạo thường có độ đa dạng sinh học thấp hơn hệ sinh thái tự nhiên.",
+     "a": true
+    },
+    {
+     "t": "Hệ sinh thái nhân tạo thường kém ổn định, dễ bị dịch bệnh hơn.",
+     "a": true
+    },
+    {
+     "t": "Hệ sinh thái nhân tạo không cần bổ sung năng lượng từ con người.",
+     "a": false
+    },
+    {
+     "t": "Mọi hệ sinh thái tự nhiên đều là hệ kín, không trao đổi vật chất với môi trường ngoài.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng: chuỗi thức ăn đơn giản, ít loài khống chế. c) Sai: cần bổ sung năng lượng (phân bón, công chăm sóc…). d) Sai: hệ sinh thái là hệ mở, trao đổi vật chất và năng lượng với môi trường."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hô hấp ở người (lớp 11)",
+   "level": 3,
+   "stem": "Xét các phát biểu sau về hô hấp ở người.",
+   "statements": [
+    {
+     "t": "Trao đổi khí ở phế nang diễn ra theo cơ chế khuếch tán, từ nơi có phân áp cao đến nơi có phân áp thấp.",
+     "a": true
+    },
+    {
+     "t": "Khi hít vào, cơ hoành và cơ liên sườn ngoài co, thể tích lồng ngực tăng.",
+     "a": true
+    },
+    {
+     "t": "Phần lớn CO₂ được vận chuyển trong máu dưới dạng kết hợp với hemoglobin.",
+     "a": false
+    },
+    {
+     "t": "Khí CO gây độc vì liên kết với hemoglobin rất kém bền, làm hồng cầu bị vỡ.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Đúng. c) Sai: phần lớn CO₂ vận chuyển dưới dạng ion HCO₃⁻ trong huyết tương. d) Sai: CO liên kết với hemoglobin rất bền, làm giảm khả năng vận chuyển O₂."
+  },
+  {
+   "qtype": "short",
+   "topic": "Giảm phân – giao tử",
+   "level": 1,
+   "stem": "Cơ thể có kiểu gene AaBbDDEe giảm phân bình thường, các gene phân li độc lập. Số loại giao tử tối đa được tạo ra là bao nhiêu?",
+   "answer_text": "8",
+   "explanation": "Số loại giao tử $= 2 \\cdot 2 \\cdot 1 \\cdot 2 = 8$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Di truyền quần thể – ngẫu phối",
+   "level": 2,
+   "stem": "Một quần thể có cấu trúc di truyền: 0,4 AA : 0,4 Aa : 0,2 aa. Sau một thế hệ ngẫu phối (không chịu tác động của các nhân tố tiến hóa), tần số kiểu gene aa là bao nhiêu? (Viết dạng số thập phân.)",
+   "answer_text": "0,16",
+   "explanation": "$p_A = 0{,}4 + 0{,}4 : 2 = 0{,}6$; $q_a = 0{,}4$ → sau một thế hệ ngẫu phối, aa $= q^2 = 0{,}16$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Gene – cấu trúc",
+   "level": 2,
+   "stem": "Một gene có tổng số 2 400 nucleotide, trong đó số nucleotide loại G gấp đôi số nucleotide loại A. Số nucleotide loại A của gene là bao nhiêu?",
+   "answer_text": "400",
+   "explanation": "$2A + 2G = 2400$ → $A + G = 1200$; $G = 2A$ → $A = 400$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Di truyền quần thể – số kiểu gene",
+   "level": 3,
+   "stem": "Một gene nằm trên nhiễm sắc thể thường có 3 allele. Theo lí thuyết, trong quần thể lưỡng bội của loài có tối đa bao nhiêu kiểu gene về gene này?",
+   "answer_text": "6",
+   "explanation": "Số kiểu gene $= \\dfrac{k(k+1)}{2} = \\dfrac{3 \\cdot 4}{2} = 6$ (3 đồng hợp, 3 dị hợp)."
+  }
+ ],
+ "self_check": "Kiểm bằng Python: phép lai X^AX^a × X^aY, phiên mã đoạn mạch gốc, số loại giao tử, q² sau ngẫu phối, giải hệ số nucleotide, liệt kê kiểu gene của 3 allele. Không trùng câu với de1, de2."
+}

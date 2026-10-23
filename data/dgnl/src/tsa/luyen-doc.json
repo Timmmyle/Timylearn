@@ -1,0 +1,274 @@
+{
+ "exam": "tsa",
+ "part": "doc",
+ "set": "luyen",
+ "passages": {
+  "p1": "KHÁNG KHÁNG SINH – CUỘC CHẠY ĐUA KHÔNG CÂN SỨC\n[1] Năm 1928, nhà khoa học người Scotland Alexander Fleming nhận thấy một đĩa nuôi cấy vi khuẩn tụ cầu bị nhiễm nấm mốc Penicillium, và quanh vùng nấm mốc, vi khuẩn không phát triển được. Phát hiện tình cờ ấy mở đường cho penicillin – loại kháng sinh được sản xuất hàng loạt từ những năm 1940 và đã cứu sống vô số người. Những bệnh nhiễm khuẩn từng gây tử vong cao như viêm phổi, nhiễm trùng vết thương hay nhiễm trùng sau sinh trở nên có thể chữa trị. Thế nhưng, ngay trong bài giảng khi nhận giải Nobel năm 1945, Fleming đã cảnh báo rằng việc dùng penicillin không đủ liều có thể khiến vi khuẩn trở nên đề kháng.\n[2] Kháng kháng sinh là một ví dụ sống động của chọn lọc tự nhiên. Trong một quần thể vi khuẩn khổng lồ, luôn có thể có một số ít cá thể mang biến dị ngẫu nhiên giúp chúng sống sót trước thuốc, chẳng hạn bằng cách tạo ra enzyme phân hủy kháng sinh, thay đổi vị trí mà thuốc bám vào hoặc bơm thuốc ra khỏi tế bào. Khi kháng sinh tiêu diệt các vi khuẩn nhạy cảm, những cá thể đề kháng còn lại có thêm không gian và dinh dưỡng để sinh sôi. Cần lưu ý rằng vai trò chủ yếu của kháng sinh không phải là “dạy” vi khuẩn kháng thuốc, mà là tạo ra áp lực chọn lọc khiến những biến thể đề kháng vốn đã xuất hiện trở nên chiếm ưu thế.\n[3] Điều khiến vấn đề trầm trọng hơn là vi khuẩn còn có thể trao đổi gen với nhau, kể cả giữa các loài khác nhau, qua cơ chế chuyển gen ngang. Các gen kháng thuốc thường nằm trên plasmid – những phân tử ADN dạng vòng, kích thước nhỏ, có thể được sao chép và truyền từ tế bào này sang tế bào khác. Nhờ vậy, khả năng đề kháng có thể lan rộng nhanh hơn nhiều so với việc chỉ được truyền từ thế hệ trước sang thế hệ sau.\n[4] Con người đã vô tình đẩy nhanh quá trình này. Kháng sinh thường bị dùng để chữa cảm cúm thông thường – bệnh do virus gây ra, trong khi kháng sinh không có tác dụng diệt virus. Ở nhiều nơi, người dân có thể mua kháng sinh mà không cần đơn của bác sĩ. Trong chăn nuôi, kháng sinh từng được trộn vào thức ăn với liều thấp để kích thích vật nuôi tăng trọng, một thực hành mà nhiều quốc gia đã hạn chế hoặc cấm. Mỗi lần kháng sinh được dùng không cần thiết là một lần áp lực chọn lọc được tạo ra.\n[5] Trong khi đó, nguồn thuốc mới ngày càng cạn kiệt. Phát triển một kháng sinh mới tốn kém và mất nhiều năm, nhưng lợi nhuận lại thấp: thuốc mới thường được giữ làm “phương án cuối cùng” để hạn chế nguy cơ kháng thuốc nên bán được ít, và bệnh nhân chỉ dùng trong vài ngày thay vì dùng lâu dài như thuốc điều trị bệnh mạn tính. Nhiều công ty dược lớn vì thế đã rút khỏi lĩnh vực này.\n[6] Đối phó với kháng kháng sinh đòi hỏi cách tiếp cận “Một sức khỏe”, kết nối y tế, thú y và môi trường: chỉ dùng kháng sinh khi có chỉ định, giám sát tình trạng kháng thuốc, cải thiện vệ sinh và tiêm chủng để giảm nhiễm khuẩn ngay từ đầu, đồng thời xây dựng cơ chế tài chính mới khuyến khích nghiên cứu thuốc. Kháng sinh, xét cho cùng, là một nguồn tài nguyên chung: mỗi người dùng sai đều làm hao mòn hiệu quả của nó đối với tất cả.",
+  "p2": "PIN LITHIUM-ION: TỪ CHIẾC “GHẾ BẬP BÊNH” ĐẾN “MỎ ĐÔ THỊ”\n[1] Từ chiếc điện thoại trong túi đến ô tô điện trên phố, phần lớn thiết bị di động ngày nay đều chạy bằng pin lithium-ion. Công nghệ này được thương mại hóa lần đầu vào năm 1991 và mang về giải Nobel Hóa học năm 2019 cho ba nhà khoa học John Goodenough, Stanley Whittingham và Akira Yoshino. Ưu điểm lớn nhất của nó là mật độ năng lượng cao: với cùng một khối lượng, pin lithium-ion lưu trữ được nhiều năng lượng hơn hẳn pin chì – axit hay pin niken – cađimi truyền thống.\n[2] Nguyên lý hoạt động của pin thường được ví như một chiếc “ghế bập bênh”. Pin gồm hai điện cực: cực âm thường làm bằng than chì (graphit), cực dương là một hợp chất chứa lithium như lithium coban oxit hoặc lithium sắt photphat. Giữa chúng là chất điện phân cho phép ion lithium đi qua và một màng ngăn cách điện. Khi sạc, ion lithium di chuyển từ cực dương sang cực âm và xen vào giữa các lớp than chì; khi pin phóng điện, chúng đi theo chiều ngược lại, còn electron chạy qua mạch ngoài để cung cấp điện cho thiết bị. Như vậy, lithium không bị “đốt cháy” hay tiêu hao như nhiên liệu mà chủ yếu chỉ đi lại giữa hai cực.\n[3] Tuy vậy, mỗi chu kỳ sạc – xả đều để lại những tổn hao nhỏ. Một phần lithium bị giữ lại trong lớp màng mỏng hình thành trên bề mặt cực âm, gọi là lớp SEI, và không còn tham gia vận chuyển điện tích; các vật liệu điện cực cũng dần nứt vỡ do co giãn lặp đi lặp lại. Nhiệt độ cao, sạc quá nhanh, hay thường xuyên để pin cạn kiệt hoặc ở mức đầy 100% trong thời gian dài đều làm quá trình lão hóa diễn ra nhanh hơn. Đó là lý do một chiếc điện thoại sau vài năm sử dụng thường không còn giữ pin lâu như lúc mới mua.\n[4] Khi số lượng xe điện tăng nhanh, câu hỏi về số phận của pin sau khi hết hạn sử dụng trở nên cấp bách. Pin chứa nhiều kim loại có giá trị như lithium, coban, niken, mangan – những kim loại mà việc khai thác thường gắn với chi phí lớn về môi trường và xã hội. Nếu bị chôn lấp hoặc xử lý không đúng cách, pin có thể gây cháy nổ và rò rỉ chất độc hại. Ngược lại, nếu được thu hồi, chúng trở thành một “mỏ khoáng sản đô thị”.\n[5] Hiện có hai hướng tái chế chính. Phương pháp hỏa luyện nung chảy pin ở nhiệt độ cao để thu hồi hợp kim chứa coban, niken, đồng; cách này tương đối đơn giản và xử lý được nhiều loại pin, nhưng tốn nhiều năng lượng, còn lithium thường đi vào xỉ và khó thu hồi. Phương pháp thủy luyện dùng dung dịch axit để hòa tan rồi tách riêng từng kim loại, cho tỉ lệ thu hồi cao hơn, kể cả lithium, nhưng phát sinh nước thải hóa chất cần được xử lý. Các nhà nghiên cứu cũng đang phát triển phương pháp “tái chế trực tiếp”, tức là phục hồi vật liệu cực dương mà không phá vỡ cấu trúc tinh thể của nó, hứa hẹn tiết kiệm năng lượng hơn.\n[6] Trước khi đến nhà máy tái chế, nhiều bộ pin xe điện vẫn còn khá nhiều dung lượng; chúng thường được thay khi dung lượng chỉ còn khoảng 70–80% so với ban đầu. Những bộ pin này có thể có “cuộc đời thứ hai” trong các hệ thống lưu trữ điện cố định, chẳng hạn lưu điện mặt trời cho tòa nhà, nơi yêu cầu về khối lượng và kích thước không khắt khe như trên xe. Việc thiết kế pin dễ tháo rời, ghi nhãn thành phần rõ ràng và quy định trách nhiệm thu hồi của nhà sản xuất sẽ quyết định “mỏ đô thị” này được khai thác hiệu quả đến đâu."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – mục đích đoạn",
+   "level": 2,
+   "stem": "Đoạn [1] của bài “Kháng kháng sinh – cuộc chạy đua không cân sức” có vai trò gì?",
+   "options": [
+    "Giới thiệu sự ra đời, giá trị của kháng sinh, đồng thời gợi mở nguy cơ kháng thuốc sẽ được bàn ở các đoạn sau.",
+    "Giải thích cơ chế sinh học giúp vi khuẩn kháng thuốc.",
+    "Đánh giá Fleming là nhà khoa học vĩ đại nhất thế kỷ XX.",
+    "Đề xuất các giải pháp hạn chế kháng kháng sinh."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Đoạn [1] kể việc phát hiện penicillin, ích lợi của nó và kết bằng lời cảnh báo của Fleming về đề kháng – cầu nối sang nội dung chính."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Cơ chế nào sau đây KHÔNG được đoạn [2] nêu là cách giúp vi khuẩn sống sót trước kháng sinh?",
+   "options": [
+    "Tạo enzyme phân hủy kháng sinh.",
+    "Tạo vỏ dày bao quanh để ngừng mọi hoạt động sống trong thời gian dài.",
+    "Thay đổi vị trí mà thuốc bám vào.",
+    "Bơm thuốc ra khỏi tế bào."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Đoạn [2] chỉ liệt kê ba cơ chế: enzyme phân hủy, thay đổi vị trí bám, bơm thuốc ra ngoài."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – từ ngữ trong ngữ cảnh",
+   "level": 2,
+   "stem": "Theo đoạn [2], cụm từ “áp lực chọn lọc” do kháng sinh tạo ra được hiểu là",
+   "options": [
+    "việc kháng sinh chủ động tạo ra đột biến kháng thuốc trong mọi vi khuẩn.",
+    "sức ép buộc bác sĩ phải chọn loại kháng sinh mạnh hơn.",
+    "việc vi khuẩn tự lựa chọn môi trường có ít kháng sinh để sinh sống.",
+    "điều kiện môi trường khiến vi khuẩn nhạy cảm bị loại bỏ, nhờ đó các biến thể đề kháng sẵn có trở nên chiếm ưu thế."
+   ],
+   "answer": 3,
+   "explanation": "Chọn D. Đoạn [2]: vai trò chủ yếu của kháng sinh 'không phải là dạy vi khuẩn kháng thuốc, mà là tạo ra áp lực chọn lọc khiến những biến thể đề kháng vốn đã xuất hiện trở nên chiếm ưu thế'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Vì sao chuyển gen ngang làm cho vấn đề kháng thuốc “trầm trọng hơn”?",
+   "options": [
+    "Vì gen kháng thuốc có thể truyền giữa các tế bào đang sống, kể cả khác loài, nên lan rộng nhanh hơn so với chỉ truyền qua các thế hệ.",
+    "Vì chuyển gen ngang tạo ra các loài vi khuẩn mới miễn nhiễm với mọi loại thuốc.",
+    "Vì plasmid làm tăng kích thước tế bào vi khuẩn khiến thuốc khó xâm nhập.",
+    "Vì chuyển gen ngang chỉ xảy ra khi người bệnh dùng kháng sinh không đủ liều."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Đoạn [3]: gen trên plasmid 'được sao chép và truyền từ tế bào này sang tế bào khác', 'kể cả giữa các loài khác nhau', nên đề kháng 'lan rộng nhanh hơn nhiều'. Các phương án khác không có trong bài."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p1",
+   "topic": "Đọc hiểu – đúng/sai",
+   "level": 2,
+   "stem": "Dựa vào bài đọc về kháng kháng sinh, xác định mỗi nhận định sau là Đúng hay Sai.",
+   "statements": [
+    {
+     "t": "Kháng sinh không có tác dụng diệt virus gây cảm cúm thông thường.",
+     "a": true
+    },
+    {
+     "t": "Gen kháng thuốc nằm trên plasmid chỉ có thể truyền từ tế bào mẹ sang tế bào con.",
+     "a": false
+    },
+    {
+     "t": "Lợi nhuận thấp là một lý do khiến nhiều công ty dược lớn rút khỏi lĩnh vực phát triển kháng sinh.",
+     "a": true
+    },
+    {
+     "t": "Fleming tìm ra penicillin nhờ một nghiên cứu được lên kế hoạch có chủ đích về nấm mốc.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: đoạn [4]. b) Sai: plasmid truyền 'từ tế bào này sang tế bào khác', kể cả khác loài (đoạn [3]). c) Đúng: đoạn [5]. d) Sai: đó là 'phát hiện tình cờ' (đoạn [1])."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Một bệnh viện giảm mạnh việc kê kháng sinh không cần thiết. Theo lập luận của bài, về lâu dài điều nào có khả năng xảy ra nhất?",
+   "options": [
+    "Vi khuẩn kháng thuốc sẽ biến mất hoàn toàn khỏi bệnh viện.",
+    "Các công ty dược sẽ lập tức quay lại nghiên cứu kháng sinh mới.",
+    "Áp lực chọn lọc giảm, nên tốc độ gia tăng vi khuẩn kháng thuốc có thể chậm lại.",
+    "Vi khuẩn sẽ ngừng trao đổi gen qua plasmid."
+   ],
+   "answer": 2,
+   "explanation": "Chọn C. Đoạn [4]: 'Mỗi lần kháng sinh được dùng không cần thiết là một lần áp lực chọn lọc được tạo ra' → giảm dùng thì giảm áp lực chọn lọc, làm chậm (không xóa bỏ) sự lan rộng. Các phương án còn lại là kết luận quá mức."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – quan điểm tác giả",
+   "level": 3,
+   "stem": "Khi viết “Kháng sinh… là một nguồn tài nguyên chung”, tác giả muốn nhấn mạnh điều gì?",
+   "options": [
+    "Kháng sinh nên được phân phối miễn phí cho mọi người dân.",
+    "Hiệu quả của kháng sinh được cả cộng đồng chia sẻ, nên việc dùng sai của mỗi cá nhân gây thiệt hại cho tất cả.",
+    "Kháng sinh được chiết xuất từ tài nguyên thiên nhiên nên sắp cạn kiệt.",
+    "Chỉ nhà nước mới có quyền sản xuất và kinh doanh kháng sinh."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Vế sau của câu giải thích: 'mỗi người dùng sai đều làm hao mòn hiệu quả của nó đối với tất cả' – đặc trưng của tài nguyên dùng chung."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – hoàn thành tóm tắt",
+   "level": 1,
+   "stem": "Chọn phương án điền đúng vào câu tóm tắt: “Kháng kháng sinh là kết quả của (1) ___, được đẩy nhanh bởi (2) ___ và việc lạm dụng thuốc, trong khi việc phát triển thuốc mới bị cản trở bởi (3) ___.”",
+   "options": [
+    "(1) chọn lọc tự nhiên; (2) tiêm chủng; (3) lợi nhuận thấp",
+    "(1) chọn lọc tự nhiên; (2) chuyển gen ngang; (3) lợi nhuận thấp",
+    "(1) đột biến do thuốc chủ động gây ra; (2) chuyển gen ngang; (3) thiếu nhà khoa học",
+    "(1) chọn lọc tự nhiên; (2) chuyển gen ngang; (3) nhu cầu quá cao"
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Đoạn [2]: chọn lọc tự nhiên; đoạn [3]–[4]: chuyển gen ngang và lạm dụng thuốc làm vấn đề trầm trọng, nhanh hơn; đoạn [5]: lợi nhuận thấp khiến công ty rút lui. Tiêm chủng là giải pháp, không phải tác nhân."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "Bài “Pin lithium-ion: từ chiếc ‘ghế bập bênh’ đến ‘mỏ đô thị’” chủ yếu đề cập đến nội dung gì?",
+   "options": [
+    "Nguyên lý hoạt động, sự lão hóa của pin lithium-ion và các hướng tận dụng, tái chế pin sau khi hết hạn sử dụng.",
+    "Lịch sử giải Nobel Hóa học năm 2019.",
+    "Cách chọn mua điện thoại có pin bền nhất.",
+    "Tác hại của việc khai thác coban đối với môi trường."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Đoạn [1]–[2]: ưu điểm, nguyên lý; [3]: lão hóa; [4]–[6]: số phận pin cũ, tái chế, cuộc đời thứ hai. Các phương án khác chỉ là chi tiết nhỏ hoặc không có trong bài."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – từ ngữ trong ngữ cảnh",
+   "level": 1,
+   "stem": "Hình ảnh “ghế bập bênh” trong đoạn [2] mô tả điều gì?",
+   "options": [
+    "Điện áp của pin lúc tăng lúc giảm không ổn định.",
+    "Pin bị đốt cháy dần lượng lithium sau mỗi lần sử dụng.",
+    "Hai điện cực của pin được làm từ cùng một loại vật liệu.",
+    "Ion lithium di chuyển qua lại giữa hai điện cực khi pin được sạc và phóng điện."
+   ],
+   "answer": 3,
+   "explanation": "Chọn D. Đoạn [2]: khi sạc ion đi từ cực dương sang cực âm, khi phóng điện đi chiều ngược lại; lithium 'chủ yếu chỉ đi lại giữa hai cực'."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "Theo đoạn [2], khi SẠC pin lithium-ion, điều gì xảy ra?",
+   "options": [
+    "Ion lithium di chuyển từ cực dương sang cực âm và xen vào giữa các lớp than chì.",
+    "Ion lithium di chuyển từ cực âm sang cực dương.",
+    "Electron đi qua chất điện phân từ cực dương sang cực âm.",
+    "Lithium bị đốt cháy để giải phóng năng lượng."
+   ],
+   "answer": 0,
+   "explanation": "Chọn A. Đoạn [2] nói rõ chiều chuyển động khi sạc; electron chạy qua mạch ngoài (chất điện phân cho ion đi qua, màng ngăn cách điện)."
+  },
+  {
+   "qtype": "tf",
+   "passage": "p2",
+   "topic": "Đọc hiểu – đúng/sai",
+   "level": 2,
+   "stem": "Dựa vào bài đọc về pin lithium-ion, xác định mỗi nhận định sau là Đúng hay Sai.",
+   "statements": [
+    {
+     "t": "Với cùng khối lượng, pin lithium-ion lưu trữ nhiều năng lượng hơn pin chì – axit.",
+     "a": true
+    },
+    {
+     "t": "Lớp SEI làm tăng lượng lithium tham gia vận chuyển điện tích sau mỗi chu kỳ.",
+     "a": false
+    },
+    {
+     "t": "Phương pháp hỏa luyện thu hồi lithium hiệu quả hơn phương pháp thủy luyện.",
+     "a": false
+    },
+    {
+     "t": "Pin xe điện đã qua sử dụng có thể được dùng lại trong hệ thống lưu trữ điện cố định.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: đoạn [1]. b) Sai: lithium bị giữ lại trong lớp SEI và 'không còn tham gia vận chuyển điện tích' (đoạn [3]). c) Sai: ở hỏa luyện lithium 'đi vào xỉ và khó thu hồi', thủy luyện thu hồi được cả lithium (đoạn [5]). d) Đúng: đoạn [6]."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – từ ngữ trong ngữ cảnh",
+   "level": 2,
+   "stem": "Cụm từ “mỏ khoáng sản đô thị” trong đoạn [4] được dùng để chỉ",
+   "options": [
+    "các mỏ khoáng sản nằm ngay dưới lòng các thành phố.",
+    "khu vực đô thị bị ô nhiễm do rò rỉ chất độc từ pin.",
+    "các nhà máy sản xuất pin đặt tại thành phố.",
+    "nguồn kim loại có giá trị có thể thu hồi từ pin thải bỏ thay vì khai thác từ lòng đất."
+   ],
+   "answer": 3,
+   "explanation": "Chọn D. Câu trước nêu pin chứa lithium, coban, niken, mangan có giá trị; 'nếu được thu hồi, chúng trở thành một mỏ khoáng sản đô thị' – cách nói ẩn dụ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Dựa vào đoạn [3], thói quen nào sau đây giúp kéo dài tuổi thọ pin điện thoại hợp lý nhất?",
+   "options": [
+    "Luôn dùng đến khi pin cạn hoàn toàn rồi mới sạc.",
+    "Thường xuyên sạc đầy 100% và để cắm sạc suốt đêm.",
+    "Tránh để máy quá nóng, hạn chế sạc nhanh khi không cần thiết, không để pin thường xuyên cạn kiệt hoặc đầy 100% trong thời gian dài.",
+    "Đặt điện thoại dưới nắng khi sạc để pin nạp nhanh hơn."
+   ],
+   "answer": 2,
+   "explanation": "Chọn C. Đoạn [3] nêu các yếu tố đẩy nhanh lão hóa: nhiệt độ cao, sạc quá nhanh, thường xuyên cạn kiệt hoặc đầy 100% lâu. Ba phương án sai đều rơi vào các yếu tố này."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – mục đích đoạn",
+   "level": 2,
+   "stem": "Đoạn [5] được triển khai chủ yếu theo cách nào?",
+   "options": [
+    "Kể lại lịch sử ra đời của ngành tái chế pin.",
+    "Phân tích nguyên nhân khiến pin bị lão hóa.",
+    "So sánh ưu điểm và hạn chế của các phương pháp tái chế pin.",
+    "Liệt kê các kim loại có trong pin và giá trị kinh tế của chúng."
+   ],
+   "answer": 2,
+   "explanation": "Chọn C. Đoạn [5] đặt cạnh nhau hỏa luyện (đơn giản nhưng tốn năng lượng, khó thu lithium), thủy luyện (thu hồi cao nhưng có nước thải) và tái chế trực tiếp (hứa hẹn tiết kiệm năng lượng)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Theo bài, vì sao pin xe điện đã giảm dung lượng lại phù hợp với hệ thống lưu trữ điện cố định?",
+   "options": [
+    "Vì hệ thống lưu trữ cố định không cần dùng pin có dung lượng.",
+    "Vì ở hệ thống cố định, việc pin nặng và chiếm nhiều chỗ hơn so với lượng điện lưu trữ được vẫn có thể chấp nhận.",
+    "Vì pin dùng ở hệ thống cố định sẽ tự phục hồi về 100% dung lượng.",
+    "Vì hệ thống lưu trữ cố định chỉ dùng được pin đã qua sử dụng."
+   ],
+   "answer": 1,
+   "explanation": "Chọn B. Đoạn [6]: ở đó 'yêu cầu về khối lượng và kích thước không khắt khe như trên xe'. Pin còn 70–80% dung lượng nghĩa là cùng khối lượng, kích thước nhưng lưu được ít điện hơn – bất lợi trên xe, chấp nhận được khi đặt cố định."
+  }
+ ],
+ "self_check": "Hai bài đọc tự viết (kháng kháng sinh; pin lithium-ion và tái chế), khác chủ đề với de1/de2; các mốc lịch sử (1928, 1945, 1991, Nobel 2019) đã đối chiếu; rà từng câu với đoạn văn để chỉ một đáp án đúng; tf có cả Đúng/Sai; đáp án rải đều; chạy dgnl-check ✓."
+}

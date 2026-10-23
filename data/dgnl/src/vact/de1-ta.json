@@ -1,0 +1,441 @@
+{
+ "exam": "vact",
+ "part": "ta",
+ "set": "de1",
+ "passages": {
+  "p1": "In many large cities, land is expensive and fresh vegetables often travel hundreds of kilometres before reaching the supermarket. Vertical farming is one response to this problem. Instead of growing crops in wide fields, vertical farms stack them in layers inside buildings, sometimes in old warehouses or even in shipping containers. The plants usually grow without soil, their roots sitting in water that contains carefully measured nutrients, while LED lights replace the sun.\nSupporters argue that this method offers several advantages. Because conditions inside the building are controlled, crops can be harvested all year round, regardless of droughts, storms or cold winters. Pests are easier to keep out, so farmers need fewer chemicals. In addition, the water in many systems is recycled, which means far less is wasted than in traditional irrigation. Perhaps most importantly, food can be produced close to the people who eat it, reducing the cost and pollution of long-distance transport.\nHowever, vertical farming is not a perfect solution. The biggest challenge is energy. Lights, pumps and air-conditioning systems must run day and night, and electricity bills can be extremely high. If that electricity comes from burning coal or gas, the environmental benefits may largely disappear. Building a vertical farm also requires a large initial investment, and several companies in the industry have closed after failing to make a profit. Moreover, the technique currently works best for leafy greens and herbs, which grow quickly and are light. Staple crops such as rice or wheat need much more space and light, so growing them indoors is rarely practical.\nFor these reasons, most experts see vertical farming as a complement to traditional agriculture rather than a replacement for it. As renewable energy becomes cheaper, however, its role may grow.",
+  "p2": "For decades, parents have complained that teenagers stay up too late and are almost impossible to wake in the morning. It is easy to blame this habit on laziness or on smartphones, but scientists now believe that biology plays an important role.\nEvery person has an internal \"body clock\", known as the circadian rhythm, which tells the body when to feel sleepy and when to feel alert. One of the signals this clock uses is melatonin, a hormone that makes us feel tired. During adolescence, the body begins to release melatonin later in the evening than it did in childhood. As a result, many teenagers simply do not feel sleepy until late at night, even if they go to bed early. At the same time, most experts agree that teenagers still need around eight to ten hours of sleep a night, which is more than many adults need.\nThe problem is that school timetables rarely take this change into account. When classes begin early in the morning, students who fell asleep late are forced to wake up before their bodies are ready. Over time, this lack of sleep can affect their concentration, memory and mood, and it may even make them more likely to have accidents.\nSome schools have experimented with starting the day later, and several studies have reported that students in these schools become more alert in class. Critics, however, point out that later start times can create difficulties for parents' work schedules and for after-school activities.\nTechnology does not help either. The blue light from phone and computer screens can further delay the release of melatonin. Therefore, even if teenagers cannot change their school timetable, they can protect their sleep by putting their devices away at least an hour before bed."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Thì động từ",
+   "level": 1,
+   "stem": "By the time we arrived at the station, the train ______.",
+   "options": [
+    "had already left",
+    "has already left",
+    "was already leaving",
+    "would already leave"
+   ],
+   "answer": 0,
+   "explanation": "Hành động xảy ra trước một mốc/hành động khác trong quá khứ (By the time + quá khứ đơn) → dùng quá khứ hoàn thành: had already left."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mệnh đề quan hệ",
+   "level": 1,
+   "stem": "The scientist ______ research on coral reefs won an award last year is giving a talk at our school today.",
+   "options": [
+    "who",
+    "whose",
+    "which",
+    "whom"
+   ],
+   "answer": 1,
+   "explanation": "Sau chỗ trống là danh từ \"research\" (nghiên cứu của nhà khoa học) → cần đại từ quan hệ chỉ sở hữu \"whose\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu bị động",
+   "level": 2,
+   "stem": "A new bridge across the river ______ at the moment, so traffic in the area is very heavy.",
+   "options": [
+    "is building",
+    "has built",
+    "is being built",
+    "was built"
+   ],
+   "answer": 2,
+   "explanation": "Chủ ngữ \"a new bridge\" chịu tác động (bị xây) và có \"at the moment\" → bị động hiện tại tiếp diễn: is being built."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu điều kiện",
+   "level": 2,
+   "stem": "If she ______ the instructions carefully, she wouldn't have made such a serious mistake.",
+   "options": [
+    "read",
+    "has read",
+    "would read",
+    "had read"
+   ],
+   "answer": 3,
+   "explanation": "Mệnh đề chính \"wouldn't have made\" → điều kiện loại 3 (trái quá khứ), mệnh đề if dùng quá khứ hoàn thành: had read."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Câu điều kiện",
+   "level": 3,
+   "stem": "If I had accepted that job offer in Da Nang two years ago, I ______ by the sea now.",
+   "options": [
+    "would be living",
+    "would have lived",
+    "will live",
+    "had lived"
+   ],
+   "answer": 0,
+   "explanation": "Câu điều kiện hỗn hợp: giả định trái quá khứ (had accepted … two years ago) dẫn đến kết quả trái hiện tại (now) → would + V: would be living."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Collocation",
+   "level": 2,
+   "stem": "Before making a final decision, you should ______ all the advantages and disadvantages into account.",
+   "options": [
+    "make",
+    "take",
+    "put",
+    "bring"
+   ],
+   "answer": 1,
+   "explanation": "Cụm cố định: take something into account = cân nhắc, tính đến điều gì."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Cụm động từ",
+   "level": 2,
+   "stem": "The meeting has been ______ until next Monday because the manager is ill.",
+   "options": [
+    "put on",
+    "called up",
+    "put off",
+    "taken over"
+   ],
+   "answer": 2,
+   "explanation": "put off = hoãn lại (= postpone). put on: mặc/bật; call up: gọi điện; take over: tiếp quản."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ loại",
+   "level": 1,
+   "stem": "Regular exercise has a positive effect on both your physical and mental ______.",
+   "options": [
+    "healthy",
+    "healthily",
+    "healthful",
+    "health"
+   ],
+   "answer": 3,
+   "explanation": "Sau hai tính từ \"physical and mental\" cần một danh từ → health (sức khỏe)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ loại",
+   "level": 2,
+   "stem": "The city has introduced new measures to make public transport more ______ to elderly and disabled people.",
+   "options": [
+    "accessible",
+    "access",
+    "accessibility",
+    "accessibly"
+   ],
+   "answer": 0,
+   "explanation": "Cấu trúc make + O + adj; \"more ___ to\" cần tính từ → accessible (dễ tiếp cận). be accessible to sb."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Từ vựng – cấu trúc",
+   "level": 3,
+   "stem": "The heavy rain caused severe flooding, which ______ thousands of families to leave their homes.",
+   "options": [
+    "made",
+    "forced",
+    "let",
+    "had"
+   ],
+   "answer": 1,
+   "explanation": "force sb to do sth = buộc ai làm gì. Các động từ make/let/have dùng với V nguyên mẫu không \"to\" (made them leave), nên không hợp với \"to leave\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đảo ngữ",
+   "level": 3,
+   "stem": "______ had the concert started than the power suddenly went out.",
+   "options": [
+    "Hardly",
+    "Scarcely",
+    "No sooner",
+    "Only when"
+   ],
+   "answer": 2,
+   "explanation": "Cấu trúc đảo ngữ: No sooner + had + S + V3 + than … (vừa mới … thì). Hardly/Scarcely đi với \"when\", không đi với \"than\"."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Danh động từ – động từ nguyên mẫu",
+   "level": 2,
+   "stem": "I clearly remember ______ the door before leaving, but now it is wide open.",
+   "options": [
+    "to lock",
+    "lock",
+    "locked",
+    "locking"
+   ],
+   "answer": 3,
+   "explanation": "remember + V-ing = nhớ là đã làm việc gì (hành động đã xảy ra); remember + to V = nhớ phải làm việc gì. Ở đây người nói nhớ đã khóa cửa → locking."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 2,
+   "stem": "Choose the underlined part that needs correction: The number of students (A) who have registered for (B) the English course (C) are increasing (D) rapidly this year.",
+   "options": [
+    "A. who have registered for",
+    "B. the English course",
+    "C. are increasing",
+    "D. rapidly"
+   ],
+   "answer": 2,
+   "explanation": "\"The number of + N số nhiều\" là chủ ngữ số ít → động từ chia số ít: are increasing → is increasing."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction: Neither the teacher (A) nor her students (B) was aware (C) that the final exam (D) had been postponed.",
+   "options": [
+    "A. nor her students",
+    "B. was aware",
+    "C. that the final exam",
+    "D. had been postponed"
+   ],
+   "answer": 1,
+   "explanation": "Với Neither … nor …, động từ chia theo chủ ngữ gần nhất \"her students\" (số nhiều) → was aware → were aware."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 1,
+   "stem": "Choose the underlined part that needs correction: The (A) economic growth of the region (B) depends heavily (C) on the (D) develop of tourism.",
+   "options": [
+    "A. economic",
+    "B. depends heavily",
+    "C. on the",
+    "D. develop"
+   ],
+   "answer": 3,
+   "explanation": "Sau mạo từ \"the\" và trước \"of\" cần danh từ → develop → development."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tìm lỗi sai",
+   "level": 3,
+   "stem": "Choose the underlined part that needs correction: The documentary, (A) that was filmed over three years, (B) shows how (C) climate change is affecting (D) the lives of Arctic animals.",
+   "options": [
+    "A. that was filmed",
+    "B. shows how",
+    "C. climate change is affecting",
+    "D. the lives of"
+   ],
+   "answer": 0,
+   "explanation": "Mệnh đề quan hệ không xác định (có dấu phẩy) không dùng \"that\" → that was filmed → which was filmed."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 2,
+   "stem": "Choose the sentence that is closest in meaning to: \"She started learning English six years ago.\"",
+   "options": [
+    "She has been learning English for six years.",
+    "She has started learning English for six years.",
+    "She learned English for six years.",
+    "She had learned English six years ago."
+   ],
+   "answer": 0,
+   "explanation": "S + started + V-ing + time + ago = S + have/has been + V-ing + for + time. Hành động bắt đầu từ quá khứ, vẫn tiếp diễn → hiện tại hoàn thành tiếp diễn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 2,
+   "stem": "Choose the sentence that is closest in meaning to: \"Don't touch the wet paint,\" the guard said to the children.",
+   "options": [
+    "The guard told the children to not touching the wet paint.",
+    "The guard told the children not to touch the wet paint.",
+    "The guard asked the children if they touched the wet paint.",
+    "The guard reminded the children of touching the wet paint."
+   ],
+   "answer": 1,
+   "explanation": "Câu mệnh lệnh phủ định trong lời nói gián tiếp: tell sb not to do sth."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Viết lại câu",
+   "level": 3,
+   "stem": "Choose the sentence that is closest in meaning to: \"It was a mistake for you to ignore the doctor's advice.\"",
+   "options": [
+    "You mustn't have ignored the doctor's advice.",
+    "You needn't have ignored the doctor's advice.",
+    "You shouldn't have ignored the doctor's advice.",
+    "You couldn't have ignored the doctor's advice."
+   ],
+   "answer": 2,
+   "explanation": "shouldn't have + V3 = lẽ ra không nên làm (nhưng đã làm) → diễn tả việc làm sai trong quá khứ. needn't have: không cần làm; couldn't have: không thể nào đã làm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hội thoại",
+   "level": 1,
+   "stem": "Mai: \"Would you mind if I opened the window?\" – Nam: \"______\"",
+   "options": [
+    "Yes, I'd love to.",
+    "You're welcome.",
+    "Never mind.",
+    "Not at all. Go ahead."
+   ],
+   "answer": 3,
+   "explanation": "Đáp lại lời xin phép \"Would you mind if …?\" khi đồng ý: \"Not at all. Go ahead.\" (Không phiền gì, cứ làm đi)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hội thoại",
+   "level": 2,
+   "stem": "Linh: \"I've just passed my driving test!\" – Huy: \"______\"",
+   "options": [
+    "Congratulations! That's great news.",
+    "Never mind. Better luck next time.",
+    "It's my pleasure.",
+    "Thanks a lot."
+   ],
+   "answer": 0,
+   "explanation": "Bạn báo tin vui (thi đỗ bằng lái) → lời chúc mừng phù hợp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 2,
+   "stem": "What is the passage mainly about?",
+   "options": [
+    "The reasons why traditional farming will soon disappear",
+    "The benefits and limitations of growing crops indoors in stacked layers",
+    "The history of farming in large cities",
+    "How LED lights were invented for agriculture"
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 2 nêu ưu điểm, đoạn 3 nêu hạn chế của vertical farming, đoạn 4 kết luận nó bổ sung cho nông nghiệp truyền thống → bài nói về lợi ích và hạn chế của việc trồng cây xếp tầng trong nhà."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to the passage, which of the following is NOT mentioned as an advantage of vertical farming?",
+   "options": [
+    "Crops can be harvested throughout the year.",
+    "Fewer chemicals are needed to control pests.",
+    "It is suitable for growing staple crops such as rice.",
+    "Less water is wasted than in traditional irrigation."
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 3 nói cây lương thực như lúa, lúa mì cần nhiều không gian và ánh sáng nên trồng trong nhà \"rarely practical\" → đây không phải ưu điểm. Ba ý còn lại đều có ở đoạn 2."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 2,
+   "stem": "The word \"complement\" in paragraph 4 is closest in meaning to",
+   "options": [
+    "a competitor",
+    "an expression of praise",
+    "an obstacle",
+    "something that adds to and improves another thing"
+   ],
+   "answer": 3,
+   "explanation": "\"a complement to traditional agriculture rather than a replacement\" = thứ bổ sung, hỗ trợ cho nông nghiệp truyền thống chứ không thay thế. (Chú ý phân biệt với compliment = lời khen.)"
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "It can be inferred from paragraph 3 that vertical farming is most environmentally beneficial when",
+   "options": [
+    "its electricity comes from renewable sources",
+    "it is located in old warehouses",
+    "it is used to grow wheat and rice",
+    "its plants are grown in soil instead of water"
+   ],
+   "answer": 0,
+   "explanation": "Đoạn 3: nếu điện từ đốt than/khí thì lợi ích môi trường gần như biến mất; đoạn 4: năng lượng tái tạo rẻ hơn thì vai trò của nó tăng → có lợi nhất cho môi trường khi dùng điện tái tạo."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – ý chính",
+   "level": 3,
+   "stem": "Which of the following would be the best title for the passage?",
+   "options": [
+    "How to Become a Morning Person",
+    "Why Teenagers Struggle to Wake Up Early",
+    "The Dangers of Smartphones for Children",
+    "Why Adults Need More Sleep Than Teenagers"
+   ],
+   "answer": 1,
+   "explanation": "Bài giải thích nguyên nhân sinh học (melatonin tiết muộn) khiến thiếu niên ngủ muộn, khó dậy sớm và hệ quả với lịch học. Phương án về người lớn ngủ nhiều hơn trái với bài; về smartphone chỉ là ý phụ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – chi tiết",
+   "level": 1,
+   "stem": "According to paragraph 2, what happens to melatonin during adolescence?",
+   "options": [
+    "It stops being produced completely.",
+    "It is released earlier in the evening.",
+    "It is released later in the evening than in childhood.",
+    "It makes teenagers feel more alert."
+   ],
+   "answer": 2,
+   "explanation": "Đoạn 2: \"the body begins to release melatonin later in the evening than it did in childhood\"."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – quy chiếu",
+   "level": 1,
+   "stem": "The word \"it\" in paragraph 3 refers to",
+   "options": [
+    "memory",
+    "the school timetable",
+    "their concentration",
+    "this lack of sleep"
+   ],
+   "answer": 3,
+   "explanation": "\"this lack of sleep can affect their concentration, memory and mood, and it may even make them more likely to have accidents\" → \"it\" = this lack of sleep (việc thiếu ngủ)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – từ vựng",
+   "level": 2,
+   "stem": "The word \"alert\" in paragraph 4 is closest in meaning to",
+   "options": [
+    "attentive",
+    "anxious",
+    "sleepy",
+    "polite"
+   ],
+   "answer": 0,
+   "explanation": "alert = tỉnh táo, tập trung ≈ attentive. Ngữ cảnh: đi học muộn hơn thì học sinh tỉnh táo hơn trong lớp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu – suy luận",
+   "level": 3,
+   "stem": "Which of the following can be inferred from the passage?",
+   "options": [
+    "Later school start times have no disadvantages.",
+    "Going to bed early does not guarantee that a teenager will fall asleep quickly.",
+    "Teenagers need less sleep than most adults.",
+    "Blue light from screens speeds up the release of melatonin."
+   ],
+   "answer": 1,
+   "explanation": "Đoạn 2: thiếu niên không thấy buồn ngủ đến khuya \"even if they go to bed early\" → đi ngủ sớm không chắc ngủ được ngay. Các phương án khác trái với đoạn 4, đoạn 2 và đoạn 5."
+  }
+ ],
+ "self_check": "Kiểm tra từng câu: một đáp án đúng duy nhất theo ngữ pháp chuẩn; câu tìm lỗi sai chỉ có một phần sai; câu đọc hiểu đối chiếu đúng đoạn; đếm số từ đoạn văn (250–350); chạy dgnl-check."
+}

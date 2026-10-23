@@ -1,0 +1,706 @@
+{
+ "exam": "hsa",
+ "part": "kh",
+ "set": "de1",
+ "passages": {
+  "p1": "Một nhóm học sinh khảo sát chu kì dao động nhỏ của con lắc đơn tại phòng thí nghiệm. Với mỗi chiều dài dây $l$, các em kéo vật lệch một góc nhỏ (dưới $10^\\circ$) rồi thả nhẹ, dùng đồng hồ bấm giây đo thời gian $t$ của 20 dao động toàn phần. Kết quả (đã làm tròn):\n| Chiều dài $l$ (m) | 0,25 | 0,49 | 0,64 | 1,00 |\n| Thời gian 20 dao động $t$ (s) | 20,0 | 28,0 | 32,0 | 40,0 |\nBiết chu kì con lắc đơn dao động nhỏ là $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$.",
+  "p2": "Thí nghiệm: Lấy ba ống nghiệm, mỗi ống chứa 5 mL dung dịch $\\mathrm{HCl}$ 1 M ở cùng nhiệt độ. Cho vào ống (1) một mẩu magnesium ($\\mathrm{Mg}$), ống (2) một viên kẽm ($\\mathrm{Zn}$), ống (3) một mẩu đồng ($\\mathrm{Cu}$); các mẩu kim loại có kích thước gần bằng nhau.\nQuan sát: ống (1) sủi bọt khí rất mạnh, mẩu kim loại tan nhanh; ống (2) sủi bọt khí chậm hơn; ống (3) không thấy hiện tượng.\nCho thế điện cực chuẩn: $E^\\circ_{\\mathrm{Mg^{2+}/Mg}} = -2{,}37$ V; $E^\\circ_{\\mathrm{Zn^{2+}/Zn}} = -0{,}76$ V; $E^\\circ_{\\mathrm{2H^{+}/H_2}} = 0{,}00$ V; $E^\\circ_{\\mathrm{Cu^{2+}/Cu}} = +0{,}34$ V.",
+  "p3": "Để tìm hiểu ảnh hưởng của ánh sáng đến quang hợp, một học sinh đặt một cành rong đuôi chó vào ống nghiệm chứa đầy nước, úp ngược trong cốc nước. Một bóng đèn được đặt lần lượt ở các khoảng cách khác nhau so với cành rong; nhiệt độ nước được giữ ổn định. Sau 5 phút ổn định ở mỗi vị trí, học sinh đếm số bọt khí thoát ra từ vết cắt của cành rong trong 1 phút (số liệu giả định):\n| Khoảng cách đèn (cm) | 10 | 20 | 30 | 40 |\n| Số bọt khí/phút | 42 | 25 | 14 | 8 |",
+  "p4": "Đọc đoạn trích sau từ bản Tuyên ngôn Độc lập do Chủ tịch Hồ Chí Minh đọc tại Quảng trường Ba Đình (Hà Nội):\n“Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc. […]\nSự thật là từ mùa thu năm 1940, nước ta đã thành thuộc địa của Nhật, chứ không phải thuộc địa của Pháp nữa. Khi Nhật hàng Đồng minh thì nhân dân cả nước ta đã nổi dậy giành chính quyền, lập nên nước Việt Nam Dân chủ Cộng hòa.\nSự thật là dân ta đã lấy lại nước Việt Nam từ tay Nhật, chứ không phải từ tay Pháp. […]\nNước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy.”",
+  "p5": "Cho bảng số liệu về diện tích và sản lượng lúa của vùng X (số liệu giả định):\n| Năm | 2015 | 2020 | 2023 |\n| Diện tích (triệu ha) | 4,30 | 3,90 | 3,85 |\n| Sản lượng (triệu tấn) | 25,6 | 23,8 | 24,4 |"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – Dao động",
+   "level": 2,
+   "stem": "Từ bảng số liệu, nhận định nào sau đây đúng về chu kì $T$ của con lắc?",
+   "options": [
+    "$T$ tỉ lệ thuận với $\\sqrt{l}$",
+    "$T$ tỉ lệ thuận với $l$",
+    "$T$ tỉ lệ nghịch với $l$",
+    "$T$ không phụ thuộc vào $l$"
+   ],
+   "answer": 0,
+   "explanation": "Chu kì $T = t/20$ lần lượt là 1,00; 1,40; 1,60; 2,00 s, còn $\\sqrt{l}$ là 0,5; 0,7; 0,8; 1,0. Tỉ số $T/\\sqrt{l} = 2$ không đổi nên $T$ tỉ lệ thuận với $\\sqrt{l}$."
+  },
+  {
+   "qtype": "short",
+   "passage": "p1",
+   "topic": "Vật lí – Dao động",
+   "level": 3,
+   "stem": "Dùng số liệu ứng với $l = 1{,}00$ m, tính gia tốc trọng trường $g$ tại phòng thí nghiệm (đơn vị $\\mathrm{m/s^2}$, làm tròn đến hàng phần trăm).",
+   "answer_text": "9,87",
+   "explanation": "$T = 40{,}0/20 = 2{,}00$ s. $g = \\dfrac{4\\pi^2 l}{T^2} = \\dfrac{4\\pi^2\\cdot 1{,}00}{2{,}00^2} = \\pi^2 \\approx 9{,}87\\ \\mathrm{m/s^2}$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – Dao động",
+   "level": 3,
+   "stem": "Muốn con lắc tại phòng thí nghiệm này có chu kì 1,2 s thì chiều dài dây phải xấp xỉ bằng",
+   "options": [
+    "0,30 m",
+    "0,36 m",
+    "0,60 m",
+    "1,44 m"
+   ],
+   "answer": 1,
+   "explanation": "Từ bảng, $l/T^2 = 0{,}25$ m/s² không đổi. Với $T = 1{,}2$ s: $l = 0{,}25\\cdot 1{,}2^2 = 0{,}36$ m."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Vật lí – Dao động",
+   "level": 2,
+   "stem": "Nếu đưa con lắc dài 0,64 m lên một đỉnh núi cao (gia tốc trọng trường nhỏ hơn) và giữ nguyên chiều dài dây thì thời gian 20 dao động sẽ",
+   "options": [
+    "nhỏ hơn 32,0 s",
+    "vẫn bằng 32,0 s",
+    "lớn hơn 32,0 s",
+    "bằng 16,0 s"
+   ],
+   "answer": 2,
+   "explanation": "$T = 2\\pi\\sqrt{l/g}$, $g$ giảm thì $T$ tăng nên thời gian 20 dao động lớn hơn 32,0 s."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Sóng",
+   "level": 3,
+   "stem": "Trên một sợi dây đang có sóng dừng với tần số 50 Hz, khoảng cách giữa hai nút sóng liên tiếp là 20 cm. Tốc độ truyền sóng trên dây là",
+   "options": [
+    "10 m/s",
+    "40 m/s",
+    "2,5 m/s",
+    "20 m/s"
+   ],
+   "answer": 3,
+   "explanation": "Hai nút liên tiếp cách nhau $\\lambda/2$ nên $\\lambda = 40$ cm $= 0{,}4$ m. $v = \\lambda f = 0{,}4\\cdot 50 = 20$ m/s."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Nhiệt học",
+   "level": 1,
+   "stem": "Nhiệt lượng cần cung cấp để đun nóng 2 kg nước từ $20^\\circ\\mathrm{C}$ lên $70^\\circ\\mathrm{C}$ là bao nhiêu? Biết nhiệt dung riêng của nước là $4200$ J/(kg·K).",
+   "options": [
+    "42 kJ",
+    "588 kJ",
+    "420 kJ",
+    "210 kJ"
+   ],
+   "answer": 2,
+   "explanation": "$Q = mc\\Delta t = 2\\cdot 4200\\cdot 50 = 420\\,000$ J $= 420$ kJ."
+  },
+  {
+   "qtype": "short",
+   "topic": "Vật lí – Khí lí tưởng",
+   "level": 2,
+   "stem": "Một lượng khí lí tưởng có thể tích 6 L ở áp suất 1 atm được nén đẳng nhiệt đến thể tích 4 L. Áp suất của khí sau khi nén là bao nhiêu atm?",
+   "answer_text": "1,5",
+   "explanation": "Đẳng nhiệt: $p_1V_1 = p_2V_2 \\Rightarrow p_2 = \\dfrac{1\\cdot 6}{4} = 1{,}5$ atm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Dòng điện",
+   "level": 2,
+   "stem": "Hai điện trở $R_1 = 6\\ \\Omega$ và $R_2 = 3\\ \\Omega$ mắc song song rồi nối vào hiệu điện thế không đổi 12 V. Cường độ dòng điện trong mạch chính là",
+   "options": [
+    "6 A",
+    "4 A",
+    "1,33 A",
+    "2 A"
+   ],
+   "answer": 0,
+   "explanation": "$R_{td} = \\dfrac{6\\cdot 3}{6+3} = 2\\ \\Omega$; $I = U/R_{td} = 12/2 = 6$ A."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Từ trường",
+   "level": 1,
+   "stem": "Một đoạn dây dẫn thẳng dài 20 cm mang dòng điện 4 A đặt vuông góc với các đường sức của từ trường đều có cảm ứng từ 0,5 T. Độ lớn lực từ tác dụng lên đoạn dây là",
+   "options": [
+    "40 N",
+    "0,04 N",
+    "4 N",
+    "0,4 N"
+   ],
+   "answer": 3,
+   "explanation": "$F = BIl\\sin 90^\\circ = 0{,}5\\cdot 4\\cdot 0{,}2 = 0{,}4$ N."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Vật lí – Hạt nhân",
+   "level": 2,
+   "stem": "Một mẫu chất phóng xạ có chu kì bán rã 5 ngày, khối lượng ban đầu 80 g. Sau 15 ngày, khối lượng chất phóng xạ còn lại là",
+   "options": [
+    "20 g",
+    "10 g",
+    "26,7 g",
+    "5 g"
+   ],
+   "answer": 1,
+   "explanation": "15 ngày = 3 chu kì bán rã: $m = 80/2^3 = 10$ g."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – Kim loại",
+   "level": 1,
+   "stem": "Ống nghiệm (3) không có hiện tượng vì",
+   "options": [
+    "lớp oxide bảo vệ làm $\\mathrm{Cu}$ không phản ứng với mọi acid",
+    "$\\mathrm{Cu}$ có tính khử yếu hơn $\\mathrm{H_2}$ nên không khử được $\\mathrm{H^+}$",
+    "$\\mathrm{Cu}$ phản ứng tạo khí nhưng khí tan hết trong nước",
+    "dung dịch $\\mathrm{HCl}$ trong ống (3) đã bị trung hòa"
+   ],
+   "answer": 1,
+   "explanation": "$E^\\circ_{\\mathrm{Cu^{2+}/Cu}} = +0{,}34$ V lớn hơn $E^\\circ_{\\mathrm{2H^+/H_2}} = 0$ V, nên $\\mathrm{Cu}$ không khử được ion $\\mathrm{H^+}$ trong $\\mathrm{HCl}$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – Kim loại",
+   "level": 2,
+   "stem": "Thứ tự tính khử giảm dần của các kim loại trong thí nghiệm là",
+   "options": [
+    "$\\mathrm{Zn} > \\mathrm{Mg} > \\mathrm{Cu}$",
+    "$\\mathrm{Cu} > \\mathrm{Zn} > \\mathrm{Mg}$",
+    "$\\mathrm{Mg} > \\mathrm{Cu} > \\mathrm{Zn}$",
+    "$\\mathrm{Mg} > \\mathrm{Zn} > \\mathrm{Cu}$"
+   ],
+   "answer": 3,
+   "explanation": "Thế điện cực chuẩn càng âm thì tính khử càng mạnh: $-2{,}37 < -0{,}76 < +0{,}34$, phù hợp với tốc độ sủi bọt khí quan sát được."
+  },
+  {
+   "qtype": "short",
+   "passage": "p2",
+   "topic": "Hóa học – Kim loại",
+   "level": 2,
+   "stem": "Cho 2,4 g $\\mathrm{Mg}$ tác dụng hết với dung dịch $\\mathrm{HCl}$ dư. Thể tích khí $\\mathrm{H_2}$ thu được ở điều kiện chuẩn (25 °C, 1 bar; 1 mol khí chiếm 24,79 L) là bao nhiêu lít? (Cho $\\mathrm{Mg} = 24$; làm tròn đến hàng phần nghìn.)",
+   "answer_text": "2,479",
+   "explanation": "$\\mathrm{Mg + 2HCl \\rightarrow MgCl_2 + H_2}$. $n_{\\mathrm{H_2}} = n_{\\mathrm{Mg}} = 2{,}4/24 = 0{,}1$ mol; $V = 0{,}1\\cdot 24{,}79 = 2{,}479$ L."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – Kim loại",
+   "level": 3,
+   "stem": "Nếu thay dung dịch $\\mathrm{HCl}$ bằng dung dịch $\\mathrm{CuSO_4}$ rồi cho viên $\\mathrm{Zn}$ vào thì hiện tượng nào xảy ra?",
+   "options": [
+    "Có lớp kim loại màu đỏ bám trên viên kẽm, màu xanh của dung dịch nhạt dần",
+    "Có khí không màu thoát ra mạnh",
+    "Không có hiện tượng gì vì kẽm đứng trước đồng",
+    "Viên kẽm được phủ lớp màu trắng bạc, dung dịch chuyển vàng"
+   ],
+   "answer": 0,
+   "explanation": "$E^\\circ_{\\mathrm{Zn^{2+}/Zn}} < E^\\circ_{\\mathrm{Cu^{2+}/Cu}}$ nên $\\mathrm{Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu}$: đồng màu đỏ bám vào kẽm, nồng độ $\\mathrm{Cu^{2+}}$ (màu xanh) giảm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – pH",
+   "level": 1,
+   "stem": "Dung dịch $\\mathrm{HCl}$ 0,01 M (coi $\\mathrm{HCl}$ phân li hoàn toàn) có pH bằng",
+   "options": [
+    "1",
+    "12",
+    "2",
+    "0,01"
+   ],
+   "answer": 2,
+   "explanation": "$[\\mathrm{H^+}] = 0{,}01 = 10^{-2}$ M nên $\\mathrm{pH} = -\\lg[\\mathrm{H^+}] = 2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Ester",
+   "level": 1,
+   "stem": "Chất nào sau đây là ester?",
+   "options": [
+    "$\\mathrm{CH_3COOH}$",
+    "$\\mathrm{C_2H_5OH}$",
+    "$\\mathrm{CH_3CHO}$",
+    "$\\mathrm{CH_3COOC_2H_5}$"
+   ],
+   "answer": 3,
+   "explanation": "Ester có nhóm $-\\mathrm{COO}-$ liên kết với gốc hydrocarbon: $\\mathrm{CH_3COOC_2H_5}$ (ethyl acetate). Các chất còn lại là acid, alcohol, aldehyde."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Polymer",
+   "level": 2,
+   "stem": "Tơ nylon-6,6 được điều chế bằng phản ứng",
+   "options": [
+    "trùng hợp vinyl chloride",
+    "trùng hợp caprolactam",
+    "trùng ngưng hexamethylenediamine với adipic acid",
+    "trùng ngưng ethylene glycol với terephthalic acid"
+   ],
+   "answer": 2,
+   "explanation": "Nylon-6,6 là polyamide tạo từ trùng ngưng $\\mathrm{H_2N[CH_2]_6NH_2}$ và $\\mathrm{HOOC[CH_2]_4COOH}$. Trùng ngưng ethylene glycol với terephthalic acid tạo tơ lapsan; caprolactam tạo capron; vinyl chloride tạo PVC."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Cân bằng",
+   "level": 3,
+   "stem": "Cho cân bằng: $\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}$, $\\Delta_r H^\\circ_{298} < 0$. Biện pháp nào làm cân bằng chuyển dịch theo chiều thuận?",
+   "options": [
+    "Tăng nhiệt độ",
+    "Tăng áp suất chung của hệ",
+    "Lấy bớt khí $\\mathrm{N_2}$ ra khỏi hệ",
+    "Thêm chất xúc tác"
+   ],
+   "answer": 1,
+   "explanation": "Chiều thuận giảm số mol khí (4 → 2) nên tăng áp suất làm cân bằng chuyển dịch theo chiều thuận. Phản ứng tỏa nhiệt nên tăng nhiệt độ chuyển theo chiều nghịch; xúc tác không làm chuyển dịch cân bằng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hóa học – Carbohydrate",
+   "level": 2,
+   "stem": "Lên men 90 g glucose với hiệu suất 100% thành ethanol. Khối lượng ethanol thu được là (Cho C = 12, H = 1, O = 16)",
+   "options": [
+    "46 g",
+    "23 g",
+    "92 g",
+    "45 g"
+   ],
+   "answer": 0,
+   "explanation": "$\\mathrm{C_6H_{12}O_6 \\rightarrow 2C_2H_5OH + 2CO_2}$. $n_{\\text{glucose}} = 90/180 = 0{,}5$ mol ⇒ $n_{\\text{ethanol}} = 1$ mol ⇒ $m = 46$ g."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Hóa học – Pin điện",
+   "level": 3,
+   "stem": "Một pin điện hóa được tạo từ cặp $\\mathrm{Zn^{2+}/Zn}$ và $\\mathrm{Cu^{2+}/Cu}$ (dùng số liệu ở đoạn thí nghiệm). Sức điện động chuẩn của pin và điện cực đóng vai trò anode lần lượt là",
+   "options": [
+    "1,10 V; điện cực Zn",
+    "1,10 V; điện cực Cu",
+    "0,42 V; điện cực Zn",
+    "0,42 V; điện cực Cu"
+   ],
+   "answer": 0,
+   "explanation": "$E^\\circ_{pin} = E^\\circ_{\\mathrm{Cu^{2+}/Cu}} - E^\\circ_{\\mathrm{Zn^{2+}/Zn}} = 0{,}34 - (-0{,}76) = 1{,}10$ V. Zn bị oxi hóa nên là anode."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Quang hợp",
+   "level": 1,
+   "stem": "Khí trong các bọt thoát ra từ cành rong chủ yếu là",
+   "options": [
+    "$\\mathrm{CO_2}$",
+    "$\\mathrm{O_2}$",
+    "$\\mathrm{N_2}$",
+    "hơi nước"
+   ],
+   "answer": 1,
+   "explanation": "Quang hợp giải phóng $\\mathrm{O_2}$ từ quá trình quang phân li nước ở pha sáng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Quang hợp",
+   "level": 1,
+   "stem": "Trong thí nghiệm, yếu tố được học sinh chủ động thay đổi (biến độc lập) là",
+   "options": [
+    "số bọt khí thoát ra mỗi phút",
+    "nhiệt độ của nước",
+    "cường độ ánh sáng chiếu tới cành rong",
+    "loài cây thủy sinh"
+   ],
+   "answer": 2,
+   "explanation": "Học sinh thay đổi khoảng cách đèn, tức là thay đổi cường độ ánh sáng; số bọt khí là biến phụ thuộc, nhiệt độ là yếu tố được giữ cố định."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Quang hợp",
+   "level": 3,
+   "stem": "Kết luận nào phù hợp nhất với số liệu thu được?",
+   "options": [
+    "Cường độ quang hợp tỉ lệ thuận với khoảng cách từ đèn",
+    "Ánh sáng không ảnh hưởng đến quang hợp của rong",
+    "Cường độ quang hợp đạt cực đại ở khoảng cách 40 cm",
+    "Trong khoảng khảo sát, cường độ ánh sáng giảm thì cường độ quang hợp giảm"
+   ],
+   "answer": 3,
+   "explanation": "Đèn càng xa, ánh sáng tới cây càng yếu và số bọt khí (đại diện cho tốc độ thải $\\mathrm{O_2}$) càng giảm: 42 → 25 → 14 → 8."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Sinh học – Quang hợp",
+   "level": 3,
+   "stem": "Giữ đèn ở khoảng cách 20 cm, nếu hòa thêm một lượng nhỏ $\\mathrm{NaHCO_3}$ vào nước thì số bọt khí mỗi phút nhiều khả năng sẽ",
+   "options": [
+    "giảm xuống, vì $\\mathrm{NaHCO_3}$ ức chế pha sáng",
+    "không đổi, vì chỉ ánh sáng mới ảnh hưởng quang hợp",
+    "tăng lên, vì cây được cung cấp thêm nguồn $\\mathrm{CO_2}$",
+    "giảm về 0, vì cây ngừng quang hợp"
+   ],
+   "answer": 2,
+   "explanation": "$\\mathrm{NaHCO_3}$ cung cấp $\\mathrm{CO_2}$ (nguyên liệu pha tối). Khi ánh sáng chưa phải yếu tố duy nhất hạn chế, tăng $\\mathrm{CO_2}$ làm quang hợp tăng, thải nhiều $\\mathrm{O_2}$ hơn."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Di truyền",
+   "level": 2,
+   "stem": "Ở một loài thực vật, mỗi gene quy định một tính trạng, trội hoàn toàn, hai cặp gene phân li độc lập. Phép lai $AaBb \\times AaBb$ cho đời con có tỉ lệ kiểu hình mang hai tính trạng trội là",
+   "options": [
+    "$\\dfrac{9}{16}$",
+    "$\\dfrac{3}{16}$",
+    "$\\dfrac{1}{16}$",
+    "$\\dfrac{3}{4}$"
+   ],
+   "answer": 0,
+   "explanation": "$P(A\\text{-}) = 3/4$, $P(B\\text{-}) = 3/4$; phân li độc lập nên $P(A\\text{-}B\\text{-}) = 3/4\\cdot 3/4 = 9/16$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Sinh học – Phân tử",
+   "level": 2,
+   "stem": "Một gene có tổng số 3000 nucleotide, trong đó adenine (A) chiếm 20%. Số nucleotide loại guanine (G) của gene là bao nhiêu?",
+   "answer_text": "900",
+   "explanation": "$A + G = 50\\%$ ⇒ $G = 30\\%$; $G = 0{,}3\\cdot 3000 = 900$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Tuần hoàn",
+   "level": 1,
+   "stem": "Ở người, máu từ tâm thất trái được bơm vào",
+   "options": [
+    "động mạch phổi",
+    "tĩnh mạch chủ",
+    "tâm nhĩ phải",
+    "động mạch chủ"
+   ],
+   "answer": 3,
+   "explanation": "Tâm thất trái bơm máu giàu $\\mathrm{O_2}$ vào động mạch chủ đi nuôi cơ thể (vòng tuần hoàn lớn); tâm thất phải bơm vào động mạch phổi."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Tiến hóa",
+   "level": 2,
+   "stem": "Theo thuyết tiến hóa tổng hợp hiện đại, nhân tố nào quy định chiều hướng tiến hóa?",
+   "options": [
+    "Đột biến",
+    "Chọn lọc tự nhiên",
+    "Phiêu bạt di truyền",
+    "Di – nhập gene"
+   ],
+   "answer": 1,
+   "explanation": "Chọn lọc tự nhiên là nhân tố tiến hóa có hướng, giữ lại các kiểu gene thích nghi; các nhân tố còn lại làm thay đổi tần số allele một cách vô hướng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Sinh thái",
+   "level": 2,
+   "stem": "Trong một chuỗi thức ăn, năng lượng tích lũy ở sinh vật tiêu thụ bậc 1 là $10^6$ kcal, ở sinh vật tiêu thụ bậc 2 là $10^5$ kcal. Hiệu suất sinh thái giữa hai bậc dinh dưỡng này là",
+   "options": [
+    "1%",
+    "10%",
+    "90%",
+    "20%"
+   ],
+   "answer": 1,
+   "explanation": "$H = \\dfrac{10^5}{10^6}\\cdot 100\\% = 10\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Sinh học – Đột biến",
+   "level": 1,
+   "stem": "Hội chứng Down ở người là do",
+   "options": [
+    "mất một nhiễm sắc thể X",
+    "đột biến gene trội trên nhiễm sắc thể thường",
+    "mất đoạn nhiễm sắc thể số 5",
+    "thừa một nhiễm sắc thể số 21"
+   ],
+   "answer": 3,
+   "explanation": "Hội chứng Down là thể ba nhiễm ở cặp nhiễm sắc thể số 21 (3 chiếc)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Lịch sử – Cách mạng tháng Tám",
+   "level": 1,
+   "stem": "Bản Tuyên ngôn Độc lập trong đoạn tư liệu được công bố vào ngày nào?",
+   "options": [
+    "2/9/1945",
+    "19/8/1945",
+    "15/8/1945",
+    "6/1/1946"
+   ],
+   "answer": 0,
+   "explanation": "Ngày 2/9/1945, tại Quảng trường Ba Đình (Hà Nội), Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Lịch sử – Cách mạng tháng Tám",
+   "level": 2,
+   "stem": "Câu mở đầu đoạn trích (“Tất cả mọi người đều sinh ra có quyền bình đẳng…”) được Hồ Chí Minh dẫn từ văn kiện nào?",
+   "options": [
+    "Tuyên ngôn Nhân quyền và Dân quyền năm 1791 của Pháp",
+    "Hiến chương Liên hợp quốc năm 1945",
+    "Tuyên ngôn Độc lập năm 1776 của nước Mĩ",
+    "Tuyên ngôn của Đảng Cộng sản năm 1848"
+   ],
+   "answer": 2,
+   "explanation": "Tuyên ngôn Độc lập của Việt Nam mở đầu bằng việc dẫn Tuyên ngôn Độc lập năm 1776 của Mĩ, sau đó dẫn Tuyên ngôn Nhân quyền và Dân quyền năm 1791 của Cách mạng Pháp."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Lịch sử – Cách mạng tháng Tám",
+   "level": 3,
+   "stem": "Chi tiết “từ mùa thu năm 1940, nước ta đã thành thuộc địa của Nhật” gắn với sự kiện lịch sử nào?",
+   "options": [
+    "Nhật đảo chính lật đổ Pháp trên toàn Đông Dương",
+    "Chiến tranh thế giới thứ hai bùng nổ ở châu Âu",
+    "Mặt trận Việt Minh được thành lập",
+    "Quân Nhật tiến vào Đông Dương, Pháp đầu hàng và cấu kết với Nhật"
+   ],
+   "answer": 3,
+   "explanation": "Tháng 9/1940, quân Nhật vào Đông Dương; thực dân Pháp nhanh chóng đầu hàng, nhân dân ta chịu ách “một cổ hai tròng”. Nhật đảo chính Pháp là ngày 9/3/1945; Việt Minh thành lập tháng 5/1941; Chiến tranh thế giới thứ hai bùng nổ tháng 9/1939."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p4",
+   "topic": "Lịch sử – Cách mạng tháng Tám",
+   "level": 3,
+   "stem": "Khẳng định “dân ta đã lấy lại nước Việt Nam từ tay Nhật, chứ không phải từ tay Pháp” nhằm mục đích chủ yếu nào?",
+   "options": [
+    "Kêu gọi các nước Đồng minh tuyên chiến với Nhật",
+    "Khẳng định Việt Nam là thành viên của khối Đồng minh",
+    "Bác bỏ luận điệu của thực dân Pháp đòi quay lại Đông Dương với tư cách “chủ cũ”",
+    "Thông báo việc Pháp đã chính thức công nhận nền độc lập của Việt Nam"
+   ],
+   "answer": 2,
+   "explanation": "Pháp âm mưu trở lại xâm lược với lí do Đông Dương là thuộc địa của Pháp. Tuyên ngôn chỉ rõ Pháp đã mất Đông Dương vào tay Nhật từ 1940 và nhân dân ta giành chính quyền từ tay Nhật, nên Pháp không còn quyền gì ở Việt Nam."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Cách mạng tháng Tám",
+   "level": 3,
+   "stem": "Thời cơ để Đảng Cộng sản Đông Dương và Mặt trận Việt Minh phát động Tổng khởi nghĩa giành chính quyền trong cả nước (tháng 8/1945) xuất hiện khi",
+   "options": [
+    "Nhật đảo chính lật đổ Pháp ở Đông Dương",
+    "phát xít Nhật đầu hàng Đồng minh không điều kiện",
+    "quân Đồng minh vào Đông Dương giải giáp quân Nhật",
+    "Chiến tranh thế giới thứ hai bùng nổ"
+   ],
+   "answer": 1,
+   "explanation": "Giữa tháng 8/1945, Nhật đầu hàng Đồng minh, quân Nhật ở Đông Dương hoang mang, chính phủ Trần Trọng Kim rệu rã: thời cơ “ngàn năm có một” xuất hiện; Ủy ban Khởi nghĩa toàn quốc ban bố Quân lệnh số 1, phát động Tổng khởi nghĩa trước khi quân Đồng minh vào."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Kháng chiến chống Pháp",
+   "level": 2,
+   "stem": "Thắng lợi của chiến dịch Điện Biên Phủ (kết thúc ngày 7/5/1954) có tác động trực tiếp nào?",
+   "options": [
+    "Tạo cơ sở để kí kết Hiệp định Giơnevơ về Đông Dương",
+    "Buộc Mĩ kí Hiệp định Pari",
+    "Dẫn đến việc kí Hiệp định Sơ bộ với Pháp",
+    "Mở đầu cuộc kháng chiến toàn quốc chống thực dân Pháp"
+   ],
+   "answer": 0,
+   "explanation": "Thắng lợi Điện Biên Phủ đập tan kế hoạch Nava, giáng đòn quyết định vào ý chí xâm lược của Pháp, tạo cơ sở cho Hiệp định Giơnevơ (21/7/1954). Hiệp định Sơ bộ kí năm 1946; Hiệp định Pari kí năm 1973."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Quan hệ quốc tế",
+   "level": 1,
+   "stem": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập vào năm nào?",
+   "options": [
+    "1967",
+    "1945",
+    "1976",
+    "1995"
+   ],
+   "answer": 0,
+   "explanation": "ASEAN thành lập ngày 8/8/1967 tại Băng Cốc (Thái Lan). Năm 1976 kí Hiệp ước Bali; năm 1995 Việt Nam gia nhập."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Chiến tranh lạnh",
+   "level": 2,
+   "stem": "Sự kiện nào sau đây được coi là mốc đánh dấu hai siêu cường Xô – Mĩ chính thức tuyên bố chấm dứt Chiến tranh lạnh?",
+   "options": [
+    "Bức tường Béc-lin sụp đổ (11/1989)",
+    "Cuộc gặp gỡ không chính thức trên đảo Manta (12/1989)",
+    "Hiệp định Pari về Việt Nam được kí kết (1/1973)",
+    "Liên hợp quốc được thành lập (10/1945)"
+   ],
+   "answer": 1,
+   "explanation": "Tháng 12/1989, tại cuộc gặp trên đảo Manta, nguyên thủ Liên Xô (M. Goócbachốp) và Mĩ (G. Bush) cùng tuyên bố chấm dứt Chiến tranh lạnh."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Đổi mới",
+   "level": 1,
+   "stem": "Đường lối Đổi mới đất nước của Việt Nam được đề ra lần đầu tại",
+   "options": [
+    "Đại hội đại biểu toàn quốc lần thứ IV của Đảng (12/1976)",
+    "Đại hội đại biểu toàn quốc lần thứ VII của Đảng (6/1991)",
+    "Đại hội đại biểu toàn quốc lần thứ VI của Đảng (12/1986)",
+    "Hội nghị thành lập Đảng (2/1930)"
+   ],
+   "answer": 2,
+   "explanation": "Đại hội VI (tháng 12/1986) đề ra đường lối Đổi mới toàn diện, trọng tâm là đổi mới kinh tế."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lịch sử – Kháng chiến chống Mĩ",
+   "level": 3,
+   "stem": "Sắp xếp các sự kiện sau theo trình tự thời gian: (1) Hiệp định Pari về Việt Nam được kí kết; (2) Chiến dịch Hồ Chí Minh kết thúc thắng lợi; (3) Chiến dịch Tây Nguyên mở màn; (4) Phong trào Đồng khởi bùng nổ.",
+   "options": [
+    "(1), (4), (3), (2)",
+    "(4), (3), (1), (2)",
+    "(4), (1), (2), (3)",
+    "(4), (1), (3), (2)"
+   ],
+   "answer": 3,
+   "explanation": "Đồng khởi: 1959–1960; Hiệp định Pari: 27/1/1973; Chiến dịch Tây Nguyên mở màn: 4/3/1975 (trận then chốt Buôn Ma Thuột 10/3/1975); Chiến dịch Hồ Chí Minh kết thúc: 30/4/1975."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Địa lí – Nông nghiệp",
+   "level": 3,
+   "stem": "Năng suất lúa của vùng X năm 2023 xấp xỉ bằng",
+   "options": [
+    "6,34 tạ/ha",
+    "15,8 tạ/ha",
+    "63,4 tạ/ha",
+    "59,5 tạ/ha"
+   ],
+   "answer": 2,
+   "explanation": "Năng suất = sản lượng/diện tích $= 24{,}4/3{,}85 \\approx 6{,}34$ tấn/ha $= 63{,}4$ tạ/ha."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Địa lí – Nông nghiệp",
+   "level": 3,
+   "stem": "Nhận xét nào sau đây đúng về sản xuất lúa của vùng X giai đoạn 2015–2023?",
+   "options": [
+    "Diện tích giảm nhưng năng suất tăng liên tục",
+    "Diện tích, sản lượng và năng suất đều tăng",
+    "Sản lượng tăng liên tục do mở rộng diện tích",
+    "Năng suất giảm liên tục"
+   ],
+   "answer": 0,
+   "explanation": "Diện tích: 4,30 → 3,90 → 3,85 (giảm); năng suất: 59,5 → 61,0 → 63,4 tạ/ha (tăng liên tục); sản lượng giảm rồi tăng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Địa lí – Kĩ năng",
+   "level": 1,
+   "stem": "Để thể hiện tốc độ tăng trưởng diện tích, sản lượng và năng suất lúa của vùng X qua các năm (lấy năm 2015 = 100%), dạng biểu đồ thích hợp nhất là",
+   "options": [
+    "biểu đồ tròn",
+    "biểu đồ miền",
+    "biểu đồ cột chồng",
+    "biểu đồ đường"
+   ],
+   "answer": 3,
+   "explanation": "Tốc độ tăng trưởng của nhiều đại lượng có đơn vị khác nhau, theo thời gian, quy về % so với năm gốc: dùng biểu đồ đường."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p5",
+   "topic": "Địa lí – Nông nghiệp",
+   "level": 3,
+   "stem": "Nguyên nhân chủ yếu giúp sản lượng lúa của vùng X năm 2023 tăng so với năm 2020 dù diện tích giảm là",
+   "options": [
+    "mở rộng diện tích đất canh tác ở vùng đồi núi",
+    "đẩy mạnh thâm canh, sử dụng giống mới năng suất cao",
+    "tăng mạnh số lao động làm nông nghiệp",
+    "chuyển đất trồng lúa sang trồng cây công nghiệp"
+   ],
+   "answer": 1,
+   "explanation": "Diện tích giảm mà sản lượng tăng thì phải do năng suất tăng (61,0 → 63,4 tạ/ha), chủ yếu nhờ thâm canh, giống mới, thủy lợi, kĩ thuật canh tác."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Tự nhiên Việt Nam",
+   "level": 1,
+   "stem": "Nước ta có nền nhiệt cao, tổng bức xạ lớn chủ yếu do",
+   "options": [
+    "giáp Biển Đông rộng lớn",
+    "nằm hoàn toàn trong vùng nội chí tuyến bán cầu Bắc",
+    "có địa hình chủ yếu là đồi núi thấp",
+    "nằm trong khu vực gió mùa châu Á"
+   ],
+   "answer": 1,
+   "explanation": "Vị trí nội chí tuyến làm Mặt Trời lên thiên đỉnh hai lần trong năm, góc nhập xạ lớn nên nước ta nhận lượng bức xạ lớn, nền nhiệt cao."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Khí hậu",
+   "level": 2,
+   "stem": "Gió mùa Đông Bắc hoạt động ở nước ta vào thời gian nào và tác động chủ yếu đến khu vực nào?",
+   "options": [
+    "Từ tháng 5 đến tháng 10, chủ yếu ở Tây Nguyên",
+    "Từ tháng 11 đến tháng 4 năm sau, chủ yếu ở Nam Bộ",
+    "Quanh năm, trên phạm vi cả nước",
+    "Từ tháng 11 đến tháng 4 năm sau, chủ yếu ở miền Bắc"
+   ],
+   "answer": 3,
+   "explanation": "Gió mùa Đông Bắc hoạt động khoảng tháng 11 – tháng 4, tạo mùa đông lạnh ở miền Bắc; khi xuống phía nam bị suy yếu và bị chắn bởi dãy Bạch Mã."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Kĩ năng",
+   "level": 1,
+   "stem": "Trên bản đồ tỉ lệ 1 : 100 000, khoảng cách giữa hai điểm đo được là 5 cm. Khoảng cách thực tế giữa hai điểm đó là",
+   "options": [
+    "5 km",
+    "50 km",
+    "0,5 km",
+    "500 km"
+   ],
+   "answer": 0,
+   "explanation": "$5\\cdot 100\\,000 = 500\\,000$ cm $= 5$ km."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Vùng kinh tế",
+   "level": 2,
+   "stem": "Vào mùa khô, vấn đề tự nhiên gây khó khăn lớn nhất cho sản xuất nông nghiệp ở Đồng bằng sông Cửu Long là",
+   "options": [
+    "sương muối và rét hại",
+    "lũ quét và sạt lở đất",
+    "thiếu nước ngọt, xâm nhập mặn vào sâu trong đất liền",
+    "gió phơn Tây Nam khô nóng"
+   ],
+   "answer": 2,
+   "explanation": "Mùa khô kéo dài, mực nước sông xuống thấp, nước mặn xâm nhập sâu, thiếu nước ngọt cho trồng trọt và sinh hoạt."
+  },
+  {
+   "qtype": "short",
+   "topic": "Địa lí – Dân cư",
+   "level": 1,
+   "stem": "Một tỉnh có dân số 1,2 triệu người, diện tích 4 800 km² (số liệu giả định). Mật độ dân số của tỉnh là bao nhiêu người/km²?",
+   "answer_text": "250",
+   "explanation": "Mật độ = dân số/diện tích $= 1\\,200\\,000/4\\,800 = 250$ người/km²."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Địa lí – Công nghiệp",
+   "level": 2,
+   "stem": "Các nhà máy thủy điện Hòa Bình, Sơn La, Lai Châu đều được xây dựng trên sông nào?",
+   "options": [
+    "Sông Hồng",
+    "Sông Chảy",
+    "Sông Mã",
+    "Sông Đà"
+   ],
+   "answer": 3,
+   "explanation": "Ba nhà máy thủy điện lớn Hòa Bình, Sơn La, Lai Châu nằm trên sông Đà – sông có tiềm năng thủy điện lớn nhất nước ta."
+  }
+ ],
+ "self_check": "Tính toán Vật lí, Hóa học, Sinh học, Địa lí (chu kì con lắc, g, sóng, nhiệt lượng, khí, điện trở, lực từ, phóng xạ, V khí, pH, lên men, sức điện động, xác suất di truyền, số nucleotide, hiệu suất sinh thái, năng suất lúa, tỉ lệ bản đồ, mật độ dân số) đã kiểm bằng Python; mốc lịch sử đối chiếu kiến thức SGK; số liệu bảng địa lí, sinh học ghi rõ giả định; chạy dgnl-check ✓."
+}

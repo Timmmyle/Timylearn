@@ -1,0 +1,257 @@
+{
+ "exam": "tsa",
+ "part": "toan",
+ "set": "luyen",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – cực trị",
+   "level": 1,
+   "stem": "Giá trị cực đại của hàm số $y=x^3-3x+2$ bằng",
+   "options": [
+    "$0$",
+    "$-1$",
+    "$1$",
+    "$4$"
+   ],
+   "answer": 3,
+   "explanation": "$y'=3x^2-3=0\\Leftrightarrow x=\\pm1$; $y''(-1)=-6<0$ nên hàm đạt cực đại tại $x=-1$, $y_{CĐ}=-1+3+2=4$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tối ưu thực tế",
+   "level": 3,
+   "stem": "Một khung cửa sổ gồm phần dưới là hình chữ nhật và phần trên là nửa hình tròn có đường kính bằng cạnh trên của hình chữ nhật. Chu vi của toàn bộ khung cửa (gồm cạnh đáy, hai cạnh bên và cung nửa đường tròn) là $4$ m. Diện tích lớn nhất của cửa sổ bằng bao nhiêu mét vuông? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "1,12",
+   "explanation": "Gọi bán kính nửa đường tròn là $r$, chiều cao hình chữ nhật $h$: $2r+2h+\\pi r=4$. $S=2rh+\\dfrac{\\pi r^2}{2}=4r-\\left(2+\\dfrac{\\pi}{2}\\right)r^2$, lớn nhất khi $r=\\dfrac{4}{4+\\pi}$, $S_{\\max}=\\dfrac{8}{4+\\pi}\\approx1{,}12$ m$^2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Logarit – ứng dụng",
+   "level": 2,
+   "stem": "Biết $\\log2\\approx0{,}30103$. Khi viết trong hệ thập phân, số $2^{2026}$ có bao nhiêu chữ số?",
+   "options": [
+    "$609$",
+    "$611$",
+    "$608$",
+    "$610$"
+   ],
+   "answer": 3,
+   "explanation": "Số chữ số của $N$ là $\\lfloor\\log N\\rfloor+1$. $\\log2^{2026}=2026\\log2\\approx609{,}89$. Vậy có $609+1=610$ chữ số."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Logarit – ứng dụng",
+   "level": 2,
+   "stem": "Mức cường độ âm được tính bởi $L=10\\log\\dfrac{I}{I_0}$ (dB), trong đó $I$ là cường độ âm và $I_0$ là cường độ âm chuẩn.",
+   "statements": [
+    {
+     "t": "Khi cường độ âm tăng gấp $10$ lần thì mức cường độ âm tăng thêm $10$ dB.",
+     "a": true
+    },
+    {
+     "t": "Hai loa giống hệt nhau cùng phát (cường độ âm cộng lại) thì mức cường độ âm tăng thêm khoảng $3$ dB so với một loa.",
+     "a": true
+    },
+    {
+     "t": "Âm có mức $100$ dB có cường độ gấp $1000$ lần âm có mức $70$ dB.",
+     "a": true
+    },
+    {
+     "t": "Âm có mức $60$ dB có cường độ gấp đôi âm có mức $30$ dB.",
+     "a": false
+    }
+   ],
+   "explanation": "a) $10\\log10=10$: Đúng. b) $10\\log2\\approx3{,}01$: Đúng. c) $\\dfrac{I_1}{I_2}=10^{\\frac{100-70}{10}}=10^3$: Đúng. d) $10^{\\frac{60-30}{10}}=1000$ lần, không phải $2$ lần: Sai."
+  },
+  {
+   "qtype": "short",
+   "topic": "Ứng dụng tích phân",
+   "level": 2,
+   "stem": "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=\\sqrt x$, đường thẳng $y=x-2$ và trục hoành. (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "3,33",
+   "explanation": "$\\sqrt x=x-2\\Leftrightarrow x=4$; đường thẳng cắt $Ox$ tại $x=2$. $S=\\displaystyle\\int_0^4\\sqrt x\\,dx-\\int_2^4(x-2)dx=\\dfrac{16}{3}-2=\\dfrac{10}{3}\\approx3{,}33$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân",
+   "level": 1,
+   "stem": "Giá trị của $\\displaystyle\\int_1^e\\ln x\\,dx$ bằng",
+   "options": [
+    "$e$",
+    "$1$",
+    "$e-1$",
+    "$\\dfrac1e$"
+   ],
+   "answer": 1,
+   "explanation": "Từng phần: $\\displaystyle\\int_1^e\\ln x\\,dx=\\left.x\\ln x\\right|_1^e-\\int_1^edx=e-(e-1)=1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Khối nón",
+   "level": 1,
+   "stem": "Một cái phễu dạng hình nón có bán kính miệng phễu $6$ cm và đường sinh $10$ cm. Thể tích của phễu bằng",
+   "options": [
+    "$96\\pi$ cm$^3$",
+    "$120\\pi$ cm$^3$",
+    "$288\\pi$ cm$^3$",
+    "$60\\pi$ cm$^3$"
+   ],
+   "answer": 0,
+   "explanation": "Chiều cao $h=\\sqrt{10^2-6^2}=8$. $V=\\dfrac13\\pi\\cdot36\\cdot8=96\\pi$ cm$^3$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Oxyz – góc",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, tính góc giữa hai mặt phẳng $(P):x+2y+2z-3=0$ và $(Q):2x-y+2z+1=0$ (đơn vị độ, làm tròn đến hàng đơn vị).",
+   "answer_text": "64",
+   "explanation": "$\\cos\\varphi=\\dfrac{|1\\cdot2+2\\cdot(-1)+2\\cdot2|}{3\\cdot3}=\\dfrac49\\Rightarrow\\varphi\\approx63{,}6^\\circ\\approx64^\\circ$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất",
+   "level": 1,
+   "stem": "Gieo đồng thời hai con xúc xắc cân đối, đồng chất. Xác suất để tổng số chấm xuất hiện bằng $7$ là",
+   "options": [
+    "$\\dfrac{7}{36}$",
+    "$\\dfrac{5}{36}$",
+    "$\\dfrac1{12}$",
+    "$\\dfrac16$"
+   ],
+   "answer": 3,
+   "explanation": "Có $6$ kết quả thuận lợi $(1;6),(2;5),\\dots,(6;1)$ trong $36$ kết quả. $P=\\dfrac{6}{36}=\\dfrac16$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Thống kê – độ phân tán",
+   "level": 2,
+   "stem": "Điểm kiểm tra Toán của lớp 12A có số trung bình $7{,}0$ và độ lệch chuẩn $1{,}2$; của lớp 12B có số trung bình $7{,}0$ và độ lệch chuẩn $0{,}8$.",
+   "statements": [
+    {
+     "t": "Điểm của lớp 12B đồng đều hơn lớp 12A.",
+     "a": true
+    },
+    {
+     "t": "Phương sai điểm của lớp 12A bằng $1{,}44$.",
+     "a": true
+    },
+    {
+     "t": "Nếu cộng thêm $0{,}5$ điểm cho mỗi học sinh lớp 12A thì độ lệch chuẩn mới bằng $1{,}7$.",
+     "a": false
+    },
+    {
+     "t": "Nếu đổi sang thang điểm $20$ (nhân mỗi điểm với $2$) thì phương sai của lớp 12B tăng gấp $4$ lần.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Độ lệch chuẩn nhỏ hơn nên đồng đều hơn: Đúng. b) $1{,}2^2=1{,}44$: Đúng. c) Cộng cùng một hằng số không làm thay đổi độ lệch chuẩn: Sai. d) Nhân với $k$ thì phương sai nhân $k^2=4$: Đúng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tổ hợp",
+   "level": 1,
+   "stem": "Một đa giác lồi có $10$ cạnh có bao nhiêu đường chéo?",
+   "options": [
+    "$45$",
+    "$35$",
+    "$70$",
+    "$40$"
+   ],
+   "answer": 1,
+   "explanation": "Số đoạn nối hai đỉnh $C_{10}^2=45$, trừ $10$ cạnh: $35$ đường chéo."
+  },
+  {
+   "qtype": "short",
+   "topic": "Cấp số cộng",
+   "level": 2,
+   "stem": "Người ta xếp gạch thành một bức tường hình bậc thang: hàng trên cùng có $1$ viên, mỗi hàng bên dưới nhiều hơn hàng liền trên $2$ viên. Bức tường có $50$ hàng. Cần bao nhiêu viên gạch?",
+   "answer_text": "2500",
+   "explanation": "Số gạch các hàng là cấp số cộng $u_1=1$, $d=2$: $S_{50}=\\dfrac{50(2+49\\cdot2)}{2}=2500$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – cực trị",
+   "level": 3,
+   "stem": "Cho hàm số $f(x)$ có đạo hàm $f'(x)=(x-1)(x-2)^2(x-3)^3$ với mọi $x\\in\\mathbb{R}$. Hàm số $f(x)$ có bao nhiêu điểm cực đại?",
+   "options": [
+    "$1$",
+    "$2$",
+    "$0$",
+    "$3$"
+   ],
+   "answer": 0,
+   "explanation": "Xét dấu $f'$: trên $(-\\infty;1)$ dương, $(1;2)$ âm, $(2;3)$ âm, $(3;+\\infty)$ dương. $f'$ đổi dấu từ $+$ sang $-$ chỉ tại $x=1$ (cực đại); tại $x=3$ là cực tiểu; $x=2$ không là cực trị."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – tọa độ điểm",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $M(2;-1;3)$ lên mặt phẳng $(Oxz)$ là điểm",
+   "options": [
+    "$(0;-1;0)$",
+    "$(2;-1;0)$",
+    "$(2;0;3)$",
+    "$(0;-1;3)$"
+   ],
+   "answer": 2,
+   "explanation": "Chiếu lên $(Oxz)$ thì giữ hoành độ và cao độ, tung độ bằng $0$: $(2;0;3)$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số – kinh tế",
+   "level": 3,
+   "stem": "Một doanh nghiệp sản xuất $x$ (trăm sản phẩm) mỗi tháng, $0\\le x\\le40$, với doanh thu $R(x)=-2x^2+80x$ và chi phí $C(x)=20x+100$ (đơn vị: triệu đồng). Lợi nhuận $P(x)=R(x)-C(x)$.",
+   "statements": [
+    {
+     "t": "Lợi nhuận lớn nhất đạt được khi $x=15$.",
+     "a": true
+    },
+    {
+     "t": "Lợi nhuận lớn nhất bằng $350$ triệu đồng.",
+     "a": true
+    },
+    {
+     "t": "Nếu $x$ là số nguyên thì doanh nghiệp có lãi ($P(x)>0$) khi và chỉ khi $2\\le x\\le28$.",
+     "a": true
+    },
+    {
+     "t": "Doanh thu lớn nhất cũng đạt được khi $x=15$.",
+     "a": false
+    }
+   ],
+   "explanation": "$P(x)=-2x^2+60x-100$. a) $P'(x)=0\\Leftrightarrow x=15$: Đúng. b) $P(15)=350$: Đúng. c) $P(x)>0\\Leftrightarrow 15-\\sqrt{175}<x<15+\\sqrt{175}$, tức $1{,}77<x<28{,}23$: Đúng. d) $R'(x)=0\\Leftrightarrow x=20$: Sai — doanh thu lớn nhất khác lợi nhuận lớn nhất."
+  },
+  {
+   "qtype": "short",
+   "topic": "Xác suất",
+   "level": 3,
+   "stem": "Một nhóm có $23$ người. Giả sử ngày sinh của mỗi người rơi ngẫu nhiên vào một trong $365$ ngày của năm với khả năng như nhau và độc lập. Xác suất để có ít nhất hai người trùng ngày sinh bằng bao nhiêu? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "0,51",
+   "explanation": "Biến cố đối: $23$ người có ngày sinh đôi một khác nhau, xác suất $\\dfrac{365\\cdot364\\cdots343}{365^{23}}\\approx0{,}4927$. Vậy $P\\approx1-0{,}4927\\approx0{,}51$ — lớn hơn trực giác nhiều."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Phương trình mũ",
+   "level": 2,
+   "stem": "Tổng các nghiệm của phương trình $2^{x^2-x}=4$ bằng",
+   "options": [
+    "$-1$",
+    "$2$",
+    "$1$",
+    "$-2$"
+   ],
+   "answer": 2,
+   "explanation": "$2^{x^2-x}=2^2\\Leftrightarrow x^2-x-2=0\\Leftrightarrow x=-1$ hoặc $x=2$. Tổng bằng $1$ (theo Vi-ét)."
+  },
+  {
+   "qtype": "short",
+   "topic": "Hình học không gian – khoảng cách",
+   "level": 3,
+   "stem": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $6$ cm. Khoảng cách giữa hai đường thẳng chéo nhau $AB'$ và $BC'$ bằng bao nhiêu centimét? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "3,46",
+   "explanation": "Đặt $A(0;0;0)$, $B(6;0;0)$, $B'(6;0;6)$, $C'(6;6;6)$. $\\vec{AB'}=(6;0;6)$, $\\vec{BC'}=(0;6;6)$, $[\\vec{AB'},\\vec{BC'}]=(-36;-36;36)$. $d=\\dfrac{|[\\vec{AB'},\\vec{BC'}]\\cdot\\vec{AB}|}{|[\\vec{AB'},\\vec{BC'}]|}=\\dfrac{216}{36\\sqrt3}=2\\sqrt3\\approx3{,}46$ cm."
+  }
+ ],
+ "self_check": "Mọi đáp án được tính lại bằng Python/sympy với assert (cực trị xét dấu đạo hàm, tối ưu, số chữ số của 2^2026 đếm trực tiếp, decibel, diện tích, góc giữa hai mặt phẳng, xác suất trùng sinh nhật tính chính xác, khoảng cách hai đường chéo nhau bằng tọa độ, tính chất phương sai kiểm trên dữ liệu mẫu). Không trùng câu với de1/de2."
+}

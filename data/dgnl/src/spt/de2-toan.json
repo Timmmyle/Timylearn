@@ -1,0 +1,324 @@
+{
+ "exam": "spt",
+ "part": "toan",
+ "set": "de2",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – GTLN, GTNN",
+   "level": 1,
+   "stem": "Giá trị nhỏ nhất của hàm số $y=x+\\dfrac{4}{x}$ trên đoạn $[1;4]$ bằng",
+   "options": [
+    "5",
+    "2",
+    "4",
+    "$\\dfrac{17}{4}$"
+   ],
+   "answer": 2,
+   "explanation": "$y'=1-\\dfrac4{x^2}=0\\Rightarrow x=2\\in[1;4]$. $y(1)=5$, $y(2)=4$, $y(4)=5$. GTNN là 4."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "Họ nguyên hàm của hàm số $f(x)=e^{2x}+\\dfrac1x$ trên khoảng $(0;+\\infty)$ là",
+   "options": [
+    "$\\dfrac12e^{2x}+\\ln x+C$",
+    "$2e^{2x}+\\ln x+C$",
+    "$\\dfrac12e^{2x}-\\dfrac1{x^2}+C$",
+    "$e^{2x}+\\ln x+C$"
+   ],
+   "answer": 0,
+   "explanation": "$\\displaystyle\\int e^{2x}dx=\\dfrac12e^{2x}+C$, $\\displaystyle\\int\\dfrac1x dx=\\ln x+C$ (với $x>0$)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – khoảng cách",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, khoảng cách từ điểm $M(1;2;3)$ đến mặt phẳng $(P):2x-2y+z-4=0$ bằng",
+   "options": [
+    "3",
+    "$\\dfrac13$",
+    "$\\dfrac53$",
+    "1"
+   ],
+   "answer": 3,
+   "explanation": "$d=\\dfrac{|2-4+3-4|}{\\sqrt{4+4+1}}=\\dfrac33=1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Lượng giác",
+   "level": 2,
+   "stem": "Số nghiệm của phương trình $\\sin 2x=\\cos x$ trên đoạn $[0;2\\pi]$ là",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "$\\cos x(2\\sin x-1)=0$. $\\cos x=0$: $x=\\dfrac\\pi2;\\dfrac{3\\pi}2$. $\\sin x=\\dfrac12$: $x=\\dfrac\\pi6;\\dfrac{5\\pi}6$. Có 4 nghiệm."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – lôgarit",
+   "level": 2,
+   "stem": "Tổng các nghiệm của phương trình $4^x-5\\cdot2^x+4=0$ bằng",
+   "options": [
+    "5",
+    "4",
+    "0",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "Đặt $u=2^x>0$: $u^2-5u+4=0\\Leftrightarrow u=1$ hoặc $u=4$ ⇒ $x=0$ hoặc $x=2$. Tổng bằng 2."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – tứ phân vị",
+   "level": 2,
+   "stem": "Cân nặng (kg) của 40 học sinh lớp 12 được cho dạng ghép nhóm: $[40;45)$: 6; $[45;50)$: 10; $[50;55)$: 14; $[55;60)$: 7; $[60;65)$: 3. Khoảng tứ phân vị của mẫu số liệu là",
+   "options": [
+    "6 kg",
+    "8 kg",
+    "$7{,}5$ kg",
+    "10 kg"
+   ],
+   "answer": 1,
+   "explanation": "$\\dfrac n4=10$ thuộc nhóm $[45;50)$: $Q_1=45+\\dfrac{10-6}{10}\\cdot5=47$. $\\dfrac{3n}4=30$ thuộc nhóm $[50;55)$: $Q_3=50+\\dfrac{30-16}{14}\\cdot5=55$. $\\Delta_Q=55-47=8$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân – tính chất",
+   "level": 1,
+   "stem": "Cho $\\displaystyle\\int_0^2 f(x)\\,dx=3$ và $\\displaystyle\\int_0^2 g(x)\\,dx=-1$. Giá trị của $\\displaystyle\\int_0^2\\big[2f(x)-3g(x)+x\\big]dx$ bằng",
+   "options": [
+    "11",
+    "5",
+    "9",
+    "7"
+   ],
+   "answer": 0,
+   "explanation": "$=2\\cdot3-3\\cdot(-1)+\\displaystyle\\int_0^2x\\,dx=6+3+2=11$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – đường thẳng",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, đường thẳng đi qua $A(2;-1;3)$ và song song với cả hai mặt phẳng $(P):x+y-z+1=0$, $(Q):2x-y+z-3=0$ có phương trình là",
+   "options": [
+    "$\\begin{cases}x=2+t\\\\y=-1+t\\\\z=3-t\\end{cases}$",
+    "$\\begin{cases}x=2\\\\y=-1+t\\\\z=3-t\\end{cases}$",
+    "$\\begin{cases}x=2\\\\y=-1+t\\\\z=3+t\\end{cases}$",
+    "$\\begin{cases}x=2+3t\\\\y=-1\\\\z=3+3t\\end{cases}$"
+   ],
+   "answer": 2,
+   "explanation": "Vectơ chỉ phương $\\vec u=[\\vec n_P,\\vec n_Q]=(0;-3;-3)$, cùng phương với $(0;1;1)$. Phương trình: $x=2$, $y=-1+t$, $z=3+t$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất toàn phần",
+   "level": 2,
+   "stem": "Một nhà máy có hai phân xưởng: phân xưởng I sản xuất 60% sản phẩm với tỉ lệ phế phẩm 3%, phân xưởng II sản xuất 40% sản phẩm với tỉ lệ phế phẩm 5%. Chọn ngẫu nhiên một sản phẩm của nhà máy. Xác suất sản phẩm đó là phế phẩm bằng",
+   "options": [
+    "$0{,}04$",
+    "$0{,}038$",
+    "$0{,}08$",
+    "$0{,}018$"
+   ],
+   "answer": 1,
+   "explanation": "Công thức xác suất toàn phần: $P=0{,}6\\cdot0{,}03+0{,}4\\cdot0{,}05=0{,}018+0{,}02=0{,}038$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – cực trị hàm trị tuyệt đối",
+   "level": 3,
+   "stem": "Có bao nhiêu giá trị nguyên của tham số $m$ để hàm số $y=\\left|x^3-3x+m\\right|$ có đúng 5 điểm cực trị?",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "$f(x)=x^3-3x+m$ có 2 điểm cực trị. Số cực trị của $|f|$ bằng 2 cộng số nghiệm đơn (đổi dấu) của $f(x)=0$; cần $f(x)=0$ có 3 nghiệm phân biệt ⇔ $f_{CĐ}\\cdot f_{CT}<0\\Leftrightarrow (m+2)(m-2)<0\\Leftrightarrow -2<m<2$. Có 3 giá trị $m\\in\\{-1;0;1\\}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình học không gian – góc",
+   "level": 3,
+   "stem": "Cho lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác đều cạnh $a$ và $AA'=a$. Gọi $\\varphi$ là góc giữa hai đường thẳng $AB'$ và $BC'$. Giá trị $\\cos\\varphi$ bằng",
+   "options": [
+    "$\\dfrac12$",
+    "$\\dfrac{\\sqrt3}{4}$",
+    "$\\dfrac14$",
+    "$\\dfrac34$"
+   ],
+   "answer": 2,
+   "explanation": "$\\overrightarrow{AB'}=\\overrightarrow{AB}+\\overrightarrow{AA'}$, $\\overrightarrow{BC'}=\\overrightarrow{BC}+\\overrightarrow{AA'}$. Tích vô hướng: $\\overrightarrow{AB}\\cdot\\overrightarrow{BC}+AA'^2=-\\dfrac{a^2}2+a^2=\\dfrac{a^2}2$; $AB'=BC'=a\\sqrt2$. $\\cos\\varphi=\\dfrac{a^2/2}{2a^2}=\\dfrac14$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – lôgarit thực tế",
+   "level": 3,
+   "stem": "Một người gửi tiết kiệm 100 triệu đồng với lãi suất 6%/năm, theo hình thức lãi kép (tiền lãi mỗi năm được nhập vào gốc), không rút tiền. Sau ít nhất bao nhiêu năm người đó có tổng số tiền (gốc và lãi) không dưới 150 triệu đồng?",
+   "options": [
+    "7 năm",
+    "6 năm",
+    "8 năm",
+    "9 năm"
+   ],
+   "answer": 0,
+   "explanation": "Cần $100\\cdot1{,}06^n\\ge150\\Leftrightarrow n\\ge\\log_{1{,}06}1{,}5\\approx6{,}96$. Vậy $n=7$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số – phân thức",
+   "level": 1,
+   "stem": "Cho hàm số $y=\\dfrac{2x+1}{x-1}$ có đồ thị $(C)$.",
+   "statements": [
+    {
+     "t": "Đồ thị $(C)$ có tiệm cận đứng là đường thẳng $x=1$.",
+     "a": true
+    },
+    {
+     "t": "Hàm số đồng biến trên từng khoảng xác định.",
+     "a": false
+    },
+    {
+     "t": "Giao điểm hai đường tiệm cận $I(1;2)$ là tâm đối xứng của $(C)$.",
+     "a": true
+    },
+    {
+     "t": "Tiếp tuyến của $(C)$ tại điểm có hoành độ $x=2$ có phương trình $y=-3x+11$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $y'=\\dfrac{-3}{(x-1)^2}<0$ nên hàm số nghịch biến trên từng khoảng. c) Đúng (tính chất đồ thị hàm phân thức bậc nhất). d) Đúng: $y(2)=5$, $y'(2)=-3$, tiếp tuyến $y=-3(x-2)+5=-3x+11$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Oxyz – mặt cầu",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, cho mặt cầu $(S):x^2+y^2+z^2-2x+4y-6z-2=0$.",
+   "statements": [
+    {
+     "t": "Mặt cầu $(S)$ có tâm $I(1;-2;3)$.",
+     "a": true
+    },
+    {
+     "t": "Mặt cầu $(S)$ có bán kính bằng 16.",
+     "a": false
+    },
+    {
+     "t": "Mặt phẳng $(P):2x+y-2z+3=0$ cắt $(S)$ theo giao tuyến là đường tròn có bán kính $\\sqrt7$.",
+     "a": false
+    },
+    {
+     "t": "Có hai giá trị của $m$ để mặt phẳng $2x+y-2z+m=0$ tiếp xúc với $(S)$, và tổng hai giá trị đó bằng 12.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) Sai: $R^2=1+4+9+2=16$ nên $R=4$. c) Sai: $d(I,(P))=\\dfrac{|2-2-6+3|}{3}=1$, bán kính đường tròn $r=\\sqrt{16-1}=\\sqrt{15}$. d) Đúng: $\\dfrac{|m-6|}{3}=4\\Leftrightarrow m=18$ hoặc $m=-6$; tổng bằng 12."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Xác suất có điều kiện",
+   "level": 2,
+   "stem": "Lớp 12A có 40 học sinh, trong đó 25 em thích môn Toán, 18 em thích môn Vật lí và 10 em thích cả hai môn. Chọn ngẫu nhiên một học sinh của lớp. Gọi $A$: “học sinh đó thích Toán”, $B$: “học sinh đó thích Vật lí”.",
+   "statements": [
+    {
+     "t": "Xác suất học sinh được chọn thích ít nhất một trong hai môn bằng $\\dfrac{33}{40}$.",
+     "a": true
+    },
+    {
+     "t": "$P(B\\,|\\,A)=0{,}4$.",
+     "a": true
+    },
+    {
+     "t": "Hai biến cố $A$ và $B$ độc lập.",
+     "a": false
+    },
+    {
+     "t": "Xác suất học sinh được chọn thích Toán, biết em đó không thích Vật lí, bằng $0{,}6$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $\\dfrac{25+18-10}{40}=\\dfrac{33}{40}$. b) Đúng: $P(B|A)=\\dfrac{10}{25}=0{,}4$. c) Sai: $P(A)P(B)=\\dfrac{25}{40}\\cdot\\dfrac{18}{40}=0{,}28125\\ne P(AB)=0{,}25$. d) Sai: có 22 em không thích Lí, trong đó $25-10=15$ em thích Toán, xác suất $\\dfrac{15}{22}\\approx0{,}68$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Ứng dụng tích phân – thực tế",
+   "level": 2,
+   "stem": "Một bể chứa ban đầu có 200 lít nước. Người ta mở vòi cho nước chảy vào bể với tốc độ $r(t)=20-t$ (lít/phút), $0\\le t\\le20$, trong đó $t$ là thời gian tính bằng phút kể từ lúc mở vòi. Bể đủ lớn để nước không tràn.",
+   "statements": [
+    {
+     "t": "Trong 10 phút đầu, lượng nước chảy vào bể là 150 lít.",
+     "a": true
+    },
+    {
+     "t": "Tốc độ nước chảy vào bể giảm dần theo thời gian.",
+     "a": true
+    },
+    {
+     "t": "Sau 20 phút, trong bể có 600 lít nước.",
+     "a": false
+    },
+    {
+     "t": "Thời điểm trong bể có 350 lít nước là sau 15 phút kể từ lúc mở vòi.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $\\displaystyle\\int_0^{10}(20-t)dt=150$. b) Đúng: $r'(t)=-1<0$. c) Sai: $\\displaystyle\\int_0^{20}(20-t)dt=200$ nên bể có $400$ lít. d) Sai: $200+20t-\\dfrac{t^2}2=350\\Leftrightarrow t^2-40t+300=0\\Leftrightarrow t=10$ (loại $t=30$)."
+  },
+  {
+   "qtype": "short",
+   "topic": "Lôgarit",
+   "level": 1,
+   "stem": "Cho $a,b,c$ là các số thực dương, $a\\ne1$, thỏa mãn $\\log_a b=2$ và $\\log_a c=3$. Tính $\\log_a\\dfrac{a^2b^3}{\\sqrt c}$.",
+   "answer_text": "6,5",
+   "explanation": "$\\log_a\\dfrac{a^2b^3}{\\sqrt c}=2+3\\log_ab-\\dfrac12\\log_ac=2+6-1{,}5=6{,}5$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tổ hợp – hoán vị",
+   "level": 2,
+   "stem": "Có bao nhiêu cách xếp 4 bạn nam và 3 bạn nữ thành một hàng ngang sao cho 3 bạn nữ đứng cạnh nhau?",
+   "answer_text": "720",
+   "explanation": "Coi 3 bạn nữ là một khối: xếp 5 phần tử có $5!=120$ cách; hoán vị trong khối $3!=6$ cách. Tổng $120\\cdot6=720$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Ứng dụng tích phân – diện tích",
+   "level": 2,
+   "stem": "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=x^3-x$ và đường thẳng $y=3x$.",
+   "answer_text": "8",
+   "explanation": "Hoành độ giao điểm: $x^3-4x=0\\Leftrightarrow x\\in\\{-2;0;2\\}$. $S=\\displaystyle\\int_{-2}^2|x^3-4x|dx=2\\int_0^2(4x-x^3)dx=2(8-4)=8$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Oxyz – cực trị hình học",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, cho hai điểm $A(1;2;1)$ và $B(3;0;3)$. Điểm $M$ thay đổi trên mặt phẳng $(Oxy)$. Tìm giá trị nhỏ nhất của $MA+MB$ (làm tròn đến hàng phần trăm).",
+   "answer_text": "4,90",
+   "explanation": "$A,B$ cùng phía với $(Oxy)$. Lấy $A'(1;2;-1)$ đối xứng với $A$ qua $(Oxy)$: $MA+MB=MA'+MB\\ge A'B=\\sqrt{4+4+16}=2\\sqrt6\\approx4{,}90$, đạt khi $M=A'B\\cap(Oxy)$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Đạo hàm – tối ưu thực tế",
+   "level": 3,
+   "stem": "Một bể nước không nắp dạng hình hộp chữ nhật có đáy là hình vuông và thể tích $4\\ \\text{m}^3$. Chi phí làm đáy là 300 nghìn đồng/$\\text{m}^2$, chi phí làm thành bể là 200 nghìn đồng/$\\text{m}^2$. Chi phí thấp nhất để làm bể là bao nhiêu nghìn đồng (làm tròn đến hàng đơn vị)?",
+   "answer_text": "2747",
+   "explanation": "Cạnh đáy $x$, chiều cao $\\dfrac4{x^2}$. Chi phí $C(x)=300x^2+200\\cdot4x\\cdot\\dfrac4{x^2}=300x^2+\\dfrac{3200}x$. $C'(x)=600x-\\dfrac{3200}{x^2}=0\\Leftrightarrow x^3=\\dfrac{16}3\\Rightarrow x\\approx1{,}747$. $C_{\\min}\\approx2747$ nghìn đồng."
+  },
+  {
+   "qtype": "short",
+   "topic": "Công thức Bayes",
+   "level": 3,
+   "stem": "Có hai hộp bi. Hộp I có 3 bi đỏ và 2 bi xanh; hộp II có 1 bi đỏ và 4 bi xanh. Chọn ngẫu nhiên một hộp rồi từ hộp đó lấy ngẫu nhiên một viên bi, được bi đỏ. Tính xác suất viên bi đó được lấy từ hộp I.",
+   "answer_text": "0,75",
+   "explanation": "$P(Đ)=\\dfrac12\\cdot\\dfrac35+\\dfrac12\\cdot\\dfrac15=\\dfrac25$. Theo Bayes: $P(I|Đ)=\\dfrac{\\frac12\\cdot\\frac35}{\\frac25}=\\dfrac34=0{,}75$."
+  }
+ ],
+ "self_check": "Kiểm bằng Python/SymPy/NumPy: GTNN, nguyên hàm (đạo hàm ngược), số nghiệm lượng giác bằng solveset, tứ phân vị ghép nhóm, tích có hướng, đếm cực trị |f| bằng quét số, góc trong lăng trụ bằng tọa độ, lãi kép, liệt kê 7! hoán vị, quét lưới cho min MA+MB, tối ưu chi phí, Bayes; đã chạy dgnl-check."
+}

@@ -1,0 +1,276 @@
+{
+ "exam": "hsa",
+ "part": "van",
+ "set": "luyen",
+ "passages": {
+  "p1": "Đọc bài thơ sau và trả lời các câu hỏi:\n\nĐêm khuya văng vẳng trống canh dồn,\nTrơ cái hồng nhan với nước non.\nChén rượu hương đưa say lại tỉnh,\nVầng trăng bóng xế khuyết chưa tròn.\nXiên ngang mặt đất rêu từng đám,\nĐâm toạc chân mây đá mấy hòn.\nNgán nỗi xuân đi xuân lại lại,\nMảnh tình san sẻ tí con con.\n\n(Hồ Xuân Hương, Tự tình – bài II)",
+  "p2": "Đọc đoạn thơ sau và trả lời các câu hỏi:\n\nThôn Đoài ngồi nhớ thôn Đông,\nMột người chín nhớ mười mong một người.\nGió mưa là bệnh của giời,\nTương tư là bệnh của tôi yêu nàng.\nHai thôn chung lại một làng,\nCớ sao bên ấy chẳng sang bên này?\nNgày qua ngày lại qua ngày,\nLá xanh nhuộm đã thành cây lá vàng.\n\n(Nguyễn Bính, Tương tư)",
+  "p3": "Đọc văn bản sau và trả lời các câu hỏi:\n\nChữ Nôm là hệ thống chữ viết do người Việt sáng tạo trên cơ sở chữ Hán để ghi lại tiếng Việt. Có những chữ mượn nguyên chữ Hán để ghi âm hoặc ghi nghĩa; có những chữ được ghép từ hai bộ phận, một phần gợi nghĩa và một phần gợi âm. Nhờ chữ Nôm, nhiều kiệt tác như “Truyện Kiều” của Nguyễn Du hay thơ Hồ Xuân Hương đã ra đời, khẳng định khả năng biểu đạt phong phú của tiếng Việt văn chương. Tuy vậy, chữ Nôm khá phức tạp: muốn đọc được, người học thường phải biết chữ Hán trước, và cách viết một số chữ chưa thật thống nhất. Đây là một trong những lí do khiến chữ Nôm khó phổ cập rộng rãi trong dân chúng.\n\n(Văn bản tự biên soạn)"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu thơ – thể thơ",
+   "level": 1,
+   "stem": "Bài thơ được viết theo thể thơ nào?",
+   "options": [
+    "Thất ngôn tứ tuyệt Đường luật",
+    "Thất ngôn bát cú Đường luật",
+    "Lục bát",
+    "Song thất lục bát"
+   ],
+   "answer": 1,
+   "explanation": "8 câu, mỗi câu 7 chữ, vần “on” ở các câu 1, 2, 4, 6, 8, đối ở câu 3–4, 5–6 → thất ngôn bát cú Đường luật (viết bằng chữ Nôm)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu thơ – từ ngữ",
+   "level": 3,
+   "stem": "Từ “Trơ” trong câu “Trơ cái hồng nhan với nước non” gợi điều gì?",
+   "options": [
+    "Vừa gợi sự bẽ bàng, tủi hổ vừa thể hiện bản lĩnh thách thức của nhân vật trữ tình",
+    "Chỉ diễn tả vẻ đẹp rực rỡ của người phụ nữ",
+    "Thể hiện niềm vui khi được ngắm cảnh nước non",
+    "Diễn tả sự thờ ơ, vô cảm trước cuộc đời"
+   ],
+   "answer": 0,
+   "explanation": "“Trơ” đảo lên đầu câu: trơ trọi, bẽ bàng (“cái hồng nhan” rẻ rúng) nhưng cũng là trơ lì, thách thức với “nước non”."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu thơ – nghệ thuật",
+   "level": 2,
+   "stem": "Hai câu luận “Xiên ngang mặt đất rêu từng đám, / Đâm toạc chân mây đá mấy hòn” sử dụng những biện pháp nghệ thuật nào?",
+   "options": [
+    "Điệp ngữ kết hợp câu hỏi tu từ",
+    "Đảo ngữ, phép đối kết hợp động từ mạnh",
+    "So sánh kết hợp nói giảm, nói tránh",
+    "Hoán dụ kết hợp liệt kê"
+   ],
+   "answer": 1,
+   "explanation": "Động từ mạnh “xiên ngang”, “đâm toạc” đảo lên đầu câu, hai câu đối nhau → sức phản kháng, phẫn uất của thiên nhiên và con người."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p1",
+   "topic": "Đọc hiểu thơ – từ đa nghĩa",
+   "level": 3,
+   "stem": "Từ “xuân” trong câu “Ngán nỗi xuân đi xuân lại lại” được hiểu như thế nào là đầy đủ nhất?",
+   "options": [
+    "Chỉ là mùa xuân của đất trời",
+    "Chỉ là tên riêng của nhân vật trữ tình",
+    "Vừa là mùa xuân của đất trời tuần hoàn trở lại, vừa là tuổi xuân của con người qua đi không trở lại",
+    "Chỉ là niềm vui, hạnh phúc trong tình yêu"
+   ],
+   "answer": 2,
+   "explanation": "Xuân thiên nhiên đi rồi lại đến, còn tuổi xuân của người chỉ đi mà không trở lại → nỗi “ngán” chua chát."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu thơ – thể thơ",
+   "level": 1,
+   "stem": "Đoạn thơ được viết theo thể thơ nào?",
+   "options": [
+    "Song thất lục bát",
+    "Thơ bảy chữ",
+    "Thơ tự do",
+    "Lục bát"
+   ],
+   "answer": 3,
+   "explanation": "Các câu sáu chữ và tám chữ xen kẽ → thể lục bát."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu thơ – biện pháp tu từ",
+   "level": 2,
+   "stem": "Câu thơ “Thôn Đoài ngồi nhớ thôn Đông” sử dụng biện pháp tu từ nào?",
+   "options": [
+    "Hoán dụ",
+    "So sánh",
+    "Câu hỏi tu từ",
+    "Nói giảm, nói tránh"
+   ],
+   "answer": 0,
+   "explanation": "Lấy nơi chốn (thôn Đoài, thôn Đông) để chỉ người ở đó (chàng trai, cô gái) → hoán dụ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu thơ – câu hỏi tu từ",
+   "level": 2,
+   "stem": "Câu “Cớ sao bên ấy chẳng sang bên này?” thể hiện điều gì?",
+   "options": [
+    "Câu hỏi đường đi giữa hai thôn",
+    "Sự giận dữ, muốn chấm dứt mối quan hệ",
+    "Lời trách móc, hờn dỗi rất đáng yêu của chàng trai đang tương tư",
+    "Lời mời gọi dân làng sang chơi"
+   ],
+   "answer": 2,
+   "explanation": "Câu hỏi tu từ: hai thôn chung một làng, gần nhau mà “bên ấy” không sang → nỗi hờn trách của người đang yêu đơn phương."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p2",
+   "topic": "Đọc hiểu thơ – hình ảnh",
+   "level": 3,
+   "stem": "Câu thơ “Lá xanh nhuộm đã thành cây lá vàng” gợi điều gì?",
+   "options": [
+    "Cảnh mùa thu tươi đẹp ở làng quê",
+    "Thời gian trôi qua và sự chờ đợi mỏi mòn của nhân vật trữ tình",
+    "Sự giàu có, sung túc của làng quê",
+    "Sức sống mạnh mẽ của cây cối"
+   ],
+   "answer": 1,
+   "explanation": "Lá xanh chuyển thành lá vàng – thời gian dằng dặc qua đi trong nỗi nhớ mong, tương tư."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Đọc hiểu văn bản thông tin – khái niệm",
+   "level": 1,
+   "stem": "Theo văn bản, chữ Nôm là gì?",
+   "options": [
+    "Chữ viết dùng chữ cái La-tinh để ghi tiếng Việt",
+    "Chữ Hán được người Việt đọc theo âm Hán Việt",
+    "Chữ viết riêng của các dân tộc thiểu số",
+    "Chữ viết do người Việt sáng tạo trên cơ sở chữ Hán để ghi tiếng Việt"
+   ],
+   "answer": 3,
+   "explanation": "Câu mở đầu văn bản nêu định nghĩa này."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Đọc hiểu văn bản thông tin – chi tiết",
+   "level": 2,
+   "stem": "Theo văn bản, vì sao chữ Nôm khó phổ cập rộng rãi trong dân chúng?",
+   "options": [
+    "Vì chữ Nôm không ghi được tiếng Việt",
+    "Vì chữ phức tạp, người học thường phải biết chữ Hán trước và cách viết chưa thật thống nhất",
+    "Vì chữ Nôm bị cấm sử dụng trong sáng tác văn chương",
+    "Vì chữ Nôm chỉ có rất ít chữ"
+   ],
+   "answer": 1,
+   "explanation": "Văn bản: “chữ Nôm khá phức tạp: muốn đọc được, người học thường phải biết chữ Hán trước, và cách viết một số chữ chưa thật thống nhất”."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "p3",
+   "topic": "Đọc hiểu văn bản thông tin – ý nghĩa",
+   "level": 2,
+   "stem": "Theo văn bản, chữ Nôm có đóng góp gì cho văn học dân tộc?",
+   "options": [
+    "Thay thế hoàn toàn chữ Hán trong mọi văn bản hành chính",
+    "Giúp văn học Việt Nam được dịch ra nhiều thứ tiếng",
+    "Tạo điều kiện cho nhiều kiệt tác ra đời, khẳng định khả năng biểu đạt của tiếng Việt văn chương",
+    "Làm cho văn học chữ Hán phát triển mạnh hơn"
+   ],
+   "answer": 2,
+   "explanation": "Văn bản nêu: “Nhờ chữ Nôm, nhiều kiệt tác… đã ra đời, khẳng định khả năng biểu đạt phong phú của tiếng Việt văn chương”."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kiến thức văn học",
+   "level": 1,
+   "stem": "Bài thơ “Nhàn” (“Một mai, một cuốc, một cần câu…”) là của tác giả nào?",
+   "options": [
+    "Nguyễn Bỉnh Khiêm",
+    "Nguyễn Trãi",
+    "Nguyễn Khuyến",
+    "Trần Tế Xương"
+   ],
+   "answer": 0,
+   "explanation": "“Nhàn” là bài thơ Nôm của Nguyễn Bỉnh Khiêm, thể hiện quan niệm sống nhàn, xa danh lợi."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kiến thức văn học",
+   "level": 2,
+   "stem": "Tác phẩm nào sau đây là của Nam Cao?",
+   "options": [
+    "Tắt đèn",
+    "Số đỏ",
+    "Bước đường cùng",
+    "Đời thừa"
+   ],
+   "answer": 3,
+   "explanation": "“Tắt đèn” – Ngô Tất Tố; “Số đỏ” – Vũ Trọng Phụng; “Bước đường cùng” – Nguyễn Công Hoan."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Kiến thức văn học",
+   "level": 2,
+   "stem": "Công trình nào của Hoài Thanh – Hoài Chân được xem là sự tổng kết xuất sắc về phong trào Thơ mới?",
+   "options": [
+    "Việt Nam sử lược",
+    "Vang bóng một thời",
+    "Thi nhân Việt Nam",
+    "Truyền kì mạn lục"
+   ],
+   "answer": 2,
+   "explanation": "“Thi nhân Việt Nam” (1942) gồm tiểu luận “Một thời đại trong thi ca” và các lời bình về các nhà Thơ mới."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tiếng Việt – từ dùng sai",
+   "level": 2,
+   "stem": "Xác định từ dùng sai trong câu: “Nhờ sự giúp đỡ tận tình của thầy cô, em đã tiến bộ vượt bật.”",
+   "options": [
+    "vượt bật",
+    "giúp đỡ",
+    "tận tình",
+    "tiến bộ"
+   ],
+   "answer": 0,
+   "explanation": "Từ đúng là “vượt bậc” (vượt hẳn lên nhiều bậc)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tiếng Việt – từ Hán Việt",
+   "level": 2,
+   "stem": "Yếu tố “thủ” trong từ nào sau đây có nghĩa là “đầu, đứng đầu”?",
+   "options": [
+    "thủ khoa",
+    "thủ môn",
+    "thủ công",
+    "thủ thư"
+   ],
+   "answer": 0,
+   "explanation": "Thủ khoa: thủ = đầu. Thủ môn, thủ thư: thủ = giữ; thủ công: thủ = tay."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tiếng Việt – câu sai",
+   "level": 3,
+   "stem": "Câu nào sau đây đúng ngữ pháp?",
+   "options": [
+    "Qua bài thơ cho thấy tình yêu quê hương tha thiết của tác giả.",
+    "Với bài thơ đã thể hiện tình yêu quê hương tha thiết.",
+    "Bài thơ mà tác giả thể hiện tình yêu quê hương tha thiết.",
+    "Qua bài thơ, tác giả đã thể hiện tình yêu quê hương tha thiết."
+   ],
+   "answer": 3,
+   "explanation": "Ba câu còn lại: thiếu chủ ngữ (“Qua bài thơ cho thấy…”, “Với bài thơ đã…”) hoặc chỉ là cụm danh từ, thiếu vị ngữ (“Bài thơ mà…”)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tiếng Việt – liên kết câu",
+   "level": 3,
+   "stem": "Chọn câu thích hợp nhất điền vào chỗ trống: “Đọc sách giúp ta mở rộng hiểu biết. …… Vì thế, mỗi người nên dành thời gian đọc sách mỗi ngày.”",
+   "options": [
+    "Tuy nhiên, đọc sách chẳng mang lại lợi ích gì đáng kể.",
+    "Không chỉ vậy, sách còn bồi đắp tâm hồn và nuôi dưỡng trí tưởng tượng.",
+    "Sách giấy hiện nay thường có giá khá cao.",
+    "Nhiều người không có thói quen đọc sách."
+   ],
+   "answer": 1,
+   "explanation": "Câu điền phải tiếp tục nêu lợi ích để câu sau (“Vì thế…”) rút ra lời khuyên hợp lí; các phương án khác mâu thuẫn hoặc không dẫn tới kết luận."
+  }
+ ],
+ "self_check": "Ngữ liệu văn học chỉ dùng tác phẩm thuộc phạm vi công cộng (tác giả mất trước 1976), đối chiếu nguyên văn theo bản quen thuộc trong SGK; văn bản thông tin/ nghị luận tự viết, không có số liệu thống kê; mỗi câu đã rà lại để chỉ một phương án đúng; kiến thức văn học (tác giả, tác phẩm, thể loại, trào lưu) đối chiếu theo chương trình Ngữ văn THPT; đáp án rải đều A/B/C/D bằng script; chạy dgnl-check.mjs đạt ✓."
+}

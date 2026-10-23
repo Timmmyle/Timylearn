@@ -1,0 +1,462 @@
+{
+ "exam": "vact",
+ "part": "tdkh",
+ "set": "de2",
+ "passages": {
+  "r1": "Sáu học sinh Phong, Quân, Sơn, Tâm, Uyên, Vy được phân vào ba phòng thí nghiệm Lí, Hóa, Sinh; mỗi phòng có đúng 2 bạn. Việc phân công phải thỏa mãn:\n1. Phong và Quân không ở cùng phòng.\n2. Sơn không ở phòng Lí.\n3. Nếu Tâm ở phòng Lí thì Uyên ở phòng Sinh.\n4. Vy không ở cùng phòng với Sơn.\n5. Nếu Phong ở phòng Sinh thì Quân không ở phòng Hóa.",
+  "d2": "Số lượt khách tham quan Vườn quốc gia Đồi Xanh (số liệu giả định, đơn vị: nghìn lượt) theo từng quý như sau:\n| Năm | Quý I | Quý II | Quý III | Quý IV |\n| 2023 | 40 | 65 | 80 | 35 |\n| 2024 | 46 | 70 | 92 | 42 |",
+  "s1": "Để so sánh khả năng hấp thụ nhiệt của nước và dầu ăn, một nhóm học sinh dùng hai cốc giống nhau, cốc 1 chứa 200 g nước, cốc 2 chứa 200 g dầu ăn, cùng nhiệt độ ban đầu 25,0 °C. Mỗi cốc được đun bằng một dây nung giống nhau có công suất 50 W, chất lỏng được khuấy đều. Coi toàn bộ nhiệt do dây nung tỏa ra đều được chất lỏng hấp thụ. Kết quả đo nhiệt độ theo thời gian:\n| Thời gian (s) | 0 | 60 | 120 | 180 | 240 |\n| Nước (°C) | 25,0 | 28,6 | 32,1 | 35,7 | 39,3 |\n| Dầu ăn (°C) | 25,0 | 32,5 | 40,0 | 47,5 | 55,0 |\nBiết nhiệt dung riêng của nước là 4 200 J/(kg·K).",
+  "s2": "Độ tan (số gam chất tan trong 100 g nước để tạo dung dịch bão hòa) của potassium nitrate ($\\mathrm{KNO_3}$) và sodium chloride (NaCl) ở các nhiệt độ khác nhau được cho trong bảng:\n| Nhiệt độ (°C) | 0 | 20 | 40 | 60 | 80 |\n| $\\mathrm{KNO_3}$ (g/100 g nước) | 13,3 | 31,6 | 63,9 | 110 | 169 |\n| NaCl (g/100 g nước) | 35,7 | 36,0 | 36,6 | 37,3 | 38,4 |",
+  "s3": "Một nhóm học sinh đặt một cành rong đuôi chó vào ống nghiệm chứa nước có hòa tan $\\mathrm{NaHCO_3}$ 0,2% (chất cung cấp $\\mathrm{CO_2}$ cho nước), chiếu sáng bằng một đèn LED đặt cách ống nghiệm ở các khoảng cách khác nhau. Nhiệt độ nước được giữ ở 25 °C. Ở mỗi khoảng cách, đếm số bọt khí thoát ra từ vết cắt của cành rong trong 1 phút (trung bình 3 lần đếm).\n| Khoảng cách đèn (cm) | 10 | 20 | 30 | 40 | 50 |\n| Số bọt khí/phút | 48 | 30 | 16 | 9 | 5 |\nThí nghiệm bổ sung: đèn đặt cách 10 cm nhưng thay nước bằng nước đã đun sôi để nguội (phần lớn khí hòa tan bị đuổi ra) và không thêm $\\mathrm{NaHCO_3}$; đếm được 6 bọt khí/phút.",
+  "s4": "Một học sinh treo lần lượt các quả nặng có khối lượng $m$ khác nhau vào đầu dưới của một lò xo nhẹ có chiều dài tự nhiên 20,0 cm và đo chiều dài $\\ell$ của lò xo khi quả nặng đứng yên. Lấy $g = 10$ m/s².\n| $m$ (g) | 50 | 100 | 150 | 200 | 250 |\n| $\\ell$ (cm) | 22,0 | 24,0 | 26,0 | 28,0 | 31,5 |",
+  "s5": "Trong bình kín tồn tại cân bằng:\n$\\mathrm{2NO_2(g) \\rightleftharpoons N_2O_4(g)}$ $\\quad \\Delta_r H^{o}_{298} = -58$ kJ\n$\\mathrm{NO_2}$ có màu nâu đỏ, $\\mathrm{N_2O_4}$ không màu. Ba ống nghiệm hàn kín A, B, C chứa cùng một lượng hỗn hợp khí như nhau. Ngâm ống A trong nước đá (0 °C), để ống B ở 25 °C, ngâm ống C trong nước nóng (80 °C). Sau vài phút: ống A màu nâu nhạt, ống B màu nâu, ống C màu nâu đỏ đậm.\nỞ một thí nghiệm khác, hỗn hợp khí ở 25 °C được nén nhanh trong một xi lanh kín (giảm thể tích còn một nửa): màu hỗn hợp đậm lên ngay, sau đó nhạt dần rồi ổn định."
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "passage": "r1",
+   "topic": "Suy luận logic – phân nhóm",
+   "level": 1,
+   "stem": "Nếu Phong ở phòng Sinh thì Quân ở phòng nào?",
+   "options": [
+    "Phòng Hóa",
+    "Phòng Lí",
+    "Phòng Sinh",
+    "Phòng Hóa hoặc phòng Sinh"
+   ],
+   "answer": 1,
+   "explanation": "Quân không cùng phòng với Phong (điều kiện 1) nên không ở phòng Sinh; Phong ở phòng Sinh nên Quân không ở phòng Hóa (điều kiện 5). Vậy Quân ở phòng Lí."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "r1",
+   "topic": "Suy luận logic – phân nhóm",
+   "level": 2,
+   "stem": "Hai bạn nào sau đây KHÔNG thể cùng ở phòng Lí?",
+   "options": [
+    "Tâm và Uyên",
+    "Tâm và Vy",
+    "Uyên và Vy",
+    "Quân và Tâm"
+   ],
+   "answer": 0,
+   "explanation": "Nếu Tâm ở phòng Lí thì Uyên phải ở phòng Sinh, nên Tâm và Uyên không thể cùng ở phòng Lí. Các cặp khác đều có cách xếp, ví dụ: Lí: Tâm, Vy – Hóa: Phong, Sơn – Sinh: Quân, Uyên; Lí: Uyên, Vy – Hóa: Phong, Sơn – Sinh: Quân, Tâm; Lí: Quân, Tâm – Hóa: Phong, Sơn – Sinh: Uyên, Vy."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "r1",
+   "topic": "Suy luận logic – phân nhóm",
+   "level": 2,
+   "stem": "Nếu Tâm ở phòng Lí và Vy ở phòng Hóa thì điều nào sau đây chắc chắn đúng?",
+   "options": [
+    "Phong ở phòng Lí",
+    "Quân ở phòng Hóa",
+    "Sơn ở phòng Sinh",
+    "Uyên ở phòng Hóa"
+   ],
+   "answer": 2,
+   "explanation": "Tâm ở phòng Lí → Uyên ở phòng Sinh. Sơn không ở phòng Lí, không cùng phòng với Vy (phòng Hóa) nên Sơn ở phòng Sinh. Phong và Quân chia nhau một chỗ ở phòng Lí và một chỗ ở phòng Hóa, có thể đổi chỗ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "r1",
+   "topic": "Suy luận logic – phân nhóm",
+   "level": 3,
+   "stem": "Nếu Phong và Sơn cùng ở phòng Hóa thì có bao nhiêu cách phân công thỏa mãn các điều kiện?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "Còn Quân, Tâm, Uyên, Vy xếp vào phòng Lí và Sinh (mỗi phòng 2 bạn): có $C_4^2 = 6$ cách chọn 2 bạn vào phòng Lí. Loại cách Lí: Tâm, Uyên (vi phạm điều kiện 3). Các điều kiện còn lại đều thỏa mãn (Phong ở phòng Hóa nên điều kiện 5 không áp dụng; Vy không ở phòng Hóa). Vậy có 6 − 1 = 5 cách."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Suy luận logic – nói thật, nói dối",
+   "level": 2,
+   "stem": "Trên một hòn đảo, mỗi người hoặc luôn nói thật, hoặc luôn nói dối. Ba người X, Y, Z phát biểu:\n- X: \"Y là người nói dối.\"\n- Y: \"X và Z cùng loại (cùng nói thật hoặc cùng nói dối).\"\n- Z: \"Y nói thật còn X nói dối.\"\nNhững ai là người nói thật?",
+   "options": [
+    "Chỉ Y",
+    "X và Z",
+    "Y và Z",
+    "Chỉ X"
+   ],
+   "answer": 3,
+   "explanation": "X nói thật ⇔ Y nói dối, nên X và Y khác loại. Nếu Y nói thật thì X nói dối, Z cùng loại X nên Z nói dối; nhưng khi đó lời Z (\"Y thật, X dối\") lại đúng – mâu thuẫn. Vậy Y nói dối, X nói thật; lời Y sai nên Z khác loại X, tức Z nói dối (kiểm tra: lời Z sai, đúng). Chỉ X nói thật."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Suy luận logic – nói thật, nói dối",
+   "level": 3,
+   "stem": "Trên một hòn đảo, mỗi người hoặc luôn nói thật, hoặc luôn nói dối. Ba người X, Y, Z phát biểu:\n- X: \"Y và Z đều nói dối.\"\n- Y: \"X và Z cùng loại.\"\n- Z: \"X nói dối.\"\nKhẳng định nào sau đây chắc chắn đúng?",
+   "options": [
+    "X là người nói thật",
+    "Z là người nói thật",
+    "Cả ba người đều nói dối",
+    "Y là người nói dối"
+   ],
+   "answer": 3,
+   "explanation": "Z nói \"X nói dối\" nên X và Z khác loại; do đó lời Y (\"X và Z cùng loại\") sai, Y nói dối. Còn hai khả năng: X thật – Y, Z dối (lời X đúng) hoặc X dối – Z thật (lời X sai vì Z thật). Cả hai đều thỏa mãn nên chỉ chắc chắn Y nói dối."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Suy luận logic – mệnh đề",
+   "level": 2,
+   "stem": "Một câu lạc bộ cờ vua quy định: \"Thành viên chỉ được cử đi thi đấu nếu đã tham gia ít nhất 80% số buổi tập.\" Theo quy định này, khẳng định nào sau đây chắc chắn đúng với mọi thành viên?",
+   "options": [
+    "Thành viên tham gia chưa đến 80% số buổi tập thì không được cử đi thi đấu",
+    "Thành viên tham gia ít nhất 80% số buổi tập thì chắc chắn được cử đi thi đấu",
+    "Thành viên không được cử đi thi đấu thì đã tham gia chưa đến 80% số buổi tập",
+    "Có thành viên được cử đi thi đấu dù tham gia chưa đến 80% số buổi tập"
+   ],
+   "answer": 0,
+   "explanation": "\"P chỉ nếu Q\" nghĩa là \"Nếu P thì Q\": được cử đi thi đấu ⇒ tham gia ít nhất 80%. Mệnh đề phản đảo tương đương: chưa đủ 80% ⇒ không được cử đi. Các phương án còn lại là mệnh đề đảo, mệnh đề phản (không tương đương) hoặc trái với quy định."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Suy luận logic – mệnh đề",
+   "level": 1,
+   "stem": "Mệnh đề phủ định của mệnh đề \"Nếu trời mưa thì trận đấu bị hoãn\" là",
+   "options": [
+    "Nếu trời không mưa thì trận đấu không bị hoãn",
+    "Trời không mưa và trận đấu bị hoãn",
+    "Trời mưa và trận đấu không bị hoãn",
+    "Nếu trận đấu bị hoãn thì trời không mưa"
+   ],
+   "answer": 2,
+   "explanation": "Mệnh đề \"Nếu P thì Q\" chỉ sai khi P đúng và Q sai, nên phủ định của nó là \"P và không Q\": trời mưa và trận đấu không bị hoãn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "d2",
+   "topic": "Phân tích số liệu – tăng trưởng",
+   "level": 1,
+   "stem": "So với năm 2023, tổng số lượt khách năm 2024 tăng khoảng",
+   "options": [
+    "8,8%",
+    "12,0%",
+    "13,6%",
+    "30,0%"
+   ],
+   "answer": 2,
+   "explanation": "Tổng 2023: 220; tổng 2024: 250 nghìn lượt. Tăng $\\dfrac{250-220}{220}\\cdot 100\\% \\approx 13{,}6\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "d2",
+   "topic": "Phân tích số liệu – tăng trưởng",
+   "level": 2,
+   "stem": "Quý nào có tốc độ tăng số lượt khách năm 2024 so với cùng quý năm 2023 cao nhất?",
+   "options": [
+    "Quý I",
+    "Quý IV",
+    "Quý II",
+    "Quý III"
+   ],
+   "answer": 1,
+   "explanation": "Tốc độ tăng: quý I: $\\dfrac{6}{40} = 15\\%$; quý II: $\\dfrac{5}{65} \\approx 7{,}7\\%$; quý III: $\\dfrac{12}{80} = 15\\%$; quý IV: $\\dfrac{7}{35} = 20\\%$. Cao nhất là quý IV (dù quý III tăng nhiều nhất về số lượng tuyệt đối)."
+  },
+  {
+   "qtype": "short",
+   "passage": "d2",
+   "topic": "Phân tích số liệu – tỉ trọng",
+   "level": 2,
+   "stem": "Số lượt khách quý III năm 2024 chiếm bao nhiêu phần trăm tổng số lượt khách cả năm 2024? (Điền số, đơn vị %)",
+   "answer_text": "36,8",
+   "explanation": "Tổng năm 2024: 46 + 70 + 92 + 42 = 250 nghìn lượt. Tỉ trọng quý III: $\\dfrac{92}{250}\\cdot 100\\% = 36{,}8\\%$."
+  },
+  {
+   "qtype": "tf",
+   "passage": "d2",
+   "topic": "Phân tích số liệu – so sánh",
+   "level": 3,
+   "stem": "Dựa vào bảng số liệu, xét tính đúng/sai của các nhận định sau.",
+   "statements": [
+    {
+     "t": "Quý II và quý III năm 2024 chiếm hơn 60% tổng số lượt khách cả năm 2024.",
+     "a": true
+    },
+    {
+     "t": "Trung bình mỗi quý năm 2024 đón 62,5 nghìn lượt khách.",
+     "a": true
+    },
+    {
+     "t": "Số lượt khách quý I năm 2024 tăng 6% so với quý I năm 2023.",
+     "a": false
+    },
+    {
+     "t": "Số lượt khách quý IV năm 2024 nhiều hơn một nửa số lượt khách quý III năm 2024.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: $\\dfrac{70+92}{250} = 64{,}8\\% > 60\\%$. b) Đúng: 250 : 4 = 62,5. c) Sai: tăng 6 nghìn lượt, tức $\\dfrac{6}{40} = 15\\%$. d) Sai: một nửa quý III là 46 nghìn, quý IV chỉ có 42 nghìn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – nhiệt dung riêng",
+   "level": 1,
+   "stem": "Trong thí nghiệm, những đại lượng nào được giữ giống nhau ở hai cốc?",
+   "options": [
+    "Loại chất lỏng, khối lượng và nhiệt độ cuối",
+    "Nhiệt độ cuối, thời gian đun và loại chất lỏng",
+    "Khối lượng chất lỏng, nhiệt độ ban đầu và công suất dây nung",
+    "Độ tăng nhiệt độ sau mỗi phút ở hai cốc"
+   ],
+   "answer": 2,
+   "explanation": "Hai cốc chỉ khác nhau ở loại chất lỏng (biến độc lập); khối lượng, nhiệt độ đầu, công suất dây nung, cốc đựng được giữ như nhau để so sánh công bằng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – nhiệt dung riêng",
+   "level": 2,
+   "stem": "Kết luận nào sau đây rút ra được từ kết quả thí nghiệm?",
+   "options": [
+    "Nhiệt dung riêng của dầu ăn nhỏ hơn của nước",
+    "Nước nhận được nhiều nhiệt lượng hơn dầu ăn trong cùng thời gian",
+    "Nhiệt dung riêng của dầu ăn lớn hơn của nước",
+    "Dầu ăn nóng nhanh hơn vì nhiệt độ ban đầu của dầu cao hơn"
+   ],
+   "answer": 0,
+   "explanation": "Cùng khối lượng, cùng nhiệt lượng nhận được (cùng công suất, cùng thời gian), dầu tăng nhiệt độ nhiều hơn nước. Từ $Q = mc\\Delta t$, $\\Delta t$ lớn hơn thì $c$ nhỏ hơn."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – nhiệt dung riêng",
+   "level": 3,
+   "stem": "Từ số liệu, nhiệt dung riêng của dầu ăn tính được bằng",
+   "options": [
+    "1 000 J/(kg·K)",
+    "2 000 J/(kg·K)",
+    "2 100 J/(kg·K)",
+    "8 400 J/(kg·K)"
+   ],
+   "answer": 1,
+   "explanation": "Trong 60 s, dầu nhận $Q = 50 \\cdot 60 = 3\\,000$ J và tăng 7,5 °C. $c = \\dfrac{Q}{m\\Delta t} = \\dfrac{3\\,000}{0{,}2 \\cdot 7{,}5} = 2\\,000$ J/(kg·K)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s1",
+   "topic": "Vật lí – nhiệt dung riêng",
+   "level": 3,
+   "stem": "Với cùng bộ dụng cụ, cần đun bao lâu để 200 g nước tăng từ 25 °C đến 100 °C (bỏ qua hao phí và sự bay hơi)?",
+   "options": [
+    "10,5 phút",
+    "12,6 phút",
+    "21 phút",
+    "42 phút"
+   ],
+   "answer": 2,
+   "explanation": "$Q = mc\\Delta t = 0{,}2 \\cdot 4\\,200 \\cdot 75 = 63\\,000$ J; $t = \\dfrac{Q}{P} = \\dfrac{63\\,000}{50} = 1\\,260$ s = 21 phút."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Hóa học – độ tan",
+   "level": 1,
+   "stem": "Độ tan của $\\mathrm{KNO_3}$ và NaCl bằng nhau ở một nhiệt độ nằm trong khoảng nào?",
+   "options": [
+    "Từ 0 °C đến 20 °C",
+    "Từ 40 °C đến 60 °C",
+    "Từ 60 °C đến 80 °C",
+    "Từ 20 °C đến 40 °C"
+   ],
+   "answer": 3,
+   "explanation": "Ở 20 °C, độ tan $\\mathrm{KNO_3}$ (31,6) nhỏ hơn NaCl (36,0); ở 40 °C, $\\mathrm{KNO_3}$ (63,9) lớn hơn NaCl (36,6). Hai đường độ tan cắt nhau trong khoảng 20 – 40 °C."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Hóa học – độ tan",
+   "level": 2,
+   "stem": "Ở 60 °C, khối lượng $\\mathrm{KNO_3}$ tối đa hòa tan được trong 50 g nước là",
+   "options": [
+    "27,5 g",
+    "55 g",
+    "110 g",
+    "220 g"
+   ],
+   "answer": 1,
+   "explanation": "Độ tan ở 60 °C là 110 g/100 g nước nên 50 g nước hòa tan tối đa $\\dfrac{110 \\cdot 50}{100} = 55$ g."
+  },
+  {
+   "qtype": "short",
+   "passage": "s2",
+   "topic": "Hóa học – độ tan",
+   "level": 3,
+   "stem": "Làm lạnh 210 g dung dịch $\\mathrm{KNO_3}$ bão hòa ở 60 °C xuống 20 °C. Khối lượng tinh thể $\\mathrm{KNO_3}$ (khan) tách ra là bao nhiêu gam?",
+   "answer_text": "78,4",
+   "explanation": "210 g dung dịch bão hòa ở 60 °C gồm 100 g nước và 110 g $\\mathrm{KNO_3}$. Ở 20 °C, 100 g nước chỉ hòa tan được 31,6 g, nên khối lượng tinh thể tách ra là 110 − 31,6 = 78,4 g."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s2",
+   "topic": "Hóa học – độ tan",
+   "level": 2,
+   "stem": "Một mẫu $\\mathrm{KNO_3}$ có lẫn một ít NaCl. Dựa vào bảng, cách nào sau đây thu được $\\mathrm{KNO_3}$ tinh khiết hơn một cách hiệu quả nhất?",
+   "options": [
+    "Hòa tan mẫu vào nước lạnh rồi lọc lấy phần không tan",
+    "Hòa tan mẫu vào nước nóng đến bão hòa rồi làm lạnh, lọc lấy tinh thể",
+    "Đun cạn hoàn toàn dung dịch ở nhiệt độ cao",
+    "Hòa tan mẫu vào nước rồi để yên ở nhiệt độ phòng"
+   ],
+   "answer": 1,
+   "explanation": "Độ tan $\\mathrm{KNO_3}$ giảm mạnh khi hạ nhiệt độ, còn độ tan NaCl hầu như không đổi. Khi làm lạnh dung dịch nóng bão hòa, phần lớn $\\mathrm{KNO_3}$ kết tinh, lượng NaCl ít vẫn tan trong nước."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – quang hợp",
+   "level": 1,
+   "stem": "Khí trong các bọt thoát ra từ cành rong chủ yếu là",
+   "options": [
+    "$\\mathrm{CO_2}$",
+    "$\\mathrm{N_2}$",
+    "$\\mathrm{O_2}$",
+    "$\\mathrm{H_2}$"
+   ],
+   "answer": 2,
+   "explanation": "Khi quang hợp, cây hấp thụ $\\mathrm{CO_2}$ và giải phóng $\\mathrm{O_2}$ (có nguồn gốc từ quá trình quang phân li nước)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – quang hợp",
+   "level": 2,
+   "stem": "Kết quả thí nghiệm chính cho phép rút ra nhận xét nào sau đây?",
+   "options": [
+    "Đèn càng xa, cường độ ánh sáng càng giảm và cường độ quang hợp càng giảm",
+    "Đèn càng xa, cường độ quang hợp càng tăng",
+    "Số bọt khí giảm đều 18 bọt cho mỗi 10 cm tăng thêm",
+    "Khoảng cách đèn không ảnh hưởng đến quang hợp"
+   ],
+   "answer": 0,
+   "explanation": "Số bọt khí (đại diện cho tốc độ quang hợp) giảm từ 48 xuống 5 khi đèn ra xa từ 10 đến 50 cm; mức giảm không đều (18; 14; 7; 4)."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – quang hợp",
+   "level": 2,
+   "stem": "So sánh thí nghiệm bổ sung với thí nghiệm chính ở khoảng cách 10 cm, kết luận nào hợp lí nhất?",
+   "options": [
+    "Nước đun sôi đã làm chết cành rong nên không quang hợp",
+    "Khi thiếu $\\mathrm{CO_2}$, quang hợp bị hạn chế mạnh dù ánh sáng đủ mạnh",
+    "Ánh sáng là yếu tố duy nhất quyết định tốc độ quang hợp",
+    "$\\mathrm{NaHCO_3}$ ức chế quá trình quang hợp"
+   ],
+   "answer": 1,
+   "explanation": "Cùng ánh sáng (10 cm), nhiệt độ, chỉ khác lượng $\\mathrm{CO_2}$: số bọt giảm từ 48 xuống 6. Vậy $\\mathrm{CO_2}$ là nhân tố giới hạn; cây vẫn sống vì vẫn có ít bọt khí."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s3",
+   "topic": "Sinh học – quang hợp",
+   "level": 3,
+   "stem": "Nhóm học sinh dùng đèn LED (ít tỏa nhiệt) và giữ nước ở 25 °C nhằm mục đích chủ yếu nào?",
+   "options": [
+    "Để cành rong nhận được nhiều ánh sáng nhất",
+    "Để tăng lượng $\\mathrm{CO_2}$ hòa tan trong nước",
+    "Để bọt khí thoát ra nhanh hơn và dễ đếm",
+    "Để sự thay đổi số bọt khí chỉ do cường độ ánh sáng gây ra, không do nhiệt độ"
+   ],
+   "answer": 3,
+   "explanation": "Đèn đặt gần sẽ làm nóng nước nếu tỏa nhiệt nhiều; nhiệt độ cũng ảnh hưởng đến quang hợp. Giữ nhiệt độ không đổi là kiểm soát biến, để kết luận chỉ về ảnh hưởng của ánh sáng."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s4",
+   "topic": "Vật lí – lực đàn hồi",
+   "level": 1,
+   "stem": "Độ cứng của lò xo, tính từ các lần đo trong giới hạn đàn hồi, là",
+   "options": [
+    "0,25 N/m",
+    "2,5 N/m",
+    "25 N/m",
+    "250 N/m"
+   ],
+   "answer": 2,
+   "explanation": "Với $m = 100$ g: $F = mg = 1$ N, độ dãn $\\Delta\\ell = 4{,}0$ cm = 0,04 m. $k = \\dfrac{F}{\\Delta\\ell} = \\dfrac{1}{0{,}04} = 25$ N/m."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s4",
+   "topic": "Vật lí – lực đàn hồi",
+   "level": 2,
+   "stem": "Nếu treo quả nặng 120 g (lò xo vẫn trong giới hạn đàn hồi) thì chiều dài lò xo là",
+   "options": [
+    "4,8 cm",
+    "24,0 cm",
+    "24,8 cm",
+    "26,4 cm"
+   ],
+   "answer": 2,
+   "explanation": "$\\Delta\\ell = \\dfrac{mg}{k} = \\dfrac{0{,}12 \\cdot 10}{25} = 0{,}048$ m = 4,8 cm, nên $\\ell = 20{,}0 + 4{,}8 = 24{,}8$ cm."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s4",
+   "topic": "Vật lí – lực đàn hồi",
+   "level": 3,
+   "stem": "Kết quả đo với quả nặng 250 g cho thấy điều gì?",
+   "options": [
+    "Học sinh đã đọc sai chiều dài ở tất cả các lần đo trước",
+    "Lò xo đã vượt quá giới hạn đàn hồi, độ dãn không còn tỉ lệ với lực kéo",
+    "Độ cứng của lò xo tăng khi khối lượng treo tăng",
+    "Lò xo vẫn tuân theo định luật Hooke với độ dãn 10,0 cm"
+   ],
+   "answer": 1,
+   "explanation": "Nếu tuân theo định luật Hooke, 250 g cho độ dãn 10,0 cm, $\\ell = 30{,}0$ cm. Thực tế dãn 11,5 cm, nhiều hơn dự đoán (độ cứng biểu kiến giảm), chứng tỏ lò xo đã vượt giới hạn đàn hồi."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s5",
+   "topic": "Hóa học – cân bằng",
+   "level": 1,
+   "stem": "Trong thí nghiệm với ba ống A, B, C, biến độc lập là",
+   "options": [
+    "màu sắc của hỗn hợp khí",
+    "lượng hỗn hợp khí trong ống",
+    "nhiệt độ của hỗn hợp khí",
+    "áp suất ban đầu trong ống"
+   ],
+   "answer": 2,
+   "explanation": "Ba ống chứa cùng lượng khí, chỉ khác nhiệt độ ngâm; màu sắc là biến phụ thuộc được quan sát."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s5",
+   "topic": "Hóa học – cân bằng",
+   "level": 2,
+   "stem": "Khi tăng nhiệt độ, màu hỗn hợp đậm lên. Giải thích nào sau đây đúng?",
+   "options": [
+    "Cân bằng chuyển dịch theo chiều thuận vì phản ứng thuận tỏa nhiệt",
+    "Nhiệt độ cao làm $\\mathrm{N_2O_4}$ chuyển sang màu nâu",
+    "Tăng nhiệt độ làm giảm tổng số mol khí trong ống",
+    "Cân bằng chuyển dịch theo chiều nghịch (chiều thu nhiệt), làm tăng lượng $\\mathrm{NO_2}$"
+   ],
+   "answer": 3,
+   "explanation": "Phản ứng thuận tỏa nhiệt ($\\Delta_r H < 0$) nên chiều nghịch thu nhiệt. Tăng nhiệt độ, cân bằng dịch chuyển theo chiều thu nhiệt (nghịch), tạo thêm $\\mathrm{NO_2}$ màu nâu đỏ."
+  },
+  {
+   "qtype": "mcq",
+   "passage": "s5",
+   "topic": "Hóa học – cân bằng",
+   "level": 3,
+   "stem": "Trong thí nghiệm nén xi lanh, màu hỗn hợp nhạt dần sau khi đậm lên là do",
+   "options": [
+    "cân bằng chuyển dịch theo chiều thuận, làm giảm số mol khí",
+    "cân bằng chuyển dịch theo chiều nghịch, làm tăng số mol khí",
+    "nhiệt độ hỗn hợp giảm mạnh khi bị nén",
+    "khí $\\mathrm{NO_2}$ thoát ra khỏi xi lanh"
+   ],
+   "answer": 0,
+   "explanation": "Nén làm nồng độ mọi khí tăng tức thời (màu đậm lên). Áp suất tăng nên cân bằng dịch chuyển theo chiều làm giảm số mol khí: 2 mol $\\mathrm{NO_2}$ → 1 mol $\\mathrm{N_2O_4}$ (chiều thuận), $\\mathrm{NO_2}$ giảm bớt nên màu nhạt dần."
+  }
+ ],
+ "self_check": "Liệt kê toàn bộ cách phân phòng bằng Python (27 cách; 5 cách khi Phong, Sơn ở phòng Hóa), duyệt 8 trường hợp cho hai câu đảo nói thật/nói dối, bảng chân trị cho hai câu mệnh đề; kiểm bằng Python các phép tính số liệu, nhiệt dung riêng (bảng nhiệt độ khớp $Q = mc\\Delta t$), độ tan, độ cứng lò xo."
+}

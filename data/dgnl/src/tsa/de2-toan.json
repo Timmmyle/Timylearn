@@ -1,0 +1,572 @@
+{
+ "exam": "tsa",
+ "part": "toan",
+ "set": "de2",
+ "passages": {
+  "p2": "Cho hình chóp $S.ABC$ có $SA$ vuông góc với mặt phẳng $(ABC)$, tam giác $ABC$ vuông tại $B$ với $AB=3$ cm, $BC=4$ cm và $SA=6$ cm. (Có thể gắn hệ trục tọa độ $Oxyz$ với $B$ là gốc tọa độ để tính toán.)",
+  "p3": "Chiều cao (cm) của $40$ học sinh nam khối 12 một trường được thống kê như sau (số liệu giả định):\n| Chiều cao (cm) | $[150;155)$ | $[155;160)$ | $[160;165)$ | $[165;170)$ | $[170;175)$ |\n| Số học sinh | $4$ | $10$ | $14$ | $8$ | $4$ |"
+ },
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – cực trị",
+   "level": 1,
+   "stem": "Hàm số $y=x^4-2x^2+3$ có bao nhiêu điểm cực trị?",
+   "options": [
+    "$3$",
+    "$1$",
+    "$2$",
+    "$0$"
+   ],
+   "answer": 0,
+   "explanation": "$y'=4x^3-4x=4x(x^2-1)$ đổi dấu tại $x=0$, $x=\\pm1$. Hàm số có $3$ điểm cực trị."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – cực trị",
+   "level": 2,
+   "stem": "Cho hàm số $f(x)$ có đạo hàm $f'(x)=x(x-1)^2(x+2)$ với mọi $x\\in\\mathbb{R}$. Số điểm cực trị của hàm số $f(x)$ là",
+   "options": [
+    "$3$",
+    "$2$",
+    "$1$",
+    "$4$"
+   ],
+   "answer": 1,
+   "explanation": "$f'(x)=0\\Leftrightarrow x\\in\\{0;1;-2\\}$, nhưng $(x-1)^2\\ge0$ nên $f'$ không đổi dấu qua $x=1$. Chỉ có $2$ điểm cực trị $x=0$, $x=-2$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số – phân thức",
+   "level": 2,
+   "stem": "Cho hàm số $y=\\dfrac{x+3}{x-1}$ có đồ thị $(C)$.",
+   "statements": [
+    {
+     "t": "Đường thẳng $x=1$ là tiệm cận đứng của $(C)$.",
+     "a": true
+    },
+    {
+     "t": "Hàm số nghịch biến trên từng khoảng $(-\\infty;1)$ và $(1;+\\infty)$.",
+     "a": true
+    },
+    {
+     "t": "$(C)$ cắt trục hoành tại điểm $(3;0)$.",
+     "a": false
+    },
+    {
+     "t": "Trên $(C)$ có đúng $6$ điểm có cả hoành độ và tung độ là số nguyên.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng. b) $y'=\\dfrac{-4}{(x-1)^2}<0$: Đúng. c) $y=0\\Leftrightarrow x=-3$, giao điểm $(-3;0)$: Sai. d) $y=1+\\dfrac{4}{x-1}$, $x-1\\in\\{\\pm1;\\pm2;\\pm4\\}$: $6$ điểm: Đúng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hàm số – GTLN, GTNN",
+   "level": 2,
+   "stem": "Giá trị lớn nhất của hàm số $y=x+\\sqrt{4-x^2}$ bằng",
+   "options": [
+    "$2$",
+    "$4$",
+    "$\\sqrt2$",
+    "$2\\sqrt2$"
+   ],
+   "answer": 3,
+   "explanation": "TXĐ $[-2;2]$. $y'=1-\\dfrac{x}{\\sqrt{4-x^2}}=0\\Leftrightarrow x=\\sqrt2$. $y(\\sqrt2)=2\\sqrt2$, $y(\\pm2)=\\pm2$. Max $=2\\sqrt2$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Hàm số – tương giao",
+   "level": 3,
+   "stem": "Có bao nhiêu giá trị nguyên của tham số $m$ để phương trình $x^3-3x^2=m$ có ba nghiệm thực phân biệt?",
+   "answer_text": "3",
+   "explanation": "Xét $f(x)=x^3-3x^2$: $f'=3x^2-6x=0\\Leftrightarrow x=0;2$, $f(0)=0$ (cực đại), $f(2)=-4$ (cực tiểu). Cần $-4<m<0$: $m\\in\\{-3;-2;-1\\}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tối ưu thực tế",
+   "level": 2,
+   "stem": "Một người dùng $120$ m lưới để rào một mảnh vườn hình chữ nhật sát bờ sông, cạnh giáp bờ sông không cần rào. Diện tích lớn nhất của mảnh vườn là",
+   "options": [
+    "$900$ m$^2$",
+    "$3600$ m$^2$",
+    "$1800$ m$^2$",
+    "$1600$ m$^2$"
+   ],
+   "answer": 2,
+   "explanation": "Hai cạnh vuông góc bờ dài $x$, cạnh song song bờ $120-2x$. $S=x(120-2x)$ lớn nhất khi $x=30$: $S=30\\cdot60=1800$ m$^2$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tối ưu – kinh tế",
+   "level": 3,
+   "stem": "Chi phí sản xuất $x$ sản phẩm của một xưởng là $C(x)=0{,}01x^2+20x+10000$ (nghìn đồng). Xưởng nên sản xuất bao nhiêu sản phẩm để chi phí trung bình cho mỗi sản phẩm là nhỏ nhất?",
+   "options": [
+    "$500$",
+    "$1000$",
+    "$1500$",
+    "$2000$"
+   ],
+   "answer": 1,
+   "explanation": "Chi phí trung bình $\\overline C(x)=\\dfrac{C(x)}{x}=0{,}01x+20+\\dfrac{10000}{x}$. $\\overline C'(x)=0{,}01-\\dfrac{10000}{x^2}=0\\Rightarrow x=1000$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tối ưu – hình học",
+   "level": 3,
+   "stem": "Trong các khối nón nội tiếp mặt cầu bán kính $3$ dm, khối nón có thể tích lớn nhất bằng bao nhiêu decimét khối? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "33,51",
+   "explanation": "Gọi chiều cao nón là $h$ thì bán kính đáy $r^2=h(6-h)$. $V=\\dfrac{\\pi}{3}h^2(6-h)$, $V'=0\\Rightarrow h=4$, $r^2=8$. $V_{\\max}=\\dfrac{32\\pi}{3}\\approx33{,}51$ dm$^3$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tối ưu thực tế",
+   "level": 3,
+   "stem": "Một hòn đảo $B$ cách bờ biển thẳng $4$ km, $H$ là điểm trên bờ gần $B$ nhất. Nhà máy nước $A$ nằm trên bờ, cách $H$ là $10$ km. Người ta đặt ống dẫn nước từ $A$ dọc bờ biển đến điểm $M$ (nằm giữa $A$ và $H$) rồi đặt ống dưới biển từ $M$ thẳng đến $B$. Chi phí đặt ống trên bờ là $300$ triệu đồng/km, dưới biển là $500$ triệu đồng/km. Chi phí nhỏ nhất là",
+   "options": [
+    "$5$ tỉ đồng",
+    "$4{,}6$ tỉ đồng",
+    "$4{,}8$ tỉ đồng",
+    "$5{,}39$ tỉ đồng"
+   ],
+   "answer": 1,
+   "explanation": "Đặt $HM=x$ ($0\\le x\\le10$). Chi phí (trăm triệu): $f(x)=3(10-x)+5\\sqrt{16+x^2}$. $f'(x)=-3+\\dfrac{5x}{\\sqrt{16+x^2}}=0\\Rightarrow x=3$. $f(3)=21+25=46$, $f(0)=50$, $f(10)\\approx53{,}9$. Min $=4{,}6$ tỉ đồng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Logarit",
+   "level": 1,
+   "stem": "Đặt $a=\\log2$, $b=\\log3$. Khi đó $\\log18$ bằng",
+   "options": [
+    "$2a+b$",
+    "$2ab$",
+    "$a+b^2$",
+    "$a+2b$"
+   ],
+   "answer": 3,
+   "explanation": "$\\log18=\\log(2\\cdot3^2)=\\log2+2\\log3=a+2b$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Phương trình logarit",
+   "level": 1,
+   "stem": "Nghiệm của phương trình $\\log_3(x+2)+\\log_3(x-4)=3$ là",
+   "options": [
+    "$x=-5$",
+    "$x=7$ và $x=-5$",
+    "$x=7$",
+    "$x=9$"
+   ],
+   "answer": 2,
+   "explanation": "Điều kiện $x>4$. Phương trình $\\Leftrightarrow(x+2)(x-4)=27\\Leftrightarrow x^2-2x-35=0\\Leftrightarrow x=7$ hoặc $x=-5$ (loại)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Bất phương trình mũ",
+   "level": 1,
+   "stem": "Số nghiệm nguyên của bất phương trình $\\left(\\dfrac12\\right)^{x^2-3x}\\ge\\dfrac1{16}$ là",
+   "options": [
+    "$6$",
+    "$5$",
+    "$4$",
+    "$7$"
+   ],
+   "answer": 0,
+   "explanation": "$\\Leftrightarrow x^2-3x\\le4$ (cơ số $\\dfrac12<1$) $\\Leftrightarrow -1\\le x\\le4$: các số nguyên $-1;0;1;2;3;4$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mũ – logarit thực tế",
+   "level": 2,
+   "stem": "Chu kì bán rã của cacbon-14 là khoảng $5730$ năm. Một mẫu gỗ cổ có lượng cacbon-14 chỉ còn $25\\%$ so với lúc ban đầu. Tuổi của mẫu gỗ khoảng",
+   "options": [
+    "$1432$ năm",
+    "$22920$ năm",
+    "$11460$ năm",
+    "$17190$ năm"
+   ],
+   "answer": 2,
+   "explanation": "$m=m_0\\left(\\dfrac12\\right)^{t/5730}=\\dfrac14m_0\\Rightarrow\\dfrac{t}{5730}=2\\Rightarrow t=11460$ năm."
+  },
+  {
+   "qtype": "short",
+   "topic": "Logarit – ứng dụng",
+   "level": 2,
+   "stem": "Độ lớn của một trận động đất theo thang Richter là $M=\\log\\dfrac{A}{A_0}$, với $A$ là biên độ rung chấn tối đa đo được và $A_0$ là biên độ chuẩn. Biên độ rung chấn tối đa của trận động đất $7{,}0$ độ gấp bao nhiêu lần trận động đất $5{,}5$ độ? (Làm tròn đến hàng phần mười.)",
+   "answer_text": "31,6",
+   "explanation": "$M_1-M_2=\\log\\dfrac{A_1}{A_2}=1{,}5\\Rightarrow\\dfrac{A_1}{A_2}=10^{1{,}5}\\approx31{,}6$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hàm số mũ – logarit",
+   "level": 1,
+   "stem": "Cho hàm số $y=\\log_{\\frac12}x$.",
+   "statements": [
+    {
+     "t": "Tập xác định của hàm số là $(0;+\\infty)$.",
+     "a": true
+    },
+    {
+     "t": "Hàm số nghịch biến trên tập xác định.",
+     "a": true
+    },
+    {
+     "t": "Đồ thị hàm số đi qua điểm $(2;-1)$.",
+     "a": true
+    },
+    {
+     "t": "Đồ thị hàm số nằm hoàn toàn phía trên trục hoành.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Cơ số $\\dfrac12<1$: Đúng. c) $\\log_{\\frac12}2=-1$: Đúng. d) Với $x>1$ thì $y<0$ (ví dụ $y(4)=-2$): Sai."
+  },
+  {
+   "qtype": "short",
+   "topic": "Mũ – lãi kép",
+   "level": 2,
+   "stem": "Bà Lan gửi $50$ triệu đồng vào ngân hàng theo kì hạn $3$ tháng với lãi suất $1{,}5\\%$/quý, lãi nhập gốc sau mỗi kì. Sau đúng $2$ năm, bà Lan có bao nhiêu triệu đồng (cả gốc và lãi)? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "56,32",
+   "explanation": "$2$ năm $=8$ quý. Số tiền $50\\cdot1{,}015^8\\approx56{,}32$ triệu đồng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nguyên hàm",
+   "level": 1,
+   "stem": "Họ nguyên hàm của hàm số $f(x)=\\dfrac1x+2\\cos x$ trên $(0;+\\infty)$ là",
+   "options": [
+    "$\\ln x+2\\sin x+C$",
+    "$\\ln x-2\\sin x+C$",
+    "$-\\dfrac{1}{x^2}-2\\sin x+C$",
+    "$\\ln x+\\sin 2x+C$"
+   ],
+   "answer": 0,
+   "explanation": "$\\displaystyle\\int\\left(\\dfrac1x+2\\cos x\\right)dx=\\ln x+2\\sin x+C$ (với $x>0$)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tích phân",
+   "level": 2,
+   "stem": "Giá trị của $\\displaystyle\\int_0^1(x+1)e^x\\,dx$ bằng",
+   "options": [
+    "$e-1$",
+    "$2e-1$",
+    "$e+1$",
+    "$e$"
+   ],
+   "answer": 3,
+   "explanation": "Từng phần: $u=x+1$, $dv=e^xdx$: $\\left.(x+1)e^x\\right|_0^1-\\displaystyle\\int_0^1e^xdx=(2e-1)-(e-1)=e$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Tích phân – chuyển động",
+   "level": 3,
+   "stem": "Một ô tô đang chạy với vận tốc $15$ m/s thì người lái phát hiện chướng ngại vật phía trước cách xe $50$ m. Sau $1$ giây phản xạ (xe vẫn chạy đều), người lái đạp phanh và từ đó xe chuyển động chậm dần với vận tốc $v(t)=15-5t$ (m/s), $t$ tính từ lúc đạp phanh. Khi dừng hẳn, xe còn cách chướng ngại vật bao nhiêu mét?",
+   "answer_text": "12,5",
+   "explanation": "Quãng đường phản xạ $15$ m. Xe dừng khi $t=3$; quãng đường phanh $\\displaystyle\\int_0^3(15-5t)dt=22{,}5$ m. Còn cách $50-15-22{,}5=12{,}5$ m."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Ứng dụng tích phân",
+   "level": 3,
+   "stem": "Cho hàm số $y=x^3-x$ có đồ thị $(C)$.",
+   "statements": [
+    {
+     "t": "$(C)$ cắt trục hoành tại ba điểm phân biệt.",
+     "a": true
+    },
+    {
+     "t": "Diện tích hình phẳng giới hạn bởi $(C)$ và trục hoành bằng $\\dfrac12$.",
+     "a": true
+    },
+    {
+     "t": "$\\displaystyle\\int_{-1}^1(x^3-x)\\,dx=\\dfrac12$.",
+     "a": false
+    },
+    {
+     "t": "Quay hình phẳng giới hạn bởi $(C)$, trục hoành, $x=0$, $x=1$ quanh $Ox$ được khối tròn xoay có thể tích $\\dfrac{8\\pi}{105}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) $x^3-x=0\\Leftrightarrow x\\in\\{-1;0;1\\}$: Đúng. b) $S=2\\displaystyle\\int_0^1(x-x^3)dx=2\\cdot\\dfrac14=\\dfrac12$: Đúng. c) Hàm lẻ nên tích phân bằng $0$: Sai. d) $V=\\pi\\displaystyle\\int_0^1(x^3-x)^2dx=\\pi\\left(\\dfrac17-\\dfrac25+\\dfrac13\\right)=\\dfrac{8\\pi}{105}$: Đúng."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình chóp – thể tích",
+   "level": 1,
+   "stem": "Thể tích khối chóp $S.ABC$ bằng",
+   "options": [
+    "$24$ cm$^3$",
+    "$36$ cm$^3$",
+    "$72$ cm$^3$",
+    "$12$ cm$^3$"
+   ],
+   "answer": 3,
+   "explanation": "$S_{ABC}=\\dfrac12\\cdot3\\cdot4=6$, $V=\\dfrac13\\cdot6\\cdot6=12$ cm$^3$.",
+   "passage": "p2"
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình chóp – góc",
+   "level": 2,
+   "stem": "Góc giữa đường thẳng $SC$ và mặt phẳng $(ABC)$ có số đo gần nhất với giá trị nào sau đây?",
+   "options": [
+    "$50^\\circ$",
+    "$40^\\circ$",
+    "$56^\\circ$",
+    "$63^\\circ$"
+   ],
+   "answer": 0,
+   "explanation": "$AC$ là hình chiếu của $SC$ lên $(ABC)$, $AC=\\sqrt{9+16}=5$. $\\tan\\widehat{SCA}=\\dfrac{SA}{AC}=\\dfrac65\\Rightarrow\\widehat{SCA}\\approx50{,}2^\\circ$.",
+   "passage": "p2"
+  },
+  {
+   "qtype": "short",
+   "topic": "Hình chóp – khoảng cách",
+   "level": 3,
+   "stem": "Khoảng cách từ $A$ đến mặt phẳng $(SBC)$ bằng bao nhiêu centimét? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "2,68",
+   "explanation": "$BC\\perp AB$, $BC\\perp SA$ nên $BC\\perp(SAB)$. Kẻ $AH\\perp SB$ thì $AH\\perp(SBC)$. $AH=\\dfrac{SA\\cdot AB}{\\sqrt{SA^2+AB^2}}=\\dfrac{18}{\\sqrt{45}}\\approx2{,}68$ cm.",
+   "passage": "p2"
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mặt cầu",
+   "level": 1,
+   "stem": "Diện tích mặt cầu ngoại tiếp hình lập phương cạnh $2$ bằng",
+   "options": [
+    "$4\\sqrt3\\pi$",
+    "$12\\pi$",
+    "$8\\pi$",
+    "$16\\pi$"
+   ],
+   "answer": 1,
+   "explanation": "Bán kính bằng nửa đường chéo: $R=\\dfrac{2\\sqrt3}{2}=\\sqrt3$. $S=4\\pi R^2=12\\pi$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Khối tròn xoay – thực tế",
+   "level": 2,
+   "stem": "Một bồn chứa nước hình trụ có đường kính đáy $1{,}2$ m và chiều cao $1{,}5$ m (kích thước lòng bồn). Bồn chứa được tối đa bao nhiêu lít nước? (Làm tròn đến hàng đơn vị.)",
+   "answer_text": "1696",
+   "explanation": "$V=\\pi\\cdot0{,}6^2\\cdot1{,}5\\approx1{,}6965$ m$^3\\approx1696$ lít."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Oxyz – mặt phẳng",
+   "level": 1,
+   "stem": "Trong không gian $Oxyz$, mặt phẳng đi qua ba điểm $A(1;0;0)$, $B(0;2;0)$, $C(0;0;3)$ có phương trình là",
+   "options": [
+    "$x+2y+3z-6=0$",
+    "$6x+3y+2z-6=0$",
+    "$6x+3y+2z+6=0$",
+    "$3x+6y+2z-6=0$"
+   ],
+   "answer": 1,
+   "explanation": "Phương trình đoạn chắn $\\dfrac x1+\\dfrac y2+\\dfrac z3=1\\Leftrightarrow6x+3y+2z-6=0$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Oxyz – khoảng cách",
+   "level": 2,
+   "stem": "Trong không gian $Oxyz$, cho $A(1;0;0)$, $B(0;2;0)$, $C(0;0;3)$. Khoảng cách từ gốc tọa độ $O$ đến mặt phẳng $(ABC)$ bằng bao nhiêu? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "0,86",
+   "explanation": "$(ABC):6x+3y+2z-6=0$. $d=\\dfrac{6}{\\sqrt{36+9+4}}=\\dfrac67\\approx0{,}86$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Oxyz – ứng dụng",
+   "level": 2,
+   "stem": "Một căn phòng dạng hình hộp chữ nhật dài $6$ m, rộng $4$ m, cao $3$ m. Gắn hệ trục $Oxyz$ (đơn vị mét) với $O$ là một góc sàn, các trục $Ox$, $Oy$, $Oz$ lần lượt theo chiều dài, chiều rộng, chiều cao của phòng. Một bóng đèn treo ở tâm trần nhà $L(3;2;3)$; $G(6;4;3)$ là góc trần đối diện với $O$.",
+   "statements": [
+    {
+     "t": "Khoảng cách từ bóng đèn đến góc sàn $O$ bằng $\\sqrt{22}$ m.",
+     "a": true
+    },
+    {
+     "t": "Trung điểm của đoạn $OG$ là điểm $(3;2;1{,}5)$.",
+     "a": true
+    },
+    {
+     "t": "Đường chéo $OG$ của căn phòng dài đúng $8$ m.",
+     "a": false
+    },
+    {
+     "t": "Góc giữa đường thẳng $OG$ và mặt sàn nhỏ hơn $20^\\circ$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) $OL=\\sqrt{9+4+9}=\\sqrt{22}$: Đúng. b) Đúng. c) $OG=\\sqrt{36+16+9}=\\sqrt{61}\\approx7{,}81$ m: Sai. d) $\\sin\\varphi=\\dfrac{3}{\\sqrt{61}}\\Rightarrow\\varphi\\approx22{,}6^\\circ$: Sai."
+  },
+  {
+   "qtype": "short",
+   "topic": "Oxyz – cực trị",
+   "level": 3,
+   "stem": "Trong không gian $Oxyz$, cho hai điểm $A(1;2;3)$ và $B(3;4;-1)$. Điểm $M$ thay đổi trên mặt phẳng $(Oxy)$. Giá trị nhỏ nhất của $MA+MB$ bằng bao nhiêu? (Làm tròn đến hàng phần mười.)",
+   "answer_text": "4,9",
+   "explanation": "$A$ có $z=3>0$, $B$ có $z=-1<0$ nên $A$, $B$ nằm khác phía đối với $(Oxy)$. Do đó $MA+MB\\ge AB=\\sqrt{4+4+16}=2\\sqrt6\\approx4{,}9$, dấu bằng khi $M$ là giao điểm của $AB$ với $(Oxy)$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tổ hợp – hoán vị",
+   "level": 1,
+   "stem": "Có bao nhiêu cách xếp $5$ bạn (trong đó có An và Bình) ngồi vào $5$ ghế xếp thành một hàng ngang sao cho An và Bình ngồi cạnh nhau?",
+   "options": [
+    "$24$",
+    "$48$",
+    "$120$",
+    "$96$"
+   ],
+   "answer": 1,
+   "explanation": "Coi An – Bình là một khối: $4!$ cách xếp, trong khối có $2$ cách đổi chỗ. Đáp số $2\\cdot24=48$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Tổ hợp – đếm hình",
+   "level": 3,
+   "stem": "Cho đa giác đều $12$ đỉnh. Có bao nhiêu tam giác có ba đỉnh là đỉnh của đa giác và không có cạnh nào là cạnh của đa giác?",
+   "options": [
+    "$220$",
+    "$100$",
+    "$108$",
+    "$112$"
+   ],
+   "answer": 3,
+   "explanation": "Tổng số tam giác $C_{12}^3=220$. Tam giác có đúng $2$ cạnh là cạnh đa giác: $12$. Tam giác có đúng $1$ cạnh là cạnh đa giác: $12\\cdot(12-4)=96$. Đáp số $220-12-96=112$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Xác suất",
+   "level": 2,
+   "stem": "Chọn ngẫu nhiên hai số khác nhau từ tập $\\{1;2;3;\\dots;20\\}$. Xác suất để tích hai số được chọn là số chẵn bằng bao nhiêu? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "0,76",
+   "explanation": "Tích lẻ khi cả hai số đều lẻ: $C_{10}^2=45$ cách. $P=1-\\dfrac{45}{190}=\\dfrac{29}{38}\\approx0{,}76$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Xác suất có điều kiện – Bayes",
+   "level": 3,
+   "stem": "Một nhà máy có hai dây chuyền: dây chuyền I làm ra $60\\%$ sản phẩm với tỉ lệ phế phẩm $3\\%$; dây chuyền II làm ra $40\\%$ sản phẩm với tỉ lệ phế phẩm $5\\%$. Lấy ngẫu nhiên một sản phẩm của nhà máy thì thấy đó là phế phẩm. Xác suất sản phẩm đó do dây chuyền II làm ra là",
+   "options": [
+    "$\\dfrac{9}{19}$",
+    "$\\dfrac25$",
+    "$\\dfrac{10}{19}$",
+    "$\\dfrac{1}{50}$"
+   ],
+   "answer": 2,
+   "explanation": "$P(\\text{phế phẩm})=0{,}6\\cdot0{,}03+0{,}4\\cdot0{,}05=0{,}038$. $P(\\text{II}\\mid\\text{phế phẩm})=\\dfrac{0{,}02}{0{,}038}=\\dfrac{10}{19}$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Xác suất có điều kiện",
+   "level": 2,
+   "stem": "Một hộp có $3$ viên bi đỏ và $2$ viên bi xanh. Lấy ngẫu nhiên lần lượt $2$ viên bi, không hoàn lại.",
+   "statements": [
+    {
+     "t": "Xác suất viên bi lấy lần thứ nhất màu đỏ là $\\dfrac35$.",
+     "a": true
+    },
+    {
+     "t": "Biết lần thứ nhất lấy được bi đỏ, xác suất lần thứ hai lấy được bi đỏ là $\\dfrac12$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất viên bi lấy lần thứ hai màu đỏ là $\\dfrac35$.",
+     "a": true
+    },
+    {
+     "t": "Xác suất hai viên bi lấy ra cùng màu là $\\dfrac12$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng. b) Còn $2$ đỏ trong $4$ bi: $\\dfrac12$: Đúng. c) $\\dfrac35\\cdot\\dfrac24+\\dfrac25\\cdot\\dfrac34=\\dfrac35$: Đúng. d) $\\dfrac35\\cdot\\dfrac24+\\dfrac25\\cdot\\dfrac14=\\dfrac{8}{20}=\\dfrac25$: Sai."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Cấp số nhân",
+   "level": 1,
+   "stem": "Cho cấp số nhân $(u_n)$ có $u_1=3$ và $u_4=24$. Tổng $6$ số hạng đầu của cấp số nhân bằng",
+   "options": [
+    "$189$",
+    "$192$",
+    "$96$",
+    "$381$"
+   ],
+   "answer": 0,
+   "explanation": "$u_4=u_1q^3\\Rightarrow q^3=8\\Rightarrow q=2$. $S_6=3\\cdot\\dfrac{2^6-1}{2-1}=189$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Dãy số",
+   "level": 3,
+   "stem": "Cho dãy số $(u_n)$ xác định bởi $u_1=1$ và $u_{n+1}=2u_n+1$ với mọi $n\\ge1$.",
+   "statements": [
+    {
+     "t": "$u_3=7$.",
+     "a": true
+    },
+    {
+     "t": "Dãy $(v_n)$ với $v_n=u_n+1$ là cấp số nhân có công bội $2$.",
+     "a": true
+    },
+    {
+     "t": "$u_{10}=1023$.",
+     "a": true
+    },
+    {
+     "t": "Tổng $10$ số hạng đầu của dãy $(u_n)$ bằng $2046$.",
+     "a": false
+    }
+   ],
+   "explanation": "a) $u_2=3$, $u_3=7$: Đúng. b) $u_{n+1}+1=2(u_n+1)$: Đúng. c) $v_n=2^n\\Rightarrow u_{10}=2^{10}-1=1023$: Đúng. d) $\\sum_{n=1}^{10}(2^n-1)=2046-10=2036$: Sai."
+  },
+  {
+   "qtype": "short",
+   "topic": "Dãy số – thực tế",
+   "level": 3,
+   "stem": "Một kĩ sư nhận được hai lời mời làm việc. Công ty A trả lương năm đầu $120$ triệu đồng, mỗi năm sau tăng thêm $10$ triệu đồng so với năm trước. Công ty B trả lương năm đầu $110$ triệu đồng, mỗi năm sau tăng $8\\%$ so với năm trước. Sau ít nhất bao nhiêu năm làm việc thì tổng lương nhận được ở công ty B nhiều hơn ở công ty A?",
+   "answer_text": "13",
+   "explanation": "Tổng lương $n$ năm: A: $S_A=120n+5n(n-1)$ (cấp số cộng); B: $S_B=110\\cdot\\dfrac{1{,}08^n-1}{0{,}08}$ (cấp số nhân). Tính thử: $n=12$: $S_A=2100$, $S_B\\approx2087{,}5$; $n=13$: $S_A=2340$, $S_B\\approx2364{,}5$. Vậy $n=13$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – số trung bình",
+   "level": 1,
+   "stem": "Chiều cao trung bình của $40$ học sinh trên (tính theo giá trị đại diện của nhóm) bằng",
+   "options": [
+    "$162{,}5$ cm",
+    "$160{,}25$ cm",
+    "$162{,}25$ cm",
+    "$163{,}75$ cm"
+   ],
+   "answer": 2,
+   "explanation": "$\\bar x=\\dfrac{4\\cdot152{,}5+10\\cdot157{,}5+14\\cdot162{,}5+8\\cdot167{,}5+4\\cdot172{,}5}{40}=\\dfrac{6490}{40}=162{,}25$.",
+   "passage": "p3"
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Thống kê – trung vị",
+   "level": 2,
+   "stem": "Trung vị của mẫu số liệu ghép nhóm trên xấp xỉ bằng",
+   "options": [
+    "$162{,}50$ cm",
+    "$161{,}43$ cm",
+    "$162{,}14$ cm",
+    "$163{,}57$ cm"
+   ],
+   "answer": 2,
+   "explanation": "$\\dfrac n2=20$; tần số tích lũy đến hết nhóm $[155;160)$ là $14$ nên nhóm chứa trung vị là $[160;165)$. $M_e=160+\\dfrac{20-14}{14}\\cdot5\\approx162{,}14$.",
+   "passage": "p3"
+  },
+  {
+   "qtype": "short",
+   "topic": "Thống kê – độ lệch chuẩn",
+   "level": 2,
+   "stem": "Độ lệch chuẩn của mẫu số liệu ghép nhóm trên bằng bao nhiêu centimét? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "5,58",
+   "explanation": "$s^2=\\dfrac{1}{40}\\sum n_i(x_i-\\bar x)^2=\\dfrac{1}{40}\\sum n_ix_i^2-\\bar x^2\\approx31{,}19$. $s=\\sqrt{31{,}19}\\approx5{,}58$ cm.",
+   "passage": "p3"
+  }
+ ],
+ "self_check": "Mọi đáp án được tính lại bằng Python/sympy với assert: cực trị (xét đổi dấu), GTLN, tương giao (đếm nghiệm theo từng m), tối ưu (đạo hàm + so đầu mút), mũ – log, tích phân, hình chóp (tọa độ hóa), Oxyz, đếm tổ hợp bằng liệt kê itertools (xếp chỗ, tam giác đa giác 12 đỉnh, rút bi), Bayes, dãy truy hồi, so sánh lương từng năm, thống kê ghép nhóm."
+}

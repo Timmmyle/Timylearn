@@ -1,0 +1,408 @@
+{
+ "exam": "spt",
+ "part": "sinh",
+ "set": "de1",
+ "questions": [
+  {
+   "qtype": "mcq",
+   "topic": "DNA – cấu trúc",
+   "level": 1,
+   "stem": "Đơn phân cấu tạo nên phân tử DNA là",
+   "options": [
+    "nucleotide",
+    "amino acid",
+    "glucose",
+    "acid béo"
+   ],
+   "answer": 0,
+   "explanation": "DNA là đại phân tử cấu tạo theo nguyên tắc đa phân, đơn phân là 4 loại nucleotide A, T, G, C."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Mã di truyền",
+   "level": 1,
+   "stem": "Trên mRNA, codon mở đầu (khởi đầu dịch mã) là",
+   "options": [
+    "5'UAA3'",
+    "5'AUG3'",
+    "5'UAG3'",
+    "5'UGA3'"
+   ],
+   "answer": 1,
+   "explanation": "5'AUG3' là codon mở đầu, mã hóa methionine (ở sinh vật nhân thực); UAA, UAG, UGA là các codon kết thúc."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Điều hòa biểu hiện gene",
+   "level": 2,
+   "stem": "Ở operon lac của vi khuẩn E. coli, khi môi trường không có lactose, protein ức chế liên kết với",
+   "options": [
+    "vùng khởi động (P)",
+    "gene điều hòa (lacI)",
+    "vùng vận hành (O)",
+    "gene cấu trúc Z"
+   ],
+   "answer": 2,
+   "explanation": "Không có lactose, protein ức chế (do gene điều hòa tổng hợp) gắn vào vùng vận hành O, ngăn RNA polymerase phiên mã các gene cấu trúc Z, Y, A."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đột biến gene",
+   "level": 2,
+   "stem": "Một đột biến điểm làm codon 5'UGG3' (mã hóa tryptophan) ở giữa vùng mã hóa trên mRNA trở thành 5'UGA3'. Hậu quả của đột biến này là",
+   "options": [
+    "chuỗi polypeptide dài thêm một amino acid",
+    "chỉ thay đổi một amino acid trong chuỗi polypeptide",
+    "không làm thay đổi trình tự amino acid",
+    "chuỗi polypeptide bị ngắn lại do dịch mã kết thúc sớm"
+   ],
+   "answer": 3,
+   "explanation": "UGA là codon kết thúc, nên dịch mã dừng tại vị trí đột biến → chuỗi polypeptide ngắn hơn bình thường (đột biến vô nghĩa)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đột biến số lượng NST",
+   "level": 1,
+   "stem": "Ở một loài lưỡng bội, thể ba có bộ nhiễm sắc thể là",
+   "options": [
+    "$2n+1$",
+    "$2n-1$",
+    "$3n$",
+    "$2n+2$"
+   ],
+   "answer": 0,
+   "explanation": "Thể ba: một cặp NST có 3 chiếc → $2n+1$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Đột biến cấu trúc NST",
+   "level": 2,
+   "stem": "Dạng đột biến cấu trúc nhiễm sắc thể nào sau đây có thể làm thay đổi nhóm gene liên kết?",
+   "options": [
+    "Mất đoạn",
+    "Chuyển đoạn giữa hai nhiễm sắc thể không tương đồng",
+    "Đảo đoạn",
+    "Lặp đoạn trên một nhiễm sắc thể"
+   ],
+   "answer": 1,
+   "explanation": "Chuyển đoạn giữa hai NST không tương đồng làm gene từ nhóm liên kết này chuyển sang nhóm liên kết khác."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Quy luật phân li độc lập",
+   "level": 2,
+   "stem": "Mỗi gene quy định một tính trạng, allele trội là trội hoàn toàn, các gene phân li độc lập. Phép lai P: AaBb × aabb cho đời con có tỉ lệ kiểu hình là",
+   "options": [
+    "9 : 3 : 3 : 1",
+    "3 : 1",
+    "1 : 2 : 1",
+    "1 : 1 : 1 : 1"
+   ],
+   "answer": 3,
+   "explanation": "Aa × aa → 1 trội : 1 lặn; Bb × bb → 1 trội : 1 lặn → (1 : 1)(1 : 1) = 1 : 1 : 1 : 1."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Quy luật phân li độc lập",
+   "level": 3,
+   "stem": "Mỗi gene quy định một tính trạng, allele trội là trội hoàn toàn, các gene phân li độc lập. Phép lai P: AaBbDd × AaBbDd cho đời con có kiểu hình trội về cả ba tính trạng chiếm tỉ lệ",
+   "options": [
+    "$\\dfrac{1}{64}$",
+    "$\\dfrac{9}{64}$",
+    "$\\dfrac{27}{64}$",
+    "$\\dfrac{3}{16}$"
+   ],
+   "answer": 2,
+   "explanation": "Mỗi cặp Aa × Aa cho 3/4 trội → tỉ lệ A-B-D- $= \\left(\\dfrac{3}{4}\\right)^3 = \\dfrac{27}{64}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Di truyền liên kết giới tính",
+   "level": 2,
+   "stem": "Ở người, bệnh mù màu đỏ – lục do allele lặn nằm trên vùng không tương đồng của nhiễm sắc thể X quy định. Một cặp vợ chồng: vợ có kiểu gene $X^AX^a$, chồng có kiểu gene $X^AY$. Xác suất cặp vợ chồng này sinh một đứa con là con trai bị bệnh là",
+   "options": [
+    "$\\dfrac{1}{8}$",
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{1}{2}$",
+    "$\\dfrac{3}{4}$"
+   ],
+   "answer": 1,
+   "explanation": "$X^AX^a \\times X^AY$ → con: $\\dfrac{1}{4}X^AX^A : \\dfrac{1}{4}X^AX^a : \\dfrac{1}{4}X^AY : \\dfrac{1}{4}X^aY$ → con trai bị bệnh $X^aY$ chiếm $\\dfrac{1}{4}$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hoán vị gene",
+   "level": 3,
+   "stem": "Một cơ thể có kiểu gene $\\dfrac{Ab}{aB}$ giảm phân với tần số hoán vị gene là 20%. Theo lí thuyết, loại giao tử AB chiếm tỉ lệ",
+   "options": [
+    "5%",
+    "10%",
+    "20%",
+    "40%"
+   ],
+   "answer": 1,
+   "explanation": "Giao tử AB là giao tử hoán vị (vì P dị hợp chéo) → tỉ lệ $= f/2 = 10\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Di truyền quần thể",
+   "level": 2,
+   "stem": "Một quần thể ngẫu phối đang ở trạng thái cân bằng di truyền, tần số allele a là 0,3. Tỉ lệ kiểu gene Aa trong quần thể là",
+   "options": [
+    "0,09",
+    "0,21",
+    "0,42",
+    "0,49"
+   ],
+   "answer": 2,
+   "explanation": "$p = 0{,}7$; $q = 0{,}3$ → tần số Aa $= 2pq = 2 \\cdot 0{,}7 \\cdot 0{,}3 = 0{,}42$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Nhân tố tiến hóa",
+   "level": 1,
+   "stem": "Theo thuyết tiến hóa hiện đại, nhân tố nào sau đây làm thay đổi tần số allele của quần thể theo một hướng xác định?",
+   "options": [
+    "Chọn lọc tự nhiên",
+    "Đột biến",
+    "Phiêu bạt di truyền",
+    "Giao phối ngẫu nhiên"
+   ],
+   "answer": 0,
+   "explanation": "Chọn lọc tự nhiên là nhân tố tiến hóa có hướng; đột biến và phiêu bạt di truyền làm thay đổi tần số allele vô hướng; giao phối ngẫu nhiên không phải nhân tố tiến hóa."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Bằng chứng tiến hóa",
+   "level": 2,
+   "stem": "Cặp cơ quan nào sau đây là cơ quan tương đồng?",
+   "options": [
+    "Cánh chim và cánh bướm",
+    "Mang cá và mang tôm",
+    "Gai xương rồng và gai hoa hồng",
+    "Cánh dơi và chi trước của mèo"
+   ],
+   "answer": 3,
+   "explanation": "Cánh dơi và chi trước của mèo có cùng nguồn gốc (chi trước của động vật có xương sống), cấu tạo xương tương tự. Các cặp còn lại là cơ quan tương tự (khác nguồn gốc, cùng chức năng)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Hình thành loài",
+   "level": 2,
+   "stem": "Hiện tượng nào sau đây là biểu hiện của cách li sau hợp tử?",
+   "options": [
+    "Hai loài ếch giao phối vào hai mùa khác nhau",
+    "Hai loài chim có tập tính ve vãn khác nhau",
+    "Con lai giữa ngựa và lừa (con la) bất thụ",
+    "Hạt phấn của loài này không nảy mầm trên đầu nhụy của loài kia"
+   ],
+   "answer": 2,
+   "explanation": "Cách li sau hợp tử ngăn cản tạo con lai hoặc tạo con lai bất thụ/ sức sống kém. Ba phương án còn lại là cách li trước hợp tử (thời gian, tập tính, cơ học)."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Quần thể sinh vật",
+   "level": 1,
+   "stem": "Tập hợp các cá thể cùng loài, sống trong cùng khoảng không gian, vào cùng thời điểm, có khả năng giao phối sinh ra thế hệ con hữu thụ được gọi là",
+   "options": [
+    "quần xã sinh vật",
+    "quần thể sinh vật",
+    "hệ sinh thái",
+    "ổ sinh thái"
+   ],
+   "answer": 1,
+   "explanation": "Đây là định nghĩa quần thể sinh vật."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Quan hệ giữa các loài",
+   "level": 2,
+   "stem": "Mối quan hệ giữa vi khuẩn Rhizobium sống trong nốt sần rễ cây họ Đậu với cây họ Đậu là quan hệ",
+   "options": [
+    "kí sinh",
+    "hội sinh",
+    "hợp tác",
+    "cộng sinh"
+   ],
+   "answer": 3,
+   "explanation": "Hai loài cùng có lợi và gắn bó chặt chẽ, bắt buộc (vi khuẩn cố định nitrogen cung cấp cho cây, cây cung cấp chất hữu cơ) → cộng sinh."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Dòng năng lượng",
+   "level": 3,
+   "stem": "Trong một hệ sinh thái, năng lượng tích lũy ở sinh vật tiêu thụ bậc 1 là $1{,}2 \\cdot 10^{5}$ kcal và ở sinh vật sản xuất là $1{,}0 \\cdot 10^{6}$ kcal. Hiệu suất sinh thái của sinh vật tiêu thụ bậc 1 so với sinh vật sản xuất là",
+   "options": [
+    "12%",
+    "1,2%",
+    "8,3%",
+    "10%"
+   ],
+   "answer": 0,
+   "explanation": "$H = \\dfrac{1{,}2 \\cdot 10^5}{1{,}0 \\cdot 10^6} \\cdot 100\\% = 12\\%$."
+  },
+  {
+   "qtype": "mcq",
+   "topic": "Phân bào (lớp 10)",
+   "level": 3,
+   "stem": "Ở một loài có bộ nhiễm sắc thể $2n = 8$, một tế bào sinh dưỡng nguyên phân liên tiếp 3 lần. Số nhiễm sắc thể đơn môi trường nội bào cung cấp cho quá trình này là",
+   "options": [
+    "24",
+    "48",
+    "56",
+    "64"
+   ],
+   "answer": 2,
+   "explanation": "Số NST môi trường cung cấp $= 2n(2^k - 1) = 8 \\cdot (2^3 - 1) = 56$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Tái bản DNA – thí nghiệm",
+   "level": 3,
+   "stem": "Nuôi vi khuẩn E. coli nhiều thế hệ trong môi trường chỉ chứa nitrogen nặng ¹⁵N để toàn bộ DNA chứa ¹⁵N, sau đó chuyển sang môi trường chỉ chứa ¹⁴N. Sau mỗi thế hệ, tách DNA và ly tâm trong gradient nồng độ CsCl để phân biệt DNA nặng (¹⁵N/¹⁵N), DNA lai (¹⁵N/¹⁴N) và DNA nhẹ (¹⁴N/¹⁴N).",
+   "statements": [
+    {
+     "t": "Sau một thế hệ trong môi trường ¹⁴N, 100% phân tử DNA là DNA lai.",
+     "a": true
+    },
+    {
+     "t": "Sau hai thế hệ, một nửa số phân tử DNA là DNA nhẹ.",
+     "a": true
+    },
+    {
+     "t": "Kết quả thí nghiệm ủng hộ mô hình tái bản bảo toàn (phân tử DNA mẹ được giữ nguyên).",
+     "a": false
+    },
+    {
+     "t": "Sau ba thế hệ, DNA lai chiếm tỉ lệ $\\dfrac{1}{8}$ tổng số phân tử DNA.",
+     "a": false
+    }
+   ],
+   "explanation": "Tái bản theo nguyên tắc bán bảo toàn: mỗi DNA con có một mạch cũ, một mạch mới. a) Đúng. b) Đúng: 4 DNA gồm 2 lai, 2 nhẹ. c) Sai: kết quả ủng hộ mô hình bán bảo toàn. d) Sai: sau 3 thế hệ có 8 DNA, trong đó 2 DNA lai → $\\dfrac{2}{8} = \\dfrac{1}{4}$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Di truyền người – phả hệ",
+   "level": 3,
+   "stem": "Một cặp vợ chồng đều có kiểu hình bình thường sinh được một con gái bị bệnh M và một con trai bình thường. Biết bệnh M do một gene có hai allele quy định, không phát sinh đột biến mới.",
+   "statements": [
+    {
+     "t": "Bệnh M do allele lặn nằm trên nhiễm sắc thể thường quy định.",
+     "a": true
+    },
+    {
+     "t": "Cả bố và mẹ đều có kiểu gene dị hợp.",
+     "a": true
+    },
+    {
+     "t": "Xác suất người con trai bình thường của cặp vợ chồng này mang allele gây bệnh là $\\dfrac{1}{2}$.",
+     "a": false
+    },
+    {
+     "t": "Nếu người con trai bình thường lấy một người vợ có kiểu gene dị hợp, xác suất đứa con đầu lòng của họ bị bệnh M là $\\dfrac{1}{6}$.",
+     "a": true
+    }
+   ],
+   "explanation": "a) Đúng: bố mẹ bình thường sinh con bị bệnh → bệnh do allele lặn; con gái bị bệnh ($aa$) mà bố bình thường → gene không nằm trên X (nếu trên X thì bố phải bị bệnh). b) Đúng: $Aa \\times Aa$. c) Sai: người con bình thường có $\\dfrac{1}{3}AA : \\dfrac{2}{3}Aa$ → xác suất mang allele bệnh $\\dfrac{2}{3}$. d) Đúng: $\\dfrac{2}{3} \\cdot \\dfrac{1}{4} = \\dfrac{1}{6}$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Quần thể – kích thước, mật độ",
+   "level": 3,
+   "stem": "Một quần thể thú sống trên khu vực có diện tích 50 ha, tại thời điểm khảo sát có 1 000 cá thể. Tỉ lệ sinh của quần thể là 12%/năm, tỉ lệ tử vong là 8%/năm; không có xuất cư và nhập cư. Giả sử các tỉ lệ này không đổi trong các năm tiếp theo.",
+   "statements": [
+    {
+     "t": "Mật độ cá thể của quần thể tại thời điểm khảo sát là 20 cá thể/ha.",
+     "a": true
+    },
+    {
+     "t": "Sau 1 năm, kích thước quần thể là 1 040 cá thể.",
+     "a": true
+    },
+    {
+     "t": "Trong môi trường bị giới hạn về nguồn sống, quần thể luôn tăng trưởng theo tiềm năng sinh học (đường cong hình chữ J).",
+     "a": false
+    },
+    {
+     "t": "Sau 2 năm, kích thước quần thể vượt quá 1 100 cá thể.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: 1000 : 50 = 20. b) Đúng: $1000 \\cdot (1 + 0{,}12 - 0{,}08) = 1040$. c) Sai: môi trường giới hạn → tăng trưởng thực tế (đường cong hình chữ S). d) Sai: $1040 \\cdot 1{,}04 = 1081{,}6 < 1100$."
+  },
+  {
+   "qtype": "tf",
+   "topic": "Hô hấp tế bào (lớp 10)",
+   "level": 2,
+   "stem": "Thí nghiệm: Bình A chứa 50 g hạt đậu đang nảy mầm, bình B chứa 50 g hạt đậu khô, cả hai bình được đậy kín và để trong tối 2 giờ. Sau đó dẫn khí trong mỗi bình qua ống nghiệm chứa nước vôi trong, rồi đưa que diêm đang cháy vào mỗi bình.",
+   "statements": [
+    {
+     "t": "Nước vôi trong ở ống nghiệm nối với bình A bị vẩn đục rõ hơn so với bình B.",
+     "a": true
+    },
+    {
+     "t": "Que diêm đang cháy đưa vào bình A bị tắt nhanh hơn so với bình B.",
+     "a": true
+    },
+    {
+     "t": "Nếu thay hạt nảy mầm ở bình A bằng hạt nảy mầm đã luộc chín thì nước vôi trong bị vẩn đục nhanh hơn.",
+     "a": false
+    },
+    {
+     "t": "Thí nghiệm chứng minh hạt nảy mầm hô hấp thải khí O₂ và hấp thụ khí CO₂.",
+     "a": false
+    }
+   ],
+   "explanation": "a) Đúng: hạt nảy mầm hô hấp mạnh, thải nhiều CO₂ làm nước vôi vẩn đục. b) Đúng: O₂ trong bình A bị tiêu thụ nhiều. c) Sai: hạt luộc chín đã chết, không hô hấp. d) Sai: hô hấp hấp thụ O₂ và thải CO₂."
+  },
+  {
+   "qtype": "short",
+   "topic": "Gene – cấu trúc",
+   "level": 2,
+   "stem": "Một gene ở sinh vật nhân sơ có tổng số 3 000 nucleotide, trong đó số nucleotide loại A chiếm 20%. Số liên kết hydrogen của gene là bao nhiêu?",
+   "answer_text": "3900",
+   "explanation": "$A = T = 600$; $G = C = 1500 - 600 = 900$ → $H = 2A + 3G = 1200 + 2700 = 3900$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Dịch mã",
+   "level": 3,
+   "stem": "Vùng mã hóa trên một phân tử mRNA của vi khuẩn gồm 1 500 nucleotide, tính từ codon mở đầu đến hết codon kết thúc. Khi dịch mã, chuỗi polypeptide hoàn chỉnh (sau khi amino acid mở đầu bị cắt bỏ) gồm bao nhiêu amino acid?",
+   "answer_text": "498",
+   "explanation": "Số codon = 1500 : 3 = 500, trong đó codon kết thúc không mã hóa amino acid → chuỗi vừa tổng hợp có 499 amino acid; cắt amino acid mở đầu → 498."
+  },
+  {
+   "qtype": "short",
+   "topic": "Di truyền quần thể – tự thụ phấn",
+   "level": 3,
+   "stem": "Một quần thể thực vật có cấu trúc di truyền ở thế hệ xuất phát: 0,25 AA : 0,50 Aa : 0,25 aa. Quần thể tự thụ phấn bắt buộc qua 3 thế hệ. Tần số kiểu gene Aa ở thế hệ thứ 3 là bao nhiêu? (Viết dạng số thập phân.)",
+   "answer_text": "0,0625",
+   "explanation": "Mỗi thế hệ tự thụ phấn, tần số Aa giảm một nửa → $0{,}5 \\cdot \\left(\\dfrac{1}{2}\\right)^3 = 0{,}0625$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Quy luật di truyền – xác suất",
+   "level": 3,
+   "stem": "Mỗi gene quy định một tính trạng, allele trội là trội hoàn toàn, các gene phân li độc lập. Phép lai P: AaBbDdEe × AaBbDdEe. Theo lí thuyết, ở đời con, kiểu hình mang đúng 2 tính trạng trội và 2 tính trạng lặn chiếm tỉ lệ bao nhiêu? (Làm tròn đến hàng phần trăm.)",
+   "answer_text": "0,21",
+   "explanation": "Mỗi cặp: 3/4 trội, 1/4 lặn. Tỉ lệ $= C_4^2 \\cdot \\left(\\dfrac{3}{4}\\right)^2 \\cdot \\left(\\dfrac{1}{4}\\right)^2 = \\dfrac{54}{256} = \\dfrac{27}{128} \\approx 0{,}21$."
+  },
+  {
+   "qtype": "short",
+   "topic": "Đột biến số lượng NST",
+   "level": 2,
+   "stem": "Ở một loài thực vật lưỡng bội có bộ nhiễm sắc thể $2n = 24$. Theo lí thuyết, loài này có tối đa bao nhiêu dạng thể một (2n − 1) khác nhau về nhiễm sắc thể bị thiếu?",
+   "answer_text": "12",
+   "explanation": "Thể một có thể xảy ra ở mỗi cặp trong $n = 12$ cặp NST → 12 dạng."
+  },
+  {
+   "qtype": "short",
+   "topic": "Dòng năng lượng",
+   "level": 3,
+   "stem": "Cho chuỗi thức ăn: Cỏ → Châu chấu → Ếch → Rắn. Năng lượng tích lũy ở cỏ là $2 \\cdot 10^6$ kcal. Hiệu suất sinh thái của châu chấu, ếch, rắn so với bậc dinh dưỡng liền kề phía trước lần lượt là 10%, 15% và 20%. Năng lượng tích lũy ở rắn là bao nhiêu kcal?",
+   "answer_text": "6000",
+   "explanation": "$E_{\\text{rắn}} = 2 \\cdot 10^6 \\cdot 0{,}10 \\cdot 0{,}15 \\cdot 0{,}20 = 6000$ kcal."
+  }
+ ],
+ "self_check": "Kiểm bằng Python (phân số chính xác): tỉ lệ kiểu hình AaBb × aabb, (3/4)^3, X-linked, giao tử hoán vị, 2pq, hiệu suất sinh thái, NST môi trường cung cấp, mô phỏng Meselson–Stahl 3 thế hệ, xác suất phả hệ 1/6, kích thước quần thể 2 năm, liên kết H, số amino acid, Aa sau 3 thế hệ tự thụ, xác suất đúng 2 trội (liệt kê 16 tổ hợp), năng lượng bậc rắn."
+}
