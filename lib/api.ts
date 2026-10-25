@@ -52,6 +52,15 @@ export function aiErrorText(e: unknown, fallback: string) {
   const code = e instanceof ApiError ? e.code : "";
   if (code === "unauthorized") return "Đăng nhập để dùng tính năng AI.";
   if (code === "rate_limited") return "Bạn đang dùng AI quá nhanh. Đợi một chút rồi thử lại.";
-  if (code === "disabled") return "Server chưa cấu hình NavyAI API.";
+  if (code === "disabled") return "Server chưa cấu hình NavyAI API (biến NAVY_API_KEY trên Vercel).";
+  if (code === "bad_key") return "Khóa NavyAI trên server không hợp lệ hoặc hết hạn mức. Kiểm tra NAVY_API_KEY trên Vercel.";
+  if (code === "upstream_400") return "NavyAI từ chối yêu cầu (có thể tên model trong NAVY_MODEL không đúng). Kiểm tra cấu hình trên Vercel.";
+  if (code === "timeout") return "AI trả lời quá lâu. Thử lại với ít câu hơn.";
+  if (code === "bad_output" || code === "empty_output") return "AI trả về kết quả không đọc được. Bấm tạo lại nhé.";
+  if (code === "file_too_big") return "Tệp quá lớn (tối đa khoảng 3 MB). Hãy chụp/cắt phần ma trận hoặc lưu thành PDF nhỏ hơn.";
+  if (code === "file_type") return "Chưa đọc được loại tệp này. Dùng PDF, Word (.docx), ảnh, hoặc .txt/.csv.";
+  if (code === "file_read") return "Không đọc được nội dung tệp. Thử lưu lại thành PDF hoặc dán chữ vào ô bên dưới.";
+  if (code === "no_guide") return "Hãy dán nội dung hoặc chọn ít nhất một tệp.";
+  if (code === "error" || code === "upstream_error") return fallback + " (mã: " + code + ")";
   return fallback;
 }

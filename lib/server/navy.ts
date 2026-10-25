@@ -7,15 +7,33 @@ export const MODEL = process.env.NAVY_MODEL || "gpt-5";
 export const MODEL_FAST = process.env.NAVY_MODEL_FAST || MODEL;
 export const navyEnabled = () => !!KEY;
 
-type Msg = { role: "system" | "user" | "assistant"; content: string };
+type Part = { type: "text"; text: string } | { type: "image_url"; image_url: { url: string } };
+export type Msg = { role: "system" | "user" | "assistant"; content: string | Part[] };
+
+/** Model suy luận (gpt-5, o1, o3, o4…) không nhận temperature và dùng max_completion_tokens */
+const isReasoning = (m: string) => /^(gpt-5|o\d)/i.test(m);
 
 async function call(body: Record<string, unknown>, signal?: AbortSignal) {
-  const r = await fetch(BASE + "/chat/completions", {
+  const send = (b: Record<string, unknown>) => fetch(BASE + "/chat/completions", {
     method: "POST",
     headers: { Authorization: "Bearer " + KEY, "Content-Type": "application/json" },
-    body: JSON.stringify(body),
+    body: JSON.stringify(b),
     signal,
   });
+  let b = { ...body };
+  if (isReasoning(String(b.model))) { delete b.temperature; if (b.max_tokens) { b.max_completion_tokens = b.max_tokens; delete b.max_tokens; } }
+  let r = await send(b);
+  // Một số model/cổng từ chối temperature hoặc max_tokens → thử lại một lần với tham số tối giản
+  if (r.status === 400) {
+    const t = await r.text().catch(() => "");
+    if (/temperature|max_tokens|max_completion_tokens|unsupported/i.test(t)) {
+      const mt = b.max_tokens || b.max_completion_tokens; b = { ...b }; delete b.temperature; delete b.max_tokens; delete b.max_completion_tokens;
+      if (/max_tokens/i.test(t) && mt) b.max_completion_tokens = mt; else if (mt) b.max_tokens = mt;
+      r = await send(b);
+    } else {
+      const err = new Error(`NavyAI 400: ${t.slice(0, 300)}`) as Error & { status?: number }; err.status = 400; throw err;
+    }
+  }
   if (!r.ok) {
     const t = await r.text().catch(() => "");
     const err = new Error(`NavyAI ${r.status}: ${t.slice(0, 300)}`) as Error & { status?: number };
@@ -26,15 +44,19 @@ async function call(body: Record<string, unknown>, signal?: AbortSignal) {
 }
 
 export async function chatText(messages: Msg[], model = MODEL, maxTokens = 4000): Promise<string> {
-  const r = await call({ model, messages, max_tokens: maxTokens, temperature: 0.7 }, AbortSignal.timeout(120_000));
+  // Model suy luận tiêu một phần token cho phần "nghĩ" → cho thêm ngân sách để không bị cắt mất câu trả lời
+  const budget = isReasoning(model) ? Math.max(maxTokens * 4, 16000) : maxTokens;
+  const r = await call({ model, messages, max_tokens: budget, temperature: 0.7 }, AbortSignal.timeout(170_000));
   const j = await r.json();
-  return String(j?.choices?.[0]?.message?.content ?? "");
+  const out = String(j?.choices?.[0]?.message?.content ?? "");
+  if (!out.trim()) { const err = new Error("empty_output: " + JSON.stringify(j?.choices?.[0]?.finish_reason || "")) as Error & { status?: number }; err.status = 502; throw err; }
+  return out;
 }
 
 /** Gọi model và bóc JSON trong câu trả lời (chịu được ```json ... ``` hoặc chữ thừa) */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export async function chatJson(messages: Msg[], model = MODEL): Promise<any> {
-  const txt = await chatText(messages, model);
+export async function chatJson(messages: Msg[], model = MODEL, maxTokens = 4000): Promise<any> {
+  const txt = await chatText(messages, model, maxTokens);
   return extractJson(txt);
 }
 
@@ -55,7 +77,7 @@ export function extractJson(txt: string) {
 
 /** Stream văn bản thuần (SSE từ NavyAI → text stream cho trình duyệt) */
 export async function chatStream(messages: Msg[], model = MODEL_FAST): Promise<ReadableStream<Uint8Array>> {
-  const r = await call({ model, messages, max_tokens: 1200, temperature: 0.5, stream: true }, AbortSignal.timeout(90_000));
+  const r = await call({ model, messages, max_tokens: isReasoning(model) ? 8000 : 1200, temperature: 0.5, stream: true }, AbortSignal.timeout(120_000));
   const reader = r.body!.getReader();
   const dec = new TextDecoder(), enc = new TextEncoder();
   let buf = "";

@@ -27,7 +27,7 @@ export type Profile = {
 };
 export type Mistake = { box: number; due: string; wrong: number; added?: string };
 export type CT = { c: number; t: number };
-export type AiSet = { id: string; exam: string; grade: number | string; subject: string; title: string; qids: string[]; created?: string };
+export type AiSet = { id: string; exam: string; grade: number | string; subject: string; title: string; qids: string[]; created?: string; /** đề tạo từ tài liệu của người dùng */ doc?: boolean };
 
 export type AppState = {
   v: number;

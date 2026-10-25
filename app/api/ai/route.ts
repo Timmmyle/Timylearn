@@ -1,12 +1,13 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { chatJson, chatStream, MODEL, MODEL_FAST, navyEnabled } from "@/lib/server/navy";
-import { examPrompt, explainPrompt, gradePrompt, passagePrompt, SYSTEM } from "@/lib/server/prompts";
+import { customPrompt, examPrompt, explainPrompt, gradePrompt, passagePrompt, SYSTEM } from "@/lib/server/prompts";
+import { extractText, isImage, type UpFile } from "@/lib/server/extract";
 import { reviewReport } from "@/lib/server/review";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 120;
+export const maxDuration = 300;
 
 const SB_URL = process.env.NEXT_PUBLIC_SUPABASE_URL, SB_ANON = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const sb = SB_URL && SB_ANON ? createClient(SB_URL, SB_ANON, { auth: { persistSession: false } }) : null;
@@ -74,6 +75,26 @@ export async function POST(req: NextRequest) {
         if (!arr) return fail(req, "bad_output", 502);
         return cors(req, NextResponse.json({ data: arr }));
       }
+      case "custom": {
+        // Đề theo tài liệu của người dùng: chữ dán vào + tối đa 3 file (txt, md, csv, docx, pdf, ảnh)
+        const files = (Array.isArray(body.files) ? body.files : []).slice(0, 3) as UpFile[];
+        const texts: string[] = [], images: string[] = [];
+        if (typeof body.text === "string" && body.text.trim()) texts.push(body.text.slice(0, 12000));
+        for (const f of files) {
+          if (!f || typeof f.data !== "string" || typeof f.name !== "string") return fail(req, "bad_request", 400);
+          if (isImage(f)) { if (f.data.length > 4_700_000) return fail(req, "file_too_big", 413); images.push(`data:${f.type || "image/png"};base64,${f.data}`); continue; }
+          try { const t = (await extractText(f)).trim(); if (t) texts.push(`[Tệp ${String(f.name).slice(0, 80)}]\n` + t); }
+          catch (e) { return fail(req, (e as { code?: string }).code || "file_read", 400); }
+        }
+        const guide = texts.join("\n\n").slice(0, 16000);
+        if (!guide && !images.length) return fail(req, "no_guide", 400);
+        const prompt = customPrompt(body, guide);
+        const content = images.length ? [{ type: "text" as const, text: prompt }, ...images.map((url) => ({ type: "image_url" as const, image_url: { url } }))] : prompt;
+        const data = await chatJson([sys, { role: "user", content }], MODEL, 8000);
+        const arr = Array.isArray(data) ? data : Array.isArray(data?.questions) ? data.questions : null;
+        if (!arr || !arr.length) return fail(req, "bad_output", 502);
+        return cors(req, NextResponse.json({ data: { title: typeof data?.title === "string" ? data.title.slice(0, 80) : "", questions: arr } }));
+      }
       case "grade": {
         const data = await chatJson([sys, { role: "user", content: gradePrompt(body) }], MODEL);
         return cors(req, NextResponse.json({ data }));
@@ -94,7 +115,13 @@ export async function POST(req: NextRequest) {
     }
   } catch (e) {
     console.error("[api/ai]", (e as Error).message);
-    const st = (e as { status?: number }).status;
-    return fail(req, st === 429 ? "rate_limited" : "upstream_error", st === 429 ? 429 : 502);
+    const st = (e as { status?: number }).status, msg = (e as Error).message || "";
+    if (st === 429) return fail(req, "rate_limited", 429);
+    if (/no_json|Unexpected token|JSON/.test(msg)) return fail(req, "bad_output", 502);
+    if (/empty_output/.test(msg)) return fail(req, "empty_output", 502);
+    if (/TimeoutError|aborted|timeout/i.test(msg) || (e as Error).name === "TimeoutError") return fail(req, "timeout", 504);
+    if (st === 401 || st === 403) return fail(req, "bad_key", 502);
+    if (st === 400) return fail(req, "upstream_400", 502);
+    return fail(req, "upstream_error", 502);
   }
 }

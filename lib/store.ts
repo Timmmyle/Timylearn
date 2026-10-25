@@ -13,7 +13,7 @@ import { rewardSession } from "./game";
 export type UIState = {
   ob: number; learnSub: string | null; learnScope: string;
   ef: { exam: string; grade: string; subject: string } | null;
-  ai: { exam: string | null; subject: string | null; grade: number | null; level: number; n: number; busy: boolean; err: string };
+  ai: { exam: string | null; subject: string | null; grade: number | null; level: number; n: number; busy: boolean; err: string; mode: "exam" | "doc"; newId: string | null };
   fightSub: string; bot: number; progRange: number; toolTab: string; ptSel: number | null; fq: string; unitCat: string; molMode: string;
   wBusy: boolean; wErr: string; examTab: "bank" | "mine" | null;
 };
@@ -36,7 +36,7 @@ type Store = {
 
 const initialUI = (): UIState => ({
   ob: 0, learnSub: null, learnScope: "route", ef: null,
-  ai: { exam: null, subject: null, grade: null, level: 2, n: 10, busy: false, err: "" },
+  ai: { exam: null, subject: null, grade: null, level: 2, n: 10, busy: false, err: "", mode: "exam", newId: null },
   fightSub: "Lộ trình", bot: 1, progRange: 7, toolTab: "cong-thuc", ptSel: null, fq: "", unitCat: "Chiều dài", molMode: "m",
   wBusy: false, wErr: "", examTab: null,
 });
