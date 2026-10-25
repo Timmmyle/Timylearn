@@ -1,7 +1,8 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { chatJson, chatStream, MODEL, MODEL_FAST, navyEnabled } from "@/lib/server/navy";
-import { customPrompt, examPrompt, explainPrompt, gradePrompt, passagePrompt, SYSTEM } from "@/lib/server/prompts";
+import { customPrompt, examPrompt, explainPrompt, gradePrompt, passagePrompt, quizMakePrompt, specPrompt, SYSTEM, vanCheckPrompt, vanMakePrompt, vanOriginalPrompt } from "@/lib/server/prompts";
+import { pickPassage } from "@/lib/server/vanPick";
 import { extractText, isImage, type UpFile } from "@/lib/server/extract";
 import { reviewReport } from "@/lib/server/review";
 
@@ -36,6 +37,25 @@ function limited(key: string) {
   if (arr.length >= LIMIT) { hits.set(key, arr); return true; }
   arr.push(now); hits.set(key, arr); return false;
 }
+
+/** Gom chữ + ảnh từ phần dán và tối đa 3 tệp người dùng tải lên */
+async function gather(body: Record<string, unknown>): Promise<{ guide: string; images: string[] } | { error: string; status: number }> {
+  const files = (Array.isArray(body.files) ? body.files : []).slice(0, 3) as UpFile[];
+  const texts: string[] = [], images: string[] = [];
+  if (typeof body.text === "string" && body.text.trim()) texts.push(body.text.slice(0, 12000));
+  for (const f of files) {
+    if (!f || typeof f.data !== "string" || typeof f.name !== "string") return { error: "bad_request", status: 400 };
+    if (isImage(f)) { if (f.data.length > 4_700_000) return { error: "file_too_big", status: 413 }; images.push(`data:${f.type || "image/png"};base64,${f.data}`); continue; }
+    try { const t = (await extractText(f)).trim(); if (t) texts.push(`[Tệp ${String(f.name).slice(0, 80)}]\n` + t); }
+    catch (e) { return { error: (e as { code?: string }).code || "file_read", status: 400 }; }
+  }
+  const guide = texts.join("\n\n").slice(0, 16000);
+  if (!guide && !images.length) return { error: "no_guide", status: 400 };
+  return { guide, images };
+}
+const withImages = (prompt: string, images: string[]) => (images.length ? [{ type: "text" as const, text: prompt }, ...images.map((url) => ({ type: "image_url" as const, image_url: { url } }))] : prompt);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const asObj = (x: unknown): any => (x && typeof x === "object" && !Array.isArray(x) ? x : null);
 
 export async function OPTIONS(req: NextRequest) {
   return cors(req, new Response(null, { status: 204 }));
@@ -94,6 +114,42 @@ export async function POST(req: NextRequest) {
         const arr = Array.isArray(data) ? data : Array.isArray(data?.questions) ? data.questions : null;
         if (!arr || !arr.length) return fail(req, "bad_output", 502);
         return cors(req, NextResponse.json({ data: { title: typeof data?.title === "string" ? data.title.slice(0, 80) : "", questions: arr } }));
+      }
+      case "spec": {
+        // B1: đọc ma trận / đặc tả / dàn ý → phiếu đặc tả
+        const g = await gather(body); if ("error" in g) return fail(req, g.error, g.status);
+        const spec = asObj(await chatJson([sys, { role: "user", content: withImages(specPrompt(body, g.guide), g.images) }], MODEL, 6000));
+        if (!spec || !(spec.kind === "van" ? asObj(spec.van)?.reading : asObj(spec.quiz)?.sections)) return fail(req, "bad_output", 502);
+        return cors(req, NextResponse.json({ data: spec }));
+      }
+      case "van_make": {
+        // B2 (Văn): chọn ngữ liệu đúng thể loại rồi soạn đề + hướng dẫn chấm
+        const spec = asObj(body.spec); if (!spec || !asObj(spec.van)) return fail(req, "bad_request", 400);
+        let passage = pickPassage(spec);
+        if (!passage) {
+          const o = asObj(await chatJson([sys, { role: "user", content: vanOriginalPrompt(spec) }], MODEL, 3000));
+          if (!o || typeof o.text !== "string" || o.text.length < 150) return fail(req, "bad_output", 502);
+          passage = { text: o.text, title: String(o.title || ""), author: "", src: "(Văn bản do AI viết làm ngữ liệu, không phải tác phẩm có thật)", mine: true, genre: String(spec.van.genre || "") };
+        }
+        const exam = asObj(await chatJson([sys, { role: "user", content: vanMakePrompt(spec, passage) }], MODEL, 9000));
+        if (!exam || !Array.isArray(exam.questions) || !exam.questions.length) return fail(req, "bad_output", 502);
+        return cors(req, NextResponse.json({ data: { exam, passage } }));
+      }
+      case "van_check": {
+        // B3 (Văn): phản biện đề với phiếu đặc tả, sửa chỗ lệch
+        const spec = asObj(body.spec), exam = asObj(body.exam); if (!spec || !exam || typeof body.passage !== "string") return fail(req, "bad_request", 400);
+        const fixed = asObj(await chatJson([sys, { role: "user", content: vanCheckPrompt(spec, exam, body.passage) }], MODEL, 9000));
+        if (!fixed || !Array.isArray(fixed.questions) || !fixed.questions.length) return fail(req, "bad_output", 502);
+        return cors(req, NextResponse.json({ data: fixed }));
+      }
+      case "quiz_make": {
+        // B2 (môn khác): soạn câu hỏi theo một nhóm dòng ma trận (client chia nhóm để mỗi lần ≤ 14 câu)
+        const spec = asObj(body.spec), sections = Array.isArray(body.sections) ? body.sections.slice(0, 8) : null;
+        if (!spec || !sections || !sections.length) return fail(req, "bad_request", 400);
+        const data = await chatJson([sys, { role: "user", content: quizMakePrompt(spec, sections) }], MODEL, 9000);
+        const arr = Array.isArray(data) ? data : Array.isArray(data?.questions) ? data.questions : null;
+        if (!arr || !arr.length) return fail(req, "bad_output", 502);
+        return cors(req, NextResponse.json({ data: arr }));
       }
       case "grade": {
         const data = await chatJson([sys, { role: "user", content: gradePrompt(body) }], MODEL);

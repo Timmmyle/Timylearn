@@ -13,7 +13,7 @@ import { examSeason } from "@/lib/logic";
 import { startWrite } from "../WritePanel";
 import GenPanel from "../GenPanel";
 import DgnlPanel from "../DgnlPanel";
-import type { AiSet, AppState, Question } from "@/lib/types";
+import type { AiSet, AppState, Question, WritePassage } from "@/lib/types";
 
 type ExamSet = { id: string; exam: string; grade: number | string; subject: string; title: string; qids: string[]; ai?: boolean };
 
@@ -59,7 +59,7 @@ function aiScope(S: AppState, a: AiUI) {
 }
 
 /** Lưu đề AI vào máy, đánh dấu "mới" và mở bài làm ngay */
-function saveAndOpen(set: AiSet, newQ: Record<string, Question>) {
+function saveAndOpen(set: AiSet, newQ: Record<string, Question>, minutes?: number) {
   const { update, setUI } = useApp.getState();
   update((S) => {
     Object.assign(S.aiQ, newQ); S.aiSets.unshift(set);
@@ -67,7 +67,7 @@ function saveAndOpen(set: AiSet, newQ: Record<string, Question>) {
   });
   setUI((u) => { u.ai.newId = set.id; });
   toast("Đã tạo đề " + set.qids.length + " câu, vào làm ngay");
-  startSession("exam", set.qids, set.title, { keepOrder: true, durationMin: Math.max(10, Math.ceil(set.qids.length * 1.8)) });
+  startSession("exam", set.qids, set.title, { keepOrder: true, durationMin: +minutes! > 0 ? Math.min(180, +minutes!) : Math.max(10, Math.ceil(set.qids.length * 1.8)) });
 }
 
 type RawQ = { type?: string; topic?: string; level?: number; q?: string; o?: unknown[]; a?: number; st?: { t?: unknown; a?: unknown }[]; sa?: unknown; e?: unknown };
@@ -92,23 +92,78 @@ function toQuestion(x: RawQ, id: string, subject: string, lvDefault: number): Qu
   return { ...base, o: x.o.map(String), a: x.a! };
 }
 
-/** Đề theo tài liệu người dùng tải lên (ma trận, dàn ý, dạng câu, đề mẫu) */
+/** Đề theo tài liệu người dùng tải lên (ma trận, đặc tả, dàn ý, dạng câu, đề mẫu).
+   Quy trình như giáo viên ra đề: B1 lập phiếu đặc tả → B2 soạn đề đúng phiếu → B3 (Văn) phản biện, sửa chỗ lệch → vào làm ngay. */
 export type DocFile = { name: string; type: string; data: string; size: number };
+type Spec = {
+  subject?: string; grade?: number; exam_label?: string; minutes?: number; kind: "van" | "quiz"; summary?: string;
+  van?: { genre?: string; genre_label?: string; reading?: { form: string; level: number; skill: string; points: number }[]; writing?: { form: string; type: string; words: number; points: number; focus: string }[] };
+  quiz?: { sections: { topic: string; need?: string; mcq?: number[]; tf?: number; short?: number }[] };
+};
+type VanQ = { q?: string; type?: string; points?: unknown[]; model?: string };
+const stripNo = (q: string) => String(q).replace(/^\s*Câu\s*\d+\s*[.:]?\s*/i, "").replace(/^(\([^)]*điểm\))\s*[.:]\s*/, "$1 ");
+const step = (t: string) => useApp.getState().setUI((u) => { u.ai.step = t; });
+const secCount = (x: { mcq?: number[]; tf?: number; short?: number }) => (x.mcq || []).reduce((a, b) => a + (+b || 0), 0) + (+x.tf! || 0) + (+x.short! || 0);
+
 async function aiFromDoc(o: { text: string; files: DocFile[]; subject: string; grade: number; n: number; types: string[]; note: string }) {
-  const { setUI, S } = useApp.getState();
-  setUI((u) => { u.ai.busy = true; u.ai.err = ""; });
+  const { setUI, S, update } = useApp.getState();
+  setUI((u) => { u.ai.busy = true; u.ai.err = ""; u.ai.step = ""; });
   try {
-    const out = await aiJson<{ title: string; questions: RawQ[] }>("custom", { text: o.text, files: o.files.map(({ name, type, data }) => ({ name, type, data })), subject: o.subject, grade: o.grade, n: o.n, types: o.types, note: o.note });
-    const setId = "ai-" + Date.now(), qids: string[] = [], newQ: Record<string, Question> = {};
-    const subject = o.subject || "Tổng hợp";
-    (out?.questions || []).forEach((x, i) => { const q = toQuestion(x, setId + "-" + i, subject, 2); if (q) { newQ[q.id] = q; qids.push(q.id); } });
-    if (!qids.length) throw new Error("empty");
-    const title = "Đề AI theo tài liệu: " + (out.title || [o.subject, o.files[0]?.name].filter(Boolean).join(" – ") || "đề của bạn");
-    saveAndOpen({ id: setId, exam: "*", grade: o.grade || gradeNum(S), subject, title: title.slice(0, 110), qids, created: today(), doc: true }, newQ);
+    step("Bước 1/3: AI đang đọc tài liệu và lập phiếu đặc tả đề…");
+    const spec = await aiJson<Spec>("spec", { text: o.text, files: o.files.map(({ name, type, data }) => ({ name, type, data })), subject: o.subject, grade: o.grade, note: o.note });
+    const grade = +spec.grade! || o.grade, label = spec.exam_label || "Đề kiểm tra";
+
+    if (spec.kind === "van" && spec.van) {
+      step(`Bước 2/3: Đã nhận ra thể loại “${spec.van.genre_label || spec.van.genre}”. Đang chọn văn bản và soạn đề…`);
+      const made = await aiJson<{ exam: { title?: string; questions: VanQ[]; essays?: VanQ[] }; passage: { text: string; src: string; title: string; author: string; mine: boolean } }>("van_make", { spec });
+      let exam = made.exam;
+      step("Bước 3/3: Đang kiểm tra đề với phiếu đặc tả (đủ câu, đúng mức độ, tổng 10 điểm)…");
+      try { exam = await aiJson("van_check", { spec, exam, passage: made.passage.text }); } catch { /* giữ bản chưa phản biện */ }
+      const qs = [...(exam.questions || []), ...(exam.essays || []).map((x) => ({ ...x, type: "viet" }))]
+        .filter((x) => x && x.q && Array.isArray(x.points) && x.model)
+        .map((x) => ({ q: stripNo(String(x.q)), type: ["nhanbiet", "tutu", "noidung", "quandiem", "viet"].includes(String(x.type)) ? String(x.type) : "noidung", points: (x.points as unknown[]).map(String), model: String(x.model) }));
+      if (!qs.length) throw new Error("empty");
+      const P: WritePassage = {
+        id: "aw-" + Date.now(), ai: true, doc: true, created: today(),
+        title: (exam.title || `${label} – Ngữ văn ${grade}`).slice(0, 110),
+        passage: made.passage.text, src: made.passage.src + (made.passage.mine ? "" : ""), qs,
+        note: spec.summary ? String(spec.summary).slice(0, 400) : undefined,
+      };
+      update((S) => { S.aiWrite = S.aiWrite || []; S.aiWrite.unshift(P); if (S.aiWrite.length > 8) S.aiWrite.length = 8; });
+      setUI((u) => { u.ai.newId = P.id; });
+      toast("Đã tạo đề Ngữ văn, vào làm ngay");
+      startWrite(P.id, 0);
+    } else {
+      const secs = (spec.quiz?.sections || []).filter((x) => secCount(x) > 0);
+      if (!secs.length) throw new Error("empty");
+      // chia nhóm dòng ma trận, mỗi lần AI soạn ≤ 14 câu; chạy song song tối đa 3 nhóm
+      const groups: (typeof secs)[] = []; let cur: typeof secs = [], cnt = 0;
+      for (const x of secs) { const c = secCount(x); if (cur.length && cnt + c > 14) { groups.push(cur); cur = []; cnt = 0; } cur.push(x); cnt += c; }
+      if (cur.length) groups.push(cur);
+      const total = secs.reduce((a, x) => a + secCount(x), 0);
+      step(`Bước 2/3: Phiếu đặc tả có ${secs.length} chủ đề, ${total} câu. Đang soạn câu hỏi theo ma trận…`);
+      const results: RawQ[][] = new Array(groups.length);
+      let done = 0;
+      for (let i = 0; i < groups.length; i += 3) {
+        await Promise.all(groups.slice(i, i + 3).map(async (g, k) => {
+          try { results[i + k] = await aiJson<RawQ[]>("quiz_make", { spec, sections: g }); } catch (e) { if (groups.length === 1) throw e; results[i + k] = []; }
+          done++; step(`Bước 2/3: Đã soạn ${done}/${groups.length} nhóm chủ đề…`);
+        }));
+      }
+      step("Bước 3/3: Đang kiểm tra định dạng từng câu…");
+      const setId = "ai-" + Date.now(), qids: string[] = [], newQ: Record<string, Question> = {};
+      const subject = spec.subject || o.subject || "Tổng hợp";
+      const order = { mcq: 0, tf: 1, short: 2 } as Record<string, number>;
+      const all = results.flat().map((x, i) => toQuestion(x, setId + "-" + i, subject, 2)).filter(Boolean) as Question[];
+      all.sort((a, b) => order[a.qt || "mcq"] - order[b.qt || "mcq"]);
+      all.forEach((q) => { newQ[q.id] = q; qids.push(q.id); });
+      if (!qids.length) throw new Error("empty");
+      saveAndOpen({ id: setId, exam: "*", grade, subject, title: `${label} – ${subject} ${grade} (AI theo tài liệu)`.slice(0, 110), qids, created: today(), doc: true }, newQ, spec.minutes);
+    }
   } catch (err) {
-    setUI((u) => { u.ai.err = aiErrorText(err, "Chưa tạo được đề. Thử lại, giảm số câu hoặc dùng tệp ngắn hơn."); });
+    setUI((u) => { u.ai.err = aiErrorText(err, "Chưa tạo được đề. Thử lại, hoặc dán phần ma trận/dàn ý ngắn gọn hơn."); });
   }
-  setUI((u) => { u.ai.busy = false; });
+  setUI((u) => { u.ai.busy = false; u.ai.step = ""; });
 }
 
 async function aiGenerate(a: AiUI) {
@@ -206,8 +261,6 @@ function AiDoc() {
   const [fErr, setFErr] = useState("");
   const [subject, setSubject] = useState(S.profile.subjects[0] || "Toán");
   const [grade, setGrade] = useState(gradeNum(S));
-  const [n, setN] = useState(15);
-  const [types, setTypes] = useState<string[]>(["mcq", "tf", "short"]);
   const [note, setNote] = useState("");
   const [drag, setDrag] = useState(false);
 
@@ -224,12 +277,12 @@ function AiDoc() {
     }
     setFiles(next);
   };
-  const toggle = (t: string) => setTypes((x) => (x.includes(t) ? (x.length > 1 ? x.filter((y) => y !== t) : x) : [...x, t]));
   const ready = (text.trim().length >= 10 || files.length > 0) && !uiAi.busy;
 
   return (
     <>
-      <p className="small muted">Tải lên <b>ma trận / đặc tả đề</b>, <b>bảng tóm tắt dạng câu hỏi</b>, <b>dàn ý</b> hoặc <b>đề mẫu</b> (PDF, Word, ảnh chụp, .txt). AI đọc tài liệu rồi soạn đề mới đúng dạng, đúng tỉ lệ mức độ, đổi số liệu. Xong là vào làm bài ngay.</p>
+      <p className="small muted">Tải lên <b>ma trận / đặc tả đề</b>, <b>đề cương</b>, <b>bảng dạng câu hỏi</b>, <b>dàn ý</b> hoặc <b>đề mẫu</b> (PDF, Word, ảnh chụp, .txt). AI làm như giáo viên ra đề: lập phiếu đặc tả (số câu, mức độ, điểm), rồi soạn đề mới đúng phiếu và tự kiểm tra lại. Xong là vào làm bài ngay.</p>
+      <p className="small muted !mt-[-4px]"><b>Ngữ văn:</b> AI nhận ra thể loại (thơ, truyện, nghị luận, văn bản thông tin, kịch, kí…) từ cách hỏi và dàn ý, chọn văn bản đọc hiểu cùng thể loại, ra đủ Đọc hiểu + Viết (đoạn văn, bài văn) kèm hướng dẫn chấm; bài viết được AI chấm theo biểu điểm.</p>
       <label
         className={`block cursor-pointer rounded-[var(--r)] border-2 border-dashed px-4 py-5 text-center ${drag ? "border-accent bg-accent-soft" : "border-line"}`}
         onDragOver={(e) => { e.preventDefault(); setDrag(true); }} onDragLeave={() => setDrag(false)}
@@ -266,15 +319,12 @@ function AiDoc() {
           </select>
         </div>
       </div>
-      <label className="flabel">Dạng câu</label>
-      <div className="seg">{([["mcq", "Trắc nghiệm"], ["tf", "Đúng/Sai"], ["short", "Trả lời ngắn"]] as const).map(([k, l]) => <button key={k} aria-pressed={types.includes(k)} onClick={() => toggle(k)}>{l}</button>)}</div>
-      <label className="flabel">Số câu (nếu tài liệu ghi số câu thì AI theo tài liệu, tối đa 30)</label>
-      <div className="seg">{[10, 15, 20, 30].map((k) => <button key={k} aria-pressed={n === k} onClick={() => setN(k)}>{k} câu</button>)}</div>
       <label className="flabel" htmlFor="ai-doc-note">Yêu cầu thêm (không bắt buộc)</label>
-      <input id="ai-doc-note" className="field" maxLength={300} value={note} onChange={(e) => setNote(e.target.value)} placeholder="Ví dụ: tập trung câu vận dụng, có bài toán thực tế" />
-      <button className="btn mt-3 w-full" disabled={!ready} onClick={() => aiFromDoc({ text, files, subject, grade, n, types, note })}>
-        {uiAi.busy ? "AI đang đọc tài liệu và soạn đề, khoảng 1–2 phút…" : "Tạo đề và làm ngay"}
+      <input id="ai-doc-note" className="field" maxLength={300} value={note} onChange={(e) => setNote(e.target.value)} placeholder="Ví dụ: đề giữa kì 2; đọc hiểu là thơ; câu nghị luận về lòng biết ơn" />
+      <button className="btn mt-3 w-full" disabled={!ready} onClick={() => aiFromDoc({ text, files, subject, grade, n: 0, types: [], note })}>
+        {uiAi.busy ? "Đang tạo đề…" : "Tạo đề và làm ngay"}
       </button>
+      {uiAi.busy && <p className="small !mb-0 mt-2" role="status">{uiAi.step || "Đang gửi tài liệu…"} <span className="muted">(cả quá trình khoảng 1–3 phút, đừng tắt trang)</span></p>}
       {uiAi.err && <p className="small !mb-0 mt-2.5 text-bad">{uiAi.err}</p>}
       <p className="small muted !mb-0 mt-2">Tài liệu chỉ dùng để soạn đề lần này, không lưu trên máy chủ. Câu AI soạn có thể sai, hãy dùng nút “Báo đáp án sai” nếu thấy nghi ngờ.</p>
     </>
@@ -287,26 +337,42 @@ function AiMine() {
   const newId = useApp((s) => s.ui.ai.newId);
   const update = useApp((s) => s.update);
   const setUI = useApp((s) => s.setUI);
-  if (!S.aiSets.length) return null;
-  const open = (a: AiSet) => { setUI((u) => { u.ai.newId = null; }); startSession("exam", a.qids, a.title, { keepOrder: true, durationMin: Math.max(10, Math.ceil(a.qids.length * 1.8)) }); };
+  type Row = { id: string; title: string; n: number; created?: string; tag: string; note?: string; open: () => void; del: () => void };
+  const rows: Row[] = [
+    ...(S.aiWrite || []).filter((P) => P.doc).map((P): Row => ({
+      id: P.id, title: P.title, n: P.qs.length, created: P.created, tag: "AI · Văn", note: P.note,
+      open: () => startWrite(P.id, 0),
+      del: () => update((S) => { S.aiWrite = (S.aiWrite || []).filter((x) => x.id !== P.id); }),
+    })),
+    ...S.aiSets.map((a): Row => ({
+      id: a.id, title: a.title, n: a.qids.filter((id) => getQ(S, id)).length, created: a.created, tag: a.doc ? "AI · tài liệu" : "AI",
+      open: () => startSession("exam", a.qids, a.title, { keepOrder: true, durationMin: Math.max(10, Math.ceil(a.qids.length * 1.8)) }),
+      del: () => update((S) => { const i = S.aiSets.findIndex((y) => y.id === a.id); if (i >= 0) { S.aiSets[i].qids.forEach((id) => { if (!S.mistakes[id]) delete S.aiQ[id]; }); S.aiSets.splice(i, 1); } }),
+    })),
+  ].sort((x, y) => (y.id.replace(/\D/g, "") > x.id.replace(/\D/g, "") ? 1 : -1));
+  if (!rows.length) return null;
   return (
     <>
       <h2>Đề AI của bạn</h2>
       <div className="grid gap-x-3 lg:grid-cols-2">
-        {S.aiSets.map((a) => {
-          const n = a.qids.filter((id) => getQ(S, id)).length, isNew = a.id === newId;
+        {rows.map((r) => {
+          const isNew = r.id === newId;
           return (
-            <div className={`panel flex flex-col ${isNew ? "!border-accent ring-4 ring-accent/40" : ""}`} key={a.id} ref={isNew ? (el) => { if (el) el.scrollIntoView({ block: "center", behavior: "smooth" }); } : undefined}>
+            <div className={`panel flex flex-col ${isNew ? "!border-accent ring-4 ring-accent/40" : ""}`} key={r.id} ref={isNew ? (el) => { if (el) el.scrollIntoView({ block: "center", behavior: "smooth" }); } : undefined}>
               <div className="flex flex-1 items-start gap-2.5">
-                <div className="flex-1"><h3>{a.title}</h3><p className="small muted !m-0">{n} câu{a.created ? " · tạo " + a.created.split("-").reverse().join("/") : ""}</p></div>
+                <div className="flex-1">
+                  <h3>{r.title}</h3>
+                  <p className="small muted !m-0">{r.n} câu{r.created ? " · tạo " + r.created.split("-").reverse().join("/") : ""}</p>
+                  {r.note && <details className="small mt-1"><summary className="cursor-pointer underline underline-offset-4">AI hiểu đề của bạn thế nào</summary><p className="!mb-0 mt-1">{r.note}</p></details>}
+                </div>
                 <div className="flex flex-col items-end gap-1">
                   {isNew && <span className="tag tag-l3">Mới</span>}
-                  <span className="tag tag-ai">{a.doc ? "AI · tài liệu" : "AI"}</span>
+                  <span className="tag tag-ai">{r.tag}</span>
                 </div>
               </div>
               <div className="mt-2.5 flex gap-2.5">
-                <button className="btn flex-1" onClick={() => open(a)}>{isNew ? "Làm đề vừa tạo" : "Làm bài"}</button>
-                <button className="btn btn-line" aria-label="Xóa đề" onClick={() => update((S) => { const i = S.aiSets.findIndex((y) => y.id === a.id); if (i >= 0) { S.aiSets[i].qids.forEach((id) => { if (!S.mistakes[id]) delete S.aiQ[id]; }); S.aiSets.splice(i, 1); } })}>Xóa</button>
+                <button className="btn flex-1" onClick={() => { setUI((u) => { u.ai.newId = null; }); r.open(); }}>{isNew ? "Làm đề vừa tạo" : "Làm bài"}</button>
+                <button className="btn btn-line" aria-label="Xóa đề" onClick={r.del}>Xóa</button>
               </div>
             </div>
           );

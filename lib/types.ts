@@ -19,7 +19,7 @@ export type Exam = {
 };
 export type Bot = { n: string; acc: number; min: number; max: number; r: number };
 export type WriteQ = { q: string; type: string; points: string[]; model: string };
-export type WritePassage = { id: string; title: string; src: string; passage: string; qs: WriteQ[]; ai?: boolean; remote?: boolean; /** đề ôn giữa/cuối kì */ hk?: boolean };
+export type WritePassage = { id: string; title: string; src: string; passage: string; qs: WriteQ[]; ai?: boolean; remote?: boolean; /** đề ôn giữa/cuối kì */ hk?: boolean; /** đề AI tạo từ tài liệu */ doc?: boolean; created?: string; /** AI hiểu đề thế nào */ note?: string };
 
 export type Profile = {
   grade: string; exams: string[]; examOther: string; subjects: string[]; subjectOther: string;
